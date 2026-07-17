@@ -3,7 +3,7 @@ Yêu cầu:
 
 1. Với mỗi từ, hãy trình bày: nghĩa, cách phát âm (mô tả bằng lời), 
    loại từ (danh từ/động từ/tính từ...), và ít nhất 1 câu ví dụ thực tế.
-2. Hai người dẫn chương trình nên đối thoại tự nhiên, đưa ra ví dụ minh 
+2. Hai người dẫn chương trình nên đối thoại tự nhiên, đưa ra ví dụ minh x
    họa trong đời sống hàng ngày, tình huống công việc, hoặc hội thoại 
    thường gặp để người nghe dễ liên tưởng và ghi nhớ.
 3. Sau mỗi 4-5 từ, hãy tóm tắt nhanh lại các từ đã học để củng cố trí nhớ.
