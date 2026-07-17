@@ -1,0 +1,49 @@
+# ============================================================
+# Cấu hình tool mặc định do mise quản lý
+#
+# Cài tất cả:
+#   mise install
+#
+# Nâng cấp:
+#   mise upgrade
+#
+# Liệt kê:
+#   mise ls
+# ============================================================
+
+[tools]
+
+# Node.js LTS.
+# npm và npx đã được cài kèm Node.js nên không cần cài riêng.
+node = "lts"
+
+# Eclipse Temurin JDK 21 LTS.
+# Chỉ định rõ vendor để tiếp tục nhận các bản vá bảo mật.
+java = "temurin-21"
+
+# Apache Maven - build tool cho dự án Java.
+maven = "latest"
+
+# Gradle - build tool cho Java, Kotlin và Android.
+gradle = "latest"
+
+# Python 3.13 - lựa chọn tương thích tương đối tốt
+# với thư viện automation và testing.
+python = "3.13"
+
+# Ruby - dùng nhánh 3.4 thay vì tự động nhảy major version.
+ruby = "3.4"
+
+# Deno - JavaScript/TypeScript runtime.
+deno = "latest"
+
+# Flutter SDK.
+# Flutter đã bao gồm Dart SDK nên không cần cài Dart riêng.
+flutter = "latest"
+
+# Android SDK command-line tools.
+android-sdk = "latest"
+
+# Appium được cài từ npm nhưng được mise quản lý
+# như một tool độc lập.
+"npm:appium" = "latest"
