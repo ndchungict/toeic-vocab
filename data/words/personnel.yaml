@@ -1,0 +1,991 @@
+- word: "recruit"
+  pos: "verb"
+  ipa: "/rɪˈkruːt/"
+  meaning: "tuyển dụng"
+  topic: "personnel"
+  sub-topic: "recruitment-application"
+  lesson: ["lesson-03"]
+  level: 600
+  forms:
+    verb: "recruit"
+    noun: ["recruitment", "recruiter"]
+  collocations:
+    - en: "recruit new staff"
+      vi: "tuyển nhân viên mới"
+    - en: "a recruitment drive"
+      vi: "một đợt tuyển dụng"
+  example:
+    en: "The company had to {recruit} ten new engineers for the project."
+    vi: "Công ty phải tuyển mười kỹ sư mới cho dự án."
+
+- word: "vacancy"
+  pos: "noun"
+  ipa: "/ˈveɪkənsi/"
+  meaning: "vị trí đang tuyển; chỗ còn trống"
+  topic: "personnel"
+  sub-topic: "recruitment-application"
+  lesson: ["lesson-03"]
+  level: 750
+  forms:
+    noun: "vacancy"
+    adjective: "vacant"
+  collocations:
+    - en: "fill a vacancy"
+      vi: "lấp một vị trí trống"
+    - en: "post a job opening"
+      vi: "đăng một vị trí tuyển dụng"
+  example:
+    en: "Aster posted a job opening to fill the one {vacancy} on the team."
+    vi: "Aster đăng tin tuyển dụng để lấp vị trí trống duy nhất trong nhóm."
+  note: "'job opening' là cách nói đồng nghĩa. Đừng nhầm 'vacancy' (chỗ trống) với 'vacation' (kỳ nghỉ)."
+
+- word: "applicant"
+  pos: "noun"
+  ipa: "/ˈæplɪkənt/"
+  meaning: "người nộp đơn, ứng viên"
+  topic: "personnel"
+  sub-topic: "recruitment-application"
+  lesson: ["lesson-03"]
+  level: 600
+  forms:
+    noun: ["applicant", "application"]
+    verb: "apply"
+  collocations:
+    - en: "a qualified applicant"
+      vi: "một ứng viên đủ tiêu chuẩn"
+    - en: "screen applicants"
+      vi: "sàng lọc người nộp đơn"
+  example:
+    en: "Every {applicant} must submit a résumé and a cover letter."
+    vi: "Mỗi người nộp đơn phải nộp một sơ yếu lý lịch và một thư xin việc."
+  note: "Phân biệt 'applicant' (người nộp đơn) với 'application' (đơn/hồ sơ xin việc)."
+
+- word: "applicant pool"
+  pos: "noun"
+  ipa: "/ˈæplɪkənt puːl/"
+  meaning: "nguồn ứng viên"
+  topic: "personnel"
+  sub-topic: "recruitment-application"
+  lesson: ["lesson-03"]
+  level: 900
+  forms:
+    noun: "applicant pool"
+  collocations:
+    - en: "a large applicant pool"
+      vi: "một nguồn ứng viên đông"
+    - en: "widen the applicant pool"
+      vi: "mở rộng nguồn ứng viên"
+  example:
+    en: "This year's {applicant pool} was larger than expected."
+    vi: "Nguồn ứng viên năm nay đông hơn dự kiến."
+
+- word: "résumé"
+  pos: "noun"
+  ipa: "/ˈrezjumeɪ/"
+  meaning: "sơ yếu lý lịch (CV)"
+  topic: "personnel"
+  sub-topic: "recruitment-application"
+  lesson: ["lesson-03"]
+  level: 600
+  forms:
+    noun: "résumé"
+  collocations:
+    - en: "submit a résumé"
+      vi: "nộp sơ yếu lý lịch"
+    - en: "update your résumé"
+      vi: "cập nhật sơ yếu lý lịch"
+  example:
+    en: "Please attach your {résumé} to the online form."
+    vi: "Vui lòng đính kèm sơ yếu lý lịch của bạn vào biểu mẫu trực tuyến."
+
+- word: "cover letter"
+  pos: "noun"
+  ipa: "/ˈkʌvə letə(r)/"
+  meaning: "thư xin việc"
+  topic: "personnel"
+  sub-topic: "recruitment-application"
+  lesson: ["lesson-03"]
+  level: 600
+  forms:
+    noun: "cover letter"
+  collocations:
+    - en: "write a cover letter"
+      vi: "viết thư xin việc"
+    - en: "attach a cover letter"
+      vi: "đính kèm thư xin việc"
+  example:
+    en: "A strong {cover letter} explains why you want the job."
+    vi: "Một lá thư xin việc tốt giải thích vì sao bạn muốn có công việc đó."
+
+- word: "qualification"
+  pos: "noun"
+  ipa: "/ˌkwɒlɪfɪˈkeɪʃn/"
+  meaning: "trình độ, bằng cấp"
+  topic: "personnel"
+  sub-topic: "recruitment-application"
+  lesson: ["lesson-03"]
+  level: 600
+  forms:
+    noun: "qualification"
+    verb: "qualify"
+    adjective: "qualified"
+  collocations:
+    - en: "meet the qualifications"
+      vi: "đạt các yêu cầu về trình độ"
+    - en: "the necessary qualifications"
+      vi: "những bằng cấp cần thiết"
+  example:
+    en: "Applicants who lack the minimum {qualifications} will not be interviewed."
+    vi: "Những ứng viên không đạt trình độ tối thiểu sẽ không được phỏng vấn."
+
+- word: "credentials"
+  pos: "noun"
+  ipa: "/krəˈdenʃlz/"
+  meaning: "chứng chỉ, năng lực"
+  topic: "personnel"
+  sub-topic: "recruitment-application"
+  lesson: ["lesson-03"]
+  level: 750
+  forms:
+    noun: "credentials"
+  collocations:
+    - en: "verify sb's credentials"
+      vi: "xác minh năng lực/chứng chỉ của ai"
+    - en: "impressive credentials"
+      vi: "chứng chỉ, năng lực ấn tượng"
+  example:
+    en: "The HR team verified each finalist's {credentials}."
+    vi: "Bộ phận nhân sự đã xác minh chứng chỉ của từng ứng viên vào vòng cuối."
+  note: "Thường dùng ở dạng số nhiều: credentials."
+
+- word: "candidate"
+  pos: "noun"
+  ipa: "/ˈkændɪdət/"
+  meaning: "ứng viên"
+  topic: "personnel"
+  sub-topic: "recruitment-application"
+  lesson: ["lesson-03"]
+  level: 600
+  forms:
+    noun: "candidate"
+  collocations:
+    - en: "shortlist candidates"
+      vi: "lập danh sách rút gọn các ứng viên"
+    - en: "a strong candidate"
+      vi: "một ứng viên sáng giá"
+  example:
+    en: "Only the strongest {candidates} were invited to interview."
+    vi: "Chỉ những ứng viên xuất sắc nhất mới được mời phỏng vấn."
+
+- word: "interview"
+  pos: "noun"
+  ipa: "/ˈɪntəvjuː/"
+  meaning: "(cuộc) phỏng vấn"
+  topic: "personnel"
+  sub-topic: "recruitment-application"
+  lesson: ["lesson-03"]
+  level: 600
+  forms:
+    noun: ["interview", "interviewer", "interviewee"]
+    verb: "interview"
+  collocations:
+    - en: "a job interview"
+      vi: "một buổi phỏng vấn xin việc"
+    - en: "attend an interview"
+      vi: "tham dự một buổi phỏng vấn"
+  example:
+    en: "Ben was nervous during his first job {interview}."
+    vi: "Ben lo lắng trong buổi phỏng vấn xin việc đầu tiên của mình."
+
+- word: "reference"
+  pos: "noun"
+  ipa: "/ˈrefrəns/"
+  meaning: "người/thư giới thiệu"
+  topic: "personnel"
+  sub-topic: "recruitment-application"
+  lesson: ["lesson-03"]
+  level: 600
+  forms:
+    noun: "reference"
+    verb: "refer"
+  collocations:
+    - en: "provide references"
+      vi: "cung cấp người giới thiệu"
+    - en: "check references"
+      vi: "kiểm tra thông tin từ người giới thiệu"
+  example:
+    en: "She listed two former managers as {references}."
+    vi: "Cô ấy ghi hai quản lý cũ làm người giới thiệu."
+  note: "Trong tuyển dụng nghĩa là 'người/thư giới thiệu', không phải 'tài liệu tham khảo'."
+
+- word: "prospective"
+  pos: "adjective"
+  ipa: "/prəˈspektɪv/"
+  meaning: "tiềm năng, tương lai"
+  topic: "personnel"
+  sub-topic: "recruitment-application"
+  lesson: ["lesson-03"]
+  level: 750
+  forms:
+    adjective: "prospective"
+    noun: "prospect"
+  collocations:
+    - en: "a prospective employee"
+      vi: "một nhân viên tiềm năng"
+    - en: "a prospective client"
+      vi: "một khách hàng tiềm năng"
+  example:
+    en: "A {prospective} employee may lack experience but show potential."
+    vi: "Một nhân viên tiềm năng có thể thiếu kinh nghiệm nhưng cho thấy triển vọng."
+  note: "Phân biệt 'prospective' (tương lai, tiềm năng) với 'perspective' (góc nhìn)."
+
+- word: "hire"
+  pos: "verb"
+  ipa: "/ˈhaɪə(r)/"
+  meaning: "thuê, tuyển"
+  topic: "personnel"
+  sub-topic: "recruitment-application"
+  lesson: ["lesson-03"]
+  level: 600
+  forms:
+    verb: "hire"
+    noun: ["hire", "hiring"]
+  collocations:
+    - en: "hire a new manager"
+      vi: "tuyển một quản lý mới"
+    - en: "a hiring freeze"
+      vi: "lệnh tạm ngừng tuyển dụng"
+  example:
+    en: "Priya decided to {hire} Ben as a trainee."
+    vi: "Priya quyết định tuyển Ben làm nhân viên học việc."
+
+- word: "orientation"
+  pos: "noun"
+  ipa: "/ˌɔːriənˈteɪʃn/"
+  meaning: "buổi định hướng nhân viên mới"
+  topic: "personnel"
+  sub-topic: "training-evaluation"
+  lesson: ["lesson-03"]
+  level: 750
+  forms:
+    noun: "orientation"
+    verb: "orient"
+  collocations:
+    - en: "attend orientation"
+      vi: "tham dự buổi định hướng"
+    - en: "an orientation session"
+      vi: "một buổi định hướng"
+  example:
+    en: "New employees attend an {orientation} on their first day."
+    vi: "Nhân viên mới tham dự buổi định hướng trong ngày đầu tiên."
+
+- word: "probation"
+  pos: "noun"
+  ipa: "/prəˈbeɪʃn/"
+  meaning: "thời gian thử việc"
+  topic: "personnel"
+  sub-topic: "training-evaluation"
+  lesson: ["lesson-03"]
+  level: 750
+  forms:
+    noun: "probation"
+    adjective: "probationary"
+  collocations:
+    - en: "a probation period"
+      vi: "thời gian thử việc"
+    - en: "be on probation"
+      vi: "đang trong giai đoạn thử việc"
+  example:
+    en: "Ben must complete a three-month {probation} period."
+    vi: "Ben phải hoàn thành thời gian thử việc ba tháng."
+
+- word: "mentor"
+  pos: "noun"
+  ipa: "/ˈmentɔː(r)/"
+  meaning: "người hướng dẫn, cố vấn"
+  topic: "personnel"
+  sub-topic: "training-evaluation"
+  lesson: ["lesson-03"]
+  level: 750
+  forms:
+    noun: "mentor"
+    verb: "mentor"
+  collocations:
+    - en: "act as a mentor"
+      vi: "đóng vai trò người hướng dẫn"
+    - en: "assign a mentor"
+      vi: "phân công một người hướng dẫn"
+  example:
+    en: "Priya will act as Ben's {mentor} during his first months."
+    vi: "Priya sẽ là người hướng dẫn cho Ben trong những tháng đầu."
+
+- word: "supervisor"
+  pos: "noun"
+  ipa: "/ˈsuːpəvaɪzə(r)/"
+  meaning: "quản lý trực tiếp"
+  topic: "personnel"
+  sub-topic: "training-evaluation"
+  lesson: ["lesson-03"]
+  level: 600
+  forms:
+    noun: ["supervisor", "supervision"]
+    verb: "supervise"
+  collocations:
+    - en: "report to your supervisor"
+      vi: "báo cáo cho quản lý trực tiếp"
+    - en: "a direct supervisor"
+      vi: "một quản lý trực tiếp"
+  example:
+    en: "Ben reports to his {supervisor} every morning."
+    vi: "Ben báo cáo cho quản lý trực tiếp của mình mỗi sáng."
+
+- word: "subordinate"
+  pos: "noun"
+  ipa: "/səˈbɔːdɪnət/"
+  meaning: "cấp dưới"
+  topic: "personnel"
+  sub-topic: "training-evaluation"
+  lesson: ["lesson-03"]
+  level: 900
+  forms:
+    noun: "subordinate"
+    adjective: "subordinate"
+  collocations:
+    - en: "a junior subordinate"
+      vi: "một cấp dưới còn non kinh nghiệm"
+    - en: "manage subordinates"
+      vi: "quản lý cấp dưới"
+  example:
+    en: "As the newest {subordinate}, Ben had a lot to learn."
+    vi: "Là cấp dưới mới nhất, Ben có rất nhiều điều phải học."
+  note: "Phân biệt 'subordinate' (cấp dưới) với 'superior' (cấp trên)."
+
+- word: "competent"
+  pos: "adjective"
+  ipa: "/ˈkɒmpɪtənt/"
+  meaning: "có năng lực"
+  topic: "personnel"
+  sub-topic: "training-evaluation"
+  lesson: ["lesson-03"]
+  level: 750
+  forms:
+    adjective: "competent"
+    noun: "competence"
+    adverb: "competently"
+  collocations:
+    - en: "a competent employee"
+      vi: "một nhân viên có năng lực"
+    - en: "highly competent"
+      vi: "rất có năng lực"
+  example:
+    en: "Ben quickly proved to be a {competent} assistant."
+    vi: "Ben nhanh chóng chứng tỏ mình là một trợ lý có năng lực."
+
+- word: "proficient"
+  pos: "adjective"
+  ipa: "/prəˈfɪʃnt/"
+  meaning: "thành thạo"
+  topic: "personnel"
+  sub-topic: "training-evaluation"
+  lesson: ["lesson-03"]
+  level: 750
+  forms:
+    adjective: "proficient"
+    noun: "proficiency"
+    adverb: "proficiently"
+  collocations:
+    - en: "proficient in a language"
+      vi: "thành thạo một ngôn ngữ"
+    - en: "proficient with software"
+      vi: "thành thạo phần mềm"
+  example:
+    en: "She is {proficient} in three languages."
+    vi: "Cô ấy thành thạo ba ngôn ngữ."
+  note: "Đi với 'in' hoặc 'with': proficient in/with sth."
+
+- word: "performance review"
+  pos: "noun"
+  ipa: "/pəˈfɔːməns rɪˈvjuː/"
+  meaning: "(kỳ) đánh giá hiệu suất"
+  topic: "personnel"
+  sub-topic: "training-evaluation"
+  lesson: ["lesson-03"]
+  level: 750
+  forms:
+    noun: "performance review"
+  collocations:
+    - en: "conduct a performance review"
+      vi: "tiến hành đánh giá hiệu suất"
+    - en: "an annual performance review"
+      vi: "kỳ đánh giá hiệu suất hằng năm"
+  example:
+    en: "His first {performance review} is scheduled for next month."
+    vi: "Kỳ đánh giá hiệu suất đầu tiên của anh ấy được lên lịch vào tháng sau."
+
+- word: "appraisal"
+  pos: "noun"
+  ipa: "/əˈpreɪzl/"
+  meaning: "sự đánh giá (nhân viên)"
+  topic: "personnel"
+  sub-topic: "training-evaluation"
+  lesson: ["lesson-03"]
+  level: 900
+  forms:
+    noun: "appraisal"
+    verb: "appraise"
+  collocations:
+    - en: "an annual appraisal"
+      vi: "kỳ đánh giá hằng năm"
+    - en: "a performance appraisal"
+      vi: "sự đánh giá hiệu suất làm việc"
+  example:
+    en: "Every employee receives an annual {appraisal}."
+    vi: "Mỗi nhân viên đều được đánh giá hằng năm."
+
+- word: "salary"
+  pos: "noun"
+  ipa: "/ˈsæləri/"
+  meaning: "lương (tháng/năm)"
+  topic: "personnel"
+  sub-topic: "salary-benefits"
+  lesson: ["lesson-04"]
+  level: 600
+  forms:
+    noun: "salary"
+    adjective: "salaried"
+  collocations:
+    - en: "a competitive salary"
+      vi: "một mức lương cạnh tranh"
+    - en: "earn a salary"
+      vi: "hưởng lương"
+  example:
+    en: "Aster offers a competitive {salary} to attract skilled engineers."
+    vi: "Aster đưa ra mức lương cạnh tranh để thu hút kỹ sư giỏi."
+  note: "Phân biệt 'salary' (lương cố định tháng/năm) với 'wage' (lương theo giờ/tuần)."
+
+- word: "wage"
+  pos: "noun"
+  ipa: "/weɪdʒ/"
+  meaning: "lương (theo giờ/tuần)"
+  topic: "personnel"
+  sub-topic: "salary-benefits"
+  lesson: ["lesson-04"]
+  level: 600
+  forms:
+    noun: "wage"
+  collocations:
+    - en: "hourly wages"
+      vi: "lương theo giờ"
+    - en: "the minimum wage"
+      vi: "mức lương tối thiểu"
+  example:
+    en: "Support staff are paid an hourly {wage} rather than a fixed salary."
+    vi: "Nhân viên hỗ trợ được trả lương theo giờ thay vì lương cố định."
+  note: "Phân biệt 'wage' (lương theo giờ/tuần) với 'salary' (lương cố định tháng/năm)."
+
+- word: "raise"
+  pos: "noun"
+  ipa: "/reɪz/"
+  meaning: "sự tăng lương"
+  topic: "personnel"
+  sub-topic: "salary-benefits"
+  lesson: ["lesson-04"]
+  level: 600
+  forms:
+    noun: "raise"
+    verb: "raise"
+  collocations:
+    - en: "ask for a raise"
+      vi: "xin tăng lương"
+    - en: "get a raise"
+      vi: "được tăng lương"
+  example:
+    en: "John was offered a generous {raise} to stay with the company."
+    vi: "John được đề nghị tăng lương hậu hĩnh để ở lại công ty."
+  note: "'raise' (danh từ, khoản tăng lương — kiểu Anh-Mỹ) khác 'rise'. Là ngoại động từ (raise sth)."
+
+- word: "bonus"
+  pos: "noun"
+  ipa: "/ˈbəʊnəs/"
+  meaning: "tiền thưởng"
+  topic: "personnel"
+  sub-topic: "salary-benefits"
+  lesson: ["lesson-04"]
+  level: 600
+  forms:
+    noun: "bonus"
+  collocations:
+    - en: "a year-end bonus"
+      vi: "tiền thưởng cuối năm"
+    - en: "a retention bonus"
+      vi: "tiền thưởng giữ chân nhân viên"
+  example:
+    en: "Every employee received a year-end {bonus} after the strong quarter."
+    vi: "Mỗi nhân viên đều nhận tiền thưởng cuối năm sau một quý khởi sắc."
+
+- word: "compensation"
+  pos: "noun"
+  ipa: "/ˌkɒmpenˈseɪʃn/"
+  meaning: "thù lao, đãi ngộ"
+  topic: "personnel"
+  sub-topic: "salary-benefits"
+  lesson: ["lesson-04"]
+  level: 750
+  forms:
+    noun: "compensation"
+    verb: "compensate"
+  collocations:
+    - en: "a compensation package"
+      vi: "một gói đãi ngộ"
+    - en: "generous compensation"
+      vi: "chế độ đãi ngộ hậu hĩnh"
+  example:
+    en: "The {compensation} package includes salary, benefits, and a bonus."
+    vi: "Gói đãi ngộ bao gồm lương, phúc lợi và tiền thưởng."
+  note: "Trong nhân sự nghĩa là 'thù lao/đãi ngộ', không chỉ là 'sự bồi thường'."
+
+- word: "benefits"
+  pos: "noun"
+  ipa: "/ˈbenɪfɪts/"
+  meaning: "phúc lợi"
+  topic: "personnel"
+  sub-topic: "salary-benefits"
+  lesson: ["lesson-04"]
+  level: 600
+  forms:
+    noun: "benefit"
+    verb: "benefit"
+    adjective: "beneficial"
+  collocations:
+    - en: "a benefits package"
+      vi: "một gói phúc lợi"
+    - en: "generous benefits"
+      vi: "phúc lợi hậu hĩnh"
+  example:
+    en: "The company offers a generous {benefits} package to full-time staff."
+    vi: "Công ty cung cấp gói phúc lợi hậu hĩnh cho nhân viên toàn thời gian."
+
+- word: "payroll"
+  pos: "noun"
+  ipa: "/ˈpeɪrəʊl/"
+  meaning: "bảng lương; quỹ lương"
+  topic: "personnel"
+  sub-topic: "salary-benefits"
+  lesson: ["lesson-04"]
+  level: 750
+  forms:
+    noun: "payroll"
+  collocations:
+    - en: "be on the payroll"
+      vi: "nằm trong danh sách trả lương"
+    - en: "the monthly payroll"
+      vi: "quỹ lương hằng tháng"
+  example:
+    en: "After the hiring drive, the {payroll} grew much larger."
+    vi: "Sau đợt tuyển dụng, quỹ lương phình to hơn nhiều."
+
+- word: "overtime"
+  pos: "noun"
+  ipa: "/ˈəʊvətaɪm/"
+  meaning: "(giờ) làm thêm"
+  topic: "personnel"
+  sub-topic: "salary-benefits"
+  lesson: ["lesson-04"]
+  level: 600
+  forms:
+    noun: "overtime"
+    adverb: "overtime"
+  collocations:
+    - en: "work overtime"
+      vi: "làm thêm giờ"
+    - en: "pay overtime"
+      vi: "trả tiền làm thêm giờ"
+  example:
+    en: "Employees who work {overtime} are paid at a higher rate."
+    vi: "Nhân viên làm thêm giờ được trả với mức cao hơn."
+
+- word: "leave"
+  pos: "noun"
+  ipa: "/liːv/"
+  meaning: "kỳ nghỉ phép"
+  topic: "personnel"
+  sub-topic: "salary-benefits"
+  lesson: ["lesson-04"]
+  level: 600
+  forms:
+    noun: "leave"
+  collocations:
+    - en: "annual leave"
+      vi: "nghỉ phép năm"
+    - en: "sick leave"
+      vi: "nghỉ ốm"
+  example:
+    en: "She is entitled to twenty days of annual {leave} each year."
+    vi: "Cô ấy được hưởng hai mươi ngày nghỉ phép năm mỗi năm."
+  note: "Khi mang nghĩa 'nghỉ phép' là danh từ không đếm được (annual/sick/maternity leave)."
+
+- word: "eligible"
+  pos: "adjective"
+  ipa: "/ˈelɪdʒəbl/"
+  meaning: "đủ điều kiện"
+  topic: "personnel"
+  sub-topic: "salary-benefits"
+  lesson: ["lesson-04"]
+  level: 750
+  forms:
+    adjective: "eligible"
+    noun: "eligibility"
+  collocations:
+    - en: "be eligible for sth"
+      vi: "đủ điều kiện nhận điều gì"
+    - en: "eligible candidates"
+      vi: "những ứng viên đủ điều kiện"
+  example:
+    en: "Only staff on the payroll for a year are {eligible} for the bonus."
+    vi: "Chỉ nhân viên đã có tên trong bảng lương một năm mới đủ điều kiện nhận thưởng."
+  note: "'eligible' đi với 'for'; phân biệt với 'entitled' (đi với 'to')."
+
+- word: "entitled"
+  pos: "adjective"
+  ipa: "/ɪnˈtaɪtld/"
+  meaning: "có quyền được hưởng"
+  topic: "personnel"
+  sub-topic: "salary-benefits"
+  lesson: ["lesson-04"]
+  level: 750
+  forms:
+    adjective: "entitled"
+    verb: "entitle"
+    noun: "entitlement"
+  collocations:
+    - en: "be entitled to sth"
+      vi: "có quyền được hưởng điều gì"
+    - en: "entitled to paid leave"
+      vi: "được hưởng ngày nghỉ có lương"
+  example:
+    en: "Full-time employees are {entitled} to two weeks of paid leave."
+    vi: "Nhân viên toàn thời gian có quyền được hưởng hai tuần nghỉ phép có lương."
+  note: "'entitled' đi với 'to'; phân biệt với 'eligible' (đi với 'for')."
+
+- word: "allowance"
+  pos: "noun"
+  ipa: "/əˈlaʊəns/"
+  meaning: "phụ cấp"
+  topic: "personnel"
+  sub-topic: "salary-benefits"
+  lesson: ["lesson-04"]
+  level: 750
+  forms:
+    noun: "allowance"
+  collocations:
+    - en: "a travel allowance"
+      vi: "phụ cấp đi lại"
+    - en: "a housing allowance"
+      vi: "phụ cấp nhà ở"
+  example:
+    en: "Staff sent to Halston receive a monthly travel {allowance}."
+    vi: "Nhân viên được cử tới Halston nhận phụ cấp đi lại hằng tháng."
+
+- word: "promotion"
+  pos: "noun"
+  ipa: "/prəˈməʊʃn/"
+  meaning: "sự thăng chức"
+  topic: "personnel"
+  sub-topic: "promotion-departure"
+  lesson: ["lesson-04"]
+  level: 600
+  forms:
+    noun: "promotion"
+    verb: "promote"
+  collocations:
+    - en: "be up for a promotion"
+      vi: "đang được xét thăng chức"
+    - en: "earn a promotion"
+      vi: "giành được sự thăng chức"
+  example:
+    en: "Her strong results put her up for a {promotion} to manager."
+    vi: "Kết quả xuất sắc giúp cô ấy được xét thăng chức lên quản lý."
+  note: "Trong nhân sự nghĩa là 'thăng chức'; trong marketing lại là 'khuyến mãi'."
+
+- word: "transfer"
+  pos: "verb"
+  ipa: "/trænsˈfɜː(r)/"
+  meaning: "điều chuyển"
+  topic: "personnel"
+  sub-topic: "promotion-departure"
+  lesson: ["lesson-04"]
+  level: 600
+  forms:
+    verb: "transfer"
+    noun: "transfer"
+  collocations:
+    - en: "transfer to a branch"
+      vi: "điều chuyển tới một chi nhánh"
+    - en: "request a transfer"
+      vi: "xin được điều chuyển"
+  example:
+    en: "The company agreed to {transfer} him to the new Halston branch."
+    vi: "Công ty đồng ý điều chuyển anh ấy sang chi nhánh Halston mới."
+  note: "Trọng âm khác nhau: danh từ /ˈtrænsfɜː/, động từ /trænsˈfɜː/."
+
+- word: "accomplishment"
+  pos: "noun"
+  ipa: "/əˈkʌmplɪʃmənt/"
+  meaning: "thành tích"
+  topic: "personnel"
+  sub-topic: "promotion-departure"
+  lesson: ["lesson-04"]
+  level: 750
+  forms:
+    noun: "accomplishment"
+    verb: "accomplish"
+  collocations:
+    - en: "a notable accomplishment"
+      vi: "một thành tích đáng chú ý"
+    - en: "a great accomplishment"
+      vi: "một thành tích lớn"
+  example:
+    en: "The award recognizes each employee's notable {accomplishments}."
+    vi: "Giải thưởng ghi nhận những thành tích nổi bật của từng nhân viên."
+
+- word: "recognition"
+  pos: "noun"
+  ipa: "/ˌrekəɡˈnɪʃn/"
+  meaning: "sự ghi nhận"
+  topic: "personnel"
+  sub-topic: "promotion-departure"
+  lesson: ["lesson-04"]
+  level: 750
+  forms:
+    noun: "recognition"
+    verb: "recognize"
+  collocations:
+    - en: "in recognition of sth"
+      vi: "để ghi nhận điều gì"
+    - en: "gain recognition"
+      vi: "được ghi nhận"
+  example:
+    en: "She received a prize in {recognition} of her long service."
+    vi: "Cô ấy được trao phần thưởng để ghi nhận nhiều năm cống hiến."
+
+- word: "award"
+  pos: "noun"
+  ipa: "/əˈwɔːd/"
+  meaning: "giải thưởng"
+  topic: "personnel"
+  sub-topic: "promotion-departure"
+  lesson: ["lesson-04"]
+  level: 600
+  forms:
+    noun: "award"
+    verb: "award"
+  collocations:
+    - en: "receive an award"
+      vi: "nhận một giải thưởng"
+    - en: "win an award"
+      vi: "giành được một giải thưởng"
+  example:
+    en: "Ben received an {award} for his contribution to the project."
+    vi: "Ben nhận được giải thưởng cho đóng góp của mình vào dự án."
+  note: "Phân biệt 'award' (giải thưởng, trao thưởng) với 'reward' (phần thưởng cho công sức)."
+
+- word: "retire"
+  pos: "verb"
+  ipa: "/rɪˈtaɪə(r)/"
+  meaning: "nghỉ hưu"
+  topic: "personnel"
+  sub-topic: "promotion-departure"
+  lesson: ["lesson-04"]
+  level: 600
+  forms:
+    verb: "retire"
+    noun: ["retirement", "retiree"]
+    adjective: "retired"
+  collocations:
+    - en: "retire from the company"
+      vi: "nghỉ hưu khỏi công ty"
+    - en: "plan to retire"
+      vi: "dự định nghỉ hưu"
+  example:
+    en: "The senior engineer plans to {retire} at the end of the year."
+    vi: "Kỹ sư kỳ cựu dự định nghỉ hưu vào cuối năm."
+  note: "Phân biệt 'retire' (nghỉ hưu vì tuổi) với 'resign' (chủ động xin nghỉ giữa chừng)."
+
+- word: "pension"
+  pos: "noun"
+  ipa: "/ˈpenʃn/"
+  meaning: "lương hưu"
+  topic: "personnel"
+  sub-topic: "promotion-departure"
+  lesson: ["lesson-04"]
+  level: 750
+  forms:
+    noun: "pension"
+  collocations:
+    - en: "a pension plan"
+      vi: "một kế hoạch lương hưu"
+    - en: "draw a pension"
+      vi: "nhận lương hưu"
+  example:
+    en: "The company guarantees a solid {pension} plan for retirees."
+    vi: "Công ty bảo đảm một kế hoạch lương hưu vững chắc cho người về hưu."
+
+- word: "resign"
+  pos: "verb"
+  ipa: "/rɪˈzaɪn/"
+  meaning: "từ chức, xin nghỉ"
+  topic: "personnel"
+  sub-topic: "promotion-departure"
+  lesson: ["lesson-04"]
+  level: 750
+  forms:
+    verb: "resign"
+    noun: "resignation"
+  collocations:
+    - en: "resign from a post"
+      vi: "từ chức khỏi một vị trí"
+    - en: "resign as manager"
+      vi: "từ chức quản lý"
+  example:
+    en: "He threatened to {resign} after receiving a better offer."
+    vi: "Anh ấy dọa sẽ xin nghỉ sau khi nhận được một lời mời tốt hơn."
+  note: "'resign' /rɪˈzaɪn/ (tự xin nghỉ, 'g' câm) khác 'dismiss'/'lay off' (bị cho nghỉ)."
+
+- word: "dismiss"
+  pos: "verb"
+  ipa: "/dɪsˈmɪs/"
+  meaning: "sa thải"
+  topic: "personnel"
+  sub-topic: "promotion-departure"
+  lesson: ["lesson-04"]
+  level: 750
+  forms:
+    verb: "dismiss"
+    noun: "dismissal"
+  collocations:
+    - en: "dismiss an employee"
+      vi: "sa thải một nhân viên"
+    - en: "be dismissed for misconduct"
+      vi: "bị sa thải vì hành vi sai trái"
+  example:
+    en: "No one will be {dismissed} simply to cut costs."
+    vi: "Sẽ không ai bị sa thải chỉ để cắt giảm chi phí."
+
+- word: "lay off"
+  pos: "phrasal verb"
+  ipa: "/ˌleɪ ˈɒf/"
+  meaning: "cho thôi việc (do cắt giảm)"
+  topic: "personnel"
+  sub-topic: "promotion-departure"
+  lesson: ["lesson-04"]
+  level: 750
+  forms:
+    verb: "lay off"
+    noun: "layoff"
+  collocations:
+    - en: "lay off workers"
+      vi: "cho công nhân thôi việc"
+    - en: "a wave of layoffs"
+      vi: "một đợt cắt giảm nhân sự"
+  example:
+    en: "The rival planned to {lay off} half its staff after the takeover."
+    vi: "Đối thủ dự định cho một nửa nhân viên thôi việc sau vụ thâu tóm."
+  note: "'lay off' (cho nghỉ do cắt giảm, không do lỗi) khác 'dismiss'/'fire' (sa thải do lỗi)."
+
+- word: "severance pay"
+  pos: "noun"
+  ipa: "/ˈsevərəns peɪ/"
+  meaning: "trợ cấp thôi việc"
+  topic: "personnel"
+  sub-topic: "promotion-departure"
+  lesson: ["lesson-04"]
+  level: 900
+  forms:
+    noun: "severance pay"
+  collocations:
+    - en: "receive severance pay"
+      vi: "nhận trợ cấp thôi việc"
+    - en: "offer severance pay"
+      vi: "chi trả trợ cấp thôi việc"
+  example:
+    en: "Laid-off workers usually receive {severance pay}."
+    vi: "Công nhân bị cho thôi việc thường nhận được trợ cấp thôi việc."
+
+- word: "personnel"
+  pos: "noun"
+  ipa: "/ˌpɜːsəˈnel/"
+  meaning: "nhân sự (tập thể)"
+  topic: "personnel"
+  sub-topic: "promotion-departure"
+  lesson: ["lesson-04"]
+  level: 600
+  forms:
+    noun: "personnel"
+  collocations:
+    - en: "personnel costs"
+      vi: "chi phí nhân sự"
+    - en: "all personnel"
+      vi: "toàn thể nhân sự"
+  example:
+    en: "All {personnel} must attend the annual safety briefing."
+    vi: "Toàn thể nhân sự phải tham dự buổi phổ biến an toàn hằng năm."
+  note: "'personnel' /ˌpɜːsəˈnel/ (nhân sự, trọng âm cuối) khác 'personal' /ˈpɜːsənl/ (thuộc cá nhân)."
+
+- word: "workforce"
+  pos: "noun"
+  ipa: "/ˈwɜːkfɔːs/"
+  meaning: "lực lượng lao động"
+  topic: "personnel"
+  sub-topic: "promotion-departure"
+  lesson: ["lesson-04"]
+  level: 750
+  forms:
+    noun: "workforce"
+  collocations:
+    - en: "expand the workforce"
+      vi: "mở rộng lực lượng lao động"
+    - en: "a skilled workforce"
+      vi: "một lực lượng lao động lành nghề"
+  example:
+    en: "Aster plans to expand its {workforce} for Project Aria."
+    vi: "Aster dự định mở rộng lực lượng lao động cho Project Aria."
+
+- word: "turnover"
+  pos: "noun"
+  ipa: "/ˈtɜːnəʊvə(r)/"
+  meaning: "tỷ lệ nghỉ việc"
+  topic: "personnel"
+  sub-topic: "promotion-departure"
+  lesson: ["lesson-04"]
+  level: 750
+  forms:
+    noun: "turnover"
+  collocations:
+    - en: "high employee turnover"
+      vi: "tỷ lệ nghỉ việc cao"
+    - en: "reduce turnover"
+      vi: "giảm tỷ lệ nghỉ việc"
+  example:
+    en: "High employee {turnover} raises hiring and training costs."
+    vi: "Tỷ lệ nghỉ việc cao làm tăng chi phí tuyển dụng và đào tạo."
+  note: "Trong nhân sự là 'tỷ lệ nghỉ việc'; trong tài chính lại là 'doanh thu'."
+
+- word: "morale"
+  pos: "noun"
+  ipa: "/məˈrɑːl/"
+  meaning: "tinh thần làm việc"
+  topic: "personnel"
+  sub-topic: "promotion-departure"
+  lesson: ["lesson-04"]
+  level: 750
+  forms:
+    noun: "morale"
+  collocations:
+    - en: "boost staff morale"
+      vi: "nâng cao tinh thần nhân viên"
+    - en: "low morale"
+      vi: "tinh thần sa sút"
+  example:
+    en: "The recognition program was designed to boost staff {morale}."
+    vi: "Chương trình ghi nhận được thiết kế để nâng cao tinh thần nhân viên."
+  note: "'morale' /məˈrɑːl/ (tinh thần) khác 'moral' /ˈmɒrəl/ (đạo đức)."

@@ -1,0 +1,869 @@
+- word: "board of directors"
+  pos: "noun"
+  ipa: "/bɔːd əv daɪˈrektəz/"
+  meaning: "hội đồng quản trị"
+  topic: "offices"
+  sub-topic: "meetings-committees"
+  lesson: ["lesson-01"]
+  level: 750
+  forms:
+    noun: "board of directors"
+  collocations:
+    - en: "sit on the board"
+      vi: "là thành viên hội đồng"
+    - en: "the board of directors approved"
+      vi: "hội đồng quản trị đã phê duyệt"
+  example:
+    en: "The {board of directors} will meet on Friday to approve the budget."
+    vi: "Hội đồng quản trị sẽ họp vào thứ Sáu để phê duyệt ngân sách."
+
+- word: "committee"
+  pos: "noun"
+  ipa: "/kəˈmɪti/"
+  meaning: "ủy ban"
+  topic: "offices"
+  sub-topic: "meetings-committees"
+  lesson: ["lesson-01"]
+  level: 600
+  forms:
+    noun: "committee"
+  collocations:
+    - en: "form a committee"
+      vi: "thành lập một ủy ban"
+    - en: "a planning committee"
+      vi: "ủy ban lập kế hoạch"
+  example:
+    en: "A special {committee} was formed to review the new safety rules."
+    vi: "Một ủy ban đặc biệt đã được thành lập để xem xét các quy tắc an toàn mới."
+
+- word: "agenda"
+  pos: "noun"
+  ipa: "/əˈdʒendə/"
+  meaning: "chương trình họp"
+  topic: "offices"
+  sub-topic: "meetings-committees"
+  lesson: ["lesson-01"]
+  level: 600
+  forms:
+    noun: "agenda"
+  collocations:
+    - en: "set an agenda"
+      vi: "lập chương trình họp"
+    - en: "the first item on the agenda"
+      vi: "mục đầu tiên trong chương trình họp"
+  example:
+    en: "Please review the {agenda} before the meeting starts."
+    vi: "Vui lòng xem lại chương trình họp trước khi cuộc họp bắt đầu."
+
+- word: "minutes"
+  pos: "noun"
+  ipa: "/ˈmɪnɪts/"
+  meaning: "biên bản cuộc họp"
+  topic: "offices"
+  sub-topic: "meetings-committees"
+  lesson: ["lesson-01"]
+  level: 750
+  forms:
+    noun: "minutes"
+  collocations:
+    - en: "take the minutes"
+      vi: "ghi biên bản cuộc họp"
+    - en: "circulate the minutes"
+      vi: "gửi biên bản cho mọi người"
+  example:
+    en: "Could you take the {minutes} during today's meeting?"
+    vi: "Bạn có thể ghi biên bản trong cuộc họp hôm nay không?"
+  note: "Trong ngữ cảnh cuộc họp nghĩa là 'biên bản', không phải 'phút'."
+
+- word: "chair"
+  pos: "verb"
+  ipa: "/tʃeə(r)/"
+  meaning: "chủ trì (cuộc họp)"
+  topic: "offices"
+  sub-topic: "meetings-committees"
+  lesson: ["lesson-01"]
+  level: 750
+  forms:
+    verb: "chair"
+    noun: ["chair", "chairperson"]
+  collocations:
+    - en: "chair a meeting"
+      vi: "chủ trì một cuộc họp"
+    - en: "chair the committee"
+      vi: "làm chủ tịch ủy ban"
+  example:
+    en: "The vice president will {chair} the meeting in the director's absence."
+    vi: "Phó chủ tịch sẽ chủ trì cuộc họp khi giám đốc vắng mặt."
+  note: "Là động từ nghĩa là 'chủ trì'; là danh từ nghĩa là 'cái ghế' hoặc 'chủ tịch'."
+
+- word: "convene"
+  pos: "verb"
+  ipa: "/kənˈviːn/"
+  meaning: "triệu tập, tổ chức họp"
+  topic: "offices"
+  sub-topic: "meetings-committees"
+  lesson: ["lesson-01"]
+  level: 900
+  forms:
+    verb: "convene"
+  collocations:
+    - en: "convene a meeting"
+      vi: "triệu tập một cuộc họp"
+    - en: "convene the board"
+      vi: "triệu tập hội đồng"
+  example:
+    en: "The chairman decided to {convene} an emergency meeting that afternoon."
+    vi: "Chủ tịch đã quyết định triệu tập một cuộc họp khẩn cấp vào chiều hôm đó."
+
+- word: "adjourn"
+  pos: "verb"
+  ipa: "/əˈdʒɜːn/"
+  meaning: "kết thúc, tạm hoãn cuộc họp"
+  topic: "offices"
+  sub-topic: "meetings-committees"
+  lesson: ["lesson-01"]
+  level: 900
+  forms:
+    verb: "adjourn"
+    noun: "adjournment"
+  collocations:
+    - en: "adjourn the meeting"
+      vi: "kết thúc cuộc họp"
+    - en: "the meeting was adjourned"
+      vi: "cuộc họp đã được kết thúc"
+  example:
+    en: "The meeting was {adjourned} until nine o'clock the next morning."
+    vi: "Cuộc họp được tạm hoãn đến chín giờ sáng hôm sau."
+
+- word: "postpone"
+  pos: "verb"
+  ipa: "/pəˈspəʊn/"
+  meaning: "hoãn lại, dời sang lúc khác"
+  topic: "offices"
+  sub-topic: "meetings-committees"
+  lesson: ["lesson-01"]
+  level: 600
+  forms:
+    verb: "postpone"
+    noun: "postponement"
+  collocations:
+    - en: "postpone the meeting"
+      vi: "hoãn cuộc họp"
+    - en: "postpone until next week"
+      vi: "hoãn đến tuần sau"
+  example:
+    en: "The conference was {postponed} until further notice."
+    vi: "Hội nghị đã bị hoãn cho đến khi có thông báo mới."
+  note: "Thường đi với 'until': postpone sth until a later time."
+
+- word: "reschedule"
+  pos: "verb"
+  ipa: "/ˌriːˈʃedjuːl/"
+  meaning: "dời lịch, sắp lại lịch"
+  topic: "offices"
+  sub-topic: "meetings-committees"
+  lesson: ["lesson-01"]
+  level: 600
+  forms:
+    verb: "reschedule"
+  collocations:
+    - en: "reschedule for Friday"
+      vi: "dời lịch sang thứ Sáu"
+    - en: "reschedule the appointment"
+      vi: "dời lịch cuộc hẹn"
+  example:
+    en: "We had to {reschedule} the interview for the following week."
+    vi: "Chúng tôi phải dời lịch buổi phỏng vấn sang tuần kế tiếp."
+
+- word: "unanimous"
+  pos: "adjective"
+  ipa: "/juˈnænɪməs/"
+  meaning: "nhất trí hoàn toàn"
+  topic: "offices"
+  sub-topic: "meetings-committees"
+  lesson: ["lesson-01"]
+  level: 900
+  forms:
+    adjective: "unanimous"
+    adverb: "unanimously"
+  collocations:
+    - en: "a unanimous decision"
+      vi: "một quyết định nhất trí"
+    - en: "a unanimous vote"
+      vi: "một cuộc bỏ phiếu nhất trí"
+  example:
+    en: "The board reached a {unanimous} decision to approve the merger."
+    vi: "Hội đồng đã đạt được quyết định nhất trí phê duyệt vụ sáp nhập."
+
+- word: "consensus"
+  pos: "noun"
+  ipa: "/kənˈsensəs/"
+  meaning: "sự đồng thuận"
+  topic: "offices"
+  sub-topic: "meetings-committees"
+  lesson: ["lesson-01"]
+  level: 750
+  forms:
+    noun: "consensus"
+  collocations:
+    - en: "reach a consensus"
+      vi: "đạt được sự đồng thuận"
+    - en: "a general consensus"
+      vi: "sự đồng thuận chung"
+  example:
+    en: "After a long discussion, the team finally reached a {consensus}."
+    vi: "Sau một cuộc thảo luận dài, cả nhóm cuối cùng đã đạt được sự đồng thuận."
+
+- word: "quorum"
+  pos: "noun"
+  ipa: "/ˈkwɔːrəm/"
+  meaning: "số đại biểu tối thiểu (để họp hợp lệ)"
+  topic: "offices"
+  sub-topic: "meetings-committees"
+  lesson: ["lesson-01"]
+  level: 900
+  forms:
+    noun: "quorum"
+  collocations:
+    - en: "have a quorum"
+      vi: "đủ số đại biểu tối thiểu"
+    - en: "reach a quorum"
+      vi: "đạt đủ số đại biểu"
+  example:
+    en: "The vote was delayed because there was no {quorum} present."
+    vi: "Cuộc bỏ phiếu bị hoãn vì không đủ số đại biểu tối thiểu."
+
+- word: "proxy"
+  pos: "noun"
+  ipa: "/ˈprɒksi/"
+  meaning: "người/phiếu ủy quyền"
+  topic: "offices"
+  sub-topic: "meetings-committees"
+  lesson: ["lesson-01"]
+  level: 900
+  forms:
+    noun: "proxy"
+  collocations:
+    - en: "vote by proxy"
+      vi: "bỏ phiếu qua ủy quyền"
+    - en: "a proxy vote"
+      vi: "phiếu bầu ủy quyền"
+  example:
+    en: "Shareholders who cannot attend may vote by {proxy}."
+    vi: "Cổ đông không thể tham dự có thể bỏ phiếu qua ủy quyền."
+
+- word: "correspondence"
+  pos: "noun"
+  ipa: "/ˌkɒrəˈspɒndəns/"
+  meaning: "thư từ trao đổi"
+  topic: "offices"
+  sub-topic: "correspondence"
+  lesson: ["lesson-01"]
+  level: 750
+  forms:
+    noun: ["correspondence", "correspondent"]
+    verb: "correspond"
+  collocations:
+    - en: "business correspondence"
+      vi: "thư từ kinh doanh"
+    - en: "handle correspondence"
+      vi: "xử lý thư từ"
+  example:
+    en: "All business {correspondence} should be kept for at least five years."
+    vi: "Mọi thư từ kinh doanh nên được lưu giữ ít nhất năm năm."
+  note: "Danh từ không đếm được khi nghĩa là 'thư từ nói chung'."
+
+- word: "memo"
+  pos: "noun"
+  ipa: "/ˈmeməʊ/"
+  meaning: "thông báo nội bộ (bản ghi nhớ)"
+  topic: "offices"
+  sub-topic: "correspondence"
+  lesson: ["lesson-01"]
+  level: 600
+  forms:
+    noun: ["memo", "memorandum"]
+  collocations:
+    - en: "circulate a memo"
+      vi: "gửi thông báo nội bộ"
+    - en: "send out a memo"
+      vi: "phát đi một thông báo"
+  example:
+    en: "The manager sent a {memo} reminding staff about the new dress code."
+    vi: "Người quản lý đã gửi một thông báo nhắc nhân viên về quy định trang phục mới."
+  note: "'memo' là dạng viết tắt của 'memorandum' (số nhiều: memoranda/memorandums)."
+
+- word: "attachment"
+  pos: "noun"
+  ipa: "/əˈtætʃmənt/"
+  meaning: "tệp đính kèm"
+  topic: "offices"
+  sub-topic: "correspondence"
+  lesson: ["lesson-01"]
+  level: 600
+  forms:
+    noun: "attachment"
+    verb: "attach"
+  collocations:
+    - en: "open the attachment"
+      vi: "mở tệp đính kèm"
+    - en: "see the attachment"
+      vi: "xem tệp đính kèm"
+  example:
+    en: "Please find the report in the {attachment} to this email."
+    vi: "Vui lòng xem báo cáo trong tệp đính kèm của email này."
+
+- word: "enclose"
+  pos: "verb"
+  ipa: "/ɪnˈkləʊz/"
+  meaning: "gửi kèm trong thư"
+  topic: "offices"
+  sub-topic: "correspondence"
+  lesson: ["lesson-01"]
+  level: 750
+  forms:
+    verb: "enclose"
+    noun: "enclosure"
+  collocations:
+    - en: "please find enclosed"
+      vi: "vui lòng xem tài liệu gửi kèm"
+    - en: "enclose a copy"
+      vi: "gửi kèm một bản sao"
+  example:
+    en: "I have {enclosed} a copy of the invoice with this letter."
+    vi: "Tôi đã gửi kèm một bản sao hóa đơn trong lá thư này."
+
+- word: "forward"
+  pos: "verb"
+  ipa: "/ˈfɔːwəd/"
+  meaning: "chuyển tiếp (thư, email)"
+  topic: "offices"
+  sub-topic: "correspondence"
+  lesson: ["lesson-01"]
+  level: 600
+  forms:
+    verb: "forward"
+  collocations:
+    - en: "forward the email to Sales"
+      vi: "chuyển tiếp email cho phòng Kinh doanh"
+    - en: "forward a message"
+      vi: "chuyển tiếp một tin nhắn"
+  example:
+    en: "Could you {forward} that email to the accounting department?"
+    vi: "Bạn có thể chuyển tiếp email đó cho phòng kế toán không?"
+
+- word: "recipient"
+  pos: "noun"
+  ipa: "/rɪˈsɪpiənt/"
+  meaning: "người nhận"
+  topic: "offices"
+  sub-topic: "correspondence"
+  lesson: ["lesson-01"]
+  level: 750
+  forms:
+    noun: "recipient"
+  collocations:
+    - en: "the intended recipient"
+      vi: "người nhận dự kiến"
+    - en: "the recipient of the award"
+      vi: "người nhận giải thưởng"
+  example:
+    en: "If you are not the intended {recipient}, please delete this message."
+    vi: "Nếu bạn không phải người nhận dự kiến, vui lòng xóa tin nhắn này."
+
+- word: "notify"
+  pos: "verb"
+  ipa: "/ˈnəʊtɪfaɪ/"
+  meaning: "thông báo cho ai đó"
+  topic: "offices"
+  sub-topic: "correspondence"
+  lesson: ["lesson-01"]
+  level: 600
+  forms:
+    verb: "notify"
+    noun: "notification"
+  collocations:
+    - en: "notify sb of a change"
+      vi: "thông báo cho ai về sự thay đổi"
+    - en: "notify in advance"
+      vi: "thông báo trước"
+  example:
+    en: "Please {notify} the office of any change to your address."
+    vi: "Vui lòng thông báo cho văn phòng về bất kỳ thay đổi địa chỉ nào."
+  note: "Cấu trúc: notify sb of sth."
+
+- word: "remind"
+  pos: "verb"
+  ipa: "/rɪˈmaɪnd/"
+  meaning: "nhắc nhở"
+  topic: "offices"
+  sub-topic: "correspondence"
+  lesson: ["lesson-01"]
+  level: 600
+  forms:
+    verb: "remind"
+    noun: "reminder"
+  collocations:
+    - en: "remind sb to do sth"
+      vi: "nhắc ai làm gì"
+    - en: "a gentle reminder"
+      vi: "một lời nhắc nhẹ nhàng"
+  example:
+    en: "Please {remind} me to call the supplier this afternoon."
+    vi: "Vui lòng nhắc tôi gọi cho nhà cung cấp vào chiều nay."
+  note: "Cấu trúc: remind sb to do sth / remind sb of sth."
+
+- word: "inquiry"
+  pos: "noun"
+  ipa: "/ɪnˈkwaɪəri/"
+  meaning: "lời/thư hỏi thông tin"
+  topic: "offices"
+  sub-topic: "correspondence"
+  lesson: ["lesson-01"]
+  level: 750
+  forms:
+    noun: "inquiry"
+    verb: "inquire"
+  collocations:
+    - en: "make an inquiry"
+      vi: "đưa ra một câu hỏi thông tin"
+    - en: "respond to an inquiry"
+      vi: "trả lời một thư hỏi"
+  example:
+    en: "We received several {inquiries} about the new product line."
+    vi: "Chúng tôi đã nhận được nhiều thư hỏi về dòng sản phẩm mới."
+
+- word: "confidential"
+  pos: "adjective"
+  ipa: "/ˌkɒnfɪˈdenʃl/"
+  meaning: "bảo mật, mật"
+  topic: "offices"
+  sub-topic: "correspondence"
+  lesson: ["lesson-01"]
+  level: 750
+  forms:
+    adjective: "confidential"
+    noun: "confidentiality"
+    adverb: "confidentially"
+  collocations:
+    - en: "strictly confidential"
+      vi: "tuyệt mật"
+    - en: "confidential information"
+      vi: "thông tin bảo mật"
+  example:
+    en: "The document is strictly {confidential} and must not be shared."
+    vi: "Tài liệu này là tuyệt mật và không được chia sẻ."
+
+- word: "extension"
+  pos: "noun"
+  ipa: "/ɪkˈstenʃn/"
+  meaning: "số máy lẻ; sự gia hạn"
+  topic: "offices"
+  sub-topic: "correspondence"
+  lesson: ["lesson-01"]
+  level: 600
+  forms:
+    noun: "extension"
+    verb: "extend"
+  collocations:
+    - en: "dial extension 204"
+      vi: "bấm máy lẻ 204"
+    - en: "request an extension"
+      vi: "xin gia hạn"
+  example:
+    en: "You can reach me at {extension} 305 during office hours."
+    vi: "Bạn có thể liên hệ tôi ở số máy lẻ 305 trong giờ làm việc."
+  note: "Nghĩa kép: 'số máy lẻ' (điện thoại) hoặc 'sự gia hạn' (thời hạn)."
+
+- word: "put on hold"
+  pos: "phrasal verb"
+  ipa: "/pʊt ɒn həʊld/"
+  meaning: "cho giữ máy, tạm chờ (điện thoại)"
+  topic: "offices"
+  sub-topic: "correspondence"
+  lesson: ["lesson-01"]
+  level: 750
+  forms:
+    verb: "put on hold"
+  collocations:
+    - en: "put a caller on hold"
+      vi: "cho người gọi giữ máy"
+    - en: "be put on hold"
+      vi: "bị cho chờ máy"
+  example:
+    en: "She {put} the customer {on hold} while she checked the order."
+    vi: "Cô ấy cho khách giữ máy trong khi kiểm tra đơn hàng."
+
+- word: "transfer a call"
+  pos: "verb"
+  ipa: "/trænsˈfɜː(r) ə kɔːl/"
+  meaning: "chuyển cuộc gọi"
+  topic: "offices"
+  sub-topic: "correspondence"
+  lesson: ["lesson-01"]
+  level: 600
+  forms:
+    verb: "transfer"
+    noun: "transfer"
+  collocations:
+    - en: "transfer the call to Sales"
+      vi: "chuyển cuộc gọi cho phòng Kinh doanh"
+    - en: "transfer a call to another line"
+      vi: "chuyển cuộc gọi sang máy khác"
+  example:
+    en: "Let me {transfer} your {call} to the technical support team."
+    vi: "Để tôi chuyển cuộc gọi của bạn đến đội hỗ trợ kỹ thuật."
+
+- word: "voicemail"
+  pos: "noun"
+  ipa: "/ˈvɔɪsmeɪl/"
+  meaning: "hộp thư thoại"
+  topic: "offices"
+  sub-topic: "correspondence"
+  lesson: ["lesson-01"]
+  level: 600
+  forms:
+    noun: "voicemail"
+  collocations:
+    - en: "leave a voicemail"
+      vi: "để lại lời nhắn thoại"
+    - en: "check your voicemail"
+      vi: "kiểm tra hộp thư thoại"
+  example:
+    en: "He was out, so I left a {voicemail} asking him to call back."
+    vi: "Anh ấy đi vắng, nên tôi để lại lời nhắn thoại nhờ gọi lại."
+
+- word: "photocopier"
+  pos: "noun"
+  ipa: "/ˈfəʊtəʊkɒpiə(r)/"
+  meaning: "máy photocopy"
+  topic: "offices"
+  sub-topic: "equipment-furniture"
+  lesson: ["lesson-02"]
+  level: 750
+  forms:
+    noun: ["photocopier", "photocopy"]
+    verb: "photocopy"
+  collocations:
+    - en: "use the photocopier"
+      vi: "dùng máy photocopy"
+    - en: "the photocopier is broken"
+      vi: "máy photocopy bị hỏng"
+  example:
+    en: "The {photocopier} on the second floor is running low on paper."
+    vi: "Máy photocopy ở tầng hai sắp hết giấy."
+
+- word: "out of order"
+  pos: "adjective"
+  ipa: "/aʊt əv ˈɔːdə(r)/"
+  meaning: "hỏng, không dùng được"
+  topic: "offices"
+  sub-topic: "equipment-furniture"
+  lesson: ["lesson-02"]
+  level: 600
+  forms:
+    adjective: "out of order"
+  collocations:
+    - en: "the machine is out of order"
+      vi: "máy bị hỏng"
+    - en: "an out-of-order sign"
+      vi: "biển báo hỏng"
+  example:
+    en: "The elevator is {out of order}, so please use the stairs."
+    vi: "Thang máy đang hỏng, vui lòng dùng cầu thang bộ."
+
+- word: "jam"
+  pos: "verb"
+  ipa: "/dʒæm/"
+  meaning: "kẹt (giấy trong máy in)"
+  topic: "offices"
+  sub-topic: "equipment-furniture"
+  lesson: ["lesson-02"]
+  level: 750
+  forms:
+    verb: "jam"
+    noun: "jam"
+  collocations:
+    - en: "the printer is jammed"
+      vi: "máy in bị kẹt giấy"
+    - en: "a paper jam"
+      vi: "sự kẹt giấy"
+  example:
+    en: "The printer keeps getting {jammed} whenever I print large files."
+    vi: "Máy in cứ bị kẹt giấy mỗi khi tôi in các tệp lớn."
+
+- word: "toner cartridge"
+  pos: "noun"
+  ipa: "/ˈtəʊnə(r) ˈkɑːtrɪdʒ/"
+  meaning: "hộp mực in"
+  topic: "offices"
+  sub-topic: "equipment-furniture"
+  lesson: ["lesson-02"]
+  level: 900
+  forms:
+    noun: "toner cartridge"
+  collocations:
+    - en: "replace the toner cartridge"
+      vi: "thay hộp mực in"
+    - en: "an empty toner cartridge"
+      vi: "hộp mực đã hết"
+  example:
+    en: "The printer stopped because the {toner cartridge} was empty."
+    vi: "Máy in ngừng hoạt động vì hộp mực đã hết."
+
+- word: "stationery"
+  pos: "noun"
+  ipa: "/ˈsteɪʃənri/"
+  meaning: "văn phòng phẩm"
+  topic: "offices"
+  sub-topic: "equipment-furniture"
+  lesson: ["lesson-02"]
+  level: 750
+  forms:
+    noun: "stationery"
+  collocations:
+    - en: "order stationery"
+      vi: "đặt mua văn phòng phẩm"
+    - en: "office stationery"
+      vi: "văn phòng phẩm"
+  example:
+    en: "We need to order more {stationery}, such as pens and notepads."
+    vi: "Chúng ta cần đặt thêm văn phòng phẩm, như bút và sổ ghi chú."
+  note: "Đừng nhầm 'stationery' (văn phòng phẩm) với 'stationary' (đứng yên)."
+
+- word: "supplies"
+  pos: "noun"
+  ipa: "/səˈplaɪz/"
+  meaning: "vật tư, đồ dùng văn phòng"
+  topic: "offices"
+  sub-topic: "equipment-furniture"
+  lesson: ["lesson-02", "lesson-15"]
+  level: 600
+  forms:
+    noun: ["supplies", "supplier"]
+    verb: "supply"
+  collocations:
+    - en: "office supplies"
+      vi: "vật tư văn phòng"
+    - en: "run low on supplies"
+      vi: "sắp hết vật tư"
+  example:
+    en: "The office {supplies} are running low, so please place an order."
+    vi: "Vật tư văn phòng sắp hết, vui lòng đặt hàng."
+
+- word: "filing cabinet"
+  pos: "noun"
+  ipa: "/ˈfaɪlɪŋ ˈkæbɪnət/"
+  meaning: "tủ đựng hồ sơ"
+  topic: "offices"
+  sub-topic: "equipment-furniture"
+  lesson: ["lesson-02"]
+  level: 900
+  forms:
+    noun: "filing cabinet"
+  collocations:
+    - en: "lock the filing cabinet"
+      vi: "khóa tủ hồ sơ"
+    - en: "store files in the filing cabinet"
+      vi: "cất hồ sơ trong tủ"
+  example:
+    en: "All the old contracts are kept in the {filing cabinet} by the door."
+    vi: "Tất cả hợp đồng cũ được cất trong tủ hồ sơ cạnh cửa."
+
+- word: "workstation"
+  pos: "noun"
+  ipa: "/ˈwɜːksteɪʃn/"
+  meaning: "chỗ ngồi làm việc"
+  topic: "offices"
+  sub-topic: "equipment-furniture"
+  lesson: ["lesson-02"]
+  level: 900
+  forms:
+    noun: "workstation"
+  collocations:
+    - en: "set up a workstation"
+      vi: "sắp xếp chỗ làm việc"
+    - en: "return to your workstation"
+      vi: "trở về chỗ làm việc"
+  example:
+    en: "Each new employee is assigned a {workstation} on the fourth floor."
+    vi: "Mỗi nhân viên mới được sắp xếp một chỗ làm việc ở tầng bốn."
+
+- word: "cubicle"
+  pos: "noun"
+  ipa: "/ˈkjuːbɪkl/"
+  meaning: "ô làm việc có vách ngăn"
+  topic: "offices"
+  sub-topic: "equipment-furniture"
+  lesson: ["lesson-02"]
+  level: 900
+  forms:
+    noun: "cubicle"
+  collocations:
+    - en: "work in a cubicle"
+      vi: "làm việc trong ô vách ngăn"
+    - en: "a small cubicle"
+      vi: "một ô làm việc nhỏ"
+  example:
+    en: "She decorated her {cubicle} with photos and a small plant."
+    vi: "Cô ấy trang trí ô làm việc của mình bằng ảnh và một chậu cây nhỏ."
+
+- word: "procedure"
+  pos: "noun"
+  ipa: "/prəˈsiːdʒə(r)/"
+  meaning: "quy trình, thủ tục"
+  topic: "offices"
+  sub-topic: "work-procedures"
+  lesson: ["lesson-02"]
+  level: 600
+  forms:
+    noun: "procedure"
+    verb: "proceed"
+  collocations:
+    - en: "follow the correct procedure"
+      vi: "làm theo đúng quy trình"
+    - en: "standard procedure"
+      vi: "quy trình chuẩn"
+  example:
+    en: "All staff must follow the proper safety {procedure} in the lab."
+    vi: "Tất cả nhân viên phải tuân theo đúng quy trình an toàn trong phòng thí nghiệm."
+
+- word: "protocol"
+  pos: "noun"
+  ipa: "/ˈprəʊtəkɒl/"
+  meaning: "quy tắc, nghi thức chính thức"
+  topic: "offices"
+  sub-topic: "work-procedures"
+  lesson: ["lesson-02"]
+  level: 750
+  forms:
+    noun: "protocol"
+  collocations:
+    - en: "company protocol"
+      vi: "quy tắc của công ty"
+    - en: "follow protocol"
+      vi: "tuân theo quy tắc"
+  example:
+    en: "Reporting an accident right away is standard company {protocol}."
+    vi: "Báo cáo tai nạn ngay lập tức là quy tắc chuẩn của công ty."
+
+- word: "distribute"
+  pos: "verb"
+  ipa: "/dɪˈstrɪbjuːt/"
+  meaning: "phân phát, phân phối"
+  topic: "offices"
+  sub-topic: "work-procedures"
+  lesson: ["lesson-02"]
+  level: 600
+  forms:
+    verb: "distribute"
+    noun: ["distribution", "distributor"]
+  collocations:
+    - en: "distribute copies to everyone"
+      vi: "phát bản sao cho mọi người"
+    - en: "distribute the handouts"
+      vi: "phát tài liệu"
+  example:
+    en: "Please {distribute} these forms to all the new employees."
+    vi: "Vui lòng phát các mẫu đơn này cho tất cả nhân viên mới."
+
+- word: "duplicate"
+  pos: "verb"
+  ipa: "/ˈdjuːplɪkeɪt/"
+  meaning: "sao chép, tạo bản sao"
+  topic: "offices"
+  sub-topic: "work-procedures"
+  lesson: ["lesson-02"]
+  level: 750
+  forms:
+    verb: "duplicate"
+    noun: "duplicate"
+    adjective: "duplicate"
+  collocations:
+    - en: "make a duplicate copy"
+      vi: "làm một bản sao"
+    - en: "duplicate the document"
+      vi: "sao chép tài liệu"
+  example:
+    en: "Please {duplicate} this report so that everyone has a copy."
+    vi: "Vui lòng sao chép báo cáo này để mọi người đều có một bản."
+  note: "Trọng âm đổi theo từ loại: động từ /ˈdjuːplɪkeɪt/, danh từ/tính từ /ˈdjuːplɪkət/."
+
+- word: "prompt"
+  pos: "adjective"
+  ipa: "/prɒmpt/"
+  meaning: "nhanh chóng, đúng giờ"
+  topic: "offices"
+  sub-topic: "work-procedures"
+  lesson: ["lesson-02"]
+  level: 750
+  forms:
+    adjective: "prompt"
+    adverb: "promptly"
+    verb: "prompt"
+  collocations:
+    - en: "a prompt reply"
+      vi: "một câu trả lời nhanh chóng"
+    - en: "prompt payment"
+      vi: "thanh toán đúng hạn"
+  example:
+    en: "We appreciate your {prompt} response to our request."
+    vi: "Chúng tôi cảm ơn phản hồi nhanh chóng của bạn đối với yêu cầu của chúng tôi."
+
+- word: "on behalf of"
+  pos: "preposition"
+  ipa: "/ɒn bɪˈhɑːf əv/"
+  meaning: "thay mặt cho"
+  topic: "offices"
+  sub-topic: "work-procedures"
+  lesson: ["lesson-02"]
+  level: 750
+  forms:
+    preposition: "on behalf of"
+  collocations:
+    - en: "sign on behalf of the manager"
+      vi: "ký thay mặt cho người quản lý"
+    - en: "speak on behalf of the team"
+      vi: "phát biểu thay mặt cả nhóm"
+  example:
+    en: "She accepted the award {on behalf of} the entire department."
+    vi: "Cô ấy nhận giải thưởng thay mặt cho toàn bộ phòng ban."
+
+- word: "in charge of"
+  pos: "preposition"
+  ipa: "/ɪn tʃɑːdʒ əv/"
+  meaning: "phụ trách, chịu trách nhiệm về"
+  topic: "offices"
+  sub-topic: "work-procedures"
+  lesson: ["lesson-02"]
+  level: 600
+  forms:
+    preposition: "in charge of"
+  collocations:
+    - en: "be in charge of the project"
+      vi: "phụ trách dự án"
+    - en: "the person in charge"
+      vi: "người phụ trách"
+  example:
+    en: "Ms. Lee is {in charge of} the marketing team this quarter."
+    vi: "Bà Lee phụ trách nhóm marketing trong quý này."
+
+- word: "streamline"
+  pos: "verb"
+  ipa: "/ˈstriːmlaɪn/"
+  meaning: "tinh gọn quy trình"
+  topic: "offices"
+  sub-topic: "work-procedures"
+  lesson: ["lesson-02", "lesson-17"]
+  level: 750
+  forms:
+    verb: "streamline"
+    adjective: "streamlined"
+  collocations:
+    - en: "streamline office procedures"
+      vi: "tinh gọn quy trình văn phòng"
+    - en: "streamline the workflow"
+      vi: "tinh gọn luồng công việc"
+  example:
+    en: "The new software helped {streamline} the office's filing procedures."
+    vi: "Phần mềm mới đã giúp tinh gọn các quy trình lưu hồ sơ của văn phòng."
