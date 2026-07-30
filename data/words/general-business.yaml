@@ -1,0 +1,1702 @@
+- word: "contract"
+  pos: "noun"
+  ipa: "/ˈkɒntrækt/"
+  meaning: "hợp đồng, văn bản thỏa thuận có ràng buộc"
+  topic: "general-business"
+  sub-topic: "contracts-negotiation"
+  lesson: ["lesson-05"]
+  level: 600
+  forms:
+    noun: "contract"
+    verb: "contract"
+    noun_person: "contractor"
+  collocations:
+    - en: "sign a contract"
+      vi: "ký hợp đồng"
+    - en: "renew a contract"
+      vi: "gia hạn hợp đồng"
+    - en: "terminate a contract"
+      vi: "chấm dứt hợp đồng"
+  example:
+    en: "Both parties {signed} the contract after weeks of negotiation."
+    vi: "Cả hai bên đã ký hợp đồng sau nhiều tuần đàm phán."
+  note: "Trọng âm đổi theo từ loại: danh từ /ˈkɒntrækt/, động từ /kənˈtrækt/."
+
+- word: "agreement"
+  pos: "noun"
+  ipa: "/əˈɡriːmənt/"
+  meaning: "thỏa thuận, sự đồng thuận"
+  topic: "general-business"
+  sub-topic: "contracts-negotiation"
+  lesson: ["lesson-05"]
+  level: 600
+  forms:
+    noun: "agreement"
+    verb: "agree"
+  collocations:
+    - en: "reach an agreement"
+      vi: "đạt được thỏa thuận"
+    - en: "sign an agreement"
+      vi: "ký thỏa thuận"
+  example:
+    en: "After long talks, the two companies finally reached an {agreement}."
+    vi: "Sau các cuộc thương lượng dài, hai công ty cuối cùng đạt được thỏa thuận."
+
+- word: "clause"
+  pos: "noun"
+  ipa: "/klɔːz/"
+  meaning: "điều khoản (trong hợp đồng)"
+  topic: "general-business"
+  sub-topic: "contracts-negotiation"
+  lesson: ["lesson-05"]
+  level: 750
+  forms:
+    noun: "clause"
+  collocations:
+    - en: "a confidentiality clause"
+      vi: "điều khoản bảo mật"
+    - en: "add a clause"
+      vi: "thêm một điều khoản"
+  example:
+    en: "The contract includes a {clause} about early termination."
+    vi: "Hợp đồng có một điều khoản về việc chấm dứt sớm."
+
+- word: "provision"
+  pos: "noun"
+  ipa: "/prəˈvɪʒn/"
+  meaning: "điều khoản quy định (trong hợp đồng, luật)"
+  topic: "general-business"
+  sub-topic: "contracts-negotiation"
+  lesson: ["lesson-05"]
+  level: 900
+  forms:
+    noun: "provision"
+    verb: "provide"
+  collocations:
+    - en: "under the provisions of the contract"
+      vi: "theo các điều khoản của hợp đồng"
+    - en: "a special provision"
+      vi: "một điều khoản đặc biệt"
+  example:
+    en: "Under the {provisions} of the contract, either side may cancel with notice."
+    vi: "Theo các điều khoản của hợp đồng, mỗi bên đều có thể hủy nếu báo trước."
+
+- word: "terms and conditions"
+  pos: "noun"
+  ipa: "/tɜːmz ənd kənˈdɪʃnz/"
+  meaning: "các điều khoản và điều kiện"
+  topic: "general-business"
+  sub-topic: "contracts-negotiation"
+  lesson: ["lesson-05"]
+  level: 600
+  forms:
+    noun: "terms and conditions"
+  collocations:
+    - en: "agree to the terms and conditions"
+      vi: "đồng ý với các điều khoản và điều kiện"
+    - en: "review the terms and conditions"
+      vi: "xem lại các điều khoản và điều kiện"
+  example:
+    en: "Please read the {terms and conditions} carefully before signing."
+    vi: "Vui lòng đọc kỹ các điều khoản và điều kiện trước khi ký."
+
+- word: "negotiate"
+  pos: "verb"
+  ipa: "/nɪˈɡəʊʃieɪt/"
+  meaning: "đàm phán, thương lượng"
+  topic: "general-business"
+  sub-topic: "contracts-negotiation"
+  lesson: ["lesson-05"]
+  level: 600
+  forms:
+    verb: "negotiate"
+    noun: ["negotiation", "negotiator"]
+    adjective: "negotiable"
+  collocations:
+    - en: "negotiate a deal"
+      vi: "đàm phán một thương vụ"
+    - en: "negotiate a contract"
+      vi: "thương lượng hợp đồng"
+  example:
+    en: "The managers met to {negotiate} the terms of the new deal."
+    vi: "Các quản lý gặp nhau để đàm phán các điều khoản của thương vụ mới."
+
+- word: "negotiable"
+  pos: "adjective"
+  ipa: "/nɪˈɡəʊʃiəbl/"
+  meaning: "có thể thương lượng, thỏa thuận được"
+  topic: "general-business"
+  sub-topic: "contracts-negotiation"
+  lesson: ["lesson-05"]
+  level: 750
+  forms:
+    adjective: "negotiable"
+    verb: "negotiate"
+    noun: "negotiation"
+  collocations:
+    - en: "the salary is negotiable"
+      vi: "mức lương có thể thương lượng"
+    - en: "terms are negotiable"
+      vi: "các điều khoản có thể thỏa thuận"
+  example:
+    en: "The starting salary is {negotiable} depending on experience."
+    vi: "Mức lương khởi điểm có thể thương lượng tùy theo kinh nghiệm."
+
+- word: "concession"
+  pos: "noun"
+  ipa: "/kənˈseʃn/"
+  meaning: "sự nhượng bộ (trong đàm phán)"
+  topic: "general-business"
+  sub-topic: "contracts-negotiation"
+  lesson: ["lesson-05"]
+  level: 900
+  forms:
+    noun: "concession"
+    verb: "concede"
+  collocations:
+    - en: "make a concession"
+      vi: "đưa ra một nhượng bộ"
+    - en: "offer concessions"
+      vi: "đề nghị nhượng bộ"
+  example:
+    en: "The company made a {concession} on price to close the deal."
+    vi: "Công ty nhượng bộ về giá để chốt được thương vụ."
+
+- word: "binding"
+  pos: "adjective"
+  ipa: "/ˈbaɪndɪŋ/"
+  meaning: "có tính ràng buộc (về pháp lý)"
+  topic: "general-business"
+  sub-topic: "contracts-negotiation"
+  lesson: ["lesson-05"]
+  level: 900
+  forms:
+    adjective: "binding"
+    verb: "bind"
+  collocations:
+    - en: "a legally binding contract"
+      vi: "một hợp đồng ràng buộc về pháp lý"
+    - en: "a binding agreement"
+      vi: "một thỏa thuận có tính ràng buộc"
+  example:
+    en: "Once signed, the agreement is legally {binding} on both parties."
+    vi: "Một khi đã ký, thỏa thuận có tính ràng buộc pháp lý với cả hai bên."
+
+- word: "breach"
+  pos: "noun"
+  ipa: "/briːtʃ/"
+  meaning: "sự vi phạm (hợp đồng, quy định)"
+  topic: "general-business"
+  sub-topic: "contracts-negotiation"
+  lesson: ["lesson-05"]
+  level: 900
+  forms:
+    noun: "breach"
+    verb: "breach"
+  collocations:
+    - en: "a breach of contract"
+      vi: "sự vi phạm hợp đồng"
+    - en: "in breach of the rules"
+      vi: "vi phạm các quy định"
+  example:
+    en: "Failing to deliver on time is a {breach} of contract."
+    vi: "Việc không giao hàng đúng hạn là một sự vi phạm hợp đồng."
+
+- word: "abide by"
+  pos: "phrasal verb"
+  ipa: "/əˈbaɪd baɪ/"
+  meaning: "tuân thủ, làm theo (quy định, thỏa thuận)"
+  topic: "general-business"
+  sub-topic: "contracts-negotiation"
+  lesson: ["lesson-05"]
+  level: 900
+  forms:
+    verb: "abide by"
+  collocations:
+    - en: "abide by the terms"
+      vi: "tuân thủ các điều khoản"
+    - en: "abide by the rules"
+      vi: "tuân theo các quy định"
+  example:
+    en: "All members must {abide by} the terms of the agreement."
+    vi: "Tất cả thành viên phải tuân thủ các điều khoản của thỏa thuận."
+
+- word: "comply"
+  pos: "verb"
+  ipa: "/kəmˈplaɪ/"
+  meaning: "tuân thủ, làm đúng quy định"
+  topic: "general-business"
+  sub-topic: "contracts-negotiation"
+  lesson: ["lesson-05"]
+  level: 600
+  forms:
+    verb: "comply"
+    noun: "compliance"
+    adjective: "compliant"
+  collocations:
+    - en: "comply with regulations"
+      vi: "tuân thủ các quy định"
+    - en: "comply with a request"
+      vi: "đáp ứng một yêu cầu"
+  example:
+    en: "All products must {comply} with local safety regulations."
+    vi: "Mọi sản phẩm phải tuân thủ các quy định an toàn của địa phương."
+  note: "Luôn đi với giới từ 'with': comply with sth. Đừng nhầm với 'apply'."
+
+- word: "amend"
+  pos: "verb"
+  ipa: "/əˈmend/"
+  meaning: "sửa đổi, bổ sung (văn bản, thỏa thuận)"
+  topic: "general-business"
+  sub-topic: "contracts-negotiation"
+  lesson: ["lesson-05"]
+  level: 750
+  forms:
+    verb: "amend"
+    noun: "amendment"
+  collocations:
+    - en: "amend the agreement"
+      vi: "sửa đổi thỏa thuận"
+    - en: "amend a contract"
+      vi: "sửa đổi hợp đồng"
+  example:
+    en: "The lawyers {amended} the contract to add a new clause."
+    vi: "Các luật sư sửa đổi hợp đồng để thêm một điều khoản mới."
+
+- word: "void"
+  pos: "adjective"
+  ipa: "/vɔɪd/"
+  meaning: "vô hiệu, không còn giá trị pháp lý"
+  topic: "general-business"
+  sub-topic: "contracts-negotiation"
+  lesson: ["lesson-05"]
+  level: 900
+  forms:
+    adjective: "void"
+    verb: "void"
+  collocations:
+    - en: "null and void"
+      vi: "hoàn toàn vô hiệu"
+    - en: "become void"
+      vi: "trở nên vô hiệu"
+  example:
+    en: "If either party breaks the terms, the contract becomes {void}."
+    vi: "Nếu một trong hai bên vi phạm điều khoản, hợp đồng trở nên vô hiệu."
+
+- word: "obligation"
+  pos: "noun"
+  ipa: "/ˌɒblɪˈɡeɪʃn/"
+  meaning: "nghĩa vụ, trách nhiệm phải làm"
+  topic: "general-business"
+  sub-topic: "contracts-negotiation"
+  lesson: ["lesson-05"]
+  level: 750
+  forms:
+    noun: "obligation"
+    verb: "oblige"
+    adjective: "obligatory"
+  collocations:
+    - en: "fulfill an obligation"
+      vi: "hoàn thành một nghĩa vụ"
+    - en: "a legal obligation"
+      vi: "một nghĩa vụ pháp lý"
+  example:
+    en: "The supplier has an {obligation} to deliver the goods on time."
+    vi: "Nhà cung cấp có nghĩa vụ giao hàng đúng hạn."
+
+- word: "liable"
+  pos: "adjective"
+  ipa: "/ˈlaɪəbl/"
+  meaning: "chịu trách nhiệm pháp lý"
+  topic: "general-business"
+  sub-topic: "contracts-negotiation"
+  lesson: ["lesson-05"]
+  level: 900
+  forms:
+    adjective: "liable"
+    noun: "liability"
+  collocations:
+    - en: "be liable for damages"
+      vi: "chịu trách nhiệm về thiệt hại"
+    - en: "held liable"
+      vi: "bị quy trách nhiệm"
+  example:
+    en: "The company is {liable} for any damage caused by its products."
+    vi: "Công ty phải chịu trách nhiệm về mọi thiệt hại do sản phẩm gây ra."
+  note: "Đi với giới từ 'for': be liable for sth. Danh từ là 'liability'."
+
+- word: "arbitration"
+  pos: "noun"
+  ipa: "/ˌɑːbɪˈtreɪʃn/"
+  meaning: "sự phân xử qua trọng tài (giải quyết tranh chấp)"
+  topic: "general-business"
+  sub-topic: "contracts-negotiation"
+  lesson: ["lesson-05"]
+  level: 900
+  forms:
+    noun: ["arbitration", "arbitrator"]
+    verb: "arbitrate"
+  collocations:
+    - en: "go to arbitration"
+      vi: "đưa ra trọng tài phân xử"
+    - en: "settle a dispute through arbitration"
+      vi: "giải quyết tranh chấp qua trọng tài"
+  example:
+    en: "The two firms agreed to settle the dispute through {arbitration}."
+    vi: "Hai công ty đồng ý giải quyết tranh chấp qua trọng tài."
+
+- word: "merger"
+  pos: "noun"
+  ipa: "/ˈmɜːdʒə(r)/"
+  meaning: "sự sáp nhập (hai công ty thành một)"
+  topic: "general-business"
+  sub-topic: "mergers-restructuring"
+  lesson: ["lesson-05"]
+  level: 750
+  forms:
+    noun: "merger"
+    verb: "merge"
+  collocations:
+    - en: "a merger between two companies"
+      vi: "sự sáp nhập giữa hai công ty"
+    - en: "announce a merger"
+      vi: "công bố việc sáp nhập"
+  example:
+    en: "The {merger} between the two banks created the largest bank in the region."
+    vi: "Việc sáp nhập giữa hai ngân hàng tạo ra ngân hàng lớn nhất khu vực."
+
+- word: "acquisition"
+  pos: "noun"
+  ipa: "/ˌækwɪˈzɪʃn/"
+  meaning: "sự mua lại, thâu tóm (một công ty khác)"
+  topic: "general-business"
+  sub-topic: "mergers-restructuring"
+  lesson: ["lesson-05"]
+  level: 750
+  forms:
+    noun: "acquisition"
+    verb: "acquire"
+  collocations:
+    - en: "make an acquisition"
+      vi: "thực hiện một vụ thâu tóm"
+    - en: "a recent acquisition"
+      vi: "một vụ mua lại gần đây"
+  example:
+    en: "The {acquisition} of the smaller firm expanded the company's market share."
+    vi: "Vụ mua lại công ty nhỏ hơn giúp mở rộng thị phần của công ty."
+
+- word: "subsidiary"
+  pos: "noun"
+  ipa: "/səbˈsɪdiəri/"
+  meaning: "công ty con (do công ty mẹ sở hữu)"
+  topic: "general-business"
+  sub-topic: "mergers-restructuring"
+  lesson: ["lesson-05"]
+  level: 900
+  forms:
+    noun: "subsidiary"
+  collocations:
+    - en: "a wholly-owned subsidiary"
+      vi: "công ty con sở hữu toàn phần"
+    - en: "an overseas subsidiary"
+      vi: "công ty con ở nước ngoài"
+  example:
+    en: "The factory is run by a {subsidiary} of the parent company."
+    vi: "Nhà máy được điều hành bởi một công ty con của công ty mẹ."
+
+- word: "affiliate"
+  pos: "noun"
+  ipa: "/əˈfɪliət/"
+  meaning: "công ty liên kết, chi nhánh liên kết"
+  topic: "general-business"
+  sub-topic: "mergers-restructuring"
+  lesson: ["lesson-05"]
+  level: 900
+  forms:
+    noun: "affiliate"
+    verb: "affiliate"
+    adjective: "affiliated"
+  collocations:
+    - en: "an overseas affiliate"
+      vi: "một công ty liên kết ở nước ngoài"
+    - en: "a local affiliate"
+      vi: "một đơn vị liên kết trong nước"
+  example:
+    en: "The products are distributed through a local {affiliate}."
+    vi: "Các sản phẩm được phân phối thông qua một công ty liên kết trong nước."
+
+- word: "headquarters"
+  pos: "noun"
+  ipa: "/ˈhedkwɔːtəz/"
+  meaning: "trụ sở chính"
+  topic: "general-business"
+  sub-topic: "mergers-restructuring"
+  lesson: ["lesson-05"]
+  level: 600
+  forms:
+    noun: "headquarters"
+    verb: "headquarter"
+  collocations:
+    - en: "the company headquarters"
+      vi: "trụ sở chính của công ty"
+    - en: "be headquartered in"
+      vi: "đặt trụ sở tại"
+  example:
+    en: "The company's {headquarters} are located in downtown Singapore."
+    vi: "Trụ sở chính của công ty đặt tại trung tâm Singapore."
+  note: "Luôn ở dạng có 's', có thể dùng như số ít hoặc số nhiều. Viết tắt là HQ."
+
+- word: "stakeholder"
+  pos: "noun"
+  ipa: "/ˈsteɪkhəʊldə(r)/"
+  meaning: "bên liên quan, bên có lợi ích"
+  topic: "general-business"
+  sub-topic: "mergers-restructuring"
+  lesson: ["lesson-05"]
+  level: 750
+  forms:
+    noun: "stakeholder"
+  collocations:
+    - en: "key stakeholders"
+      vi: "các bên liên quan chủ chốt"
+    - en: "consult stakeholders"
+      vi: "tham vấn các bên liên quan"
+  example:
+    en: "All key {stakeholders} were invited to review the proposal."
+    vi: "Tất cả các bên liên quan chủ chốt đều được mời xem xét đề xuất."
+  note: "Đừng nhầm với 'shareholder' (cổ đông); stakeholder rộng hơn, gồm nhân viên, khách hàng, cộng đồng…"
+
+- word: "restructure"
+  pos: "verb"
+  ipa: "/ˌriːˈstrʌktʃə(r)/"
+  meaning: "tái cơ cấu, tổ chức lại"
+  topic: "general-business"
+  sub-topic: "mergers-restructuring"
+  lesson: ["lesson-05"]
+  level: 750
+  forms:
+    verb: "restructure"
+    noun: "restructuring"
+  collocations:
+    - en: "restructure the department"
+      vi: "tái cơ cấu bộ phận"
+    - en: "restructure the company"
+      vi: "tái cơ cấu công ty"
+  example:
+    en: "Management decided to {restructure} the sales department to cut costs."
+    vi: "Ban quản lý quyết định tái cơ cấu bộ phận bán hàng để cắt giảm chi phí."
+
+- word: "expand"
+  pos: "verb"
+  ipa: "/ɪkˈspænd/"
+  meaning: "mở rộng (quy mô, thị trường)"
+  topic: "general-business"
+  sub-topic: "mergers-restructuring"
+  lesson: ["lesson-05"]
+  level: 600
+  forms:
+    verb: "expand"
+    noun: "expansion"
+  collocations:
+    - en: "expand into new markets"
+      vi: "mở rộng sang các thị trường mới"
+    - en: "expand the business"
+      vi: "mở rộng hoạt động kinh doanh"
+  example:
+    en: "The firm plans to {expand} into overseas markets next year."
+    vi: "Công ty dự định mở rộng sang các thị trường nước ngoài vào năm tới."
+  note: "Đi với giới từ 'into': expand into a market. Danh từ là 'expansion'."
+
+- word: "advertisement"
+  pos: "noun"
+  ipa: "/ədˈvɜːtɪsmənt/"
+  meaning: "quảng cáo, mẩu quảng cáo"
+  topic: "general-business"
+  sub-topic: "marketing-sales"
+  lesson: ["lesson-06"]
+  level: 600
+  forms:
+    noun: ["advertisement", "advertising", "advertiser"]
+    verb: "advertise"
+  collocations:
+    - en: "place an advertisement"
+      vi: "đăng một mẩu quảng cáo"
+    - en: "a full-page advertisement"
+      vi: "một quảng cáo trọn trang"
+  example:
+    en: "The company placed an {advertisement} in the local newspaper."
+    vi: "Công ty đăng một mẩu quảng cáo trên báo địa phương."
+  note: "'advertisement' (mẩu quảng cáo, đếm được) khác 'advertising' (hoạt động/ngành quảng cáo, không đếm được)."
+
+- word: "campaign"
+  pos: "noun"
+  ipa: "/kæmˈpeɪn/"
+  meaning: "chiến dịch (quảng cáo, tiếp thị)"
+  topic: "general-business"
+  sub-topic: "marketing-sales"
+  lesson: ["lesson-06"]
+  level: 600
+  forms:
+    noun: "campaign"
+    verb: "campaign"
+  collocations:
+    - en: "launch a marketing campaign"
+      vi: "khởi động một chiến dịch tiếp thị"
+    - en: "an advertising campaign"
+      vi: "một chiến dịch quảng cáo"
+  example:
+    en: "They launched a nationwide advertising {campaign} for the new product."
+    vi: "Họ khởi động một chiến dịch quảng cáo toàn quốc cho sản phẩm mới."
+
+- word: "brand"
+  pos: "noun"
+  ipa: "/brænd/"
+  meaning: "thương hiệu, nhãn hiệu"
+  topic: "general-business"
+  sub-topic: "marketing-sales"
+  lesson: ["lesson-06"]
+  level: 600
+  forms:
+    noun: "brand"
+    verb: "brand"
+    noun_activity: "branding"
+  collocations:
+    - en: "brand awareness"
+      vi: "mức độ nhận biết thương hiệu"
+    - en: "brand loyalty"
+      vi: "sự trung thành với thương hiệu"
+  example:
+    en: "The campaign was designed to increase {brand} awareness among young buyers."
+    vi: "Chiến dịch được thiết kế để tăng nhận biết thương hiệu trong nhóm khách trẻ."
+
+- word: "promote"
+  pos: "verb"
+  ipa: "/prəˈməʊt/"
+  meaning: "quảng bá, xúc tiến (sản phẩm)"
+  topic: "general-business"
+  sub-topic: "marketing-sales"
+  lesson: ["lesson-06"]
+  level: 600
+  forms:
+    verb: "promote"
+    noun: "promotion"
+    adjective: "promotional"
+  collocations:
+    - en: "promote a new product"
+      vi: "quảng bá một sản phẩm mới"
+    - en: "promote a brand"
+      vi: "quảng bá một thương hiệu"
+  example:
+    en: "The company used social media to {promote} its latest product."
+    vi: "Công ty dùng mạng xã hội để quảng bá sản phẩm mới nhất."
+  note: "Nghĩa kép: 'quảng bá (sản phẩm)' và 'thăng chức (nhân viên)'. Danh từ 'promotion' cũng có hai nghĩa tương ứng."
+
+- word: "target market"
+  pos: "noun"
+  ipa: "/ˈtɑːɡɪt ˈmɑːkɪt/"
+  meaning: "thị trường mục tiêu"
+  topic: "general-business"
+  sub-topic: "marketing-sales"
+  lesson: ["lesson-06"]
+  level: 750
+  forms:
+    noun: "target market"
+  collocations:
+    - en: "identify the target market"
+      vi: "xác định thị trường mục tiêu"
+    - en: "reach the target market"
+      vi: "tiếp cận thị trường mục tiêu"
+  example:
+    en: "The company's {target market} is young professionals in big cities."
+    vi: "Thị trường mục tiêu của công ty là những người trẻ đi làm ở các thành phố lớn."
+
+- word: "consumer"
+  pos: "noun"
+  ipa: "/kənˈsjuːmə(r)/"
+  meaning: "người tiêu dùng"
+  topic: "general-business"
+  sub-topic: "marketing-sales"
+  lesson: ["lesson-06"]
+  level: 600
+  forms:
+    noun: ["consumer", "consumption"]
+    verb: "consume"
+  collocations:
+    - en: "consumer behavior"
+      vi: "hành vi người tiêu dùng"
+    - en: "consumer demand"
+      vi: "nhu cầu của người tiêu dùng"
+  example:
+    en: "The survey studied {consumer} behavior in the retail sector."
+    vi: "Cuộc khảo sát nghiên cứu hành vi người tiêu dùng trong ngành bán lẻ."
+
+- word: "demand"
+  pos: "noun"
+  ipa: "/dɪˈmɑːnd/"
+  meaning: "nhu cầu (đối với sản phẩm, dịch vụ)"
+  topic: "general-business"
+  sub-topic: "marketing-sales"
+  lesson: ["lesson-06"]
+  level: 600
+  forms:
+    noun: "demand"
+    verb: "demand"
+  collocations:
+    - en: "meet the growing demand"
+      vi: "đáp ứng nhu cầu ngày càng tăng"
+    - en: "high demand"
+      vi: "nhu cầu cao"
+  example:
+    en: "There is a high {demand} for eco-friendly products these days."
+    vi: "Hiện nay có nhu cầu cao đối với các sản phẩm thân thiện với môi trường."
+
+- word: "survey"
+  pos: "noun"
+  ipa: "/ˈsɜːveɪ/"
+  meaning: "cuộc khảo sát, điều tra ý kiến"
+  topic: "general-business"
+  sub-topic: "marketing-sales"
+  lesson: ["lesson-06"]
+  level: 600
+  forms:
+    noun: "survey"
+    verb: "survey"
+  collocations:
+    - en: "conduct a survey"
+      vi: "tiến hành một cuộc khảo sát"
+    - en: "a customer survey"
+      vi: "một cuộc khảo sát khách hàng"
+  example:
+    en: "The marketing team conducted a {survey} to gather customer opinions."
+    vi: "Nhóm tiếp thị tiến hành một cuộc khảo sát để thu thập ý kiến khách hàng."
+  note: "Trọng âm đổi theo từ loại: danh từ /ˈsɜːveɪ/, động từ /səˈveɪ/."
+
+- word: "questionnaire"
+  pos: "noun"
+  ipa: "/ˌkwestʃəˈneə(r)/"
+  meaning: "bảng câu hỏi (dùng để khảo sát)"
+  topic: "general-business"
+  sub-topic: "marketing-sales"
+  lesson: ["lesson-06"]
+  level: 750
+  forms:
+    noun: "questionnaire"
+  collocations:
+    - en: "fill out a questionnaire"
+      vi: "điền vào bảng câu hỏi"
+    - en: "complete a questionnaire"
+      vi: "hoàn thành bảng câu hỏi"
+  example:
+    en: "Customers were asked to fill out a short {questionnaire}."
+    vi: "Khách hàng được yêu cầu điền vào một bảng câu hỏi ngắn."
+
+- word: "feedback"
+  pos: "noun"
+  ipa: "/ˈfiːdbæk/"
+  meaning: "phản hồi, ý kiến đóng góp"
+  topic: "general-business"
+  sub-topic: "marketing-sales"
+  lesson: ["lesson-06"]
+  level: 600
+  forms:
+    noun: "feedback"
+  collocations:
+    - en: "positive customer feedback"
+      vi: "phản hồi tích cực của khách hàng"
+    - en: "give feedback"
+      vi: "đưa ra phản hồi"
+  example:
+    en: "We received positive {feedback} from customers about the new design."
+    vi: "Chúng tôi nhận được phản hồi tích cực từ khách hàng về thiết kế mới."
+  note: "Danh từ KHÔNG đếm được: dùng 'much feedback', không dùng 'feedbacks' hay 'a feedback'."
+
+- word: "testimonial"
+  pos: "noun"
+  ipa: "/ˌtestɪˈməʊniəl/"
+  meaning: "lời chứng thực của khách hàng"
+  topic: "general-business"
+  sub-topic: "marketing-sales"
+  lesson: ["lesson-06"]
+  level: 900
+  forms:
+    noun: "testimonial"
+  collocations:
+    - en: "customer testimonials"
+      vi: "lời chứng thực của khách hàng"
+    - en: "a glowing testimonial"
+      vi: "một lời chứng thực đầy khen ngợi"
+  example:
+    en: "The website features {testimonials} from satisfied customers."
+    vi: "Trang web đăng các lời chứng thực từ những khách hàng hài lòng."
+
+- word: "endorse"
+  pos: "verb"
+  ipa: "/ɪnˈdɔːs/"
+  meaning: "chứng thực, ủng hộ công khai (một sản phẩm, thương hiệu)"
+  topic: "general-business"
+  sub-topic: "marketing-sales"
+  lesson: ["lesson-06"]
+  level: 900
+  forms:
+    verb: "endorse"
+    noun: "endorsement"
+  collocations:
+    - en: "endorse a brand"
+      vi: "chứng thực một thương hiệu"
+    - en: "endorse a product"
+      vi: "ủng hộ một sản phẩm"
+  example:
+    en: "A famous athlete was paid to {endorse} the sports drink."
+    vi: "Một vận động viên nổi tiếng được trả tiền để quảng bá cho loại nước thể thao."
+
+- word: "competitor"
+  pos: "noun"
+  ipa: "/kəmˈpetɪtə(r)/"
+  meaning: "đối thủ cạnh tranh"
+  topic: "general-business"
+  sub-topic: "marketing-sales"
+  lesson: ["lesson-06"]
+  level: 600
+  forms:
+    noun: ["competitor", "competition"]
+    verb: "compete"
+    adjective: "competitive"
+  collocations:
+    - en: "a leading competitor"
+      vi: "một đối thủ hàng đầu"
+    - en: "beat the competitors"
+      vi: "đánh bại các đối thủ"
+  example:
+    en: "The company lowered its prices to stay ahead of its {competitors}."
+    vi: "Công ty hạ giá để giữ vị trí dẫn trước các đối thủ."
+
+- word: "competitive"
+  pos: "adjective"
+  ipa: "/kəmˈpetətɪv/"
+  meaning: "cạnh tranh, có sức cạnh tranh (giá cả, thị trường)"
+  topic: "general-business"
+  sub-topic: "marketing-sales"
+  lesson: ["lesson-06"]
+  level: 600
+  forms:
+    adjective: "competitive"
+    verb: "compete"
+    noun: ["competition", "competitor"]
+  collocations:
+    - en: "competitive pricing"
+      vi: "định giá cạnh tranh"
+    - en: "a competitive market"
+      vi: "một thị trường cạnh tranh"
+  example:
+    en: "The store offers {competitive} prices to attract more customers."
+    vi: "Cửa hàng đưa ra mức giá cạnh tranh để thu hút thêm khách hàng."
+
+- word: "exclusive"
+  pos: "adjective"
+  ipa: "/ɪkˈskluːsɪv/"
+  meaning: "độc quyền, dành riêng"
+  topic: "general-business"
+  sub-topic: "marketing-sales"
+  lesson: ["lesson-06"]
+  level: 750
+  forms:
+    adjective: "exclusive"
+    adverb: "exclusively"
+  collocations:
+    - en: "an exclusive offer"
+      vi: "một ưu đãi độc quyền"
+    - en: "exclusive rights"
+      vi: "quyền độc quyền"
+  example:
+    en: "Members receive {exclusive} discounts not available to the public."
+    vi: "Thành viên nhận được các ưu đãi độc quyền không dành cho công chúng."
+
+- word: "boost"
+  pos: "verb"
+  ipa: "/buːst/"
+  meaning: "thúc đẩy, làm tăng (doanh số, tinh thần)"
+  topic: "general-business"
+  sub-topic: "marketing-sales"
+  lesson: ["lesson-06"]
+  level: 600
+  forms:
+    verb: "boost"
+    noun: "boost"
+  collocations:
+    - en: "boost sales"
+      vi: "thúc đẩy doanh số"
+    - en: "boost morale"
+      vi: "nâng cao tinh thần"
+  example:
+    en: "The new ad campaign helped {boost} sales by 30 percent."
+    vi: "Chiến dịch quảng cáo mới giúp thúc đẩy doanh số tăng 30 phần trăm."
+
+- word: "decline"
+  pos: "verb"
+  ipa: "/dɪˈklaɪn/"
+  meaning: "sụt giảm; từ chối (lời mời, đề nghị)"
+  topic: "general-business"
+  sub-topic: "marketing-sales"
+  lesson: ["lesson-06"]
+  level: 750
+  forms:
+    verb: "decline"
+    noun: "decline"
+  collocations:
+    - en: "sales declined sharply"
+      vi: "doanh số sụt giảm mạnh"
+    - en: "decline an invitation"
+      vi: "từ chối một lời mời"
+  example:
+    en: "Sales {declined} sharply after the price increase."
+    vi: "Doanh số sụt giảm mạnh sau khi tăng giá."
+  note: "Nghĩa kép: 'sụt giảm' (số liệu) và 'lịch sự từ chối' (lời mời/đề nghị)."
+
+- word: "forecast"
+  pos: "noun"
+  ipa: "/ˈfɔːkɑːst/"
+  meaning: "dự báo (doanh số, thời tiết)"
+  topic: "general-business"
+  sub-topic: "marketing-sales"
+  lesson: ["lesson-06"]
+  level: 750
+  forms:
+    noun: "forecast"
+    verb: "forecast"
+  collocations:
+    - en: "the sales forecast"
+      vi: "dự báo doanh số"
+    - en: "an economic forecast"
+      vi: "dự báo kinh tế"
+  example:
+    en: "The sales {forecast} for next quarter looks very positive."
+    vi: "Dự báo doanh số cho quý tới trông rất khả quan."
+
+- word: "quota"
+  pos: "noun"
+  ipa: "/ˈkwəʊtə/"
+  meaning: "chỉ tiêu, hạn ngạch"
+  topic: "general-business"
+  sub-topic: "marketing-sales"
+  lesson: ["lesson-06"]
+  level: 900
+  forms:
+    noun: "quota"
+  collocations:
+    - en: "meet a sales quota"
+      vi: "đạt chỉ tiêu doanh số"
+    - en: "exceed the quota"
+      vi: "vượt chỉ tiêu"
+  example:
+    en: "The sales team worked hard to meet its monthly {quota}."
+    vi: "Nhóm bán hàng làm việc chăm chỉ để đạt chỉ tiêu hằng tháng."
+
+- word: "outlet"
+  pos: "noun"
+  ipa: "/ˈaʊtlet/"
+  meaning: "cửa hàng, kênh phân phối"
+  topic: "general-business"
+  sub-topic: "marketing-sales"
+  lesson: ["lesson-06"]
+  level: 750
+  forms:
+    noun: "outlet"
+  collocations:
+    - en: "a retail outlet"
+      vi: "một cửa hàng bán lẻ"
+    - en: "a distribution outlet"
+      vi: "một kênh phân phối"
+  example:
+    en: "The brand has more than 200 retail {outlets} nationwide."
+    vi: "Thương hiệu có hơn 200 cửa hàng bán lẻ trên toàn quốc."
+
+- word: "voucher"
+  pos: "noun"
+  ipa: "/ˈvaʊtʃə(r)/"
+  meaning: "phiếu giảm giá, phiếu quà tặng"
+  topic: "general-business"
+  sub-topic: "marketing-sales"
+  lesson: ["lesson-06"]
+  level: 600
+  forms:
+    noun: "voucher"
+  collocations:
+    - en: "redeem a voucher"
+      vi: "sử dụng (đổi) một phiếu giảm giá"
+    - en: "a gift voucher"
+      vi: "một phiếu quà tặng"
+  example:
+    en: "Customers can redeem the {voucher} for a 20 percent discount."
+    vi: "Khách hàng có thể dùng phiếu để được giảm giá 20 phần trăm."
+
+- word: "loyalty program"
+  pos: "noun"
+  ipa: "/ˈlɔɪəlti ˈprəʊɡræm/"
+  meaning: "chương trình khách hàng thân thiết"
+  topic: "general-business"
+  sub-topic: "marketing-sales"
+  lesson: ["lesson-06"]
+  level: 750
+  forms:
+    noun: "loyalty program"
+  collocations:
+    - en: "enroll in a loyalty program"
+      vi: "tham gia chương trình khách hàng thân thiết"
+    - en: "join a loyalty program"
+      vi: "gia nhập chương trình khách hàng thân thiết"
+  example:
+    en: "Members of the {loyalty program} earn points on every purchase."
+    vi: "Thành viên của chương trình khách hàng thân thiết tích điểm cho mỗi lần mua."
+
+- word: "word of mouth"
+  pos: "noun"
+  ipa: "/ˌwɜːd əv ˈmaʊθ/"
+  meaning: "truyền miệng (cách lan truyền thông tin)"
+  topic: "general-business"
+  sub-topic: "marketing-sales"
+  lesson: ["lesson-06"]
+  level: 900
+  forms:
+    noun: "word of mouth"
+  collocations:
+    - en: "spread by word of mouth"
+      vi: "lan truyền bằng truyền miệng"
+    - en: "word-of-mouth marketing"
+      vi: "tiếp thị truyền miệng"
+  example:
+    en: "The restaurant became popular mainly through {word of mouth}."
+    vi: "Nhà hàng trở nên nổi tiếng chủ yếu nhờ truyền miệng."
+
+- word: "warranty"
+  pos: "noun"
+  ipa: "/ˈwɒrənti/"
+  meaning: "chế độ bảo hành"
+  topic: "general-business"
+  sub-topic: "warranty"
+  lesson: ["lesson-07"]
+  level: 600
+  forms:
+    noun: "warranty"
+  collocations:
+    - en: "under warranty"
+      vi: "còn trong thời hạn bảo hành"
+    - en: "a one-year warranty"
+      vi: "bảo hành một năm"
+  example:
+    en: "The laptop is still {under warranty}, so the repair is free."
+    vi: "Chiếc laptop vẫn còn trong thời hạn bảo hành nên việc sửa chữa được miễn phí."
+  note: "Cụm cố định: 'under warranty' = còn hạn bảo hành. Gần nghĩa với 'guarantee'."
+
+- word: "guarantee"
+  pos: "noun"
+  ipa: "/ˌɡærənˈtiː/"
+  meaning: "sự bảo đảm, cam kết"
+  topic: "general-business"
+  sub-topic: "warranty"
+  lesson: ["lesson-07"]
+  level: 600
+  forms:
+    noun: "guarantee"
+    verb: "guarantee"
+  collocations:
+    - en: "a money-back guarantee"
+      vi: "cam kết hoàn tiền"
+    - en: "offer a guarantee"
+      vi: "đưa ra sự bảo đảm"
+  example:
+    en: "The product comes with a 30-day money-back {guarantee}."
+    vi: "Sản phẩm đi kèm cam kết hoàn tiền trong 30 ngày."
+
+- word: "defect"
+  pos: "noun"
+  ipa: "/ˈdiːfekt/"
+  meaning: "lỗi, khuyết tật của sản phẩm"
+  topic: "general-business"
+  sub-topic: "warranty"
+  lesson: ["lesson-07", "lesson-18"]
+  level: 750
+  forms:
+    noun: "defect"
+    adjective: "defective"
+  collocations:
+    - en: "a manufacturing defect"
+      vi: "một lỗi trong sản xuất"
+    - en: "detect a defect"
+      vi: "phát hiện một lỗi"
+  example:
+    en: "The product was returned because of a manufacturing {defect}."
+    vi: "Sản phẩm bị trả lại vì một lỗi trong quá trình sản xuất."
+  note: "Tính từ là 'defective' (bị lỗi). Trọng âm: danh từ /ˈdiːfekt/, động từ /dɪˈfekt/."
+
+- word: "faulty"
+  pos: "adjective"
+  ipa: "/ˈfɔːlti/"
+  meaning: "bị lỗi, hỏng hóc"
+  topic: "general-business"
+  sub-topic: "warranty"
+  lesson: ["lesson-07"]
+  level: 750
+  forms:
+    adjective: "faulty"
+    noun: "fault"
+  collocations:
+    - en: "a faulty component"
+      vi: "một linh kiện bị lỗi"
+    - en: "faulty wiring"
+      vi: "hệ thống dây điện bị lỗi"
+  example:
+    en: "The customer returned the {faulty} device for a replacement."
+    vi: "Khách hàng trả lại thiết bị bị lỗi để đổi cái mới."
+
+- word: "repair"
+  pos: "verb"
+  ipa: "/rɪˈpeə(r)/"
+  meaning: "sửa chữa"
+  topic: "general-business"
+  sub-topic: "warranty"
+  lesson: ["lesson-07"]
+  level: 600
+  forms:
+    verb: "repair"
+    noun: "repair"
+  collocations:
+    - en: "free repairs"
+      vi: "sửa chữa miễn phí"
+    - en: "repair a device"
+      vi: "sửa một thiết bị"
+  example:
+    en: "The technician will {repair} the machine free of charge."
+    vi: "Kỹ thuật viên sẽ sửa chiếc máy miễn phí."
+
+- word: "replace"
+  pos: "verb"
+  ipa: "/rɪˈpleɪs/"
+  meaning: "thay thế (bằng cái mới)"
+  topic: "general-business"
+  sub-topic: "warranty"
+  lesson: ["lesson-07"]
+  level: 600
+  forms:
+    verb: "replace"
+    noun: "replacement"
+  collocations:
+    - en: "replace a faulty part"
+      vi: "thay một bộ phận bị lỗi"
+    - en: "replace the product"
+      vi: "thay thế sản phẩm"
+  example:
+    en: "The store agreed to {replace} the broken item with a new one."
+    vi: "Cửa hàng đồng ý thay món hàng bị hỏng bằng một cái mới."
+
+- word: "expire"
+  pos: "verb"
+  ipa: "/ɪkˈspaɪə(r)/"
+  meaning: "hết hạn (bảo hành, hợp đồng, giấy tờ)"
+  topic: "general-business"
+  sub-topic: "warranty"
+  lesson: ["lesson-07", "lesson-09"]
+  level: 750
+  forms:
+    verb: "expire"
+    noun: ["expiry", "expiration"]
+  collocations:
+    - en: "the warranty expires"
+      vi: "bảo hành hết hạn"
+    - en: "expire soon"
+      vi: "sắp hết hạn"
+  example:
+    en: "The warranty will {expire} at the end of June."
+    vi: "Bảo hành sẽ hết hạn vào cuối tháng Sáu."
+
+- word: "coverage"
+  pos: "noun"
+  ipa: "/ˈkʌvərɪdʒ/"
+  meaning: "phạm vi bảo hành (những gì được bảo hành)"
+  topic: "general-business"
+  sub-topic: "warranty"
+  lesson: ["lesson-07", "lesson-26"]
+  level: 750
+  forms:
+    noun: "coverage"
+    verb: "cover"
+  collocations:
+    - en: "extended coverage"
+      vi: "phạm vi bảo hành mở rộng"
+    - en: "full coverage"
+      vi: "bảo hành toàn phần"
+  example:
+    en: "The extended {coverage} protects the device for an extra two years."
+    vi: "Gói bảo hành mở rộng bảo vệ thiết bị thêm hai năm."
+  note: "Danh từ không đếm được. Cũng dùng cho bảo hiểm (phạm vi bảo hiểm) và tin tức (sự đưa tin)."
+
+- word: "strategy"
+  pos: "noun"
+  ipa: "/ˈstrætədʒi/"
+  meaning: "chiến lược, kế hoạch dài hạn"
+  topic: "general-business"
+  sub-topic: "business-planning"
+  lesson: ["lesson-07"]
+  level: 600
+  forms:
+    noun: "strategy"
+    adjective: "strategic"
+    adverb: "strategically"
+  collocations:
+    - en: "develop a strategy"
+      vi: "xây dựng một chiến lược"
+    - en: "a marketing strategy"
+      vi: "một chiến lược tiếp thị"
+  example:
+    en: "The company developed a new {strategy} to enter the Asian market."
+    vi: "Công ty xây dựng một chiến lược mới để thâm nhập thị trường châu Á."
+
+- word: "objective"
+  pos: "noun"
+  ipa: "/əbˈdʒektɪv/"
+  meaning: "mục tiêu (cần đạt được)"
+  topic: "general-business"
+  sub-topic: "business-planning"
+  lesson: ["lesson-07"]
+  level: 600
+  forms:
+    noun: "objective"
+    adjective: "objective"
+  collocations:
+    - en: "achieve an objective"
+      vi: "đạt được một mục tiêu"
+    - en: "meet the objectives"
+      vi: "hoàn thành các mục tiêu"
+  example:
+    en: "The main {objective} of the plan is to increase market share."
+    vi: "Mục tiêu chính của kế hoạch là tăng thị phần."
+
+- word: "initiative"
+  pos: "noun"
+  ipa: "/ɪˈnɪʃətɪv/"
+  meaning: "sáng kiến, kế hoạch mới được đề xuất"
+  topic: "general-business"
+  sub-topic: "business-planning"
+  lesson: ["lesson-07"]
+  level: 750
+  forms:
+    noun: "initiative"
+  collocations:
+    - en: "launch an initiative"
+      vi: "khởi động một sáng kiến"
+    - en: "a new initiative"
+      vi: "một sáng kiến mới"
+  example:
+    en: "The company launched a green {initiative} to reduce waste."
+    vi: "Công ty khởi động một sáng kiến xanh nhằm giảm rác thải."
+
+- word: "feasible"
+  pos: "adjective"
+  ipa: "/ˈfiːzəbl/"
+  meaning: "khả thi, có thể thực hiện được"
+  topic: "general-business"
+  sub-topic: "business-planning"
+  lesson: ["lesson-07"]
+  level: 750
+  forms:
+    adjective: "feasible"
+    noun: "feasibility"
+  collocations:
+    - en: "a feasible solution"
+      vi: "một giải pháp khả thi"
+    - en: "a feasible plan"
+      vi: "một kế hoạch khả thi"
+  example:
+    en: "The engineers confirmed that the plan was technically {feasible}."
+    vi: "Các kỹ sư xác nhận rằng kế hoạch này khả thi về mặt kỹ thuật."
+
+- word: "deadline"
+  pos: "noun"
+  ipa: "/ˈdedlaɪn/"
+  meaning: "hạn chót, thời hạn cuối"
+  topic: "general-business"
+  sub-topic: "business-planning"
+  lesson: ["lesson-07"]
+  level: 600
+  forms:
+    noun: "deadline"
+  collocations:
+    - en: "meet a deadline"
+      vi: "kịp hạn chót"
+    - en: "miss a deadline"
+      vi: "trễ hạn chót"
+    - en: "extend a deadline"
+      vi: "gia hạn thời hạn"
+  example:
+    en: "The team worked overtime to meet the project {deadline}."
+    vi: "Cả nhóm làm thêm giờ để kịp hạn chót của dự án."
+
+- word: "priority"
+  pos: "noun"
+  ipa: "/praɪˈɒrəti/"
+  meaning: "ưu tiên, việc cần làm trước"
+  topic: "general-business"
+  sub-topic: "business-planning"
+  lesson: ["lesson-07"]
+  level: 600
+  forms:
+    noun: "priority"
+    verb: "prioritize"
+  collocations:
+    - en: "a top priority"
+      vi: "một ưu tiên hàng đầu"
+    - en: "set priorities"
+      vi: "đặt ra các ưu tiên"
+  example:
+    en: "Customer safety is our top {priority}."
+    vi: "An toàn của khách hàng là ưu tiên hàng đầu của chúng tôi."
+
+- word: "projection"
+  pos: "noun"
+  ipa: "/prəˈdʒekʃn/"
+  meaning: "dự báo, con số ước tính"
+  topic: "general-business"
+  sub-topic: "business-planning"
+  lesson: ["lesson-07"]
+  level: 750
+  forms:
+    noun: "projection"
+    verb: "project"
+    adjective: "projected"
+  collocations:
+    - en: "sales projections"
+      vi: "các dự báo doanh số"
+    - en: "financial projections"
+      vi: "các dự báo tài chính"
+  example:
+    en: "The sales {projections} show steady growth over the next five years."
+    vi: "Các dự báo doanh số cho thấy sự tăng trưởng ổn định trong năm năm tới."
+
+- word: "benchmark"
+  pos: "noun"
+  ipa: "/ˈbentʃmɑːk/"
+  meaning: "chuẩn so sánh, mốc đánh giá"
+  topic: "general-business"
+  sub-topic: "business-planning"
+  lesson: ["lesson-07"]
+  level: 900
+  forms:
+    noun: "benchmark"
+    verb: "benchmark"
+  collocations:
+    - en: "set a benchmark"
+      vi: "đặt ra một chuẩn so sánh"
+    - en: "an industry benchmark"
+      vi: "một chuẩn của ngành"
+  example:
+    en: "The report sets a {benchmark} for measuring future performance."
+    vi: "Báo cáo đặt ra một chuẩn để đo lường hiệu quả trong tương lai."
+
+- word: "assess"
+  pos: "verb"
+  ipa: "/əˈses/"
+  meaning: "đánh giá, ước lượng"
+  topic: "general-business"
+  sub-topic: "business-planning"
+  lesson: ["lesson-07"]
+  level: 750
+  forms:
+    verb: "assess"
+    noun: "assessment"
+  collocations:
+    - en: "assess the risks"
+      vi: "đánh giá các rủi ro"
+    - en: "assess the situation"
+      vi: "đánh giá tình hình"
+  example:
+    en: "Managers must {assess} the risks before approving the budget."
+    vi: "Các quản lý phải đánh giá rủi ro trước khi phê duyệt ngân sách."
+
+- word: "implement"
+  pos: "verb"
+  ipa: "/ˈɪmplɪment/"
+  meaning: "triển khai, đưa vào thực hiện"
+  topic: "general-business"
+  sub-topic: "business-planning"
+  lesson: ["lesson-07", "lesson-20"]
+  level: 750
+  forms:
+    verb: "implement"
+    noun: "implementation"
+  collocations:
+    - en: "implement a plan"
+      vi: "triển khai một kế hoạch"
+    - en: "implement a new system"
+      vi: "triển khai một hệ thống mới"
+  example:
+    en: "The company will {implement} the new policy starting next month."
+    vi: "Công ty sẽ triển khai chính sách mới bắt đầu từ tháng tới."
+
+- word: "contingency plan"
+  pos: "noun"
+  ipa: "/kənˈtɪndʒənsi plæn/"
+  meaning: "kế hoạch dự phòng (cho tình huống bất ngờ)"
+  topic: "general-business"
+  sub-topic: "business-planning"
+  lesson: ["lesson-07"]
+  level: 900
+  forms:
+    noun: "contingency plan"
+  collocations:
+    - en: "have a contingency plan"
+      vi: "có một kế hoạch dự phòng"
+    - en: "prepare a contingency plan"
+      vi: "chuẩn bị một kế hoạch dự phòng"
+  example:
+    en: "The company had a {contingency plan} in case the launch was delayed."
+    vi: "Công ty có một kế hoạch dự phòng phòng khi việc ra mắt bị hoãn."
+
+- word: "conference"
+  pos: "noun"
+  ipa: "/ˈkɒnfərəns/"
+  meaning: "hội nghị, hội thảo lớn"
+  topic: "general-business"
+  sub-topic: "conferences"
+  lesson: ["lesson-08"]
+  level: 600
+  forms:
+    noun: "conference"
+  collocations:
+    - en: "attend a conference"
+      vi: "tham dự một hội nghị"
+    - en: "host a conference"
+      vi: "tổ chức một hội nghị"
+  example:
+    en: "Hundreds of professionals will {attend} the annual technology conference."
+    vi: "Hàng trăm chuyên gia sẽ tham dự hội nghị công nghệ thường niên."
+
+- word: "venue"
+  pos: "noun"
+  ipa: "/ˈvenjuː/"
+  meaning: "địa điểm tổ chức (sự kiện, hội nghị)"
+  topic: "general-business"
+  sub-topic: "conferences"
+  lesson: ["lesson-08", "lesson-11"]
+  level: 750
+  forms:
+    noun: "venue"
+  collocations:
+    - en: "change the venue"
+      vi: "đổi địa điểm"
+    - en: "book a venue"
+      vi: "đặt địa điểm"
+  example:
+    en: "The organizers had to change the {venue} due to the large turnout."
+    vi: "Ban tổ chức phải đổi địa điểm vì lượng người tham dự quá đông."
+
+- word: "keynote speaker"
+  pos: "noun"
+  ipa: "/ˈkiːnəʊt ˈspiːkə(r)/"
+  meaning: "diễn giả chính (của hội nghị)"
+  topic: "general-business"
+  sub-topic: "conferences"
+  lesson: ["lesson-08"]
+  level: 750
+  forms:
+    noun: "keynote speaker"
+  collocations:
+    - en: "invite a keynote speaker"
+      vi: "mời một diễn giả chính"
+    - en: "this year's keynote speaker"
+      vi: "diễn giả chính năm nay"
+  example:
+    en: "A famous economist was the {keynote speaker} at the conference."
+    vi: "Một nhà kinh tế nổi tiếng là diễn giả chính tại hội nghị."
+
+- word: "attendee"
+  pos: "noun"
+  ipa: "/əˌtenˈdiː/"
+  meaning: "người tham dự"
+  topic: "general-business"
+  sub-topic: "conferences"
+  lesson: ["lesson-08"]
+  level: 750
+  forms:
+    noun: ["attendee", "attendance"]
+    verb: "attend"
+  collocations:
+    - en: "registered attendees"
+      vi: "những người tham dự đã đăng ký"
+    - en: "conference attendees"
+      vi: "người tham dự hội nghị"
+  example:
+    en: "All {attendees} will receive a name badge at the registration desk."
+    vi: "Tất cả người tham dự sẽ nhận thẻ tên tại quầy đăng ký."
+  note: "'attendee' là người tham dự; 'attendance' là sự tham dự / số lượng người dự."
+
+- word: "registration"
+  pos: "noun"
+  ipa: "/ˌredʒɪˈstreɪʃn/"
+  meaning: "việc đăng ký (tham dự)"
+  topic: "general-business"
+  sub-topic: "conferences"
+  lesson: ["lesson-08"]
+  level: 600
+  forms:
+    noun: ["registration", "registrant"]
+    verb: "register"
+  collocations:
+    - en: "the registration desk"
+      vi: "quầy đăng ký"
+    - en: "complete registration"
+      vi: "hoàn tất đăng ký"
+  example:
+    en: "Please complete your {registration} at the front desk before the session."
+    vi: "Vui lòng hoàn tất đăng ký tại quầy lễ tân trước phiên họp."
+
+- word: "session"
+  pos: "noun"
+  ipa: "/ˈseʃn/"
+  meaning: "phiên họp, buổi (trong hội nghị)"
+  topic: "general-business"
+  sub-topic: "conferences"
+  lesson: ["lesson-08"]
+  level: 600
+  forms:
+    noun: "session"
+  collocations:
+    - en: "a breakout session"
+      vi: "một phiên thảo luận nhóm nhỏ"
+    - en: "a training session"
+      vi: "một buổi đào tạo"
+  example:
+    en: "The afternoon {session} will focus on digital marketing."
+    vi: "Phiên họp buổi chiều sẽ tập trung vào tiếp thị số."
+
+- word: "workshop"
+  pos: "noun"
+  ipa: "/ˈwɜːkʃɒp/"
+  meaning: "hội thảo thực hành, buổi tập huấn"
+  topic: "general-business"
+  sub-topic: "conferences"
+  lesson: ["lesson-08"]
+  level: 600
+  forms:
+    noun: "workshop"
+  collocations:
+    - en: "sign up for a workshop"
+      vi: "đăng ký một buổi hội thảo"
+    - en: "run a workshop"
+      vi: "tổ chức một buổi hội thảo"
+  example:
+    en: "Employees can sign up for a {workshop} on public speaking."
+    vi: "Nhân viên có thể đăng ký một buổi hội thảo về kỹ năng nói trước công chúng."
+
+- word: "handout"
+  pos: "noun"
+  ipa: "/ˈhændaʊt/"
+  meaning: "tài liệu phát tay (cho người tham dự)"
+  topic: "general-business"
+  sub-topic: "conferences"
+  lesson: ["lesson-08"]
+  level: 750
+  forms:
+    noun: "handout"
+  collocations:
+    - en: "distribute handouts"
+      vi: "phát tài liệu"
+    - en: "a printed handout"
+      vi: "một bản tài liệu in"
+  example:
+    en: "The speaker distributed {handouts} summarizing the main points."
+    vi: "Diễn giả phát tài liệu tóm tắt các ý chính."
+
+- word: "panel"
+  pos: "noun"
+  ipa: "/ˈpænl/"
+  meaning: "nhóm diễn giả / chuyên gia (thảo luận)"
+  topic: "general-business"
+  sub-topic: "conferences"
+  lesson: ["lesson-08"]
+  level: 750
+  forms:
+    noun: "panel"
+    noun_person: "panelist"
+  collocations:
+    - en: "a panel discussion"
+      vi: "một buổi thảo luận nhóm chuyên gia"
+    - en: "join the panel"
+      vi: "tham gia nhóm diễn giả"
+  example:
+    en: "A {panel} of experts answered questions from the audience."
+    vi: "Một nhóm chuyên gia trả lời câu hỏi từ khán giả."
+
+- word: "booth"
+  pos: "noun"
+  ipa: "/buːð/"
+  meaning: "gian trưng bày, quầy (tại hội chợ)"
+  topic: "general-business"
+  sub-topic: "conferences"
+  lesson: ["lesson-08"]
+  level: 750
+  forms:
+    noun: "booth"
+  collocations:
+    - en: "an exhibit booth"
+      vi: "một gian trưng bày"
+    - en: "set up a booth"
+      vi: "dựng một gian hàng"
+  example:
+    en: "The company set up a {booth} to showcase its latest products."
+    vi: "Công ty dựng một gian trưng bày để giới thiệu các sản phẩm mới nhất."
+
+- word: "networking"
+  pos: "noun"
+  ipa: "/ˈnetwɜːkɪŋ/"
+  meaning: "việc kết nối, xây dựng quan hệ (nghề nghiệp)"
+  topic: "general-business"
+  sub-topic: "conferences"
+  lesson: ["lesson-08"]
+  level: 750
+  forms:
+    noun: "networking"
+    verb: "network"
+  collocations:
+    - en: "a networking event"
+      vi: "một sự kiện kết nối"
+    - en: "networking opportunities"
+      vi: "các cơ hội kết nối"
+  example:
+    en: "The conference offers great {networking} opportunities for young professionals."
+    vi: "Hội nghị mang lại nhiều cơ hội kết nối tuyệt vời cho người trẻ đi làm."
+
+- word: "union"
+  pos: "noun"
+  ipa: "/ˈjuːniən/"
+  meaning: "công đoàn (tổ chức bảo vệ người lao động)"
+  topic: "general-business"
+  sub-topic: "labor-relations"
+  lesson: ["lesson-08"]
+  level: 750
+  forms:
+    noun: "union"
+  collocations:
+    - en: "a labor union"
+      vi: "một công đoàn lao động"
+    - en: "join a union"
+      vi: "gia nhập công đoàn"
+  example:
+    en: "The workers joined a {union} to negotiate better wages."
+    vi: "Người lao động gia nhập công đoàn để thương lượng mức lương tốt hơn."
+
+- word: "strike"
+  pos: "noun"
+  ipa: "/straɪk/"
+  meaning: "cuộc đình công"
+  topic: "general-business"
+  sub-topic: "labor-relations"
+  lesson: ["lesson-08"]
+  level: 750
+  forms:
+    noun: "strike"
+    verb: "strike"
+  collocations:
+    - en: "go on strike"
+      vi: "tiến hành đình công"
+    - en: "call off a strike"
+      vi: "hủy bỏ cuộc đình công"
+  example:
+    en: "The factory workers went on {strike} to demand safer conditions."
+    vi: "Công nhân nhà máy đình công để đòi điều kiện làm việc an toàn hơn."
+  note: "Cụm cố định: 'go on strike' = đình công. Động từ 'strike' bất quy tắc: strike – struck – struck."
+
+- word: "grievance"
+  pos: "noun"
+  ipa: "/ˈɡriːvns/"
+  meaning: "đơn khiếu nại của người lao động"
+  topic: "general-business"
+  sub-topic: "labor-relations"
+  lesson: ["lesson-08"]
+  level: 900
+  forms:
+    noun: "grievance"
+  collocations:
+    - en: "file a grievance"
+      vi: "nộp đơn khiếu nại"
+    - en: "address a grievance"
+      vi: "giải quyết một khiếu nại"
+  example:
+    en: "An employee can file a {grievance} if they are treated unfairly."
+    vi: "Nhân viên có thể nộp đơn khiếu nại nếu bị đối xử không công bằng."
+
+- word: "dispute"
+  pos: "noun"
+  ipa: "/dɪˈspjuːt/"
+  meaning: "tranh chấp, bất đồng"
+  topic: "general-business"
+  sub-topic: "labor-relations"
+  lesson: ["lesson-08"]
+  level: 750
+  forms:
+    noun: "dispute"
+    verb: "dispute"
+  collocations:
+    - en: "settle a dispute"
+      vi: "giải quyết một tranh chấp"
+    - en: "a labor dispute"
+      vi: "một tranh chấp lao động"
+  example:
+    en: "Both sides met to settle the {dispute} over working hours."
+    vi: "Cả hai bên gặp nhau để giải quyết tranh chấp về giờ làm việc."
+
+- word: "collective bargaining"
+  pos: "noun"
+  ipa: "/kəˌlektɪv ˈbɑːɡɪnɪŋ/"
+  meaning: "thương lượng tập thể (giữa công đoàn và ban quản lý)"
+  topic: "general-business"
+  sub-topic: "labor-relations"
+  lesson: ["lesson-08"]
+  level: 900
+  forms:
+    noun: "collective bargaining"
+  collocations:
+    - en: "collective bargaining rights"
+      vi: "quyền thương lượng tập thể"
+    - en: "through collective bargaining"
+      vi: "thông qua thương lượng tập thể"
+  example:
+    en: "The new contract was reached through {collective bargaining}."
+    vi: "Hợp đồng mới đạt được thông qua thương lượng tập thể."
+
+- word: "mediate"
+  pos: "verb"
+  ipa: "/ˈmiːdieɪt/"
+  meaning: "hòa giải, làm trung gian"
+  topic: "general-business"
+  sub-topic: "labor-relations"
+  lesson: ["lesson-08"]
+  level: 900
+  forms:
+    verb: "mediate"
+    noun: ["mediation", "mediator"]
+  collocations:
+    - en: "mediate a dispute"
+      vi: "hòa giải một tranh chấp"
+    - en: "mediate between two sides"
+      vi: "làm trung gian giữa hai bên"
+  example:
+    en: "A neutral third party was brought in to {mediate} the dispute."
+    vi: "Một bên thứ ba trung lập được mời đến để hòa giải tranh chấp."
+
+- word: "walkout"
+  pos: "noun"
+  ipa: "/ˈwɔːkaʊt/"
+  meaning: "cuộc bỏ việc phản đối (rời nơi làm việc)"
+  topic: "general-business"
+  sub-topic: "labor-relations"
+  lesson: ["lesson-08"]
+  level: 900
+  forms:
+    noun: "walkout"
+  collocations:
+    - en: "stage a walkout"
+      vi: "tổ chức một cuộc bỏ việc phản đối"
+    - en: "a mass walkout"
+      vi: "một cuộc bỏ việc hàng loạt"
+  example:
+    en: "Employees staged a {walkout} to protest the new policy."
+    vi: "Nhân viên tổ chức một cuộc bỏ việc để phản đối chính sách mới."

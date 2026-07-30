@@ -1,0 +1,753 @@
+- word: "appointment"
+  pos: "noun"
+  ipa: "/əˈpɔɪntmənt/"
+  meaning: "cuộc hẹn (khám bệnh)"
+  topic: "health"
+  sub-topic:
+  lesson: ["lesson-25"]
+  level: 600
+  forms:
+    noun: "appointment"
+    verb: "appoint"
+  collocations:
+    - en: "make an appointment"
+      vi: "đặt lịch hẹn"
+    - en: "reschedule an appointment"
+      vi: "dời lịch hẹn"
+    - en: "cancel an appointment"
+      vi: "hủy lịch hẹn"
+  example:
+    en: "Please call the clinic to make an {appointment} with the doctor."
+    vi: "Vui lòng gọi cho phòng khám để đặt lịch hẹn với bác sĩ."
+
+- word: "physician"
+  pos: "noun"
+  ipa: "/fɪˈzɪʃn/"
+  meaning: "bác sĩ"
+  topic: "health"
+  sub-topic:
+  lesson: ["lesson-25"]
+  level: 750
+  forms:
+    noun: "physician"
+  collocations:
+    - en: "consult a physician"
+      vi: "tham khảo ý kiến bác sĩ"
+    - en: "a family physician"
+      vi: "bác sĩ gia đình"
+  example:
+    en: "The {physician} advised her to rest for a week after the surgery."
+    vi: "Bác sĩ khuyên cô ấy nghỉ ngơi một tuần sau ca phẫu thuật."
+  note: "Phân biệt 'physician' (bác sĩ) với 'physicist' (nhà vật lý học)."
+
+- word: "specialist"
+  pos: "noun"
+  ipa: "/ˈspeʃəlɪst/"
+  meaning: "bác sĩ chuyên khoa"
+  topic: "health"
+  sub-topic:
+  lesson: ["lesson-25"]
+  level: 600
+  forms:
+    noun: ["specialist", "specialty"]
+    verb: "specialize"
+    adjective: "special"
+  collocations:
+    - en: "see a specialist"
+      vi: "đi khám bác sĩ chuyên khoa"
+    - en: "refer to a specialist"
+      vi: "giới thiệu đến bác sĩ chuyên khoa"
+  example:
+    en: "Your doctor may refer you to a {specialist} for further tests."
+    vi: "Bác sĩ của bạn có thể giới thiệu bạn đến một bác sĩ chuyên khoa để làm thêm xét nghiệm."
+
+- word: "practitioner"
+  pos: "noun"
+  ipa: "/prækˈtɪʃənə(r)/"
+  meaning: "người hành nghề y"
+  topic: "health"
+  sub-topic:
+  lesson: ["lesson-25"]
+  level: 900
+  forms:
+    noun: ["practitioner", "practice"]
+    verb: "practice"
+  collocations:
+    - en: "a general practitioner (GP)"
+      vi: "bác sĩ đa khoa"
+    - en: "a medical practitioner"
+      vi: "người hành nghề y"
+  example:
+    en: "A general {practitioner} handles common illnesses before referring patients elsewhere."
+    vi: "Bác sĩ đa khoa xử lý các bệnh thông thường trước khi chuyển bệnh nhân đi nơi khác."
+
+- word: "patient"
+  pos: "noun"
+  ipa: "/ˈpeɪʃnt/"
+  meaning: "bệnh nhân"
+  topic: "health"
+  sub-topic:
+  lesson: ["lesson-25"]
+  level: 600
+  forms:
+    noun: ["patient", "patience"]
+    adjective: "patient"
+    adverb: "patiently"
+  collocations:
+    - en: "examine a patient"
+      vi: "khám cho bệnh nhân"
+    - en: "admit a patient"
+      vi: "nhận bệnh nhân vào viện"
+  example:
+    en: "The nurse asked each {patient} to fill out a medical history form."
+    vi: "Y tá đề nghị mỗi bệnh nhân điền vào phiếu khai tiền sử bệnh."
+  note: "Khi là danh từ nghĩa là 'bệnh nhân'; khi là tính từ nghĩa là 'kiên nhẫn'."
+
+- word: "symptom"
+  pos: "noun"
+  ipa: "/ˈsɪmptəm/"
+  meaning: "triệu chứng"
+  topic: "health"
+  sub-topic:
+  lesson: ["lesson-25"]
+  level: 750
+  forms:
+    noun: "symptom"
+    adjective: "symptomatic"
+  collocations:
+    - en: "show symptoms of flu"
+      vi: "có triệu chứng cúm"
+    - en: "relieve the symptoms"
+      vi: "làm giảm các triệu chứng"
+  example:
+    en: "If the {symptoms} persist for more than three days, see a doctor."
+    vi: "Nếu các triệu chứng kéo dài hơn ba ngày, hãy đi khám bác sĩ."
+  note: "Thường đi với giới từ 'of': symptoms of sth."
+
+- word: "diagnose"
+  pos: "verb"
+  ipa: "/ˈdaɪəɡnəʊz/"
+  meaning: "chẩn đoán"
+  topic: "health"
+  sub-topic:
+  lesson: ["lesson-25"]
+  level: 750
+  forms:
+    verb: "diagnose"
+    noun: "diagnosis"
+    adjective: "diagnostic"
+  collocations:
+    - en: "be diagnosed with a disease"
+      vi: "được chẩn đoán mắc bệnh"
+    - en: "diagnose a problem"
+      vi: "chẩn đoán một vấn đề"
+  example:
+    en: "She was {diagnosed} with a mild allergy after the tests."
+    vi: "Cô ấy được chẩn đoán bị dị ứng nhẹ sau khi xét nghiệm."
+  note: "Cấu trúc bị động: be diagnosed with sth. Danh từ là 'diagnosis' (số nhiều 'diagnoses')."
+
+- word: "prescribe"
+  pos: "verb"
+  ipa: "/prɪˈskraɪb/"
+  meaning: "kê đơn thuốc"
+  topic: "health"
+  sub-topic:
+  lesson: ["lesson-25"]
+  level: 750
+  forms:
+    verb: "prescribe"
+    noun: "prescription"
+  collocations:
+    - en: "prescribe medication"
+      vi: "kê đơn thuốc"
+    - en: "as prescribed by the doctor"
+      vi: "theo chỉ định của bác sĩ"
+  example:
+    en: "The doctor {prescribed} antibiotics to treat the infection."
+    vi: "Bác sĩ kê đơn thuốc kháng sinh để điều trị nhiễm trùng."
+  note: "Đừng nhầm 'prescribe' (kê đơn) với 'subscribe' (đăng ký)."
+
+- word: "pharmacy"
+  pos: "noun"
+  ipa: "/ˈfɑːməsi/"
+  meaning: "hiệu thuốc"
+  topic: "health"
+  sub-topic:
+  lesson: ["lesson-25"]
+  level: 600
+  forms:
+    noun: ["pharmacy", "pharmacist"]
+  collocations:
+    - en: "pick up medicine at the pharmacy"
+      vi: "lấy thuốc tại hiệu thuốc"
+    - en: "the hospital pharmacy"
+      vi: "nhà thuốc bệnh viện"
+  example:
+    en: "You can pick up your prescription at the {pharmacy} downstairs."
+    vi: "Bạn có thể lấy thuốc theo đơn tại hiệu thuốc ở tầng dưới."
+
+- word: "dosage"
+  pos: "noun"
+  ipa: "/ˈdəʊsɪdʒ/"
+  meaning: "liều lượng"
+  topic: "health"
+  sub-topic:
+  lesson: ["lesson-25"]
+  level: 750
+  forms:
+    noun: ["dosage", "dose"]
+    verb: "dose"
+  collocations:
+    - en: "the recommended dosage"
+      vi: "liều lượng khuyến nghị"
+    - en: "exceed the dosage"
+      vi: "dùng quá liều"
+  example:
+    en: "Do not exceed the recommended {dosage} printed on the label."
+    vi: "Không dùng quá liều lượng khuyến nghị được in trên nhãn."
+
+- word: "treatment"
+  pos: "noun"
+  ipa: "/ˈtriːtmənt/"
+  meaning: "sự điều trị"
+  topic: "health"
+  sub-topic:
+  lesson: ["lesson-25"]
+  level: 600
+  forms:
+    noun: "treatment"
+    verb: "treat"
+  collocations:
+    - en: "undergo treatment"
+      vi: "trải qua quá trình điều trị"
+    - en: "receive medical treatment"
+      vi: "được điều trị y tế"
+  example:
+    en: "The patient responded well to the {treatment} and recovered quickly."
+    vi: "Bệnh nhân đáp ứng tốt với việc điều trị và hồi phục nhanh chóng."
+
+- word: "checkup"
+  pos: "noun"
+  ipa: "/ˈtʃekʌp/"
+  meaning: "khám sức khỏe định kỳ"
+  topic: "health"
+  sub-topic:
+  lesson: ["lesson-26"]
+  level: 600
+  forms:
+    noun: "checkup"
+  collocations:
+    - en: "an annual checkup"
+      vi: "khám sức khỏe hằng năm"
+    - en: "go for a checkup"
+      vi: "đi khám định kỳ"
+  example:
+    en: "It is a good idea to have a regular {checkup} once a year."
+    vi: "Nên đi khám sức khỏe định kỳ mỗi năm một lần."
+
+- word: "physical"
+  pos: "noun"
+  ipa: "/ˈfɪzɪkl/"
+  meaning: "buổi khám sức khỏe tổng quát"
+  topic: "health"
+  sub-topic:
+  lesson: ["lesson-26"]
+  level: 750
+  forms:
+    noun: "physical"
+    adjective: "physical"
+    adverb: "physically"
+  collocations:
+    - en: "schedule a physical"
+      vi: "đặt lịch khám tổng quát"
+    - en: "pass a physical"
+      vi: "vượt qua kỳ khám sức khỏe"
+  example:
+    en: "All new employees must complete a {physical} before starting work."
+    vi: "Tất cả nhân viên mới phải hoàn thành buổi khám sức khỏe tổng quát trước khi bắt đầu làm việc."
+  note: "Khi là danh từ nghĩa là 'buổi khám tổng quát'; khi là tính từ nghĩa là 'thuộc thể chất'."
+
+- word: "clinic"
+  pos: "noun"
+  ipa: "/ˈklɪnɪk/"
+  meaning: "phòng khám"
+  topic: "health"
+  sub-topic:
+  lesson: ["lesson-25"]
+  level: 600
+  forms:
+    noun: "clinic"
+    adjective: "clinical"
+  collocations:
+    - en: "a walk-in clinic"
+      vi: "phòng khám không cần hẹn trước"
+    - en: "visit a clinic"
+      vi: "đến phòng khám"
+  example:
+    en: "The new {clinic} downtown offers both dental and eye care."
+    vi: "Phòng khám mới ở trung tâm cung cấp cả dịch vụ nha khoa và chăm sóc mắt."
+
+- word: "ward"
+  pos: "noun"
+  ipa: "/wɔːd/"
+  meaning: "khoa, phòng bệnh"
+  topic: "health"
+  sub-topic:
+  lesson: ["lesson-25"]
+  level: 900
+  forms:
+    noun: "ward"
+  collocations:
+    - en: "the maternity ward"
+      vi: "khoa sản"
+    - en: "a hospital ward"
+      vi: "phòng bệnh trong bệnh viện"
+  example:
+    en: "The patient was moved to the recovery {ward} after her operation."
+    vi: "Bệnh nhân được chuyển đến phòng hồi sức sau ca mổ."
+
+- word: "surgery"
+  pos: "noun"
+  ipa: "/ˈsɜːdʒəri/"
+  meaning: "ca phẫu thuật"
+  topic: "health"
+  sub-topic:
+  lesson: ["lesson-25"]
+  level: 750
+  forms:
+    noun: ["surgery", "surgeon"]
+    adjective: "surgical"
+  collocations:
+    - en: "undergo surgery"
+      vi: "trải qua phẫu thuật"
+    - en: "perform surgery"
+      vi: "thực hiện phẫu thuật"
+  example:
+    en: "He needs to rest for several weeks after the {surgery}."
+    vi: "Anh ấy cần nghỉ ngơi vài tuần sau ca phẫu thuật."
+
+- word: "referral"
+  pos: "noun"
+  ipa: "/rɪˈfɜːrəl/"
+  meaning: "giấy giới thiệu chuyên khoa"
+  topic: "health"
+  sub-topic:
+  lesson: ["lesson-25"]
+  level: 900
+  forms:
+    noun: "referral"
+    verb: "refer"
+  collocations:
+    - en: "get a referral"
+      vi: "xin giấy giới thiệu"
+    - en: "a referral to a specialist"
+      vi: "giấy giới thiệu đến bác sĩ chuyên khoa"
+  example:
+    en: "You will need a {referral} from your doctor to see the specialist."
+    vi: "Bạn sẽ cần giấy giới thiệu từ bác sĩ để khám bác sĩ chuyên khoa."
+
+- word: "injury"
+  pos: "noun"
+  ipa: "/ˈɪndʒəri/"
+  meaning: "chấn thương"
+  topic: "health"
+  sub-topic:
+  lesson: ["lesson-25"]
+  level: 600
+  forms:
+    noun: "injury"
+    verb: "injure"
+    adjective: "injured"
+  collocations:
+    - en: "a work-related injury"
+      vi: "chấn thương liên quan đến công việc"
+    - en: "suffer an injury"
+      vi: "bị chấn thương"
+  example:
+    en: "He took two weeks off to recover from a sports {injury}."
+    vi: "Anh ấy nghỉ hai tuần để hồi phục sau chấn thương thể thao."
+
+- word: "recover"
+  pos: "verb"
+  ipa: "/rɪˈkʌvə(r)/"
+  meaning: "hồi phục"
+  topic: "health"
+  sub-topic:
+  lesson: ["lesson-25"]
+  level: 600
+  forms:
+    verb: "recover"
+    noun: "recovery"
+  collocations:
+    - en: "recover from an illness"
+      vi: "hồi phục sau khi ốm"
+    - en: "make a full recovery"
+      vi: "hồi phục hoàn toàn"
+  example:
+    en: "It took him a month to fully {recover} from the operation."
+    vi: "Anh ấy mất một tháng để hồi phục hoàn toàn sau ca mổ."
+  note: "Thường đi với giới từ 'from': recover from sth."
+
+- word: "relieve"
+  pos: "verb"
+  ipa: "/rɪˈliːv/"
+  meaning: "làm giảm (đau, khó chịu)"
+  topic: "health"
+  sub-topic:
+  lesson: ["lesson-25"]
+  level: 750
+  forms:
+    verb: "relieve"
+    noun: "relief"
+  collocations:
+    - en: "relieve pain"
+      vi: "làm giảm cơn đau"
+    - en: "relieve stress"
+      vi: "giảm căng thẳng"
+  example:
+    en: "This medicine should help {relieve} the pain within an hour."
+    vi: "Thuốc này sẽ giúp làm giảm cơn đau trong vòng một giờ."
+  note: "Động từ là 'relieve', danh từ là 'relief' (khác chính tả)."
+
+- word: "side effect"
+  pos: "noun"
+  ipa: "/ˈsaɪd ɪfekt/"
+  meaning: "tác dụng phụ"
+  topic: "health"
+  sub-topic:
+  lesson: ["lesson-25"]
+  level: 600
+  forms:
+    noun: "side effect"
+  collocations:
+    - en: "experience side effects"
+      vi: "gặp tác dụng phụ"
+    - en: "possible side effects"
+      vi: "các tác dụng phụ có thể xảy ra"
+  example:
+    en: "Drowsiness is a common {side effect} of this medication."
+    vi: "Buồn ngủ là một tác dụng phụ thường gặp của loại thuốc này."
+
+- word: "allergy"
+  pos: "noun"
+  ipa: "/ˈælədʒi/"
+  meaning: "dị ứng"
+  topic: "health"
+  sub-topic:
+  lesson: ["lesson-26"]
+  level: 600
+  forms:
+    noun: "allergy"
+    adjective: "allergic"
+  collocations:
+    - en: "have a food allergy"
+      vi: "bị dị ứng thực phẩm"
+    - en: "be allergic to peanuts"
+      vi: "dị ứng với đậu phộng"
+  example:
+    en: "Please let the staff know if you have any food {allergies}."
+    vi: "Vui lòng báo cho nhân viên nếu bạn bị dị ứng thực phẩm nào."
+  note: "Tính từ 'allergic' đi với 'to': be allergic to sth."
+
+- word: "contagious"
+  pos: "adjective"
+  ipa: "/kənˈteɪdʒəs/"
+  meaning: "dễ lây, truyền nhiễm"
+  topic: "health"
+  sub-topic:
+  lesson: ["lesson-26"]
+  level: 900
+  forms:
+    adjective: "contagious"
+  collocations:
+    - en: "a contagious illness"
+      vi: "bệnh dễ lây"
+    - en: "highly contagious"
+      vi: "rất dễ lây"
+  example:
+    en: "Employees with a {contagious} illness are asked to stay home."
+    vi: "Nhân viên mắc bệnh dễ lây được đề nghị ở nhà."
+
+- word: "immunization"
+  pos: "noun"
+  ipa: "/ˌɪmjunaɪˈzeɪʃn/"
+  meaning: "sự tiêm chủng"
+  topic: "health"
+  sub-topic:
+  lesson: ["lesson-26"]
+  level: 900
+  forms:
+    noun: ["immunization", "immunity"]
+    verb: "immunize"
+  collocations:
+    - en: "an immunization program"
+      vi: "chương trình tiêm chủng"
+    - en: "require immunization"
+      vi: "yêu cầu tiêm chủng"
+  example:
+    en: "The company offers free {immunization} against the flu each autumn."
+    vi: "Công ty cung cấp tiêm chủng cúm miễn phí vào mỗi mùa thu."
+
+- word: "dentist"
+  pos: "noun"
+  ipa: "/ˈdentɪst/"
+  meaning: "nha sĩ"
+  topic: "health"
+  sub-topic:
+  lesson: ["lesson-26"]
+  level: 600
+  forms:
+    noun: "dentist"
+    adjective: "dental"
+  collocations:
+    - en: "see a dentist"
+      vi: "đi khám nha sĩ"
+    - en: "a dental checkup"
+      vi: "khám răng định kỳ"
+  example:
+    en: "You should visit the {dentist} twice a year for a cleaning."
+    vi: "Bạn nên đến nha sĩ hai lần mỗi năm để làm sạch răng."
+
+- word: "cavity"
+  pos: "noun"
+  ipa: "/ˈkævəti/"
+  meaning: "lỗ sâu răng"
+  topic: "health"
+  sub-topic:
+  lesson: ["lesson-26"]
+  level: 900
+  forms:
+    noun: "cavity"
+  collocations:
+    - en: "fill a cavity"
+      vi: "trám lỗ sâu răng"
+    - en: "develop a cavity"
+      vi: "bị sâu răng"
+  example:
+    en: "The dentist found a small {cavity} and filled it right away."
+    vi: "Nha sĩ phát hiện một lỗ sâu răng nhỏ và trám lại ngay."
+
+- word: "hygiene"
+  pos: "noun"
+  ipa: "/ˈhaɪdʒiːn/"
+  meaning: "vệ sinh"
+  topic: "health"
+  sub-topic:
+  lesson: ["lesson-26"]
+  level: 750
+  forms:
+    noun: "hygiene"
+    adjective: "hygienic"
+  collocations:
+    - en: "dental hygiene"
+      vi: "vệ sinh răng miệng"
+    - en: "personal hygiene"
+      vi: "vệ sinh cá nhân"
+  example:
+    en: "Good personal {hygiene} helps prevent the spread of illness."
+    vi: "Vệ sinh cá nhân tốt giúp ngăn ngừa lây lan bệnh tật."
+
+- word: "insurance"
+  pos: "noun"
+  ipa: "/ɪnˈʃʊərəns/"
+  meaning: "bảo hiểm"
+  topic: "health"
+  sub-topic:
+  lesson: ["lesson-26"]
+  level: 600
+  forms:
+    noun: ["insurance", "insurer"]
+    verb: "insure"
+  collocations:
+    - en: "health insurance"
+      vi: "bảo hiểm y tế"
+    - en: "take out insurance"
+      vi: "mua bảo hiểm"
+  example:
+    en: "The company provides health {insurance} for all full-time staff."
+    vi: "Công ty cung cấp bảo hiểm y tế cho toàn bộ nhân viên toàn thời gian."
+  note: "Danh từ không đếm được — không có 'insurances'."
+
+- word: "coverage"
+  pos: "noun"
+  ipa: "/ˈkʌvərɪdʒ/"
+  meaning: "phạm vi bảo hiểm"
+  topic: "health"
+  sub-topic:
+  lesson: ["lesson-26"]
+  level: 750
+  forms:
+    noun: "coverage"
+    verb: "cover"
+  collocations:
+    - en: "full medical coverage"
+      vi: "bảo hiểm y tế toàn phần"
+    - en: "extend the coverage"
+      vi: "mở rộng phạm vi bảo hiểm"
+  example:
+    en: "This plan offers full medical {coverage} for you and your family."
+    vi: "Gói này cung cấp bảo hiểm y tế toàn phần cho bạn và gia đình."
+  note: "Trong ngữ cảnh bảo hiểm nghĩa là 'phạm vi bảo hiểm'; trong ngữ cảnh truyền thông nghĩa là 'sự đưa tin'."
+
+- word: "premium"
+  pos: "noun"
+  ipa: "/ˈpriːmiəm/"
+  meaning: "phí bảo hiểm"
+  topic: "health"
+  sub-topic:
+  lesson: ["lesson-26"]
+  level: 750
+  forms:
+    noun: "premium"
+    adjective: "premium"
+  collocations:
+    - en: "a monthly premium"
+      vi: "phí bảo hiểm hằng tháng"
+    - en: "pay the premium"
+      vi: "đóng phí bảo hiểm"
+  example:
+    en: "Your monthly insurance {premium} will increase slightly next year."
+    vi: "Phí bảo hiểm hằng tháng của bạn sẽ tăng nhẹ vào năm sau."
+  note: "Là danh từ nghĩa là 'phí bảo hiểm'; là tính từ nghĩa là 'cao cấp' (a premium service)."
+
+- word: "deductible"
+  pos: "noun"
+  ipa: "/dɪˈdʌktəbl/"
+  meaning: "mức khấu trừ (khách tự trả trước khi bảo hiểm chi)"
+  topic: "health"
+  sub-topic:
+  lesson: ["lesson-26"]
+  level: 900
+  forms:
+    noun: ["deductible", "deduction"]
+    verb: "deduct"
+    adjective: "deductible"
+  collocations:
+    - en: "a $500 deductible"
+      vi: "mức khấu trừ 500 đô"
+    - en: "meet the deductible"
+      vi: "đạt đủ mức khấu trừ"
+  example:
+    en: "You must pay the {deductible} before your insurance covers the rest."
+    vi: "Bạn phải trả mức khấu trừ trước khi bảo hiểm chi trả phần còn lại."
+
+- word: "claim"
+  pos: "noun"
+  ipa: "/kleɪm/"
+  meaning: "yêu cầu bồi thường bảo hiểm"
+  topic: "health"
+  sub-topic:
+  lesson: ["lesson-26"]
+  level: 600
+  forms:
+    noun: "claim"
+    verb: "claim"
+  collocations:
+    - en: "file a claim"
+      vi: "nộp yêu cầu bồi thường"
+    - en: "submit an insurance claim"
+      vi: "gửi yêu cầu bồi thường bảo hiểm"
+  example:
+    en: "She filed a {claim} with her insurer to cover the hospital costs."
+    vi: "Cô ấy nộp yêu cầu bồi thường cho công ty bảo hiểm để chi trả viện phí."
+
+- word: "policy"
+  pos: "noun"
+  ipa: "/ˈpɒləsi/"
+  meaning: "hợp đồng bảo hiểm"
+  topic: "health"
+  sub-topic:
+  lesson: ["lesson-26"]
+  level: 600
+  forms:
+    noun: "policy"
+  collocations:
+    - en: "an insurance policy"
+      vi: "hợp đồng bảo hiểm"
+    - en: "renew a policy"
+      vi: "gia hạn hợp đồng bảo hiểm"
+  example:
+    en: "Read your insurance {policy} carefully to know what is covered."
+    vi: "Hãy đọc kỹ hợp đồng bảo hiểm để biết những gì được chi trả."
+  note: "Trong ngữ cảnh bảo hiểm nghĩa là 'hợp đồng bảo hiểm'; nghĩa thông thường là 'chính sách'."
+
+- word: "eligible"
+  pos: "adjective"
+  ipa: "/ˈelɪdʒəbl/"
+  meaning: "đủ điều kiện"
+  topic: "health"
+  sub-topic:
+  lesson: ["lesson-26"]
+  level: 750
+  forms:
+    adjective: "eligible"
+    noun: "eligibility"
+  collocations:
+    - en: "be eligible for benefits"
+      vi: "đủ điều kiện hưởng phúc lợi"
+    - en: "eligible employees"
+      vi: "nhân viên đủ điều kiện"
+  example:
+    en: "Only full-time staff are {eligible} for the company health plan."
+    vi: "Chỉ nhân viên toàn thời gian mới đủ điều kiện tham gia gói bảo hiểm y tế của công ty."
+  note: "Đi với giới từ 'for': be eligible for sth."
+
+- word: "wellness"
+  pos: "noun"
+  ipa: "/ˈwelnəs/"
+  meaning: "sức khỏe tổng thể"
+  topic: "health"
+  sub-topic:
+  lesson: ["lesson-26"]
+  level: 750
+  forms:
+    noun: "wellness"
+    adjective: "well"
+  collocations:
+    - en: "a corporate wellness program"
+      vi: "chương trình chăm sóc sức khỏe của công ty"
+    - en: "promote wellness"
+      vi: "nâng cao sức khỏe"
+  example:
+    en: "The firm launched a {wellness} program to reduce employee stress."
+    vi: "Công ty triển khai một chương trình chăm sóc sức khỏe để giảm căng thẳng cho nhân viên."
+
+- word: "ergonomic"
+  pos: "adjective"
+  ipa: "/ˌɜːɡəˈnɒmɪk/"
+  meaning: "công thái học (thiết kế phù hợp cơ thể)"
+  topic: "health"
+  sub-topic:
+  lesson: ["lesson-26"]
+  level: 900
+  forms:
+    adjective: "ergonomic"
+    noun: "ergonomics"
+    adverb: "ergonomically"
+  collocations:
+    - en: "ergonomic chairs"
+      vi: "ghế công thái học"
+    - en: "an ergonomic design"
+      vi: "thiết kế công thái học"
+  example:
+    en: "The office installed {ergonomic} chairs to prevent back problems."
+    vi: "Văn phòng lắp ghế công thái học để ngăn ngừa các vấn đề về lưng."
+
+- word: "sick leave"
+  pos: "noun"
+  ipa: "/ˈsɪk liːv/"
+  meaning: "nghỉ ốm"
+  topic: "health"
+  sub-topic:
+  lesson: ["lesson-26"]
+  level: 600
+  forms:
+    noun: "sick leave"
+  collocations:
+    - en: "take sick leave"
+      vi: "xin nghỉ ốm"
+    - en: "paid sick leave"
+      vi: "nghỉ ốm có lương"
+  example:
+    en: "He took two days of {sick leave} to recover from the flu."
+    vi: "Anh ấy nghỉ ốm hai ngày để hồi phục sau khi bị cúm."
