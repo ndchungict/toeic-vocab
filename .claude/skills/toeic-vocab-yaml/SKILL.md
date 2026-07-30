@@ -17,7 +17,7 @@ Bắt buộc tuân thủ, vì đầu ra sẽ được lưu thẳng thành file `
 
 - Chỉ xuất ra **nội dung YAML**. KHÔNG kèm giải thích, KHÔNG bọc trong dấu ``` code fence, không có chữ nào trước hoặc sau.
 - Cấp cao nhất là một **LIST** (mỗi entry bắt đầu bằng `-`), KHÔNG bọc trong bất kỳ key nào.
-- Mỗi entry gồm các trường theo **đúng thứ tự**: `word`, `pos`, `ipa`, `meaning`, `topic`, `sub-topic`, `story`, `level`, `forms`, `collocations`, `example`, `note`.
+- Mỗi entry gồm các trường theo **đúng thứ tự**: `word`, `pos`, `ipa`, `meaning`, `topic`, `sub-topic`, `lesson`, `level`, `forms`, `collocations`, `example`, `note`.
   - `sub-topic` **luôn giữ trường** để schema đồng đều giữa mọi file. Chủ đề có chủ đề con → điền slug. Chủ đề KHÔNG có chủ đề con → để **null** (viết `sub-topic:` rồi bỏ trống, KHÔNG dùng `""`).
   - `note` chỉ thêm khi từ dễ nhầm với từ khác; không có thì bỏ hẳn.
 - Ngôn ngữ: `meaning`, mọi trường `vi`, và `note` viết bằng **TIẾNG VIỆT**. Phần còn lại bằng tiếng Anh.
@@ -33,7 +33,9 @@ Bắt buộc tuân thủ, vì đầu ra sẽ được lưu thẳng thành file `
 - **meaning** — nghĩa tiếng Việt ngắn gọn, theo **ngữ cảnh TOEIC** chứ không phải nghĩa từ điển chung.
 - **topic** — slug chủ đề chính, lấy **đúng** từ bảng slug (xem `data/slugs/category-slug.md`).
 - **sub-topic** — slug chủ đề con, lấy **đúng** từ bảng slug. Nếu chủ đề chính không có chủ đề con thì vẫn giữ trường nhưng để **null** (`sub-topic:` bỏ trống, không `""`).
-- **lession** — Lấy theo tên bài học nơi chứa từ vựng, lấy **đúng**  đối chiếu theo `lesson-NN.md`). ( VD: lesson-01)
+- **lesson** — **luôn là một LIST** (mảng), kể cả khi từ chỉ thuộc một bài: `lesson: ["lesson-01"]`. Liệt kê **mọi** bài học có chứa từ đó, để biết một từ xuất hiện ở những bài nào. Sắp xếp theo thứ tự bài tăng dần, ví dụ `["lesson-07", "lesson-20"]`.
+  - **CHỈ tính từ xuất hiện trong Phần 2 — Bảng tổng hợp từ vựng** của mỗi `lesson-NN.md` (dòng bảng dạng `| từ | IPA | Loại | …`). KHÔNG tính từ chỉ xuất hiện trong truyện (Phần 1/3) hay trong đề bài tập (Phần 4/5).
+  - Đối chiếu theo dạng gốc của `word`. Nếu bảng ghi dạng ghép (VD `the check / the bill`, `takeout / to go`) thì vẫn tính cho bài đó.
 - **level** — mục tiêu điểm: `600` / `750` / `900` tùy độ khó và tần suất (`600` = cơ bản, hay gặp; `900` = nâng cao, ít gặp). Tự đánh giá cho từng từ. **KHÔNG** bọc trong ngoặc kép (đây là số).
 - **forms** — họ từ, đặt khóa theo loại từ. CHỈ đưa dạng có thật, **KHÔNG bịa**. Bỏ khóa nào không tồn tại. Nếu một loại từ có hai dạng, để value là list.
   ```yaml
@@ -79,7 +81,7 @@ Làm đúng theo mẫu này. Ví dụ đầu có `sub-topic` với slug (chủ �
   meaning: "tuân thủ, làm đúng quy định"
   topic: "general-business"
   sub-topic: "contracts-negotiation"
-  lesson: "lession-01"
+  lesson: ["lesson-01"]
   level: 600
   forms:
     verb: "comply"

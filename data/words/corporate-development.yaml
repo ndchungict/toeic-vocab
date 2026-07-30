@@ -4,7 +4,7 @@
   meaning: "nghiên cứu, hoạt động tìm tòi khoa học"
   topic: "corporate-development"
   sub-topic:
-  lesson: "lesson-19"
+  lesson: ["lesson-19"]
   level: 600
   forms:
     noun: "research"
@@ -26,7 +26,7 @@
   meaning: "sự phát triển, quá trình phát triển sản phẩm"
   topic: "corporate-development"
   sub-topic:
-  lesson: "lesson-19"
+  lesson: ["lesson-19"]
   level: 600
   forms:
     noun: "development"
@@ -47,7 +47,7 @@
   meaning: "sự đổi mới, cải tiến mang tính sáng tạo"
   topic: "corporate-development"
   sub-topic:
-  lesson: "lesson-19"
+  lesson: ["lesson-19"]
   level: 750
   forms:
     noun: "innovation"
@@ -68,7 +68,7 @@
   meaning: "mang tính đổi mới, sáng tạo"
   topic: "corporate-development"
   sub-topic:
-  lesson: "lesson-19"
+  lesson: ["lesson-19"]
   level: 750
   forms:
     adjective: "innovative"
@@ -90,7 +90,7 @@
   meaning: "nguyên mẫu, mẫu thử đầu tiên của sản phẩm"
   topic: "corporate-development"
   sub-topic:
-  lesson: "lesson-19"
+  lesson: ["lesson-19"]
   level: 750
   forms:
     noun: "prototype"
@@ -110,7 +110,7 @@
   meaning: "ý tưởng, khái niệm ban đầu"
   topic: "corporate-development"
   sub-topic:
-  lesson: "lesson-19"
+  lesson: ["lesson-19"]
   level: 600
   forms:
     noun: "concept"
@@ -130,7 +130,7 @@
   meaning: "nghiên cứu tính khả thi của dự án"
   topic: "corporate-development"
   sub-topic:
-  lesson: "lesson-19"
+  lesson: ["lesson-19"]
   level: 900
   forms:
     noun: "feasibility"
@@ -150,7 +150,7 @@
   meaning: "khả thi, có thể thực hiện hoặc tồn tại được"
   topic: "corporate-development"
   sub-topic:
-  lesson: "lesson-19"
+  lesson: ["lesson-19"]
   level: 900
   forms:
     adjective: "viable"
@@ -170,7 +170,7 @@
   meaning: "cuộc thử nghiệm nhỏ trước khi triển khai rộng"
   topic: "corporate-development"
   sub-topic:
-  lesson: "lesson-19"
+  lesson: ["lesson-19"]
   level: 750
   forms:
     noun: "pilot"
@@ -191,7 +191,7 @@
   meaning: "cuộc thử nghiệm, đợt chạy thử"
   topic: "corporate-development"
   sub-topic:
-  lesson: "lesson-19"
+  lesson: ["lesson-19"]
   level: 600
   forms:
     noun: "trial"
@@ -211,7 +211,7 @@
   meaning: "giai đoạn trong một quá trình"
   topic: "corporate-development"
   sub-topic:
-  lesson: "lesson-19"
+  lesson: ["lesson-19"]
   level: 600
   forms:
     noun: "phase"
@@ -231,7 +231,7 @@
   meaning: "kết quả, phát hiện từ nghiên cứu"
   topic: "corporate-development"
   sub-topic:
-  lesson: "lesson-19"
+  lesson: ["lesson-19"]
   level: 750
   forms:
     noun: "findings"
@@ -252,7 +252,7 @@
   meaning: "tinh chỉnh, cải tiến cho hoàn thiện hơn"
   topic: "corporate-development"
   sub-topic:
-  lesson: "lesson-19"
+  lesson: ["lesson-19"]
   level: 750
   forms:
     verb: "refine"
@@ -273,7 +273,7 @@
   meaning: "nâng cao, cải thiện chất lượng"
   topic: "corporate-development"
   sub-topic:
-  lesson: "lesson-19"
+  lesson: ["lesson-19"]
   level: 750
   forms:
     verb: "enhance"
@@ -294,7 +294,7 @@
   meaning: "chỉnh sửa, điều chỉnh một phần"
   topic: "corporate-development"
   sub-topic:
-  lesson: "lesson-19"
+  lesson: ["lesson-19"]
   level: 600
   forms:
     verb: "modify"
@@ -315,7 +315,7 @@
   meaning: "bước đột phá, tiến bộ vượt bậc"
   topic: "corporate-development"
   sub-topic:
-  lesson: "lesson-19"
+  lesson: ["lesson-19"]
   level: 750
   forms:
     noun: "breakthrough"
@@ -334,7 +334,7 @@
   meaning: "hợp tác, cùng làm việc với nhau"
   topic: "corporate-development"
   sub-topic:
-  lesson: "lesson-19"
+  lesson: ["lesson-19"]
   level: 750
   forms:
     verb: "collaborate"
@@ -356,7 +356,7 @@
   meaning: "chuyên môn, kiến thức chuyên sâu"
   topic: "corporate-development"
   sub-topic:
-  lesson: "lesson-19"
+  lesson: ["lesson-19"]
   level: 900
   forms:
     noun: ["expertise", "expert"]
@@ -377,7 +377,7 @@
   meaning: "ra mắt, tung sản phẩm ra thị trường"
   topic: "corporate-development"
   sub-topic:
-  lesson: "lesson-20"
+  lesson: ["lesson-20"]
   level: 600
   forms:
     verb: "launch"
@@ -397,7 +397,7 @@
   meaning: "triển khai rộng rãi ra thị trường"
   topic: "corporate-development"
   sub-topic:
-  lesson: "lesson-20"
+  lesson: ["lesson-20"]
   level: 750
   forms:
     verb: "roll out"
@@ -417,7 +417,7 @@
   meaning: "tiên tiến nhất, dẫn đầu công nghệ"
   topic: "corporate-development"
   sub-topic:
-  lesson: "lesson-20"
+  lesson: ["lesson-20"]
   level: 750
   forms:
     adjective: "cutting-edge"
@@ -436,7 +436,7 @@
   meaning: "hiện đại nhất, sử dụng công nghệ mới nhất"
   topic: "corporate-development"
   sub-topic:
-  lesson: "lesson-20"
+  lesson: ["lesson-20"]
   level: 900
   forms:
     adjective: "state-of-the-art"
@@ -455,7 +455,7 @@
   meaning: "cột mốc quan trọng trong tiến trình"
   topic: "corporate-development"
   sub-topic:
-  lesson: "lesson-20"
+  lesson: ["lesson-20"]
   level: 750
   forms:
     noun: "milestone"
@@ -474,7 +474,7 @@
   meaning: "bằng sáng chế, quyền bảo hộ phát minh"
   topic: "corporate-development"
   sub-topic:
-  lesson: "lesson-20"
+  lesson: ["lesson-20"]
   level: 750
   forms:
     noun: "patent"
@@ -495,7 +495,7 @@
   meaning: "sở hữu trí tuệ"
   topic: "corporate-development"
   sub-topic:
-  lesson: "lesson-20"
+  lesson: ["lesson-20"]
   level: 900
   forms:
     noun: "intellectual property"
@@ -515,7 +515,7 @@
   meaning: "thuộc sở hữu độc quyền, được bảo hộ riêng"
   topic: "corporate-development"
   sub-topic:
-  lesson: "lesson-20"
+  lesson: ["lesson-20"]
   level: 900
   forms:
     adjective: "proprietary"
@@ -535,7 +535,7 @@
   meaning: "dự án kinh doanh mạo hiểm"
   topic: "corporate-development"
   sub-topic:
-  lesson: "lesson-20"
+  lesson: ["lesson-20"]
   level: 750
   forms:
     noun: "venture"
@@ -555,7 +555,7 @@
   meaning: "đa dạng hóa, mở rộng sang lĩnh vực mới"
   topic: "corporate-development"
   sub-topic:
-  lesson: "lesson-20"
+  lesson: ["lesson-20"]
   level: 900
   forms:
     verb: "diversify"
@@ -576,7 +576,7 @@
   meaning: "lỗi thời, không còn được sử dụng"
   topic: "corporate-development"
   sub-topic:
-  lesson: "lesson-20"
+  lesson: ["lesson-20"]
   level: 900
   forms:
     adjective: "obsolete"
@@ -595,7 +595,7 @@
   meaning: "dự đoán trước, lường trước"
   topic: "corporate-development"
   sub-topic:
-  lesson: "lesson-20"
+  lesson: ["lesson-20"]
   level: 750
   forms:
     verb: "anticipate"
@@ -616,7 +616,7 @@
   meaning: "mới nổi, đang xuất hiện và phát triển"
   topic: "corporate-development"
   sub-topic:
-  lesson: "lesson-20"
+  lesson: ["lesson-20"]
   level: 750
   forms:
     adjective: "emerging"
@@ -637,7 +637,7 @@
   meaning: "triển khai, đưa vào thực hiện"
   topic: "corporate-development"
   sub-topic:
-  lesson: "lesson-20"
+  lesson: ["lesson-07", "lesson-20"]
   level: 600
   forms:
     verb: "implement"
@@ -657,7 +657,7 @@
   meaning: "có thể mở rộng quy mô dễ dàng"
   topic: "corporate-development"
   sub-topic:
-  lesson: "lesson-20"
+  lesson: ["lesson-20"]
   level: 900
   forms:
     adjective: "scalable"
@@ -678,7 +678,7 @@
   meaning: "triển vọng, khả năng thành công trong tương lai"
   topic: "corporate-development"
   sub-topic:
-  lesson: "lesson-20"
+  lesson: ["lesson-20"]
   level: 750
   forms:
     noun: "prospect"
@@ -699,7 +699,7 @@
   meaning: "đang chờ xử lý, chưa được quyết định"
   topic: "corporate-development"
   sub-topic:
-  lesson: "lesson-20"
+  lesson: ["lesson-20"]
   level: 750
   forms:
     adjective: "pending"

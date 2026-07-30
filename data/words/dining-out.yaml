@@ -4,7 +4,7 @@
   meaning: "việc đặt bàn, đặt chỗ trước"
   topic: "dining-out"
   sub-topic:
-  lesson: "lesson-11"
+  lesson: ["lesson-09", "lesson-11"]
   level: 600
   forms:
     noun: "reservation"
@@ -24,7 +24,7 @@
   meaning: "đặt trước (bàn, phòng, vé)"
   topic: "dining-out"
   sub-topic:
-  lesson: "lesson-11"
+  lesson: ["lesson-11"]
   level: 600
   forms:
     verb: "book"
@@ -44,7 +44,7 @@
   meaning: "nhóm khách đi cùng nhau"
   topic: "dining-out"
   sub-topic:
-  lesson: "lesson-11"
+  lesson: ["lesson-11"]
   level: 600
   forms:
     noun: "party"
@@ -64,7 +64,7 @@
   meaning: "chỗ ngồi, cách bố trí chỗ ngồi"
   topic: "dining-out"
   sub-topic:
-  lesson: "lesson-11"
+  lesson: ["lesson-11"]
   level: 750
   forms:
     noun: "seating"
@@ -85,7 +85,7 @@
   meaning: "chứa được, đáp ứng số lượng khách"
   topic: "dining-out"
   sub-topic:
-  lesson: "lesson-11"
+  lesson: ["lesson-11"]
   level: 750
   forms:
     verb: "accommodate"
@@ -105,7 +105,7 @@
   meaning: "trước đó, từ trước"
   topic: "dining-out"
   sub-topic:
-  lesson: "lesson-11"
+  lesson: ["lesson-11"]
   level: 750
   forms:
     adverb: "beforehand"
@@ -124,7 +124,7 @@
   meaning: "đứng ra mời, chủ trì một bữa tiệc/sự kiện"
   topic: "dining-out"
   sub-topic:
-  lesson: "lesson-11"
+  lesson: ["lesson-11"]
   level: 600
   forms:
     verb: "host"
@@ -144,7 +144,7 @@
   meaning: "ẩm thực, phong cách nấu ăn của một vùng"
   topic: "dining-out"
   sub-topic:
-  lesson: "lesson-11"
+  lesson: ["lesson-11"]
   level: 750
   forms:
     noun: "cuisine"
@@ -163,7 +163,7 @@
   meaning: "địa điểm tổ chức sự kiện, tiệc"
   topic: "dining-out"
   sub-topic:
-  lesson: "lesson-11"
+  lesson: ["lesson-08", "lesson-11"]
   level: 750
   forms:
     noun: "venue"
@@ -182,7 +182,7 @@
   meaning: "tiệc chiêu đãi lớn, trang trọng"
   topic: "dining-out"
   sub-topic:
-  lesson: "lesson-11"
+  lesson: ["lesson-11"]
   level: 750
   forms:
     noun: "banquet"
@@ -201,7 +201,7 @@
   meaning: "tiệc chiêu đãi (đón khách, mừng sự kiện)"
   topic: "dining-out"
   sub-topic:
-  lesson: "lesson-11"
+  lesson: ["lesson-11"]
   level: 600
   forms:
     noun: "reception"
@@ -221,7 +221,7 @@
   meaning: "tiệc tự chọn, khách tự lấy món ăn"
   topic: "dining-out"
   sub-topic:
-  lesson: "lesson-11"
+  lesson: ["lesson-11"]
   level: 600
   forms:
     noun: "buffet"
@@ -240,7 +240,7 @@
   meaning: "dịch vụ cung cấp đồ ăn cho tiệc/sự kiện"
   topic: "dining-out"
   sub-topic:
-  lesson: "lesson-11"
+  lesson: ["lesson-11"]
   level: 750
   forms:
     noun: "catering"
@@ -260,7 +260,7 @@
   meaning: "bên tổ chức tiệc, người/công ty cung cấp đồ ăn"
   topic: "dining-out"
   sub-topic:
-  lesson: "lesson-11"
+  lesson: ["lesson-11"]
   level: 900
   forms:
     noun: "caterer"
@@ -280,7 +280,7 @@
   meaning: "đồ ăn nhẹ và nước giải khát"
   topic: "dining-out"
   sub-topic:
-  lesson: "lesson-11"
+  lesson: ["lesson-11"]
   level: 750
   forms:
     noun: "refreshments"
@@ -301,7 +301,7 @@
   meaning: "đồ uống (nói chung)"
   topic: "dining-out"
   sub-topic:
-  lesson: "lesson-11"
+  lesson: ["lesson-11"]
   level: 600
   forms:
     noun: "beverage"
@@ -320,7 +320,7 @@
   meaning: "món khai vị"
   topic: "dining-out"
   sub-topic:
-  lesson: "lesson-12"
+  lesson: ["lesson-12"]
   level: 600
   forms:
     noun: "appetizer"
@@ -339,7 +339,7 @@
   meaning: "món chính (theo cách gọi của Mỹ)"
   topic: "dining-out"
   sub-topic:
-  lesson: "lesson-12"
+  lesson: ["lesson-12"]
   level: 750
   forms:
     noun: "entrée"
@@ -358,7 +358,7 @@
   meaning: "món ăn kèm"
   topic: "dining-out"
   sub-topic:
-  lesson: "lesson-12"
+  lesson: ["lesson-12"]
   level: 600
   forms:
     noun: "side dish"
@@ -377,7 +377,7 @@
   meaning: "món tráng miệng"
   topic: "dining-out"
   sub-topic:
-  lesson: "lesson-12"
+  lesson: ["lesson-12"]
   level: 600
   forms:
     noun: "dessert"
@@ -397,7 +397,7 @@
   meaning: "món đặc sản, món tủ của nhà hàng"
   topic: "dining-out"
   sub-topic:
-  lesson: "lesson-12"
+  lesson: ["lesson-12"]
   level: 750
   forms:
     noun: "specialty"
@@ -417,7 +417,7 @@
   meaning: "nguyên liệu (nấu ăn)"
   topic: "dining-out"
   sub-topic:
-  lesson: "lesson-12"
+  lesson: ["lesson-12"]
   level: 600
   forms:
     noun: "ingredient"
@@ -436,7 +436,7 @@
   meaning: "theo mùa, phụ thuộc vào mùa"
   topic: "dining-out"
   sub-topic:
-  lesson: "lesson-12"
+  lesson: ["lesson-12"]
   level: 750
   forms:
     adjective: "seasonal"
@@ -457,7 +457,7 @@
   meaning: "(món) chay, ăn chay"
   topic: "dining-out"
   sub-topic:
-  lesson: "lesson-12"
+  lesson: ["lesson-12"]
   level: 600
   forms:
     adjective: "vegetarian"
@@ -477,7 +477,7 @@
   meaning: "hạn chế ăn uống (kiêng khem, dị ứng)"
   topic: "dining-out"
   sub-topic:
-  lesson: "lesson-12"
+  lesson: ["lesson-12"]
   level: 900
   forms:
     noun: "dietary restrictions"
@@ -497,7 +497,7 @@
   meaning: "nhân viên phục vụ bàn"
   topic: "dining-out"
   sub-topic:
-  lesson: "lesson-12"
+  lesson: ["lesson-12", "lesson-21"]
   level: 600
   forms:
     noun: "server"
@@ -517,7 +517,7 @@
   meaning: "miễn phí, được tặng kèm"
   topic: "dining-out"
   sub-topic:
-  lesson: "lesson-12"
+  lesson: ["lesson-10", "lesson-12"]
   level: 750
   forms:
     adjective: "complimentary"
@@ -537,7 +537,7 @@
   meaning: "hóa đơn nhà hàng (cách gọi của Mỹ)"
   topic: "dining-out"
   sub-topic:
-  lesson: "lesson-12"
+  lesson: ["lesson-12"]
   level: 600
   forms:
     noun: "check"
@@ -557,7 +557,7 @@
   meaning: "tiền boa (cách nói trang trọng); phí phục vụ"
   topic: "dining-out"
   sub-topic:
-  lesson: "lesson-12"
+  lesson: ["lesson-12"]
   level: 900
   forms:
     noun: "gratuity"
@@ -576,7 +576,7 @@
   meaning: "tiền boa"
   topic: "dining-out"
   sub-topic:
-  lesson: "lesson-12"
+  lesson: ["lesson-12"]
   level: 600
   forms:
     noun: "tip"
@@ -596,7 +596,7 @@
   meaning: "đồ ăn mua mang về"
   topic: "dining-out"
   sub-topic:
-  lesson: "lesson-12"
+  lesson: ["lesson-12"]
   level: 600
   forms:
     noun: "takeout"
@@ -616,7 +616,7 @@
   meaning: "xác nhận có tham dự hay không"
   topic: "dining-out"
   sub-topic:
-  lesson: "lesson-12"
+  lesson: ["lesson-12"]
   level: 750
   forms:
     verb: "RSVP"

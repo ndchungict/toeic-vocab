@@ -1,0 +1,707 @@
+- word: "premiere"
+  pos: "noun"
+  ipa: "/ˈpremieə(r)/"
+  meaning: "buổi công chiếu/ra mắt đầu tiên"
+  topic: "entertainment"
+  sub-topic:
+  lesson: ["lesson-27"]
+  level: 750
+  forms:
+    noun: "premiere"
+    verb: "premiere"
+  collocations:
+    - en: "the film's premiere"
+      vi: "buổi công chiếu của bộ phim"
+    - en: "a world premiere"
+      vi: "buổi ra mắt toàn cầu"
+  example:
+    en: "Aria's {premiere} was held in a packed hall in Halston."
+    vi: "Buổi ra mắt Aria được tổ chức trong một khán phòng chật kín ở Halston."
+
+- word: "showcase"
+  pos: "verb"
+  ipa: "/ˈʃəʊkeɪs/"
+  meaning: "giới thiệu, phô diễn (điểm nổi bật)"
+  topic: "entertainment"
+  sub-topic:
+  lesson: ["lesson-27"]
+  level: 750
+  forms:
+    verb: "showcase"
+    noun: "showcase"
+  collocations:
+    - en: "showcase a product"
+      vi: "phô diễn một sản phẩm"
+    - en: "showcase local artists"
+      vi: "giới thiệu các nghệ sĩ địa phương"
+  example:
+    en: "A wall of screens {showcased} every feature of the new device."
+    vi: "Một bức tường màn hình phô diễn mọi tính năng của thiết bị mới."
+
+- word: "exhibition"
+  pos: "noun"
+  ipa: "/ˌeksɪˈbɪʃn/"
+  meaning: "cuộc triển lãm"
+  topic: "entertainment"
+  sub-topic:
+  lesson: ["lesson-27"]
+  level: 600
+  forms:
+    noun: "exhibition"
+    verb: "exhibit"
+  collocations:
+    - en: "host an exhibition"
+      vi: "tổ chức một cuộc triển lãm"
+    - en: "open an exhibition"
+      vi: "khai mạc một cuộc triển lãm"
+  example:
+    en: "The main hall was turned into an art {exhibition} for the launch."
+    vi: "Khán phòng chính được biến thành một cuộc triển lãm nghệ thuật cho buổi ra mắt."
+
+- word: "exhibit"
+  pos: "noun"
+  ipa: "/ɪɡˈzɪbɪt/"
+  meaning: "vật trưng bày"
+  topic: "entertainment"
+  sub-topic:
+  lesson: ["lesson-27"]
+  level: 600
+  forms:
+    noun: "exhibit"
+    verb: "exhibit"
+  collocations:
+    - en: "a new exhibit"
+      vi: "một vật trưng bày mới"
+    - en: "a museum exhibit"
+      vi: "một hiện vật trưng bày trong bảo tàng"
+  example:
+    en: "Each device sat as an {exhibit} on its own lit stand."
+    vi: "Mỗi thiết bị được đặt như một vật trưng bày trên bệ đèn riêng."
+  note: "Danh từ 'exhibit' /ɪɡˈzɪbɪt/ = vật trưng bày; động từ cùng cách viết = trưng bày."
+
+- word: "on display"
+  pos: "preposition"
+  ipa: "/ɒn dɪˈspleɪ/"
+  meaning: "đang được trưng bày"
+  topic: "entertainment"
+  sub-topic:
+  lesson: ["lesson-27"]
+  level: 600
+  forms:
+    noun: "display"
+    verb: "display"
+  collocations:
+    - en: "be on display"
+      vi: "đang được trưng bày"
+    - en: "put on display"
+      vi: "đem ra trưng bày"
+  example:
+    en: "The finished units were {on display} under soft lighting."
+    vi: "Các sản phẩm hoàn thiện đang được trưng bày dưới ánh đèn dịu."
+
+- word: "gallery"
+  pos: "noun"
+  ipa: "/ˈɡæləri/"
+  meaning: "phòng trưng bày (tranh, tác phẩm nghệ thuật)"
+  topic: "entertainment"
+  sub-topic:
+  lesson: ["lesson-27"]
+  level: 600
+  forms:
+    noun: "gallery"
+  collocations:
+    - en: "an art gallery"
+      vi: "một phòng tranh nghệ thuật"
+    - en: "a photo gallery"
+      vi: "một phòng trưng bày ảnh"
+  example:
+    en: "For one night, the main hall became a {gallery}."
+    vi: "Trong một đêm, khán phòng chính trở thành một phòng trưng bày."
+
+- word: "curator"
+  pos: "noun"
+  ipa: "/kjʊəˈreɪtə(r)/"
+  meaning: "người phụ trách trưng bày (bảo tàng/triển lãm)"
+  topic: "entertainment"
+  sub-topic:
+  lesson: ["lesson-27"]
+  level: 900
+  forms:
+    noun: "curator"
+    verb: "curate"
+  collocations:
+    - en: "the museum curator"
+      vi: "người phụ trách bảo tàng"
+    - en: "act as curator"
+      vi: "đóng vai trò người phụ trách trưng bày"
+  example:
+    en: "Rosie acted as the {curator} for the product showcase."
+    vi: "Rosie đóng vai trò người phụ trách trưng bày cho buổi giới thiệu sản phẩm."
+
+- word: "audience"
+  pos: "noun"
+  ipa: "/ˈɔːdiəns/"
+  meaning: "khán giả, người xem"
+  topic: "entertainment"
+  sub-topic:
+  lesson: ["lesson-27"]
+  level: 600
+  forms:
+    noun: "audience"
+  collocations:
+    - en: "a packed audience"
+      vi: "một lượng khán giả chật kín"
+    - en: "the target audience"
+      vi: "đối tượng khán giả mục tiêu"
+  example:
+    en: "The {audience} that night included dozens of the press."
+    vi: "Khán giả đêm đó có hàng chục phóng viên báo chí."
+
+- word: "performance"
+  pos: "noun"
+  ipa: "/pəˈfɔːməns/"
+  meaning: "buổi biểu diễn"
+  topic: "entertainment"
+  sub-topic:
+  lesson: ["lesson-27"]
+  level: 600
+  forms:
+    noun: "performance"
+    verb: "perform"
+  collocations:
+    - en: "tonight's performance"
+      vi: "buổi biểu diễn tối nay"
+    - en: "give a performance"
+      vi: "trình diễn một tiết mục"
+  example:
+    en: "The stage {performance} was actually a live product demo."
+    vi: "Tiết mục trên sân khấu thực ra là một buổi trình diễn sản phẩm trực tiếp."
+  note: "'performance' còn nghĩa là 'hiệu suất/thành tích' — chọn nghĩa theo ngữ cảnh."
+
+- word: "rehearsal"
+  pos: "noun"
+  ipa: "/rɪˈhɜːsl/"
+  meaning: "buổi tập dượt"
+  topic: "entertainment"
+  sub-topic:
+  lesson: ["lesson-27"]
+  level: 750
+  forms:
+    noun: "rehearsal"
+    verb: "rehearse"
+  collocations:
+    - en: "a dress rehearsal"
+      vi: "buổi tổng duyệt"
+    - en: "hold a rehearsal"
+      vi: "tổ chức một buổi tập dượt"
+  example:
+    en: "They held a final {rehearsal} an hour before the doors opened."
+    vi: "Họ tổ chức một buổi tập dượt cuối cùng một giờ trước khi mở cửa."
+
+- word: "admission"
+  pos: "noun"
+  ipa: "/ədˈmɪʃn/"
+  meaning: "vé vào cửa; sự cho vào"
+  topic: "entertainment"
+  sub-topic:
+  lesson: ["lesson-27"]
+  level: 750
+  forms:
+    noun: "admission"
+    verb: "admit"
+  collocations:
+    - en: "admission is free"
+      vi: "vào cửa miễn phí"
+    - en: "admission by ticket only"
+      vi: "chỉ vào cửa bằng vé"
+  example:
+    en: "{Admission} was by invitation ticket only that evening."
+    vi: "Tối đó chỉ được vào cửa bằng vé mời."
+
+- word: "box office"
+  pos: "noun"
+  ipa: "/ˈbɒks ɒfɪs/"
+  meaning: "quầy bán vé"
+  topic: "entertainment"
+  sub-topic:
+  lesson: ["lesson-27"]
+  level: 750
+  forms:
+    noun: "box office"
+  collocations:
+    - en: "at the box office"
+      vi: "tại quầy bán vé"
+    - en: "box office sales"
+      vi: "doanh thu bán vé"
+  example:
+    en: "Guests picked up their passes from a pop-up {box office}."
+    vi: "Khách nhận vé của mình tại một quầy bán vé dựng tạm."
+
+- word: "sold out"
+  pos: "adjective"
+  ipa: "/ˌsəʊld ˈaʊt/"
+  meaning: "đã bán/kín hết vé"
+  topic: "entertainment"
+  sub-topic:
+  lesson: ["lesson-27"]
+  level: 600
+  forms:
+    adjective: "sold out"
+    verb: "sell out"
+  collocations:
+    - en: "be sold out"
+      vi: "đã bán hết vé"
+    - en: "completely sold out"
+      vi: "cháy vé hoàn toàn"
+  example:
+    en: "Within hours, the launch event was completely {sold out}."
+    vi: "Chỉ trong vài giờ, sự kiện ra mắt đã cháy vé hoàn toàn."
+
+- word: "lineup"
+  pos: "noun"
+  ipa: "/ˈlaɪnʌp/"
+  meaning: "chuỗi tiết mục; danh sách (nghệ sĩ/nội dung)"
+  topic: "entertainment"
+  sub-topic:
+  lesson: ["lesson-27"]
+  level: 750
+  forms:
+    noun: "lineup"
+  collocations:
+    - en: "this year's lineup"
+      vi: "danh sách tiết mục năm nay"
+    - en: "an impressive lineup"
+      vi: "một dàn tiết mục ấn tượng"
+  example:
+    en: "Daniel carefully planned the demo {lineup} for the evening."
+    vi: "Daniel lên kế hoạch kỹ lưỡng cho chuỗi tiết mục trình diễn tối đó."
+
+- word: "sponsor"
+  pos: "noun"
+  ipa: "/ˈspɒnsə(r)/"
+  meaning: "nhà tài trợ; tài trợ"
+  topic: "entertainment"
+  sub-topic:
+  lesson: ["lesson-27"]
+  level: 600
+  forms:
+    noun: "sponsor"
+    verb: "sponsor"
+    noun_activity: "sponsorship"
+  collocations:
+    - en: "sponsor an event"
+      vi: "tài trợ một sự kiện"
+    - en: "a corporate sponsor"
+      vi: "một nhà tài trợ doanh nghiệp"
+  example:
+    en: "Logos of every {sponsor} lined the stage backdrop."
+    vi: "Logo của từng nhà tài trợ xếp dọc phông nền sân khấu."
+
+- word: "intermission"
+  pos: "noun"
+  ipa: "/ˌɪntəˈmɪʃn/"
+  meaning: "giờ giải lao giữa buổi diễn"
+  topic: "entertainment"
+  sub-topic:
+  lesson: ["lesson-27"]
+  level: 750
+  forms:
+    noun: "intermission"
+  collocations:
+    - en: "a 15-minute intermission"
+      vi: "giờ giải lao 15 phút"
+    - en: "during the intermission"
+      vi: "trong giờ giải lao"
+  example:
+    en: "An {intermission} let guests walk up and try the device themselves."
+    vi: "Giờ giải lao cho phép khách bước lên tự trải nghiệm thiết bị."
+
+- word: "volunteer"
+  pos: "noun"
+  ipa: "/ˌvɒlənˈtɪə(r)/"
+  meaning: "tình nguyện viên; tình nguyện làm"
+  topic: "entertainment"
+  sub-topic:
+  lesson: ["lesson-27"]
+  level: 600
+  forms:
+    noun: "volunteer"
+    verb: "volunteer"
+  collocations:
+    - en: "volunteer to do something"
+      vi: "tình nguyện làm việc gì đó"
+    - en: "a team of volunteers"
+      vi: "một đội tình nguyện viên"
+  example:
+    en: "Staff {volunteers} ushered the guests to their seats."
+    vi: "Các nhân viên tình nguyện dẫn khách vào chỗ ngồi."
+  note: "Động từ đi với 'to do sth': volunteer to help."
+
+- word: "release"
+  pos: "verb"
+  ipa: "/rɪˈliːs/"
+  meaning: "phát hành, tung ra thị trường"
+  topic: "entertainment"
+  sub-topic:
+  lesson: ["lesson-28"]
+  level: 600
+  forms:
+    verb: "release"
+    noun: "release"
+  collocations:
+    - en: "release a product"
+      vi: "phát hành một sản phẩm"
+    - en: "release an album"
+      vi: "phát hành một album"
+  example:
+    en: "Aster officially {released} Aria that same night."
+    vi: "Aster chính thức phát hành Aria ngay trong đêm đó."
+
+- word: "review"
+  pos: "noun"
+  ipa: "/rɪˈvjuː/"
+  meaning: "bài đánh giá, nhận xét"
+  topic: "entertainment"
+  sub-topic:
+  lesson: ["lesson-28"]
+  level: 600
+  forms:
+    noun: "review"
+    verb: "review"
+    noun_person: "reviewer"
+  collocations:
+    - en: "receive rave reviews"
+      vi: "nhận được những bài đánh giá nồng nhiệt"
+    - en: "a positive review"
+      vi: "một bài đánh giá tích cực"
+  example:
+    en: "The first {reviews} of the device were absolutely glowing."
+    vi: "Những bài đánh giá đầu tiên về thiết bị vô cùng tích cực."
+
+- word: "critic"
+  pos: "noun"
+  ipa: "/ˈkrɪtɪk/"
+  meaning: "nhà phê bình"
+  topic: "entertainment"
+  sub-topic:
+  lesson: ["lesson-28"]
+  level: 750
+  forms:
+    noun: "critic"
+    adjective: "critical"
+    verb: "criticize"
+  collocations:
+    - en: "a tech critic"
+      vi: "một nhà phê bình công nghệ"
+    - en: "a film critic"
+      vi: "một nhà phê bình phim"
+  example:
+    en: "Even a famously tough {critic} praised the new device."
+    vi: "Ngay cả một nhà phê bình nổi tiếng khó tính cũng khen ngợi thiết bị mới."
+  note: "Phân biệt 'critic' (người phê bình) với 'critique' (bài phê bình) và 'criticism' (sự chỉ trích)."
+
+- word: "acclaim"
+  pos: "noun"
+  ipa: "/əˈkleɪm/"
+  meaning: "sự tán dương, ca ngợi"
+  topic: "entertainment"
+  sub-topic:
+  lesson: ["lesson-28"]
+  level: 900
+  forms:
+    noun: "acclaim"
+    verb: "acclaim"
+    adjective: "acclaimed"
+  collocations:
+    - en: "win critical acclaim"
+      vi: "giành được sự tán dương của giới phê bình"
+    - en: "widespread acclaim"
+      vi: "sự tán dương rộng rãi"
+  example:
+    en: "Aria won rare critical {acclaim} within days of its release."
+    vi: "Aria giành được sự tán dương hiếm có từ giới phê bình chỉ vài ngày sau khi ra mắt."
+  note: "Là danh từ không đếm được: không có 'acclaims'."
+
+- word: "renowned"
+  pos: "adjective"
+  ipa: "/rɪˈnaʊnd/"
+  meaning: "nổi tiếng, có danh tiếng"
+  topic: "entertainment"
+  sub-topic:
+  lesson: ["lesson-28"]
+  level: 750
+  forms:
+    adjective: "renowned"
+    noun: "renown"
+  collocations:
+    - en: "a renowned expert"
+      vi: "một chuyên gia nổi tiếng"
+    - en: "renowned for quality"
+      vi: "nổi tiếng về chất lượng"
+  example:
+    en: "A {renowned} technology critic featured Aria on the front page."
+    vi: "Một nhà phê bình công nghệ nổi tiếng đưa Aria lên trang nhất."
+
+- word: "masterpiece"
+  pos: "noun"
+  ipa: "/ˈmɑːstəpiːs/"
+  meaning: "kiệt tác"
+  topic: "entertainment"
+  sub-topic:
+  lesson: ["lesson-28"]
+  level: 750
+  forms:
+    noun: "masterpiece"
+  collocations:
+    - en: "a design masterpiece"
+      vi: "một kiệt tác thiết kế"
+    - en: "an artistic masterpiece"
+      vi: "một kiệt tác nghệ thuật"
+  example:
+    en: "Several critics called the device a design {masterpiece}."
+    vi: "Nhiều nhà phê bình gọi thiết bị này là một kiệt tác thiết kế."
+
+- word: "broadcast"
+  pos: "verb"
+  ipa: "/ˈbrɔːdkɑːst/"
+  meaning: "phát sóng"
+  topic: "entertainment"
+  sub-topic:
+  lesson: ["lesson-28"]
+  level: 750
+  forms:
+    verb: "broadcast"
+    noun: "broadcast"
+    noun_person: "broadcaster"
+  collocations:
+    - en: "broadcast live"
+      vi: "phát sóng trực tiếp"
+    - en: "broadcast nationwide"
+      vi: "phát sóng toàn quốc"
+  example:
+    en: "The launch demo was {broadcast} live to millions of viewers."
+    vi: "Buổi trình diễn ra mắt được phát sóng trực tiếp tới hàng triệu người xem."
+  note: "Quá khứ và quá khứ phân từ vẫn là 'broadcast' (không thêm -ed)."
+
+- word: "journalist"
+  pos: "noun"
+  ipa: "/ˈdʒɜːnəlɪst/"
+  meaning: "nhà báo, phóng viên"
+  topic: "entertainment"
+  sub-topic:
+  lesson: ["lesson-28"]
+  level: 600
+  forms:
+    noun: "journalist"
+    noun_field: "journalism"
+  collocations:
+    - en: "a freelance journalist"
+      vi: "một nhà báo tự do"
+    - en: "an investigative journalist"
+      vi: "một nhà báo điều tra"
+  example:
+    en: "{Journalists} rushed to write about the surprise comeback."
+    vi: "Các nhà báo vội vàng viết về màn trở lại bất ngờ."
+
+- word: "editorial"
+  pos: "noun"
+  ipa: "/ˌedɪˈtɔːriəl/"
+  meaning: "bài xã luận (thể hiện quan điểm tòa soạn)"
+  topic: "entertainment"
+  sub-topic:
+  lesson: ["lesson-28"]
+  level: 900
+  forms:
+    noun: "editorial"
+    adjective: "editorial"
+    noun_person: "editor"
+  collocations:
+    - en: "write an editorial"
+      vi: "viết một bài xã luận"
+    - en: "a newspaper editorial"
+      vi: "một bài xã luận trên báo"
+  example:
+    en: "Several {editorials} praised the company's remarkable comeback."
+    vi: "Nhiều bài xã luận ca ngợi màn trở lại đáng nể của công ty."
+
+- word: "publication"
+  pos: "noun"
+  ipa: "/ˌpʌblɪˈkeɪʃn/"
+  meaning: "ấn phẩm; việc xuất bản"
+  topic: "entertainment"
+  sub-topic:
+  lesson: ["lesson-28"]
+  level: 750
+  forms:
+    noun: "publication"
+    verb: "publish"
+    noun_person: "publisher"
+  collocations:
+    - en: "a monthly publication"
+      vi: "một ấn phẩm hàng tháng"
+    - en: "a major publication"
+      vi: "một ấn phẩm lớn"
+  example:
+    en: "Major {publications} across the country covered the story."
+    vi: "Các ấn phẩm lớn trên khắp cả nước đưa tin về câu chuyện này."
+
+- word: "subscription"
+  pos: "noun"
+  ipa: "/səbˈskrɪpʃn/"
+  meaning: "đăng ký dài hạn (dịch vụ/ấn phẩm)"
+  topic: "entertainment"
+  sub-topic:
+  lesson: ["lesson-28"]
+  level: 750
+  forms:
+    noun: "subscription"
+    verb: "subscribe"
+    noun_person: "subscriber"
+  collocations:
+    - en: "renew a subscription"
+      vi: "gia hạn đăng ký"
+    - en: "cancel a subscription"
+      vi: "hủy đăng ký"
+  example:
+    en: "Aria {subscriptions} surged overnight after the reviews appeared."
+    vi: "Lượng đăng ký Aria tăng vọt sau một đêm khi các bài đánh giá xuất hiện."
+
+- word: "fundraiser"
+  pos: "noun"
+  ipa: "/ˈfʌndreɪzə(r)/"
+  meaning: "sự kiện gây quỹ"
+  topic: "entertainment"
+  sub-topic:
+  lesson: ["lesson-28"]
+  level: 900
+  forms:
+    noun: "fundraiser"
+    verb: "fundraise"
+  collocations:
+    - en: "host a fundraiser"
+      vi: "tổ chức một sự kiện gây quỹ"
+    - en: "a charity fundraiser"
+      vi: "một sự kiện gây quỹ từ thiện"
+  example:
+    en: "Aster held a charity {fundraiser} alongside the product launch."
+    vi: "Aster tổ chức một sự kiện gây quỹ từ thiện song song với buổi ra mắt sản phẩm."
+
+- word: "anniversary"
+  pos: "noun"
+  ipa: "/ˌænɪˈvɜːsəri/"
+  meaning: "lễ kỷ niệm (ngày thành lập, sự kiện)"
+  topic: "entertainment"
+  sub-topic:
+  lesson: ["lesson-28"]
+  level: 600
+  forms:
+    noun: "anniversary"
+  collocations:
+    - en: "the 12th anniversary"
+      vi: "lễ kỷ niệm lần thứ 12"
+    - en: "celebrate an anniversary"
+      vi: "tổ chức lễ kỷ niệm"
+  example:
+    en: "The launch also marked the company's twelfth {anniversary}."
+    vi: "Buổi ra mắt cũng đánh dấu lễ kỷ niệm 12 năm thành lập công ty."
+
+- word: "sculpture"
+  pos: "noun"
+  ipa: "/ˈskʌlptʃə(r)/"
+  meaning: "tác phẩm điêu khắc"
+  topic: "entertainment"
+  sub-topic:
+  lesson: ["lesson-28"]
+  level: 750
+  forms:
+    noun: "sculpture"
+    noun_person: "sculptor"
+  collocations:
+    - en: "commission a sculpture"
+      vi: "đặt làm một tác phẩm điêu khắc"
+    - en: "a marble sculpture"
+      vi: "một tác phẩm điêu khắc bằng đá cẩm thạch"
+  example:
+    en: "A small {sculpture} of the device was made for the lobby."
+    vi: "Một tác phẩm điêu khắc nhỏ hình thiết bị được làm cho sảnh."
+  note: "Người điêu khắc là 'sculptor', không phải 'sculpturer'."
+
+- word: "admission fee"
+  pos: "noun"
+  ipa: "/ədˈmɪʃn fiː/"
+  meaning: "phí vào cửa"
+  topic: "entertainment"
+  sub-topic:
+  lesson: ["lesson-28"]
+  level: 750
+  forms:
+    noun: "admission fee"
+  collocations:
+    - en: "charge an admission fee"
+      vi: "thu phí vào cửa"
+    - en: "waive the admission fee"
+      vi: "miễn phí vào cửa"
+  example:
+    en: "The {admission fee} for the public day all went to charity."
+    vi: "Phí vào cửa của ngày mở cho công chúng được dùng toàn bộ cho từ thiện."
+
+- word: "matinee"
+  pos: "noun"
+  ipa: "/ˈmætɪneɪ/"
+  meaning: "suất diễn/mở cửa ban ngày"
+  topic: "entertainment"
+  sub-topic:
+  lesson: ["lesson-28"]
+  level: 900
+  forms:
+    noun: "matinee"
+  collocations:
+    - en: "a Sunday matinee"
+      vi: "suất chiếu ban ngày Chủ nhật"
+    - en: "an afternoon matinee"
+      vi: "suất diễn buổi chiều"
+  example:
+    en: "A free {matinee} was opened to the public the following day."
+    vi: "Một suất mở cửa ban ngày miễn phí được dành cho công chúng vào ngày hôm sau."
+
+- word: "feature"
+  pos: "verb"
+  ipa: "/ˈfiːtʃə(r)/"
+  meaning: "có sự góp mặt của, giới thiệu nổi bật"
+  topic: "entertainment"
+  sub-topic:
+  lesson: ["lesson-22"]
+  level: 750
+  forms:
+    verb: "feature"
+    noun: "feature"
+  collocations:
+    - en: "the exhibit features 50 works"
+      vi: "cuộc triển lãm giới thiệu 50 tác phẩm"
+    - en: "feature a guest artist"
+      vi: "có sự góp mặt của một nghệ sĩ khách mời"
+  example:
+    en: "The showcase {featured} works from more than a dozen designers."
+    vi: "Buổi trưng bày có sự góp mặt của tác phẩm từ hơn chục nhà thiết kế."
+  note: "Trong Entertainment 'feature' (v) = có sự góp mặt của; ở Technical (Lesson 22) 'feature' (n) = tính năng."
+
+- word: "coverage"
+  pos: "noun"
+  ipa: "/ˈkʌvərɪdʒ/"
+  meaning: "sự đưa tin (của báo chí, truyền thông)"
+  topic: "entertainment"
+  sub-topic:
+  lesson: ["lesson-07", "lesson-26"]
+  level: 750
+  forms:
+    noun: "coverage"
+    verb: "cover"
+  collocations:
+    - en: "extensive media coverage"
+      vi: "sự đưa tin rộng rãi của truyền thông"
+    - en: "live coverage"
+      vi: "đưa tin trực tiếp"
+  example:
+    en: "The launch received extensive media {coverage} the next morning."
+    vi: "Buổi ra mắt nhận được sự đưa tin rộng rãi của truyền thông vào sáng hôm sau."
+  note: "'coverage' đa nghĩa: sự đưa tin (Entertainment); phạm vi bảo hành (Lesson 7); phạm vi bảo hiểm (Lesson 26). Là danh từ không đếm được."
