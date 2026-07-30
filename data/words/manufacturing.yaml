@@ -1,0 +1,675 @@
+- word: "assembly line"
+  pos: "noun"
+  ipa: "/əˈsembli laɪn/"
+  meaning: "dây chuyền lắp ráp"
+  topic: "manufacturing"
+  sub-topic:
+  lesson: ["lesson-17"]
+  level: 750
+  forms:
+    noun: "assembly line"
+  collocations:
+    - en: "work on the assembly line"
+      vi: "làm việc trên dây chuyền lắp ráp"
+    - en: "stop the assembly line"
+      vi: "dừng dây chuyền lắp ráp"
+  example:
+    en: "Every car passes through several stations on the {assembly line}."
+    vi: "Mỗi chiếc xe đi qua nhiều trạm trên dây chuyền lắp ráp."
+
+- word: "assemble"
+  pos: "verb"
+  ipa: "/əˈsembl/"
+  meaning: "lắp ráp"
+  topic: "manufacturing"
+  sub-topic:
+  lesson: ["lesson-17"]
+  level: 600
+  forms:
+    verb: "assemble"
+    noun: "assembly"
+  collocations:
+    - en: "assemble the components"
+      vi: "lắp ráp các linh kiện"
+    - en: "assemble a product"
+      vi: "lắp ráp một sản phẩm"
+  example:
+    en: "Workers {assemble} the parts by hand at the final station."
+    vi: "Công nhân lắp ráp các bộ phận bằng tay tại trạm cuối cùng."
+
+- word: "plant"
+  pos: "noun"
+  ipa: "/plɑːnt/"
+  meaning: "nhà máy"
+  topic: "manufacturing"
+  sub-topic:
+  lesson: ["lesson-17"]
+  level: 600
+  forms:
+    noun: "plant"
+  collocations:
+    - en: "a manufacturing plant"
+      vi: "một nhà máy sản xuất"
+    - en: "run a plant"
+      vi: "vận hành một nhà máy"
+  example:
+    en: "The company opened a new manufacturing {plant} near the harbor."
+    vi: "Công ty đã mở một nhà máy sản xuất mới gần cảng."
+  note: "Trong ngữ cảnh sản xuất nghĩa là 'nhà máy', không phải 'cái cây'."
+
+- word: "machinery"
+  pos: "noun"
+  ipa: "/məˈʃiːnəri/"
+  meaning: "máy móc (nói chung)"
+  topic: "manufacturing"
+  sub-topic:
+  lesson: ["lesson-17"]
+  level: 600
+  forms:
+    noun: ["machinery", "machine"]
+  collocations:
+    - en: "operate machinery"
+      vi: "vận hành máy móc"
+    - en: "heavy machinery"
+      vi: "máy móc hạng nặng"
+  example:
+    en: "Only trained staff are allowed to operate the heavy {machinery}."
+    vi: "Chỉ nhân viên được đào tạo mới được phép vận hành máy móc hạng nặng."
+  note: "Danh từ không đếm được — không có 'machineries'. Đếm thì dùng 'a machine'."
+
+- word: "equipment"
+  pos: "noun"
+  ipa: "/ɪˈkwɪpmənt/"
+  meaning: "thiết bị"
+  topic: "manufacturing"
+  sub-topic:
+  lesson: ["lesson-17"]
+  level: 600
+  forms:
+    noun: "equipment"
+    verb: "equip"
+  collocations:
+    - en: "safety equipment"
+      vi: "thiết bị an toàn"
+    - en: "install new equipment"
+      vi: "lắp đặt thiết bị mới"
+  example:
+    en: "The factory invested in modern {equipment} to speed up production."
+    vi: "Nhà máy đã đầu tư thiết bị hiện đại để đẩy nhanh sản xuất."
+  note: "Danh từ không đếm được — không có 'equipments'. Đơn vị đếm: 'a piece of equipment'."
+
+- word: "component"
+  pos: "noun"
+  ipa: "/kəmˈpəʊnənt/"
+  meaning: "linh kiện, bộ phận cấu thành"
+  topic: "manufacturing"
+  sub-topic:
+  lesson: ["lesson-17"]
+  level: 750
+  forms:
+    noun: "component"
+  collocations:
+    - en: "replace a component"
+      vi: "thay một linh kiện"
+    - en: "electronic components"
+      vi: "linh kiện điện tử"
+  example:
+    en: "One faulty {component} caused the entire machine to stop working."
+    vi: "Một linh kiện bị lỗi đã khiến toàn bộ máy ngừng hoạt động."
+
+- word: "raw materials"
+  pos: "noun"
+  ipa: "/rɔː məˈtɪəriəlz/"
+  meaning: "nguyên liệu thô"
+  topic: "manufacturing"
+  sub-topic:
+  lesson: ["lesson-17"]
+  level: 750
+  forms:
+    noun: "raw materials"
+  collocations:
+    - en: "source raw materials"
+      vi: "tìm nguồn nguyên liệu thô"
+    - en: "the cost of raw materials"
+      vi: "chi phí nguyên liệu thô"
+  example:
+    en: "Rising prices for {raw materials} increased the cost of production."
+    vi: "Giá nguyên liệu thô tăng đã làm tăng chi phí sản xuất."
+
+- word: "output"
+  pos: "noun"
+  ipa: "/ˈaʊtpʊt/"
+  meaning: "sản lượng"
+  topic: "manufacturing"
+  sub-topic:
+  lesson: ["lesson-17"]
+  level: 750
+  forms:
+    noun: "output"
+  collocations:
+    - en: "increase output"
+      vi: "tăng sản lượng"
+    - en: "double the output"
+      vi: "tăng gấp đôi sản lượng"
+  example:
+    en: "The new machines helped double the factory's daily {output}."
+    vi: "Những chiếc máy mới đã giúp tăng gấp đôi sản lượng hằng ngày của nhà máy."
+
+- word: "productivity"
+  pos: "noun"
+  ipa: "/ˌprɒdʌkˈtɪvəti/"
+  meaning: "năng suất"
+  topic: "manufacturing"
+  sub-topic:
+  lesson: ["lesson-17"]
+  level: 600
+  forms:
+    noun: ["productivity", "product"]
+    verb: "produce"
+    adjective: "productive"
+  collocations:
+    - en: "increase productivity"
+      vi: "tăng năng suất"
+    - en: "boost productivity"
+      vi: "thúc đẩy năng suất"
+  example:
+    en: "Better training led to a clear rise in worker {productivity}."
+    vi: "Việc đào tạo tốt hơn đã dẫn đến sự gia tăng rõ rệt về năng suất của công nhân."
+
+- word: "efficiency"
+  pos: "noun"
+  ipa: "/ɪˈfɪʃnsi/"
+  meaning: "hiệu suất"
+  topic: "manufacturing"
+  sub-topic:
+  lesson: ["lesson-17"]
+  level: 600
+  forms:
+    noun: "efficiency"
+    adjective: "efficient"
+    adverb: "efficiently"
+  collocations:
+    - en: "improve efficiency"
+      vi: "cải thiện hiệu suất"
+    - en: "energy efficiency"
+      vi: "hiệu suất năng lượng"
+  example:
+    en: "Automating the process greatly improved the plant's {efficiency}."
+    vi: "Tự động hóa quy trình đã cải thiện đáng kể hiệu suất của nhà máy."
+  note: "Phân biệt 'efficiency' (ít lãng phí nguồn lực) với 'effectiveness' (đạt kết quả mong muốn)."
+
+- word: "capacity"
+  pos: "noun"
+  ipa: "/kəˈpæsəti/"
+  meaning: "công suất, sức chứa"
+  topic: "manufacturing"
+  sub-topic:
+  lesson: ["lesson-17"]
+  level: 750
+  forms:
+    noun: "capacity"
+  collocations:
+    - en: "operate at full capacity"
+      vi: "hoạt động hết công suất"
+    - en: "production capacity"
+      vi: "công suất sản xuất"
+  example:
+    en: "During peak season, the factory runs at full {capacity}."
+    vi: "Vào mùa cao điểm, nhà máy hoạt động hết công suất."
+  note: "Thường đi với 'at': operate/run at full capacity."
+
+- word: "streamline"
+  pos: "verb"
+  ipa: "/ˈstriːmlaɪn/"
+  meaning: "tinh gọn quy trình"
+  topic: "manufacturing"
+  sub-topic:
+  lesson: ["lesson-02", "lesson-17"]
+  level: 750
+  forms:
+    verb: "streamline"
+    adjective: "streamlined"
+  collocations:
+    - en: "streamline the process"
+      vi: "tinh gọn quy trình"
+    - en: "streamline operations"
+      vi: "tinh gọn hoạt động"
+  example:
+    en: "The manager {streamlined} the workflow to cut down on delays."
+    vi: "Người quản lý đã tinh gọn quy trình làm việc để giảm thiểu chậm trễ."
+
+- word: "automate"
+  pos: "verb"
+  ipa: "/ˈɔːtəmeɪt/"
+  meaning: "tự động hóa"
+  topic: "manufacturing"
+  sub-topic:
+  lesson: ["lesson-17"]
+  level: 750
+  forms:
+    verb: "automate"
+    noun: "automation"
+    adjective: "automatic"
+  collocations:
+    - en: "automate the process"
+      vi: "tự động hóa quy trình"
+    - en: "fully automated"
+      vi: "hoàn toàn tự động"
+  example:
+    en: "The company decided to {automate} its packaging line last year."
+    vi: "Công ty đã quyết định tự động hóa dây chuyền đóng gói vào năm ngoái."
+
+- word: "shift"
+  pos: "noun"
+  ipa: "/ʃɪft/"
+  meaning: "ca làm việc"
+  topic: "manufacturing"
+  sub-topic:
+  lesson: ["lesson-17"]
+  level: 600
+  forms:
+    noun: "shift"
+  collocations:
+    - en: "work the night shift"
+      vi: "làm ca đêm"
+    - en: "an eight-hour shift"
+      vi: "ca làm tám tiếng"
+  example:
+    en: "He usually works the night {shift} at the factory."
+    vi: "Anh ấy thường làm ca đêm tại nhà máy."
+
+- word: "foreman"
+  pos: "noun"
+  ipa: "/ˈfɔːmən/"
+  meaning: "quản đốc, đốc công"
+  topic: "manufacturing"
+  sub-topic:
+  lesson: ["lesson-17"]
+  level: 900
+  forms:
+    noun: "foreman"
+  collocations:
+    - en: "the factory foreman"
+      vi: "quản đốc nhà máy"
+    - en: "report to the foreman"
+      vi: "báo cáo với quản đốc"
+  example:
+    en: "The {foreman} supervises the team on the production floor."
+    vi: "Quản đốc giám sát cả nhóm ở khu vực sản xuất."
+
+- word: "supervise"
+  pos: "verb"
+  ipa: "/ˈsuːpəvaɪz/"
+  meaning: "giám sát"
+  topic: "manufacturing"
+  sub-topic:
+  lesson: ["lesson-17"]
+  level: 600
+  forms:
+    verb: "supervise"
+    noun: ["supervisor", "supervision"]
+  collocations:
+    - en: "supervise the staff"
+      vi: "giám sát nhân viên"
+    - en: "supervise production"
+      vi: "giám sát sản xuất"
+  example:
+    en: "She {supervises} a team of twenty workers on the assembly line."
+    vi: "Cô ấy giám sát một nhóm hai mươi công nhân trên dây chuyền lắp ráp."
+
+- word: "quality control"
+  pos: "noun"
+  ipa: "/ˈkwɒləti kənˈtrəʊl/"
+  meaning: "kiểm soát chất lượng"
+  topic: "manufacturing"
+  sub-topic:
+  lesson: ["lesson-18"]
+  level: 750
+  forms:
+    noun: "quality control"
+  collocations:
+    - en: "pass quality control"
+      vi: "vượt qua kiểm soát chất lượng"
+    - en: "the quality control department"
+      vi: "bộ phận kiểm soát chất lượng"
+  example:
+    en: "Every batch must pass {quality control} before it is shipped."
+    vi: "Mỗi lô hàng phải vượt qua kiểm soát chất lượng trước khi được giao."
+  note: "Thường viết tắt là 'QC'."
+
+- word: "inspect"
+  pos: "verb"
+  ipa: "/ɪnˈspekt/"
+  meaning: "kiểm tra"
+  topic: "manufacturing"
+  sub-topic:
+  lesson: ["lesson-18"]
+  level: 600
+  forms:
+    verb: "inspect"
+    noun: ["inspection", "inspector"]
+  collocations:
+    - en: "inspect the products"
+      vi: "kiểm tra sản phẩm"
+    - en: "inspect for defects"
+      vi: "kiểm tra lỗi"
+  example:
+    en: "Staff carefully {inspect} each unit for defects before packing."
+    vi: "Nhân viên kiểm tra kỹ từng sản phẩm để tìm lỗi trước khi đóng gói."
+
+- word: "defect"
+  pos: "noun"
+  ipa: "/ˈdiːfekt/"
+  meaning: "lỗi sản phẩm"
+  topic: "manufacturing"
+  sub-topic:
+  lesson: ["lesson-07", "lesson-18"]
+  level: 600
+  forms:
+    noun: "defect"
+    adjective: "defective"
+  collocations:
+    - en: "a manufacturing defect"
+      vi: "lỗi sản xuất"
+    - en: "detect a defect"
+      vi: "phát hiện lỗi"
+  example:
+    en: "Any product with a {defect} is removed from the line immediately."
+    vi: "Bất kỳ sản phẩm nào có lỗi đều bị loại khỏi dây chuyền ngay lập tức."
+  note: "Tính từ là 'defective' (bị lỗi)."
+
+- word: "flaw"
+  pos: "noun"
+  ipa: "/flɔː/"
+  meaning: "khuyết điểm, tì vết"
+  topic: "manufacturing"
+  sub-topic:
+  lesson: ["lesson-18"]
+  level: 750
+  forms:
+    noun: "flaw"
+    adjective: ["flawed", "flawless"]
+  collocations:
+    - en: "a design flaw"
+      vi: "một lỗi thiết kế"
+    - en: "spot a flaw"
+      vi: "phát hiện khuyết điểm"
+  example:
+    en: "The engineers found a serious design {flaw} during testing."
+    vi: "Các kỹ sư đã phát hiện một lỗi thiết kế nghiêm trọng trong quá trình thử nghiệm."
+
+- word: "durable"
+  pos: "adjective"
+  ipa: "/ˈdjʊərəbl/"
+  meaning: "bền, lâu hỏng"
+  topic: "manufacturing"
+  sub-topic:
+  lesson: ["lesson-18"]
+  level: 750
+  forms:
+    adjective: "durable"
+    noun: "durability"
+  collocations:
+    - en: "a durable material"
+      vi: "một vật liệu bền"
+    - en: "highly durable"
+      vi: "rất bền"
+  example:
+    en: "The new casing is made of a {durable} material that resists scratches."
+    vi: "Lớp vỏ mới được làm từ vật liệu bền, chống trầy xước."
+
+- word: "standard"
+  pos: "noun"
+  ipa: "/ˈstændəd/"
+  meaning: "tiêu chuẩn"
+  topic: "manufacturing"
+  sub-topic:
+  lesson: ["lesson-18"]
+  level: 600
+  forms:
+    noun: "standard"
+    verb: "standardize"
+  collocations:
+    - en: "meet safety standards"
+      vi: "đáp ứng tiêu chuẩn an toàn"
+    - en: "high standards"
+      vi: "tiêu chuẩn cao"
+  example:
+    en: "All products must meet strict safety {standards} before release."
+    vi: "Tất cả sản phẩm phải đáp ứng các tiêu chuẩn an toàn nghiêm ngặt trước khi phát hành."
+
+- word: "malfunction"
+  pos: "noun"
+  ipa: "/ˌmælˈfʌŋkʃn/"
+  meaning: "trục trặc, hỏng hóc"
+  topic: "manufacturing"
+  sub-topic:
+  lesson: ["lesson-18"]
+  level: 900
+  forms:
+    noun: "malfunction"
+    verb: "malfunction"
+  collocations:
+    - en: "a mechanical malfunction"
+      vi: "một trục trặc cơ khí"
+    - en: "cause a malfunction"
+      vi: "gây ra trục trặc"
+  example:
+    en: "A software {malfunction} shut down the entire production line."
+    vi: "Một trục trặc phần mềm đã làm ngừng toàn bộ dây chuyền sản xuất."
+
+- word: "breakdown"
+  pos: "noun"
+  ipa: "/ˈbreɪkdaʊn/"
+  meaning: "sự hỏng hóc (máy móc)"
+  topic: "manufacturing"
+  sub-topic:
+  lesson: ["lesson-18"]
+  level: 750
+  forms:
+    noun: "breakdown"
+  collocations:
+    - en: "a machine breakdown"
+      vi: "sự hỏng hóc máy móc"
+    - en: "cause a breakdown"
+      vi: "gây ra hỏng hóc"
+  example:
+    en: "A sudden machine {breakdown} delayed production for two days."
+    vi: "Một sự cố hỏng máy đột ngột đã làm chậm sản xuất hai ngày."
+
+- word: "halt"
+  pos: "verb"
+  ipa: "/hɔːlt/"
+  meaning: "dừng lại, ngừng"
+  topic: "manufacturing"
+  sub-topic:
+  lesson: ["lesson-18"]
+  level: 900
+  forms:
+    verb: "halt"
+    noun: "halt"
+  collocations:
+    - en: "halt production"
+      vi: "ngừng sản xuất"
+    - en: "come to a halt"
+      vi: "dừng lại hẳn"
+  example:
+    en: "The company {halted} production after finding a safety problem."
+    vi: "Công ty đã ngừng sản xuất sau khi phát hiện một vấn đề an toàn."
+
+- word: "recall"
+  pos: "noun"
+  ipa: "/rɪˈkɔːl/"
+  meaning: "sự thu hồi sản phẩm"
+  topic: "manufacturing"
+  sub-topic:
+  lesson: ["lesson-18"]
+  level: 750
+  forms:
+    noun: "recall"
+    verb: "recall"
+  collocations:
+    - en: "issue a recall"
+      vi: "phát lệnh thu hồi"
+    - en: "a product recall"
+      vi: "đợt thu hồi sản phẩm"
+  example:
+    en: "The manufacturer issued a {recall} after several units caught fire."
+    vi: "Nhà sản xuất đã phát lệnh thu hồi sau khi một số sản phẩm bốc cháy."
+
+- word: "hazard"
+  pos: "noun"
+  ipa: "/ˈhæzəd/"
+  meaning: "mối nguy hiểm"
+  topic: "manufacturing"
+  sub-topic:
+  lesson: ["lesson-18"]
+  level: 750
+  forms:
+    noun: "hazard"
+    adjective: "hazardous"
+  collocations:
+    - en: "a safety hazard"
+      vi: "một mối nguy về an toàn"
+    - en: "a fire hazard"
+      vi: "nguy cơ cháy nổ"
+  example:
+    en: "Loose wires on the floor are a serious safety {hazard}."
+    vi: "Dây điện lỏng lẻo trên sàn là một mối nguy an toàn nghiêm trọng."
+
+- word: "protective gear"
+  pos: "noun"
+  ipa: "/prəˈtektɪv ɡɪə(r)/"
+  meaning: "đồ bảo hộ"
+  topic: "manufacturing"
+  sub-topic:
+  lesson: ["lesson-18"]
+  level: 750
+  forms:
+    noun: "protective gear"
+  collocations:
+    - en: "wear protective gear"
+      vi: "mặc đồ bảo hộ"
+    - en: "provide protective gear"
+      vi: "cung cấp đồ bảo hộ"
+  example:
+    en: "Workers must wear {protective gear} at all times inside the plant."
+    vi: "Công nhân phải mặc đồ bảo hộ mọi lúc khi ở trong nhà máy."
+
+- word: "warehouse"
+  pos: "noun"
+  ipa: "/ˈweəhaʊs/"
+  meaning: "nhà kho"
+  topic: "manufacturing"
+  sub-topic:
+  lesson: ["lesson-18"]
+  level: 600
+  forms:
+    noun: "warehouse"
+  collocations:
+    - en: "store goods in a warehouse"
+      vi: "lưu trữ hàng trong kho"
+    - en: "a distribution warehouse"
+      vi: "kho phân phối"
+  example:
+    en: "Finished products are stored in the {warehouse} before shipping."
+    vi: "Thành phẩm được lưu trong nhà kho trước khi vận chuyển."
+
+- word: "conveyor belt"
+  pos: "noun"
+  ipa: "/kənˈveɪə(r) belt/"
+  meaning: "băng chuyền"
+  topic: "manufacturing"
+  sub-topic:
+  lesson: ["lesson-17"]
+  level: 900
+  forms:
+    noun: "conveyor belt"
+  collocations:
+    - en: "move along the conveyor belt"
+      vi: "di chuyển dọc băng chuyền"
+    - en: "a conveyor belt system"
+      vi: "hệ thống băng chuyền"
+  example:
+    en: "The boxes move down the {conveyor belt} to the packing area."
+    vi: "Các thùng hàng di chuyển dọc băng chuyền đến khu vực đóng gói."
+
+- word: "batch"
+  pos: "noun"
+  ipa: "/bætʃ/"
+  meaning: "lô sản xuất"
+  topic: "manufacturing"
+  sub-topic:
+  lesson: ["lesson-18"]
+  level: 750
+  forms:
+    noun: "batch"
+  collocations:
+    - en: "a defective batch"
+      vi: "một lô hàng bị lỗi"
+    - en: "produce a batch"
+      vi: "sản xuất một lô"
+  example:
+    en: "The whole {batch} was recalled after a defect was found."
+    vi: "Toàn bộ lô hàng đã bị thu hồi sau khi phát hiện lỗi."
+
+- word: "outsource"
+  pos: "verb"
+  ipa: "/ˈaʊtsɔːs/"
+  meaning: "thuê ngoài"
+  topic: "manufacturing"
+  sub-topic:
+  lesson: ["lesson-18"]
+  level: 900
+  forms:
+    verb: "outsource"
+    noun: "outsourcing"
+  collocations:
+    - en: "outsource production"
+      vi: "thuê ngoài sản xuất"
+    - en: "outsource to a supplier"
+      vi: "thuê ngoài cho nhà cung cấp"
+  example:
+    en: "The firm decided to {outsource} part of its production to cut costs."
+    vi: "Công ty quyết định thuê ngoài một phần sản xuất để cắt giảm chi phí."
+
+- word: "precision"
+  pos: "noun"
+  ipa: "/prɪˈsɪʒn/"
+  meaning: "độ chính xác"
+  topic: "manufacturing"
+  sub-topic:
+  lesson: ["lesson-18"]
+  level: 900
+  forms:
+    noun: "precision"
+    adjective: "precise"
+    adverb: "precisely"
+  collocations:
+    - en: "with great precision"
+      vi: "với độ chính xác cao"
+    - en: "precision engineering"
+      vi: "kỹ thuật chính xác"
+  example:
+    en: "The parts must be cut with great {precision} to fit together."
+    vi: "Các bộ phận phải được cắt với độ chính xác cao để khớp với nhau."
+
+- word: "assembly"
+  pos: "noun"
+  ipa: "/əˈsembli/"
+  meaning: "việc lắp ráp"
+  topic: "manufacturing"
+  sub-topic:
+  lesson: ["lesson-17"]
+  level: 750
+  forms:
+    noun: "assembly"
+    verb: "assemble"
+  collocations:
+    - en: "the assembly process"
+      vi: "quy trình lắp ráp"
+    - en: "require assembly"
+      vi: "cần phải lắp ráp"
+  example:
+    en: "The furniture is shipped flat and requires some {assembly} at home."
+    vi: "Đồ nội thất được giao ở dạng phẳng và cần lắp ráp một chút tại nhà."

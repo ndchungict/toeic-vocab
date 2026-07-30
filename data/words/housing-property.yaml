@@ -1,0 +1,780 @@
+- word: "lease"
+  pos: "noun"
+  ipa: "/liːs/"
+  meaning: "hợp đồng thuê dài hạn"
+  topic: "housing-property"
+  sub-topic: "renting-buying"
+  lesson: ["lesson-23"]
+  level: 600
+  forms:
+    noun: "lease"
+    verb: "lease"
+  collocations:
+    - en: "sign a lease"
+      vi: "ký hợp đồng thuê"
+    - en: "renew a lease"
+      vi: "gia hạn hợp đồng thuê"
+  example:
+    en: "The company {signed} a five-year lease on the downtown office."
+    vi: "Công ty đã ký hợp đồng thuê văn phòng ở trung tâm trong năm năm."
+
+- word: "tenant"
+  pos: "noun"
+  ipa: "/ˈtenənt/"
+  meaning: "người thuê nhà, khách thuê"
+  topic: "housing-property"
+  sub-topic: "renting-buying"
+  lesson: ["lesson-23"]
+  level: 600
+  forms:
+    noun: "tenant"
+  collocations:
+    - en: "current tenants"
+      vi: "những người thuê hiện tại"
+    - en: "evict a tenant"
+      vi: "trục xuất người thuê"
+  example:
+    en: "The {tenants} are responsible for paying their own electricity bills."
+    vi: "Người thuê chịu trách nhiệm tự thanh toán tiền điện của mình."
+  note: "Đừng nhầm 'tenant' (người thuê) với 'landlord' (chủ nhà cho thuê)."
+
+- word: "landlord"
+  pos: "noun"
+  ipa: "/ˈlændlɔːd/"
+  meaning: "chủ nhà cho thuê"
+  topic: "housing-property"
+  sub-topic: "renting-buying"
+  lesson: ["lesson-23"]
+  level: 600
+  forms:
+    noun: "landlord"
+  collocations:
+    - en: "contact your landlord"
+      vi: "liên hệ chủ nhà"
+    - en: "pay the landlord"
+      vi: "trả tiền cho chủ nhà"
+  example:
+    en: "Please contact the {landlord} if the heating stops working."
+    vi: "Vui lòng liên hệ chủ nhà nếu hệ thống sưởi ngừng hoạt động."
+
+- word: "rent"
+  pos: "noun"
+  ipa: "/rent/"
+  meaning: "tiền thuê nhà"
+  topic: "housing-property"
+  sub-topic: "renting-buying"
+  lesson: ["lesson-23"]
+  level: 600
+  forms:
+    noun: ["rent", "rental"]
+    verb: "rent"
+  collocations:
+    - en: "pay the rent"
+      vi: "trả tiền thuê"
+    - en: "raise the rent"
+      vi: "tăng tiền thuê"
+  example:
+    en: "The monthly {rent} for the apartment includes water and gas."
+    vi: "Tiền thuê hằng tháng của căn hộ đã bao gồm nước và gas."
+
+- word: "security deposit"
+  pos: "noun"
+  ipa: "/sɪˈkjʊərəti dɪˈpɒzɪt/"
+  meaning: "tiền đặt cọc (thuê nhà)"
+  topic: "housing-property"
+  sub-topic: "renting-buying"
+  lesson: ["lesson-23"]
+  level: 750
+  forms:
+    noun: "security deposit"
+  collocations:
+    - en: "pay a security deposit"
+      vi: "đóng tiền đặt cọc"
+    - en: "refund the security deposit"
+      vi: "hoàn lại tiền đặt cọc"
+  example:
+    en: "The landlord will refund the {security deposit} if there is no damage."
+    vi: "Chủ nhà sẽ hoàn lại tiền đặt cọc nếu không có hư hỏng."
+
+- word: "occupancy"
+  pos: "noun"
+  ipa: "/ˈɒkjəpənsi/"
+  meaning: "tỷ lệ lấp đầy, sự sử dụng chỗ ở"
+  topic: "housing-property"
+  sub-topic: "renting-buying"
+  lesson: ["lesson-23"]
+  level: 900
+  forms:
+    noun: ["occupancy", "occupant"]
+    verb: "occupy"
+    adjective: "occupied"
+  collocations:
+    - en: "maximum occupancy"
+      vi: "sức chứa tối đa"
+    - en: "a high occupancy rate"
+      vi: "tỷ lệ lấp đầy cao"
+  example:
+    en: "The hotel reached full {occupancy} during the conference season."
+    vi: "Khách sạn đạt tỷ lệ lấp đầy tối đa trong mùa hội nghị."
+
+- word: "vacant"
+  pos: "adjective"
+  ipa: "/ˈveɪkənt/"
+  meaning: "còn trống, chưa có người thuê"
+  topic: "housing-property"
+  sub-topic: "renting-buying"
+  lesson: ["lesson-23"]
+  level: 750
+  forms:
+    adjective: "vacant"
+    noun: "vacancy"
+  collocations:
+    - en: "a vacant unit"
+      vi: "một căn còn trống"
+    - en: "remain vacant"
+      vi: "vẫn còn trống"
+  example:
+    en: "Several offices on the third floor are still {vacant}."
+    vi: "Một số văn phòng ở tầng ba vẫn còn trống."
+
+- word: "furnished"
+  pos: "adjective"
+  ipa: "/ˈfɜːnɪʃt/"
+  meaning: "có sẵn nội thất"
+  topic: "housing-property"
+  sub-topic: "renting-buying"
+  lesson: ["lesson-23"]
+  level: 750
+  forms:
+    adjective: "furnished"
+    verb: "furnish"
+    noun: "furniture"
+  collocations:
+    - en: "a fully furnished apartment"
+      vi: "căn hộ đầy đủ nội thất"
+    - en: "come furnished"
+      vi: "có sẵn nội thất"
+  example:
+    en: "The apartment comes fully {furnished}, so you can move in right away."
+    vi: "Căn hộ có sẵn đầy đủ nội thất, nên bạn có thể dọn vào ở ngay."
+
+- word: "spacious"
+  pos: "adjective"
+  ipa: "/ˈspeɪʃəs/"
+  meaning: "rộng rãi"
+  topic: "housing-property"
+  sub-topic: "renting-buying"
+  lesson: ["lesson-23"]
+  level: 750
+  forms:
+    adjective: "spacious"
+    noun: "space"
+  collocations:
+    - en: "a spacious office"
+      vi: "một văn phòng rộng rãi"
+    - en: "spacious rooms"
+      vi: "những căn phòng rộng rãi"
+  example:
+    en: "The new office is bright and {spacious}, with room for thirty desks."
+    vi: "Văn phòng mới sáng sủa và rộng rãi, đủ chỗ cho ba mươi bàn làm việc."
+
+- word: "property"
+  pos: "noun"
+  ipa: "/ˈprɒpəti/"
+  meaning: "bất động sản; tài sản"
+  topic: "housing-property"
+  sub-topic: "renting-buying"
+  lesson: ["lesson-23"]
+  level: 600
+  forms:
+    noun: "property"
+  collocations:
+    - en: "commercial property"
+      vi: "bất động sản thương mại"
+    - en: "manage a property"
+      vi: "quản lý một bất động sản"
+  example:
+    en: "The firm invested in several commercial {properties} last year."
+    vi: "Công ty đã đầu tư vào nhiều bất động sản thương mại năm ngoái."
+
+- word: "real estate"
+  pos: "noun"
+  ipa: "/ˌrɪəl ɪˈsteɪt/"
+  meaning: "bất động sản"
+  topic: "housing-property"
+  sub-topic: "renting-buying"
+  lesson: ["lesson-23"]
+  level: 600
+  forms:
+    noun: "real estate"
+  collocations:
+    - en: "a real estate agent"
+      vi: "nhân viên môi giới bất động sản"
+    - en: "the real estate market"
+      vi: "thị trường bất động sản"
+  example:
+    en: "She works as a {real estate} agent, helping clients buy homes."
+    vi: "Cô ấy làm môi giới bất động sản, giúp khách hàng mua nhà."
+
+- word: "appraisal"
+  pos: "noun"
+  ipa: "/əˈpreɪzl/"
+  meaning: "sự định giá (bất động sản)"
+  topic: "housing-property"
+  sub-topic: "renting-buying"
+  lesson: ["lesson-03", "lesson-23"]
+  level: 900
+  forms:
+    noun: "appraisal"
+    verb: "appraise"
+  collocations:
+    - en: "a property appraisal"
+      vi: "sự định giá bất động sản"
+    - en: "carry out an appraisal"
+      vi: "tiến hành định giá"
+  example:
+    en: "The bank requires a professional {appraisal} before approving the loan."
+    vi: "Ngân hàng yêu cầu định giá chuyên nghiệp trước khi duyệt khoản vay."
+  note: "Trong ngữ cảnh bất động sản nghĩa là 'định giá'; trong ngữ cảnh nhân sự nghĩa là 'đánh giá nhân viên'."
+
+- word: "relocate"
+  pos: "verb"
+  ipa: "/ˌriːləʊˈkeɪt/"
+  meaning: "chuyển địa điểm"
+  topic: "housing-property"
+  sub-topic: "renting-buying"
+  lesson: ["lesson-23"]
+  level: 750
+  forms:
+    verb: "relocate"
+    noun: "relocation"
+  collocations:
+    - en: "relocate to a new office"
+      vi: "chuyển đến văn phòng mới"
+    - en: "relocate the headquarters"
+      vi: "dời trụ sở chính"
+  example:
+    en: "The company plans to {relocate} its headquarters to Hanoi next year."
+    vi: "Công ty dự định chuyển trụ sở chính đến Hà Nội vào năm sau."
+  note: "Thường đi với giới từ 'to': relocate to a place."
+
+- word: "premises"
+  pos: "noun"
+  ipa: "/ˈpremɪsɪz/"
+  meaning: "mặt bằng, khuôn viên (nhà/công ty)"
+  topic: "housing-property"
+  sub-topic: "renting-buying"
+  lesson: ["lesson-23"]
+  level: 900
+  forms:
+    noun: "premises"
+  collocations:
+    - en: "on the premises"
+      vi: "trong khuôn viên"
+    - en: "vacate the premises"
+      vi: "rời khỏi mặt bằng"
+  example:
+    en: "Smoking is not allowed anywhere on the company {premises}."
+    vi: "Việc hút thuốc bị cấm ở mọi nơi trong khuôn viên công ty."
+  note: "Luôn ở dạng số nhiều khi nghĩa là 'mặt bằng'; khác 'premise' (số ít) = 'tiền đề'."
+
+- word: "construction"
+  pos: "noun"
+  ipa: "/kənˈstrʌkʃn/"
+  meaning: "việc xây dựng"
+  topic: "housing-property"
+  sub-topic: "construction-specs"
+  lesson: ["lesson-24"]
+  level: 600
+  forms:
+    noun: "construction"
+    verb: "construct"
+  collocations:
+    - en: "under construction"
+      vi: "đang được xây dựng"
+    - en: "a construction project"
+      vi: "một dự án xây dựng"
+  example:
+    en: "The new bridge is still {under construction} and will open in June."
+    vi: "Cây cầu mới vẫn đang được xây dựng và sẽ mở cửa vào tháng Sáu."
+
+- word: "contractor"
+  pos: "noun"
+  ipa: "/kənˈtræktə(r)/"
+  meaning: "nhà thầu"
+  topic: "housing-property"
+  sub-topic: "construction-specs"
+  lesson: ["lesson-24"]
+  level: 600
+  forms:
+    noun: ["contractor", "contract"]
+    verb: "contract"
+  collocations:
+    - en: "hire a contractor"
+      vi: "thuê nhà thầu"
+    - en: "a general contractor"
+      vi: "nhà thầu chính"
+  example:
+    en: "They hired an experienced {contractor} to build the warehouse."
+    vi: "Họ thuê một nhà thầu giàu kinh nghiệm để xây nhà kho."
+
+- word: "architect"
+  pos: "noun"
+  ipa: "/ˈɑːkɪtekt/"
+  meaning: "kiến trúc sư"
+  topic: "housing-property"
+  sub-topic: "construction-specs"
+  lesson: ["lesson-24"]
+  level: 750
+  forms:
+    noun: ["architect", "architecture"]
+    adjective: "architectural"
+  collocations:
+    - en: "a leading architect"
+      vi: "một kiến trúc sư hàng đầu"
+    - en: "the project architect"
+      vi: "kiến trúc sư của dự án"
+  example:
+    en: "The {architect} presented three designs for the new office building."
+    vi: "Kiến trúc sư đã trình bày ba thiết kế cho tòa văn phòng mới."
+
+- word: "blueprint"
+  pos: "noun"
+  ipa: "/ˈbluːprɪnt/"
+  meaning: "bản vẽ thiết kế"
+  topic: "housing-property"
+  sub-topic: "construction-specs"
+  lesson: ["lesson-24"]
+  level: 900
+  forms:
+    noun: "blueprint"
+  collocations:
+    - en: "review the blueprints"
+      vi: "xem lại bản vẽ thiết kế"
+    - en: "follow the blueprint"
+      vi: "làm theo bản vẽ thiết kế"
+  example:
+    en: "The engineers studied the {blueprints} before starting construction."
+    vi: "Các kỹ sư nghiên cứu bản vẽ thiết kế trước khi bắt đầu xây dựng."
+
+- word: "specification"
+  pos: "noun"
+  ipa: "/ˌspesɪfɪˈkeɪʃn/"
+  meaning: "thông số kỹ thuật"
+  topic: "housing-property"
+  sub-topic: "construction-specs"
+  lesson: ["lesson-22"]
+  level: 750
+  forms:
+    noun: "specification"
+    verb: "specify"
+    adjective: "specific"
+  collocations:
+    - en: "meet the specifications"
+      vi: "đáp ứng thông số kỹ thuật"
+    - en: "technical specifications"
+      vi: "thông số kỹ thuật"
+  example:
+    en: "All materials must meet the {specifications} listed in the contract."
+    vi: "Tất cả vật liệu phải đáp ứng thông số kỹ thuật ghi trong hợp đồng."
+  note: "Thường viết tắt là 'specs'."
+
+- word: "permit"
+  pos: "noun"
+  ipa: "/ˈpɜːmɪt/"
+  meaning: "giấy phép"
+  topic: "housing-property"
+  sub-topic: "construction-specs"
+  lesson: ["lesson-24"]
+  level: 750
+  forms:
+    noun: "permit"
+    verb: "permit"
+    adjective: "permissible"
+  collocations:
+    - en: "obtain a building permit"
+      vi: "xin giấy phép xây dựng"
+    - en: "apply for a permit"
+      vi: "nộp đơn xin giấy phép"
+  example:
+    en: "You cannot start work until the city issues a building {permit}."
+    vi: "Bạn không thể bắt đầu thi công cho đến khi thành phố cấp giấy phép xây dựng."
+  note: "Trọng âm đổi theo từ loại: danh từ /ˈpɜːmɪt/, động từ /pəˈmɪt/."
+
+- word: "zoning"
+  pos: "noun"
+  ipa: "/ˈzəʊnɪŋ/"
+  meaning: "quy hoạch phân khu"
+  topic: "housing-property"
+  sub-topic: "construction-specs"
+  lesson: ["lesson-24"]
+  level: 900
+  forms:
+    noun: ["zoning", "zone"]
+    verb: "zone"
+  collocations:
+    - en: "zoning regulations"
+      vi: "quy định phân khu"
+    - en: "a zoning law"
+      vi: "luật phân khu"
+  example:
+    en: "The project was delayed because of local {zoning} regulations."
+    vi: "Dự án bị trì hoãn vì các quy định phân khu của địa phương."
+
+- word: "inspection"
+  pos: "noun"
+  ipa: "/ɪnˈspekʃn/"
+  meaning: "sự kiểm tra"
+  topic: "housing-property"
+  sub-topic: "construction-specs"
+  lesson: ["lesson-24"]
+  level: 600
+  forms:
+    noun: ["inspection", "inspector"]
+    verb: "inspect"
+  collocations:
+    - en: "pass a safety inspection"
+      vi: "vượt qua kiểm tra an toàn"
+    - en: "carry out an inspection"
+      vi: "tiến hành kiểm tra"
+  example:
+    en: "The building passed its final safety {inspection} last week."
+    vi: "Tòa nhà đã vượt qua đợt kiểm tra an toàn cuối cùng vào tuần trước."
+
+- word: "renovate"
+  pos: "verb"
+  ipa: "/ˈrenəveɪt/"
+  meaning: "cải tạo, tân trang"
+  topic: "housing-property"
+  sub-topic: "construction-specs"
+  lesson: ["lesson-24"]
+  level: 750
+  forms:
+    verb: "renovate"
+    noun: "renovation"
+  collocations:
+    - en: "renovate the lobby"
+      vi: "cải tạo sảnh"
+    - en: "renovate an old building"
+      vi: "tân trang một tòa nhà cũ"
+  example:
+    en: "The hotel plans to {renovate} all of its guest rooms this year."
+    vi: "Khách sạn dự định cải tạo toàn bộ phòng khách trong năm nay."
+
+- word: "remodel"
+  pos: "verb"
+  ipa: "/ˌriːˈmɒdl/"
+  meaning: "sửa sang lại, tu sửa"
+  topic: "housing-property"
+  sub-topic: "construction-specs"
+  lesson: ["lesson-24"]
+  level: 900
+  forms:
+    verb: "remodel"
+    noun: "remodeling"
+  collocations:
+    - en: "remodel the kitchen"
+      vi: "sửa sang lại nhà bếp"
+    - en: "remodel the store"
+      vi: "tu sửa cửa hàng"
+  example:
+    en: "The restaurant will close for two weeks while they {remodel} the dining area."
+    vi: "Nhà hàng sẽ đóng cửa hai tuần trong thời gian họ sửa sang lại khu vực ăn uống."
+
+- word: "facility"
+  pos: "noun"
+  ipa: "/fəˈsɪləti/"
+  meaning: "cơ sở vật chất, cơ sở hạ tầng"
+  topic: "housing-property"
+  sub-topic: "construction-specs"
+  lesson: ["lesson-24"]
+  level: 600
+  forms:
+    noun: "facility"
+    verb: "facilitate"
+  collocations:
+    - en: "a state-of-the-art facility"
+      vi: "một cơ sở hiện đại bậc nhất"
+    - en: "a manufacturing facility"
+      vi: "một cơ sở sản xuất"
+  example:
+    en: "The company opened a new research {facility} outside the city."
+    vi: "Công ty đã mở một cơ sở nghiên cứu mới ở ngoại thành."
+
+- word: "site"
+  pos: "noun"
+  ipa: "/saɪt/"
+  meaning: "công trường, địa điểm"
+  topic: "housing-property"
+  sub-topic: "construction-specs"
+  lesson: ["lesson-24"]
+  level: 600
+  forms:
+    noun: "site"
+  collocations:
+    - en: "the construction site"
+      vi: "công trường xây dựng"
+    - en: "visit the site"
+      vi: "đến tận địa điểm"
+  example:
+    en: "Visitors must wear a hard hat on the construction {site}."
+    vi: "Khách tham quan phải đội mũ bảo hộ tại công trường xây dựng."
+  note: "Phát âm giống 'sight' (tầm nhìn) và 'cite' (trích dẫn) nhưng khác nghĩa."
+
+- word: "scaffolding"
+  pos: "noun"
+  ipa: "/ˈskæfəldɪŋ/"
+  meaning: "giàn giáo"
+  topic: "housing-property"
+  sub-topic: "construction-specs"
+  lesson: ["lesson-24"]
+  level: 900
+  forms:
+    noun: "scaffolding"
+  collocations:
+    - en: "put up scaffolding"
+      vi: "dựng giàn giáo"
+    - en: "remove the scaffolding"
+      vi: "tháo dỡ giàn giáo"
+  example:
+    en: "Workers set up {scaffolding} along the side of the building."
+    vi: "Công nhân dựng giàn giáo dọc theo mặt bên của tòa nhà."
+
+- word: "adhere to"
+  pos: "phrasal verb"
+  ipa: "/ədˈhɪə(r) tuː/"
+  meaning: "tuân theo, làm đúng theo"
+  topic: "housing-property"
+  sub-topic: "construction-specs"
+  lesson: ["lesson-24"]
+  level: 750
+  forms:
+    verb: "adhere"
+    noun: "adherence"
+  collocations:
+    - en: "adhere to the specifications"
+      vi: "tuân theo thông số kỹ thuật"
+    - en: "adhere to safety rules"
+      vi: "tuân theo quy tắc an toàn"
+  example:
+    en: "All contractors must {adhere to} the building specifications exactly."
+    vi: "Tất cả nhà thầu phải tuân theo đúng thông số kỹ thuật của công trình."
+  note: "Luôn đi với giới từ 'to': adhere to sth."
+
+- word: "structural"
+  pos: "adjective"
+  ipa: "/ˈstrʌktʃərəl/"
+  meaning: "thuộc kết cấu"
+  topic: "housing-property"
+  sub-topic: "construction-specs"
+  lesson: ["lesson-24"]
+  level: 750
+  forms:
+    adjective: "structural"
+    noun: "structure"
+    verb: "structure"
+  collocations:
+    - en: "structural damage"
+      vi: "hư hỏng kết cấu"
+    - en: "a structural problem"
+      vi: "vấn đề về kết cấu"
+  example:
+    en: "The inspector found no {structural} damage after the earthquake."
+    vi: "Thanh tra không phát hiện hư hỏng kết cấu nào sau trận động đất."
+
+- word: "utilities"
+  pos: "noun"
+  ipa: "/juːˈtɪlətiz/"
+  meaning: "tiện ích (điện, nước, gas)"
+  topic: "housing-property"
+  sub-topic: "utilities-maintenance"
+  lesson: ["lesson-24"]
+  level: 750
+  forms:
+    noun: "utility"
+  collocations:
+    - en: "utilities are included"
+      vi: "đã bao gồm tiện ích"
+    - en: "pay the utilities"
+      vi: "thanh toán tiền điện nước"
+  example:
+    en: "The rent is high, but all {utilities} are included in the price."
+    vi: "Tiền thuê khá cao, nhưng đã bao gồm toàn bộ điện nước gas trong giá."
+  note: "Số nhiều 'utilities' = dịch vụ điện, nước, gas; số ít 'utility' = tính hữu dụng."
+
+- word: "meter"
+  pos: "noun"
+  ipa: "/ˈmiːtə(r)/"
+  meaning: "đồng hồ đo (điện, nước)"
+  topic: "housing-property"
+  sub-topic: "utilities-maintenance"
+  lesson: ["lesson-24"]
+  level: 750
+  forms:
+    noun: "meter"
+  collocations:
+    - en: "read the meter"
+      vi: "đọc chỉ số đồng hồ"
+    - en: "a water meter"
+      vi: "đồng hồ nước"
+  example:
+    en: "A technician came to read the electricity {meter} this morning."
+    vi: "Một kỹ thuật viên đã đến đọc chỉ số đồng hồ điện sáng nay."
+
+- word: "outage"
+  pos: "noun"
+  ipa: "/ˈaʊtɪdʒ/"
+  meaning: "sự cắt/mất điện"
+  topic: "housing-property"
+  sub-topic: "utilities-maintenance"
+  lesson: ["lesson-24"]
+  level: 900
+  forms:
+    noun: "outage"
+  collocations:
+    - en: "a power outage"
+      vi: "sự mất điện"
+    - en: "a scheduled outage"
+      vi: "sự cắt điện theo lịch"
+  example:
+    en: "A scheduled power {outage} will affect the building on Sunday."
+    vi: "Một đợt cắt điện theo lịch sẽ ảnh hưởng đến tòa nhà vào Chủ nhật."
+
+- word: "maintenance"
+  pos: "noun"
+  ipa: "/ˈmeɪntənəns/"
+  meaning: "việc bảo trì"
+  topic: "housing-property"
+  sub-topic: "utilities-maintenance"
+  lesson: ["lesson-24"]
+  level: 600
+  forms:
+    noun: "maintenance"
+    verb: "maintain"
+  collocations:
+    - en: "routine maintenance"
+      vi: "bảo trì định kỳ"
+    - en: "carry out maintenance"
+      vi: "tiến hành bảo trì"
+  example:
+    en: "The elevator is closed for routine {maintenance} until noon."
+    vi: "Thang máy đóng để bảo trì định kỳ cho đến trưa."
+
+- word: "plumbing"
+  pos: "noun"
+  ipa: "/ˈplʌmɪŋ/"
+  meaning: "hệ thống ống nước"
+  topic: "housing-property"
+  sub-topic: "utilities-maintenance"
+  lesson: ["lesson-24"]
+  level: 900
+  forms:
+    noun: ["plumbing", "plumber"]
+  collocations:
+    - en: "a plumbing problem"
+      vi: "sự cố về đường ống nước"
+    - en: "fix the plumbing"
+      vi: "sửa hệ thống ống nước"
+  example:
+    en: "There is a {plumbing} problem in the restroom on the second floor."
+    vi: "Có sự cố đường ống nước ở nhà vệ sinh tầng hai."
+  note: "Chữ 'b' câm — phát âm là /ˈplʌmɪŋ/."
+
+- word: "wiring"
+  pos: "noun"
+  ipa: "/ˈwaɪərɪŋ/"
+  meaning: "hệ thống dây điện"
+  topic: "housing-property"
+  sub-topic: "utilities-maintenance"
+  lesson: ["lesson-24"]
+  level: 900
+  forms:
+    noun: "wiring"
+    verb: "wire"
+  collocations:
+    - en: "faulty wiring"
+      vi: "hệ thống dây điện bị lỗi"
+    - en: "replace the wiring"
+      vi: "thay hệ thống dây điện"
+  example:
+    en: "The fire was caused by faulty electrical {wiring} in the basement."
+    vi: "Đám cháy bắt nguồn từ hệ thống dây điện bị lỗi ở tầng hầm."
+
+- word: "insulation"
+  pos: "noun"
+  ipa: "/ˌɪnsjuˈleɪʃn/"
+  meaning: "vật liệu cách nhiệt"
+  topic: "housing-property"
+  sub-topic: "utilities-maintenance"
+  lesson: ["lesson-24"]
+  level: 900
+  forms:
+    noun: "insulation"
+    verb: "insulate"
+  collocations:
+    - en: "install insulation"
+      vi: "lắp vật liệu cách nhiệt"
+    - en: "poor insulation"
+      vi: "cách nhiệt kém"
+  example:
+    en: "Better {insulation} in the walls will lower the heating costs."
+    vi: "Cách nhiệt tốt hơn ở tường sẽ giúp giảm chi phí sưởi ấm."
+
+- word: "leak"
+  pos: "noun"
+  ipa: "/liːk/"
+  meaning: "chỗ rò rỉ"
+  topic: "housing-property"
+  sub-topic: "utilities-maintenance"
+  lesson: ["lesson-24"]
+  level: 750
+  forms:
+    noun: ["leak", "leakage"]
+    verb: "leak"
+  collocations:
+    - en: "fix a leak"
+      vi: "sửa chỗ rò rỉ"
+    - en: "a gas leak"
+      vi: "sự rò rỉ khí gas"
+  example:
+    en: "A plumber was called to fix the water {leak} under the sink."
+    vi: "Một thợ ống nước được gọi đến để sửa chỗ rò rỉ nước dưới bồn rửa."
+
+- word: "janitor"
+  pos: "noun"
+  ipa: "/ˈdʒænɪtə(r)/"
+  meaning: "nhân viên tạp vụ, lao công tòa nhà"
+  topic: "housing-property"
+  sub-topic: "utilities-maintenance"
+  lesson: ["lesson-24"]
+  level: 750
+  forms:
+    noun: "janitor"
+  collocations:
+    - en: "the building janitor"
+      vi: "lao công của tòa nhà"
+    - en: "call the janitor"
+      vi: "gọi nhân viên tạp vụ"
+  example:
+    en: "The {janitor} cleans the offices every evening after hours."
+    vi: "Nhân viên tạp vụ dọn dẹp các văn phòng mỗi tối sau giờ làm."
+
+- word: "furnishings"
+  pos: "noun"
+  ipa: "/ˈfɜːnɪʃɪŋz/"
+  meaning: "đồ đạc, nội thất"
+  topic: "housing-property"
+  sub-topic: "utilities-maintenance"
+  lesson: ["lesson-24"]
+  level: 750
+  forms:
+    noun: ["furnishings", "furniture"]
+    verb: "furnish"
+  collocations:
+    - en: "office furnishings"
+      vi: "nội thất văn phòng"
+    - en: "modern furnishings"
+      vi: "nội thất hiện đại"
+  example:
+    en: "The company spent a large budget on new office {furnishings}."
+    vi: "Công ty đã chi một khoản ngân sách lớn cho nội thất văn phòng mới."
