@@ -18,7 +18,7 @@ Bắt buộc tuân thủ, vì đầu ra sẽ được lưu thẳng thành file `
 - Chỉ xuất ra **nội dung YAML**. KHÔNG kèm giải thích, KHÔNG bọc trong dấu ``` code fence, không có chữ nào trước hoặc sau.
 - Cấp cao nhất là một **LIST** (mỗi entry bắt đầu bằng `-`), KHÔNG bọc trong bất kỳ key nào.
 - Mỗi entry gồm các trường theo **đúng thứ tự**: `word`, `pos`, `ipa`, `meaning`, `topic`, `sub-topic`, `story`, `level`, `forms`, `collocations`, `example`, `note`.
-  - `sub-topic` chỉ có khi chủ đề chính có chủ đề con (xem bảng slug). Chủ đề không có chủ đề con thì **bỏ hẳn** trường này.
+  - `sub-topic` **luôn giữ trường** để schema đồng đều giữa mọi file. Chủ đề có chủ đề con → điền slug. Chủ đề KHÔNG có chủ đề con → để **null** (viết `sub-topic:` rồi bỏ trống, KHÔNG dùng `""`).
   - `note` chỉ thêm khi từ dễ nhầm với từ khác; không có thì bỏ hẳn.
 - Ngôn ngữ: `meaning`, mọi trường `vi`, và `note` viết bằng **TIẾNG VIỆT**. Phần còn lại bằng tiếng Anh.
 - File đầu ra lưu vào thư mục words, đặt tên file theo định dạng slug.yaml (VD: general-business.yaml)
@@ -32,7 +32,7 @@ Bắt buộc tuân thủ, vì đầu ra sẽ được lưu thẳng thành file `
 - **ipa** — phiên âm IPA đặt trong hai dấu gạch chéo, có dấu trọng âm chính `ˈ`, ví dụ `"/kəmˈplaɪ/"`. Nếu nguồn đã có IPA thì dùng lại, chỉ chuẩn hóa định dạng.
 - **meaning** — nghĩa tiếng Việt ngắn gọn, theo **ngữ cảnh TOEIC** chứ không phải nghĩa từ điển chung.
 - **topic** — slug chủ đề chính, lấy **đúng** từ bảng slug (xem `data/slugs/category-slug.md`).
-- **sub-topic** — slug chủ đề con, lấy **đúng** từ bảng slug. Bỏ trường này nếu chủ đề chính không có chủ đề con.
+- **sub-topic** — slug chủ đề con, lấy **đúng** từ bảng slug. Nếu chủ đề chính không có chủ đề con thì vẫn giữ trường nhưng để **null** (`sub-topic:` bỏ trống, không `""`).
 - **lession** — Lấy theo tên bài học nơi chứa từ vựng, lấy **đúng**  đối chiếu theo `lesson-NN.md`). ( VD: lesson-01)
 - **level** — mục tiêu điểm: `600` / `750` / `900` tùy độ khó và tần suất (`600` = cơ bản, hay gặp; `900` = nâng cao, ít gặp). Tự đánh giá cho từng từ. **KHÔNG** bọc trong ngoặc kép (đây là số).
 - **forms** — họ từ, đặt khóa theo loại từ. CHỈ đưa dạng có thật, **KHÔNG bịa**. Bỏ khóa nào không tồn tại. Nếu một loại từ có hai dạng, để value là list.
@@ -70,7 +70,7 @@ Bảng slug **không nằm trong file này** — đọc file `data/slugs/categor
 
 ## Ví dụ định dạng
 
-Làm đúng theo mẫu này. Ví dụ đầu có `sub-topic` (chủ đề chính có chủ đề con); ví dụ sau **bỏ** `sub-topic` (chủ đề chính không có chủ đề con).
+Làm đúng theo mẫu này. Ví dụ đầu có `sub-topic` với slug (chủ đề chính có chủ đề con); ví dụ sau vẫn giữ trường `sub-topic` nhưng để **null** (chủ đề chính không có chủ đề con).
 
 ```yaml
 - word: "comply"
@@ -100,6 +100,7 @@ Làm đúng theo mẫu này. Ví dụ đầu có `sub-topic` (chủ đề chính
   ipa: "/ɪˈfɪʃnt/"
   meaning: "hiệu quả, làm việc ít lãng phí thời gian và nguồn lực"
   topic: "manufacturing"
+  sub-topic:
   level: 750
   forms:
     adjective: "efficient"
@@ -126,7 +127,7 @@ Người dùng cung cấp:
 
 Cách xử lý:
 1. **Ưu tiên dữ liệu người dùng đã có.** Nếu bảng đã có IPA, loại từ, nghĩa, hay collocation tiếng Anh → giữ lại, chỉ chuẩn hóa định dạng và bổ sung phần thiếu (`vi` cho collocation, `forms`, `example`, `level`, `note`).
-2. **Điền `topic`/`sub-topic` giống nhau cho mọi entry trong batch** đúng theo slug người dùng đưa. Nếu chủ đề không có chủ đề con, bỏ `sub-topic`.
+2. **Điền `topic`/`sub-topic` giống nhau cho mọi entry trong batch** đúng theo slug người dùng đưa. Nếu chủ đề không có chủ đề con, vẫn giữ trường `sub-topic` nhưng để **null**.
 3. Nếu người dùng **không đưa danh sách từ** mà chỉ đưa chủ đề, sinh khoảng 40–60 từ TOEIC hay gặp nhất cho (chủ đề / chủ đề con) đó, rồi áp dụng schema.
 4. Nếu người dùng chưa nêu slug hoặc slug không khớp bảng, hỏi lại ngắn gọn slug chính xác trước khi sinh.
 

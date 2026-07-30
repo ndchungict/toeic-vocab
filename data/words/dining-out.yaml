@@ -1,0 +1,631 @@
+- word: "reservation"
+  pos: "noun"
+  ipa: "/ˌrezəˈveɪʃn/"
+  meaning: "việc đặt bàn, đặt chỗ trước"
+  topic: "dining-out"
+  sub-topic:
+  lesson: "lesson-11"
+  level: 600
+  forms:
+    noun: "reservation"
+    verb: "reserve"
+  collocations:
+    - en: "make a reservation"
+      vi: "đặt bàn, đặt chỗ"
+    - en: "confirm a reservation"
+      vi: "xác nhận đặt chỗ"
+  example:
+    en: "I'd like to make a {reservation} for four at seven o'clock."
+    vi: "Tôi muốn đặt bàn cho bốn người lúc bảy giờ."
+
+- word: "book"
+  pos: "verb"
+  ipa: "/bʊk/"
+  meaning: "đặt trước (bàn, phòng, vé)"
+  topic: "dining-out"
+  sub-topic:
+  lesson: "lesson-11"
+  level: 600
+  forms:
+    verb: "book"
+    noun: "booking"
+  collocations:
+    - en: "book a table for four"
+      vi: "đặt một bàn cho bốn người"
+    - en: "book in advance"
+      vi: "đặt trước"
+  example:
+    en: "She {booked} a table by the window for the client dinner."
+    vi: "Cô ấy đặt một bàn cạnh cửa sổ cho bữa tối với khách hàng."
+
+- word: "party"
+  pos: "noun"
+  ipa: "/ˈpɑːti/"
+  meaning: "nhóm khách đi cùng nhau"
+  topic: "dining-out"
+  sub-topic:
+  lesson: "lesson-11"
+  level: 600
+  forms:
+    noun: "party"
+  collocations:
+    - en: "a party of six"
+      vi: "một nhóm sáu người"
+    - en: "a large party"
+      vi: "một nhóm khách đông"
+  example:
+    en: "A {party} of four has arrived for their dinner reservation."
+    vi: "Một nhóm bốn người đã đến theo lịch đặt bàn ăn tối."
+  note: "Trong nhà hàng, 'party' nghĩa là NHÓM KHÁCH, không phải 'bữa tiệc'."
+
+- word: "seating"
+  pos: "noun"
+  ipa: "/ˈsiːtɪŋ/"
+  meaning: "chỗ ngồi, cách bố trí chỗ ngồi"
+  topic: "dining-out"
+  sub-topic:
+  lesson: "lesson-11"
+  level: 750
+  forms:
+    noun: "seating"
+    verb: "seat"
+  collocations:
+    - en: "outdoor seating"
+      vi: "chỗ ngồi ngoài trời"
+    - en: "seating arrangement"
+      vi: "cách sắp xếp chỗ ngồi"
+  example:
+    en: "Outdoor {seating} is available on request during the summer."
+    vi: "Chỗ ngồi ngoài trời có sẵn theo yêu cầu vào mùa hè."
+  note: "Là danh từ không đếm được; đừng nhầm với số nhiều 'seatings'."
+
+- word: "accommodate"
+  pos: "verb"
+  ipa: "/əˈkɒmədeɪt/"
+  meaning: "chứa được, đáp ứng số lượng khách"
+  topic: "dining-out"
+  sub-topic:
+  lesson: "lesson-11"
+  level: 750
+  forms:
+    verb: "accommodate"
+    noun: "accommodation"
+  collocations:
+    - en: "accommodate up to 100 guests"
+      vi: "chứa được tối đa 100 khách"
+    - en: "accommodate a request"
+      vi: "đáp ứng một yêu cầu"
+  example:
+    en: "The banquet hall can {accommodate} up to one hundred guests."
+    vi: "Phòng tiệc có thể chứa được tối đa một trăm khách."
+
+- word: "beforehand"
+  pos: "adverb"
+  ipa: "/bɪˈfɔːhænd/"
+  meaning: "trước đó, từ trước"
+  topic: "dining-out"
+  sub-topic:
+  lesson: "lesson-11"
+  level: 750
+  forms:
+    adverb: "beforehand"
+  collocations:
+    - en: "call beforehand"
+      vi: "gọi trước"
+    - en: "book beforehand"
+      vi: "đặt trước"
+  example:
+    en: "Please call {beforehand} to reserve a table for a large party."
+    vi: "Vui lòng gọi trước để đặt bàn cho một nhóm khách đông."
+
+- word: "host"
+  pos: "verb"
+  ipa: "/həʊst/"
+  meaning: "đứng ra mời, chủ trì một bữa tiệc/sự kiện"
+  topic: "dining-out"
+  sub-topic:
+  lesson: "lesson-11"
+  level: 600
+  forms:
+    verb: "host"
+    noun: "host"
+  collocations:
+    - en: "host a dinner for clients"
+      vi: "chiêu đãi khách hàng một bữa tối"
+    - en: "host an event"
+      vi: "tổ chức một sự kiện"
+  example:
+    en: "The firm {hosted} a formal dinner for its most important clients."
+    vi: "Công ty đã chiêu đãi một bữa tối trang trọng cho các khách hàng quan trọng nhất."
+
+- word: "cuisine"
+  pos: "noun"
+  ipa: "/kwɪˈziːn/"
+  meaning: "ẩm thực, phong cách nấu ăn của một vùng"
+  topic: "dining-out"
+  sub-topic:
+  lesson: "lesson-11"
+  level: 750
+  forms:
+    noun: "cuisine"
+  collocations:
+    - en: "authentic cuisine"
+      vi: "ẩm thực đích thực"
+    - en: "local cuisine"
+      vi: "ẩm thực địa phương"
+  example:
+    en: "The restaurant is well known for its seafood {cuisine}."
+    vi: "Nhà hàng nổi tiếng với ẩm thực hải sản của mình."
+
+- word: "venue"
+  pos: "noun"
+  ipa: "/ˈvenjuː/"
+  meaning: "địa điểm tổ chức sự kiện, tiệc"
+  topic: "dining-out"
+  sub-topic:
+  lesson: "lesson-11"
+  level: 750
+  forms:
+    noun: "venue"
+  collocations:
+    - en: "change the venue"
+      vi: "đổi địa điểm"
+    - en: "book a venue"
+      vi: "đặt một địa điểm"
+  example:
+    en: "The hotel is a popular {venue} for corporate banquets."
+    vi: "Khách sạn là một địa điểm được ưa chuộng để tổ chức tiệc doanh nghiệp."
+
+- word: "banquet"
+  pos: "noun"
+  ipa: "/ˈbæŋkwɪt/"
+  meaning: "tiệc chiêu đãi lớn, trang trọng"
+  topic: "dining-out"
+  sub-topic:
+  lesson: "lesson-11"
+  level: 750
+  forms:
+    noun: "banquet"
+  collocations:
+    - en: "host a banquet"
+      vi: "tổ chức một bữa tiệc chiêu đãi"
+    - en: "the banquet hall"
+      vi: "phòng tiệc"
+  example:
+    en: "A {banquet} was held to honor the company's long-term partners."
+    vi: "Một bữa tiệc chiêu đãi được tổ chức để vinh danh các đối tác lâu năm của công ty."
+
+- word: "reception"
+  pos: "noun"
+  ipa: "/rɪˈsepʃn/"
+  meaning: "tiệc chiêu đãi (đón khách, mừng sự kiện)"
+  topic: "dining-out"
+  sub-topic:
+  lesson: "lesson-11"
+  level: 600
+  forms:
+    noun: "reception"
+  collocations:
+    - en: "a welcome reception"
+      vi: "một tiệc chào mừng"
+    - en: "hold a reception"
+      vi: "tổ chức một tiệc chiêu đãi"
+  example:
+    en: "A welcome {reception} followed the opening ceremony."
+    vi: "Một tiệc chào mừng diễn ra sau lễ khai mạc."
+  note: "'reception' còn nghĩa là 'quầy lễ tân' — chọn nghĩa theo ngữ cảnh."
+
+- word: "buffet"
+  pos: "noun"
+  ipa: "/ˈbʊfeɪ/"
+  meaning: "tiệc tự chọn, khách tự lấy món ăn"
+  topic: "dining-out"
+  sub-topic:
+  lesson: "lesson-11"
+  level: 600
+  forms:
+    noun: "buffet"
+  collocations:
+    - en: "a buffet lunch"
+      vi: "một bữa trưa tự chọn"
+    - en: "a buffet dinner"
+      vi: "một bữa tối tự chọn"
+  example:
+    en: "Dinner was served as a {buffet} so guests could choose freely."
+    vi: "Bữa tối được phục vụ theo hình thức tự chọn để khách thoải mái lựa món."
+
+- word: "catering"
+  pos: "noun"
+  ipa: "/ˈkeɪtərɪŋ/"
+  meaning: "dịch vụ cung cấp đồ ăn cho tiệc/sự kiện"
+  topic: "dining-out"
+  sub-topic:
+  lesson: "lesson-11"
+  level: 750
+  forms:
+    noun: "catering"
+    verb: "cater"
+  collocations:
+    - en: "a catering service"
+      vi: "một dịch vụ tổ chức tiệc"
+    - en: "a catering company"
+      vi: "một công ty cung cấp tiệc"
+  example:
+    en: "They hired a professional {catering} service for the launch event."
+    vi: "Họ thuê một dịch vụ tổ chức tiệc chuyên nghiệp cho sự kiện ra mắt."
+
+- word: "caterer"
+  pos: "noun"
+  ipa: "/ˈkeɪtərə(r)/"
+  meaning: "bên tổ chức tiệc, người/công ty cung cấp đồ ăn"
+  topic: "dining-out"
+  sub-topic:
+  lesson: "lesson-11"
+  level: 900
+  forms:
+    noun: "caterer"
+    verb: "cater"
+  collocations:
+    - en: "hire a caterer"
+      vi: "thuê một bên tổ chức tiệc"
+    - en: "a reliable caterer"
+      vi: "một bên tổ chức tiệc đáng tin cậy"
+  example:
+    en: "The {caterer} prepared food for over two hundred guests."
+    vi: "Bên tổ chức tiệc đã chuẩn bị đồ ăn cho hơn hai trăm khách."
+
+- word: "refreshments"
+  pos: "noun"
+  ipa: "/rɪˈfreʃmənts/"
+  meaning: "đồ ăn nhẹ và nước giải khát"
+  topic: "dining-out"
+  sub-topic:
+  lesson: "lesson-11"
+  level: 750
+  forms:
+    noun: "refreshments"
+    verb: "refresh"
+  collocations:
+    - en: "refreshments will be served"
+      vi: "sẽ có đồ ăn nhẹ phục vụ"
+    - en: "light refreshments"
+      vi: "đồ ăn nhẹ"
+  example:
+    en: "Light {refreshments} will be served after the presentation."
+    vi: "Đồ ăn nhẹ sẽ được phục vụ sau bài thuyết trình."
+  note: "Thường dùng ở dạng số nhiều 'refreshments'."
+
+- word: "beverage"
+  pos: "noun"
+  ipa: "/ˈbevərɪdʒ/"
+  meaning: "đồ uống (nói chung)"
+  topic: "dining-out"
+  sub-topic:
+  lesson: "lesson-11"
+  level: 600
+  forms:
+    noun: "beverage"
+  collocations:
+    - en: "food and beverages"
+      vi: "đồ ăn và đồ uống"
+    - en: "a range of beverages"
+      vi: "nhiều loại đồ uống"
+  example:
+    en: "A wide range of hot and cold {beverages} is available at the bar."
+    vi: "Có nhiều loại đồ uống nóng và lạnh tại quầy bar."
+
+- word: "appetizer"
+  pos: "noun"
+  ipa: "/ˈæpɪtaɪzə(r)/"
+  meaning: "món khai vị"
+  topic: "dining-out"
+  sub-topic:
+  lesson: "lesson-12"
+  level: 600
+  forms:
+    noun: "appetizer"
+  collocations:
+    - en: "order an appetizer"
+      vi: "gọi một món khai vị"
+    - en: "share an appetizer"
+      vi: "cùng chia một món khai vị"
+  example:
+    en: "We shared an {appetizer} before the main course arrived."
+    vi: "Chúng tôi cùng ăn một món khai vị trước khi món chính được mang ra."
+
+- word: "entrée"
+  pos: "noun"
+  ipa: "/ˈɒntreɪ/"
+  meaning: "món chính (theo cách gọi của Mỹ)"
+  topic: "dining-out"
+  sub-topic:
+  lesson: "lesson-12"
+  level: 750
+  forms:
+    noun: "entrée"
+  collocations:
+    - en: "choose an entrée"
+      vi: "chọn một món chính"
+    - en: "the main entrée"
+      vi: "món chính"
+  example:
+    en: "She chose the grilled fish as her {entrée}."
+    vi: "Cô ấy chọn món cá nướng làm món chính."
+
+- word: "side dish"
+  pos: "noun"
+  ipa: "/saɪd dɪʃ/"
+  meaning: "món ăn kèm"
+  topic: "dining-out"
+  sub-topic:
+  lesson: "lesson-12"
+  level: 600
+  forms:
+    noun: "side dish"
+  collocations:
+    - en: "come with a side dish"
+      vi: "đi kèm với một món ăn kèm"
+    - en: "a side dish of vegetables"
+      vi: "một món rau ăn kèm"
+  example:
+    en: "The steak comes with a {side dish} of seasonal vegetables."
+    vi: "Món bò bít tết đi kèm một món rau theo mùa."
+
+- word: "dessert"
+  pos: "noun"
+  ipa: "/dɪˈzɜːt/"
+  meaning: "món tráng miệng"
+  topic: "dining-out"
+  sub-topic:
+  lesson: "lesson-12"
+  level: 600
+  forms:
+    noun: "dessert"
+  collocations:
+    - en: "order dessert"
+      vi: "gọi món tráng miệng"
+    - en: "a dessert menu"
+      vi: "thực đơn tráng miệng"
+  example:
+    en: "We had chocolate cake for {dessert} at the end of the meal."
+    vi: "Chúng tôi ăn bánh sô-cô-la làm món tráng miệng cuối bữa."
+  note: "Phân biệt 'dessert' /dɪˈzɜːt/ (món tráng miệng) với 'desert' /ˈdezət/ (sa mạc)."
+
+- word: "specialty"
+  pos: "noun"
+  ipa: "/ˈspeʃəlti/"
+  meaning: "món đặc sản, món tủ của nhà hàng"
+  topic: "dining-out"
+  sub-topic:
+  lesson: "lesson-12"
+  level: 750
+  forms:
+    noun: "specialty"
+    verb: "specialize"
+  collocations:
+    - en: "the chef's specialty"
+      vi: "món tủ của đầu bếp"
+    - en: "the house specialty"
+      vi: "món đặc sản của nhà hàng"
+  example:
+    en: "Grilled seafood is the restaurant's {specialty}."
+    vi: "Hải sản nướng là món đặc sản của nhà hàng."
+
+- word: "ingredient"
+  pos: "noun"
+  ipa: "/ɪnˈɡriːdiənt/"
+  meaning: "nguyên liệu (nấu ăn)"
+  topic: "dining-out"
+  sub-topic:
+  lesson: "lesson-12"
+  level: 600
+  forms:
+    noun: "ingredient"
+  collocations:
+    - en: "fresh ingredients"
+      vi: "nguyên liệu tươi"
+    - en: "local ingredients"
+      vi: "nguyên liệu địa phương"
+  example:
+    en: "The chef uses only fresh, local {ingredients} in every dish."
+    vi: "Đầu bếp chỉ dùng nguyên liệu tươi, địa phương trong mỗi món ăn."
+
+- word: "seasonal"
+  pos: "adjective"
+  ipa: "/ˈsiːzənl/"
+  meaning: "theo mùa, phụ thuộc vào mùa"
+  topic: "dining-out"
+  sub-topic:
+  lesson: "lesson-12"
+  level: 750
+  forms:
+    adjective: "seasonal"
+    noun: "season"
+    adverb: "seasonally"
+  collocations:
+    - en: "seasonal produce"
+      vi: "nông sản theo mùa"
+    - en: "seasonal specials"
+      vi: "món đặc biệt theo mùa"
+  example:
+    en: "The menu changes regularly with {seasonal} produce."
+    vi: "Thực đơn thay đổi thường xuyên theo nông sản của mùa."
+
+- word: "vegetarian"
+  pos: "adjective"
+  ipa: "/ˌvedʒəˈteəriən/"
+  meaning: "(món) chay, ăn chay"
+  topic: "dining-out"
+  sub-topic:
+  lesson: "lesson-12"
+  level: 600
+  forms:
+    adjective: "vegetarian"
+    noun: "vegetarian"
+  collocations:
+    - en: "vegetarian options"
+      vi: "các lựa chọn món chay"
+    - en: "a vegetarian dish"
+      vi: "một món chay"
+  example:
+    en: "Do you have any {vegetarian} dishes on the menu?"
+    vi: "Nhà hàng có món chay nào trong thực đơn không?"
+
+- word: "dietary restrictions"
+  pos: "noun"
+  ipa: "/ˈdaɪətəri rɪˈstrɪkʃnz/"
+  meaning: "hạn chế ăn uống (kiêng khem, dị ứng)"
+  topic: "dining-out"
+  sub-topic:
+  lesson: "lesson-12"
+  level: 900
+  forms:
+    noun: "dietary restrictions"
+    adjective: "dietary"
+  collocations:
+    - en: "note any dietary restrictions"
+      vi: "lưu ý mọi hạn chế ăn uống"
+    - en: "have dietary restrictions"
+      vi: "có hạn chế ăn uống"
+  example:
+    en: "Please tell us about any {dietary restrictions} before the event."
+    vi: "Vui lòng cho chúng tôi biết về mọi hạn chế ăn uống trước sự kiện."
+
+- word: "server"
+  pos: "noun"
+  ipa: "/ˈsɜːvə(r)/"
+  meaning: "nhân viên phục vụ bàn"
+  topic: "dining-out"
+  sub-topic:
+  lesson: "lesson-12"
+  level: 600
+  forms:
+    noun: "server"
+    verb: "serve"
+  collocations:
+    - en: "ask the server"
+      vi: "hỏi nhân viên phục vụ"
+    - en: "signal the server"
+      vi: "ra hiệu cho nhân viên phục vụ"
+  example:
+    en: "Our {server} was friendly and brought the dishes quickly."
+    vi: "Nhân viên phục vụ của chúng tôi thân thiện và mang món ra nhanh."
+
+- word: "complimentary"
+  pos: "adjective"
+  ipa: "/ˌkɒmplɪˈmentri/"
+  meaning: "miễn phí, được tặng kèm"
+  topic: "dining-out"
+  sub-topic:
+  lesson: "lesson-12"
+  level: 750
+  forms:
+    adjective: "complimentary"
+  collocations:
+    - en: "a complimentary dessert"
+      vi: "một món tráng miệng miễn phí"
+    - en: "a complimentary drink"
+      vi: "một đồ uống miễn phí"
+  example:
+    en: "The chef sent out a {complimentary} appetizer for the table."
+    vi: "Đầu bếp gửi tặng một món khai vị miễn phí cho bàn."
+  note: "Phân biệt 'complimentary' (miễn phí) với 'complementary' (bổ sung cho nhau)."
+
+- word: "check"
+  pos: "noun"
+  ipa: "/tʃek/"
+  meaning: "hóa đơn nhà hàng (cách gọi của Mỹ)"
+  topic: "dining-out"
+  sub-topic:
+  lesson: "lesson-12"
+  level: 600
+  forms:
+    noun: "check"
+  collocations:
+    - en: "ask for the check"
+      vi: "xin hóa đơn"
+    - en: "split the check"
+      vi: "chia hóa đơn"
+  example:
+    en: "Could we have the {check}, please?"
+    vi: "Cho chúng tôi xin hóa đơn được không?"
+  note: "Ở Anh thường dùng 'the bill' thay cho 'the check'."
+
+- word: "gratuity"
+  pos: "noun"
+  ipa: "/ɡrəˈtjuːəti/"
+  meaning: "tiền boa (cách nói trang trọng); phí phục vụ"
+  topic: "dining-out"
+  sub-topic:
+  lesson: "lesson-12"
+  level: 900
+  forms:
+    noun: "gratuity"
+  collocations:
+    - en: "a gratuity is included"
+      vi: "đã bao gồm phí phục vụ"
+    - en: "add a gratuity"
+      vi: "cộng thêm tiền boa"
+  example:
+    en: "A fifteen percent {gratuity} is added for large parties."
+    vi: "Phí phục vụ 15% được cộng thêm cho các nhóm khách đông."
+
+- word: "tip"
+  pos: "noun"
+  ipa: "/tɪp/"
+  meaning: "tiền boa"
+  topic: "dining-out"
+  sub-topic:
+  lesson: "lesson-12"
+  level: 600
+  forms:
+    noun: "tip"
+    verb: "tip"
+  collocations:
+    - en: "leave a tip"
+      vi: "để lại tiền boa"
+    - en: "a generous tip"
+      vi: "một khoản tiền boa hào phóng"
+  example:
+    en: "They left a generous {tip} for the excellent service."
+    vi: "Họ để lại một khoản tiền boa hào phóng vì phục vụ xuất sắc."
+
+- word: "takeout"
+  pos: "noun"
+  ipa: "/ˈteɪkaʊt/"
+  meaning: "đồ ăn mua mang về"
+  topic: "dining-out"
+  sub-topic:
+  lesson: "lesson-12"
+  level: 600
+  forms:
+    noun: "takeout"
+  collocations:
+    - en: "order takeout"
+      vi: "gọi đồ ăn mang về"
+    - en: "for here or to go"
+      vi: "ăn tại chỗ hay mang về"
+  example:
+    en: "We decided to take the leftovers as {takeout}."
+    vi: "Chúng tôi quyết định gói phần thức ăn thừa mang về."
+  note: "Anh-Mỹ 'takeout / to go'; Anh-Anh dùng 'takeaway'."
+
+- word: "RSVP"
+  pos: "verb"
+  ipa: "/ˌɑːr es viː ˈpiː/"
+  meaning: "xác nhận có tham dự hay không"
+  topic: "dining-out"
+  sub-topic:
+  lesson: "lesson-12"
+  level: 750
+  forms:
+    verb: "RSVP"
+  collocations:
+    - en: "please RSVP by Friday"
+      vi: "vui lòng xác nhận trước thứ Sáu"
+    - en: "RSVP to the invitation"
+      vi: "phản hồi lời mời"
+  example:
+    en: "Please {RSVP} by the thirty-first of October to confirm your seat."
+    vi: "Vui lòng xác nhận tham dự trước ngày 31 tháng 10 để giữ chỗ."
+  note: "Viết tắt tiếng Pháp 'répondez s'il vous plaît'; dùng như động từ trong tiếng Anh."

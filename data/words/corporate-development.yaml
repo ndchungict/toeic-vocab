@@ -3,6 +3,7 @@
   ipa: "/rɪˈsɜːtʃ/"
   meaning: "nghiên cứu, hoạt động tìm tòi khoa học"
   topic: "corporate-development"
+  sub-topic:
   lesson: "lesson-19"
   level: 600
   forms:
@@ -24,6 +25,7 @@
   ipa: "/dɪˈveləpmənt/"
   meaning: "sự phát triển, quá trình phát triển sản phẩm"
   topic: "corporate-development"
+  sub-topic:
   lesson: "lesson-19"
   level: 600
   forms:
@@ -44,6 +46,7 @@
   ipa: "/ˌɪnəˈveɪʃn/"
   meaning: "sự đổi mới, cải tiến mang tính sáng tạo"
   topic: "corporate-development"
+  sub-topic:
   lesson: "lesson-19"
   level: 750
   forms:
@@ -64,6 +67,7 @@
   ipa: "/ˈɪnəveɪtɪv/"
   meaning: "mang tính đổi mới, sáng tạo"
   topic: "corporate-development"
+  sub-topic:
   lesson: "lesson-19"
   level: 750
   forms:
@@ -85,6 +89,7 @@
   ipa: "/ˈprəʊtətaɪp/"
   meaning: "nguyên mẫu, mẫu thử đầu tiên của sản phẩm"
   topic: "corporate-development"
+  sub-topic:
   lesson: "lesson-19"
   level: 750
   forms:
@@ -104,6 +109,7 @@
   ipa: "/ˈkɒnsept/"
   meaning: "ý tưởng, khái niệm ban đầu"
   topic: "corporate-development"
+  sub-topic:
   lesson: "lesson-19"
   level: 600
   forms:
@@ -123,6 +129,7 @@
   ipa: "/ˌfiːzəˈbɪləti ˈstʌdi/"
   meaning: "nghiên cứu tính khả thi của dự án"
   topic: "corporate-development"
+  sub-topic:
   lesson: "lesson-19"
   level: 900
   forms:
@@ -142,6 +149,7 @@
   ipa: "/ˈvaɪəbl/"
   meaning: "khả thi, có thể thực hiện hoặc tồn tại được"
   topic: "corporate-development"
+  sub-topic:
   lesson: "lesson-19"
   level: 900
   forms:
@@ -161,6 +169,7 @@
   ipa: "/ˈpaɪlət/"
   meaning: "cuộc thử nghiệm nhỏ trước khi triển khai rộng"
   topic: "corporate-development"
+  sub-topic:
   lesson: "lesson-19"
   level: 750
   forms:
@@ -181,6 +190,7 @@
   ipa: "/ˈtraɪəl/"
   meaning: "cuộc thử nghiệm, đợt chạy thử"
   topic: "corporate-development"
+  sub-topic:
   lesson: "lesson-19"
   level: 600
   forms:
@@ -200,6 +210,7 @@
   ipa: "/feɪz/"
   meaning: "giai đoạn trong một quá trình"
   topic: "corporate-development"
+  sub-topic:
   lesson: "lesson-19"
   level: 600
   forms:
@@ -219,6 +230,7 @@
   ipa: "/ˈfaɪndɪŋz/"
   meaning: "kết quả, phát hiện từ nghiên cứu"
   topic: "corporate-development"
+  sub-topic:
   lesson: "lesson-19"
   level: 750
   forms:
@@ -239,6 +251,7 @@
   ipa: "/rɪˈfaɪn/"
   meaning: "tinh chỉnh, cải tiến cho hoàn thiện hơn"
   topic: "corporate-development"
+  sub-topic:
   lesson: "lesson-19"
   level: 750
   forms:
@@ -259,6 +272,7 @@
   ipa: "/ɪnˈhɑːns/"
   meaning: "nâng cao, cải thiện chất lượng"
   topic: "corporate-development"
+  sub-topic:
   lesson: "lesson-19"
   level: 750
   forms:
@@ -279,6 +293,7 @@
   ipa: "/ˈmɒdɪfaɪ/"
   meaning: "chỉnh sửa, điều chỉnh một phần"
   topic: "corporate-development"
+  sub-topic:
   lesson: "lesson-19"
   level: 600
   forms:
@@ -299,6 +314,7 @@
   ipa: "/ˈbreɪkθruː/"
   meaning: "bước đột phá, tiến bộ vượt bậc"
   topic: "corporate-development"
+  sub-topic:
   lesson: "lesson-19"
   level: 750
   forms:
@@ -317,6 +333,7 @@
   ipa: "/kəˈlæbəreɪt/"
   meaning: "hợp tác, cùng làm việc với nhau"
   topic: "corporate-development"
+  sub-topic:
   lesson: "lesson-19"
   level: 750
   forms:
@@ -338,6 +355,7 @@
   ipa: "/ˌekspɜːˈtiːz/"
   meaning: "chuyên môn, kiến thức chuyên sâu"
   topic: "corporate-development"
+  sub-topic:
   lesson: "lesson-19"
   level: 900
   forms:
@@ -358,6 +376,7 @@
   ipa: "/lɔːntʃ/"
   meaning: "ra mắt, tung sản phẩm ra thị trường"
   topic: "corporate-development"
+  sub-topic:
   lesson: "lesson-20"
   level: 600
   forms:
@@ -377,6 +396,7 @@
   ipa: "/rəʊl aʊt/"
   meaning: "triển khai rộng rãi ra thị trường"
   topic: "corporate-development"
+  sub-topic:
   lesson: "lesson-20"
   level: 750
   forms:
@@ -396,6 +416,7 @@
   ipa: "/ˌkʌtɪŋ ˈedʒ/"
   meaning: "tiên tiến nhất, dẫn đầu công nghệ"
   topic: "corporate-development"
+  sub-topic:
   lesson: "lesson-20"
   level: 750
   forms:
@@ -414,6 +435,7 @@
   ipa: "/ˌsteɪt əv ði ˈɑːt/"
   meaning: "hiện đại nhất, sử dụng công nghệ mới nhất"
   topic: "corporate-development"
+  sub-topic:
   lesson: "lesson-20"
   level: 900
   forms:
@@ -432,6 +454,7 @@
   ipa: "/ˈmaɪlstəʊn/"
   meaning: "cột mốc quan trọng trong tiến trình"
   topic: "corporate-development"
+  sub-topic:
   lesson: "lesson-20"
   level: 750
   forms:
@@ -450,6 +473,7 @@
   ipa: "/ˈpætnt/"
   meaning: "bằng sáng chế, quyền bảo hộ phát minh"
   topic: "corporate-development"
+  sub-topic:
   lesson: "lesson-20"
   level: 750
   forms:
@@ -470,6 +494,7 @@
   ipa: "/ˌɪntəlektʃuəl ˈprɒpəti/"
   meaning: "sở hữu trí tuệ"
   topic: "corporate-development"
+  sub-topic:
   lesson: "lesson-20"
   level: 900
   forms:
@@ -489,6 +514,7 @@
   ipa: "/prəˈpraɪətri/"
   meaning: "thuộc sở hữu độc quyền, được bảo hộ riêng"
   topic: "corporate-development"
+  sub-topic:
   lesson: "lesson-20"
   level: 900
   forms:
@@ -508,6 +534,7 @@
   ipa: "/ˈventʃə(r)/"
   meaning: "dự án kinh doanh mạo hiểm"
   topic: "corporate-development"
+  sub-topic:
   lesson: "lesson-20"
   level: 750
   forms:
@@ -527,6 +554,7 @@
   ipa: "/daɪˈvɜːsɪfaɪ/"
   meaning: "đa dạng hóa, mở rộng sang lĩnh vực mới"
   topic: "corporate-development"
+  sub-topic:
   lesson: "lesson-20"
   level: 900
   forms:
@@ -547,6 +575,7 @@
   ipa: "/ˈɒbsəliːt/"
   meaning: "lỗi thời, không còn được sử dụng"
   topic: "corporate-development"
+  sub-topic:
   lesson: "lesson-20"
   level: 900
   forms:
@@ -565,6 +594,7 @@
   ipa: "/ænˈtɪsɪpeɪt/"
   meaning: "dự đoán trước, lường trước"
   topic: "corporate-development"
+  sub-topic:
   lesson: "lesson-20"
   level: 750
   forms:
@@ -585,6 +615,7 @@
   ipa: "/ɪˈmɜːdʒɪŋ/"
   meaning: "mới nổi, đang xuất hiện và phát triển"
   topic: "corporate-development"
+  sub-topic:
   lesson: "lesson-20"
   level: 750
   forms:
@@ -605,6 +636,7 @@
   ipa: "/ˈɪmplɪment/"
   meaning: "triển khai, đưa vào thực hiện"
   topic: "corporate-development"
+  sub-topic:
   lesson: "lesson-20"
   level: 600
   forms:
@@ -624,6 +656,7 @@
   ipa: "/ˈskeɪləbl/"
   meaning: "có thể mở rộng quy mô dễ dàng"
   topic: "corporate-development"
+  sub-topic:
   lesson: "lesson-20"
   level: 900
   forms:
@@ -644,6 +677,7 @@
   ipa: "/ˈprɒspekt/"
   meaning: "triển vọng, khả năng thành công trong tương lai"
   topic: "corporate-development"
+  sub-topic:
   lesson: "lesson-20"
   level: 750
   forms:
@@ -664,6 +698,7 @@
   ipa: "/ˈpendɪŋ/"
   meaning: "đang chờ xử lý, chưa được quyết định"
   topic: "corporate-development"
+  sub-topic:
   lesson: "lesson-20"
   level: 750
   forms:
