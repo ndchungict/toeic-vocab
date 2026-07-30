@@ -1,0 +1,1055 @@
+- word: "deposit"
+  pos: "noun"
+  ipa: "/dɪˈpɒzɪt/"
+  meaning: "tiền đặt cọc; khoản tiền gửi vào ngân hàng"
+  topic: "finance-budgeting"
+  sub-topic: "banking"
+  lesson: ["lesson-13"]
+  level: 600
+  forms:
+    noun: "deposit"
+    verb: "deposit"
+  collocations:
+    - en: "pay a deposit"
+      vi: "trả tiền đặt cọc"
+    - en: "deposit a check"
+      vi: "gửi một tấm séc vào tài khoản"
+    - en: "a security deposit"
+      vi: "tiền đặt cọc bảo đảm"
+  example:
+    en: "The tenant paid a {deposit} of one month's rent before moving in."
+    vi: "Người thuê trả một khoản đặt cọc bằng một tháng tiền thuê trước khi dọn vào."
+  note: "Vừa là danh từ (tiền cọc) vừa là động từ (gửi tiền). Trái nghĩa với 'withdraw' (rút tiền)."
+
+- word: "withdraw"
+  pos: "verb"
+  ipa: "/wɪðˈdrɔː/"
+  meaning: "rút tiền (khỏi tài khoản); rút lui"
+  topic: "finance-budgeting"
+  sub-topic: "banking"
+  lesson: ["lesson-13"]
+  level: 600
+  forms:
+    verb: "withdraw"
+    noun: "withdrawal"
+  collocations:
+    - en: "withdraw funds"
+      vi: "rút tiền"
+    - en: "withdraw cash from an ATM"
+      vi: "rút tiền mặt từ máy ATM"
+  example:
+    en: "You can {withdraw} up to $500 a day from this account."
+    vi: "Bạn có thể rút tối đa 500 đô mỗi ngày từ tài khoản này."
+  note: "Động từ bất quy tắc: withdraw – withdrew – withdrawn. Danh từ là 'withdrawal', không phải 'withdrawment'."
+
+- word: "balance"
+  pos: "noun"
+  ipa: "/ˈbæləns/"
+  meaning: "số dư tài khoản; số tiền còn lại"
+  topic: "finance-budgeting"
+  sub-topic: "banking"
+  lesson: ["lesson-13"]
+  level: 600
+  forms:
+    noun: "balance"
+    verb: "balance"
+  collocations:
+    - en: "check your account balance"
+      vi: "kiểm tra số dư tài khoản"
+    - en: "an outstanding balance"
+      vi: "số dư chưa thanh toán"
+  example:
+    en: "Please check your account {balance} before making the transfer."
+    vi: "Vui lòng kiểm tra số dư tài khoản trước khi chuyển khoản."
+
+- word: "statement"
+  pos: "noun"
+  ipa: "/ˈsteɪtmənt/"
+  meaning: "bản sao kê (giao dịch tài khoản)"
+  topic: "finance-budgeting"
+  sub-topic: "banking"
+  lesson: ["lesson-13"]
+  level: 600
+  forms:
+    noun: "statement"
+    verb: "state"
+  collocations:
+    - en: "a monthly bank statement"
+      vi: "bản sao kê ngân hàng hằng tháng"
+    - en: "review the statement"
+      vi: "xem lại bản sao kê"
+  example:
+    en: "Your monthly {statement} will be sent to your email address."
+    vi: "Bản sao kê hằng tháng của bạn sẽ được gửi đến địa chỉ email."
+
+- word: "transaction"
+  pos: "noun"
+  ipa: "/trænˈzækʃn/"
+  meaning: "giao dịch (tài chính)"
+  topic: "finance-budgeting"
+  sub-topic: "banking"
+  lesson: ["lesson-13"]
+  level: 600
+  forms:
+    noun: "transaction"
+    verb: "transact"
+  collocations:
+    - en: "process a transaction"
+      vi: "xử lý một giao dịch"
+    - en: "a cash transaction"
+      vi: "giao dịch bằng tiền mặt"
+  example:
+    en: "Every {transaction} is recorded automatically in the system."
+    vi: "Mọi giao dịch đều được ghi lại tự động trong hệ thống."
+
+- word: "teller"
+  pos: "noun"
+  ipa: "/ˈtelə(r)/"
+  meaning: "giao dịch viên ngân hàng"
+  topic: "finance-budgeting"
+  sub-topic: "banking"
+  lesson: ["lesson-13"]
+  level: 750
+  forms:
+    noun: "teller"
+  collocations:
+    - en: "a bank teller"
+      vi: "giao dịch viên ngân hàng"
+    - en: "ask the teller for help"
+      vi: "nhờ giao dịch viên giúp đỡ"
+  example:
+    en: "The {teller} counted the cash and handed me a receipt."
+    vi: "Giao dịch viên đếm tiền mặt và đưa cho tôi biên lai."
+
+- word: "loan"
+  pos: "noun"
+  ipa: "/ləʊn/"
+  meaning: "khoản vay"
+  topic: "finance-budgeting"
+  sub-topic: "banking"
+  lesson: ["lesson-13"]
+  level: 600
+  forms:
+    noun: "loan"
+    verb: "loan"
+  collocations:
+    - en: "apply for a loan"
+      vi: "xin vay một khoản"
+    - en: "take out a loan"
+      vi: "vay một khoản tiền"
+    - en: "repay a loan"
+      vi: "trả nợ vay"
+  example:
+    en: "She applied for a business {loan} to expand her restaurant."
+    vi: "Cô ấy xin vay vốn kinh doanh để mở rộng nhà hàng."
+
+- word: "mortgage"
+  pos: "noun"
+  ipa: "/ˈmɔːɡɪdʒ/"
+  meaning: "khoản vay thế chấp mua nhà"
+  topic: "finance-budgeting"
+  sub-topic: "banking"
+  lesson: ["lesson-13"]
+  level: 750
+  forms:
+    noun: "mortgage"
+    verb: "mortgage"
+  collocations:
+    - en: "pay off a mortgage"
+      vi: "trả hết khoản vay thế chấp"
+    - en: "a monthly mortgage payment"
+      vi: "khoản trả góp thế chấp hằng tháng"
+  example:
+    en: "They took out a 20-year {mortgage} to buy their first home."
+    vi: "Họ vay thế chấp 20 năm để mua căn nhà đầu tiên."
+  note: "Chữ 't' câm — đọc là /ˈmɔːɡɪdʒ/, không đọc 't'."
+
+- word: "interest rate"
+  pos: "noun"
+  ipa: "/ˈɪntrəst reɪt/"
+  meaning: "lãi suất"
+  topic: "finance-budgeting"
+  sub-topic: "banking"
+  lesson: ["lesson-13"]
+  level: 600
+  forms:
+    noun: "interest rate"
+  collocations:
+    - en: "a low interest rate"
+      vi: "lãi suất thấp"
+    - en: "raise interest rates"
+      vi: "tăng lãi suất"
+  example:
+    en: "The bank offers a low {interest rate} on home loans this year."
+    vi: "Năm nay ngân hàng đưa ra lãi suất thấp cho các khoản vay mua nhà."
+
+- word: "installment"
+  pos: "noun"
+  ipa: "/ɪnˈstɔːlmənt/"
+  meaning: "kỳ trả góp"
+  topic: "finance-budgeting"
+  sub-topic: "banking"
+  lesson: ["lesson-13"]
+  level: 750
+  forms:
+    noun: "installment"
+  collocations:
+    - en: "pay in monthly installments"
+      vi: "trả góp hằng tháng"
+    - en: "the first installment"
+      vi: "kỳ trả góp đầu tiên"
+  example:
+    en: "Customers may pay for the equipment in twelve monthly {installments}."
+    vi: "Khách hàng có thể trả tiền thiết bị trong mười hai kỳ trả góp hằng tháng."
+
+- word: "collateral"
+  pos: "noun"
+  ipa: "/kəˈlætərəl/"
+  meaning: "tài sản thế chấp (bảo đảm cho khoản vay)"
+  topic: "finance-budgeting"
+  sub-topic: "banking"
+  lesson: ["lesson-13"]
+  level: 900
+  forms:
+    noun: "collateral"
+  collocations:
+    - en: "put up collateral"
+      vi: "đưa ra tài sản thế chấp"
+    - en: "use property as collateral"
+      vi: "dùng bất động sản làm tài sản thế chấp"
+  example:
+    en: "The company used its building as {collateral} for the loan."
+    vi: "Công ty dùng tòa nhà của mình làm tài sản thế chấp cho khoản vay."
+  note: "Danh từ không đếm được, chỉ tài sản bảo đảm khoản vay."
+
+- word: "overdraft"
+  pos: "noun"
+  ipa: "/ˈəʊvədrɑːft/"
+  meaning: "thấu chi (rút vượt quá số dư)"
+  topic: "finance-budgeting"
+  sub-topic: "banking"
+  lesson: ["lesson-13"]
+  level: 900
+  forms:
+    noun: "overdraft"
+    verb: "overdraw"
+  collocations:
+    - en: "an overdraft fee"
+      vi: "phí thấu chi"
+    - en: "arrange an overdraft"
+      vi: "thu xếp hạn mức thấu chi"
+  example:
+    en: "The account was charged an {overdraft} fee after the payment went through."
+    vi: "Tài khoản bị tính phí thấu chi sau khi khoản thanh toán được xử lý."
+
+- word: "accountant"
+  pos: "noun"
+  ipa: "/əˈkaʊntənt/"
+  meaning: "kế toán viên"
+  topic: "finance-budgeting"
+  sub-topic: "accounting-invoicing"
+  lesson: ["lesson-13"]
+  level: 600
+  forms:
+    noun: ["accountant", "accounting"]
+    verb: "account"
+  collocations:
+    - en: "a certified accountant"
+      vi: "kế toán viên được cấp chứng chỉ"
+    - en: "hire an accountant"
+      vi: "thuê một kế toán viên"
+  example:
+    en: "The {accountant} prepared the financial reports for the annual meeting."
+    vi: "Kế toán viên chuẩn bị các báo cáo tài chính cho cuộc họp thường niên."
+
+- word: "bookkeeping"
+  pos: "noun"
+  ipa: "/ˈbʊkkiːpɪŋ/"
+  meaning: "công tác ghi chép sổ sách kế toán"
+  topic: "finance-budgeting"
+  sub-topic: "accounting-invoicing"
+  lesson: ["lesson-13"]
+  level: 750
+  forms:
+    noun: ["bookkeeping", "bookkeeper"]
+  collocations:
+    - en: "handle the bookkeeping"
+      vi: "phụ trách việc ghi sổ sách"
+    - en: "accurate bookkeeping"
+      vi: "ghi sổ sách chính xác"
+  example:
+    en: "Good {bookkeeping} makes it much easier to prepare the annual budget."
+    vi: "Việc ghi sổ sách tốt giúp lập ngân sách hằng năm dễ dàng hơn nhiều."
+
+- word: "audit"
+  pos: "noun"
+  ipa: "/ˈɔːdɪt/"
+  meaning: "cuộc kiểm toán"
+  topic: "finance-budgeting"
+  sub-topic: "accounting-invoicing"
+  lesson: ["lesson-13"]
+  level: 750
+  forms:
+    noun: ["audit", "auditor"]
+    verb: "audit"
+  collocations:
+    - en: "conduct an audit"
+      vi: "tiến hành kiểm toán"
+    - en: "an annual audit"
+      vi: "cuộc kiểm toán hằng năm"
+  example:
+    en: "An external firm will conduct an {audit} of our accounts next month."
+    vi: "Một công ty bên ngoài sẽ tiến hành kiểm toán sổ sách của chúng ta vào tháng tới."
+
+- word: "invoice"
+  pos: "noun"
+  ipa: "/ˈɪnvɔɪs/"
+  meaning: "hóa đơn đề nghị thanh toán"
+  topic: "finance-budgeting"
+  sub-topic: "accounting-invoicing"
+  lesson: ["lesson-13", "lesson-16"]
+  level: 600
+  forms:
+    noun: "invoice"
+    verb: "invoice"
+  collocations:
+    - en: "issue an invoice"
+      vi: "phát hành hóa đơn"
+    - en: "settle an invoice"
+      vi: "thanh toán hóa đơn"
+  example:
+    en: "The supplier sent an {invoice} for the goods delivered last week."
+    vi: "Nhà cung cấp gửi hóa đơn cho lô hàng đã giao tuần trước."
+  note: "'invoice' là hóa đơn đề nghị thanh toán (chưa trả); 'receipt' là biên lai xác nhận đã trả."
+
+- word: "billing"
+  pos: "noun"
+  ipa: "/ˈbɪlɪŋ/"
+  meaning: "việc lập và gửi hóa đơn"
+  topic: "finance-budgeting"
+  sub-topic: "accounting-invoicing"
+  lesson: ["lesson-13"]
+  level: 600
+  forms:
+    noun: "billing"
+    verb: "bill"
+  collocations:
+    - en: "the billing department"
+      vi: "bộ phận lập hóa đơn"
+    - en: "a billing error"
+      vi: "lỗi trong việc lập hóa đơn"
+  example:
+    en: "Any questions about your charges should go to the {billing} department."
+    vi: "Mọi thắc mắc về khoản phí xin gửi đến bộ phận lập hóa đơn."
+
+- word: "receipt"
+  pos: "noun"
+  ipa: "/rɪˈsiːt/"
+  meaning: "biên lai, giấy xác nhận đã thanh toán"
+  topic: "finance-budgeting"
+  sub-topic: "accounting-invoicing"
+  lesson: ["lesson-13"]
+  level: 600
+  forms:
+    noun: "receipt"
+    verb: "receive"
+  collocations:
+    - en: "keep the receipt"
+      vi: "giữ lại biên lai"
+    - en: "a proof of receipt"
+      vi: "bằng chứng đã nhận"
+  example:
+    en: "Please keep your {receipt} in case you need to return the item."
+    vi: "Vui lòng giữ biên lai phòng khi bạn cần trả lại món hàng."
+  note: "Chữ 'p' câm — đọc là /rɪˈsiːt/. Đừng nhầm với 'recipe' /ˈresəpi/ = công thức nấu ăn."
+
+- word: "reimburse"
+  pos: "verb"
+  ipa: "/ˌriːɪmˈbɜːs/"
+  meaning: "hoàn trả (tiền đã chi hộ)"
+  topic: "finance-budgeting"
+  sub-topic: "accounting-invoicing"
+  lesson: ["lesson-13"]
+  level: 750
+  forms:
+    verb: "reimburse"
+    noun: "reimbursement"
+  collocations:
+    - en: "reimburse an employee for expenses"
+      vi: "hoàn tiền cho nhân viên các khoản chi phí"
+    - en: "reimburse travel costs"
+      vi: "hoàn trả chi phí đi lại"
+  example:
+    en: "The company will {reimburse} you for any travel expenses."
+    vi: "Công ty sẽ hoàn trả cho bạn mọi chi phí đi lại."
+  note: "Đi với giới từ 'for': reimburse sb for sth."
+
+- word: "expense"
+  pos: "noun"
+  ipa: "/ɪkˈspens/"
+  meaning: "chi phí, khoản chi"
+  topic: "finance-budgeting"
+  sub-topic: "accounting-invoicing"
+  lesson: ["lesson-13"]
+  level: 600
+  forms:
+    noun: "expense"
+    adjective: "expensive"
+  collocations:
+    - en: "cut expenses"
+      vi: "cắt giảm chi phí"
+    - en: "an expense report"
+      vi: "báo cáo chi phí"
+  example:
+    en: "Employees must submit an {expense} report at the end of each month."
+    vi: "Nhân viên phải nộp báo cáo chi phí vào cuối mỗi tháng."
+
+- word: "expenditure"
+  pos: "noun"
+  ipa: "/ɪkˈspendɪtʃə(r)/"
+  meaning: "khoản chi tiêu (thường của tổ chức)"
+  topic: "finance-budgeting"
+  sub-topic: "accounting-invoicing"
+  lesson: ["lesson-13"]
+  level: 900
+  forms:
+    noun: "expenditure"
+    verb: "expend"
+  collocations:
+    - en: "reduce expenditure"
+      vi: "giảm chi tiêu"
+    - en: "capital expenditure"
+      vi: "chi tiêu vốn"
+  example:
+    en: "The board voted to reduce {expenditure} on marketing this quarter."
+    vi: "Hội đồng biểu quyết cắt giảm chi tiêu cho marketing trong quý này."
+  note: "Trang trọng và mang tính tổng thể hơn 'expense'; thường không đếm được."
+
+- word: "overdue"
+  pos: "adjective"
+  ipa: "/ˌəʊvəˈdjuː/"
+  meaning: "quá hạn (thanh toán, trả)"
+  topic: "finance-budgeting"
+  sub-topic: "accounting-invoicing"
+  lesson: ["lesson-13"]
+  level: 750
+  forms:
+    adjective: "overdue"
+  collocations:
+    - en: "an overdue payment"
+      vi: "khoản thanh toán quá hạn"
+    - en: "an overdue invoice"
+      vi: "hóa đơn quá hạn"
+  example:
+    en: "A reminder was sent because the payment was two weeks {overdue}."
+    vi: "Một thông báo nhắc nhở đã được gửi vì khoản thanh toán quá hạn hai tuần."
+
+- word: "outstanding"
+  pos: "adjective"
+  ipa: "/aʊtˈstændɪŋ/"
+  meaning: "chưa thanh toán, còn nợ"
+  topic: "finance-budgeting"
+  sub-topic: "accounting-invoicing"
+  lesson: ["lesson-13"]
+  level: 750
+  forms:
+    adjective: "outstanding"
+  collocations:
+    - en: "an outstanding balance"
+      vi: "số dư chưa thanh toán"
+    - en: "outstanding debts"
+      vi: "các khoản nợ chưa trả"
+  example:
+    en: "Please clear the {outstanding} balance before the end of the month."
+    vi: "Vui lòng thanh toán hết số dư còn nợ trước cuối tháng."
+  note: "Nghĩa kép: trong tài chính = 'chưa thanh toán'; nghĩa thường = 'xuất sắc'. Chú ý ngữ cảnh."
+
+- word: "discrepancy"
+  pos: "noun"
+  ipa: "/dɪsˈkrepənsi/"
+  meaning: "sự sai lệch, chênh lệch (giữa các số liệu)"
+  topic: "finance-budgeting"
+  sub-topic: "accounting-invoicing"
+  lesson: ["lesson-13"]
+  level: 900
+  forms:
+    noun: "discrepancy"
+  collocations:
+    - en: "a discrepancy in the figures"
+      vi: "sự chênh lệch trong các con số"
+    - en: "resolve a discrepancy"
+      vi: "giải quyết sự sai lệch"
+  example:
+    en: "The auditor found a {discrepancy} between the invoice and the receipt."
+    vi: "Kiểm toán viên phát hiện sự chênh lệch giữa hóa đơn và biên lai."
+
+- word: "accrue"
+  pos: "verb"
+  ipa: "/əˈkruː/"
+  meaning: "tích lũy dần (lãi, chi phí)"
+  topic: "finance-budgeting"
+  sub-topic: "accounting-invoicing"
+  lesson: ["lesson-13"]
+  level: 900
+  forms:
+    verb: "accrue"
+    noun: "accrual"
+  collocations:
+    - en: "interest accrues monthly"
+      vi: "lãi tích lũy theo tháng"
+    - en: "accrued expenses"
+      vi: "chi phí phải trả đã phát sinh"
+  example:
+    en: "Interest {accrues} on the account balance every month."
+    vi: "Lãi tích lũy trên số dư tài khoản mỗi tháng."
+
+- word: "investment"
+  pos: "noun"
+  ipa: "/ɪnˈvestmənt/"
+  meaning: "sự đầu tư, khoản đầu tư"
+  topic: "finance-budgeting"
+  sub-topic: "investment"
+  lesson: ["lesson-14"]
+  level: 600
+  forms:
+    noun: ["investment", "investor"]
+    verb: "invest"
+  collocations:
+    - en: "a sound investment"
+      vi: "một khoản đầu tư an toàn"
+    - en: "return on investment"
+      vi: "lợi nhuận trên vốn đầu tư"
+  example:
+    en: "The new factory is a major {investment} for the company."
+    vi: "Nhà máy mới là một khoản đầu tư lớn của công ty."
+
+- word: "portfolio"
+  pos: "noun"
+  ipa: "/pɔːtˈfəʊliəʊ/"
+  meaning: "danh mục đầu tư"
+  topic: "finance-budgeting"
+  sub-topic: "investment"
+  lesson: ["lesson-14"]
+  level: 750
+  forms:
+    noun: "portfolio"
+  collocations:
+    - en: "diversify your portfolio"
+      vi: "đa dạng hóa danh mục đầu tư"
+    - en: "an investment portfolio"
+      vi: "danh mục đầu tư"
+  example:
+    en: "Advisors recommend that you diversify your investment {portfolio}."
+    vi: "Các chuyên gia khuyên bạn nên đa dạng hóa danh mục đầu tư."
+
+- word: "shareholder"
+  pos: "noun"
+  ipa: "/ˈʃeəhəʊldə(r)/"
+  meaning: "cổ đông"
+  topic: "finance-budgeting"
+  sub-topic: "investment"
+  lesson: ["lesson-14"]
+  level: 750
+  forms:
+    noun: "shareholder"
+  collocations:
+    - en: "the annual shareholders' meeting"
+      vi: "đại hội cổ đông thường niên"
+    - en: "major shareholders"
+      vi: "các cổ đông lớn"
+  example:
+    en: "The {shareholders} voted to approve the merger at the annual meeting."
+    vi: "Các cổ đông đã biểu quyết thông qua việc sáp nhập tại đại hội thường niên."
+
+- word: "stock"
+  pos: "noun"
+  ipa: "/stɒk/"
+  meaning: "cổ phiếu"
+  topic: "finance-budgeting"
+  sub-topic: "investment"
+  lesson: ["lesson-14", "lesson-15"]
+  level: 600
+  forms:
+    noun: "stock"
+  collocations:
+    - en: "stock prices rose"
+      vi: "giá cổ phiếu tăng"
+    - en: "buy shares of stock"
+      vi: "mua cổ phiếu"
+  example:
+    en: "The company's {stock} rose sharply after the earnings report."
+    vi: "Cổ phiếu của công ty tăng mạnh sau báo cáo lợi nhuận."
+  note: "Nghĩa kép: trong đầu tư = 'cổ phiếu'; trong kho vận = 'hàng tồn kho' (in stock / out of stock)."
+
+- word: "dividend"
+  pos: "noun"
+  ipa: "/ˈdɪvɪdend/"
+  meaning: "cổ tức (lợi nhuận chia cho cổ đông)"
+  topic: "finance-budgeting"
+  sub-topic: "investment"
+  lesson: ["lesson-14"]
+  level: 900
+  forms:
+    noun: "dividend"
+  collocations:
+    - en: "pay dividends"
+      vi: "trả cổ tức"
+    - en: "an annual dividend"
+      vi: "cổ tức hằng năm"
+  example:
+    en: "The company pays a {dividend} to its shareholders every quarter."
+    vi: "Công ty trả cổ tức cho cổ đông mỗi quý."
+
+- word: "asset"
+  pos: "noun"
+  ipa: "/ˈæset/"
+  meaning: "tài sản (có giá trị)"
+  topic: "finance-budgeting"
+  sub-topic: "investment"
+  lesson: ["lesson-14"]
+  level: 750
+  forms:
+    noun: "asset"
+  collocations:
+    - en: "liquid assets"
+      vi: "tài sản có tính thanh khoản"
+    - en: "assets and liabilities"
+      vi: "tài sản và các khoản nợ"
+  example:
+    en: "The building is the company's most valuable {asset}."
+    vi: "Tòa nhà là tài sản giá trị nhất của công ty."
+  note: "Trái nghĩa với 'liability' (khoản nợ phải trả)."
+
+- word: "liability"
+  pos: "noun"
+  ipa: "/ˌlaɪəˈbɪləti/"
+  meaning: "khoản nợ phải trả; trách nhiệm pháp lý"
+  topic: "finance-budgeting"
+  sub-topic: "investment"
+  lesson: ["lesson-14"]
+  level: 900
+  forms:
+    noun: "liability"
+    adjective: "liable"
+  collocations:
+    - en: "assets and liabilities"
+      vi: "tài sản và các khoản nợ"
+    - en: "limited liability"
+      vi: "trách nhiệm hữu hạn"
+  example:
+    en: "The report lists all of the company's assets and {liabilities}."
+    vi: "Báo cáo liệt kê toàn bộ tài sản và các khoản nợ của công ty."
+  note: "Trong kế toán = 'khoản nợ phải trả'; nghĩa pháp lý = 'trách nhiệm'. Tính từ là 'liable'."
+
+- word: "return"
+  pos: "noun"
+  ipa: "/rɪˈtɜːn/"
+  meaning: "lợi nhuận thu về từ đầu tư"
+  topic: "finance-budgeting"
+  sub-topic: "investment"
+  lesson: ["lesson-14"]
+  level: 600
+  forms:
+    noun: "return"
+    verb: "return"
+  collocations:
+    - en: "a high return on investment"
+      vi: "lợi nhuận cao trên vốn đầu tư"
+    - en: "generate a return"
+      vi: "tạo ra lợi nhuận"
+  example:
+    en: "Investors expect a high {return} on this project."
+    vi: "Các nhà đầu tư kỳ vọng lợi nhuận cao từ dự án này."
+  note: "Trong tài chính = 'lợi nhuận'; cũng có nghĩa 'trả lại' và 'tax return' = tờ khai thuế."
+
+- word: "yield"
+  pos: "noun"
+  ipa: "/jiːld/"
+  meaning: "lợi suất; mức sinh lời"
+  topic: "finance-budgeting"
+  sub-topic: "investment"
+  lesson: ["lesson-14"]
+  level: 900
+  forms:
+    noun: "yield"
+    verb: "yield"
+  collocations:
+    - en: "a high-yield bond"
+      vi: "trái phiếu lợi suất cao"
+    - en: "yield a profit"
+      vi: "mang lại lợi nhuận"
+  example:
+    en: "These bonds {yield} a higher return than a regular savings account."
+    vi: "Những trái phiếu này mang lại lợi suất cao hơn tài khoản tiết kiệm thông thường."
+
+- word: "fluctuate"
+  pos: "verb"
+  ipa: "/ˈflʌktʃueɪt/"
+  meaning: "dao động lên xuống (giá cả, tỷ giá)"
+  topic: "finance-budgeting"
+  sub-topic: "investment"
+  lesson: ["lesson-14"]
+  level: 900
+  forms:
+    verb: "fluctuate"
+    noun: "fluctuation"
+  collocations:
+    - en: "prices fluctuate"
+      vi: "giá cả dao động"
+    - en: "fluctuate wildly"
+      vi: "dao động mạnh"
+  example:
+    en: "Currency exchange rates can {fluctuate} from day to day."
+    vi: "Tỷ giá hối đoái có thể dao động từng ngày."
+
+- word: "volatile"
+  pos: "adjective"
+  ipa: "/ˈvɒlətaɪl/"
+  meaning: "biến động mạnh, không ổn định (thị trường)"
+  topic: "finance-budgeting"
+  sub-topic: "investment"
+  lesson: ["lesson-14"]
+  level: 900
+  forms:
+    adjective: "volatile"
+    noun: "volatility"
+  collocations:
+    - en: "a volatile market"
+      vi: "một thị trường biến động"
+    - en: "volatile stock prices"
+      vi: "giá cổ phiếu biến động mạnh"
+  example:
+    en: "The stock market has been highly {volatile} this year."
+    vi: "Thị trường chứng khoán năm nay biến động rất mạnh."
+
+- word: "taxation"
+  pos: "noun"
+  ipa: "/tækˈseɪʃn/"
+  meaning: "hệ thống thuế; việc đánh thuế"
+  topic: "finance-budgeting"
+  sub-topic: "tax-budgeting"
+  lesson: ["lesson-14"]
+  level: 750
+  forms:
+    noun: ["tax", "taxation"]
+    verb: "tax"
+    adjective: "taxable"
+  collocations:
+    - en: "the taxation system"
+      vi: "hệ thống thuế"
+    - en: "corporate taxation"
+      vi: "thuế doanh nghiệp"
+  example:
+    en: "The government announced changes to the corporate {taxation} system."
+    vi: "Chính phủ công bố các thay đổi đối với hệ thống thuế doanh nghiệp."
+
+- word: "deduct"
+  pos: "verb"
+  ipa: "/dɪˈdʌkt/"
+  meaning: "khấu trừ, trừ đi (một khoản)"
+  topic: "finance-budgeting"
+  sub-topic: "tax-budgeting"
+  lesson: ["lesson-14"]
+  level: 750
+  forms:
+    verb: "deduct"
+    noun: "deduction"
+    adjective: "deductible"
+  collocations:
+    - en: "deduct from your salary"
+      vi: "khấu trừ từ lương của bạn"
+    - en: "deduct expenses"
+      vi: "khấu trừ chi phí"
+  example:
+    en: "Tax is automatically {deducted} from your monthly salary."
+    vi: "Thuế được tự động khấu trừ từ lương hằng tháng của bạn."
+  note: "Đi với giới từ 'from': deduct sth from sth."
+
+- word: "deduction"
+  pos: "noun"
+  ipa: "/dɪˈdʌkʃn/"
+  meaning: "khoản khấu trừ"
+  topic: "finance-budgeting"
+  sub-topic: "tax-budgeting"
+  lesson: ["lesson-14"]
+  level: 750
+  forms:
+    noun: "deduction"
+    verb: "deduct"
+    adjective: "deductible"
+  collocations:
+    - en: "a tax deduction"
+      vi: "khoản khấu trừ thuế"
+    - en: "claim a deduction"
+      vi: "yêu cầu khấu trừ"
+  example:
+    en: "Charitable donations may qualify for a tax {deduction}."
+    vi: "Các khoản quyên góp từ thiện có thể được khấu trừ thuế."
+
+- word: "exempt"
+  pos: "adjective"
+  ipa: "/ɪɡˈzempt/"
+  meaning: "được miễn (thuế, nghĩa vụ)"
+  topic: "finance-budgeting"
+  sub-topic: "tax-budgeting"
+  lesson: ["lesson-14"]
+  level: 900
+  forms:
+    adjective: "exempt"
+    verb: "exempt"
+    noun: "exemption"
+  collocations:
+    - en: "be exempt from tax"
+      vi: "được miễn thuế"
+    - en: "tax-exempt income"
+      vi: "thu nhập được miễn thuế"
+  example:
+    en: "Non-profit organizations are often {exempt} from certain taxes."
+    vi: "Các tổ chức phi lợi nhuận thường được miễn một số loại thuế."
+  note: "Đi với giới từ 'from': be exempt from sth."
+
+- word: "file"
+  pos: "verb"
+  ipa: "/faɪl/"
+  meaning: "nộp (tờ khai, đơn từ chính thức)"
+  topic: "finance-budgeting"
+  sub-topic: "tax-budgeting"
+  lesson: ["lesson-14"]
+  level: 600
+  forms:
+    verb: "file"
+    noun: "file"
+  collocations:
+    - en: "file a tax return"
+      vi: "nộp tờ khai thuế"
+    - en: "file a claim"
+      vi: "nộp đơn yêu cầu"
+  example:
+    en: "You must {file} your tax return before the end of April."
+    vi: "Bạn phải nộp tờ khai thuế trước cuối tháng Tư."
+  note: "Nghĩa kép: động từ 'nộp (hồ sơ)'; danh từ 'tệp/hồ sơ lưu trữ'."
+
+- word: "fiscal year"
+  pos: "noun"
+  ipa: "/ˈfɪskl jɪə(r)/"
+  meaning: "năm tài chính"
+  topic: "finance-budgeting"
+  sub-topic: "tax-budgeting"
+  lesson: ["lesson-14"]
+  level: 750
+  forms:
+    noun: "fiscal year"
+  collocations:
+    - en: "the end of the fiscal year"
+      vi: "cuối năm tài chính"
+    - en: "the current fiscal year"
+      vi: "năm tài chính hiện tại"
+  example:
+    en: "All reports must be submitted by the end of the {fiscal year}."
+    vi: "Mọi báo cáo phải được nộp trước khi kết thúc năm tài chính."
+
+- word: "budget"
+  pos: "noun"
+  ipa: "/ˈbʌdʒɪt/"
+  meaning: "ngân sách, khoản tiền dự chi"
+  topic: "finance-budgeting"
+  sub-topic: "tax-budgeting"
+  lesson: ["lesson-14"]
+  level: 600
+  forms:
+    noun: "budget"
+    verb: "budget"
+    adjective: "budgetary"
+  collocations:
+    - en: "stay within budget"
+      vi: "chi tiêu trong ngân sách"
+    - en: "go over budget"
+      vi: "vượt ngân sách"
+  example:
+    en: "The project was completed under {budget} and ahead of schedule."
+    vi: "Dự án hoàn thành dưới mức ngân sách và trước thời hạn."
+
+- word: "allocate"
+  pos: "verb"
+  ipa: "/ˈæləkeɪt/"
+  meaning: "phân bổ (kinh phí, nguồn lực)"
+  topic: "finance-budgeting"
+  sub-topic: "tax-budgeting"
+  lesson: ["lesson-14"]
+  level: 750
+  forms:
+    verb: "allocate"
+    noun: "allocation"
+  collocations:
+    - en: "allocate funds to a project"
+      vi: "phân bổ kinh phí cho một dự án"
+    - en: "allocate resources"
+      vi: "phân bổ nguồn lực"
+  example:
+    en: "The company {allocated} more funds to research this year."
+    vi: "Năm nay công ty phân bổ nhiều kinh phí hơn cho nghiên cứu."
+
+- word: "funds"
+  pos: "noun"
+  ipa: "/fʌndz/"
+  meaning: "nguồn vốn, kinh phí"
+  topic: "finance-budgeting"
+  sub-topic: "tax-budgeting"
+  lesson: ["lesson-14"]
+  level: 600
+  forms:
+    noun: "funds"
+    verb: "fund"
+    noun_activity: "funding"
+  collocations:
+    - en: "insufficient funds"
+      vi: "không đủ kinh phí"
+    - en: "raise funds"
+      vi: "gây quỹ, huy động vốn"
+  example:
+    en: "There were not enough {funds} to complete the second phase."
+    vi: "Không đủ kinh phí để hoàn thành giai đoạn hai."
+
+- word: "surplus"
+  pos: "noun"
+  ipa: "/ˈsɜːpləs/"
+  meaning: "thặng dư, phần dư ra"
+  topic: "finance-budgeting"
+  sub-topic: "tax-budgeting"
+  lesson: ["lesson-14", "lesson-15"]
+  level: 900
+  forms:
+    noun: "surplus"
+    adjective: "surplus"
+  collocations:
+    - en: "a budget surplus"
+      vi: "thặng dư ngân sách"
+    - en: "a trade surplus"
+      vi: "thặng dư thương mại"
+  example:
+    en: "The department ended the year with a small budget {surplus}."
+    vi: "Bộ phận kết thúc năm với một khoản thặng dư ngân sách nhỏ."
+  note: "Trái nghĩa với 'deficit' (thâm hụt). Cũng dùng chỉ hàng dư thừa: surplus stock."
+
+- word: "deficit"
+  pos: "noun"
+  ipa: "/ˈdefɪsɪt/"
+  meaning: "thâm hụt (chi vượt thu)"
+  topic: "finance-budgeting"
+  sub-topic: "tax-budgeting"
+  lesson: ["lesson-14"]
+  level: 900
+  forms:
+    noun: "deficit"
+  collocations:
+    - en: "run a deficit"
+      vi: "bị thâm hụt"
+    - en: "a budget deficit"
+      vi: "thâm hụt ngân sách"
+  example:
+    en: "The company reported a budget {deficit} for the third year in a row."
+    vi: "Công ty báo cáo thâm hụt ngân sách năm thứ ba liên tiếp."
+  note: "Trái nghĩa với 'surplus' (thặng dư)."
+
+- word: "profit"
+  pos: "noun"
+  ipa: "/ˈprɒfɪt/"
+  meaning: "lợi nhuận (còn lại sau khi trừ chi phí)"
+  topic: "finance-budgeting"
+  sub-topic: "tax-budgeting"
+  lesson: ["lesson-14"]
+  level: 600
+  forms:
+    noun: "profit"
+    verb: "profit"
+    adjective: "profitable"
+  collocations:
+    - en: "make a profit"
+      vi: "thu được lợi nhuận"
+    - en: "profit margin"
+      vi: "biên lợi nhuận"
+  example:
+    en: "The store made a healthy {profit} in its first year."
+    vi: "Cửa hàng thu được lợi nhuận tốt trong năm đầu tiên."
+  note: "'profit' là lợi nhuận (sau chi phí); 'revenue' là doanh thu (tổng thu, trước chi phí)."
+
+- word: "revenue"
+  pos: "noun"
+  ipa: "/ˈrevənjuː/"
+  meaning: "doanh thu (tổng thu trước khi trừ chi phí)"
+  topic: "finance-budgeting"
+  sub-topic: "tax-budgeting"
+  lesson: ["lesson-14"]
+  level: 750
+  forms:
+    noun: "revenue"
+  collocations:
+    - en: "generate revenue"
+      vi: "tạo ra doanh thu"
+    - en: "annual revenue"
+      vi: "doanh thu hằng năm"
+  example:
+    en: "Advertising {revenue} increased by 20 percent last quarter."
+    vi: "Doanh thu từ quảng cáo tăng 20 phần trăm trong quý trước."
+  note: "Đừng nhầm 'revenue' (doanh thu) với 'profit' (lợi nhuận, sau khi trừ chi phí)."
+
+- word: "projected"
+  pos: "adjective"
+  ipa: "/prəˈdʒektɪd/"
+  meaning: "được dự báo, ước tính trước"
+  topic: "finance-budgeting"
+  sub-topic: "tax-budgeting"
+  lesson: ["lesson-14"]
+  level: 750
+  forms:
+    adjective: "projected"
+    verb: "project"
+    noun: "projection"
+  collocations:
+    - en: "projected earnings"
+      vi: "lợi nhuận dự báo"
+    - en: "projected costs"
+      vi: "chi phí dự tính"
+  example:
+    en: "The {projected} sales figures for next year look promising."
+    vi: "Các số liệu doanh số dự báo cho năm tới trông rất khả quan."
+
+- word: "cut back on"
+  pos: "phrasal verb"
+  ipa: "/kʌt ˈbæk ɒn/"
+  meaning: "cắt giảm (chi tiêu, mức sử dụng)"
+  topic: "finance-budgeting"
+  sub-topic: "tax-budgeting"
+  lesson: ["lesson-14"]
+  level: 600
+  forms:
+    verb: "cut back on"
+  collocations:
+    - en: "cut back on spending"
+      vi: "cắt giảm chi tiêu"
+    - en: "cut back on costs"
+      vi: "cắt giảm chi phí"
+  example:
+    en: "The company decided to {cut back on} unnecessary expenses."
+    vi: "Công ty quyết định cắt giảm các chi phí không cần thiết."
+
+- word: "frugal"
+  pos: "adjective"
+  ipa: "/ˈfruːɡl/"
+  meaning: "tiết kiệm, dè sẻn"
+  topic: "finance-budgeting"
+  sub-topic: "tax-budgeting"
+  lesson: ["lesson-14"]
+  level: 900
+  forms:
+    adjective: "frugal"
+    adverb: "frugally"
+    noun: "frugality"
+  collocations:
+    - en: "a frugal approach"
+      vi: "cách tiếp cận tiết kiệm"
+    - en: "frugal spending"
+      vi: "chi tiêu dè sẻn"
+  example:
+    en: "By being {frugal}, the department saved thousands of dollars."
+    vi: "Nhờ tiết kiệm, bộ phận đã tiết kiệm được hàng nghìn đô la."
