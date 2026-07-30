@@ -1,0 +1,679 @@
+- word: "research"
+  pos: "noun"
+  ipa: "/rɪˈsɜːtʃ/"
+  meaning: "nghiên cứu, hoạt động tìm tòi khoa học"
+  topic: "corporate-development"
+  lesson: "lesson-19"
+  level: 600
+  forms:
+    noun: "research"
+    verb: "research"
+    noun_person: "researcher"
+  collocations:
+    - en: "conduct research on"
+      vi: "tiến hành nghiên cứu về"
+    - en: "market research"
+      vi: "nghiên cứu thị trường"
+  example:
+    en: "The team spent months of {research} before building the first prototype."
+    vi: "Cả nhóm dành nhiều tháng nghiên cứu trước khi làm nguyên mẫu đầu tiên."
+  note: "Là danh từ KHÔNG đếm được: dùng 'much research', không dùng 'a research' hay 'researches'."
+
+- word: "development"
+  pos: "noun"
+  ipa: "/dɪˈveləpmənt/"
+  meaning: "sự phát triển, quá trình phát triển sản phẩm"
+  topic: "corporate-development"
+  lesson: "lesson-19"
+  level: 600
+  forms:
+    noun: "development"
+    verb: "develop"
+    adjective: "developed"
+  collocations:
+    - en: "product development"
+      vi: "phát triển sản phẩm"
+    - en: "research and development"
+      vi: "nghiên cứu và phát triển (R&D)"
+  example:
+    en: "Aria's {development} was moved to the R&D department last quarter."
+    vi: "Việc phát triển Aria đã được chuyển sang bộ phận R&D vào quý trước."
+
+- word: "innovation"
+  pos: "noun"
+  ipa: "/ˌɪnəˈveɪʃn/"
+  meaning: "sự đổi mới, cải tiến mang tính sáng tạo"
+  topic: "corporate-development"
+  lesson: "lesson-19"
+  level: 750
+  forms:
+    noun: "innovation"
+    verb: "innovate"
+    adjective: "innovative"
+  collocations:
+    - en: "drive innovation"
+      vi: "thúc đẩy sự đổi mới"
+    - en: "foster innovation"
+      vi: "nuôi dưỡng sự đổi mới"
+  example:
+    en: "The crisis forced the company to pursue real {innovation}."
+    vi: "Cuộc khủng hoảng buộc công ty phải theo đuổi sự đổi mới thực sự."
+
+- word: "innovative"
+  pos: "adjective"
+  ipa: "/ˈɪnəveɪtɪv/"
+  meaning: "mang tính đổi mới, sáng tạo"
+  topic: "corporate-development"
+  lesson: "lesson-19"
+  level: 750
+  forms:
+    adjective: "innovative"
+    noun: "innovation"
+    verb: "innovate"
+    adverb: "innovatively"
+  collocations:
+    - en: "an innovative approach"
+      vi: "một cách tiếp cận đổi mới"
+    - en: "an innovative product"
+      vi: "một sản phẩm đổi mới"
+  example:
+    en: "They took an {innovative} approach to cooling the new device."
+    vi: "Họ đã áp dụng một cách tiếp cận đổi mới để làm mát thiết bị mới."
+
+- word: "prototype"
+  pos: "noun"
+  ipa: "/ˈprəʊtətaɪp/"
+  meaning: "nguyên mẫu, mẫu thử đầu tiên của sản phẩm"
+  topic: "corporate-development"
+  lesson: "lesson-19"
+  level: 750
+  forms:
+    noun: "prototype"
+    verb: "prototype"
+  collocations:
+    - en: "build a prototype"
+      vi: "chế tạo một nguyên mẫu"
+    - en: "test a prototype"
+      vi: "thử nghiệm một nguyên mẫu"
+  example:
+    en: "The engineers built a new {prototype} in just two days."
+    vi: "Các kỹ sư đã chế tạo một nguyên mẫu mới chỉ trong hai ngày."
+
+- word: "concept"
+  pos: "noun"
+  ipa: "/ˈkɒnsept/"
+  meaning: "ý tưởng, khái niệm ban đầu"
+  topic: "corporate-development"
+  lesson: "lesson-19"
+  level: 600
+  forms:
+    noun: "concept"
+    adjective: "conceptual"
+  collocations:
+    - en: "a concept design"
+      vi: "một bản thiết kế ý tưởng"
+    - en: "prove the concept"
+      vi: "chứng minh tính khả thi của ý tưởng"
+  example:
+    en: "The whole {concept} began as a sketch on a whiteboard."
+    vi: "Toàn bộ ý tưởng bắt đầu từ một bản phác thảo trên bảng trắng."
+
+- word: "feasibility study"
+  pos: "noun"
+  ipa: "/ˌfiːzəˈbɪləti ˈstʌdi/"
+  meaning: "nghiên cứu tính khả thi của dự án"
+  topic: "corporate-development"
+  lesson: "lesson-19"
+  level: 900
+  forms:
+    noun: "feasibility"
+    adjective: "feasible"
+  collocations:
+    - en: "carry out a feasibility study"
+      vi: "thực hiện một nghiên cứu tính khả thi"
+    - en: "commission a feasibility study"
+      vi: "đặt hàng một nghiên cứu tính khả thi"
+  example:
+    en: "A quick {feasibility study} confirmed the project could go ahead."
+    vi: "Một nghiên cứu khả thi nhanh xác nhận dự án có thể tiến hành."
+
+- word: "viable"
+  pos: "adjective"
+  ipa: "/ˈvaɪəbl/"
+  meaning: "khả thi, có thể thực hiện hoặc tồn tại được"
+  topic: "corporate-development"
+  lesson: "lesson-19"
+  level: 900
+  forms:
+    adjective: "viable"
+    noun: "viability"
+  collocations:
+    - en: "a commercially viable product"
+      vi: "một sản phẩm khả thi về mặt thương mại"
+    - en: "a viable solution"
+      vi: "một giải pháp khả thi"
+  example:
+    en: "The question was whether the fix would be {viable} in time for launch."
+    vi: "Vấn đề là liệu giải pháp có khả thi kịp thời cho buổi ra mắt hay không."
+
+- word: "pilot"
+  pos: "noun"
+  ipa: "/ˈpaɪlət/"
+  meaning: "cuộc thử nghiệm nhỏ trước khi triển khai rộng"
+  topic: "corporate-development"
+  lesson: "lesson-19"
+  level: 750
+  forms:
+    noun: "pilot"
+    verb: "pilot"
+    adjective: "pilot"
+  collocations:
+    - en: "a pilot program"
+      vi: "một chương trình thử nghiệm"
+    - en: "a pilot project"
+      vi: "một dự án thí điểm"
+  example:
+    en: "They ran a small {pilot} before rolling the service out nationwide."
+    vi: "Họ chạy một cuộc thử nghiệm nhỏ trước khi triển khai dịch vụ toàn quốc."
+
+- word: "trial"
+  pos: "noun"
+  ipa: "/ˈtraɪəl/"
+  meaning: "cuộc thử nghiệm, đợt chạy thử"
+  topic: "corporate-development"
+  lesson: "lesson-19"
+  level: 600
+  forms:
+    noun: "trial"
+    verb: "trial"
+  collocations:
+    - en: "run trials"
+      vi: "tiến hành các cuộc thử nghiệm"
+    - en: "a free trial"
+      vi: "một bản dùng thử miễn phí"
+  example:
+    en: "Heat {trials} pushed the units to their limits overnight."
+    vi: "Các cuộc thử nhiệt đẩy các thiết bị đến giới hạn suốt đêm."
+
+- word: "phase"
+  pos: "noun"
+  ipa: "/feɪz/"
+  meaning: "giai đoạn trong một quá trình"
+  topic: "corporate-development"
+  lesson: "lesson-19"
+  level: 600
+  forms:
+    noun: "phase"
+    verb: "phase"
+  collocations:
+    - en: "the testing phase"
+      vi: "giai đoạn thử nghiệm"
+    - en: "phase out"
+      vi: "loại bỏ dần"
+  example:
+    en: "Testing was carried out in several {phases} over three weeks."
+    vi: "Việc thử nghiệm được thực hiện theo nhiều giai đoạn trong ba tuần."
+
+- word: "findings"
+  pos: "noun"
+  ipa: "/ˈfaɪndɪŋz/"
+  meaning: "kết quả, phát hiện từ nghiên cứu"
+  topic: "corporate-development"
+  lesson: "lesson-19"
+  level: 750
+  forms:
+    noun: "findings"
+    verb: "find"
+  collocations:
+    - en: "present the findings"
+      vi: "trình bày các kết quả"
+    - en: "review the findings"
+      vi: "xem xét các kết quả"
+  example:
+    en: "The team reviewed the sensor {findings} every night."
+    vi: "Nhóm xem xét các kết quả từ cảm biến mỗi tối."
+  note: "Trong ngữ cảnh nghiên cứu thường dùng số nhiều 'findings'."
+
+- word: "refine"
+  pos: "verb"
+  ipa: "/rɪˈfaɪn/"
+  meaning: "tinh chỉnh, cải tiến cho hoàn thiện hơn"
+  topic: "corporate-development"
+  lesson: "lesson-19"
+  level: 750
+  forms:
+    verb: "refine"
+    noun: "refinement"
+    adjective: "refined"
+  collocations:
+    - en: "refine the design"
+      vi: "tinh chỉnh thiết kế"
+    - en: "refine a process"
+      vi: "tinh chỉnh một quy trình"
+  example:
+    en: "They {refined} the circuit layout until it ran cool and stable."
+    vi: "Họ tinh chỉnh bố cục mạch cho đến khi nó chạy mát và ổn định."
+
+- word: "enhance"
+  pos: "verb"
+  ipa: "/ɪnˈhɑːns/"
+  meaning: "nâng cao, cải thiện chất lượng"
+  topic: "corporate-development"
+  lesson: "lesson-19"
+  level: 750
+  forms:
+    verb: "enhance"
+    noun: "enhancement"
+    adjective: "enhanced"
+  collocations:
+    - en: "enhance performance"
+      vi: "nâng cao hiệu suất"
+    - en: "enhance quality"
+      vi: "nâng cao chất lượng"
+  example:
+    en: "The new cooling fins greatly {enhanced} the device's performance."
+    vi: "Các cánh tản nhiệt mới đã nâng cao đáng kể hiệu suất của thiết bị."
+
+- word: "modify"
+  pos: "verb"
+  ipa: "/ˈmɒdɪfaɪ/"
+  meaning: "chỉnh sửa, điều chỉnh một phần"
+  topic: "corporate-development"
+  lesson: "lesson-19"
+  level: 600
+  forms:
+    verb: "modify"
+    noun: "modification"
+    adjective: "modified"
+  collocations:
+    - en: "modify the prototype"
+      vi: "chỉnh sửa nguyên mẫu"
+    - en: "modify the design"
+      vi: "chỉnh sửa thiết kế"
+  example:
+    en: "The engineers {modified} the control software overnight."
+    vi: "Các kỹ sư đã chỉnh sửa phần mềm điều khiển qua đêm."
+
+- word: "breakthrough"
+  pos: "noun"
+  ipa: "/ˈbreɪkθruː/"
+  meaning: "bước đột phá, tiến bộ vượt bậc"
+  topic: "corporate-development"
+  lesson: "lesson-19"
+  level: 750
+  forms:
+    noun: "breakthrough"
+  collocations:
+    - en: "a major breakthrough"
+      vi: "một bước đột phá lớn"
+    - en: "make a breakthrough"
+      vi: "tạo ra một bước đột phá"
+  example:
+    en: "The first stable run looked like a real {breakthrough}."
+    vi: "Lần chạy ổn định đầu tiên trông giống một bước đột phá thực sự."
+
+- word: "collaborate"
+  pos: "verb"
+  ipa: "/kəˈlæbəreɪt/"
+  meaning: "hợp tác, cùng làm việc với nhau"
+  topic: "corporate-development"
+  lesson: "lesson-19"
+  level: 750
+  forms:
+    verb: "collaborate"
+    noun: "collaboration"
+    adjective: "collaborative"
+  collocations:
+    - en: "collaborate with someone on a project"
+      vi: "hợp tác với ai đó trong một dự án"
+    - en: "collaborate closely"
+      vi: "hợp tác chặt chẽ"
+  example:
+    en: "The hardware team {collaborated} with the software team on the fix."
+    vi: "Nhóm phần cứng đã hợp tác với nhóm phần mềm để xử lý sự cố."
+  note: "Đi với giới từ: collaborate WITH sb ON sth."
+
+- word: "expertise"
+  pos: "noun"
+  ipa: "/ˌekspɜːˈtiːz/"
+  meaning: "chuyên môn, kiến thức chuyên sâu"
+  topic: "corporate-development"
+  lesson: "lesson-19"
+  level: 900
+  forms:
+    noun: ["expertise", "expert"]
+    adjective: "expert"
+  collocations:
+    - en: "technical expertise"
+      vi: "chuyên môn kỹ thuật"
+    - en: "draw on someone's expertise"
+      vi: "tận dụng chuyên môn của ai đó"
+  example:
+    en: "They drew on the veteran engineer's {expertise} to solve the problem."
+    vi: "Họ tận dụng chuyên môn của kỹ sư kỳ cựu để giải quyết vấn đề."
+  note: "Là danh từ KHÔNG đếm được: không có 'expertises'."
+
+- word: "launch"
+  pos: "verb"
+  ipa: "/lɔːntʃ/"
+  meaning: "ra mắt, tung sản phẩm ra thị trường"
+  topic: "corporate-development"
+  lesson: "lesson-20"
+  level: 600
+  forms:
+    verb: "launch"
+    noun: "launch"
+  collocations:
+    - en: "launch a new product line"
+      vi: "ra mắt một dòng sản phẩm mới"
+    - en: "a product launch"
+      vi: "một buổi ra mắt sản phẩm"
+  example:
+    en: "They aimed to {launch} Aria at the annual technology event."
+    vi: "Họ đặt mục tiêu ra mắt Aria tại sự kiện công nghệ thường niên."
+
+- word: "roll out"
+  pos: "phrasal verb"
+  ipa: "/rəʊl aʊt/"
+  meaning: "triển khai rộng rãi ra thị trường"
+  topic: "corporate-development"
+  lesson: "lesson-20"
+  level: 750
+  forms:
+    verb: "roll out"
+    noun: "rollout"
+  collocations:
+    - en: "roll out the service nationwide"
+      vi: "triển khai dịch vụ trên toàn quốc"
+    - en: "roll out an update"
+      vi: "triển khai một bản cập nhật"
+  example:
+    en: "The company planned to {roll out} Aria in several phases."
+    vi: "Công ty dự định triển khai Aria theo nhiều giai đoạn."
+
+- word: "cutting-edge"
+  pos: "adjective"
+  ipa: "/ˌkʌtɪŋ ˈedʒ/"
+  meaning: "tiên tiến nhất, dẫn đầu công nghệ"
+  topic: "corporate-development"
+  lesson: "lesson-20"
+  level: 750
+  forms:
+    adjective: "cutting-edge"
+  collocations:
+    - en: "cutting-edge technology"
+      vi: "công nghệ tiên tiến nhất"
+    - en: "cutting-edge design"
+      vi: "thiết kế tiên tiến nhất"
+  example:
+    en: "The redesigned circuit was truly {cutting-edge}."
+    vi: "Mạch điện được thiết kế lại thực sự tiên tiến bậc nhất."
+
+- word: "state-of-the-art"
+  pos: "adjective"
+  ipa: "/ˌsteɪt əv ði ˈɑːt/"
+  meaning: "hiện đại nhất, sử dụng công nghệ mới nhất"
+  topic: "corporate-development"
+  lesson: "lesson-20"
+  level: 900
+  forms:
+    adjective: "state-of-the-art"
+  collocations:
+    - en: "a state-of-the-art facility"
+      vi: "một cơ sở hiện đại nhất"
+    - en: "a state-of-the-art design"
+      vi: "một thiết kế hiện đại nhất"
+  example:
+    en: "The team developed a {state-of-the-art} cooling design for the device."
+    vi: "Nhóm đã phát triển một thiết kế tản nhiệt hiện đại nhất cho thiết bị."
+
+- word: "milestone"
+  pos: "noun"
+  ipa: "/ˈmaɪlstəʊn/"
+  meaning: "cột mốc quan trọng trong tiến trình"
+  topic: "corporate-development"
+  lesson: "lesson-20"
+  level: 750
+  forms:
+    noun: "milestone"
+  collocations:
+    - en: "reach a milestone"
+      vi: "đạt được một cột mốc"
+    - en: "hit a milestone"
+      vi: "chạm đến một cột mốc"
+  example:
+    en: "Solving the heat problem was a major {milestone} for the project."
+    vi: "Giải quyết vấn đề nhiệt là một cột mốc lớn cho dự án."
+
+- word: "patent"
+  pos: "noun"
+  ipa: "/ˈpætnt/"
+  meaning: "bằng sáng chế, quyền bảo hộ phát minh"
+  topic: "corporate-development"
+  lesson: "lesson-20"
+  level: 750
+  forms:
+    noun: "patent"
+    verb: "patent"
+    adjective: "patented"
+  collocations:
+    - en: "file for a patent"
+      vi: "nộp đơn xin cấp bằng sáng chế"
+    - en: "hold a patent"
+      vi: "sở hữu một bằng sáng chế"
+  example:
+    en: "They filed a {patent} on the core cooling fix."
+    vi: "Họ đã nộp đơn xin cấp bằng sáng chế cho giải pháp tản nhiệt cốt lõi."
+
+- word: "intellectual property"
+  pos: "noun"
+  ipa: "/ˌɪntəlektʃuəl ˈprɒpəti/"
+  meaning: "sở hữu trí tuệ"
+  topic: "corporate-development"
+  lesson: "lesson-20"
+  level: 900
+  forms:
+    noun: "intellectual property"
+  collocations:
+    - en: "protect intellectual property"
+      vi: "bảo vệ sở hữu trí tuệ"
+    - en: "infringe intellectual property"
+      vi: "xâm phạm sở hữu trí tuệ"
+  example:
+    en: "The lawyers worked to protect the company's {intellectual property}."
+    vi: "Các luật sư nỗ lực bảo vệ sở hữu trí tuệ của công ty."
+  note: "Thường viết tắt là IP; là danh từ không đếm được."
+
+- word: "proprietary"
+  pos: "adjective"
+  ipa: "/prəˈpraɪətri/"
+  meaning: "thuộc sở hữu độc quyền, được bảo hộ riêng"
+  topic: "corporate-development"
+  lesson: "lesson-20"
+  level: 900
+  forms:
+    adjective: "proprietary"
+    noun: "proprietor"
+  collocations:
+    - en: "proprietary technology"
+      vi: "công nghệ độc quyền"
+    - en: "proprietary software"
+      vi: "phần mềm độc quyền"
+  example:
+    en: "The new cooling design stayed strictly {proprietary}."
+    vi: "Thiết kế tản nhiệt mới được giữ hoàn toàn độc quyền."
+
+- word: "venture"
+  pos: "noun"
+  ipa: "/ˈventʃə(r)/"
+  meaning: "dự án kinh doanh mạo hiểm"
+  topic: "corporate-development"
+  lesson: "lesson-20"
+  level: 750
+  forms:
+    noun: "venture"
+    verb: "venture"
+  collocations:
+    - en: "a joint venture"
+      vi: "một liên doanh"
+    - en: "a business venture"
+      vi: "một dự án kinh doanh mạo hiểm"
+  example:
+    en: "After the fix, the entire Aria {venture} looked far brighter."
+    vi: "Sau khi khắc phục, toàn bộ dự án Aria trông sáng sủa hơn nhiều."
+
+- word: "diversify"
+  pos: "verb"
+  ipa: "/daɪˈvɜːsɪfaɪ/"
+  meaning: "đa dạng hóa, mở rộng sang lĩnh vực mới"
+  topic: "corporate-development"
+  lesson: "lesson-20"
+  level: 900
+  forms:
+    verb: "diversify"
+    noun: "diversification"
+    adjective: "diverse"
+  collocations:
+    - en: "diversify the product line"
+      vi: "đa dạng hóa dòng sản phẩm"
+    - en: "diversify into new markets"
+      vi: "đa dạng hóa sang các thị trường mới"
+  example:
+    en: "They considered whether to {diversify} the product line next year."
+    vi: "Họ cân nhắc có nên đa dạng hóa dòng sản phẩm vào năm sau hay không."
+
+- word: "obsolete"
+  pos: "adjective"
+  ipa: "/ˈɒbsəliːt/"
+  meaning: "lỗi thời, không còn được sử dụng"
+  topic: "corporate-development"
+  lesson: "lesson-20"
+  level: 900
+  forms:
+    adjective: "obsolete"
+  collocations:
+    - en: "become obsolete"
+      vi: "trở nên lỗi thời"
+    - en: "render obsolete"
+      vi: "làm cho lỗi thời"
+  example:
+    en: "The old cooling approach was now completely {obsolete}."
+    vi: "Cách tản nhiệt cũ giờ đã hoàn toàn lỗi thời."
+
+- word: "anticipate"
+  pos: "verb"
+  ipa: "/ænˈtɪsɪpeɪt/"
+  meaning: "dự đoán trước, lường trước"
+  topic: "corporate-development"
+  lesson: "lesson-20"
+  level: 750
+  forms:
+    verb: "anticipate"
+    noun: "anticipation"
+    adjective: "anticipated"
+  collocations:
+    - en: "anticipate demand"
+      vi: "dự đoán nhu cầu"
+    - en: "anticipate problems"
+      vi: "lường trước các vấn đề"
+  example:
+    en: "Diane {anticipated} strong demand for the new product line."
+    vi: "Diane dự đoán nhu cầu mạnh mẽ đối với dòng sản phẩm mới."
+
+- word: "emerging"
+  pos: "adjective"
+  ipa: "/ɪˈmɜːdʒɪŋ/"
+  meaning: "mới nổi, đang xuất hiện và phát triển"
+  topic: "corporate-development"
+  lesson: "lesson-20"
+  level: 750
+  forms:
+    adjective: "emerging"
+    verb: "emerge"
+    noun: "emergence"
+  collocations:
+    - en: "emerging markets"
+      vi: "các thị trường mới nổi"
+    - en: "emerging technologies"
+      vi: "các công nghệ mới nổi"
+  example:
+    en: "The company began eyeing several {emerging} markets in Asia."
+    vi: "Công ty bắt đầu để mắt tới một số thị trường mới nổi ở châu Á."
+
+- word: "implement"
+  pos: "verb"
+  ipa: "/ˈɪmplɪment/"
+  meaning: "triển khai, đưa vào thực hiện"
+  topic: "corporate-development"
+  lesson: "lesson-20"
+  level: 600
+  forms:
+    verb: "implement"
+    noun: "implementation"
+  collocations:
+    - en: "implement a design"
+      vi: "triển khai một thiết kế"
+    - en: "implement a system"
+      vi: "triển khai một hệ thống"
+  example:
+    en: "They had to {implement} the new design on the production line quickly."
+    vi: "Họ phải nhanh chóng triển khai thiết kế mới lên dây chuyền sản xuất."
+
+- word: "scalable"
+  pos: "adjective"
+  ipa: "/ˈskeɪləbl/"
+  meaning: "có thể mở rộng quy mô dễ dàng"
+  topic: "corporate-development"
+  lesson: "lesson-20"
+  level: 900
+  forms:
+    adjective: "scalable"
+    verb: "scale"
+    noun: "scalability"
+  collocations:
+    - en: "a scalable solution"
+      vi: "một giải pháp có thể mở rộng"
+    - en: "a scalable business model"
+      vi: "một mô hình kinh doanh có thể mở rộng"
+  example:
+    en: "The fix had to be {scalable} to full mass production."
+    vi: "Giải pháp phải có thể mở rộng đến quy mô sản xuất hàng loạt."
+
+- word: "prospect"
+  pos: "noun"
+  ipa: "/ˈprɒspekt/"
+  meaning: "triển vọng, khả năng thành công trong tương lai"
+  topic: "corporate-development"
+  lesson: "lesson-20"
+  level: 750
+  forms:
+    noun: "prospect"
+    adjective: "prospective"
+  collocations:
+    - en: "growth prospects"
+      vi: "triển vọng tăng trưởng"
+    - en: "future prospects"
+      vi: "triển vọng tương lai"
+  example:
+    en: "Growth {prospects} for the company suddenly brightened."
+    vi: "Triển vọng tăng trưởng của công ty bỗng trở nên sáng sủa."
+  note: "Phân biệt danh từ 'prospect' (triển vọng) với tính từ 'prospective' (tiềm năng, sắp tới)."
+
+- word: "pending"
+  pos: "adjective"
+  ipa: "/ˈpendɪŋ/"
+  meaning: "đang chờ xử lý, chưa được quyết định"
+  topic: "corporate-development"
+  lesson: "lesson-20"
+  level: 750
+  forms:
+    adjective: "pending"
+  collocations:
+    - en: "patent pending"
+      vi: "đang chờ cấp bằng sáng chế"
+    - en: "approval is pending"
+      vi: "đang chờ phê duyệt"
+  example:
+    en: "The core {pending} patent was expected to be granted within a year."
+    vi: "Bằng sáng chế cốt lõi đang chờ được kỳ vọng sẽ cấp trong vòng một năm."
+  note: "Cũng dùng như giới từ: 'pending approval' = trong khi chờ phê duyệt."
