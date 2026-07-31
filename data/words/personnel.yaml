@@ -24,7 +24,7 @@
   meaning: "vị trí đang tuyển; chỗ còn trống"
   topic: "personnel"
   sub-topic: "recruitment-application"
-  lesson: ["lesson-03"]
+  lesson: ["lesson-03", "lesson-10"]
   level: 750
   forms:
     noun: "vacancy"
@@ -428,7 +428,7 @@
   meaning: "sự đánh giá (nhân viên)"
   topic: "personnel"
   sub-topic: "training-evaluation"
-  lesson: ["lesson-03"]
+  lesson: ["lesson-03", "lesson-23"]
   level: 900
   forms:
     noun: "appraisal"
@@ -630,7 +630,7 @@
   meaning: "đủ điều kiện"
   topic: "personnel"
   sub-topic: "salary-benefits"
-  lesson: ["lesson-04"]
+  lesson: ["lesson-04", "lesson-26"]
   level: 750
   forms:
     adjective: "eligible"

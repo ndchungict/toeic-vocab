@@ -574,7 +574,7 @@
   meaning: "phạm vi bảo hiểm"
   topic: "health"
   sub-topic:
-  lesson: ["lesson-26"]
+  lesson: ["lesson-07", "lesson-26"]
   level: 750
   forms:
     noun: "coverage"
@@ -677,7 +677,7 @@
   meaning: "đủ điều kiện"
   topic: "health"
   sub-topic:
-  lesson: ["lesson-26"]
+  lesson: ["lesson-04", "lesson-26"]
   level: 750
   forms:
     adjective: "eligible"

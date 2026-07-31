@@ -1,0 +1,835 @@
+- word: "itinerary"
+  pos: "noun"
+  ipa: "/aɪˈtɪnərəri/"
+  meaning: "lịch trình chuyến đi"
+  topic: "travel"
+  sub-topic: "tickets-schedules"
+  lesson: ["lesson-09"]
+  level: 750
+  forms:
+    noun: "itinerary"
+  collocations:
+    - en: "a detailed itinerary"
+      vi: "một lịch trình chi tiết"
+    - en: "revise the itinerary"
+      vi: "điều chỉnh lịch trình chuyến đi"
+  example:
+    en: "Ben prepared a detailed {itinerary} for the three-day trip to Halston."
+    vi: "Ben đã chuẩn bị một lịch trình chi tiết cho chuyến đi ba ngày tới Halston."
+  note: "'itinerary' là lịch trình của cả chuyến đi (đi đâu, khi nào), còn 'schedule' là lịch giờ giấc nói chung."
+
+- word: "reservation"
+  pos: "noun"
+  ipa: "/ˌrezəˈveɪʃn/"
+  meaning: "việc đặt chỗ trước (vé, phòng)"
+  topic: "travel"
+  sub-topic: "tickets-schedules"
+  lesson: ["lesson-09", "lesson-11"]
+  level: 600
+  forms:
+    noun: ["reservation", "reserve"]
+    verb: "reserve"
+    adjective: "reserved"
+  collocations:
+    - en: "make a reservation"
+      vi: "đặt chỗ trước"
+    - en: "confirm a reservation"
+      vi: "xác nhận việc đặt chỗ"
+    - en: "cancel a reservation"
+      vi: "hủy chỗ đã đặt"
+  example:
+    en: "Please confirm your flight {reservation} at least a week in advance."
+    vi: "Vui lòng xác nhận việc đặt vé máy bay ít nhất một tuần trước."
+  note: "Dùng 'make a reservation', KHÔNG dùng 'do a reservation'. Ở Mỹ, 'booking' là cách nói tương đương."
+
+- word: "fare"
+  pos: "noun"
+  ipa: "/feə(r)/"
+  meaning: "tiền vé đi lại"
+  topic: "travel"
+  sub-topic: "tickets-schedules"
+  lesson: ["lesson-09"]
+  level: 600
+  forms:
+    noun: "fare"
+  collocations:
+    - en: "the airfare"
+      vi: "tiền vé máy bay"
+    - en: "a bus fare"
+      vi: "tiền vé xe buýt"
+    - en: "a discounted fare"
+      vi: "một mức vé đã giảm giá"
+  example:
+    en: "The airline raised the {fare} on flights to Halston last month."
+    vi: "Hãng hàng không đã tăng giá vé các chuyến bay tới Halston vào tháng trước."
+  note: "Bộ ba dễ nhầm: 'fare' (tiền vé) ≠ 'fee' (phí dịch vụ) ≠ 'fair' (công bằng; hội chợ) — 'fare' và 'fair' phát âm giống hệt nhau."
+
+- word: "one-way"
+  pos: "adjective"
+  ipa: "/ˌwʌn ˈweɪ/"
+  meaning: "một chiều (vé, chuyến đi)"
+  topic: "travel"
+  sub-topic: "tickets-schedules"
+  lesson: ["lesson-09"]
+  level: 600
+  forms:
+    adjective: "one-way"
+  collocations:
+    - en: "a one-way ticket"
+      vi: "một vé một chiều"
+    - en: "a one-way fare"
+      vi: "giá vé một chiều"
+  example:
+    en: "A round-trip ticket costs less than two {one-way} fares."
+    vi: "Một vé khứ hồi rẻ hơn hai vé một chiều."
+  note: "Cặp đối lập bắt buộc nhớ: 'one-way' (một chiều) ↔ 'round-trip' (khứ hồi, Anh-Anh dùng 'return')."
+
+- word: "schedule"
+  pos: "noun"
+  ipa: "/ˈʃedjuːl/"
+  meaning: "lịch trình, lịch giờ giấc"
+  topic: "travel"
+  sub-topic: "tickets-schedules"
+  lesson: ["lesson-09"]
+  level: 600
+  forms:
+    noun: "schedule"
+    verb: "schedule"
+    adjective: "scheduled"
+  collocations:
+    - en: "on schedule"
+      vi: "đúng lịch"
+    - en: "behind schedule"
+      vi: "chậm hơn lịch"
+    - en: "ahead of schedule"
+      vi: "sớm hơn lịch"
+  example:
+    en: "The express train arrived exactly on {schedule} despite the rain."
+    vi: "Chuyến tàu tốc hành đến đúng lịch bất chấp trời mưa."
+  note: "Anh-Anh đọc /ˈʃedjuːl/, Anh-Mỹ đọc /ˈskedʒuːl/ — bẫy nghe ở Part 2–4. Nhớ ba cụm: on / behind / ahead of schedule."
+
+- word: "departure"
+  pos: "noun"
+  ipa: "/dɪˈpɑːtʃə(r)/"
+  meaning: "sự khởi hành"
+  topic: "travel"
+  sub-topic: "tickets-schedules"
+  lesson: ["lesson-09"]
+  level: 600
+  forms:
+    noun: "departure"
+    verb: "depart"
+  collocations:
+    - en: "the departure gate"
+      vi: "cửa khởi hành"
+    - en: "the departure time"
+      vi: "giờ khởi hành"
+    - en: "on arrival"
+      vi: "khi vừa đến nơi"
+  example:
+    en: "Check the board for your {departure} time and gate number."
+    vi: "Hãy xem bảng thông báo để biết giờ khởi hành và số cửa ra."
+  note: "Cặp đối lập: 'departure' (khởi hành, động từ 'depart') ↔ 'arrival' (đến nơi, động từ 'arrive')."
+
+- word: "delay"
+  pos: "noun"
+  ipa: "/dɪˈleɪ/"
+  meaning: "sự trì hoãn, chậm trễ"
+  topic: "travel"
+  sub-topic: "tickets-schedules"
+  lesson: ["lesson-09"]
+  level: 600
+  forms:
+    noun: "delay"
+    verb: "delay"
+    adjective: "delayed"
+  collocations:
+    - en: "be delayed by an hour"
+      vi: "bị hoãn một tiếng"
+    - en: "a lengthy delay"
+      vi: "một sự chậm trễ kéo dài"
+    - en: "without delay"
+      vi: "không chậm trễ, ngay lập tức"
+  example:
+    en: "A long {delay} in Halston put their connecting flight at risk."
+    vi: "Một khoảng chậm trễ dài ở Halston khiến chuyến bay nối của họ có nguy cơ bị lỡ."
+  note: "Chậm BAO LÂU thì dùng 'by': delayed by two hours. Chậm VÌ lý do gì thì dùng 'due to'."
+
+- word: "cancellation"
+  pos: "noun"
+  ipa: "/ˌkænsəˈleɪʃn/"
+  meaning: "sự hủy (chuyến, chỗ đặt)"
+  topic: "travel"
+  sub-topic: "tickets-schedules"
+  lesson: ["lesson-09"]
+  level: 750
+  forms:
+    noun: "cancellation"
+    verb: "cancel"
+    adjective: "cancelled"
+  collocations:
+    - en: "a last-minute cancellation"
+      vi: "một ca hủy vào phút chót"
+    - en: "the cancellation policy"
+      vi: "chính sách hủy chỗ"
+  example:
+    en: "Bad weather caused the {cancellation} of several afternoon flights."
+    vi: "Thời tiết xấu đã gây ra việc hủy nhiều chuyến bay buổi chiều."
+  note: "Chú ý chính tả: động từ 'cancel' → danh từ 'cancellation' có HAI chữ 'l'."
+
+- word: "board"
+  pos: "verb"
+  ipa: "/bɔːd/"
+  meaning: "lên (máy bay, tàu, xe)"
+  topic: "travel"
+  sub-topic: "tickets-schedules"
+  lesson: ["lesson-09"]
+  level: 600
+  forms:
+    verb: "board"
+    noun: ["boarding", "board"]
+  collocations:
+    - en: "board a plane"
+      vi: "lên máy bay"
+    - en: "a boarding pass"
+      vi: "thẻ lên máy bay"
+    - en: "now boarding at gate 12"
+      vi: "đang cho lên máy bay tại cửa 12"
+  example:
+    en: "Passengers began to {board} the plane twenty minutes before takeoff."
+    vi: "Hành khách bắt đầu lên máy bay hai mươi phút trước giờ cất cánh."
+  note: "Động từ 'board' đi thẳng với tân ngữ, không cần giới từ: board the train (không phải 'board on the train')."
+
+- word: "gate"
+  pos: "noun"
+  ipa: "/ɡeɪt/"
+  meaning: "cửa ra máy bay"
+  topic: "travel"
+  sub-topic: "tickets-schedules"
+  lesson: ["lesson-09"]
+  level: 600
+  forms:
+    noun: "gate"
+  collocations:
+    - en: "proceed to the gate"
+      vi: "di chuyển tới cửa ra máy bay"
+    - en: "a gate change"
+      vi: "sự thay đổi cửa ra máy bay"
+  example:
+    en: "Please proceed to {gate} 12, where boarding will begin shortly."
+    vi: "Vui lòng di chuyển tới cửa số 12, việc lên máy bay sẽ bắt đầu ngay."
+  note: "Phân biệt ba từ hay bị đánh tráo ở Part 4: 'gate' (cửa ra máy bay) – 'platform' (sân ga tàu hỏa) – 'terminal' (nhà ga sân bay)."
+
+- word: "terminal"
+  pos: "noun"
+  ipa: "/ˈtɜːmɪnl/"
+  meaning: "nhà ga (sân bay, bến xe)"
+  topic: "travel"
+  sub-topic: "tickets-schedules"
+  lesson: ["lesson-09"]
+  level: 750
+  forms:
+    noun: "terminal"
+    adjective: "terminal"
+  collocations:
+    - en: "the departure terminal"
+      vi: "nhà ga đi"
+    - en: "take the shuttle between terminals"
+      vi: "đi xe đưa đón giữa các nhà ga"
+  example:
+    en: "The flight to Halston departs from {Terminal} 2."
+    vi: "Chuyến bay đi Halston khởi hành từ nhà ga số 2."
+
+- word: "platform"
+  pos: "noun"
+  ipa: "/ˈplætfɔːm/"
+  meaning: "sân ga (tàu hỏa)"
+  topic: "travel"
+  sub-topic: "tickets-schedules"
+  lesson: ["lesson-09"]
+  level: 600
+  forms:
+    noun: "platform"
+  collocations:
+    - en: "depart from platform 3"
+      vi: "khởi hành từ sân ga số 3"
+    - en: "wait on the platform"
+      vi: "đợi trên sân ga"
+  example:
+    en: "The express train to the coast leaves from {platform} 3."
+    vi: "Chuyến tàu tốc hành ra biển khởi hành từ sân ga số 3."
+
+- word: "layover"
+  pos: "noun"
+  ipa: "/ˈleɪəʊvə(r)/"
+  meaning: "điểm dừng nối chuyến"
+  topic: "travel"
+  sub-topic: "tickets-schedules"
+  lesson: ["lesson-09"]
+  level: 900
+  forms:
+    noun: "layover"
+  collocations:
+    - en: "a two-hour layover"
+      vi: "một điểm dừng nối chuyến hai tiếng"
+    - en: "have a layover in Tokyo"
+      vi: "dừng nối chuyến ở Tokyo"
+  example:
+    en: "They had a two-hour {layover} before the next flight boarded."
+    vi: "Họ có hai tiếng dừng nối chuyến trước khi chuyến bay tiếp theo cho lên máy bay."
+  note: "'stopover' là từ đồng nghĩa, thường chỉ điểm dừng dài hơn (có thể qua đêm). Part 3/4 hay hoán đổi hai từ này."
+
+- word: "connecting flight"
+  pos: "noun"
+  ipa: "/kəˈnektɪŋ flaɪt/"
+  meaning: "chuyến bay nối chuyến"
+  topic: "travel"
+  sub-topic: "tickets-schedules"
+  lesson: ["lesson-09"]
+  level: 750
+  forms:
+    noun: ["connecting flight", "connection"]
+    verb: "connect"
+  collocations:
+    - en: "miss a connecting flight"
+      vi: "lỡ chuyến bay nối"
+    - en: "catch the connecting flight"
+      vi: "kịp chuyến bay nối"
+  example:
+    en: "The delay almost made them miss their {connecting flight}."
+    vi: "Sự chậm trễ suýt khiến họ lỡ chuyến bay nối."
+
+- word: "aisle"
+  pos: "noun"
+  ipa: "/aɪl/"
+  meaning: "lối đi giữa hai hàng ghế"
+  topic: "travel"
+  sub-topic: "tickets-schedules"
+  lesson: ["lesson-09"]
+  level: 750
+  forms:
+    noun: "aisle"
+  collocations:
+    - en: "an aisle seat"
+      vi: "một ghế cạnh lối đi"
+    - en: "block the aisle"
+      vi: "chắn lối đi"
+  example:
+    en: "She always books an {aisle} seat on long flights."
+    vi: "Cô ấy luôn đặt ghế cạnh lối đi cho các chuyến bay dài."
+  note: "Chữ 's' câm, đọc là /aɪl/ giống 'I'll'. Cặp hay hỏi ở Part 2: 'aisle seat' ↔ 'window seat'."
+
+- word: "overhead compartment"
+  pos: "noun"
+  ipa: "/ˌəʊvəhed kəmˈpɑːtmənt/"
+  meaning: "ngăn để hành lý phía trên đầu"
+  topic: "travel"
+  sub-topic: "tickets-schedules"
+  lesson: ["lesson-09"]
+  level: 750
+  forms:
+    noun: "overhead compartment"
+    adjective: "overhead"
+  collocations:
+    - en: "store bags in the overhead compartment"
+      vi: "cất túi vào ngăn hành lý phía trên"
+    - en: "the overhead bin"
+      vi: "ngăn hành lý phía trên"
+  example:
+    en: "He placed his briefcase in the {overhead compartment} before sitting down."
+    vi: "Anh ấy đặt cặp tài liệu vào ngăn hành lý phía trên rồi mới ngồi xuống."
+  note: "'overhead bin' là cách nói tương đương, hay gặp trong thông báo trên máy bay ở Part 4."
+
+- word: "carry-on"
+  pos: "noun"
+  ipa: "/ˈkæri ɒn/"
+  meaning: "hành lý xách tay"
+  topic: "travel"
+  sub-topic: "tickets-schedules"
+  lesson: ["lesson-09"]
+  level: 750
+  forms:
+    noun: "carry-on"
+    adjective: "carry-on"
+  collocations:
+    - en: "one carry-on per passenger"
+      vi: "mỗi hành khách một kiện xách tay"
+    - en: "a carry-on bag"
+      vi: "một túi xách tay"
+  example:
+    en: "Each passenger may bring one {carry-on} bag onto the plane."
+    vi: "Mỗi hành khách được mang một túi xách tay lên máy bay."
+  note: "'carry-on' (xách tay, mang theo người) đối lập với 'checked baggage' (hành lý ký gửi)."
+
+- word: "baggage claim"
+  pos: "noun"
+  ipa: "/ˈbæɡɪdʒ kleɪm/"
+  meaning: "khu nhận hành lý ký gửi"
+  topic: "travel"
+  sub-topic: "tickets-schedules"
+  lesson: ["lesson-09"]
+  level: 600
+  forms:
+    noun: ["baggage claim", "baggage"]
+  collocations:
+    - en: "go to baggage claim"
+      vi: "đi tới khu nhận hành lý"
+    - en: "collect your bags at baggage claim"
+      vi: "nhận hành lý ở khu trả hành lý"
+  example:
+    en: "Collect your suitcases at {baggage claim} on the lower level."
+    vi: "Hãy nhận vali của bạn ở khu trả hành lý tại tầng dưới."
+  note: "'baggage' là danh từ không đếm được (không có 'baggages'); muốn đếm thì nói 'two pieces of baggage'."
+
+- word: "customs"
+  pos: "noun"
+  ipa: "/ˈkʌstəmz/"
+  meaning: "hải quan"
+  topic: "travel"
+  sub-topic: "tickets-schedules"
+  lesson: ["lesson-09"]
+  level: 750
+  forms:
+    noun: "customs"
+  collocations:
+    - en: "go through customs"
+      vi: "làm thủ tục hải quan"
+    - en: "clear customs"
+      vi: "thông quan xong"
+  example:
+    en: "All arriving passengers must go through {customs} before leaving."
+    vi: "Tất cả hành khách đến phải làm thủ tục hải quan trước khi rời đi."
+  note: "Nghĩa 'hải quan' luôn ở dạng số nhiều 'customs'; số ít 'custom' nghĩa là phong tục. Đừng nhầm 'customs' (hải quan) với 'customer' (khách hàng)."
+
+- word: "passenger"
+  pos: "noun"
+  ipa: "/ˈpæsɪndʒə(r)/"
+  meaning: "hành khách"
+  topic: "travel"
+  sub-topic: "tickets-schedules"
+  lesson: ["lesson-09"]
+  level: 600
+  forms:
+    noun: ["passenger", "passage"]
+  collocations:
+    - en: "a passenger on the flight"
+      vi: "một hành khách trên chuyến bay"
+    - en: "passengers with small children"
+      vi: "hành khách có trẻ nhỏ"
+  example:
+    en: "Every {passenger} must show a boarding pass before entering."
+    vi: "Mỗi hành khách phải xuất trình thẻ lên máy bay trước khi vào."
+
+- word: "ferry"
+  pos: "noun"
+  ipa: "/ˈferi/"
+  meaning: "phà"
+  topic: "travel"
+  sub-topic: "tickets-schedules"
+  lesson: ["lesson-09"]
+  level: 600
+  forms:
+    noun: "ferry"
+    verb: "ferry"
+  collocations:
+    - en: "take the ferry"
+      vi: "đi phà"
+    - en: "the ferry terminal"
+      vi: "bến phà"
+  example:
+    en: "You can take a {ferry} across the bay in about thirty minutes."
+    vi: "Bạn có thể đi phà qua vịnh trong khoảng ba mươi phút."
+
+- word: "shuttle"
+  pos: "noun"
+  ipa: "/ˈʃʌtl/"
+  meaning: "xe đưa đón chạy tuyến cố định"
+  topic: "travel"
+  sub-topic: "tickets-schedules"
+  lesson: ["lesson-09"]
+  level: 750
+  forms:
+    noun: "shuttle"
+    verb: "shuttle"
+  collocations:
+    - en: "a free airport shuttle"
+      vi: "xe đưa đón sân bay miễn phí"
+    - en: "the shuttle bus service"
+      vi: "dịch vụ xe buýt đưa đón"
+  example:
+    en: "A free {shuttle} runs from the airport to the hotel every hour."
+    vi: "Một chuyến xe đưa đón miễn phí chạy từ sân bay tới khách sạn mỗi giờ."
+
+- word: "valid"
+  pos: "adjective"
+  ipa: "/ˈvælɪd/"
+  meaning: "còn hiệu lực, còn giá trị sử dụng"
+  topic: "travel"
+  sub-topic: "tickets-schedules"
+  lesson: ["lesson-09"]
+  level: 600
+  forms:
+    adjective: "valid"
+    noun: "validity"
+    verb: "validate"
+  collocations:
+    - en: "a valid passport"
+      vi: "một hộ chiếu còn hiệu lực"
+    - en: "valid for six months"
+      vi: "có hiệu lực trong sáu tháng"
+  example:
+    en: "Your passport must remain {valid} for six months after arrival."
+    vi: "Hộ chiếu của bạn phải còn hiệu lực sáu tháng sau ngày nhập cảnh."
+  note: "'valid' (còn hiệu lực) trái nghĩa với 'expired' (đã hết hạn); đừng nhầm với 'due' (đến hạn phải trả)."
+
+- word: "expire"
+  pos: "verb"
+  ipa: "/ɪkˈspaɪə(r)/"
+  meaning: "hết hạn (giấy tờ, vé, thẻ)"
+  topic: "travel"
+  sub-topic: "tickets-schedules"
+  lesson: ["lesson-07", "lesson-09"]
+  level: 750
+  forms:
+    verb: "expire"
+    noun: ["expiration", "expiry"]
+    adjective: "expired"
+  collocations:
+    - en: "the visa expires next month"
+      vi: "thị thực hết hạn vào tháng sau"
+    - en: "the expiration date"
+      vi: "ngày hết hạn"
+  example:
+    en: "His travel visa {expires} at the end of the month."
+    vi: "Thị thực du lịch của anh ấy hết hạn vào cuối tháng."
+  note: "Anh-Mỹ dùng 'expiration date', Anh-Anh dùng 'expiry date'. Tính từ 'expired' = đã hết hạn."
+
+- word: "accommodation"
+  pos: "noun"
+  ipa: "/əˌkɒməˈdeɪʃn/"
+  meaning: "chỗ ở, nơi lưu trú"
+  topic: "travel"
+  sub-topic: "hotels"
+  lesson: ["lesson-10"]
+  level: 750
+  forms:
+    noun: "accommodation"
+    verb: "accommodate"
+  collocations:
+    - en: "arrange accommodation"
+      vi: "sắp xếp chỗ ở"
+    - en: "book accommodation"
+      vi: "đặt chỗ ở"
+    - en: "overnight accommodation"
+      vi: "chỗ nghỉ qua đêm"
+  example:
+    en: "The company arranged {accommodation} for every visiting engineer."
+    vi: "Công ty đã sắp xếp chỗ ở cho mọi kỹ sư đến công tác."
+  note: "Anh-Anh coi 'accommodation' là danh từ KHÔNG đếm được (không có 'accommodations'); Anh-Mỹ mới dùng số nhiều. Chú ý chính tả: hai chữ 'c', hai chữ 'm'."
+
+- word: "check in"
+  pos: "phrasal verb"
+  ipa: "/tʃek ˈɪn/"
+  meaning: "làm thủ tục nhận phòng, nhận chỗ"
+  topic: "travel"
+  sub-topic: "hotels"
+  lesson: ["lesson-10"]
+  level: 600
+  forms:
+    verb: "check in"
+    noun: "check-in"
+  collocations:
+    - en: "check in at the front desk"
+      vi: "làm thủ tục nhận phòng ở quầy lễ tân"
+    - en: "check-out is at 11 a.m."
+      vi: "giờ trả phòng là 11 giờ sáng"
+  example:
+    en: "Guests may {check in} any time after two o'clock."
+    vi: "Khách có thể nhận phòng vào bất cứ lúc nào sau hai giờ chiều."
+  note: "Động từ viết rời (check in / check out); danh từ và tính từ có gạch nối (the check-in counter, the check-out time)."
+
+- word: "vacancy"
+  pos: "noun"
+  ipa: "/ˈveɪkənsi/"
+  meaning: "phòng còn trống"
+  topic: "travel"
+  sub-topic: "hotels"
+  lesson: ["lesson-03", "lesson-10"]
+  level: 750
+  forms:
+    noun: "vacancy"
+    adjective: "vacant"
+  collocations:
+    - en: "no vacancy"
+      vi: "hết phòng"
+    - en: "have a vacancy for tonight"
+      vi: "còn phòng trống cho đêm nay"
+  example:
+    en: "The hotel had no {vacancy} left on the night of the conference."
+    vi: "Khách sạn không còn phòng trống nào vào đêm diễn ra hội nghị."
+  note: "Ở khách sạn, 'vacancy' = phòng trống; trong tuyển dụng, 'vacancy' = vị trí đang tuyển. Đừng nhầm với 'vacation' (kỳ nghỉ)."
+
+- word: "amenities"
+  pos: "noun"
+  ipa: "/əˈmenətiz/"
+  meaning: "các tiện nghi, dịch vụ kèm theo"
+  topic: "travel"
+  sub-topic: "hotels"
+  lesson: ["lesson-10"]
+  level: 750
+  forms:
+    noun: "amenities"
+  collocations:
+    - en: "hotel amenities"
+      vi: "tiện nghi khách sạn"
+    - en: "on-site amenities"
+      vi: "tiện nghi ngay tại chỗ"
+  example:
+    en: "The resort offers excellent {amenities}, including a gym and a pool."
+    vi: "Khu nghỉ dưỡng cung cấp các tiện nghi tuyệt vời, gồm phòng tập và bể bơi."
+  note: "Hầu như luôn dùng ở dạng số nhiều 'amenities' khi nói về tiện nghi khách sạn."
+
+- word: "concierge"
+  pos: "noun"
+  ipa: "/ˈkɒnsieəʒ/"
+  meaning: "nhân viên hỗ trợ khách ở khách sạn"
+  topic: "travel"
+  sub-topic: "hotels"
+  lesson: ["lesson-10"]
+  level: 900
+  forms:
+    noun: "concierge"
+  collocations:
+    - en: "ask the concierge"
+      vi: "hỏi nhân viên hỗ trợ khách"
+    - en: "the concierge desk"
+      vi: "quầy hỗ trợ khách"
+  example:
+    en: "The {concierge} booked us a table at a restaurant nearby."
+    vi: "Nhân viên hỗ trợ khách đã đặt cho chúng tôi một bàn ở nhà hàng gần đó."
+  note: "Từ gốc tiếng Pháp, đọc gần như 'con-si-e', âm cuối /ʒ/ — bẫy nghe ở Part 3/4."
+
+- word: "suite"
+  pos: "noun"
+  ipa: "/swiːt/"
+  meaning: "phòng suite (phòng rộng, nhiều khu)"
+  topic: "travel"
+  sub-topic: "hotels"
+  lesson: ["lesson-10"]
+  level: 750
+  forms:
+    noun: "suite"
+  collocations:
+    - en: "a hotel suite"
+      vi: "một phòng suite khách sạn"
+    - en: "book the executive suite"
+      vi: "đặt phòng suite hạng sang"
+  example:
+    en: "She stayed in a {suite} on the top floor during the visit."
+    vi: "Cô ấy ở một phòng suite trên tầng cao nhất trong chuyến công tác."
+  note: "Đọc là /swiːt/ giống hệt 'sweet', không đọc là 'suit' /suːt/ (bộ com-lê) — bẫy nghe kinh điển."
+
+- word: "complimentary"
+  pos: "adjective"
+  ipa: "/ˌkɒmplɪˈmentri/"
+  meaning: "miễn phí, được tặng kèm"
+  topic: "travel"
+  sub-topic: "hotels"
+  lesson: ["lesson-10", "lesson-12"]
+  level: 750
+  forms:
+    adjective: "complimentary"
+    noun: "compliment"
+  collocations:
+    - en: "a complimentary breakfast"
+      vi: "bữa sáng miễn phí"
+    - en: "complimentary Wi-Fi"
+      vi: "wifi miễn phí"
+  example:
+    en: "The nightly rate includes a {complimentary} breakfast for two."
+    vi: "Giá phòng mỗi đêm bao gồm bữa sáng miễn phí cho hai người."
+  note: "'complimentary' (miễn phí, tặng kèm) ≠ 'complementary' (bổ sung cho nhau) — chỉ khác một chữ i/e, TOEIC rất hay bẫy."
+
+- word: "rate"
+  pos: "noun"
+  ipa: "/reɪt/"
+  meaning: "giá phòng, mức giá theo đơn vị"
+  topic: "travel"
+  sub-topic: "hotels"
+  lesson: ["lesson-10"]
+  level: 600
+  forms:
+    noun: "rate"
+    verb: "rate"
+  collocations:
+    - en: "the nightly rate"
+      vi: "giá phòng mỗi đêm"
+    - en: "a discounted corporate rate"
+      vi: "mức giá ưu đãi dành cho doanh nghiệp"
+  example:
+    en: "The nightly {rate} was higher than the travel budget allowed."
+    vi: "Giá phòng mỗi đêm cao hơn mức ngân sách công tác cho phép."
+  note: "'rate' có nhiều nghĩa tùy chủ đề: giá phòng (khách sạn), tỷ lệ (interest rate, unemployment rate). Đọc ngữ cảnh để chọn."
+
+- word: "front desk"
+  pos: "noun"
+  ipa: "/frʌnt ˈdesk/"
+  meaning: "quầy lễ tân"
+  topic: "travel"
+  sub-topic: "hotels"
+  lesson: ["lesson-10"]
+  level: 600
+  forms:
+    noun: "front desk"
+  collocations:
+    - en: "check in at the front desk"
+      vi: "nhận phòng tại quầy lễ tân"
+    - en: "leave the key at the front desk"
+      vi: "để chìa khóa ở quầy lễ tân"
+  example:
+    en: "Please leave your room key at the {front desk} when you leave."
+    vi: "Vui lòng để lại chìa khóa phòng ở quầy lễ tân khi bạn rời đi."
+  note: "'front desk' (khách sạn) tương đương 'reception'; khác 'help desk' (bộ phận hỗ trợ kỹ thuật)."
+
+- word: "rental car"
+  pos: "noun"
+  ipa: "/ˈrentl kɑː(r)/"
+  meaning: "xe thuê"
+  topic: "travel"
+  sub-topic: "car-rental-commute"
+  lesson: ["lesson-10"]
+  level: 600
+  forms:
+    noun: ["rental car", "rental"]
+    verb: "rent"
+  collocations:
+    - en: "pick up a rental car"
+      vi: "nhận xe thuê"
+    - en: "return the rental car"
+      vi: "trả xe thuê"
+  example:
+    en: "They picked up a {rental car} at the airport counter on arrival."
+    vi: "Họ đã nhận xe thuê tại quầy ở sân bay khi vừa đến nơi."
+  note: "Anh-Anh nói 'hire car'. 'rent' dùng cho thuê ngắn hạn có trả tiền; 'lease' dùng cho hợp đồng thuê dài hạn."
+
+- word: "detour"
+  pos: "noun"
+  ipa: "/ˈdiːtʊə(r)/"
+  meaning: "đường vòng, lối đi tránh"
+  topic: "travel"
+  sub-topic: "car-rental-commute"
+  lesson: ["lesson-10"]
+  level: 750
+  forms:
+    noun: "detour"
+    verb: "detour"
+  collocations:
+    - en: "take a detour"
+      vi: "đi đường vòng"
+    - en: "a signposted detour"
+      vi: "một lối vòng có biển chỉ dẫn"
+  example:
+    en: "A closed road forced the driver to take a long {detour}."
+    vi: "Một đoạn đường bị chặn buộc tài xế phải đi một đường vòng dài."
+
+- word: "congestion"
+  pos: "noun"
+  ipa: "/kənˈdʒestʃən/"
+  meaning: "tình trạng tắc nghẽn giao thông"
+  topic: "travel"
+  sub-topic: "car-rental-commute"
+  lesson: ["lesson-10"]
+  level: 750
+  forms:
+    noun: "congestion"
+    adjective: "congested"
+  collocations:
+    - en: "traffic congestion"
+      vi: "tắc nghẽn giao thông"
+    - en: "ease congestion"
+      vi: "giảm bớt ùn tắc"
+  example:
+    en: "Traffic {congestion} downtown is worst during the morning rush hour."
+    vi: "Tình trạng tắc đường ở trung tâm nặng nhất vào giờ cao điểm buổi sáng."
+  note: "Danh từ không đếm được. Tính từ 'congested' = bị ùn tắc (a congested highway)."
+
+- word: "commute"
+  pos: "verb"
+  ipa: "/kəˈmjuːt/"
+  meaning: "đi lại hằng ngày giữa nhà và chỗ làm"
+  topic: "travel"
+  sub-topic: "car-rental-commute"
+  lesson: ["lesson-10"]
+  level: 750
+  forms:
+    verb: "commute"
+    noun: ["commute", "commuter"]
+  collocations:
+    - en: "commute to work"
+      vi: "đi làm hằng ngày"
+    - en: "a long daily commute"
+      vi: "một quãng đường đi làm dài mỗi ngày"
+  example:
+    en: "Many employees {commute} into the city by train every morning."
+    vi: "Nhiều nhân viên đi tàu vào thành phố làm việc mỗi sáng."
+  note: "'commuter' là người đi làm xa hằng ngày; 'commute' còn dùng làm danh từ chỉ chính quãng đường đó."
+
+- word: "destination"
+  pos: "noun"
+  ipa: "/ˌdestɪˈneɪʃn/"
+  meaning: "điểm đến"
+  topic: "travel"
+  sub-topic: "car-rental-commute"
+  lesson: ["lesson-10"]
+  level: 600
+  forms:
+    noun: "destination"
+  collocations:
+    - en: "reach your destination"
+      vi: "đến được điểm đến"
+    - en: "the final destination"
+      vi: "điểm đến cuối cùng"
+  example:
+    en: "They finally reached their {destination} after four hours on the road."
+    vi: "Cuối cùng họ cũng tới điểm đến sau bốn tiếng trên đường."
+
+- word: "fuel"
+  pos: "noun"
+  ipa: "/ˈfjuːəl/"
+  meaning: "nhiên liệu"
+  topic: "travel"
+  sub-topic: "car-rental-commute"
+  lesson: ["lesson-10"]
+  level: 600
+  forms:
+    noun: "fuel"
+    verb: "fuel"
+  collocations:
+    - en: "a full fuel tank"
+      vi: "một bình nhiên liệu đầy"
+    - en: "fuel-efficient"
+      vi: "tiết kiệm nhiên liệu"
+  example:
+    en: "Please return the car with a full {fuel} tank to avoid a surcharge."
+    vi: "Vui lòng trả xe với bình nhiên liệu đầy để tránh bị tính phụ phí."
+  note: "Danh từ không đếm được khi nói chung về nhiên liệu. Tính từ ghép hay gặp: 'fuel-efficient' (tiết kiệm nhiên liệu)."
+
+- word: "roadwork"
+  pos: "noun"
+  ipa: "/ˈrəʊdwɜːk/"
+  meaning: "công trình sửa chữa đường"
+  topic: "travel"
+  sub-topic: "car-rental-commute"
+  lesson: ["lesson-10"]
+  level: 900
+  forms:
+    noun: "roadwork"
+  collocations:
+    - en: "delays due to roadwork"
+      vi: "chậm trễ do công trình sửa đường"
+    - en: "roadwork ahead"
+      vi: "phía trước có công trình sửa đường"
+  example:
+    en: "{Roadwork} on Route 9 caused long delays for morning commuters."
+    vi: "Công trình sửa đường trên Quốc lộ 9 gây chậm trễ kéo dài cho người đi làm buổi sáng."
+  note: "Danh từ không đếm được (Anh-Mỹ hay dùng số nhiều 'roadworks' ở Anh-Anh). Hay xuất hiện trong bản tin giao thông ở Part 4."

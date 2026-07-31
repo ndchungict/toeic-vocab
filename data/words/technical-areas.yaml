@@ -1,0 +1,745 @@
+- word: "device"
+  pos: "noun"
+  ipa: "/dɪˈvaɪs/"
+  meaning: "thiết bị (nói chung)"
+  topic: "technical-areas"
+  sub-topic:
+  lesson: ["lesson-21"]
+  level: 600
+  forms:
+    noun: "device"
+    verb: "devise"
+  collocations:
+    - en: "a mobile device"
+      vi: "một thiết bị di động"
+    - en: "a smart device"
+      vi: "một thiết bị thông minh"
+    - en: "pair a device with an app"
+      vi: "kết nối thiết bị với ứng dụng"
+  example:
+    en: "Aria is a smart-home {device} that controls lights and locks."
+    vi: "Aria là một thiết bị nhà thông minh điều khiển đèn và khóa cửa."
+  note: "'device' (danh từ: thiết bị) khác 'devise' (động từ: nghĩ ra, thiết kế) — cặp dễ nhầm ở Part 5."
+
+- word: "appliance"
+  pos: "noun"
+  ipa: "/əˈplaɪəns/"
+  meaning: "thiết bị gia dụng"
+  topic: "technical-areas"
+  sub-topic:
+  lesson: ["lesson-22"]
+  level: 750
+  forms:
+    noun: ["appliance", "application"]
+    verb: "apply"
+  collocations:
+    - en: "kitchen appliances"
+      vi: "các thiết bị nhà bếp"
+    - en: "energy-efficient appliances"
+      vi: "các thiết bị tiết kiệm điện"
+  example:
+    en: "The store offers free installation on every home {appliance}."
+    vi: "Cửa hàng miễn phí lắp đặt cho mọi thiết bị gia dụng."
+  note: "'appliance' là thiết bị gia dụng cụ thể (tủ lạnh, lò vi sóng), còn 'device' là thiết bị nói chung, thường nhỏ và điện tử."
+
+- word: "install"
+  pos: "verb"
+  ipa: "/ɪnˈstɔːl/"
+  meaning: "cài đặt, lắp đặt"
+  topic: "technical-areas"
+  sub-topic:
+  lesson: ["lesson-21"]
+  level: 600
+  forms:
+    verb: "install"
+    noun: ["installation", "installer"]
+  collocations:
+    - en: "install the software"
+      vi: "cài đặt phần mềm"
+    - en: "installation is complete"
+      vi: "việc cài đặt đã hoàn tất"
+  example:
+    en: "The team {installed} the operating system on each new unit."
+    vi: "Nhóm đã cài đặt hệ điều hành lên từng thiết bị mới."
+  note: "Danh từ là 'installation' (không phải 'instalment' — từ này nghĩa là khoản trả góp)."
+
+- word: "configure"
+  pos: "verb"
+  ipa: "/kənˈfɪɡə(r)/"
+  meaning: "cấu hình, thiết lập thông số"
+  topic: "technical-areas"
+  sub-topic:
+  lesson: ["lesson-21"]
+  level: 750
+  forms:
+    verb: "configure"
+    noun: "configuration"
+  collocations:
+    - en: "configure the settings"
+      vi: "cấu hình các thiết lập"
+    - en: "the default configuration"
+      vi: "cấu hình mặc định"
+  example:
+    en: "They {configured} the sensors for the Halston office network."
+    vi: "Họ đã cấu hình các cảm biến cho mạng nội bộ của văn phòng Halston."
+
+- word: "upgrade"
+  pos: "verb"
+  ipa: "/ˌʌpˈɡreɪd/"
+  meaning: "nâng cấp lên phiên bản tốt hơn"
+  topic: "technical-areas"
+  sub-topic:
+  lesson: ["lesson-21"]
+  level: 600
+  forms:
+    verb: "upgrade"
+    noun: "upgrade"
+  collocations:
+    - en: "upgrade the system"
+      vi: "nâng cấp hệ thống"
+    - en: "a firmware upgrade"
+      vi: "một bản nâng cấp phần mềm điều khiển"
+  example:
+    en: "The company {upgraded} the firmware on every unit last month."
+    vi: "Công ty đã nâng cấp phần mềm điều khiển trên mọi thiết bị vào tháng trước."
+  note: "'upgrade' = nâng lên bản/gói tốt hơn; 'update' = cập nhật nội dung mới nhất. Danh từ nhấn âm đầu /ˈʌpɡreɪd/, động từ nhấn âm sau."
+
+- word: "software"
+  pos: "noun"
+  ipa: "/ˈsɒftweə(r)/"
+  meaning: "phần mềm"
+  topic: "technical-areas"
+  sub-topic:
+  lesson: ["lesson-21"]
+  level: 600
+  forms:
+    noun: "software"
+  collocations:
+    - en: "install new software"
+      vi: "cài đặt phần mềm mới"
+    - en: "a software update"
+      vi: "một bản cập nhật phần mềm"
+  example:
+    en: "The {software} runs smoothly on the new hardware."
+    vi: "Phần mềm chạy mượt trên phần cứng mới."
+  note: "'software' và 'hardware' đều KHÔNG đếm được: không có 'softwares'/'hardwares'. Muốn đếm thì nói 'a piece of software' hoặc 'a software program'."
+
+- word: "database"
+  pos: "noun"
+  ipa: "/ˈdeɪtəbeɪs/"
+  meaning: "cơ sở dữ liệu"
+  topic: "technical-areas"
+  sub-topic:
+  lesson: ["lesson-21"]
+  level: 750
+  forms:
+    noun: "database"
+  collocations:
+    - en: "update the database"
+      vi: "cập nhật cơ sở dữ liệu"
+    - en: "back up the database"
+      vi: "sao lưu cơ sở dữ liệu"
+    - en: "a customer database"
+      vi: "một cơ sở dữ liệu khách hàng"
+  example:
+    en: "All service records are stored in a central {database}."
+    vi: "Toàn bộ hồ sơ bảo trì được lưu trong một cơ sở dữ liệu trung tâm."
+
+- word: "server"
+  pos: "noun"
+  ipa: "/ˈsɜːvə(r)/"
+  meaning: "máy chủ"
+  topic: "technical-areas"
+  sub-topic:
+  lesson: ["lesson-12", "lesson-21"]
+  level: 750
+  forms:
+    noun: ["server", "service"]
+    verb: "serve"
+  collocations:
+    - en: "the server is down"
+      vi: "máy chủ đang gặp sự cố"
+    - en: "a server cluster"
+      vi: "một cụm máy chủ"
+  example:
+    en: "The {server} went down for twenty minutes during the update."
+    vi: "Máy chủ đã ngừng hoạt động hai mươi phút trong lúc cập nhật."
+  note: "Trong chủ đề kỹ thuật, 'server' = máy chủ; trong nhà hàng, 'server' = nhân viên phục vụ bàn. Chọn nghĩa theo ngữ cảnh."
+
+- word: "network"
+  pos: "noun"
+  ipa: "/ˈnetwɜːk/"
+  meaning: "mạng (máy tính, kết nối)"
+  topic: "technical-areas"
+  sub-topic:
+  lesson: ["lesson-21"]
+  level: 600
+  forms:
+    noun: ["network", "networking"]
+    verb: "network"
+  collocations:
+    - en: "the company network"
+      vi: "mạng nội bộ của công ty"
+    - en: "connect to the network"
+      vi: "kết nối vào mạng"
+  example:
+    en: "Every device must be connected to the internal {network} first."
+    vi: "Mọi thiết bị phải được kết nối vào mạng nội bộ trước."
+
+- word: "back up"
+  pos: "phrasal verb"
+  ipa: "/bæk ˈʌp/"
+  meaning: "sao lưu (dữ liệu)"
+  topic: "technical-areas"
+  sub-topic:
+  lesson: ["lesson-21"]
+  level: 600
+  forms:
+    verb: "back up"
+    noun: "backup"
+  collocations:
+    - en: "back up your files"
+      vi: "sao lưu các tệp của bạn"
+    - en: "make a backup copy"
+      vi: "tạo một bản sao lưu"
+  example:
+    en: "Always {back up} the database before installing an update."
+    vi: "Hãy luôn sao lưu cơ sở dữ liệu trước khi cài đặt bản cập nhật."
+  note: "Động từ viết rời hai chữ 'back up'; danh từ viết liền một chữ 'backup' (a backup file). TOEIC rất hay hỏi chỗ này."
+
+- word: "restore"
+  pos: "verb"
+  ipa: "/rɪˈstɔː(r)/"
+  meaning: "khôi phục (dữ liệu, trạng thái cũ)"
+  topic: "technical-areas"
+  sub-topic:
+  lesson: ["lesson-21"]
+  level: 750
+  forms:
+    verb: "restore"
+    noun: "restoration"
+  collocations:
+    - en: "restore the data"
+      vi: "khôi phục dữ liệu"
+    - en: "restore power to the building"
+      vi: "khôi phục nguồn điện cho tòa nhà"
+  example:
+    en: "If the update fails, the technician can {restore} the previous version."
+    vi: "Nếu bản cập nhật lỗi, kỹ thuật viên có thể khôi phục phiên bản trước đó."
+
+- word: "troubleshoot"
+  pos: "verb"
+  ipa: "/ˈtrʌblʃuːt/"
+  meaning: "dò tìm và khắc phục sự cố"
+  topic: "technical-areas"
+  sub-topic:
+  lesson: ["lesson-21"]
+  level: 900
+  forms:
+    verb: "troubleshoot"
+    noun: ["troubleshooting", "troubleshooter"]
+  collocations:
+    - en: "troubleshoot the issue"
+      vi: "khắc phục sự cố"
+    - en: "a troubleshooting guide"
+      vi: "một tài liệu hướng dẫn khắc phục sự cố"
+  example:
+    en: "Two engineers spent the night {troubleshooting} the early build."
+    vi: "Hai kỹ sư đã thức đêm để khắc phục sự cố của bản dựng đầu tiên."
+
+- word: "glitch"
+  pos: "noun"
+  ipa: "/ɡlɪtʃ/"
+  meaning: "lỗi kỹ thuật nhỏ, trục trặc tạm thời"
+  topic: "technical-areas"
+  sub-topic:
+  lesson: ["lesson-21"]
+  level: 900
+  forms:
+    noun: "glitch"
+  collocations:
+    - en: "a technical glitch"
+      vi: "một lỗi kỹ thuật nhỏ"
+    - en: "fix a minor glitch"
+      vi: "sửa một trục trặc nhỏ"
+  example:
+    en: "A small {glitch} made the indicator light blink twice."
+    vi: "Một lỗi kỹ thuật nhỏ khiến đèn báo nhấp nháy hai lần."
+  note: "Mức độ tăng dần: 'glitch' (lỗi nhỏ, tạm thời) < 'malfunction' (trục trặc chức năng) < 'crash' (treo, sập cả hệ thống)."
+
+- word: "crash"
+  pos: "verb"
+  ipa: "/kræʃ/"
+  meaning: "treo, sập (hệ thống, phần mềm)"
+  topic: "technical-areas"
+  sub-topic:
+  lesson: ["lesson-21"]
+  level: 750
+  forms:
+    verb: "crash"
+    noun: "crash"
+  collocations:
+    - en: "the system crashed"
+      vi: "hệ thống đã bị sập"
+    - en: "cause the app to crash"
+      vi: "khiến ứng dụng bị treo"
+  example:
+    en: "The app {crashed} whenever two users logged in at once."
+    vi: "Ứng dụng bị treo mỗi khi hai người dùng đăng nhập cùng lúc."
+
+- word: "compatible"
+  pos: "adjective"
+  ipa: "/kəmˈpætəbl/"
+  meaning: "tương thích, dùng được cùng nhau"
+  topic: "technical-areas"
+  sub-topic:
+  lesson: ["lesson-21"]
+  level: 750
+  forms:
+    adjective: "compatible"
+    noun: "compatibility"
+  collocations:
+    - en: "compatible with Windows"
+      vi: "tương thích với Windows"
+    - en: "check compatibility"
+      vi: "kiểm tra tính tương thích"
+  example:
+    en: "The new module is not {compatible} with older routers."
+    vi: "Mô-đun mới không tương thích với các bộ định tuyến đời cũ."
+  note: "Luôn đi với giới từ 'with': compatible with sth. Trái nghĩa: 'incompatible'."
+
+- word: "interface"
+  pos: "noun"
+  ipa: "/ˈɪntəfeɪs/"
+  meaning: "giao diện (người dùng)"
+  topic: "technical-areas"
+  sub-topic:
+  lesson: ["lesson-21"]
+  level: 750
+  forms:
+    noun: "interface"
+    verb: "interface"
+  collocations:
+    - en: "a user-friendly interface"
+      vi: "một giao diện thân thiện với người dùng"
+    - en: "redesign the interface"
+      vi: "thiết kế lại giao diện"
+  example:
+    en: "He refined the {interface} so that new users need no training."
+    vi: "Anh ấy đã tinh chỉnh giao diện để người dùng mới không cần đào tạo."
+  note: "Phân biệt bộ ba: 'interface' (giao diện — phần nhìn thấy), 'feature' (tính năng — thứ sản phẩm làm được), 'functionality' (chức năng — khả năng vận hành nói chung)."
+
+- word: "feature"
+  pos: "noun"
+  ipa: "/ˈfiːtʃə(r)/"
+  meaning: "tính năng, đặc điểm của sản phẩm"
+  topic: "technical-areas"
+  sub-topic:
+  lesson: ["lesson-22"]
+  level: 600
+  forms:
+    noun: "feature"
+    verb: "feature"
+  collocations:
+    - en: "a new safety feature"
+      vi: "một tính năng an toàn mới"
+    - en: "a standard feature"
+      vi: "một tính năng tiêu chuẩn"
+  example:
+    en: "The lab team retested every {feature} before the launch."
+    vi: "Nhóm phòng thí nghiệm đã kiểm tra lại từng tính năng trước khi ra mắt."
+
+- word: "functionality"
+  pos: "noun"
+  ipa: "/ˌfʌŋkʃəˈnæləti/"
+  meaning: "chức năng, khả năng vận hành"
+  topic: "technical-areas"
+  sub-topic:
+  lesson: ["lesson-21"]
+  level: 900
+  forms:
+    noun: ["functionality", "function"]
+    verb: "function"
+    adjective: "functional"
+  collocations:
+    - en: "limited functionality"
+      vi: "chức năng hạn chế"
+    - en: "add new functionality"
+      vi: "bổ sung chức năng mới"
+  example:
+    en: "The trial version offers only limited {functionality}."
+    vi: "Bản dùng thử chỉ cung cấp chức năng hạn chế."
+
+- word: "specification"
+  pos: "noun"
+  ipa: "/ˌspesɪfɪˈkeɪʃn/"
+  meaning: "thông số kỹ thuật"
+  topic: "technical-areas"
+  sub-topic:
+  lesson: ["lesson-22"]
+  level: 750
+  forms:
+    noun: "specification"
+    verb: "specify"
+    adjective: "specific"
+  collocations:
+    - en: "meet the specifications"
+      vi: "đáp ứng các thông số kỹ thuật"
+    - en: "technical specifications"
+      vi: "thông số kỹ thuật"
+  example:
+    en: "Every unit was tuned until it met the published {specifications}."
+    vi: "Mỗi thiết bị được tinh chỉnh cho đến khi đạt các thông số kỹ thuật đã công bố."
+  note: "Dạng viết tắt hay dùng là 'specs'. Động từ là 'specify' (nêu rõ, quy định cụ thể)."
+
+- word: "manual"
+  pos: "noun"
+  ipa: "/ˈmænjuəl/"
+  meaning: "sách hướng dẫn sử dụng"
+  topic: "technical-areas"
+  sub-topic:
+  lesson: ["lesson-22"]
+  level: 600
+  forms:
+    noun: "manual"
+    adjective: "manual"
+    adverb: "manually"
+  collocations:
+    - en: "consult the user manual"
+      vi: "tra cứu sách hướng dẫn sử dụng"
+    - en: "refer to the instruction manual"
+      vi: "tham khảo sách hướng dẫn"
+  example:
+    en: "The technician updated the service {manual} after the redesign."
+    vi: "Kỹ thuật viên đã cập nhật sách hướng dẫn bảo trì sau lần thiết kế lại."
+  note: "Danh từ 'manual' = sách hướng dẫn; tính từ 'manual' = làm bằng tay, thủ công (manual labor). Đọc kỹ vị trí trong câu để chọn nghĩa."
+
+- word: "technician"
+  pos: "noun"
+  ipa: "/tekˈnɪʃn/"
+  meaning: "kỹ thuật viên"
+  topic: "technical-areas"
+  sub-topic:
+  lesson: ["lesson-21"]
+  level: 600
+  forms:
+    noun: ["technician", "technique", "technology"]
+    adjective: ["technical", "technological"]
+  collocations:
+    - en: "call a technician"
+      vi: "gọi kỹ thuật viên"
+    - en: "a certified technician"
+      vi: "một kỹ thuật viên có chứng chỉ"
+  example:
+    en: "A {technician} will visit the site to inspect the wiring."
+    vi: "Một kỹ thuật viên sẽ đến hiện trường để kiểm tra hệ thống dây điện."
+  note: "'technician' là người; 'help desk' là bộ phận. Đừng nhầm 'technique' (kỹ thuật, cách làm) với 'technology' (công nghệ)."
+
+- word: "help desk"
+  pos: "noun"
+  ipa: "/ˈhelp desk/"
+  meaning: "bộ phận hỗ trợ kỹ thuật"
+  topic: "technical-areas"
+  sub-topic:
+  lesson: ["lesson-21"]
+  level: 750
+  forms:
+    noun: "help desk"
+  collocations:
+    - en: "contact the help desk"
+      vi: "liên hệ bộ phận hỗ trợ kỹ thuật"
+    - en: "submit a help desk ticket"
+      vi: "gửi một yêu cầu hỗ trợ kỹ thuật"
+  example:
+    en: "Please contact the {help desk} if your password stops working."
+    vi: "Vui lòng liên hệ bộ phận hỗ trợ kỹ thuật nếu mật khẩu của bạn không dùng được."
+
+- word: "circuit"
+  pos: "noun"
+  ipa: "/ˈsɜːkɪt/"
+  meaning: "mạch điện"
+  topic: "technical-areas"
+  sub-topic:
+  lesson: ["lesson-22"]
+  level: 900
+  forms:
+    noun: "circuit"
+  collocations:
+    - en: "a short circuit"
+      vi: "hiện tượng chập mạch"
+    - en: "the power circuit"
+      vi: "mạch điện nguồn"
+  example:
+    en: "A voltage dip appeared on the main power {circuit} at midnight."
+    vi: "Một cú sụt điện áp xuất hiện trên mạch điện nguồn chính lúc nửa đêm."
+
+- word: "voltage"
+  pos: "noun"
+  ipa: "/ˈvəʊltɪdʒ/"
+  meaning: "điện áp"
+  topic: "technical-areas"
+  sub-topic:
+  lesson: ["lesson-22"]
+  level: 900
+  forms:
+    noun: "voltage"
+  collocations:
+    - en: "high voltage"
+      vi: "điện áp cao"
+    - en: "a voltage drop"
+      vi: "hiện tượng sụt điện áp"
+  example:
+    en: "A brief {voltage} drop caused the sensor to reset itself."
+    vi: "Một cú sụt điện áp ngắn khiến cảm biến tự khởi động lại."
+
+- word: "battery"
+  pos: "noun"
+  ipa: "/ˈbætri/"
+  meaning: "pin, ắc quy"
+  topic: "technical-areas"
+  sub-topic:
+  lesson: ["lesson-22"]
+  level: 600
+  forms:
+    noun: "battery"
+  collocations:
+    - en: "recharge the battery"
+      vi: "sạc lại pin"
+    - en: "replace the batteries"
+      vi: "thay pin"
+    - en: "battery life"
+      vi: "thời lượng pin"
+  example:
+    en: "The backup {battery} could not compensate for the power loss in time."
+    vi: "Pin dự phòng đã không bù kịp cho sự cố mất điện."
+
+- word: "laboratory"
+  pos: "noun"
+  ipa: "/ləˈbɒrətri/"
+  meaning: "phòng thí nghiệm"
+  topic: "technical-areas"
+  sub-topic:
+  lesson: ["lesson-22"]
+  level: 750
+  forms:
+    noun: "laboratory"
+  collocations:
+    - en: "a research laboratory"
+      vi: "một phòng thí nghiệm nghiên cứu"
+    - en: "laboratory conditions"
+      vi: "điều kiện phòng thí nghiệm"
+  example:
+    en: "They moved the whole system into the {laboratory} for testing."
+    vi: "Họ đã chuyển toàn bộ hệ thống vào phòng thí nghiệm để kiểm tra."
+  note: "Dạng nói ngắn gọn là 'lab'. Trọng âm Anh-Anh rơi vào âm tiết thứ hai /ləˈbɒrətri/, Anh-Mỹ rơi vào âm đầu — chú ý khi nghe."
+
+- word: "experiment"
+  pos: "noun"
+  ipa: "/ɪkˈsperɪmənt/"
+  meaning: "cuộc thí nghiệm"
+  topic: "technical-areas"
+  sub-topic:
+  lesson: ["lesson-22"]
+  level: 750
+  forms:
+    noun: "experiment"
+    verb: "experiment"
+    adjective: "experimental"
+  collocations:
+    - en: "conduct an experiment"
+      vi: "tiến hành một thí nghiệm"
+    - en: "run a series of experiments"
+      vi: "chạy một loạt thí nghiệm"
+  example:
+    en: "The team ran one {experiment} after another for three straight days."
+    vi: "Nhóm đã chạy hết thí nghiệm này đến thí nghiệm khác suốt ba ngày liền."
+
+- word: "calibrate"
+  pos: "verb"
+  ipa: "/ˈkælɪbreɪt/"
+  meaning: "hiệu chuẩn (thiết bị đo)"
+  topic: "technical-areas"
+  sub-topic:
+  lesson: ["lesson-22"]
+  level: 900
+  forms:
+    verb: "calibrate"
+    noun: "calibration"
+  collocations:
+    - en: "calibrate the instruments"
+      vi: "hiệu chuẩn các thiết bị đo"
+    - en: "require regular calibration"
+      vi: "cần được hiệu chuẩn định kỳ"
+  example:
+    en: "Technicians must {calibrate} the sensors before every test run."
+    vi: "Kỹ thuật viên phải hiệu chuẩn các cảm biến trước mỗi lượt kiểm tra."
+
+- word: "apparatus"
+  pos: "noun"
+  ipa: "/ˌæpəˈreɪtəs/"
+  meaning: "bộ thiết bị (thí nghiệm, chuyên dụng)"
+  topic: "technical-areas"
+  sub-topic:
+  lesson: ["lesson-22"]
+  level: 900
+  forms:
+    noun: "apparatus"
+  collocations:
+    - en: "test apparatus"
+      vi: "bộ thiết bị kiểm tra"
+    - en: "set up the apparatus"
+      vi: "lắp đặt bộ thiết bị"
+  example:
+    en: "They built a test {apparatus} around a single prototype unit."
+    vi: "Họ đã dựng một bộ thiết bị kiểm tra quanh một mẫu thử duy nhất."
+  note: "Danh từ không đếm được, không thêm '-es': dùng 'a piece of apparatus' khi cần đếm."
+
+- word: "accuracy"
+  pos: "noun"
+  ipa: "/ˈækjərəsi/"
+  meaning: "độ chính xác"
+  topic: "technical-areas"
+  sub-topic:
+  lesson: ["lesson-22"]
+  level: 750
+  forms:
+    noun: "accuracy"
+    adjective: "accurate"
+    adverb: "accurately"
+  collocations:
+    - en: "ensure accuracy"
+      vi: "bảo đảm độ chính xác"
+    - en: "improve the accuracy of the readings"
+      vi: "cải thiện độ chính xác của các số đo"
+  example:
+    en: "Every reading must be recorded with a high degree of {accuracy}."
+    vi: "Mỗi số đo phải được ghi lại với độ chính xác cao."
+  note: "Họ từ hay ra Part 5: accuracy (n) – accurate (adj) – accurately (adv). Trái nghĩa: 'inaccurate'."
+
+- word: "data"
+  pos: "noun"
+  ipa: "/ˈdeɪtə/"
+  meaning: "dữ liệu"
+  topic: "technical-areas"
+  sub-topic:
+  lesson: ["lesson-22"]
+  level: 600
+  forms:
+    noun: "data"
+  collocations:
+    - en: "analyze the data"
+      vi: "phân tích dữ liệu"
+    - en: "collect data"
+      vi: "thu thập dữ liệu"
+    - en: "data entry"
+      vi: "việc nhập liệu"
+  example:
+    en: "The engineers logged all sensor {data} during the overnight run."
+    vi: "Các kỹ sư đã ghi lại toàn bộ dữ liệu cảm biến trong lượt chạy qua đêm."
+  note: "Trong tiếng Anh công sở, 'data' thường được coi là không đếm được và chia động từ số ít: 'The data shows…'."
+
+- word: "diagnostic"
+  pos: "adjective"
+  ipa: "/ˌdaɪəɡˈnɒstɪk/"
+  meaning: "mang tính chẩn đoán, dùng để dò lỗi"
+  topic: "technical-areas"
+  sub-topic:
+  lesson: ["lesson-22"]
+  level: 750
+  forms:
+    adjective: "diagnostic"
+    noun: ["diagnostics", "diagnosis"]
+    verb: "diagnose"
+  collocations:
+    - en: "run a diagnostic test"
+      vi: "chạy một bài kiểm tra chẩn đoán"
+    - en: "a diagnostic tool"
+      vi: "một công cụ chẩn đoán lỗi"
+  example:
+    en: "They ran a full {diagnostic} check before shipping the unit back."
+    vi: "Họ đã chạy một lượt kiểm tra chẩn đoán đầy đủ trước khi gửi thiết bị về."
+  note: "Ở đây 'diagnostic' là TÍNH TỪ (a diagnostic test); danh từ là 'diagnostics' (bộ công cụ chẩn đoán) hoặc 'diagnosis' (kết luận chẩn đoán)."
+
+- word: "obsolete"
+  pos: "adjective"
+  ipa: "/ˈɒbsəliːt/"
+  meaning: "lỗi thời, không còn dùng được nữa"
+  topic: "technical-areas"
+  sub-topic:
+  lesson: ["lesson-20"]
+  level: 900
+  forms:
+    adjective: "obsolete"
+    noun: "obsolescence"
+  collocations:
+    - en: "obsolete equipment"
+      vi: "thiết bị lỗi thời"
+    - en: "become obsolete"
+      vi: "trở nên lỗi thời"
+  example:
+    en: "The older control panels became {obsolete} after the wireless upgrade."
+    vi: "Các bảng điều khiển đời cũ đã trở nên lỗi thời sau lần nâng cấp không dây."
+  note: "'obsolete' (công nghệ bị thay thế) trái nghĩa với 'cutting-edge' (tiên tiến nhất) — TOEIC hay dùng cặp này ở Part 5/7."
+
+- word: "cutting-edge"
+  pos: "adjective"
+  ipa: "/ˌkʌtɪŋ ˈedʒ/"
+  meaning: "tiên tiến nhất, dẫn đầu về công nghệ"
+  topic: "technical-areas"
+  sub-topic:
+  lesson: ["lesson-20"]
+  level: 900
+  forms:
+    adjective: "cutting-edge"
+    noun: "edge"
+  collocations:
+    - en: "cutting-edge technology"
+      vi: "công nghệ tiên tiến nhất"
+    - en: "a cutting-edge design"
+      vi: "một thiết kế dẫn đầu xu hướng"
+  example:
+    en: "The lab is equipped with {cutting-edge} testing instruments."
+    vi: "Phòng thí nghiệm được trang bị các thiết bị kiểm tra tiên tiến nhất."
+  note: "Chỉ dùng làm tính từ đứng trước danh từ và luôn có gạch nối. Đồng nghĩa: 'state-of-the-art', 'advanced'."
+
+- word: "portable"
+  pos: "adjective"
+  ipa: "/ˈpɔːtəbl/"
+  meaning: "di động, xách tay"
+  topic: "technical-areas"
+  sub-topic:
+  lesson: ["lesson-22"]
+  level: 750
+  forms:
+    adjective: "portable"
+    noun: "portability"
+  collocations:
+    - en: "a portable device"
+      vi: "một thiết bị xách tay"
+    - en: "a portable heater"
+      vi: "một máy sưởi di động"
+  example:
+    en: "The unit is small and {portable} enough to fit in a backpack."
+    vi: "Thiết bị nhỏ gọn và đủ tính di động để bỏ vừa một chiếc ba lô."
+  note: "'portable' = mang đi được (nói về kích thước, trọng lượng), khác 'wireless' = không cần dây kết nối. Một thiết bị có thể portable mà không wireless."
+
+- word: "wireless"
+  pos: "adjective"
+  ipa: "/ˈwaɪələs/"
+  meaning: "không dây"
+  topic: "technical-areas"
+  sub-topic:
+  lesson: ["lesson-22"]
+  level: 600
+  forms:
+    adjective: "wireless"
+    adverb: "wirelessly"
+    noun: "wire"
+  collocations:
+    - en: "a wireless connection"
+      vi: "một kết nối không dây"
+    - en: "a wireless network"
+      vi: "một mạng không dây"
+  example:
+    en: "The {wireless} module drew a sudden surge of power during startup."
+    vi: "Mô-đun không dây đã rút một lượng điện tăng vọt lúc khởi động."

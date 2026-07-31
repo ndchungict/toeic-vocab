@@ -1,0 +1,849 @@
+- word: "purchase"
+  pos: "verb"
+  ipa: "/ˈpɜːtʃəs/"
+  meaning: "mua (hàng hóa, thiết bị); việc mua"
+  topic: "purchasing"
+  sub-topic: "ordering"
+  lesson: ["lesson-15"]
+  level: 600
+  forms:
+    verb: "purchase"
+    noun: ["purchase", "purchaser"]
+  collocations:
+    - en: "make a purchase"
+      vi: "thực hiện một giao dịch mua"
+    - en: "purchase equipment from a supplier"
+      vi: "mua thiết bị từ một nhà cung cấp"
+    - en: "proof of purchase"
+      vi: "bằng chứng mua hàng"
+  example:
+    en: "The company {purchased} parts from three different vendors last quarter."
+    vi: "Công ty đã mua linh kiện từ ba nhà cung cấp khác nhau trong quý trước."
+  note: "'purchase' trang trọng hơn 'buy' và hay xuất hiện trong văn bản TOEIC. Danh từ 'purchase' đếm được (a purchase), khác 'merchandise' không đếm được."
+
+- word: "place an order"
+  pos: "verb"
+  ipa: "/pleɪs ən ˈɔːdə(r)/"
+  meaning: "đặt hàng"
+  topic: "purchasing"
+  sub-topic: "ordering"
+  lesson: ["lesson-15"]
+  level: 750
+  forms:
+    verb: "place an order"
+    noun: "order"
+  collocations:
+    - en: "place an order with a supplier"
+      vi: "đặt hàng với một nhà cung cấp"
+    - en: "place a large order"
+      vi: "đặt một đơn hàng lớn"
+  example:
+    en: "Please {place an order} through the online system before Friday."
+    vi: "Vui lòng đặt hàng qua hệ thống trực tuyến trước thứ Sáu."
+  note: "Dùng động từ 'place', KHÔNG dùng 'make an order'. Đặt hàng VỚI ai thì dùng 'with': place an order with a supplier."
+
+- word: "purchase order"
+  pos: "noun"
+  ipa: "/ˈpɜːtʃəs ˈɔːdə(r)/"
+  meaning: "đơn đặt hàng (chứng từ chính thức)"
+  topic: "purchasing"
+  sub-topic: "ordering"
+  lesson: ["lesson-15"]
+  level: 750
+  forms:
+    noun: "purchase order"
+    verb: "purchase"
+  collocations:
+    - en: "issue a purchase order"
+      vi: "phát hành một đơn đặt hàng"
+    - en: "approve a purchase order"
+      vi: "phê duyệt một đơn đặt hàng"
+  example:
+    en: "Each shipment must be accompanied by a signed {purchase order}."
+    vi: "Mỗi lô hàng phải kèm theo một đơn đặt hàng đã ký."
+  note: "Viết tắt là PO. Đây là chứng từ bên MUA gửi cho bên bán, khác 'invoice' là chứng từ bên BÁN đòi tiền."
+
+- word: "supplier"
+  pos: "noun"
+  ipa: "/səˈplaɪə(r)/"
+  meaning: "nhà cung cấp"
+  topic: "purchasing"
+  sub-topic: "ordering"
+  lesson: ["lesson-15"]
+  level: 600
+  forms:
+    noun: ["supplier", "supply"]
+    verb: "supply"
+  collocations:
+    - en: "a reliable supplier"
+      vi: "một nhà cung cấp đáng tin cậy"
+    - en: "switch suppliers"
+      vi: "đổi nhà cung cấp"
+  example:
+    en: "They rely on a single {supplier} for all of their microchips."
+    vi: "Họ phụ thuộc vào một nhà cung cấp duy nhất cho toàn bộ vi mạch."
+
+- word: "vendor"
+  pos: "noun"
+  ipa: "/ˈvendə(r)/"
+  meaning: "bên bán, nhà cung cấp"
+  topic: "purchasing"
+  sub-topic: "ordering"
+  lesson: ["lesson-15"]
+  level: 750
+  forms:
+    noun: ["vendor", "vending"]
+  collocations:
+    - en: "approved vendors"
+      vi: "các nhà cung cấp đã được duyệt"
+    - en: "select a vendor"
+      vi: "chọn một bên bán"
+  example:
+    en: "Only approved {vendors} are allowed to bid on the contract."
+    vi: "Chỉ những nhà cung cấp đã được duyệt mới được phép dự thầu hợp đồng này."
+  note: "'vendor' ≈ 'supplier'. TOEIC hay hoán đổi hai từ này trong Part 6/7 khi diễn đạt lại (paraphrase)."
+
+- word: "quotation"
+  pos: "noun"
+  ipa: "/kwəʊˈteɪʃn/"
+  meaning: "bảng báo giá"
+  topic: "purchasing"
+  sub-topic: "ordering"
+  lesson: ["lesson-15"]
+  level: 750
+  forms:
+    noun: ["quotation", "quote"]
+    verb: "quote"
+  collocations:
+    - en: "request a quotation"
+      vi: "yêu cầu một bảng báo giá"
+    - en: "a written quotation"
+      vi: "một báo giá bằng văn bản"
+  example:
+    en: "Ray requested a {quotation} from each supplier before deciding."
+    vi: "Ray đã yêu cầu báo giá từ từng nhà cung cấp trước khi quyết định."
+  note: "'quote' là dạng nói ngắn gọn của 'quotation', dùng thay thế được. Đừng nhầm với nghĩa 'trích dẫn'."
+
+- word: "bid"
+  pos: "noun"
+  ipa: "/bɪd/"
+  meaning: "hồ sơ chào thầu, giá bỏ thầu"
+  topic: "purchasing"
+  sub-topic: "ordering"
+  lesson: ["lesson-15"]
+  level: 750
+  forms:
+    noun: ["bid", "bidder"]
+    verb: "bid"
+  collocations:
+    - en: "submit a bid"
+      vi: "nộp hồ sơ chào thầu"
+    - en: "win the bid"
+      vi: "thắng thầu"
+    - en: "the lowest bid"
+      vi: "giá bỏ thầu thấp nhất"
+  example:
+    en: "The lowest qualified {bid} won the maintenance contract."
+    vi: "Hồ sơ chào thầu hợp lệ có giá thấp nhất đã thắng hợp đồng bảo trì."
+  note: "Động từ 'bid' bất quy tắc: bid – bid – bid. 'bid on/for sth' = dự thầu cho việc gì."
+
+- word: "in bulk"
+  pos: "preposition"
+  ipa: "/ɪn bʌlk/"
+  meaning: "với số lượng lớn"
+  topic: "purchasing"
+  sub-topic: "ordering"
+  lesson: ["lesson-15"]
+  level: 750
+  forms:
+    preposition: "in bulk"
+    noun: "bulk"
+    adjective: "bulk"
+  collocations:
+    - en: "buy in bulk"
+      vi: "mua với số lượng lớn"
+    - en: "a bulk order"
+      vi: "một đơn hàng số lượng lớn"
+  example:
+    en: "Buying paper {in bulk} earns the office a bigger discount."
+    vi: "Mua giấy với số lượng lớn giúp văn phòng được giảm giá nhiều hơn."
+
+- word: "wholesale"
+  pos: "noun"
+  ipa: "/ˈhəʊlseɪl/"
+  meaning: "bán buôn, bán sỉ"
+  topic: "purchasing"
+  sub-topic: "ordering"
+  lesson: ["lesson-15"]
+  level: 750
+  forms:
+    noun: ["wholesale", "wholesaler"]
+    adjective: "wholesale"
+  collocations:
+    - en: "at wholesale prices"
+      vi: "với giá bán buôn"
+    - en: "a wholesale distributor"
+      vi: "một nhà phân phối bán buôn"
+  example:
+    en: "Factories buy their materials at {wholesale} prices, not retail."
+    vi: "Các nhà máy mua nguyên vật liệu theo giá bán buôn, không phải giá bán lẻ."
+  note: "Cặp đối lập bắt buộc nhớ: 'wholesale' (bán buôn, số lượng lớn) ↔ 'retail' (bán lẻ, bán cho người tiêu dùng)."
+
+- word: "discount"
+  pos: "noun"
+  ipa: "/ˈdɪskaʊnt/"
+  meaning: "sự giảm giá, khoản chiết khấu"
+  topic: "purchasing"
+  sub-topic: "ordering"
+  lesson: ["lesson-15"]
+  level: 600
+  forms:
+    noun: "discount"
+    verb: "discount"
+    adjective: "discounted"
+  collocations:
+    - en: "offer a 20% discount"
+      vi: "đưa ra mức giảm giá 20%"
+    - en: "negotiate a discount"
+      vi: "thương lượng mức giảm giá"
+    - en: "at a discount"
+      vi: "với giá đã giảm"
+  example:
+    en: "Orders over 500 units qualify for a 25% {discount}."
+    vi: "Các đơn hàng trên 500 sản phẩm được hưởng mức giảm giá 25%."
+
+- word: "markdown"
+  pos: "noun"
+  ipa: "/ˈmɑːkdaʊn/"
+  meaning: "sự hạ giá bán"
+  topic: "purchasing"
+  sub-topic: "ordering"
+  lesson: ["lesson-15"]
+  level: 900
+  forms:
+    noun: "markdown"
+    verb: "mark down"
+  collocations:
+    - en: "a further markdown"
+      vi: "một đợt hạ giá thêm"
+    - en: "a 20% markdown on last year's models"
+      vi: "mức hạ giá 20% cho các mẫu năm ngoái"
+  example:
+    en: "The store announced a further {markdown} on all winter items."
+    vi: "Cửa hàng thông báo hạ giá thêm cho toàn bộ hàng mùa đông."
+  note: "'markdown' (hạ giá) trái nghĩa với 'markup' (phần chênh lệch cộng thêm vào giá vốn) — TOEIC hay đánh lừa bằng cặp này."
+
+- word: "clearance sale"
+  pos: "noun"
+  ipa: "/ˈklɪərəns seɪl/"
+  meaning: "đợt xả hàng, bán thanh lý"
+  topic: "purchasing"
+  sub-topic: "ordering"
+  lesson: ["lesson-15"]
+  level: 900
+  forms:
+    noun: ["clearance sale", "clearance"]
+    verb: "clear"
+  collocations:
+    - en: "hold a clearance sale"
+      vi: "tổ chức một đợt xả hàng"
+    - en: "clearance items"
+      vi: "hàng thanh lý"
+  example:
+    en: "The supplier held a {clearance sale} to empty its old warehouse."
+    vi: "Nhà cung cấp đã tổ chức một đợt xả hàng để dọn trống kho cũ."
+
+- word: "catalog"
+  pos: "noun"
+  ipa: "/ˈkætəlɒɡ/"
+  meaning: "danh mục sản phẩm"
+  topic: "purchasing"
+  sub-topic: "ordering"
+  lesson: ["lesson-15"]
+  level: 600
+  forms:
+    noun: "catalog"
+    verb: "catalog"
+  collocations:
+    - en: "browse the catalog"
+      vi: "xem qua danh mục sản phẩm"
+    - en: "the latest product catalog"
+      vi: "danh mục sản phẩm mới nhất"
+  example:
+    en: "Fred checked the vendor's {catalog} for the replacement part number."
+    vi: "Fred tra danh mục sản phẩm của bên bán để tìm mã linh kiện thay thế."
+  note: "Anh-Anh viết là 'catalogue', Anh-Mỹ viết 'catalog' — hai cách viết của cùng một từ."
+
+- word: "merchandise"
+  pos: "noun"
+  ipa: "/ˈmɜːtʃəndaɪz/"
+  meaning: "hàng hóa (nói chung)"
+  topic: "purchasing"
+  sub-topic: "ordering"
+  lesson: ["lesson-15"]
+  level: 750
+  forms:
+    noun: ["merchandise", "merchandising"]
+    verb: "merchandise"
+  collocations:
+    - en: "display the merchandise"
+      vi: "trưng bày hàng hóa"
+    - en: "return unsold merchandise"
+      vi: "trả lại hàng chưa bán được"
+  example:
+    en: "Each order form lists the {merchandise} and the quantity requested."
+    vi: "Mỗi phiếu đặt hàng liệt kê hàng hóa và số lượng yêu cầu."
+  note: "Danh từ KHÔNG đếm được: không có 'merchandises', không dùng 'a merchandise'. Muốn đếm thì nói 'items of merchandise'."
+
+- word: "inventory"
+  pos: "noun"
+  ipa: "/ˈɪnvəntri/"
+  meaning: "hàng tồn kho; bản kiểm kê"
+  topic: "purchasing"
+  sub-topic: "inventory-supplies"
+  lesson: ["lesson-15"]
+  level: 750
+  forms:
+    noun: "inventory"
+  collocations:
+    - en: "take inventory"
+      vi: "kiểm kê hàng trong kho"
+    - en: "reduce excess inventory"
+      vi: "giảm lượng hàng tồn kho dư thừa"
+  example:
+    en: "The staff took {inventory} of every shelf in the warehouse."
+    vi: "Nhân viên đã kiểm kê từng kệ hàng trong kho."
+  note: "Cụm cố định 'take inventory' = kiểm kê (không dùng 'do inventory')."
+
+- word: "stock"
+  pos: "noun"
+  ipa: "/stɒk/"
+  meaning: "hàng có sẵn trong kho"
+  topic: "purchasing"
+  sub-topic: "inventory-supplies"
+  lesson: ["lesson-14", "lesson-15"]
+  level: 600
+  forms:
+    noun: "stock"
+    verb: "stock"
+  collocations:
+    - en: "in stock"
+      vi: "còn hàng"
+    - en: "out of stock"
+      vi: "hết hàng"
+    - en: "run out of stock"
+      vi: "cạn hàng trong kho"
+  example:
+    en: "The item you requested is currently out of {stock}."
+    vi: "Mặt hàng bạn yêu cầu hiện đang hết hàng."
+  note: "Ở chủ đề Purchasing, 'stock' = hàng trong kho; ở chủ đề Finance, 'stock' = cổ phiếu. Đọc ngữ cảnh để chọn nghĩa."
+
+- word: "replenish"
+  pos: "verb"
+  ipa: "/rɪˈplenɪʃ/"
+  meaning: "bổ sung lại (hàng, vật tư đã dùng hết)"
+  topic: "purchasing"
+  sub-topic: "inventory-supplies"
+  lesson: ["lesson-15"]
+  level: 900
+  forms:
+    verb: "replenish"
+    noun: "replenishment"
+  collocations:
+    - en: "replenish supplies"
+      vi: "bổ sung vật tư"
+    - en: "replenish the stock"
+      vi: "bổ sung hàng trong kho"
+  example:
+    en: "The warehouse must {replenish} any item that falls below fifty units."
+    vi: "Kho phải bổ sung bất kỳ mặt hàng nào còn dưới năm mươi đơn vị."
+
+- word: "backorder"
+  pos: "noun"
+  ipa: "/ˈbækɔːdə(r)/"
+  meaning: "đơn hàng chờ (do tạm hết hàng)"
+  topic: "purchasing"
+  sub-topic: "inventory-supplies"
+  lesson: ["lesson-15"]
+  level: 900
+  forms:
+    noun: "backorder"
+    verb: "backorder"
+  collocations:
+    - en: "be on backorder"
+      vi: "đang trong tình trạng chờ hàng"
+    - en: "place an item on backorder"
+      vi: "đưa một mặt hàng vào diện chờ hàng"
+  example:
+    en: "The microchips are on {backorder} and will ship in three weeks."
+    vi: "Số vi mạch đang trong diện chờ hàng và sẽ được gửi sau ba tuần."
+  note: "Luôn đi với giới từ 'on': the item is on backorder."
+
+- word: "supplies"
+  pos: "noun"
+  ipa: "/səˈplaɪz/"
+  meaning: "vật tư, đồ dùng phục vụ công việc"
+  topic: "purchasing"
+  sub-topic: "inventory-supplies"
+  lesson: ["lesson-02", "lesson-15"]
+  level: 600
+  forms:
+    noun: ["supplies", "supplier"]
+    verb: "supply"
+  collocations:
+    - en: "order more supplies"
+      vi: "đặt thêm vật tư"
+    - en: "office supplies"
+      vi: "văn phòng phẩm"
+  example:
+    en: "We need to order more {supplies} before the shipment leaves."
+    vi: "Chúng ta cần đặt thêm vật tư trước khi lô hàng được gửi đi."
+  note: "Nghĩa 'vật tư' luôn ở dạng số nhiều 'supplies'. Số ít 'supply' mang nghĩa 'nguồn cung' (supply and demand)."
+
+- word: "surplus"
+  pos: "noun"
+  ipa: "/ˈsɜːpləs/"
+  meaning: "hàng dư thừa, phần còn dư"
+  topic: "purchasing"
+  sub-topic: "inventory-supplies"
+  lesson: ["lesson-14", "lesson-15"]
+  level: 900
+  forms:
+    noun: "surplus"
+    adjective: "surplus"
+  collocations:
+    - en: "surplus stock"
+      vi: "hàng tồn dư thừa"
+    - en: "sell off the surplus"
+      vi: "bán tháo phần hàng dư"
+  example:
+    en: "The extra parts became {surplus} once the project was cancelled."
+    vi: "Số linh kiện thừa trở thành hàng dư sau khi dự án bị hủy."
+  note: "Ở Purchasing, 'surplus' = hàng dư thừa; ở Finance, 'surplus' = thặng dư ngân sách. Trái nghĩa: 'shortage' / 'deficit'."
+
+- word: "shipment"
+  pos: "noun"
+  ipa: "/ˈʃɪpmənt/"
+  meaning: "lô hàng được gửi đi"
+  topic: "purchasing"
+  sub-topic: "shipping"
+  lesson: ["lesson-16"]
+  level: 600
+  forms:
+    noun: ["shipment", "shipping", "shipper"]
+    verb: "ship"
+  collocations:
+    - en: "track a shipment"
+      vi: "theo dõi một lô hàng"
+    - en: "delay a shipment"
+      vi: "hoãn một lô hàng"
+  example:
+    en: "The expedited {shipment} left the Halston warehouse that night."
+    vi: "Lô hàng được đẩy nhanh đã rời kho Halston ngay đêm đó."
+  note: "'shipment' = lô hàng cụ thể (đếm được); 'shipping' = việc vận chuyển hoặc phí vận chuyển (không đếm được)."
+
+- word: "dispatch"
+  pos: "verb"
+  ipa: "/dɪˈspætʃ/"
+  meaning: "gửi đi, điều đi (hàng hóa, người)"
+  topic: "purchasing"
+  sub-topic: "shipping"
+  lesson: ["lesson-16"]
+  level: 900
+  forms:
+    verb: "dispatch"
+    noun: "dispatch"
+  collocations:
+    - en: "dispatch the goods"
+      vi: "gửi hàng đi"
+    - en: "dispatch a technician"
+      vi: "điều một kỹ thuật viên đến"
+  example:
+    en: "The supplier {dispatched} the replacement parts the same afternoon."
+    vi: "Nhà cung cấp đã gửi số linh kiện thay thế đi ngay chiều hôm đó."
+
+- word: "freight"
+  pos: "noun"
+  ipa: "/freɪt/"
+  meaning: "hàng vận chuyển; cước vận chuyển"
+  topic: "purchasing"
+  sub-topic: "shipping"
+  lesson: ["lesson-16"]
+  level: 750
+  forms:
+    noun: "freight"
+  collocations:
+    - en: "freight charges"
+      vi: "phí cước vận chuyển"
+    - en: "air freight"
+      vi: "vận chuyển bằng đường hàng không"
+    - en: "sea freight"
+      vi: "vận chuyển bằng đường biển"
+  example:
+    en: "Sea {freight} would have taken three weeks longer than air."
+    vi: "Vận chuyển bằng đường biển sẽ mất lâu hơn đường hàng không ba tuần."
+  note: "Danh từ không đếm được. Phát âm /freɪt/ — chữ 'ei' đọc như 'eight', đây là bẫy nghe ở Part 1–4."
+
+- word: "carrier"
+  pos: "noun"
+  ipa: "/ˈkæriə(r)/"
+  meaning: "hãng vận chuyển"
+  topic: "purchasing"
+  sub-topic: "shipping"
+  lesson: ["lesson-16"]
+  level: 750
+  forms:
+    noun: ["carrier", "carriage"]
+    verb: "carry"
+  collocations:
+    - en: "switch to a faster carrier"
+      vi: "chuyển sang một hãng vận chuyển nhanh hơn"
+    - en: "an international carrier"
+      vi: "một hãng vận chuyển quốc tế"
+  example:
+    en: "Ray booked an air {carrier} to save four days of transit time."
+    vi: "Ray đã đặt một hãng vận chuyển hàng không để tiết kiệm bốn ngày vận chuyển."
+  note: "Phân biệt 'carrier' (hãng vận tải lớn, chở hàng khối lượng lớn bằng máy bay/tàu biển) với 'courier' (dịch vụ chuyển phát nhanh kiện nhỏ)."
+
+- word: "courier"
+  pos: "noun"
+  ipa: "/ˈkʊriə(r)/"
+  meaning: "dịch vụ chuyển phát nhanh; người giao chuyển phát"
+  topic: "purchasing"
+  sub-topic: "shipping"
+  lesson: ["lesson-16"]
+  level: 750
+  forms:
+    noun: "courier"
+  collocations:
+    - en: "send documents by courier"
+      vi: "gửi tài liệu qua dịch vụ chuyển phát nhanh"
+    - en: "an overnight courier"
+      vi: "một dịch vụ chuyển phát qua đêm"
+  example:
+    en: "The urgent samples arrived by {courier} early this morning."
+    vi: "Các mẫu hàng khẩn đã đến bằng dịch vụ chuyển phát nhanh vào sáng sớm nay."
+  note: "Đi với giới từ 'by': send sth by courier (không có mạo từ)."
+
+- word: "expedite"
+  pos: "verb"
+  ipa: "/ˈekspədaɪt/"
+  meaning: "đẩy nhanh, xúc tiến cho nhanh hơn"
+  topic: "purchasing"
+  sub-topic: "shipping"
+  lesson: ["lesson-16"]
+  level: 750
+  forms:
+    verb: "expedite"
+    adjective: "expedited"
+  collocations:
+    - en: "expedite the shipping"
+      vi: "đẩy nhanh việc vận chuyển"
+    - en: "expedite the approval process"
+      vi: "đẩy nhanh quy trình phê duyệt"
+  example:
+    en: "They paid an extra fee to {expedite} the delivery of the chips."
+    vi: "Họ đã trả thêm phí để đẩy nhanh việc giao số vi mạch."
+  note: "Từ rất hay ra Part 5/6, thường đi với shipment / delivery / order / process. Đồng nghĩa: 'speed up', 'accelerate'."
+
+- word: "shipping and handling"
+  pos: "noun"
+  ipa: "/ˈʃɪpɪŋ ənd ˈhændlɪŋ/"
+  meaning: "phí vận chuyển và xử lý đơn hàng"
+  topic: "purchasing"
+  sub-topic: "shipping"
+  lesson: ["lesson-16"]
+  level: 750
+  forms:
+    noun: "shipping and handling"
+    verb: ["ship", "handle"]
+  collocations:
+    - en: "cover shipping and handling"
+      vi: "chi trả phí vận chuyển và xử lý"
+    - en: "shipping and handling charges"
+      vi: "các khoản phí vận chuyển và xử lý"
+  example:
+    en: "{Shipping and handling} was listed separately at the bottom of the bill."
+    vi: "Phí vận chuyển và xử lý được ghi riêng ở cuối hóa đơn."
+  note: "Luôn đi thành một cụm cố định và coi như danh từ số ít khi chia động từ."
+
+- word: "surcharge"
+  pos: "noun"
+  ipa: "/ˈsɜːtʃɑːdʒ/"
+  meaning: "phụ phí, khoản phí thu thêm"
+  topic: "purchasing"
+  sub-topic: "shipping"
+  lesson: ["lesson-16"]
+  level: 750
+  forms:
+    noun: "surcharge"
+    verb: "surcharge"
+  collocations:
+    - en: "a delivery surcharge"
+      vi: "phụ phí giao hàng"
+    - en: "a fuel surcharge"
+      vi: "phụ phí nhiên liệu"
+  example:
+    en: "A small {surcharge} applies to all rush delivery requests."
+    vi: "Một khoản phụ phí nhỏ được áp dụng cho mọi yêu cầu giao hàng gấp."
+  note: "Tiền tố 'sur-' nghĩa là 'thêm vào'. Đừng nhầm với 'discount' (giảm giá) hay 'refund' (hoàn tiền)."
+
+- word: "fragile"
+  pos: "adjective"
+  ipa: "/ˈfrædʒaɪl/"
+  meaning: "dễ vỡ, mong manh"
+  topic: "purchasing"
+  sub-topic: "shipping"
+  lesson: ["lesson-16"]
+  level: 750
+  forms:
+    adjective: "fragile"
+    noun: "fragility"
+  collocations:
+    - en: "fragile items"
+      vi: "các mặt hàng dễ vỡ"
+    - en: "handle with care — fragile"
+      vi: "xin nhẹ tay — hàng dễ vỡ"
+  example:
+    en: "The crates were clearly marked {fragile} before they were loaded."
+    vi: "Các thùng gỗ đã được dán nhãn hàng dễ vỡ rõ ràng trước khi bốc lên xe."
+
+- word: "packaging"
+  pos: "noun"
+  ipa: "/ˈpækɪdʒɪŋ/"
+  meaning: "bao bì đóng gói"
+  topic: "purchasing"
+  sub-topic: "shipping"
+  lesson: ["lesson-16"]
+  level: 600
+  forms:
+    noun: ["packaging", "package"]
+    verb: "package"
+  collocations:
+    - en: "damaged packaging"
+      vi: "bao bì bị hư hại"
+    - en: "protective packaging"
+      vi: "bao bì bảo vệ"
+  example:
+    en: "The {packaging} was crushed on one side during transit."
+    vi: "Phần bao bì bị bẹp một bên trong quá trình vận chuyển."
+  note: "'packaging' (bao bì, không đếm được) khác 'package' (kiện hàng, đếm được)."
+
+- word: "damaged"
+  pos: "adjective"
+  ipa: "/ˈdæmɪdʒd/"
+  meaning: "bị hư hại (do va đập, vận chuyển)"
+  topic: "purchasing"
+  sub-topic: "shipping"
+  lesson: ["lesson-16"]
+  level: 600
+  forms:
+    adjective: "damaged"
+    noun: "damage"
+    verb: "damage"
+  collocations:
+    - en: "arrive damaged"
+      vi: "đến nơi trong tình trạng hư hại"
+    - en: "report damaged goods"
+      vi: "báo cáo hàng bị hư hại"
+  example:
+    en: "Half of the units arrived {damaged} because the crate was dropped."
+    vi: "Một nửa số sản phẩm đến nơi bị hư hại vì thùng hàng đã bị rơi."
+  note: "Danh từ 'damage' không đếm được (không có 'damages' theo nghĩa hư hại; 'damages' số nhiều nghĩa là tiền bồi thường)."
+
+- word: "defective"
+  pos: "adjective"
+  ipa: "/dɪˈfektɪv/"
+  meaning: "bị lỗi (do sản xuất)"
+  topic: "purchasing"
+  sub-topic: "shipping"
+  lesson: ["lesson-16"]
+  level: 750
+  forms:
+    adjective: "defective"
+    noun: "defect"
+  collocations:
+    - en: "a defective item"
+      vi: "một sản phẩm bị lỗi"
+    - en: "return defective units"
+      vi: "trả lại các sản phẩm bị lỗi"
+  example:
+    en: "Some units were {defective} straight from the factory line."
+    vi: "Một số sản phẩm đã bị lỗi ngay từ dây chuyền của nhà máy."
+  note: "Phân biệt: 'defective' = lỗi từ khâu sản xuất (bản thân sản phẩm), còn 'damaged' = hỏng do tác động bên ngoài khi vận chuyển. TOEIC rất hay bắt phân biệt cặp này."
+
+- word: "invoice"
+  pos: "noun"
+  ipa: "/ˈɪnvɔɪs/"
+  meaning: "hóa đơn đề nghị thanh toán"
+  topic: "purchasing"
+  sub-topic: "invoicing-payment"
+  lesson: ["lesson-13", "lesson-16"]
+  level: 600
+  forms:
+    noun: "invoice"
+    verb: "invoice"
+  collocations:
+    - en: "settle an invoice"
+      vi: "thanh toán một hóa đơn"
+    - en: "dispute an invoice"
+      vi: "khiếu nại một hóa đơn"
+    - en: "attach the invoice"
+      vi: "đính kèm hóa đơn"
+  example:
+    en: "The {invoice} arrived together with the shipment on Tuesday."
+    vi: "Hóa đơn được gửi đến cùng lô hàng vào thứ Ba."
+  note: "'invoice' là chứng từ bên bán đòi tiền; 'receipt' là biên lai xác nhận đã trả tiền; 'purchase order' là đơn bên mua đặt hàng."
+
+- word: "itemize"
+  pos: "verb"
+  ipa: "/ˈaɪtəmaɪz/"
+  meaning: "liệt kê chi tiết từng khoản"
+  topic: "purchasing"
+  sub-topic: "invoicing-payment"
+  lesson: ["lesson-16"]
+  level: 750
+  forms:
+    verb: "itemize"
+    adjective: "itemized"
+    noun: "item"
+  collocations:
+    - en: "an itemized invoice"
+      vi: "một hóa đơn liệt kê chi tiết"
+    - en: "itemize every charge"
+      vi: "liệt kê chi tiết từng khoản phí"
+  example:
+    en: "The accountant {itemized} every charge on the final bill."
+    vi: "Kế toán đã liệt kê chi tiết từng khoản phí trên hóa đơn cuối cùng."
+
+- word: "due"
+  pos: "adjective"
+  ipa: "/djuː/"
+  meaning: "đến hạn (phải thanh toán, phải nộp)"
+  topic: "purchasing"
+  sub-topic: "invoicing-payment"
+  lesson: ["lesson-16"]
+  level: 600
+  forms:
+    adjective: "due"
+  collocations:
+    - en: "payment is due on the 15th"
+      vi: "khoản thanh toán đến hạn vào ngày 15"
+    - en: "the due date"
+      vi: "ngày đến hạn"
+    - en: "past due"
+      vi: "quá hạn"
+  example:
+    en: "Payment was {due} within ten days of receiving the invoice."
+    vi: "Khoản thanh toán đến hạn trong vòng mười ngày kể từ khi nhận hóa đơn."
+  note: "Đi với 'on' + ngày cụ thể (due on May 3) hoặc 'by' + hạn chót (due by Friday). Đừng nhầm 'due' (đến hạn) với 'valid' (còn hiệu lực)."
+
+- word: "outstanding balance"
+  pos: "noun"
+  ipa: "/aʊtˈstændɪŋ ˈbæləns/"
+  meaning: "số dư chưa thanh toán"
+  topic: "purchasing"
+  sub-topic: "invoicing-payment"
+  lesson: ["lesson-16"]
+  level: 750
+  forms:
+    noun: ["outstanding balance", "balance"]
+    adjective: "outstanding"
+  collocations:
+    - en: "clear an outstanding balance"
+      vi: "thanh toán hết số dư còn nợ"
+    - en: "an outstanding balance of $2,000"
+      vi: "số dư chưa thanh toán là 2.000 đô la"
+  example:
+    en: "An {outstanding balance} from the previous order still appears on the account."
+    vi: "Số dư chưa thanh toán từ đơn hàng trước vẫn còn hiện trên tài khoản."
+  note: "'outstanding' ở đây nghĩa là 'chưa thanh toán', khác hẳn nghĩa 'xuất sắc' (an outstanding employee) — bẫy nghĩa kép rất hay gặp."
+
+- word: "refund"
+  pos: "noun"
+  ipa: "/ˈriːfʌnd/"
+  meaning: "tiền hoàn lại"
+  topic: "purchasing"
+  sub-topic: "invoicing-payment"
+  lesson: ["lesson-16"]
+  level: 600
+  forms:
+    noun: "refund"
+    verb: "refund"
+    adjective: "refundable"
+  collocations:
+    - en: "request a full refund"
+      vi: "yêu cầu hoàn lại toàn bộ tiền"
+    - en: "issue a refund"
+      vi: "thực hiện hoàn tiền"
+    - en: "a non-refundable deposit"
+      vi: "khoản đặt cọc không hoàn lại"
+  example:
+    en: "Ray demanded a full {refund} for the damaged parts."
+    vi: "Ray yêu cầu hoàn lại toàn bộ tiền cho số linh kiện bị hư hại."
+  note: "Danh từ nhấn âm đầu /ˈriːfʌnd/, động từ nhấn âm sau /rɪˈfʌnd/ — bẫy trọng âm ở phần Listening."
+
+- word: "exchange"
+  pos: "verb"
+  ipa: "/ɪksˈtʃeɪndʒ/"
+  meaning: "đổi hàng, trao đổi"
+  topic: "purchasing"
+  sub-topic: "invoicing-payment"
+  lesson: ["lesson-16"]
+  level: 600
+  forms:
+    verb: "exchange"
+    noun: "exchange"
+    adjective: "exchangeable"
+  collocations:
+    - en: "exchange an item for a new one"
+      vi: "đổi một sản phẩm lấy sản phẩm mới"
+    - en: "in exchange for"
+      vi: "để đổi lấy"
+  example:
+    en: "He asked to {exchange} the defective units for working ones."
+    vi: "Anh ấy đề nghị đổi các sản phẩm bị lỗi lấy sản phẩm hoạt động tốt."
+  note: "Đổi X LẤY Y dùng giới từ 'for': exchange it for a new one. 'refund' (hoàn tiền) và 'exchange' (đổi hàng) là hai cách xử lý hàng lỗi."
+
+- word: "free of charge"
+  pos: "adverb"
+  ipa: "/friː əv tʃɑːdʒ/"
+  meaning: "miễn phí"
+  topic: "purchasing"
+  sub-topic: "invoicing-payment"
+  lesson: ["lesson-16"]
+  level: 750
+  forms:
+    adverb: "free of charge"
+    adjective: "free"
+  collocations:
+    - en: "repaired free of charge"
+      vi: "được sửa chữa miễn phí"
+    - en: "sent free of charge"
+      vi: "được gửi miễn phí"
+  example:
+    en: "All replacement units were shipped {free of charge}."
+    vi: "Toàn bộ sản phẩm thay thế đã được gửi đi miễn phí."
+  note: "Đồng nghĩa với 'at no additional cost' và 'at no cost' — Part 6/7 rất hay hoán đổi các cụm này khi diễn đạt lại."
+
+- word: "at no additional cost"
+  pos: "preposition"
+  ipa: "/ət nəʊ əˈdɪʃənl kɒst/"
+  meaning: "không mất thêm chi phí nào"
+  topic: "purchasing"
+  sub-topic: "invoicing-payment"
+  lesson: ["lesson-16"]
+  level: 750
+  forms:
+    preposition: "at no additional cost"
+    adjective: "additional"
+    noun: "cost"
+  collocations:
+    - en: "shipped at no additional cost"
+      vi: "được gửi mà không mất thêm chi phí"
+    - en: "upgraded at no additional cost"
+      vi: "được nâng cấp mà không mất thêm chi phí"
+  example:
+    en: "The supplier reshipped the order {at no additional cost} to us."
+    vi: "Nhà cung cấp đã gửi lại đơn hàng mà chúng tôi không mất thêm chi phí nào."
+  note: "Cùng nghĩa với 'free of charge'. Chú ý mạo từ: dùng 'no', không dùng 'without additional cost'."
