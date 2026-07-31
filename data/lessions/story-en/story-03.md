@@ -6,8 +6,6 @@
 
 ---
 
-## Phần 1 — Truyện chêm (học từ qua ngữ cảnh)
-
 Sáng thứ Ba, Priya tới văn phòng sớm hơn thường lệ. Câu nói bâng quơ của John SB tối hôm trước — "sắp nghỉ tới nơi" — vẫn văng vẳng, và cô đã quyết: phải **recruit** (tuyển dụng) người mới cho Project Aria trước khi guồng máy giấy tờ vỡ trận.
 
 Việc đầu tiên là đăng một **job opening** (vị trí tuyển dụng) cho suất "management trainee" — trợ lý điều hành học việc. Trên cổng tuyển dụng, cô gõ dòng tiêu đề: "**Vacancy** (vị trí còn trống): Management Trainee — Project Aria." Vừa nhấn "đăng", John SB đi ngang, liếc màn hình rồi buông một câu quen thuộc: "Ồ, cuối cùng cũng có một **vacancy**. Hay là em nộp đơn… để được chuyển đi chỗ khác nhỉ?" Priya chỉ cười — trò dọa nghỉ của John giờ đã thành đặc sản của tầng 12.
@@ -29,37 +27,6 @@ Priya ghi chú vào hồ sơ của Ben: sẽ có một **performance review** (�
 *Hết Chương 3. Chương sau (lesson-04): Priya vạch lịch cho Ben luân chuyển qua từng phòng ban — đôi mắt mới của Project Aria đi khắp công ty. Nhưng vừa mừng vì kéo được người mới vào, cô đã nghe phong thanh rằng có kẻ đang ngấm ngầm chèo kéo một kỹ sư chủ chốt rời đi — và cuộc chiến **giữ** người sắp tới còn cam go hơn cuộc chiến tuyển người.*
 
 ---
-
-## Phần 2 — Bảng tổng hợp từ vựng
-
-| Từ | Phiên âm (IPA) | Loại | Nghĩa | Collocation thường gặp | Ví dụ câu tiếng Anh |
-|---|---|---|---|---|---|
-| recruit | /rɪˈkruːt/ | v | tuyển dụng | recruit new staff → recruitment (n) | The company had to recruit ten new engineers for the project. |
-| job opening / vacancy | /ˈveɪkənsi/ | n | vị trí đang tuyển; chỗ còn trống | post a job opening; fill a vacancy | Aster posted a job opening to fill the one vacancy on the team. |
-| applicant | /ˈæplɪkənt/ | n | người nộp đơn | a qualified applicant | Every applicant must submit a résumé and a cover letter. |
-| applicant pool | — | n | nguồn ứng viên | a large applicant pool | This year's applicant pool was larger than expected. |
-| résumé | /ˈrezjumeɪ/ | n | sơ yếu lý lịch (CV) | submit a résumé | Please attach your résumé to the online form. |
-| cover letter | — | n | thư xin việc | write a cover letter | A strong cover letter explains why you want the job. |
-| qualification | /ˌkwɒlɪfɪˈkeɪʃn/ | n | trình độ, bằng cấp | meet the qualifications | Applicants who lack the minimum qualifications will not be interviewed. |
-| credentials | /krəˈdenʃlz/ | n | chứng chỉ, năng lực | verify sb's credentials | The HR team verified each finalist's credentials. |
-| candidate | /ˈkændɪdət/ | n | ứng viên | shortlist candidates | Only the strongest candidates were invited to interview. |
-| interview | /ˈɪntəvjuː/ | n/v | phỏng vấn | → interviewer / interviewee | Ben was nervous during his first job interview. |
-| reference | /ˈrefrəns/ | n | người/thư giới thiệu | provide / check references | She listed two former managers as references. |
-| prospective | /prəˈspektɪv/ | adj | tiềm năng, tương lai | a prospective employee | A prospective employee may lack experience but show potential. |
-| hire | /ˈhaɪə(r)/ | v | thuê, tuyển | hire a new manager | Priya decided to hire Ben as a trainee. |
-| orientation | /ˌɔːriənˈteɪʃn/ | n | buổi định hướng nhân viên mới | attend orientation | New employees attend an orientation on their first day. |
-| probation | /prəˈbeɪʃn/ | n | thời gian thử việc | a 3-month probation period | Ben must complete a three-month probation period. |
-| mentor | /ˈmentɔː(r)/ | n | người hướng dẫn, cố vấn | act as a mentor | Priya will act as Ben's mentor during his first months. |
-| supervisor | /ˈsuːpəvaɪzə(r)/ | n | quản lý trực tiếp | report to your supervisor | Ben reports to his supervisor every morning. |
-| subordinate | /səˈbɔːdɪnət/ | n | cấp dưới | a junior subordinate | As the newest subordinate, Ben had a lot to learn. |
-| competent | /ˈkɒmpɪtənt/ | adj | có năng lực | a competent employee | Ben quickly proved to be a competent assistant. |
-| proficient | /prəˈfɪʃnt/ | adj | thành thạo | proficient in / with sth | She is proficient in three languages. |
-| performance review | — | n | đánh giá hiệu suất | conduct a performance review | His first performance review is scheduled for next month. |
-| appraisal | /əˈpreɪzl/ | n | sự đánh giá (nhân viên) | an annual appraisal | Every employee receives an annual appraisal. |
-
----
-
-## Phần 3 — Bản truyện tiếng Anh (luyện đọc/nghe)
 
 ### Chapter 3 — The New Face on the Twelfth Floor
 

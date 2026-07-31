@@ -6,8 +6,6 @@
 
 ---
 
-## Phần 1 — Truyện chêm (học từ qua ngữ cảnh)
-
 Chiều thứ Hai, chỉ vài tiếng sau khi cuộc họp HĐQT lịch sử khép lại, tầng 12 trụ sở Aster đã biến thành một mê cung giấy tờ. Diane giao Priya soạn memo gửi các trưởng phòng "ngay chiều nay". Là người **in charge of** (phụ trách) toàn bộ khối hành chính, Priya hiểu "chiều nay" nghĩa là phải thật **prompt** (nhanh chóng) — không còn chỗ cho trì hoãn.
 
 Kế hoạch nghe qua thì đơn giản: **duplicate** (sao chép) bốn mươi bản kế hoạch, rồi **distribute** (phân phát) tới từng phòng ban trước giờ tan làm. Priya ôm xấp giấy tới chiếc **photocopier** (máy photocopy) đầu hành lang, nhấn nút — và màn hình chớp đỏ hai chữ quen thuộc: **out of order** (hỏng, không dùng được).
@@ -27,32 +25,6 @@ Tối muộn, ngồi giữa văn phòng ngổn ngang, Priya nhận ra gốc rễ
 *Hết Chương 2. Chương sau (lesson-03): Priya gõ dòng cuối trong email gửi Diane — "mình phải tuyển người, càng sớm càng tốt" — và đợt tuyển dụng gấp rút sắp đưa một gương mặt trainee mới bước qua cánh cửa tầng 12.*
 
 ---
-
-## Phần 2 — Bảng tổng hợp từ vựng
-
-| Từ | Phiên âm (IPA) | Loại | Nghĩa | Collocation thường gặp | Ví dụ câu tiếng Anh |
-|---|---|---|---|---|---|
-| photocopier | /ˈfəʊtəʊkɒpiə(r)/ | n | máy photocopy | — | The photocopier on the twelfth floor broke down again this morning. |
-| out of order | — | phr | hỏng, không dùng được | The copier is out of order. | The printer has been out of order since Monday. |
-| jam | /dʒæm/ | v/n | kẹt (giấy) | the printer is jammed | The machine jams almost every time someone prints in bulk. |
-| toner cartridge | — | n | hộp mực in | replace the toner cartridge | A technician replaced the empty toner cartridge. |
-| stationery | /ˈsteɪʃənri/ | n | văn phòng phẩm | order stationery | Please order more stationery before we run out. |
-| supplies | /səˈplaɪz/ | n | vật tư văn phòng | office supplies are running low | Our office supplies are running low again this month. |
-| filing cabinet | — | n | tủ đựng hồ sơ | — | Old contracts are kept in the locked filing cabinet. |
-| workstation | /ˈwɜːksteɪʃn/ | n | chỗ ngồi làm việc | set up a workstation | Two new workstations were set up for the incoming staff. |
-| cubicle | /ˈkjuːbɪkl/ | n | ô làm việc có vách ngăn | — | Each analyst works in a small cubicle with partition walls. |
-| procedure | /prəˈsiːdʒə(r)/ | n | quy trình | follow the correct procedure | Employees must follow the correct procedure to request supplies. |
-| protocol | /ˈprəʊtəkɒl/ | n | quy tắc, nghi thức | company protocol | Company protocol requires every visitor to sign in. |
-| distribute | /dɪˈstrɪbjuːt/ | v | phân phát | distribute copies to everyone | Priya will distribute the agenda before the meeting begins. |
-| duplicate | /ˈdjuːplɪkeɪt/ | v/n | sao chép; bản sao | make a duplicate copy | Could you duplicate this file for the whole team? |
-| prompt | /prɒmpt/ | adj | nhanh chóng, đúng giờ | a prompt reply → promptly (adv) | We appreciate your prompt response to our request. |
-| on behalf of | — | phr | thay mặt cho | sign on behalf of the manager | Priya signed the memo on behalf of Ms. Whitfield. |
-| in charge of | — | phr | phụ trách | be in charge of the project | Priya is in charge of all office administration. |
-| streamline | /ˈstriːmlaɪn/ | v | tinh gọn quy trình | streamline the process | The new system helped streamline the entire workflow. |
-
----
-
-## Phần 3 — Bản truyện tiếng Anh (luyện đọc/nghe)
 
 ### Chapter 2 — The Twelfth Floor
 

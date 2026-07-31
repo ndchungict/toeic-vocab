@@ -6,55 +6,6 @@
 
 ---
 
-## Phần 1 — Truyện chêm (học từ qua ngữ cảnh)
-
-Cú điện thoại cuối Chương 15 đã thành sự thật: **Corstone** — nhà cung cấp con chip quan trọng nhất của Aria — không thể giao đúng hẹn. Ray Osei chỉ có vài ngày để tìm nguồn thay thế trước khi cả dây chuyền đứng hình. Nhờ mối quan hệ nhà cung cấp rộng, **Fred Okonkwo** lần ra một đầu mối: **Halston Components Co.** — chính bên đang **clearance sale** dạo trước — vẫn còn một lô chip tương thích trong kho. Rẻ, nhanh, nhưng ở tận Halston.
-
-Vấn đề bây giờ không phải *mua*, mà là *đưa hàng về kịp*. Ben theo Ray lo khâu vận chuyển. Halston Components hứa **dispatch** (gửi đi) lô hàng ngay trong ngày. Đi đường biển dạng **freight** (hàng vận chuyển; cước) thì mất ba tuần — quá muộn. Ray gọi một **carrier** (hãng vận chuyển) hàng không, yêu cầu **expedite** (đẩy nhanh) toàn bộ **shipment** (lô hàng); vài mẫu gấp nhất thì gửi riêng bằng **courier** (dịch vụ chuyển phát nhanh) để có trong 48 giờ. Ben tập cách **track a shipment** (theo dõi lô hàng) qua mã vận đơn, mắt dán màn hình.
-
-Tốc độ có cái giá của nó. Bảng phí hiện ra: ngoài tiền hàng còn **shipping and handling** (phí vận chuyển & xử lý), cộng một **surcharge** (phụ phí) khá nặng cho dịch vụ hỏa tốc. Ray nhăn mặt — ngân sách vốn đã kịch trần — nhưng đành duyệt. Trên thùng dán chằng chịt nhãn **fragile** (dễ vỡ): chip là thứ mong manh, va đập nhẹ cũng hỏng.
-
-Ba ngày sau, xe tải đỗ trước kho Eastport. Vừa mở cửa thùng, mặt Ben xịu xuống: **packaging** (bao bì đóng gói) móp méo, một góc thùng bị đè bẹp. Bóc ra, non nửa số chip **damaged** (bị hư hại) do xóc trên đường; tệ hơn, vài khay ngay từ đầu đã **defective** (bị lỗi từ sản xuất) — chân tiếp xúc cong, rõ ràng lỗi nhà máy chứ không phải do vận chuyển.
-
-Ray gọi ngay cho Priya bên Tài chính, vì kèm lô hàng là một tờ **invoice** (hóa đơn) dày cộp. Hai người **itemize** (liệt kê chi tiết từng khoản) từng dòng: tiền chip, shipping and handling, phụ phí hỏa tốc, lại thêm một **outstanding balance** (số dư chưa thanh toán) từ đơn trước chưa gạch nợ. Dưới cùng ghi rõ: payment **due** (đến hạn) trong mười ngày. Ray không chịu trả đủ cho hàng hỏng. Ông email Halston Components đòi một **refund** (tiền hoàn lại) cho phần damaged/defective, hoặc **exchange** (đổi hàng) lấy lô mới. Qua lại một hồi, bên bán nhượng bộ: sẽ gửi lô thay thế **free of charge** (miễn phí) và lo luôn vận chuyển **at no additional cost** (không mất thêm phí).
-
-Tưởng đã gỡ được thế bí. Nhưng tối đó, khi Ben xếp lại mấy khay chip *còn nguyên vẹn*, cậu chợt khựng: mã lô in trên vỏ là mã cũ từ hai năm trước — đúng loại Halston Components đang xả để "dọn kho cho mẫu mới". Cậu cầm một con chip lên soi, thấy gờ hàn hơi khác thường, rồi ngước nhìn Ray…
-
-*Hết Chương 16. Lô linh kiện thay thế đã kịp về Eastport — đúng hẹn, đúng ngân sách sau khi đòi được hoàn tiền. Nhưng "kịp" và "lành" là hai chuyện khác nhau. Những con chip trông nguyên vẹn kia lại là hàng tồn đời cũ, mua vội trong cơn bí; chẳng ai kịp kiểm định tử tế trước khi tống lên dây chuyền. Chương sau (lesson-17): nhà máy Eastport vào guồng tăng ca lắp ráp Aria — năng suất, ca kíp, công suất tối đa — và một lô hàng bắt đầu có dấu hiệu bất thường.*
-
----
-
-## Phần 2 — Bảng tổng hợp từ vựng
-
-| Từ | Phiên âm (IPA) | Loại | Nghĩa | Collocation thường gặp | Ví dụ câu tiếng Anh |
-|---|---|---|---|---|---|
-| shipment | /ˈʃɪpmənt/ | n | lô hàng | track / delay a shipment | The expedited shipment left Halston that night. |
-| dispatch | /dɪˈspætʃ/ | v | gửi đi, điều đi | dispatch the goods | The supplier dispatched the parts the same day. |
-| freight | /freɪt/ | n | hàng vận chuyển; cước | freight charges; air / sea freight | Sea freight would have taken three weeks. |
-| carrier | /ˈkæriə(r)/ | n | hãng vận chuyển | switch to a faster carrier | Ray booked an air carrier to save time. |
-| courier | /ˈkʊriə(r)/ | n | dịch vụ chuyển phát nhanh | send sth **by** courier | The urgent samples came by courier. |
-| expedite | /ˈekspədaɪt/ | v | đẩy nhanh | expedite the shipping ⚠️ **rất hay ra đề** | They paid extra to expedite the shipment. |
-| shipping and handling | /ˈʃɪpɪŋ ənd ˈhændlɪŋ/ | n | phí vận chuyển & xử lý | cover shipping and handling | Shipping and handling was listed separately. |
-| surcharge | /ˈsɜːtʃɑːdʒ/ | n | phụ phí | a delivery / fuel surcharge | A surcharge applied for the rush service. |
-| fragile | /ˈfrædʒaɪl/ | adj | dễ vỡ | Handle with care — fragile | The crates were marked "fragile". |
-| packaging | /ˈpækɪdʒɪŋ/ | n | bao bì đóng gói | damaged packaging | The packaging was crushed on one side. |
-| damaged | /ˈdæmɪdʒd/ | adj | bị hư hại | arrive damaged | Half the chips arrived damaged. |
-| defective | /dɪˈfektɪv/ | adj | bị lỗi (từ sản xuất) | a defective item / unit | Some units were defective from the factory. |
-| invoice | /ˈɪnvɔɪs/ | n | hóa đơn đề nghị thanh toán | settle / dispute an invoice | The invoice came with the shipment. |
-| itemize | /ˈaɪtəmaɪz/ | v | liệt kê chi tiết từng khoản | an itemized invoice | They itemized every charge on the bill. |
-| due | /djuː/ | adj | đến hạn (thanh toán) | Payment is due **on** the 15th | Payment was due within ten days. |
-| outstanding balance | /aʊtˈstændɪŋ ˈbæləns/ | n | số dư chưa thanh toán | clear an outstanding balance | An outstanding balance from before remained. |
-| refund | /ˈriːfʌnd/ | n | tiền hoàn lại | request / issue a full refund | Ray demanded a refund for the damaged parts. |
-| exchange | /ɪksˈtʃeɪndʒ/ | v/n | đổi hàng | exchange it **for** a new one | He asked to exchange the defective units. |
-| free of charge | /friː əv tʃɑːdʒ/ | phr | miễn phí | repaired / sent free of charge | The replacements were sent free of charge. |
-| at no additional cost | /ət nəʊ əˈdɪʃənl kɒst/ | phr | không mất thêm phí | shipped at no additional cost | They reshipped at no additional cost. |
-
-> ⚠️ **Bẫy hay gặp:** **expedite** = đẩy nhanh (đi với *shipment / delivery / order / process*) — **rất hay ra Part 5/6**. Phân biệt **carrier** (hãng vận chuyển lớn, air/sea) ≠ **courier** (chuyển phát nhanh kiện nhỏ). ⚠️ **damaged** = hỏng *do vận chuyển* (bên ngoài) ≠ **defective** = lỗi *từ sản xuất* (bản thân sản phẩm) — TOEIC rất hay bắt phân biệt. **due** = đến hạn (*payment is due*), khác **valid** = còn hiệu lực; **outstanding** ở đây = *chưa thanh toán* (khác nghĩa "xuất sắc" ở Lesson 13). **free of charge** = **at no additional cost** = miễn phí (cặp đồng nghĩa hay hoán đổi ở Part 6). **refund** (hoàn tiền) ↔ **exchange** (đổi hàng) — hai cách xử lý hàng lỗi. **surcharge** = phụ phí (*sur-* = thêm); **shipping and handling** luôn đi thành cụm.
-
----
-
-## Phần 3 — Bản truyện tiếng Anh (luyện đọc/nghe)
-
 ### Chapter 16 — The Rush Shipment
 
 The phone call at the end of Chapter 15 had come true: Corstone, the supplier of Aria's most important chip, could not deliver on time. Ray Osei had only a few days to find a replacement before the whole line ground to a halt. Thanks to his wide network of contacts, **Fred Okonkwo** turned up a lead: **Halston Components Co.** — the very firm that had run a clearance sale earlier — still had a compatible lot of chips in stock. Cheap and fast, but all the way over in Halston.
