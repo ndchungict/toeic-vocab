@@ -1,5 +1,4 @@
 ---
 title: "Flashcard"
+subtitle: "Ôn tập lặp lại ngắt quãng"
 ---
-
-Trang đang xây dựng — xem `docs/plan.md` M6.

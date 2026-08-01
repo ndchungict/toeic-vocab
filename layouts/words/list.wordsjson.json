@@ -1,0 +1,24 @@
+{{- /* words.json cho vocab-list.js/flashcard.js (docs/plan.md §6.5). Field viết
+     tắt để giảm dung lượng: k=key K=w:word p=pos i=ipa m=meaning t=topic
+     s=subtopic l=lesson[] v=level u=url ex=example.en exv=example.vi.
+     KHÔNG kèm collocations/note — chỉ cần ở trang detail đã render sẵn. */ -}}
+{{- $items := slice -}}
+{{- range .Pages -}}
+  {{- $w := .Params.entry -}}
+  {{- $item := dict
+      "k" .Params.key
+      "w" $w.word
+      "p" $w.pos
+      "i" $w.ipa
+      "m" $w.meaning
+      "t" $w.topic
+      "s" (index $w "sub-topic")
+      "l" $w.lesson
+      "v" $w.level
+      "u" .RelPermalink
+      "ex" $w.example.en
+      "exv" $w.example.vi
+  -}}
+  {{- $items = $items | append $item -}}
+{{- end -}}
+{{- $items | jsonify -}}

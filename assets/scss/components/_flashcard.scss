@@ -1,2 +1,163 @@
-// TODO(M4+): style component "flashcard" khi trang dùng tới nó được dựng — chưa có
-// markup thật để style vào lúc này (docs/plan.md §7.2, §11).
+// Màn Flashcard — docs/plan.md §1.3 màn 4. Thẻ lật 3D: perspective 1400px,
+// rotateY(180deg), transition .55s cubic-bezier, cao 360px.
+
+.page-content--flashcard {
+  max-width: 640px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 18px;
+  padding: 18px 16px 40px;
+}
+
+.flashcard-progress {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.flashcard-progress__label {
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--muted);
+  white-space: nowrap;
+}
+
+.flashcard {
+  width: 100%;
+  height: 360px;
+  perspective: 1400px;
+  cursor: pointer;
+}
+
+.flashcard__inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.55s cubic-bezier(0.4, 0, 0.2, 1);
+  transform-style: preserve-3d;
+}
+
+.flashcard__inner.is-flipped {
+  transform: rotateY(180deg);
+}
+
+.flashcard__face {
+  position: absolute;
+  inset: 0;
+  backface-visibility: hidden;
+  border-radius: var(--radius-card-lg);
+  background: var(--surface);
+  border: 1px solid var(--border);
+  padding: 28px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 12px;
+  box-shadow: var(--shadow-card-lifted);
+}
+
+.flashcard__face--back {
+  transform: rotateY(180deg);
+}
+
+.flashcard__word {
+  font-size: 32px;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+}
+
+.flashcard__ipa {
+  font-size: 15px;
+  color: var(--muted);
+}
+
+.flashcard__hint {
+  font-size: 12.5px;
+  color: var(--faint);
+  margin-top: 6px;
+}
+
+.flashcard__meaning {
+  font-size: 23px;
+  font-weight: 700;
+}
+
+.flashcard__example {
+  font-size: 14.5px;
+  line-height: 1.6;
+
+  mark {
+    background: var(--primary-soft);
+    color: var(--primary);
+    border-radius: 4px;
+    padding: 0 3px;
+    font-weight: 700;
+  }
+}
+
+.flashcard__example-vi {
+  font-size: 13px;
+  font-style: italic;
+  color: var(--muted);
+}
+
+.flashcard-ratings {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 8px;
+  width: 100%;
+}
+
+.flashcard-rating {
+  padding: 11px 6px;
+  border-radius: var(--radius-button);
+  border: 1.6px solid;
+  font-weight: 700;
+  font-size: 13px;
+  background: transparent;
+}
+
+.flashcard-rating--again {
+  border-color: var(--flash-again);
+  color: var(--flash-again);
+}
+
+.flashcard-rating--hard {
+  border-color: var(--flash-hard);
+  color: var(--flash-hard);
+}
+
+.flashcard-rating--good {
+  border-color: var(--flash-good);
+  color: var(--flash-good);
+}
+
+.flashcard-rating--easy {
+  border-color: var(--flash-easy);
+  color: var(--flash-easy);
+}
+
+.flashcard-done {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  text-align: center;
+  padding-top: 60px;
+
+  .icon {
+    width: 48px;
+    height: 48px;
+    color: var(--primary);
+  }
+}
+
+.flashcard-done__title {
+  font-size: 20px;
+  font-weight: 800;
+}

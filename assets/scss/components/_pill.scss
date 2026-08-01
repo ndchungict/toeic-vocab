@@ -1,2 +1,126 @@
-// TODO(M4+): style component "pill" khi trang dùng tới nó được dựng — chưa có
-// markup thật để style vào lúc này (docs/plan.md §7.2, §11).
+// Pill lọc (Vocab) — docs/plan.md §1.3 màn 2. Pill mốc điểm active tô màu riêng
+// theo level, các pill khác tô --primary khi active.
+
+.vocab-search {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  padding: 10px 14px;
+  border-radius: var(--radius-button);
+  background: var(--surface);
+  border: 1px solid var(--border);
+
+  .icon {
+    width: 18px;
+    height: 18px;
+    color: var(--faint);
+    flex: none;
+  }
+}
+
+.vocab-search__input {
+  flex: 1;
+  border: none;
+  background: transparent;
+  color: var(--text);
+  font-size: 14px;
+
+  &::placeholder {
+    color: var(--faint);
+  }
+
+  &:focus {
+    outline: none;
+  }
+}
+
+.vocab-filters {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 16px;
+}
+
+.filter-group__label {
+  font-size: 11.5px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--faint);
+  margin-bottom: 6px;
+}
+
+.pill-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+}
+
+.pill-list--sub {
+  margin-top: 7px;
+  padding-left: 14px;
+  border-left: 2px solid var(--border);
+}
+
+.pill {
+  padding: 6px 13px;
+  border-radius: var(--radius-pill);
+  background: var(--surface-2);
+  color: var(--muted);
+  font-size: 12.5px;
+  font-weight: 700;
+  border: 1px solid transparent;
+
+  &:hover {
+    background: var(--border);
+  }
+
+  &.is-active {
+    background: var(--primary);
+    color: #fff;
+  }
+}
+
+@each $level in 450, 600, 750, 860, 900 {
+  .pill--level[data-level="#{$level}"].is-active {
+    background: var(--level-#{$level}-fg);
+    color: #fff;
+  }
+}
+
+.pill--sub {
+  font-size: 12px;
+  padding: 5px 11px;
+}
+
+.vocab-result-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin-top: 16px;
+}
+
+.vocab-result-bar__count {
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--muted);
+}
+
+.vocab-result-bar__clear {
+  font-size: 12.5px;
+  font-weight: 700;
+  color: var(--primary);
+}
+
+.vocab-empty {
+  padding: 30px 0;
+  text-align: center;
+  color: var(--muted);
+  font-size: 14px;
+}
+
+.vocab-load-more {
+  display: flex;
+  margin: 20px auto 0;
+}

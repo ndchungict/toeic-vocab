@@ -45,5 +45,18 @@
   <script src="{{ $speakJS.RelPermalink }}" integrity="{{ $speakJS.Data.Integrity }}" defer></script>
   {{ $wordActionsJS := resources.Get "js/word-actions.js" | js.Build | fingerprint }}
   <script src="{{ $wordActionsJS.RelPermalink }}" integrity="{{ $wordActionsJS.Data.Integrity }}" defer></script>
+
+  {{/* JS đảo (island) riêng từng màn — chỉ nạp đúng trang cần, tránh fetch
+       words.json hay chạy logic không liên quan ở mọi trang. */}}
+  {{ if and (eq .Section "words") (eq .Kind "section") }}
+    {{ $vocabJS := resources.Get "js/vocab-list.js" | js.Build | fingerprint }}
+    <script src="{{ $vocabJS.RelPermalink }}" integrity="{{ $vocabJS.Data.Integrity }}" defer></script>
+  {{ else if eq .Section "flashcard" }}
+    {{ $flashcardJS := resources.Get "js/flashcard.js" | js.Build | fingerprint }}
+    <script src="{{ $flashcardJS.RelPermalink }}" integrity="{{ $flashcardJS.Data.Integrity }}" defer></script>
+  {{ else if and (eq .Section "lessons") .Params.lesson_id }}
+    {{ $readerJS := resources.Get "js/reader.js" | js.Build | fingerprint }}
+    <script src="{{ $readerJS.RelPermalink }}" integrity="{{ $readerJS.Data.Integrity }}" defer></script>
+  {{ end }}
 </body>
 </html>

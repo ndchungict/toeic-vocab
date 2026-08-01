@@ -3,7 +3,7 @@
 {{ $key := printf "%s:%s" $w.topic $w.word }}
 <div class="new-word-item" data-word-key="{{ $key }}">
   <div class="new-word-item__head">
-    <a href="{{ printf "words/%s/%s" $w.topic (urlize $w.word) | relURL }}" class="new-word-item__word">{{ $w.word }}</a>
+    <button type="button" class="new-word-item__word" data-popover-trigger="{{ $key }}">{{ $w.word }}</button>
     <span class="badge-level badge-level--{{ $w.level }}">TOEIC {{ $w.level }}</span>
   </div>
   <p class="new-word-item__meta">{{ $w.ipa }} · {{ $w.meaning }}</p>

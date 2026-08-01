@@ -1,5 +1,5 @@
 ---
 title: "Từ vựng"
+subtitle: "558 từ · tìm & lọc"
+outputs: ["HTML", "WordsJSON"]
 ---
-
-Trang đang xây dựng — xem `docs/plan.md` M6.

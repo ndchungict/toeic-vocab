@@ -9,7 +9,7 @@
     {{ $parts := split $key ":" }}
     {{ $displayText := .label }}
     {{ if not $displayText }}{{ $displayText = index $parts 1 }}{{ end }}
-    {{ $entry := partial "word/lookup.html" $key }}<button type="button" class="reader-chip" data-word-key="{{ $key }}">{{ $displayText }}</button>{{ with $entry.meaning }}<span class="reader-chip__gloss" hidden> ({{ . }})</span>{{ end }}
+    {{ $entry := partial "word/lookup.html" $key }}<button type="button" class="reader-chip" data-popover-trigger="{{ $key }}">{{ $displayText }}</button>{{ with $entry.meaning }}<span class="reader-chip__gloss" hidden> ({{ . }})</span>{{ end }}
   {{ else }}{{ . }}
   {{ end }}
 {{ end }}

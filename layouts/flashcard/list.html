@@ -1,0 +1,45 @@
+{{/* Màn Flashcard — docs/plan.md §1.3 màn 4. Toàn bộ nội dung do flashcard.js
+     (M6) điền từ words.json + SRS trong localStorage — đây chỉ là khung. */}}
+{{ define "main" }}
+<div class="page-content page-content--flashcard" data-flashcard-root hidden>
+  <div class="flashcard-progress">
+    <div class="progress-bar"><div class="progress-bar__fill" data-flashcard-progress-fill style="width:0%"></div></div>
+    <p class="flashcard-progress__label"><span data-flashcard-index>1</span>/<span data-flashcard-total>8</span></p>
+  </div>
+
+  <div class="flashcard" data-flashcard-card>
+    <div class="flashcard__inner" data-flashcard-inner>
+      <div class="flashcard__face flashcard__face--front">
+        <span class="badge-level" data-flashcard-level></span>
+        <h2 class="flashcard__word" data-flashcard-word></h2>
+        <p class="flashcard__ipa" data-flashcard-ipa></p>
+        <button type="button" class="btn btn--outline" data-flashcard-speak data-speak="">
+          {{ partial "icons/icon.html" (dict "name" "speaker") }}
+          <span>Nghe</span>
+        </button>
+        <p class="flashcard__hint">Chạm để xem nghĩa</p>
+      </div>
+      <div class="flashcard__face flashcard__face--back">
+        <p class="flashcard__meaning" data-flashcard-meaning></p>
+        <p class="flashcard__example" data-flashcard-example></p>
+        <p class="flashcard__example-vi" data-flashcard-example-vi></p>
+      </div>
+    </div>
+  </div>
+
+  <button type="button" class="btn btn--outline flashcard-reveal" data-flashcard-reveal>Xem nghĩa</button>
+
+  <div class="flashcard-ratings" data-flashcard-ratings hidden>
+    <button type="button" class="flashcard-rating flashcard-rating--again" data-rating="again">Chưa nhớ</button>
+    <button type="button" class="flashcard-rating flashcard-rating--hard" data-rating="hard">Khó</button>
+    <button type="button" class="flashcard-rating flashcard-rating--good" data-rating="good">Được</button>
+    <button type="button" class="flashcard-rating flashcard-rating--easy" data-rating="easy">Dễ</button>
+  </div>
+</div>
+
+<div class="page-content page-content--flashcard flashcard-done" data-flashcard-done hidden>
+  {{ partial "icons/icon.html" (dict "name" "trophy") }}
+  <p class="flashcard-done__title">Hoàn thành phiên học!</p>
+  <button type="button" class="btn btn--primary" data-flashcard-restart>Học phiên mới</button>
+</div>
+{{ end }}

@@ -131,6 +131,15 @@ ol {
   }
 }
 
+.btn--primary {
+  background: var(--primary);
+  color: #fff;
+
+  &:hover {
+    filter: brightness(1.08);
+  }
+}
+
 .btn--outline {
   border-color: var(--border);
   color: var(--text);

@@ -1,0 +1,98 @@
+{{/* Màn Vocab — docs/plan.md §1.3 màn 2. Pill lọc render sẵn từ dữ liệu build-time
+     (topic/subtopic từ taxonomy.yaml, level/pos suy từ chính data/words — KHÔNG
+     hardcode, §3.1). Kết quả (grid từ) là JS island: vocab-list.js fetch
+     words.json rồi lọc/phân trang hoàn toàn ở client (§7.4). */}}
+{{ define "main" }}
+{{/* Level thật có trong dữ liệu — không hardcode 5 mức của mockup (§3.1). */}}
+{{ $levels := slice }}
+{{ range site.Data.words }}
+  {{ range . }}
+    {{ if not (in $levels .level) }}{{ $levels = $levels | append .level }}{{ end }}
+  {{ end }}
+{{ end }}
+{{ $levels = sort $levels }}
+
+{{ $posLabel := dict
+  "noun" "Danh từ"
+  "verb" "Động từ"
+  "adjective" "Tính từ"
+  "adverb" "Trạng từ"
+  "phrasal verb" "Cụm động từ"
+  "preposition" "Giới từ"
+}}
+{{ $posList := slice }}
+{{ range site.Data.words }}
+  {{ range . }}
+    {{ if not (in $posList .pos) }}{{ $posList = $posList | append .pos }}{{ end }}
+  {{ end }}
+{{ end }}
+{{ $posList = sort $posList }}
+
+<div class="page-content page-content--vocab">
+  <div class="vocab-search">
+    {{ partial "icons/icon.html" (dict "name" "search") }}
+    <input type="search" class="vocab-search__input" placeholder="Tìm từ hoặc nghĩa…" data-vocab-search aria-label="Tìm từ hoặc nghĩa">
+  </div>
+
+  <div class="vocab-filters">
+    <div class="filter-group">
+      <p class="filter-group__label">Chủ đề</p>
+      <div class="pill-list" data-filter-group="topic">
+        <button type="button" class="pill is-active" data-filter-value="">Tất cả</button>
+        {{ range $slug, $t := site.Data.taxonomy.topics }}
+          <button type="button" class="pill" data-filter-value="{{ $slug }}">{{ $t.label_vi }}</button>
+        {{ end }}
+      </div>
+      {{ range $slug, $t := site.Data.taxonomy.topics }}
+        {{ if $t.subtopics }}
+          <div class="pill-list pill-list--sub" data-subtopic-group="{{ $slug }}" hidden>
+            <button type="button" class="pill pill--sub is-active" data-filter-value="">Tất cả {{ $t.label_vi }}</button>
+            {{ range $t.subtopics }}
+              <button type="button" class="pill pill--sub" data-filter-value="{{ .slug }}">{{ .label_vi }}</button>
+            {{ end }}
+          </div>
+        {{ end }}
+      {{ end }}
+    </div>
+
+    <div class="filter-group">
+      <p class="filter-group__label">Mốc điểm</p>
+      <div class="pill-list" data-filter-group="level">
+        <button type="button" class="pill is-active" data-filter-value="">Tất cả</button>
+        {{ range $levels }}
+          <button type="button" class="pill pill--level" data-level="{{ . }}" data-filter-value="{{ . }}">TOEIC {{ . }}</button>
+        {{ end }}
+      </div>
+    </div>
+
+    <div class="filter-group">
+      <p class="filter-group__label">Loại từ</p>
+      <div class="pill-list" data-filter-group="pos">
+        <button type="button" class="pill is-active" data-filter-value="">Tất cả</button>
+        {{ range $posList }}
+          <button type="button" class="pill" data-filter-value="{{ . }}">{{ index $posLabel . | default . }}</button>
+        {{ end }}
+      </div>
+    </div>
+
+    <div class="filter-group">
+      <p class="filter-group__label">Bài học</p>
+      <div class="pill-list" data-filter-group="lesson">
+        <button type="button" class="pill is-active" data-filter-value="">Tất cả</button>
+        {{ range seq 1 28 }}
+          <button type="button" class="pill" data-filter-value="{{ printf "lesson-%02d" . }}">Bài {{ . }}</button>
+        {{ end }}
+      </div>
+    </div>
+  </div>
+
+  <div class="vocab-result-bar">
+    <p class="vocab-result-bar__count" data-vocab-count></p>
+    <button type="button" class="vocab-result-bar__clear" data-vocab-clear-filters hidden>Xoá bộ lọc</button>
+  </div>
+
+  <div class="vocab-grid" data-vocab-grid></div>
+  <p class="vocab-empty" data-vocab-empty hidden>Không tìm thấy từ phù hợp.</p>
+  <button type="button" class="btn btn--outline vocab-load-more" data-vocab-load-more hidden>Xem thêm</button>
+</div>
+{{ end }}

@@ -1,0 +1,22 @@
+{{/* Popover từ (dùng chung) — docs/plan.md §1.3. Mở từ chip trong truyện và từ
+     danh sách "Từ mới" (reader.js, M6). Nội dung điền bằng JS lúc mở (dữ liệu
+     lấy từ words.json — bao phủ cả từ không thuộc bài học hiện tại, ví dụ ca
+     nhắc lại từ bài trước ở §6.3). */}}
+<div class="popover-overlay" data-popover-overlay hidden>
+  <div class="popover" role="dialog" aria-modal="true" aria-label="Chi tiết từ">
+    <button type="button" class="popover__close" data-popover-close aria-label="Đóng">✕</button>
+    <div class="popover__head">
+      <h3 class="popover__word" data-popover-word></h3>
+      <span class="badge-level" data-popover-level></span>
+    </div>
+    <p class="popover__meta" data-popover-meta></p>
+    <p class="popover__meaning" data-popover-meaning></p>
+    <div class="popover__actions">
+      <button type="button" class="btn btn--outline" data-popover-speak data-speak="">
+        {{ partial "icons/icon.html" (dict "name" "speaker") }}
+        <span>Nghe phát âm</span>
+      </button>
+      <a class="btn btn--primary" data-popover-detail-link href="#">Xem chi tiết</a>
+    </div>
+  </div>
+</div>

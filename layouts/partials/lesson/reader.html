@@ -7,7 +7,7 @@
 {{ $wordCount := partial "lesson/word-count.html" . }}
 {{ $topic := index .Params.topics 0 }}
 
-<div class="page-content page-content--reader">
+<div class="page-content page-content--reader" data-reader-root data-lesson-id="{{ .Params.lesson_id }}">
   <p class="reader-summary">{{ .Params.summary }}</p>
 
   <div class="reader-controls">
@@ -42,3 +42,5 @@
 
   {{ partial "lesson/nav-prev-next.html" . }}
 </div>
+
+{{ partial "word/popover.html" . }}
