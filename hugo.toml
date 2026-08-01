@@ -1,0 +1,84 @@
+baseURL                = "https://ndchungict.github.io/toeic-vocab/"
+languageCode           = "vi-VN"
+defaultContentLanguage = "vi"
+title                  = "VocabTOEIC — Tự học từ vựng"
+enableRobotsTXT        = true
+enableGitInfo          = true
+hasCJKLanguage         = false
+timeZone               = "Asia/Ho_Chi_Minh"
+
+[taxonomies]
+  topic    = "topics"
+  subtopic = "subtopics"
+  act      = "acts"
+
+[markup.goldmark.renderer]
+  unsafe = true            # BẮT BUỘC: passage Part 6/7 và truyện có HTML inline
+[markup.tableOfContents]
+  startLevel = 2
+  endLevel   = 3
+
+[params]
+  description    = "558 từ vựng TOEIC theo 13 chủ đề, học qua truyện dài 28 chương \"Project Aria\"."
+  totalEntries   = 558      # số THẺ TỪ — đây là con số màn Vocab hiển thị ("N từ")
+  uniqueWords    = 537      # 558 − 21 (20 từ trùng, riêng "coverage" xuất hiện 3 lần)
+  totalLessons   = 28
+  totalTopics    = 13
+  totalSubtopics = 30
+  totalExercises = 704
+  storyTitle     = "Project Aria"
+  flashSessionSize = 8      # khớp mockup
+  dailyGoal        = 12     # khớp mockup
+  # màu/typography khai báo DUY NHẤT ở _tokens.scss, không lặp ở đây
+
+[menu]
+  # khớp sidebar desktop của mockup (6 mục), mobile lấy 5 mục đầu trừ "Bài tập"
+  [[menu.main]]
+    name    = "Trang chủ"
+    pageRef = "/"
+    weight  = 10
+    [menu.main.params]
+      icon = "home"
+  [[menu.main]]
+    name    = "Từ vựng"
+    pageRef = "/words"
+    weight  = 20
+    [menu.main.params]
+      icon = "vocab"
+  [[menu.main]]
+    name    = "Flashcard"
+    pageRef = "/flashcard"
+    weight  = 30
+    [menu.main.params]
+      icon = "flashcard"
+  [[menu.main]]
+    name    = "Truyện chêm"
+    pageRef = "/lessons"
+    weight  = 40
+    [menu.main.params]
+      icon = "stories"
+  [[menu.main]]
+    name    = "Bài tập"
+    pageRef = "/exercises"        # trang danh sách 28 đề
+    weight  = 50
+    [menu.main.params]
+      icon        = "exercise"
+      desktopOnly = true
+  [[menu.main]]
+    name    = "Tiến độ"
+    pageRef = "/progress"
+    weight  = 60
+    [menu.main.params]
+      icon = "progress"
+
+[outputs]
+  home = ["HTML", "RSS"]
+  section = ["HTML"]
+
+[outputFormats.WordsJSON]
+  mediaType = "application/json"
+  baseName  = "index"
+  isPlainText = true
+
+[minify]
+  disableXML = true
