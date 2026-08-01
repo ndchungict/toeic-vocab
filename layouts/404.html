@@ -1,0 +1,28 @@
+{{/* Trang 404 — docs/plan.md §11 M9. GitHub Pages tự phục vụ public/404.html
+     cho mọi đường dẫn không khớp trên project site. */}}
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  {{ partial "head.html" . }}
+</head>
+<body>
+  <a class="skip-link" href="#main">Bỏ qua tới nội dung</a>
+  <div class="shell">
+    {{ partial "shell/sidebar.html" (dict "activeNav" "") }}
+    <div class="shell__content">
+      <main id="main" class="shell__main">
+        <div class="page-content not-found">
+          <p class="not-found__code">404</p>
+          <h1 class="not-found__title">Không tìm thấy trang</h1>
+          <p class="not-found__desc">Trang bạn tìm không tồn tại hoặc đã bị di chuyển.</p>
+          <a class="btn btn--primary" href="{{ site.Home.RelPermalink }}">Về trang chủ</a>
+        </div>
+      </main>
+    </div>
+    {{ partial "shell/tabbar.html" (dict "activeNav" "") }}
+  </div>
+
+  {{ $themeJS := resources.Get "js/theme.js" | js.Build | fingerprint }}
+  <script src="{{ $themeJS.RelPermalink }}" integrity="{{ $themeJS.Data.Integrity }}" defer></script>
+</body>
+</html>

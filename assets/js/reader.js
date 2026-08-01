@@ -70,6 +70,7 @@ async function initPopover() {
   const overlay = document.querySelector("[data-popover-overlay]");
   if (!overlay) return;
 
+  const popover = overlay.querySelector(".popover");
   const wordEl = overlay.querySelector("[data-popover-word]");
   const levelEl = overlay.querySelector("[data-popover-level]");
   const metaEl = overlay.querySelector("[data-popover-meta]");
@@ -77,6 +78,10 @@ async function initPopover() {
   const speakBtn = overlay.querySelector("[data-popover-speak]");
   const detailLink = overlay.querySelector("[data-popover-detail-link]");
   const closeBtn = overlay.querySelector("[data-popover-close]");
+
+  // a11y: trả focus về đúng phần tử đã mở popover khi đóng lại (bàn phím/
+  // trình đọc màn hình không nên "mất dấu" sau khi popover biến mất).
+  let lastTrigger = null;
 
   let words = [];
   try {
@@ -96,6 +101,7 @@ async function initPopover() {
     const key = trigger.getAttribute("data-popover-trigger");
     const w = byKey[key];
     if (!w) return;
+    lastTrigger = trigger;
     open(w);
   });
 
@@ -104,7 +110,12 @@ async function initPopover() {
     if (e.target === overlay) close();
   });
   document.addEventListener("keydown", (e) => {
-    if (e.key === "Escape" && !overlay.hidden) close();
+    if (overlay.hidden) return;
+    if (e.key === "Escape") {
+      close();
+    } else if (e.key === "Tab") {
+      trapFocus(e);
+    }
   });
 
   function open(w) {
@@ -116,9 +127,25 @@ async function initPopover() {
     speakBtn.setAttribute("data-speak", w.w);
     detailLink.setAttribute("href", w.u);
     overlay.hidden = false;
+    closeBtn.focus();
   }
 
   function close() {
     overlay.hidden = true;
+    if (lastTrigger) lastTrigger.focus();
+  }
+
+  function trapFocus(e) {
+    const focusable = popover.querySelectorAll("button, a[href]");
+    if (!focusable.length) return;
+    const first = focusable[0];
+    const last = focusable[focusable.length - 1];
+    if (e.shiftKey && document.activeElement === first) {
+      e.preventDefault();
+      last.focus();
+    } else if (!e.shiftKey && document.activeElement === last) {
+      e.preventDefault();
+      first.focus();
+    }
   }
 }

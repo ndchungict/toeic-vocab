@@ -42,3 +42,6 @@ jobs:
 
       - name: Hugo build (strict)
         run: hugo --gc --minify --panicOnWarning --baseURL "https://ndchungict.github.io/toeic-vocab/"
+
+      - name: Check internal links
+        run: python3 scripts/check_links.py

@@ -12,7 +12,7 @@
   --border-strong: #39404f;
   --text: #e9ebf4;
   --muted: #98a0b4;
-  --faint: #6b7386;
+  --faint: #818999; // đã chỉnh từ #6b7386 gốc — 3.66:1 trên --surface, không đạt AA (§11 M9)
   --primary: #8b83ff;
   --primary-soft: rgba(139, 131, 255, 0.16);
   --ring: rgba(139, 131, 255, 0.45);
@@ -29,7 +29,12 @@
   --border-strong: #d5d8e4;
   --text: #1a1d27;
   --muted: #6b7186;
-  --faint: #9aa0b2;
+  // ⚠️ Đã CHỈNH so với mockup gốc (§1.5 ghi #9aa0b2) — a11y audit ở M9 đo được
+  // #9aa0b2 trên --surface chỉ đạt 2.61:1, KHÔNG đạt cả ngưỡng WCAG AA cho chữ
+  // lớn (3:1), trong khi --faint được dùng làm màu chữ thật (nhãn, tag, hint)
+  // ở nhiều nơi, không chỉ trang trí. #6d7689 đạt 4.56:1 (đạt AA chữ thường),
+  // vẫn giữ đúng sắc thái xám nhạt hơn --muted một chút.
+  --faint: #6d7689;
   --primary: #5b52e8;
   --primary-soft: #eceafe;
   --ring: rgba(91, 82, 232, 0.4);

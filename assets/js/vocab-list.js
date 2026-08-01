@@ -129,15 +129,20 @@ async function init() {
     filterGroups.forEach((group) => {
       const field = group.getAttribute("data-filter-group");
       group.querySelectorAll(".pill").forEach((btn) => {
-        btn.classList.toggle("is-active", btn.getAttribute("data-filter-value") === state[field]);
+        setPillActive(btn, btn.getAttribute("data-filter-value") === state[field]);
       });
     });
     subtopicGroups.forEach((group) => {
       group.querySelectorAll(".pill").forEach((btn) => {
-        btn.classList.toggle("is-active", btn.getAttribute("data-filter-value") === state.subtopic);
+        setPillActive(btn, btn.getAttribute("data-filter-value") === state.subtopic);
       });
     });
     clearBtn.hidden = !(state.q || state.topic || state.subtopic || state.level || state.pos || state.lesson);
+  }
+
+  function setPillActive(btn, active) {
+    btn.classList.toggle("is-active", active);
+    btn.setAttribute("aria-pressed", String(active));
   }
 
   function matches(w) {
