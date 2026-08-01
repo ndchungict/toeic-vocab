@@ -9,8 +9,11 @@ against the source before being treated as final. Items the script can't parse
 cleanly are still emitted with a `# REVIEW:` comment above them on stderr and
 a `_review: true` marker in the YAML, rather than being silently dropped.
 
-Usage:
-    python3 parse_exercise.py path/to/exercise-01.md exercise-01 > exercise-01.yaml
+Usage (from the repo root):
+    python3 .claude/skills/toeic-execise-to-yaml/scripts/parse_execise.py \
+        exercises/exercise-01.md exercise-01 > data/exercises/exercise-01.yaml
+
+Source is always the local exercises/ directory; output always goes to data/exercises/.
 
 Requires: PyYAML (pip install pyyaml --break-system-packages)
 """

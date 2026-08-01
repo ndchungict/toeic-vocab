@@ -1,12 +1,22 @@
 ---
-name: toeic-exercise-md-to-yaml
-description: Convert TOEIC exercise Markdown files (the ones with a vocab table, Part 5/6/7 questions, and an answer+explanation section, e.g. exercise-01.md ... exercise-28.md in the toeic-vocab repo) into structured YAML exercise data files. Use this whenever the user asks to "bóc tách bài tập", "chuyển exercise sang yaml", extract/parse/migrate TOEIC exercise markdown into YAML, or mentions the `exercises/exercise-NN.md` files needing a data format. Also use for batch-converting all 28 files at once, or for adding new exercise files to an existing YAML dataset in the same schema.
+name: toeic-execise-to-yaml
+description: Convert TOEIC exercise Markdown files from the local `exercises/` folder (the ones with a vocab table, Part 5/6/7 questions, and an answer+explanation section, e.g. exercise-01.md ... exercise-28.md) into structured YAML exercise data files written to `data/exercises/exercise-NN.yaml`. Use this whenever the user asks to "bóc tách bài tập", "chuyển exercise sang yaml", extract/parse/migrate TOEIC exercise markdown into YAML, or mentions the `exercises/exercise-NN.md` files needing a data format. Also use for batch-converting all 28 files at once, or for adding new exercise files to an existing YAML dataset in the same schema.
 ---
 
 # TOEIC Exercise Markdown → YAML Converter
 
 Converts the `exercises/exercise-NN.md` files (vocab table + Part 5/6/7 questions +
 answer/explanation section) into the YAML exercise schema used by the TOEIC site.
+
+**Paths (fixed, always local — never fetch from GitHub):**
+
+| | Path |
+|---|---|
+| Source | `exercises/exercise-NN.md` (in this repo, read with the Read tool) |
+| Output | `data/exercises/exercise-NN.yaml` |
+
+Create `data/exercises/` if it doesn't exist yet. One output file per source file,
+same `NN` number, e.g. `exercises/exercise-01.md` → `data/exercises/exercise-01.yaml`.
 
 ## Source file shape (what to expect)
 
@@ -71,10 +81,10 @@ skim the raw file first):
 
 ## Conversion workflow
 
-1. **Fetch the raw file.** Use the `Raw` link (raw.githubusercontent.com) rather than
-   the GitHub blob HTML page — much cleaner to parse. Pattern:
-   `https://raw.githubusercontent.com/<owner>/<repo>/<branch>/exercises/exercise-NN.md`
-2. **Run the bootstrap parser** (`scripts/parse_exercise.py`) on the raw markdown text.
+1. **Read the local source file** at `exercises/exercise-NN.md` with the Read tool.
+   Do not fetch anything over the network — the markdown in the working tree is the
+   source of truth, including uncommitted edits.
+2. **Run the bootstrap parser** (`scripts/parse_execise.py`) on that file path.
    It handles the mechanical extraction (splitting Part 5/6/7, pairing questions with
    answer-key lines, pulling the passage for Part 6/7) and emits a first-draft YAML.
    It is a *bootstrap*, not a guaranteed-correct final output — regex parsing of
@@ -86,17 +96,28 @@ skim the raw file first):
      with a `# REVIEW` comment)
 3. **Fill in fields the source file doesn't state explicitly**: `topic`, `lesson`,
    `level`. Derive `lesson` from the blockquote intro (e.g. "lesson-01"). `topic` and
-   `level` aren't in the exercise file itself — ask the user for the mapping once (e.g.
-   a simple table of exercise number → topic/level), or reuse the mapping already
-   established for that lesson's word-list YAML if one exists, so the two datasets stay
-   consistent.
-4. **Cross-link `related_word`** for Part 5/6 items: match the correct answer word
-   against the file's own vocab table (or the master word-list YAML if available) to
-   confirm spelling/lemma consistency. Part 7 items have no single related word — use
-   `related_word: null` or omit the field for those.
-5. **Write one YAML file per source file** (e.g. `exercise-01.yaml`) rather than one
-   giant combined file, mirroring the source structure — easier to diff/review, and
-   matches how the site will likely load per-lesson data.
+   `level` aren't in the exercise file itself — take them from the topic's word-list YAML
+   (`data/words/<topic>.yaml`) whenever one exists, so the two datasets stay consistent:
+   `topic` = that file's topic slug (the exercise title names it, e.g. "EXERCISE 01 —
+   OFFICES" → `offices`), and `level` = the `level:` of the item's `related_word` entry.
+   Items with `related_word: null` get `level: null` — don't guess. Only ask the user if
+   no word-list file covers that lesson.
+4. **Cross-link `related_word`.** Hard rule: `related_word` may only hold a word that
+   actually exists as a `word:` entry in the topic's word-list YAML (`data/words/<topic>.yaml`).
+   It is a join key into the vocab dataset, not free text.
+   - Normalize the answer-key word to the lemma used in the word list before writing it,
+     e.g. `enclosed` → `enclose`, `transferred` → `transfer a call`.
+   - If the answer word has no matching entry, write `related_word: null` — never invent
+     an entry or store the raw inflected/unlisted word. This covers most Part 7
+     comprehension questions, and also Part 7 "closest in meaning to ___" items whose
+     answer is a synonym outside the word list (e.g. `circulated` → `distributed`:
+     neither is in the list, so `null`).
+   - After generating, verify every non-null `related_word` resolves against the word
+     list and report any that don't — don't ship an unresolved one silently.
+5. **Write one YAML file per source file** to `data/exercises/exercise-NN.yaml` rather
+   than one giant combined file, mirroring the source structure — easier to diff/review,
+   and matches how the site loads per-lesson data (Hugo picks it up as
+   `site.Data.exercises`).
 
 ## Output schema
 
@@ -165,21 +186,34 @@ Notes on the schema choices:
 ## Batch conversion (all 28 files)
 
 When asked to convert all of them:
-1. Fetch each raw file (`exercise-01.md` through `exercise-28.md`).
-2. Run each through `scripts/parse_exercise.py`.
+1. Read each local file, `exercises/exercise-01.md` through `exercises/exercise-28.md`.
+2. Run each through `scripts/parse_execise.py`.
 3. Collect all `# REVIEW` flagged items across all 28 files into one list and show it
    to the user before finalizing — this is far more efficient than asking them to
    review 28 files individually.
 4. Ask the user once for the topic/level mapping across all 28 exercises (a single
    short table), rather than asking per file.
-5. Write output as `exercises-yaml/exercise-01.yaml` ... `exercise-28.yaml`.
+5. Write output as `data/exercises/exercise-01.yaml` ... `data/exercises/exercise-28.yaml`.
 
 ## Script
 
-`scripts/parse_exercise.py` — run as:
+`scripts/parse_execise.py` (inside this skill folder) — run from the repo root as:
 
 ```bash
-python3 scripts/parse_exercise.py path/to/exercise-01.md exercise-01 > exercise-01.yaml
+mkdir -p data/exercises
+python3 .claude/skills/toeic-execise-to-yaml/scripts/parse_execise.py \
+  exercises/exercise-01.md exercise-01 > data/exercises/exercise-01.yaml
+```
+
+Whole batch:
+
+```bash
+mkdir -p data/exercises
+for f in exercises/exercise-*.md; do
+  slug=$(basename "$f" .md)
+  python3 .claude/skills/toeic-execise-to-yaml/scripts/parse_execise.py \
+    "$f" "$slug" > "data/exercises/$slug.yaml"
+done
 ```
 
 First positional arg is the source markdown file, second is the exercise slug used to

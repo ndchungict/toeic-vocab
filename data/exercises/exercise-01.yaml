@@ -1,0 +1,373 @@
+# EXERCISE 01 — OFFICES: Họp & Ủy ban · Thư từ & Liên lạc
+# Nguồn: exercises/exercise-01.md (lesson-01 — "Project Aria" Chương 1)
+# 26 câu: Part 5 (1-12), Part 6 (13-20), Part 7 (21-26)
+
+- id: "exercise-01-p5-01"
+  part: 5
+  topic: "offices"
+  lesson: ["lesson-01"]
+  level: 900
+  related_word: "convene"
+  question: "The board of directors will ______ next Tuesday to vote on the expansion plan."
+  options: { A: "enclose", B: "convene", C: "remind", D: "postpone" }
+  answer: "B"
+  explanation_vi: "\"convene a meeting\" = triệu tập họp. Các từ kia không hợp: enclose (gửi kèm), remind (nhắc), postpone (hoãn)."
+
+- id: "exercise-01-p5-02"
+  part: 5
+  topic: "offices"
+  lesson: ["lesson-01"]
+  level: 900
+  related_word: "quorum"
+  question: "Because two members were absent, the committee did not have a ______ and the vote was delayed."
+  options: { A: "proxy", B: "quorum", C: "consensus", D: "minutes" }
+  answer: "B"
+  explanation_vi: "thiếu người → không đủ **quorum** (số đại biểu tối thiểu). \"consensus\" là sự đồng thuận, không hợp ngữ cảnh \"have a ___\"."
+
+- id: "exercise-01-p5-03"
+  part: 5
+  topic: "offices"
+  lesson: ["lesson-01"]
+  level: 600
+  related_word: "notify"
+  question: "Please ______ all staff of the change in the meeting schedule."
+  options: { A: "chair", B: "enclose", C: "notify", D: "adjourn" }
+  answer: "C"
+  explanation_vi: "\"notify sb of sth\" = thông báo cho ai về việc gì. Đúng cấu trúc với \"of the change\"."
+
+- id: "exercise-01-p5-04"
+  part: 5
+  topic: "offices"
+  lesson: ["lesson-01"]
+  level: 900
+  related_word: "unanimous"
+  question: "The decision was ______; every board member voted in favor."
+  options: { A: "confidential", B: "prospective", C: "unanimous", D: "overdue" }
+  answer: "C"
+  explanation_vi: "mọi người bỏ phiếu thuận → quyết định **unanimous** (nhất trí hoàn toàn)."
+
+- id: "exercise-01-p5-05"
+  part: 5
+  topic: "offices"
+  lesson: ["lesson-01"]
+  level: 750
+  related_word: "minutes"
+  question: "Ms. Nair was asked to take the ______ during the board meeting."
+  options: { A: "agenda", B: "attachment", C: "minutes", D: "extension" }
+  answer: "C"
+  explanation_vi: "\"take the minutes\" = ghi biên bản. ⚠️ ở đây **minutes** không phải \"phút\"."
+
+- id: "exercise-01-p5-06"
+  part: 5
+  topic: "offices"
+  lesson: ["lesson-01"]
+  level: 900
+  related_word: "proxy"
+  question: "Since she was traveling, she voted by ______."
+  options: { A: "proxy", B: "recipient", C: "quorum", D: "voicemail" }
+  answer: "A"
+  explanation_vi: "\"vote by proxy\" = bỏ phiếu ủy quyền (vì đi vắng)."
+
+- id: "exercise-01-p5-07"
+  part: 5
+  topic: "offices"
+  lesson: ["lesson-01"]
+  level: 600
+  related_word: "forward"
+  question: "Could you ______ this email to the marketing department, please?"
+  options: { A: "convene", B: "forward", C: "remind", D: "adjourn" }
+  answer: "B"
+  explanation_vi: "\"forward an email to sb\" = chuyển tiếp email."
+
+- id: "exercise-01-p5-08"
+  part: 5
+  topic: "offices"
+  lesson: ["lesson-01"]
+  level: 750
+  related_word: "confidential"
+  question: "The report is strictly ______ and must not be shared outside the company."
+  options: { A: "unanimous", B: "prompt", C: "spacious", D: "confidential" }
+  answer: "D"
+  explanation_vi: "\"strictly confidential\" = tuyệt mật, không được chia sẻ ra ngoài."
+
+- id: "exercise-01-p5-09"
+  part: 5
+  topic: "offices"
+  lesson: ["lesson-01"]
+  level: 750
+  related_word: "consensus"
+  question: "After three hours of discussion, the team finally reached a ______."
+  options: { A: "consensus", B: "quorum", C: "proxy", D: "recipient" }
+  answer: "A"
+  explanation_vi: "\"reach a consensus\" = đạt được đồng thuận sau khi bàn bạc."
+
+- id: "exercise-01-p5-10"
+  part: 5
+  topic: "offices"
+  lesson: ["lesson-01"]
+  level: 600
+  related_word: "postpone"
+  question: "The chairman decided to ______ the meeting until the following week."
+  options: { A: "postpone", B: "enclose", C: "notify", D: "forward" }
+  answer: "A"
+  explanation_vi: "\"postpone ... until\" = hoãn cuộc họp tới tuần sau."
+
+- id: "exercise-01-p5-11"
+  part: 5
+  topic: "offices"
+  lesson: ["lesson-01"]
+  level: 600
+  related_word: "extension"
+  question: "You can reach the IT department by dialing ______ 402."
+  options: { A: "attachment", B: "correspondence", C: "extension", D: "inquiry" }
+  answer: "C"
+  explanation_vi: "\"dial extension 402\" = bấm số máy lẻ 402."
+
+- id: "exercise-01-p5-12"
+  part: 5
+  topic: "offices"
+  lesson: ["lesson-01"]
+  level: 750
+  related_word: "enclose"
+  question: "I have ______ a copy of the signed contract for your records."
+  options: { A: "enclosed", B: "reminded", C: "convened", D: "rescheduled" }
+  answer: "A"
+  explanation_vi: "\"I have enclosed a copy\" = tôi đã gửi kèm một bản sao."
+
+- id: "exercise-01-p6-13"
+  part: 6
+  topic: "offices"
+  lesson: ["lesson-01"]
+  level: 600
+  passage_group: "p6-13-16"
+  passage: |
+    **MEMORANDUM**
+    **To:** All Department Heads **From:** Priya Nair, Corporate Services
+    **Re:** Project Aria Kickoff
+
+    Following this morning's board meeting, I am writing to **(13)______** you of an important decision. The board has approved moving forward with Project Aria. A dedicated steering **(14)______** will be formed to oversee the project. Please review the plan; the full timeline is included as an **(15)______** to this memo. If you have questions, do not hesitate to make an **(16)______** with my office.
+  related_word: "notify"
+  options: { A: "notify", B: "enclose", C: "adjourn", D: "chair" }
+  answer: "A"
+  explanation_vi: "\"writing to notify you of a decision\" = viết để thông báo."
+
+- id: "exercise-01-p6-14"
+  part: 6
+  topic: "offices"
+  lesson: ["lesson-01"]
+  level: 600
+  passage_group: "p6-13-16"
+  passage: |
+    **MEMORANDUM**
+    **To:** All Department Heads **From:** Priya Nair, Corporate Services
+    **Re:** Project Aria Kickoff
+
+    Following this morning's board meeting, I am writing to **(13)______** you of an important decision. The board has approved moving forward with Project Aria. A dedicated steering **(14)______** will be formed to oversee the project. Please review the plan; the full timeline is included as an **(15)______** to this memo. If you have questions, do not hesitate to make an **(16)______** with my office.
+  related_word: "committee"
+  options: { A: "quorum", B: "committee", C: "proxy", D: "recipient" }
+  answer: "B"
+  explanation_vi: "\"a steering committee\" = ủy ban chỉ đạo/chuyên trách."
+
+- id: "exercise-01-p6-15"
+  part: 6
+  topic: "offices"
+  lesson: ["lesson-01"]
+  level: 600
+  passage_group: "p6-13-16"
+  passage: |
+    **MEMORANDUM**
+    **To:** All Department Heads **From:** Priya Nair, Corporate Services
+    **Re:** Project Aria Kickoff
+
+    Following this morning's board meeting, I am writing to **(13)______** you of an important decision. The board has approved moving forward with Project Aria. A dedicated steering **(14)______** will be formed to oversee the project. Please review the plan; the full timeline is included as an **(15)______** to this memo. If you have questions, do not hesitate to make an **(16)______** with my office.
+  related_word: "attachment"
+  options: { A: "agenda", B: "attachment", C: "extension", D: "inquiry" }
+  answer: "B"
+  explanation_vi: "timeline \"included as an attachment\" = đính kèm dưới dạng tệp."
+
+- id: "exercise-01-p6-16"
+  part: 6
+  topic: "offices"
+  lesson: ["lesson-01"]
+  level: 750
+  passage_group: "p6-13-16"
+  passage: |
+    **MEMORANDUM**
+    **To:** All Department Heads **From:** Priya Nair, Corporate Services
+    **Re:** Project Aria Kickoff
+
+    Following this morning's board meeting, I am writing to **(13)______** you of an important decision. The board has approved moving forward with Project Aria. A dedicated steering **(14)______** will be formed to oversee the project. Please review the plan; the full timeline is included as an **(15)______** to this memo. If you have questions, do not hesitate to make an **(16)______** with my office.
+  related_word: "inquiry"
+  options: { A: "inquiry", B: "minutes", C: "consensus", D: "voicemail" }
+  answer: "A"
+  explanation_vi: "\"make an inquiry\" = đặt câu hỏi/thắc mắc với văn phòng."
+
+- id: "exercise-01-p6-17"
+  part: 6
+  topic: "offices"
+  lesson: ["lesson-01"]
+  level: 600
+  passage_group: "p6-17-20"
+  passage: |
+    **To:** Daniel Cho **From:** Reception Desk
+    **Subject:** Call from a journalist
+
+    Dear Mr. Cho,
+    A reporter called this morning asking about the rumored merger. As instructed, I did not comment and instead **(17)______** the call to your office. When you were unavailable, the caller left a **(18)______**. I have **(19)______** the message below for your reference. Please **(20)______** me to follow up with him before Friday.
+  related_word: "transfer a call"
+  options: { A: "transferred", B: "reminded", C: "convened", D: "postponed" }
+  answer: "A"
+  explanation_vi: "\"transferred the call to your office\" = chuyển cuộc gọi. Thì quá khứ hợp mạch kể."
+
+- id: "exercise-01-p6-18"
+  part: 6
+  topic: "offices"
+  lesson: ["lesson-01"]
+  level: 600
+  passage_group: "p6-17-20"
+  passage: |
+    **To:** Daniel Cho **From:** Reception Desk
+    **Subject:** Call from a journalist
+
+    Dear Mr. Cho,
+    A reporter called this morning asking about the rumored merger. As instructed, I did not comment and instead **(17)______** the call to your office. When you were unavailable, the caller left a **(18)______**. I have **(19)______** the message below for your reference. Please **(20)______** me to follow up with him before Friday.
+  related_word: "voicemail"
+  options: { A: "quorum", B: "voicemail", C: "proxy", D: "consensus" }
+  answer: "B"
+  explanation_vi: "\"left a voicemail\" = để lại lời nhắn thoại (khi không gặp được)."
+
+- id: "exercise-01-p6-19"
+  part: 6
+  topic: "offices"
+  lesson: ["lesson-01"]
+  level: 750
+  passage_group: "p6-17-20"
+  passage: |
+    **To:** Daniel Cho **From:** Reception Desk
+    **Subject:** Call from a journalist
+
+    Dear Mr. Cho,
+    A reporter called this morning asking about the rumored merger. As instructed, I did not comment and instead **(17)______** the call to your office. When you were unavailable, the caller left a **(18)______**. I have **(19)______** the message below for your reference. Please **(20)______** me to follow up with him before Friday.
+  related_word: "enclose"
+  options: { A: "enclosed", B: "adjourned", C: "chaired", D: "notified" }
+  answer: "A"
+  explanation_vi: "\"enclosed the message below\" = đính kèm/để tin nhắn bên dưới."
+
+- id: "exercise-01-p6-20"
+  part: 6
+  topic: "offices"
+  lesson: ["lesson-01"]
+  level: 600
+  passage_group: "p6-17-20"
+  passage: |
+    **To:** Daniel Cho **From:** Reception Desk
+    **Subject:** Call from a journalist
+
+    Dear Mr. Cho,
+    A reporter called this morning asking about the rumored merger. As instructed, I did not comment and instead **(17)______** the call to your office. When you were unavailable, the caller left a **(18)______**. I have **(19)______** the message below for your reference. Please **(20)______** me to follow up with him before Friday.
+  related_word: "remind"
+  options: { A: "remind", B: "enclose", C: "forward", D: "reschedule" }
+  answer: "A"
+  explanation_vi: "\"remind me to follow up\" = nhắc tôi liên hệ lại. Cấu trúc \"remind sb to do sth\"."
+
+- id: "exercise-01-p7-21"
+  part: 7
+  topic: "offices"
+  lesson: ["lesson-01"]
+  level: null
+  passage_group: "p7-21-23"
+  passage: |
+    **NOTICE TO BOARD MEMBERS**
+    Please be advised that the quarterly meeting of the board of directors, originally scheduled for March 3, has been **rescheduled** to March 10 at 9:00 a.m. in Conference Room A. The agenda and supporting correspondence will be circulated by memo one week in advance. As several members will attend remotely, please confirm your attendance so that we can ensure a quorum. Members who cannot attend may vote by proxy.
+    — Priya Nair, Corporate Services
+  related_word: null
+  question: "Why was the notice sent?"
+  options: { A: "To announce a new product", B: "To inform members of a schedule change", C: "To request a payment", D: "To advertise a job opening" }
+  answer: "B"
+  explanation_vi: "thông báo gửi để báo việc **dời lịch** họp (từ 3/3 sang 10/3)."
+
+- id: "exercise-01-p7-22"
+  part: 7
+  topic: "offices"
+  lesson: ["lesson-01"]
+  level: null
+  passage_group: "p7-21-23"
+  passage: |
+    **NOTICE TO BOARD MEMBERS**
+    Please be advised that the quarterly meeting of the board of directors, originally scheduled for March 3, has been **rescheduled** to March 10 at 9:00 a.m. in Conference Room A. The agenda and supporting correspondence will be circulated by memo one week in advance. As several members will attend remotely, please confirm your attendance so that we can ensure a quorum. Members who cannot attend may vote by proxy.
+    — Priya Nair, Corporate Services
+  related_word: null
+  question: "What are members asked to do?"
+  options: { A: "Confirm their attendance", B: "Submit a résumé", C: "Pay a fee", D: "Forward the memo to clients" }
+  answer: "A"
+  explanation_vi: "thành viên được yêu cầu **xác nhận tham dự** để đảm bảo đủ quorum."
+
+- id: "exercise-01-p7-23"
+  part: 7
+  topic: "offices"
+  lesson: ["lesson-01"]
+  level: null
+  passage_group: "p7-21-23"
+  passage: |
+    **NOTICE TO BOARD MEMBERS**
+    Please be advised that the quarterly meeting of the board of directors, originally scheduled for March 3, has been **rescheduled** to March 10 at 9:00 a.m. in Conference Room A. The agenda and supporting correspondence will be circulated by memo one week in advance. As several members will attend remotely, please confirm your attendance so that we can ensure a quorum. Members who cannot attend may vote by proxy.
+    — Priya Nair, Corporate Services
+  related_word: null
+  question: "The word \"circulated\" is closest in meaning to"
+  options: { A: "canceled", B: "distributed", C: "postponed", D: "enclosed" }
+  answer: "B"
+  explanation_vi: "\"circulated\" = được phát/gửi đi cho nhiều người ≈ distributed."
+
+- id: "exercise-01-p7-24"
+  part: 7
+  topic: "offices"
+  lesson: ["lesson-01"]
+  level: null
+  passage_group: "p7-24-26"
+  passage: |
+    **To:** Diane Whitfield **From:** Harold Vance
+    **Subject:** Confidential — Neura proposal
+
+    Diane, as I mentioned at the meeting, I am the recipient of a formal proposal from Neura Corporation regarding a possible acquisition of Aster. I have forwarded you the full document as an attachment. I understand you wish to postpone any discussion until after the product launch, and I respect that. However, I must remind you that the board will expect a clear recommendation by the end of the fiscal year. This correspondence should remain strictly confidential.
+    — Harold
+  related_word: null
+  question: "What did Harold send to Diane?"
+  options: { A: "A résumé", B: "A proposal from Neura", C: "An invoice", D: "A voicemail" }
+  answer: "B"
+  explanation_vi: "Harold gửi Diane **đề nghị của Neura** (dưới dạng attachment)."
+
+- id: "exercise-01-p7-25"
+  part: 7
+  topic: "offices"
+  lesson: ["lesson-01"]
+  level: null
+  passage_group: "p7-24-26"
+  passage: |
+    **To:** Diane Whitfield **From:** Harold Vance
+    **Subject:** Confidential — Neura proposal
+
+    Diane, as I mentioned at the meeting, I am the recipient of a formal proposal from Neura Corporation regarding a possible acquisition of Aster. I have forwarded you the full document as an attachment. I understand you wish to postpone any discussion until after the product launch, and I respect that. However, I must remind you that the board will expect a clear recommendation by the end of the fiscal year. This correspondence should remain strictly confidential.
+    — Harold
+  related_word: null
+  question: "What does Harold remind Diane about?"
+  options: { A: "A payment deadline", B: "A deadline for a board recommendation", C: "A travel itinerary", D: "A maintenance schedule" }
+  answer: "B"
+  explanation_vi: "Harold nhắc về **hạn chót đưa ra khuyến nghị cho hội đồng** (cuối năm tài chính)."
+
+- id: "exercise-01-p7-26"
+  part: 7
+  topic: "offices"
+  lesson: ["lesson-01"]
+  level: null
+  passage_group: "p7-24-26"
+  passage: |
+    **To:** Diane Whitfield **From:** Harold Vance
+    **Subject:** Confidential — Neura proposal
+
+    Diane, as I mentioned at the meeting, I am the recipient of a formal proposal from Neura Corporation regarding a possible acquisition of Aster. I have forwarded you the full document as an attachment. I understand you wish to postpone any discussion until after the product launch, and I respect that. However, I must remind you that the board will expect a clear recommendation by the end of the fiscal year. This correspondence should remain strictly confidential.
+    — Harold
+  related_word: null
+  question: "What does Harold ask regarding the email?"
+  options: { A: "That it be forwarded to all staff", B: "That it remain confidential", C: "That it be posted publicly", D: "That it be translated" }
+  answer: "B"
+  explanation_vi: "Harold yêu cầu email này **giữ bảo mật** (strictly confidential)."
