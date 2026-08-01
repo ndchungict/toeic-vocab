@@ -1,0 +1,13 @@
+{{/* Part 7 — passage nền --surface-2, từng câu hỏi prompt + 4 lựa chọn dọc
+     (docs/plan.md §1.3 màn 7). Luôn đúng 3 câu/group, không có ngoại lệ (§2.5). */}}
+{{ $groupItems := . }}
+{{ $first := index $groupItems 0 }}
+{{ partial "exercise/passage.html" $first }}
+<div class="exercise-part7-questions">
+  {{ range $groupItems }}
+    <div class="exercise-question" data-question-id="{{ .id }}" data-answer="{{ .answer }}">
+      <p class="exercise-question__prompt">{{ .question }}</p>
+      {{ partial "exercise/options.html" (dict "item" . "compact" false) }}
+    </div>
+  {{ end }}
+</div>

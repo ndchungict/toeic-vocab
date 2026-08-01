@@ -1,2 +1,40 @@
-// TODO(M4+): style component "hero" khi trang dùng tới nó được dựng — chưa có
-// markup thật để style vào lúc này (docs/plan.md §7.2, §11).
+// Hero gradient (--primary -> --gradient-end) — docs/plan.md §1.4. Dùng ở màn
+// Kết quả (M7); home (M8) sẽ tái dùng lại các class này.
+
+.result-hero {
+  padding: 26px 22px;
+  border-radius: var(--radius-card-lg);
+  background: linear-gradient(135deg, var(--primary), var(--gradient-end));
+  color: #fff;
+  text-align: center;
+  box-shadow: var(--shadow-hero);
+}
+
+.result-hero__score {
+  font-size: 44px;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+}
+
+.result-hero__pct {
+  font-size: 15px;
+  font-weight: 600;
+  opacity: 0.9;
+  margin-top: 4px;
+}
+
+.result-hero__parts {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 14px;
+}
+
+.result-hero__part {
+  padding: 5px 12px;
+  border-radius: var(--radius-pill);
+  background: rgba(255, 255, 255, 0.18);
+  font-size: 12.5px;
+  font-weight: 700;
+}

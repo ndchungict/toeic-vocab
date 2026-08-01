@@ -82,6 +82,8 @@ def check_lessons_complete(words, exercises_by_file):
             err(f"lessons: {lesson_id} không có từ vựng nào trong data/words")
         if not (LESSONS_DIR / lesson_id / "_index.md").exists():
             err(f"lessons: thiếu content/lessons/{lesson_id}/_index.md")
+        if not (LESSONS_DIR / lesson_id / "exercise" / "index.md").exists():
+            err(f"lessons: thiếu content/lessons/{lesson_id}/exercise/index.md")
         ex_key = f"exercise-{n:02d}"
         if ex_key not in exercises_by_file:
             err(f"lessons: thiếu data/exercises/{ex_key}.yaml")

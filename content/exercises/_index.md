@@ -1,5 +1,4 @@
 ---
 title: "Bài tập"
+subtitle: "28 đề · Part 5·6·7"
 ---
-
-Trang đang xây dựng — xem `docs/plan.md` M7.

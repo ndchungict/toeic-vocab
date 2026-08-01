@@ -1,0 +1,28 @@
+{{/* 1 câu trong màn Kết quả — docs/plan.md §1.3 màn 8. Badge Đúng/Sai/Chưa làm
+     và tô màu lựa chọn do quiz.js gắn sau khi nộp (data-* đã đủ để JS tự xử lý,
+     không cần render lại JS). Đánh số "Câu N" liên tục xuyên suốt cả 3 part
+     (khớp số trong id, đã verify liên tục 01..M trên toàn bộ 28 file). */}}
+{{ $item := . }}
+{{ $idParts := split $item.id "-" }}
+{{/* int "08" lỗi (Go coi tiền tố 0 là bát phân) — chỉ cần hiển thị nên bỏ số 0
+     đầu bằng chuỗi, không ép kiểu số. */}}
+{{ $n := strings.TrimLeft "0" (index $idParts 3) }}
+{{ $prompt := $item.question }}
+{{ if eq $item.part 6 }}{{ $prompt = printf "Đoạn văn — chỗ trống (%s)" $n }}{{ end }}
+<div class="result-card" data-result-card="{{ $item.id }}">
+  <div class="result-card__head">
+    <span class="result-card__label">Câu {{ $n }}</span>
+    <span class="badge-status" data-result-badge>Chưa làm</span>
+  </div>
+  <p class="result-card__prompt">{{ $prompt }}</p>
+  <div class="result-card__options">
+    {{ range $letter, $text := $item.options }}
+      <div class="result-option" data-option-letter="{{ $letter }}">
+        <span class="result-option__letter">{{ $letter }}</span>
+        <span class="result-option__text">{{ $text }}</span>
+        <span class="result-option__tag" data-option-tag></span>
+      </div>
+    {{ end }}
+  </div>
+  <div class="result-card__explanation">{{ $item.explanation_vi | markdownify }}</div>
+</div>

@@ -1,0 +1,17 @@
+{{/* Part 6 — 1 nhóm passage_group: passage render 1 lần (blank inline), rồi liệt
+     kê "Câu N" compact bên dưới (docs/plan.md §1.3 màn 7, §2.5). Số chỗ trống
+     LẤY TỪ SỐ ITEM CỦA GROUP, không giả định luôn 4 (43 group 4 câu, 12 group
+     3 câu, 1 group 2 câu). */}}
+{{ $groupItems := . }}
+{{ $first := index $groupItems 0 }}
+{{ partial "exercise/passage.html" $first }}
+<div class="exercise-part6-questions">
+  {{ range $groupItems }}
+    {{ $idParts := split .id "-" }}
+    {{ $n := index $idParts 3 }}
+    <div class="exercise-question exercise-question--compact" data-question-id="{{ .id }}" data-answer="{{ .answer }}">
+      <p class="exercise-question__label">Câu {{ $n }}</p>
+      {{ partial "exercise/options.html" (dict "item" . "compact" true) }}
+    </div>
+  {{ end }}
+</div>

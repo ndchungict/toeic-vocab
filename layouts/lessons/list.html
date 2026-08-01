@@ -11,7 +11,7 @@
 <div class="page-content">
   <div class="lesson-grid">
     {{ range .Pages.ByParam "weight" }}
-      {{ partial "lesson/card.html" . }}
+      {{ partial "lesson/card.html" (dict "page" .) }}
     {{ end }}
   </div>
 </div>

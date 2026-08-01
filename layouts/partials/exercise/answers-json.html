@@ -1,0 +1,12 @@
+{{/* Nhúng đáp án dạng JSON — docs/plan.md §6.6. Static site nên ai xem source
+     cũng thấy đáp án; không obfuscate vì đây là công cụ tự học, không phải bài
+     thi có giám sát. */}}
+{{ $items := . }}
+{{ $answers := dict }}
+{{ range $items }}
+  {{ $answers = merge $answers (dict .id (dict "a" .answer "e" .explanation_vi)) }}
+{{ end }}
+{{/* ⚠️ html/template tự coi nội dung trong <script> là ngữ cảnh JS và sẽ escape
+     lại chuỗi jsonify thành 1 JS string literal (JSON bị mã hoá 2 lần) nếu
+     không đánh dấu safeJS — verify thực nghiệm, không phải phòng xa thừa. */}}
+<script type="application/json" id="ex-answers">{{ $answers | jsonify | safeJS }}</script>

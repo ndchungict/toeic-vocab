@@ -1,0 +1,89 @@
+{{/* Trang Bài tập (Kind=page, leaf bundle exercise/index.md lồng trong lesson-NN
+     branch bundle — docs/plan.md §5.2, §5.3, §6.6, M7). Đọc thẳng
+     site.Data.exercises, render sẵn HTML đề + lựa chọn; quiz.js (M7) lo chọn/
+     nộp/chấm. Kết quả KHÔNG phải trang riêng — cùng trang, JS đổi view (§4). */}}
+{{ define "main" }}
+{{ $lessonId := .Params.lesson_id }}
+{{ $num := index (split $lessonId "-") 1 }}
+{{ $items := index site.Data.exercises (printf "exercise-%s" $num) }}
+
+{{ $part5 := where $items "part" 5 }}
+{{ $part6 := where $items "part" 6 }}
+{{ $part7 := where $items "part" 7 }}
+
+{{/* Nhóm Part 6/7 theo passage_group, GIỮ NGUYÊN thứ tự gặp trước — Hugo không
+     có "group-by giữ thứ tự" dựng sẵn cho slice dữ liệu thường (chỉ có cho
+     Pages), nên tự làm 2 lượt: gom danh sách khoá theo thứ tự, rồi lọc lại
+     từng khoá. Rẻ ở quy mô ~25 câu/bài. */}}
+{{ $part6GroupOrder := slice }}
+{{ range $part6 }}
+  {{ if not (in $part6GroupOrder .passage_group) }}
+    {{ $part6GroupOrder = $part6GroupOrder | append .passage_group }}
+  {{ end }}
+{{ end }}
+{{ $part7GroupOrder := slice }}
+{{ range $part7 }}
+  {{ if not (in $part7GroupOrder .passage_group) }}
+    {{ $part7GroupOrder = $part7GroupOrder | append .passage_group }}
+  {{ end }}
+{{ end }}
+
+{{ $total := len $items }}
+
+<div class="page-content page-content--exercise" data-exercise-root data-lesson-id="{{ $lessonId }}" data-total="{{ $total }}">
+  <div class="exercise-progress" data-exercise-progress>
+    <div class="progress-bar"><div class="progress-bar__fill" data-exercise-progress-fill style="width:0%"></div></div>
+    <p class="exercise-progress__label">Đã trả lời <span data-exercise-answered>0</span>/<span>{{ $total }}</span></p>
+  </div>
+
+  <div data-exercise-quiz>
+    {{ if $part5 }}
+    <section class="exercise-part exercise-part--5">
+      <h2 class="exercise-part__title">Part 5 <span class="exercise-part__desc">Incomplete Sentences · điền câu</span></h2>
+      {{ range $part5 }}{{ partial "exercise/part5.html" . }}{{ end }}
+    </section>
+    {{ end }}
+
+    {{ if $part6 }}
+    <section class="exercise-part exercise-part--6">
+      <h2 class="exercise-part__title">Part 6 <span class="exercise-part__desc">Text Completion · điền đoạn</span></h2>
+      {{ range $part6GroupOrder }}
+        {{ partial "exercise/part6.html" (where $part6 "passage_group" .) }}
+      {{ end }}
+    </section>
+    {{ end }}
+
+    {{ if $part7 }}
+    <section class="exercise-part exercise-part--7">
+      <h2 class="exercise-part__title">Part 7 <span class="exercise-part__desc">Reading Comprehension · đọc hiểu</span></h2>
+      {{ range $part7GroupOrder }}
+        {{ partial "exercise/part7.html" (where $part7 "passage_group" .) }}
+      {{ end }}
+    </section>
+    {{ end }}
+
+    <button type="button" class="exercise-submit" data-exercise-submit>Nộp bài · chấm điểm (<span data-exercise-answered-2>0</span>/{{ $total }})</button>
+  </div>
+
+  <div data-exercise-result hidden>
+    <div class="result-hero">
+      <p class="result-hero__score"><span data-result-score>0</span>/{{ $total }}</p>
+      <p class="result-hero__pct">Đúng <span data-result-pct>0</span>%</p>
+      <div class="result-hero__parts" data-result-part-scores></div>
+    </div>
+
+    <div class="result-list" data-result-list>
+      {{ range $items }}
+        {{ partial "exercise/result-card.html" . }}
+      {{ end }}
+    </div>
+
+    <div class="result-actions">
+      <button type="button" class="btn btn--outline" data-result-retry>Làm lại</button>
+      <a class="btn btn--primary" href="{{ site.Home.RelPermalink }}">Về trang chủ</a>
+    </div>
+  </div>
+
+  {{ partial "exercise/answers-json.html" $items }}
+</div>
+{{ end }}

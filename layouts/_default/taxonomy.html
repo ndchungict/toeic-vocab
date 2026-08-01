@@ -31,7 +31,7 @@
       <p class="section-label">Bài học</p>
       <div class="lesson-grid">
         {{ range $lessonPages.ByParam "weight" }}
-          {{ partial "lesson/card.html" . }}
+          {{ partial "lesson/card.html" (dict "page" .) }}
         {{ end }}
       </div>
     </section>

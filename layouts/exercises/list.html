@@ -1,0 +1,14 @@
+{{/* Danh sách 28 đề — docs/plan.md §8. Dùng lại đúng card của màn stories, chỉ
+     đổi meta/badge/đích qua mode "exercise" (lesson/card.html). Badge điểm do
+     quiz.js (M7) điền từ localStorage results[lesson-NN]. */}}
+{{ define "main" }}
+<div class="page-content">
+  <div class="lesson-grid">
+    {{ with site.GetPage "/lessons" }}
+      {{ range .Pages.ByParam "weight" }}
+        {{ partial "lesson/card.html" (dict "page" . "mode" "exercise") }}
+      {{ end }}
+    {{ end }}
+  </div>
+</div>
+{{ end }}

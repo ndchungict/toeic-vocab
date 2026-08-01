@@ -36,6 +36,25 @@ function syncReadBadges() {
   });
 }
 
+// Badge "Đã làm N/M" trên /exercises/ — results ghi bởi quiz.js (M7) khi nộp
+// bài, ở đây chỉ ĐỌC để hiển thị (giống readIds ở trên).
+function syncExerciseBadges() {
+  document.querySelectorAll("[data-exercise-card]").forEach((card) => {
+    const lessonId = card.getAttribute("data-exercise-card");
+    const badge = card.querySelector("[data-exercise-result-badge]");
+    if (!badge) return;
+    const results = Store.get("results") || {};
+    const result = results[lessonId];
+    if (result) {
+      badge.textContent = "Đã làm " + result.score + "/" + result.total;
+      badge.classList.add("badge-status--read");
+    } else {
+      badge.textContent = "Chưa làm";
+      badge.classList.remove("badge-status--read");
+    }
+  });
+}
+
 document.addEventListener("click", (e) => {
   const masteredBtn = e.target.closest("[data-mastered-toggle]");
   if (masteredBtn) {
@@ -53,3 +72,4 @@ document.addEventListener("click", (e) => {
 syncMasteredButtons();
 syncFavButtons();
 syncReadBadges();
+syncExerciseBadges();

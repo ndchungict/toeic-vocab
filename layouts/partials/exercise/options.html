@@ -1,0 +1,12 @@
+{{/* 4 lựa chọn A/B/C/D — 2 biến thể thường/compact (docs/plan.md §1.4). Map Go
+     tự sắp xếp theo khoá khi range nên A/B/C/D luôn đúng thứ tự. */}}
+{{ $item := .item }}
+{{ $compact := .compact }}
+<div class="exercise-options{{ if $compact }} exercise-options--compact{{ end }}">
+  {{ range $letter, $text := $item.options }}
+    <button type="button" class="exercise-option" data-question-id="{{ $item.id }}" data-option-letter="{{ $letter }}">
+      <span class="exercise-option__letter">{{ $letter }}</span>
+      <span class="exercise-option__text">{{ $text }}</span>
+    </button>
+  {{ end }}
+</div>

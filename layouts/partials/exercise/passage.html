@@ -1,0 +1,61 @@
+{{/* Render 1 khối passage Part 6/7 — docs/plan.md §12.3 Q7.
+     ⚠️ Đã SỬA LẠI so với quy tắc gốc trong plan sau khi verify TOÀN BỘ 112 group
+     thật bằng script (không phải suy đoán): quy tắc gốc "dòng kế tiếp nếu chứa
+     To:/Re:/Subject: thì làm meta, còn lại render cả khối" ngầm định meta luôn
+     tồn tại và ranh giới meta/body luôn là 1 dòng trống — SAI. Đo được: 95/112
+     group KHÔNG có dòng meta nào (heading nối thẳng vào đoạn văn, có group còn
+     không có cả dòng trống ngăn cách, vd exercise-01 p7-21-23). Quy tắc ĐÚNG:
+       - dòng đầu khớp ^\*\*[^*]+\*\*$ (bold đứng riêng cả dòng) -> heading
+       - các dòng NGAY SAU ĐÓ khớp ^\*\*(To|From|Re|Subject):\*\*  -> meta,
+         dừng ngay khi gặp dòng đầu tiên KHÔNG khớp mẫu này (không phải dừng ở
+         dòng trống — dòng trống có thể không tồn tại, hoặc phần thân mới là
+         đoạn văn dài không có ranh giới trống rõ ràng)
+       - bỏ đúng 1 dòng trống ngay sau heading/meta nếu có, phần còn lại -> body
+     Part 6: thay **(n)______** thành span chỗ trống TRƯỚC khi markdownify
+     (unsafe=true trong hugo.toml nên HTML thô lọt qua nguyên vẹn). */}}
+{{ $passage := .passage }}
+{{ $part := .part }}
+{{ $lines := split $passage "\n" }}
+
+{{ $heading := "" }}
+{{ $start := 0 }}
+{{ if gt (len $lines) 0 }}
+  {{ if findRE "^\\*\\*[^*]+\\*\\*$" (trim (index $lines 0) " \t") }}
+    {{ $heading = index $lines 0 }}
+    {{ $start = 1 }}
+  {{ end }}
+{{ end }}
+
+{{ $metaLines := slice }}
+{{ $inMeta := true }}
+{{ range $idx, $line := $lines }}
+  {{ if and (ge $idx $start) $inMeta }}
+    {{ if findRE "^\\*\\*(To|From|Re|Subject):\\*\\*" (trim $line " \t") }}
+      {{ $metaLines = $metaLines | append $line }}
+    {{ else }}
+      {{ $inMeta = false }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+
+{{ $bodyStart := add $start (len $metaLines) }}
+{{ if and (lt $bodyStart (len $lines)) (eq (trim (index $lines $bodyStart) " \t") "") }}
+  {{ $bodyStart = add $bodyStart 1 }}
+{{ end }}
+{{ $body := delimit (after $bodyStart $lines) "\n" }}
+{{ if eq $part 6 }}
+  {{/* data-blank-id phải là ID CÂU HỎI ĐẦY ĐỦ (khớp answers-json và
+       data-question-id của options), không chỉ số thứ tự — suy ra tiền tố từ
+       id của item đầu group (vd "exercise-01-p6-13" -> tiền tố "exercise-01-p6-",
+       ghép với số bắt được ($1) ra đúng "exercise-01-p6-13"). */}}
+  {{ $idParts := split .id "-" }}
+  {{ $idPrefix := printf "%s-" (delimit (first (sub (len $idParts) 1) $idParts) "-") }}
+  {{ $replacement := printf `<span class="exercise-blank" data-blank-id="%s$1" data-placeholder="($1)">($1)</span>` $idPrefix }}
+  {{ $body = replaceRE `\*\*\((\d+)\)_+\*\*` $replacement $body }}
+{{ end }}
+
+<div class="exercise-passage">
+  {{ with $heading }}<p class="exercise-passage__heading">{{ trim . "* \t" }}</p>{{ end }}
+  {{ if $metaLines }}<p class="exercise-passage__meta">{{ delimit $metaLines "<br>" | markdownify }}</p>{{ end }}
+  <div class="exercise-passage__body">{{ $body | markdownify }}</div>
+</div>

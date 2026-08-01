@@ -54,9 +54,14 @@
   {{ else if eq .Section "flashcard" }}
     {{ $flashcardJS := resources.Get "js/flashcard.js" | js.Build | fingerprint }}
     <script src="{{ $flashcardJS.RelPermalink }}" integrity="{{ $flashcardJS.Data.Integrity }}" defer></script>
-  {{ else if and (eq .Section "lessons") .Params.lesson_id }}
+  {{ else if and (eq .Section "lessons") .Params.lesson_id (eq .Kind "section") }}
+    {{/* lesson-NN/ (branch bundle, Kind=section) = màn Reader */}}
     {{ $readerJS := resources.Get "js/reader.js" | js.Build | fingerprint }}
     <script src="{{ $readerJS.RelPermalink }}" integrity="{{ $readerJS.Data.Integrity }}" defer></script>
+  {{ else if and (eq .Section "lessons") .Params.lesson_id (eq .Kind "page") }}
+    {{/* lesson-NN/exercise/ (leaf bundle, Kind=page) = màn Bài tập */}}
+    {{ $quizJS := resources.Get "js/quiz.js" | js.Build | fingerprint }}
+    <script src="{{ $quizJS.RelPermalink }}" integrity="{{ $quizJS.Data.Integrity }}" defer></script>
   {{ end }}
 </body>
 </html>
