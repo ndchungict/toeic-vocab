@@ -1,8 +1,11 @@
 ---
 title: Chương 19 — The Lab Lights Stay On
+back: /lessons/
 lesson_id: lesson-19
 chapter: 19
 act: Hồi III — Khủng hoảng & tôi luyện
+acts:
+- hoi-iii-khung-hoang-toi-luyen
 story_slug: lab-lights-stay-on
 topics:
 - corporate-development

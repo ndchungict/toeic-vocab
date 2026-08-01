@@ -1,8 +1,11 @@
 ---
 title: Chương 11 — Dinner by the Harbour
+back: /lessons/
 lesson_id: lesson-11
 chapter: 11
 act: Hồi II — Ra thế giới
+acts:
+- hoi-ii-ra-the-gioi
 story_slug: dinner-by-the-harbour
 topics:
 - dining-out

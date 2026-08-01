@@ -1,8 +1,11 @@
 ---
 title: Chương 23 — Four Bare Walls
+back: /lessons/
 lesson_id: lesson-23
 chapter: 23
 act: Hồi III — Khủng hoảng & tôi luyện
+acts:
+- hoi-iii-khung-hoang-toi-luyen
 story_slug: four-bare-walls
 topics:
 - housing-property

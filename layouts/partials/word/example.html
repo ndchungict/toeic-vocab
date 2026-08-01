@@ -1,0 +1,18 @@
+{{/* Câu ví dụ — highlight từ đích nền --primary-soft (docs/plan.md §1.3, §2.3 điểm 1).
+     `example.en` bọc từ đích trong {…}; 2 entry có 2 cặp (cụm bị tách, vd
+     "put {on hold} the {call}") — replaceRE thay TẤT CẢ nên tự đúng, không cần
+     xử lý riêng. speak.js (M5) tự xoá {} khi đọc, không xử lý ở đây. */}}
+{{ $w := . }}
+{{ $highlighted := replaceRE `\{([^}]+)\}` `<mark>$1</mark>` $w.example.en }}
+<section class="detail-section">
+  <p class="section-label">Câu ví dụ</p>
+  <div class="word-example">
+    <p class="word-example__en">
+      {{ $highlighted | safeHTML }}
+      <button type="button" class="speak-button" data-speak="{{ $w.example.en }}" aria-label="Nghe câu ví dụ">
+        {{ partial "icons/icon.html" (dict "name" "speaker") }}
+      </button>
+    </p>
+    <p class="word-example__vi">{{ $w.example.vi }}</p>
+  </div>
+</section>

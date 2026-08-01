@@ -1,2 +1,23 @@
-// TODO(M4+): style component "segmented" khi trang dùng tới nó được dựng — chưa có
-// markup thật để style vào lúc này (docs/plan.md §7.2, §11).
+// Segmented control (Truyện chêm / Bản tiếng Anh ở Reader) — docs/plan.md §1.4.
+
+.segmented {
+  display: inline-flex;
+  padding: 3px;
+  border-radius: var(--radius-button);
+  background: var(--surface-2);
+  gap: 2px;
+}
+
+.segmented__item {
+  padding: 7px 14px;
+  border-radius: 9px;
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--muted);
+
+  &.is-active {
+    background: var(--surface);
+    color: var(--text);
+    box-shadow: var(--shadow-segment);
+  }
+}

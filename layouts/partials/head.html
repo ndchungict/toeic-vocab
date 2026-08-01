@@ -1,11 +1,12 @@
 {{/* Meta, CSS pipeline (SCSS -> Hugo Pipes libsass, §7.2), script chống nháy theme. */}}
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>{{ if not .IsHome }}{{ .Title }} · {{ end }}{{ site.Title }}</title>
+{{ $pageTitle := partial "page-title.html" . }}
+<title>{{ if not .IsHome }}{{ $pageTitle }} · {{ end }}{{ site.Title }}</title>
 <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ site.Params.description }}{{ end }}">
 <link rel="icon" href="data:image/svg+xml,{{ `<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><rect width='24' height='24' rx='6' fill='%235b52e8'/><text x='12' y='17' font-family='sans-serif' font-size='14' font-weight='800' fill='white' text-anchor='middle'>V</text></svg>` | safeURL }}">
 
-<meta property="og:title" content="{{ if not .IsHome }}{{ .Title }} · {{ end }}{{ site.Title }}">
+<meta property="og:title" content="{{ if not .IsHome }}{{ $pageTitle }} · {{ end }}{{ site.Title }}">
 <meta property="og:description" content="{{ with .Description }}{{ . }}{{ else }}{{ site.Params.description }}{{ end }}">
 <meta property="og:type" content="website">
 <meta property="og:url" content="{{ .Permalink }}">

@@ -1,8 +1,11 @@
 ---
 title: Chương 12 — The Deal Over Dessert
+back: /lessons/
 lesson_id: lesson-12
 chapter: 12
 act: Hồi II — Ra thế giới
+acts:
+- hoi-ii-ra-the-gioi
 story_slug: the-deal-over-dessert
 topics:
 - dining-out

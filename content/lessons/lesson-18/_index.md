@@ -1,8 +1,11 @@
 ---
 title: Chương 18 — When the Line Stops
+back: /lessons/
 lesson_id: lesson-18
 chapter: 18
 act: Hồi III — Khủng hoảng & tôi luyện
+acts:
+- hoi-iii-khung-hoang-toi-luyen
 story_slug: when-the-line-stops
 topics:
 - manufacturing

@@ -1,8 +1,11 @@
 ---
 title: Chương 13 — The Numbers Don't Add Up
+back: /lessons/
 lesson_id: lesson-13
 chapter: 13
 act: Hồi II — Ra thế giới
+acts:
+- hoi-ii-ra-the-gioi
 story_slug: numbers-dont-add-up
 topics:
 - finance-budgeting

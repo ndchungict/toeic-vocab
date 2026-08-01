@@ -1,8 +1,11 @@
 ---
 title: Chương 20 — Protecting the Breakthrough
+back: /lessons/
 lesson_id: lesson-20
 chapter: 20
 act: Hồi III — Khủng hoảng & tôi luyện
+acts:
+- hoi-iii-khung-hoang-toi-luyen
 story_slug: protecting-the-breakthrough
 topics:
 - corporate-development

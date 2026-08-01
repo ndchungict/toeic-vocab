@@ -1,8 +1,11 @@
 ---
 title: Chương 8 — Bright Lights and a Simmering Floor
+back: /lessons/
 lesson_id: lesson-08
 chapter: 8
 act: Hồi I — Khởi đầu
+acts:
+- hoi-i-khoi-dau
 story_slug: bright-lights-simmering-floor
 topics:
 - general-business

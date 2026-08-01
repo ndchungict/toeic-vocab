@@ -1,0 +1,19 @@
+{{/* Dùng chung cho CẢ /lessons/ (màn "stories", lưới 28 card) VÀ từng
+     /lessons/lesson-NN/ (màn "reader"). ⚠️ Đã verify thực nghiệm trên Hugo
+     0.148.1: lesson-NN/ là branch bundle (_index.md trong thư mục con) nên
+     Kind="section" giống hệt /lessons/ — layouts/lessons/single.html KHÔNG
+     bao giờ được Hugo chọn cho lesson-NN/, chỉ list.html mới đúng. Phân biệt
+     2 trường hợp bằng .Params.lesson_id (chỉ lesson-NN mới có). */}}
+{{ define "main" }}
+{{ if .Params.lesson_id }}
+  {{ partial "lesson/reader.html" . }}
+{{ else }}
+<div class="page-content">
+  <div class="lesson-grid">
+    {{ range .Pages.ByParam "weight" }}
+      {{ partial "lesson/card.html" . }}
+    {{ end }}
+  </div>
+</div>
+{{ end }}
+{{ end }}

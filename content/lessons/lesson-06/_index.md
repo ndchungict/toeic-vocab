@@ -1,8 +1,11 @@
 ---
 title: Chương 6 — Making Halston Want It
+back: /lessons/
 lesson_id: lesson-06
 chapter: 6
 act: Hồi I — Khởi đầu
+acts:
+- hoi-i-khoi-dau
 story_slug: making-halston-want-it
 topics:
 - general-business

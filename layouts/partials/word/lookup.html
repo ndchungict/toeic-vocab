@@ -1,0 +1,12 @@
+{{/* Tra 1 entry từ vựng đầy đủ theo khoá "<topic>:<word>" (dùng cho chip trong
+     Reader). Trả về map rỗng nếu không tìm thấy — luôn dùng {{ with (partial
+     "word/lookup.html" $key) }} ở nơi gọi, không truy cập field trực tiếp. */}}
+{{ $key := . }}
+{{ $parts := split $key ":" }}
+{{ $topic := index $parts 0 }}
+{{ $word := index $parts 1 }}
+{{ $found := dict }}
+{{ range index site.Data.words $topic }}
+  {{ if eq .word $word }}{{ $found = . }}{{ end }}
+{{ end }}
+{{ return $found }}

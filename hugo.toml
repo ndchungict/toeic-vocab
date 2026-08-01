@@ -7,6 +7,13 @@ enableGitInfo          = true
 hasCJKLanguage         = false
 timeZone               = "Asia/Ho_Chi_Minh"
 
+# data/slugs/*.md và data/story/**/*.md giữ lại làm tài liệu người đọc + nguồn
+# gốc cho scripts/tokenize_stories.py (§10, §12.3 Q8), nhưng Hugo nạp TOÀN BỘ
+# data/ vào site.Data ngay khi có template tham chiếu site.Data.* — và .md
+# không phải định dạng data hợp lệ nên build lỗi cứng nếu không loại trừ.
+# Đường dẫn match là tương đối so với data/ (không có tiền tố "data/").
+ignoreFiles = ['slugs/', 'story/']
+
 [taxonomies]
   topic    = "topics"
   subtopic = "subtopics"

@@ -1,8 +1,11 @@
 ---
 title: Chương 16 — The Rush Shipment
+back: /lessons/
 lesson_id: lesson-16
 chapter: 16
 act: Hồi II — Ra thế giới
+acts:
+- hoi-ii-ra-the-gioi
 story_slug: the-rush-shipment
 topics:
 - purchasing

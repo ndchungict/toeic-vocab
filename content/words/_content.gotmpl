@@ -1,0 +1,23 @@
+{{/* Content Adapter — sinh 558 trang chi tiết từ từ data/words (docs/plan.md §6.4).
+     `path` PHẢI gồm topic vì `word` không duy nhất (20 từ trùng tên, §2.3 điểm 4).
+     Gắn taxonomy topics/subtopics để trang /topics/<slug>/ liệt kê được cả từ lẫn
+     bài học cùng chủ đề (dùng chung 1 hệ taxonomy, không tạo content section
+     content/topics/ riêng — tránh xung đột URL với trang taxonomy tự sinh). */}}
+{{ range $topic, $words := site.Data.words }}
+  {{ range $words }}
+    {{ $subtopic := index . "sub-topic" }}
+    {{/* Hugo tự nhận taxonomy từ field trong "params" khớp tên số nhiều trong
+         hugo.toml [taxonomies] (đã verify thực nghiệm ở lesson front matter) —
+         AddPage KHÔNG có key "taxonomies" riêng, phải đặt trong params. */}}
+    {{ $params := dict "entry" . "key" (printf "%s:%s" $topic .word) "back" "/words/" "topics" (slice $topic) }}
+    {{ if $subtopic }}
+      {{ $params = merge $params (dict "subtopics" (slice $subtopic)) }}
+    {{ end }}
+    {{ $.AddPage (dict
+      "path"   (printf "%s/%s" $topic (urlize .word))
+      "title"  .word
+      "kind"   "page"
+      "params" $params
+    ) }}
+  {{ end }}
+{{ end }}

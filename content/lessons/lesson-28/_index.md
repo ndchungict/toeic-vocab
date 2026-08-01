@@ -1,8 +1,11 @@
 ---
 title: Chương 28 — The Verdict
+back: /lessons/
 lesson_id: lesson-28
 chapter: 28
 act: Hồi IV — Định đoạt
+acts:
+- hoi-iv-dinh-doat
 story_slug: the-verdict
 topics:
 - entertainment

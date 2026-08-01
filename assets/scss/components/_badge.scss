@@ -1,2 +1,29 @@
-// TODO(M4+): style component "badge" khi trang dùng tới nó được dựng — chưa có
-// markup thật để style vào lúc này (docs/plan.md §7.2, §11).
+// Badge level (TOEIC <n>) + badge trạng thái — docs/plan.md §1.4, §1.5.
+
+.badge-level {
+  display: inline-flex;
+  align-items: center;
+  padding: 4px 9px;
+  border-radius: var(--radius-badge);
+  font-size: 11.5px;
+  font-weight: 800;
+  white-space: nowrap;
+}
+
+@each $level in 450, 600, 750, 860, 900 {
+  .badge-level--#{$level} {
+    color: var(--level-#{$level}-fg);
+    background: var(--level-#{$level}-bg);
+  }
+}
+
+.badge-status {
+  display: inline-flex;
+  align-items: center;
+  padding: 4px 9px;
+  border-radius: var(--radius-badge);
+  font-size: 11.5px;
+  font-weight: 700;
+  color: var(--muted);
+  background: var(--surface-2);
+}

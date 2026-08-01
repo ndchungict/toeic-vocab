@@ -1,8 +1,11 @@
 ---
 title: Chương 9 — First Flight to Halston
+back: /lessons/
 lesson_id: lesson-09
 chapter: 9
 act: Hồi II — Ra thế giới
+acts:
+- hoi-ii-ra-the-gioi
 story_slug: first-flight-to-halston
 topics:
 - travel

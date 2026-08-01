@@ -1,8 +1,11 @@
 ---
 title: Chương 15 — Squeezing Every Dollar
+back: /lessons/
 lesson_id: lesson-15
 chapter: 15
 act: Hồi II — Ra thế giới
+acts:
+- hoi-ii-ra-the-gioi
 story_slug: squeezing-every-dollar
 topics:
 - purchasing

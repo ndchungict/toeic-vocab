@@ -1,8 +1,11 @@
 ---
 title: Chương 5 — Two Deals on One Desk
+back: /lessons/
 lesson_id: lesson-05
 chapter: 5
 act: Hồi I — Khởi đầu
+acts:
+- hoi-i-khoi-dau
 story_slug: two-deals-one-desk
 topics:
 - general-business

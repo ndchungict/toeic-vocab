@@ -1,8 +1,11 @@
 ---
 title: Chương 17 — Running the Line Hot
+back: /lessons/
 lesson_id: lesson-17
 chapter: 17
 act: Hồi III — Khủng hoảng & tôi luyện
+acts:
+- hoi-iii-khung-hoang-toi-luyen
 story_slug: running-the-line-hot
 topics:
 - manufacturing

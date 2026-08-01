@@ -1,8 +1,11 @@
 ---
 title: Chương 26 — Looking After the Team
+back: /lessons/
 lesson_id: lesson-26
 chapter: 26
 act: Hồi IV — Định đoạt
+acts:
+- hoi-iv-dinh-doat
 story_slug: looking-after-the-team
 topics:
 - health

@@ -1,0 +1,37 @@
+{{/* Card đầu màn Detail — docs/plan.md §1.3. Nút Nghe/Đánh dấu/Yêu thích chưa có
+     JS (M5: speak.js, word-actions.js) — render sẵn markup + data-hook. */}}
+{{ $w := .w }}
+{{ $key := .key }}
+{{ $posLabel := dict
+  "noun" "danh từ"
+  "verb" "động từ"
+  "adjective" "tính từ"
+  "adverb" "trạng từ"
+  "phrasal verb" "cụm động từ"
+  "preposition" "giới từ"
+}}
+<section class="word-card">
+  <div class="word-card__head">
+    <h2 class="word-card__word">{{ $w.word }}</h2>
+    <span class="badge-level badge-level--{{ $w.level }}">TOEIC {{ $w.level }}</span>
+  </div>
+  <p class="word-card__meta">
+    {{ with index $posLabel $w.pos }}{{ . }}{{ else }}{{ $w.pos }}{{ end }}
+    <span class="word-card__ipa">{{ $w.ipa }}</span>
+    <button type="button" class="speak-button speak-button--labelled" data-speak="{{ $w.word }}" aria-label="Nghe phát âm">
+      {{ partial "icons/icon.html" (dict "name" "speaker") }}
+      <span>Nghe</span>
+    </button>
+  </p>
+  <p class="word-card__meaning">{{ $w.meaning }}</p>
+  <div class="word-card__actions">
+    <button type="button" class="btn btn--outline" data-mastered-toggle="{{ $key }}">
+      {{ partial "icons/icon.html" (dict "name" "check") }}
+      <span>Đánh dấu đã thuộc</span>
+    </button>
+    <button type="button" class="btn btn--outline" data-fav-toggle="{{ $key }}">
+      {{ partial "icons/icon.html" (dict "name" "heart") }}
+      <span>Yêu thích</span>
+    </button>
+  </div>
+</section>

@@ -1,8 +1,11 @@
 ---
 title: Chương 2 — The Twelfth Floor
+back: /lessons/
 lesson_id: lesson-02
 chapter: 2
 act: Hồi I — Khởi đầu
+acts:
+- hoi-i-khoi-dau
 story_slug: the-twelfth-floor
 topics:
 - offices

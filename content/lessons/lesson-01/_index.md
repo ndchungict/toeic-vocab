@@ -1,8 +1,11 @@
 ---
 title: Chương 1 — The Vote
+back: /lessons/
 lesson_id: lesson-01
 chapter: 1
 act: Hồi I — Khởi đầu
+acts:
+- hoi-i-khoi-dau
 story_slug: the-vote
 topics:
 - offices

@@ -1,0 +1,24 @@
+{{/* Tiêu đề hiển thị cho mọi loại trang — mặc định .Title, riêng trang taxonomy
+     term (topics/subtopics/acts) tra nhãn tiếng Việt từ data/taxonomy.yaml thay vì
+     dùng slug viết hoa mặc định của Hugo. Dùng ở shell/header.html để <h1> và
+     <title> luôn khớp nhau dù trang nào gọi. */}}
+{{ $page := . }}
+{{ $label := $page.Title }}
+{{ if eq $page.Kind "term" }}
+  {{ $plural := $page.Data.Plural }}
+  {{ $term := $page.Data.Term }}
+  {{ if eq $plural "topics" }}
+    {{ with index site.Data.taxonomy.topics $term }}{{ $label = .label_vi }}{{ end }}
+  {{ else if eq $plural "subtopics" }}
+    {{ range site.Data.taxonomy.topics }}
+      {{ range .subtopics }}
+        {{ if eq .slug $term }}{{ $label = .label_vi }}{{ end }}
+      {{ end }}
+    {{ end }}
+  {{ else if eq $plural "acts" }}
+    {{ range site.Data.taxonomy.acts }}
+      {{ if eq .slug $term }}{{ $label = .label }}{{ end }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+{{ return $label }}

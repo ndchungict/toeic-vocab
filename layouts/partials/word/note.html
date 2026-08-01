@@ -1,0 +1,8 @@
+{{/* Ghi chú — chỉ hiện khi có (210/558 entry, docs/plan.md §2.3). */}}
+{{ $w := . }}
+{{ with $w.note }}
+<section class="detail-section">
+  <p class="section-label">Ghi chú</p>
+  <p class="word-note">{{ . }}</p>
+</section>
+{{ end }}

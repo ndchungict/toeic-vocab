@@ -1,0 +1,21 @@
+{{/* Điều hướng chương trước/sau — docs/plan.md §5.2. Dựa vào .Params.chapter
+     (int 1-28) thay vì tìm vị trí trong Pages, đơn giản và chắc chắn hơn. */}}
+{{ $chapter := .Params.chapter }}
+{{ $prev := "" }}
+{{ $next := "" }}
+{{ if gt $chapter 1 }}{{ $prev = site.GetPage (printf "/lessons/lesson-%02d" (sub $chapter 1)) }}{{ end }}
+{{ if lt $chapter 28 }}{{ $next = site.GetPage (printf "/lessons/lesson-%02d" (add $chapter 1)) }}{{ end }}
+<nav class="lesson-nav" aria-label="Điều hướng chương">
+  {{ with $prev }}
+    <a class="lesson-nav__link lesson-nav__link--prev" href="{{ .RelPermalink }}">
+      {{ partial "icons/icon.html" (dict "name" "back") }}
+      <span>{{ .Title }}</span>
+    </a>
+  {{ else }}<span></span>{{ end }}
+  {{ with $next }}
+    <a class="lesson-nav__link lesson-nav__link--next" href="{{ .RelPermalink }}">
+      <span>{{ .Title }}</span>
+      {{ partial "icons/icon.html" (dict "name" "chevron-right") }}
+    </a>
+  {{ end }}
+</nav>

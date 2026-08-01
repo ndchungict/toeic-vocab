@@ -1,8 +1,11 @@
 ---
 title: Chương 21 — The Ghost in the System
+back: /lessons/
 lesson_id: lesson-21
 chapter: 21
 act: Hồi III — Khủng hoảng & tôi luyện
+acts:
+- hoi-iii-khung-hoang-toi-luyen
 story_slug: ghost-in-the-system
 topics:
 - technical-areas

@@ -1,0 +1,32 @@
+{{ define "main" }}
+{{ $w := .Params.entry }}
+{{ $key := .Params.key }}
+<div class="page-content page-content--detail">
+  {{ partial "word/card.html" (dict "w" $w "key" $key) }}
+
+  <div class="detail-grid">
+    {{ partial "word/forms.html" $w }}
+    {{ partial "word/collocations.html" $w }}
+  </div>
+
+  {{ partial "word/example.html" $w }}
+  {{ partial "word/note.html" $w }}
+
+  {{ if $w.lesson }}
+    <section class="detail-section">
+      <p class="section-label">Xuất hiện trong truyện</p>
+      <div class="detail-lesson-links">
+        {{ range $w.lesson }}
+          {{ $lesson := . }}
+          {{ with site.GetPage (printf "/lessons/%s" $lesson) }}
+            <a class="detail-lesson-link" href="{{ .RelPermalink }}">
+              {{ partial "icons/icon.html" (dict "name" "stories") }}
+              <span>{{ .Title }}</span>
+            </a>
+          {{ end }}
+        {{ end }}
+      </div>
+    </section>
+  {{ end }}
+</div>
+{{ end }}

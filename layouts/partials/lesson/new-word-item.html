@@ -1,0 +1,14 @@
+{{/* 1 dòng trong cột "Từ mới" của màn Reader — docs/plan.md §1.3 màn 6. */}}
+{{ $w := . }}
+{{ $key := printf "%s:%s" $w.topic $w.word }}
+<div class="new-word-item" data-word-key="{{ $key }}">
+  <div class="new-word-item__head">
+    <a href="{{ printf "words/%s/%s" $w.topic (urlize $w.word) | relURL }}" class="new-word-item__word">{{ $w.word }}</a>
+    <span class="badge-level badge-level--{{ $w.level }}">TOEIC {{ $w.level }}</span>
+  </div>
+  <p class="new-word-item__meta">{{ $w.ipa }} · {{ $w.meaning }}</p>
+  <button type="button" class="speak-button speak-button--labelled" data-speak="{{ $w.word }}" aria-label="Nghe phát âm {{ $w.word }}">
+    {{ partial "icons/icon.html" (dict "name" "speaker") }}
+    <span>Nghe</span>
+  </button>
+</div>

@@ -1,0 +1,12 @@
+{{/* Số từ mới của 1 bài học — luôn suy từ data/words tại lúc build, KHÔNG lưu tĩnh
+     trong front matter (docs/plan.md §2.4: "newWords luôn suy từ data/words").
+     Lọc theo (lesson, topic) giống migrate_stories.py/tokenize_stories.py để
+     tránh lẫn các từ trùng tên có bản sao ở topic khác (§2.3 điểm 4).
+     Dùng: {{ partial "lesson/word-count.html" . }} với . là trang lesson. */}}
+{{ $lessonID := .Params.lesson_id }}
+{{ $topic := index .Params.topics 0 }}
+{{ $count := 0 }}
+{{ range index site.Data.words $topic }}
+  {{ if in .lesson $lessonID }}{{ $count = add $count 1 }}{{ end }}
+{{ end }}
+{{ return $count }}

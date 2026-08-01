@@ -1,8 +1,11 @@
 ---
 title: Chương 10 — Checked In, Then Stuck in Traffic
+back: /lessons/
 lesson_id: lesson-10
 chapter: 10
 act: Hồi II — Ra thế giới
+acts:
+- hoi-ii-ra-the-gioi
 story_slug: checked-in-stuck-in-traffic
 topics:
 - travel

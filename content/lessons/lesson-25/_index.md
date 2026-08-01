@@ -1,8 +1,11 @@
 ---
 title: Chương 25 — When the Body Says No
+back: /lessons/
 lesson_id: lesson-25
 chapter: 25
 act: Hồi IV — Định đoạt
+acts:
+- hoi-iv-dinh-doat
 story_slug: when-the-body-says-no
 topics:
 - health

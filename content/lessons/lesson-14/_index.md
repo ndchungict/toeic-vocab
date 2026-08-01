@@ -1,8 +1,11 @@
 ---
 title: Chương 14 — Courting the Investors
+back: /lessons/
 lesson_id: lesson-14
 chapter: 14
 act: Hồi II — Ra thế giới
+acts:
+- hoi-ii-ra-the-gioi
 story_slug: courting-the-investors
 topics:
 - finance-budgeting

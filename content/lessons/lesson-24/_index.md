@@ -1,8 +1,11 @@
 ---
 title: Chương 24 — Racing to Open
+back: /lessons/
 lesson_id: lesson-24
 chapter: 24
 act: Hồi III — Khủng hoảng & tôi luyện
+acts:
+- hoi-iii-khung-hoang-toi-luyen
 story_slug: racing-to-open
 topics:
 - housing-property

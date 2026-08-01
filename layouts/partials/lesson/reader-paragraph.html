@@ -1,0 +1,15 @@
+{{/* Render 1 đoạn truyện từ tokens.json — mảng xen kẽ text thường / {w,label}
+     (docs/plan.md §5.2, §6.3). Token khớp -> chip bấm được (mở popover, M6);
+     không khớp thì tokenize_stories.py đã gộp lại thành text thường sẵn rồi.
+     Gloss "(nghĩa)" render SẴN nhưng ẩn (hidden) — nút "Hiện nghĩa" (M6) chỉ cần
+     toggle hidden, không phải tra dữ liệu lúc runtime. */}}
+{{ range . }}
+  {{ if reflect.IsMap . }}
+    {{ $key := .w }}
+    {{ $parts := split $key ":" }}
+    {{ $displayText := .label }}
+    {{ if not $displayText }}{{ $displayText = index $parts 1 }}{{ end }}
+    {{ $entry := partial "word/lookup.html" $key }}<button type="button" class="reader-chip" data-word-key="{{ $key }}">{{ $displayText }}</button>{{ with $entry.meaning }}<span class="reader-chip__gloss" hidden> ({{ . }})</span>{{ end }}
+  {{ else }}{{ . }}
+  {{ end }}
+{{ end }}

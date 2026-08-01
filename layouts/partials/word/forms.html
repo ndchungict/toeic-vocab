@@ -1,0 +1,34 @@
+{{/* "Họ từ" — docs/plan.md §1.3, §2.3 điểm 2. `forms` có 8 khóa có thể gặp (không
+     chỉ 4 loại từ cơ bản) và value có thể là string HOẶC list — phải xử lý cả 2,
+     nếu không sẽ hiện dính liền kiểu "chair,chairperson" (lỗi của mockup). */}}
+{{ $w := . }}
+{{ $formsOrder := slice "noun" "verb" "adjective" "adverb" "noun_person" "noun_activity" "noun_field" "preposition" }}
+{{ $formsLabel := dict
+  "noun" "Danh từ"
+  "verb" "Động từ"
+  "adjective" "Tính từ"
+  "adverb" "Trạng từ"
+  "noun_person" "Danh từ (người)"
+  "noun_activity" "Danh từ (hoạt động)"
+  "noun_field" "Danh từ (lĩnh vực)"
+  "preposition" "Giới từ"
+}}
+<section class="detail-section">
+  <p class="section-label">Họ từ</p>
+  <div class="word-forms">
+    {{ range $formsOrder }}
+      {{ $formKey := . }}
+      {{ with index $w.forms $formKey }}
+        {{ $text := . }}
+        {{ if reflect.IsSlice . }}{{ $text = delimit . ", " }}{{ end }}
+        <div class="word-forms__row">
+          <span class="word-forms__label">{{ index $formsLabel $formKey }}</span>
+          <span class="word-forms__value">{{ $text }}</span>
+          <button type="button" class="speak-button" data-speak="{{ $text }}" aria-label="Nghe phát âm {{ $text }}">
+            {{ partial "icons/icon.html" (dict "name" "speaker") }}
+          </button>
+        </div>
+      {{ end }}
+    {{ end }}
+  </div>
+</section>

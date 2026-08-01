@@ -1,8 +1,11 @@
 ---
 title: Chương 3 — The New Face on the Twelfth Floor
+back: /lessons/
 lesson_id: lesson-03
 chapter: 3
 act: Hồi I — Khởi đầu
+acts:
+- hoi-i-khoi-dau
 story_slug: the-new-face
 topics:
 - personnel

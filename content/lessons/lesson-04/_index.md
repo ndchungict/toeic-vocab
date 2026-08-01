@@ -1,8 +1,11 @@
 ---
 title: Chương 4 — Keeping the Team
+back: /lessons/
 lesson_id: lesson-04
 chapter: 4
 act: Hồi I — Khởi đầu
+acts:
+- hoi-i-khoi-dau
 story_slug: keeping-the-team
 topics:
 - personnel

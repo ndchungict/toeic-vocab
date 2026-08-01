@@ -1,8 +1,11 @@
 ---
 title: Chương 27 — Opening Night
+back: /lessons/
 lesson_id: lesson-27
 chapter: 27
 act: Hồi IV — Định đoạt
+acts:
+- hoi-iv-dinh-doat
 story_slug: opening-night
 topics:
 - entertainment

@@ -1,8 +1,11 @@
 ---
 title: Chương 22 — Catching the Ghost
+back: /lessons/
 lesson_id: lesson-22
 chapter: 22
 act: Hồi III — Khủng hoảng & tôi luyện
+acts:
+- hoi-iii-khung-hoang-toi-luyen
 story_slug: catching-the-ghost
 topics:
 - technical-areas

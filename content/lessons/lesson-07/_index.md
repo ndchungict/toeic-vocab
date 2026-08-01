@@ -1,8 +1,11 @@
 ---
 title: Chương 7 — The Fine Print and the Master Plan
+back: /lessons/
 lesson_id: lesson-07
 chapter: 7
 act: Hồi I — Khởi đầu
+acts:
+- hoi-i-khoi-dau
 story_slug: fine-print-master-plan
 topics:
 - general-business

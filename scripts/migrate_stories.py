@@ -61,11 +61,15 @@ def parse_story_slug_table():
 
 
 def load_act_by_lesson():
+    """-> dict lesson_id -> {label, slug}. `slug` nạp vào front matter dạng list
+    (`acts: [slug]`) để Hugo tự nhận làm taxonomy "acts" (đã verify thực nghiệm:
+    front matter phải là field số nhiều khớp giá trị bên phải trong hugo.toml
+    `[taxonomies] act = "acts"`, không phải field "act" số ít)."""
     taxonomy = yaml.safe_load(TAXONOMY_YAML.read_text(encoding="utf-8"))
     act_by_lesson = {}
     for act in taxonomy["acts"]:
         for lesson_id in act["lessons"]:
-            act_by_lesson[lesson_id] = act["label"]
+            act_by_lesson[lesson_id] = {"label": act["label"], "slug": act["slug"]}
     return act_by_lesson
 
 
@@ -145,9 +149,11 @@ def main():
 
         front_matter = {
             "title": f"Chương {n} — {row['title_en']}",
+            "back": "/lessons/",
             "lesson_id": lesson_id,
             "chapter": n,
-            "act": act_by_lesson[lesson_id],
+            "act": act_by_lesson[lesson_id]["label"],
+            "acts": [act_by_lesson[lesson_id]["slug"]],
             "story_slug": row["story_slug"],
             "topics": [row["topic"]],
             "subtopics": subtopics,

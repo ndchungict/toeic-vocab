@@ -1,0 +1,52 @@
+{{/* Dùng chung cho CẢ 2 kind của taxonomy (topics/subtopics/acts, hugo.toml §5.4):
+     kind="taxonomy" (/topics/ — liệt kê 13 term) và kind="term" (/topics/offices/
+     — chi tiết 1 term). ⚠️ Đã verify thực nghiệm trên Hugo 0.148.1: layouts/_default/
+     term.html KHÔNG được Hugo chọn cho trang kind="term" — cả 2 kind đều route vào
+     taxonomy.html, nên gộp làm 1 file thay vì tách term.html riêng.
+
+     KHÔNG dùng content/topics/_content.gotmpl riêng — lesson (front matter) và
+     word (content/words/_content.gotmpl) đã cùng gắn taxonomy topics/subtopics,
+     nên trang term tự liệt kê được cả hai, không xung đột URL. Nhãn hiển thị
+     (h1/<title>) do partials/page-title.html tra riêng. */}}
+{{ define "main" }}
+<div class="page-content">
+  {{ if eq .Kind "taxonomy" }}
+    <div class="term-list">
+      {{ range .Data.Terms.Alphabetical }}
+        {{ with .Page }}
+          <a class="term-list__item" href="{{ .RelPermalink }}">
+            <span>{{ partial "page-title.html" . }}</span>
+          </a>
+        {{ end }}
+      {{ end }}
+    </div>
+  {{ else }}
+    {{ $lessonPages := where .Pages "Section" "lessons" }}
+    {{ $wordPages := where .Pages "Section" "words" }}
+
+    <p class="term-page__count">{{ len $lessonPages }} bài học · {{ len $wordPages }} từ</p>
+
+    {{ if $lessonPages }}
+    <section class="detail-section">
+      <p class="section-label">Bài học</p>
+      <div class="lesson-grid">
+        {{ range $lessonPages.ByParam "weight" }}
+          {{ partial "lesson/card.html" . }}
+        {{ end }}
+      </div>
+    </section>
+    {{ end }}
+
+    {{ if $wordPages }}
+    <section class="detail-section">
+      <p class="section-label">Từ vựng</p>
+      <div class="word-chip-list">
+        {{ range $wordPages.ByTitle }}
+          <a class="word-chip-list__item" href="{{ .RelPermalink }}">{{ .Title }}</a>
+        {{ end }}
+      </div>
+    </section>
+    {{ end }}
+  {{ end }}
+</div>
+{{ end }}
