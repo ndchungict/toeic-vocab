@@ -1,0 +1,323 @@
+# EXERCISE 13 — FINANCE: Ngân hàng · Kế toán & Hóa đơn
+# Nguồn: exercises/exercise-13.md (lesson-13)
+# 25 câu: Part 5 (1-12), Part 6 (13-19), Part 7 (20-25)
+
+- id: "exercise-13-p5-01"
+  part: 5
+  topic: "finance-budgeting"
+  lesson: ["lesson-13"]
+  level: 750
+  related_word: "teller"
+  question: "At the counter, the ______ printed out a copy of the company's account statement for the two managers."
+  options: { A: "auditor", B: "teller", C: "accountant", D: "contractor" }
+  answer: "B"
+  explanation_vi: "\"at the counter, the teller printed…\" = giao dịch viên ngân hàng. *auditor/accountant/contractor* là người nhưng không đứng quầy giao dịch."
+
+- id: "exercise-13-p5-02"
+  part: 5
+  topic: "finance-budgeting"
+  lesson: ["lesson-13"]
+  level: 600
+  related_word: "balance"
+  question: "Before approving anything, Priya checked the current account ______ to see how much cash was available."
+  options: { A: "receipt", B: "invoice", C: "balance", D: "mortgage" }
+  answer: "C"
+  explanation_vi: "\"checked the account balance… how much cash\" = số dư. *receipt/invoice/mortgage* sai nghĩa."
+
+- id: "exercise-13-p5-03"
+  part: 5
+  topic: "finance-budgeting"
+  lesson: ["lesson-13"]
+  level: 600
+  related_word: "statement"
+  question: "The monthly bank ______ listed every deposit and withdrawal made during the period."
+  options: { A: "statement", B: "collateral", C: "teller", D: "audit" }
+  answer: "A"
+  explanation_vi: "\"the monthly bank statement listed every deposit and withdrawal\" = bản sao kê. *collateral/teller/audit* sai nghĩa."
+
+- id: "exercise-13-p5-04"
+  part: 5
+  topic: "finance-budgeting"
+  lesson: ["lesson-13"]
+  level: 600
+  related_word: "loan"
+  question: "To finance the Halston expansion, the company applied for a large ______ from its bank."
+  options: { A: "receipt", B: "discrepancy", C: "balance", D: "loan" }
+  answer: "D"
+  explanation_vi: "\"applied for a large loan from its bank\" = khoản vay. *receipt/discrepancy/balance* sai nghĩa."
+
+- id: "exercise-13-p5-05"
+  part: 5
+  topic: "finance-budgeting"
+  lesson: ["lesson-13"]
+  level: 750
+  related_word: "mortgage"
+  question: "The bank offered better terms if Aster secured the debt with a ______ on its headquarters building."
+  options: { A: "teller", B: "mortgage", C: "transaction", D: "invoice" }
+  answer: "B"
+  explanation_vi: "\"a mortgage on its headquarters building\" = vay thế chấp bất động sản. *teller/transaction/invoice* sai nghĩa."
+
+- id: "exercise-13-p5-06"
+  part: 5
+  topic: "finance-budgeting"
+  lesson: ["lesson-13"]
+  level: 900
+  related_word: "collateral"
+  question: "Lenders usually require ______, such as property or equipment, before granting a large loan."
+  options: { A: "billing", B: "receipt", C: "collateral", D: "balance" }
+  answer: "C"
+  explanation_vi: "\"require collateral, such as property or equipment\" = tài sản thế chấp. *billing/receipt/balance* sai nghĩa."
+
+- id: "exercise-13-p5-07"
+  part: 5
+  topic: "finance-budgeting"
+  lesson: ["lesson-13"]
+  level: 600
+  related_word: "interest rate"
+  question: "Because the ______ on the loan was fairly high, the monthly payments would be a real burden."
+  options: { A: "interest rate", B: "receipt", C: "discrepancy", D: "audit" }
+  answer: "A"
+  explanation_vi: "\"the interest rate on the loan was high\" = lãi suất. *receipt/discrepancy/audit* sai nghĩa."
+
+- id: "exercise-13-p5-08"
+  part: 5
+  topic: "finance-budgeting"
+  lesson: ["lesson-13"]
+  level: 750
+  related_word: "installment"
+  question: "The loan does not have to be repaid all at once; it can be paid off in monthly ______."
+  options: { A: "statements", B: "tellers", C: "mortgages", D: "installments" }
+  answer: "D"
+  explanation_vi: "\"paid off in monthly installments\" = trả góp hằng tháng. *statements/tellers/mortgages* sai nghĩa."
+
+- id: "exercise-13-p5-09"
+  part: 5
+  topic: "finance-budgeting"
+  lesson: ["lesson-13"]
+  level: 750
+  related_word: "audit"
+  question: "Before signing for the loan, Priya ordered an internal ______ of the company's books."
+  options: { A: "invoice", B: "audit", C: "overdraft", D: "receipt" }
+  answer: "B"
+  explanation_vi: "\"ordered an internal audit of the books\" = kiểm toán. *invoice/overdraft/receipt* sai nghĩa."
+
+- id: "exercise-13-p5-10"
+  part: 5
+  topic: "finance-budgeting"
+  lesson: ["lesson-13"]
+  level: 750
+  related_word: "reimburse"
+  question: "The company agreed to ______ the whole team for all travel costs from the Halston trip."
+  options: { A: "accrue", B: "withdraw", C: "reimburse", D: "deposit" }
+  answer: "C"
+  explanation_vi: "\"reimburse the team **for** all travel costs\" = hoàn tiền. ⚠️ reimburse sb **for** sth. *accrue/withdraw/deposit* sai nghĩa."
+
+- id: "exercise-13-p5-11"
+  part: 5
+  topic: "finance-budgeting"
+  lesson: ["lesson-13"]
+  level: 900
+  related_word: "discrepancy"
+  question: "The accountant found a ______ between the company's records and the bank statement."
+  options: { A: "discrepancy", B: "receipt", C: "collateral", D: "teller" }
+  answer: "A"
+  explanation_vi: "\"a discrepancy between the records and the bank statement\" = sự chênh lệch. *receipt/collateral/teller* sai nghĩa."
+
+- id: "exercise-13-p5-12"
+  part: 5
+  topic: "finance-budgeting"
+  lesson: ["lesson-13"]
+  level: 900
+  related_word: "accrue"
+  question: "Penalty interest had quietly begun to ______ on the overdue invoice over several months."
+  options: { A: "reimburse", B: "deposit", C: "withdraw", D: "accrue" }
+  answer: "D"
+  explanation_vi: "\"interest had begun to accrue on the overdue invoice\" = (lãi) tích lũy. *reimburse/deposit/withdraw* sai nghĩa."
+
+- id: "exercise-13-p6-13"
+  part: 6
+  topic: "finance-budgeting"
+  lesson: ["lesson-13"]
+  level: 600
+  passage_group: "p6-13-16"
+  passage: |
+    **MARLOWE COMMERCIAL BANK — Account Notice**
+    Dear Valued Customer, this is a summary of recent activity on your business account. We confirm the **(13)______** of $50,000 received on 3 October. Please review each **(14)______** listed on the enclosed statement carefully. We also note that your account briefly exceeded its **(15)______** limit last month, which incurred a fee. Kindly ensure sufficient funds are available before you **(16)______** large amounts in the future.
+  related_word: "deposit"
+  options: { A: "receipt", B: "deposit", C: "mortgage", D: "audit" }
+  answer: "B"
+  explanation_vi: "\"the deposit of $50,000 received\" = khoản gửi vào. *receipt/mortgage/audit* sai nghĩa."
+
+- id: "exercise-13-p6-14"
+  part: 6
+  topic: "finance-budgeting"
+  lesson: ["lesson-13"]
+  level: 600
+  passage_group: "p6-13-16"
+  passage: |
+    **MARLOWE COMMERCIAL BANK — Account Notice**
+    Dear Valued Customer, this is a summary of recent activity on your business account. We confirm the **(13)______** of $50,000 received on 3 October. Please review each **(14)______** listed on the enclosed statement carefully. We also note that your account briefly exceeded its **(15)______** limit last month, which incurred a fee. Kindly ensure sufficient funds are available before you **(16)______** large amounts in the future.
+  related_word: "transaction"
+  options: { A: "collateral", B: "teller", C: "transaction", D: "invoice" }
+  answer: "C"
+  explanation_vi: "\"review each transaction listed on the statement\" = giao dịch. *collateral/teller/invoice* sai nghĩa."
+
+- id: "exercise-13-p6-15"
+  part: 6
+  topic: "finance-budgeting"
+  lesson: ["lesson-13"]
+  level: 900
+  passage_group: "p6-13-16"
+  passage: |
+    **MARLOWE COMMERCIAL BANK — Account Notice**
+    Dear Valued Customer, this is a summary of recent activity on your business account. We confirm the **(13)______** of $50,000 received on 3 October. Please review each **(14)______** listed on the enclosed statement carefully. We also note that your account briefly exceeded its **(15)______** limit last month, which incurred a fee. Kindly ensure sufficient funds are available before you **(16)______** large amounts in the future.
+  related_word: "overdraft"
+  options: { A: "balance", B: "statement", C: "receipt", D: "overdraft" }
+  answer: "D"
+  explanation_vi: "\"exceeded its overdraft limit… incurred a fee\" = hạn mức thấu chi. *balance/statement/receipt* sai nghĩa."
+
+- id: "exercise-13-p6-16"
+  part: 6
+  topic: "finance-budgeting"
+  lesson: ["lesson-13"]
+  level: 600
+  passage_group: "p6-13-16"
+  passage: |
+    **MARLOWE COMMERCIAL BANK — Account Notice**
+    Dear Valued Customer, this is a summary of recent activity on your business account. We confirm the **(13)______** of $50,000 received on 3 October. Please review each **(14)______** listed on the enclosed statement carefully. We also note that your account briefly exceeded its **(15)______** limit last month, which incurred a fee. Kindly ensure sufficient funds are available before you **(16)______** large amounts in the future.
+  related_word: "withdraw"
+  options: { A: "withdraw", B: "reimburse", C: "accrue", D: "audit" }
+  answer: "A"
+  explanation_vi: "\"before you withdraw large amounts\" = rút tiền. *reimburse/accrue/audit* sai nghĩa."
+
+- id: "exercise-13-p6-17"
+  part: 6
+  topic: "finance-budgeting"
+  lesson: ["lesson-13"]
+  level: 600
+  passage_group: "p6-17-19"
+  passage: |
+    **MEMO — Accounts Payable**
+    Team, before the audit begins, please clean up our records. Several supplier **(17)______** have not yet been paid, and two of them are now seriously **(18)______**. Late fees are accruing daily. Contact each supplier, confirm the **(19)______** balance owed, and schedule payment this week so that nothing is left unpaid before the loan review.
+  related_word: "invoice"
+  options: { A: "receipts", B: "tellers", C: "invoices", D: "balances" }
+  answer: "C"
+  explanation_vi: "\"several supplier invoices have not been paid\" = hóa đơn. *receipts/tellers/balances* sai nghĩa."
+
+- id: "exercise-13-p6-18"
+  part: 6
+  topic: "finance-budgeting"
+  lesson: ["lesson-13"]
+  level: 750
+  passage_group: "p6-17-19"
+  passage: |
+    **MEMO — Accounts Payable**
+    Team, before the audit begins, please clean up our records. Several supplier **(17)______** have not yet been paid, and two of them are now seriously **(18)______**. Late fees are accruing daily. Contact each supplier, confirm the **(19)______** balance owed, and schedule payment this week so that nothing is left unpaid before the loan review.
+  related_word: "overdue"
+  options: { A: "negotiable", B: "overdue", C: "complimentary", D: "binding" }
+  answer: "B"
+  explanation_vi: "\"two of them are now seriously overdue\" = quá hạn. *negotiable/complimentary/binding* sai nghĩa."
+
+- id: "exercise-13-p6-19"
+  part: 6
+  topic: "finance-budgeting"
+  lesson: ["lesson-13"]
+  level: 750
+  passage_group: "p6-17-19"
+  passage: |
+    **MEMO — Accounts Payable**
+    Team, before the audit begins, please clean up our records. Several supplier **(17)______** have not yet been paid, and two of them are now seriously **(18)______**. Late fees are accruing daily. Contact each supplier, confirm the **(19)______** balance owed, and schedule payment this week so that nothing is left unpaid before the loan review.
+  related_word: "outstanding"
+  options: { A: "exempt", B: "frugal", C: "valid", D: "outstanding" }
+  answer: "D"
+  explanation_vi: "\"confirm the outstanding balance owed\" = số dư chưa thanh toán. *exempt/frugal/valid* sai nghĩa. ⚠️ outstanding cũng = xuất sắc."
+
+- id: "exercise-13-p7-20"
+  part: 7
+  topic: "finance-budgeting"
+  lesson: ["lesson-13"]
+  level: null
+  passage_group: "p7-20-22"
+  passage: |
+    **Aster Finance — Internal Audit Summary**
+    Ahead of the bank's loan review, senior accountant Aurelia Cortez led an internal audit of the company's bookkeeping. Most records were in order: travel expenses from the Halston trip were properly documented, with a receipt attached to every claim, and staff had been correctly reimbursed. However, the audit uncovered one discrepancy: total expenditure on the expansion did not match the figure on the bank statement. On closer inspection, an overdue supplier invoice had been entered twice, and penalty interest had been quietly accruing on it. Cortez recommended correcting the entry before the loan is finalized.
+  related_word: null
+  question: "Who led the internal audit?"
+  options: { A: "A bank teller", B: "The CEO", C: "A senior accountant", D: "A supplier" }
+  answer: "C"
+  explanation_vi: "\"senior **accountant** Aurelia Cortez led an internal audit\". (A) teller / (B) CEO / (D) supplier đều sai."
+
+- id: "exercise-13-p7-21"
+  part: 7
+  topic: "finance-budgeting"
+  lesson: ["lesson-13"]
+  level: null
+  passage_group: "p7-20-22"
+  passage: |
+    **Aster Finance — Internal Audit Summary**
+    Ahead of the bank's loan review, senior accountant Aurelia Cortez led an internal audit of the company's bookkeeping. Most records were in order: travel expenses from the Halston trip were properly documented, with a receipt attached to every claim, and staff had been correctly reimbursed. However, the audit uncovered one discrepancy: total expenditure on the expansion did not match the figure on the bank statement. On closer inspection, an overdue supplier invoice had been entered twice, and penalty interest had been quietly accruing on it. Cortez recommended correcting the entry before the loan is finalized.
+  related_word: null
+  question: "What problem did the audit uncover?"
+  options: { A: "Staff had not been reimbursed", B: "The company's figures did not match the bank statement", C: "All the receipts were missing", D: "The audit could not be completed" }
+  answer: "B"
+  explanation_vi: "audit phát hiện \"total expenditure… did **not match** the figure on the bank statement\" = số liệu không khớp. (A)/(C)/(D) trái với bài."
+
+- id: "exercise-13-p7-22"
+  part: 7
+  topic: "finance-budgeting"
+  lesson: ["lesson-13"]
+  level: null
+  passage_group: "p7-20-22"
+  passage: |
+    **Aster Finance — Internal Audit Summary**
+    Ahead of the bank's loan review, senior accountant Aurelia Cortez led an internal audit of the company's bookkeeping. Most records were in order: travel expenses from the Halston trip were properly documented, with a receipt attached to every claim, and staff had been correctly reimbursed. However, the audit uncovered one discrepancy: total expenditure on the expansion did not match the figure on the bank statement. On closer inspection, an overdue supplier invoice had been entered twice, and penalty interest had been quietly accruing on it. Cortez recommended correcting the entry before the loan is finalized.
+  related_word: null
+  question: "The word \"accruing\" in the report is closest in meaning to"
+  options: { A: "building up", B: "disappearing", C: "being refunded", D: "being cancelled" }
+  answer: "A"
+  explanation_vi: "\"accruing\" (interest) = cộng dồn/tích lũy dần. *disappearing/being refunded/being cancelled* trái nghĩa."
+
+- id: "exercise-13-p7-23"
+  part: 7
+  topic: "finance-budgeting"
+  lesson: ["lesson-13"]
+  level: null
+  passage_group: "p7-23-25"
+  passage: |
+    **Marlowe Business Journal — Financing the Halston Bet**
+    To fund its move into Halston, Aster Home Technologies is negotiating a major bank loan. According to sources, the bank has asked the company to put up its headquarters as security, in the form of a mortgage. The loan would carry a relatively high interest rate and be repaid in fixed monthly installments over five years. Analysts note that the loan alone will not cover the full cost of the expansion. Founder Diane Whitfield is reportedly preparing to seek outside investors as well — a sign of just how expensive the Halston gamble has become.
+  related_word: null
+  question: "What has the bank asked Aster to provide as security?"
+  options: { A: "A cash deposit", B: "Its Halston store", C: "Its product designs", D: "Its headquarters building" }
+  answer: "D"
+  explanation_vi: "ngân hàng đòi \"put up its **headquarters** as security, in the form of a mortgage\" = thế chấp trụ sở. (A)/(B)/(C) không đúng."
+
+- id: "exercise-13-p7-24"
+  part: 7
+  topic: "finance-budgeting"
+  lesson: ["lesson-13"]
+  level: null
+  passage_group: "p7-23-25"
+  passage: |
+    **Marlowe Business Journal — Financing the Halston Bet**
+    To fund its move into Halston, Aster Home Technologies is negotiating a major bank loan. According to sources, the bank has asked the company to put up its headquarters as security, in the form of a mortgage. The loan would carry a relatively high interest rate and be repaid in fixed monthly installments over five years. Analysts note that the loan alone will not cover the full cost of the expansion. Founder Diane Whitfield is reportedly preparing to seek outside investors as well — a sign of just how expensive the Halston gamble has become.
+  related_word: null
+  question: "How will the loan be repaid?"
+  options: { A: "In a single payment", B: "In fixed monthly installments", C: "Only after the launch", D: "Through arbitration" }
+  answer: "B"
+  explanation_vi: "\"repaid in fixed **monthly installments** over five years\". (A)/(C)/(D) sai."
+
+- id: "exercise-13-p7-25"
+  part: 7
+  topic: "finance-budgeting"
+  lesson: ["lesson-13"]
+  level: null
+  passage_group: "p7-23-25"
+  passage: |
+    **Marlowe Business Journal — Financing the Halston Bet**
+    To fund its move into Halston, Aster Home Technologies is negotiating a major bank loan. According to sources, the bank has asked the company to put up its headquarters as security, in the form of a mortgage. The loan would carry a relatively high interest rate and be repaid in fixed monthly installments over five years. Analysts note that the loan alone will not cover the full cost of the expansion. Founder Diane Whitfield is reportedly preparing to seek outside investors as well — a sign of just how expensive the Halston gamble has become.
+  related_word: null
+  question: "What does the article suggest Aster will do next?"
+  options: { A: "Seek outside investors", B: "Sell its headquarters", C: "Cancel the Halston plan", D: "Merge with the bank" }
+  answer: "A"
+  explanation_vi: "Diane \"preparing to **seek outside investors**\". (B)/(C)/(D) không được nêu."

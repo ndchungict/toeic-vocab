@@ -1,0 +1,337 @@
+# EXERCISE 22 — TECHNICAL AREAS: Lab · Thiết bị · Thông số
+# Nguồn: exercises/exercise-22.md (lesson-22)
+# 26 câu: Part 5 (1-12), Part 6 (13-20), Part 7 (21-26)
+
+- id: "exercise-22-p5-01"
+  part: 5
+  topic: "technical-areas"
+  lesson: ["lesson-22"]
+  level: 750
+  related_word: "laboratory"
+  question: "Unable to find the cause in the field, the team took the system into the ______."
+  options: { A: "manual", B: "circuit", C: "laboratory", D: "feature" }
+  answer: "C"
+  explanation_vi: "\"took the system into the laboratory\" = phòng thí nghiệm. *manual/circuit/feature* sai nghĩa."
+
+- id: "exercise-22-p5-02"
+  part: 5
+  topic: "technical-areas"
+  lesson: ["lesson-22"]
+  level: 900
+  related_word: "apparatus"
+  question: "Sophia set up a full test ______ around a single Aria unit."
+  options: { A: "apparatus", B: "accuracy", C: "voltage", D: "manual" }
+  answer: "A"
+  explanation_vi: "\"set up a full test apparatus around a unit\" = bộ thiết bị thí nghiệm. *accuracy/voltage/manual* sai nghĩa."
+
+- id: "exercise-22-p5-03"
+  part: 5
+  topic: "technical-areas"
+  lesson: ["lesson-22"]
+  level: 900
+  related_word: "calibrate"
+  question: "Before every run, they had to ______ the instruments for reliable readings."
+  options: { A: "restore", B: "install", C: "upgrade", D: "calibrate" }
+  answer: "D"
+  explanation_vi: "\"calibrate the instruments for reliable readings\" = hiệu chuẩn. *restore/install/upgrade* sai nghĩa."
+
+- id: "exercise-22-p5-04"
+  part: 5
+  topic: "technical-areas"
+  lesson: ["lesson-22"]
+  level: 750
+  related_word: "accuracy"
+  question: "The measurements had to be taken with great ______."
+  options: { A: "data", B: "accuracy", C: "battery", D: "feature" }
+  answer: "B"
+  explanation_vi: "\"taken with great accuracy\" = độ chính xác. *data/battery/feature* sai nghĩa."
+
+- id: "exercise-22-p5-05"
+  part: 5
+  topic: "technical-areas"
+  lesson: ["lesson-22"]
+  level: 750
+  related_word: "diagnostic"
+  question: "They ran a ______ test each time the system flickered."
+  options: { A: "portable", B: "wireless", C: "diagnostic", D: "obsolete" }
+  answer: "C"
+  explanation_vi: "\"a diagnostic test each time it flickered\" = (kiểm tra) chẩn đoán. *portable/wireless/obsolete* sai nghĩa."
+
+- id: "exercise-22-p5-06"
+  part: 5
+  topic: "technical-areas"
+  lesson: ["lesson-22"]
+  level: 600
+  related_word: "data"
+  question: "Sensors logged a stream of ______ for the engineers to analyze."
+  options: { A: "data", B: "circuit", C: "manual", D: "feature" }
+  answer: "A"
+  explanation_vi: "\"logged a stream of data to analyze\" = dữ liệu. *circuit/manual/feature* sai nghĩa."
+
+- id: "exercise-22-p5-07"
+  part: 5
+  topic: "technical-areas"
+  lesson: ["lesson-22"]
+  level: 900
+  related_word: "voltage"
+  question: "Each strong signal caused a brief drop in ______ on the power circuit."
+  options: { A: "accuracy", B: "data", C: "battery", D: "voltage" }
+  answer: "D"
+  explanation_vi: "\"a brief drop in voltage on the power circuit\" = điện áp. *accuracy/data/battery* sai nghĩa."
+
+- id: "exercise-22-p5-08"
+  part: 5
+  topic: "technical-areas"
+  lesson: ["lesson-22"]
+  level: 600
+  related_word: "battery"
+  question: "The ______ could not recharge fast enough to cover the dip."
+  options: { A: "circuit", B: "battery", C: "manual", D: "feature" }
+  answer: "B"
+  explanation_vi: "\"the battery could not recharge fast enough\" = pin. *circuit/manual/feature* sai nghĩa."
+
+- id: "exercise-22-p5-09"
+  part: 5
+  topic: "technical-areas"
+  lesson: ["lesson-22"]
+  level: 900
+  related_word: "circuit"
+  question: "The fault lay in the power ______, not in the software."
+  options: { A: "circuit", B: "apparatus", C: "accuracy", D: "data" }
+  answer: "A"
+  explanation_vi: "\"the fault lay in the power circuit, not the software\" = mạch điện. *apparatus/accuracy/data* sai nghĩa."
+
+- id: "exercise-22-p5-10"
+  part: 5
+  topic: "technical-areas"
+  lesson: ["lesson-22"]
+  level: 750
+  related_word: "specification"
+  question: "Engineers adjusted the design until it met the exact ______."
+  options: { A: "manual", B: "feature", C: "specification", D: "battery" }
+  answer: "C"
+  explanation_vi: "\"adjusted the design until it met the exact specification\" = thông số kỹ thuật. *manual/feature/battery* sai nghĩa."
+
+- id: "exercise-22-p5-11"
+  part: 5
+  topic: "technical-areas"
+  lesson: ["lesson-22"]
+  level: 600
+  related_word: "feature"
+  question: "They then retested every ______, from the timer to the remote control."
+  options: { A: "circuit", B: "voltage", C: "battery", D: "feature" }
+  answer: "D"
+  explanation_vi: "\"retested every feature, from timer to remote control\" = tính năng. *circuit/voltage/battery* sai nghĩa."
+
+- id: "exercise-22-p5-12"
+  part: 5
+  topic: "technical-areas"
+  lesson: ["lesson-22"]
+  level: 600
+  related_word: "wireless"
+  question: "Aria connects to the home through a ______ link, with no cables needed."
+  options: { A: "portable", B: "wireless", C: "diagnostic", D: "obsolete" }
+  answer: "B"
+  explanation_vi: "\"a wireless link, with no cables needed\" = không dây. *portable/diagnostic/obsolete* sai nghĩa."
+
+- id: "exercise-22-p6-13"
+  part: 6
+  topic: "technical-areas"
+  lesson: ["lesson-22"]
+  level: 750
+  passage_group: "p6-13-16"
+  passage: |
+    **MEMO — Aria Diagnostic Testing**
+    To trace the intermittent fault, we have moved a unit into the lab and are running a controlled **(13)______**. All instruments must be calibrated beforehand to ensure the readings' **(14)______**. The team will record the sensor **(15)______** each time the fault appears, then adjust the circuit to meet the required **(16)______**.
+  related_word: "experiment"
+  options: { A: "manual", B: "experiment", C: "feature", D: "battery" }
+  answer: "B"
+  explanation_vi: "\"running a controlled experiment\" = thí nghiệm. *manual/feature/battery* sai nghĩa."
+
+- id: "exercise-22-p6-14"
+  part: 6
+  topic: "technical-areas"
+  lesson: ["lesson-22"]
+  level: 750
+  passage_group: "p6-13-16"
+  passage: |
+    **MEMO — Aria Diagnostic Testing**
+    To trace the intermittent fault, we have moved a unit into the lab and are running a controlled **(13)______**. All instruments must be calibrated beforehand to ensure the readings' **(14)______**. The team will record the sensor **(15)______** each time the fault appears, then adjust the circuit to meet the required **(16)______**.
+  related_word: "accuracy"
+  options: { A: "voltage", B: "battery", C: "feature", D: "accuracy" }
+  answer: "D"
+  explanation_vi: "\"calibrated… to ensure the readings' accuracy\" = độ chính xác. *voltage/battery/feature* sai nghĩa."
+
+- id: "exercise-22-p6-15"
+  part: 6
+  topic: "technical-areas"
+  lesson: ["lesson-22"]
+  level: 600
+  passage_group: "p6-13-16"
+  passage: |
+    **MEMO — Aria Diagnostic Testing**
+    To trace the intermittent fault, we have moved a unit into the lab and are running a controlled **(13)______**. All instruments must be calibrated beforehand to ensure the readings' **(14)______**. The team will record the sensor **(15)______** each time the fault appears, then adjust the circuit to meet the required **(16)______**.
+  related_word: "data"
+  options: { A: "data", B: "circuit", C: "manual", D: "feature" }
+  answer: "A"
+  explanation_vi: "\"record the sensor data each time\" = dữ liệu. *circuit/manual/feature* sai nghĩa."
+
+- id: "exercise-22-p6-16"
+  part: 6
+  topic: "technical-areas"
+  lesson: ["lesson-22"]
+  level: 750
+  passage_group: "p6-13-16"
+  passage: |
+    **MEMO — Aria Diagnostic Testing**
+    To trace the intermittent fault, we have moved a unit into the lab and are running a controlled **(13)______**. All instruments must be calibrated beforehand to ensure the readings' **(14)______**. The team will record the sensor **(15)______** each time the fault appears, then adjust the circuit to meet the required **(16)______**.
+  related_word: "specification"
+  options: { A: "manual", B: "battery", C: "specification", D: "feature" }
+  answer: "C"
+  explanation_vi: "\"adjust the circuit to meet the required specification\" = thông số kỹ thuật. *manual/battery/feature* sai nghĩa."
+
+- id: "exercise-22-p6-17"
+  part: 6
+  topic: "technical-areas"
+  lesson: ["lesson-22"]
+  level: 750
+  passage_group: "p6-17-20"
+  passage: |
+    **NOTICE — Aria Technical Overview**
+    Aria is a compact home **(17)______** that you can carry from room to room. Because it is **(18)______**, it runs on a rechargeable battery with no cables. It connects to your other devices over a **(19)______** network. For a full list of settings, please consult the user **(20)______**.
+  related_word: "appliance"
+  options: { A: "circuit", B: "voltage", C: "appliance", D: "data" }
+  answer: "C"
+  explanation_vi: "\"a compact home appliance you can carry\" = thiết bị gia dụng. *circuit/voltage/data* sai nghĩa."
+
+- id: "exercise-22-p6-18"
+  part: 6
+  topic: "technical-areas"
+  lesson: ["lesson-22"]
+  level: 750
+  passage_group: "p6-17-20"
+  passage: |
+    **NOTICE — Aria Technical Overview**
+    Aria is a compact home **(17)______** that you can carry from room to room. Because it is **(18)______**, it runs on a rechargeable battery with no cables. It connects to your other devices over a **(19)______** network. For a full list of settings, please consult the user **(20)______**.
+  related_word: "portable"
+  options: { A: "portable", B: "obsolete", C: "diagnostic", D: "durable" }
+  answer: "A"
+  explanation_vi: "\"because it is portable… carry from room to room… runs on a battery\" = di động. *obsolete/diagnostic/durable* sai nghĩa."
+
+- id: "exercise-22-p6-19"
+  part: 6
+  topic: "technical-areas"
+  lesson: ["lesson-22"]
+  level: 600
+  passage_group: "p6-17-20"
+  passage: |
+    **NOTICE — Aria Technical Overview**
+    Aria is a compact home **(17)______** that you can carry from room to room. Because it is **(18)______**, it runs on a rechargeable battery with no cables. It connects to your other devices over a **(19)______** network. For a full list of settings, please consult the user **(20)______**.
+  related_word: "wireless"
+  options: { A: "manual", B: "feature", C: "accuracy", D: "wireless" }
+  answer: "D"
+  explanation_vi: "\"connects… over a wireless network\" = không dây. *manual/feature/accuracy* sai nghĩa."
+
+- id: "exercise-22-p6-20"
+  part: 6
+  topic: "technical-areas"
+  lesson: ["lesson-22"]
+  level: 600
+  passage_group: "p6-17-20"
+  passage: |
+    **NOTICE — Aria Technical Overview**
+    Aria is a compact home **(17)______** that you can carry from room to room. Because it is **(18)______**, it runs on a rechargeable battery with no cables. It connects to your other devices over a **(19)______** network. For a full list of settings, please consult the user **(20)______**.
+  related_word: "manual"
+  options: { A: "apparatus", B: "manual", C: "battery", D: "feature" }
+  answer: "B"
+  explanation_vi: "\"consult the user manual\" = sách hướng dẫn. *apparatus/battery/feature* sai nghĩa."
+
+- id: "exercise-22-p7-21"
+  part: 7
+  topic: "technical-areas"
+  lesson: ["lesson-22"]
+  level: null
+  passage_group: "p7-21-23"
+  passage: |
+    **Aria Program — Fault Analysis**
+    To find the intermittent glitch, engineers moved a unit into the laboratory and ran a series of controlled experiments, calibrating every instrument first so the data would be accurate. The tests showed that the cause was not in the software at all: each time the wireless module sent a strong signal, it caused a brief voltage drop on the power circuit that the battery could not cover, forcing the controller to reset. Once the cause was clear, the team adjusted the circuit to meet specification and retested every feature successfully.
+  related_word: null
+  question: "Where did engineers investigate the glitch?"
+  options: { A: "At the help desk", B: "In the laboratory", C: "At a trade show", D: "In the warehouse" }
+  answer: "B"
+  explanation_vi: "kỹ sư điều tra \"in the **laboratory**\". (A)/(C)/(D) sai."
+
+- id: "exercise-22-p7-22"
+  part: 7
+  topic: "technical-areas"
+  lesson: ["lesson-22"]
+  level: null
+  passage_group: "p7-21-23"
+  passage: |
+    **Aria Program — Fault Analysis**
+    To find the intermittent glitch, engineers moved a unit into the laboratory and ran a series of controlled experiments, calibrating every instrument first so the data would be accurate. The tests showed that the cause was not in the software at all: each time the wireless module sent a strong signal, it caused a brief voltage drop on the power circuit that the battery could not cover, forcing the controller to reset. Once the cause was clear, the team adjusted the circuit to meet specification and retested every feature successfully.
+  related_word: null
+  question: "What was the real cause of the glitch?"
+  options: { A: "A software bug", B: "A broken interface", C: "A voltage drop the battery could not cover", D: "A missing manual" }
+  answer: "C"
+  explanation_vi: "nguyên nhân thật: \"a brief **voltage drop**… that the **battery could not cover**\" (không phải phần mềm). (A)/(B)/(D) sai."
+
+- id: "exercise-22-p7-23"
+  part: 7
+  topic: "technical-areas"
+  lesson: ["lesson-22"]
+  level: null
+  passage_group: "p7-21-23"
+  passage: |
+    **Aria Program — Fault Analysis**
+    To find the intermittent glitch, engineers moved a unit into the laboratory and ran a series of controlled experiments, calibrating every instrument first so the data would be accurate. The tests showed that the cause was not in the software at all: each time the wireless module sent a strong signal, it caused a brief voltage drop on the power circuit that the battery could not cover, forcing the controller to reset. Once the cause was clear, the team adjusted the circuit to meet specification and retested every feature successfully.
+  related_word: null
+  question: "What did the team do once the cause was clear?"
+  options: { A: "Adjusted the circuit to specification and retested every feature", B: "Cancelled the launch", C: "Replaced the software team", D: "Ignored it" }
+  answer: "A"
+  explanation_vi: "khi rõ nguyên nhân: \"**adjusted the circuit to meet specification** and **retested every feature**\". (B)/(C)/(D) sai."
+
+- id: "exercise-22-p7-24"
+  part: 7
+  topic: "technical-areas"
+  lesson: ["lesson-22"]
+  level: null
+  passage_group: "p7-24-26"
+  passage: |
+    **Marlowe Business Journal — Aria Passes Its Final Technical Test**
+    Aster Home Technologies says its Aria smart-home appliance has passed final laboratory testing. Engineers traced a stubborn glitch to a tiny hardware fault and corrected it, and the device now meets its full specification. With the product finally ready — safe, stable, and portable — attention turns to a different problem: Aster still has no permanent site in Halston. Before the launch, the company must secure showroom and warehouse space in the city, a task that has barely begun.
+  related_word: null
+  question: "What did Aster announce?"
+  options: { A: "A price cut", B: "A merger with Neura", C: "A new supplier", D: "That Aria passed final laboratory testing" }
+  answer: "D"
+  explanation_vi: "Aster công bố \"its Aria… **has passed final laboratory testing**\". (A)/(B)/(C) sai."
+
+- id: "exercise-22-p7-25"
+  part: 7
+  topic: "technical-areas"
+  lesson: ["lesson-22"]
+  level: null
+  passage_group: "p7-24-26"
+  passage: |
+    **Marlowe Business Journal — Aria Passes Its Final Technical Test**
+    Aster Home Technologies says its Aria smart-home appliance has passed final laboratory testing. Engineers traced a stubborn glitch to a tiny hardware fault and corrected it, and the device now meets its full specification. With the product finally ready — safe, stable, and portable — attention turns to a different problem: Aster still has no permanent site in Halston. Before the launch, the company must secure showroom and warehouse space in the city, a task that has barely begun.
+  related_word: null
+  question: "How is the Aria device described now?"
+  options: { A: "Safe, stable, and portable", B: "Obsolete", C: "Still overheating", D: "Incompatible with everything" }
+  answer: "A"
+  explanation_vi: "Aria giờ được mô tả \"**safe, stable, and portable**\". (B)/(C)/(D) sai/trái."
+
+- id: "exercise-22-p7-26"
+  part: 7
+  topic: "technical-areas"
+  lesson: ["lesson-22"]
+  level: null
+  passage_group: "p7-24-26"
+  passage: |
+    **Marlowe Business Journal — Aria Passes Its Final Technical Test**
+    Aster Home Technologies says its Aria smart-home appliance has passed final laboratory testing. Engineers traced a stubborn glitch to a tiny hardware fault and corrected it, and the device now meets its full specification. With the product finally ready — safe, stable, and portable — attention turns to a different problem: Aster still has no permanent site in Halston. Before the launch, the company must secure showroom and warehouse space in the city, a task that has barely begun.
+  related_word: null
+  question: "What problem does Aster face next?"
+  options: { A: "The patent was rejected", B: "The software crashed again", C: "It has no permanent site in Halston yet", D: "The launch was cancelled" }
+  answer: "C"
+  explanation_vi: "vấn đề kế tiếp: \"Aster still has **no permanent site in Halston**… must secure showroom and warehouse space\" → dẫn Ch 23 (Housing). (A)/(B)/(D) sai."

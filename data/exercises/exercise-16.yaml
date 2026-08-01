@@ -1,0 +1,341 @@
+# EXERCISE 16 — PURCHASING: Vận chuyển · Hóa đơn & Thanh toán
+# Nguồn: exercises/exercise-16.md (lesson-16)
+# 26 câu: Part 5 (1-12), Part 6 (13-20), Part 7 (21-26)
+
+- id: "exercise-16-p5-01"
+  part: 5
+  topic: "purchasing"
+  lesson: ["lesson-16"]
+  level: 750
+  related_word: "carrier"
+  question: "Sea freight was too slow, so Ray booked an air ______ to fly the chips in."
+  options: { A: "invoice", B: "carrier", C: "surcharge", D: "refund" }
+  answer: "B"
+  explanation_vi: "\"an air carrier to fly the chips in\" = hãng vận chuyển. *invoice/surcharge/refund* sai nghĩa."
+
+- id: "exercise-16-p5-02"
+  part: 5
+  topic: "purchasing"
+  lesson: ["lesson-16"]
+  level: 750
+  related_word: "expedite"
+  question: "To meet the fixed launch date, Ray was willing to pay more to ______ the delivery."
+  options: { A: "itemize", B: "expedite", C: "exchange", D: "enclose" }
+  answer: "B"
+  explanation_vi: "\"pay more to expedite the delivery\" = đẩy nhanh. *itemize/exchange/enclose* sai nghĩa. ⚠️ collocation hay ra: *expedite + shipment/delivery/order*."
+
+- id: "exercise-16-p5-03"
+  part: 5
+  topic: "purchasing"
+  lesson: ["lesson-16"]
+  level: 900
+  related_word: "dispatch"
+  question: "As soon as the order was confirmed, Halston Components agreed to ______ the goods from its warehouse."
+  options: { A: "dispatch", B: "refund", C: "accrue", D: "replenish" }
+  answer: "A"
+  explanation_vi: "\"dispatch the goods from its warehouse\" = gửi hàng đi. *refund/accrue/replenish* sai nghĩa."
+
+- id: "exercise-16-p5-04"
+  part: 5
+  topic: "purchasing"
+  lesson: ["lesson-16"]
+  level: 750
+  related_word: "fragile"
+  question: "The delicate chips were packed in boxes clearly marked \"______.\""
+  options: { A: "overdue", B: "fragile", C: "outstanding", D: "vacant" }
+  answer: "B"
+  explanation_vi: "\"delicate chips… marked fragile\" = dễ vỡ. *overdue/outstanding/vacant* sai nghĩa."
+
+- id: "exercise-16-p5-05"
+  part: 5
+  topic: "purchasing"
+  lesson: ["lesson-16"]
+  level: 600
+  related_word: "packaging"
+  question: "When the crate was opened, the team found that the ______ had been crushed in transit."
+  options: { A: "packaging", B: "carrier", C: "surcharge", D: "invoice" }
+  answer: "A"
+  explanation_vi: "\"the packaging had been crushed in transit\" = bao bì. *carrier/surcharge/invoice* sai nghĩa."
+
+- id: "exercise-16-p5-06"
+  part: 5
+  topic: "purchasing"
+  lesson: ["lesson-16"]
+  level: 600
+  related_word: "damaged"
+  question: "Nearly half of the units arrived ______ because the crate had been dropped."
+  options: { A: "fragile", B: "damaged", C: "due", D: "exempt" }
+  answer: "B"
+  explanation_vi: "\"arrived damaged… the crate had been dropped\" = hư hại *do vận chuyển*. *fragile/due/exempt* sai nghĩa."
+
+- id: "exercise-16-p5-07"
+  part: 5
+  topic: "purchasing"
+  lesson: ["lesson-16"]
+  level: 750
+  related_word: "defective"
+  question: "A few trays were ______ from the factory, with bent pins that shipping could not explain."
+  options: { A: "damaged", B: "frugal", C: "defective", D: "durable" }
+  answer: "C"
+  explanation_vi: "\"defective from the factory… bent pins\" = lỗi *từ sản xuất*. ⚠️ khác *damaged* (lỗi do vận chuyển). *frugal/durable* sai nghĩa."
+
+- id: "exercise-16-p5-08"
+  part: 5
+  topic: "purchasing"
+  lesson: ["lesson-16"]
+  level: 750
+  related_word: "surcharge"
+  question: "For the express service, the courier added a ______ on top of the normal rate."
+  options: { A: "refund", B: "surcharge", C: "discount", D: "dividend" }
+  answer: "B"
+  explanation_vi: "\"added a surcharge on top of the normal rate\" = phụ phí. *refund/discount/dividend* sai nghĩa."
+
+- id: "exercise-16-p5-09"
+  part: 5
+  topic: "purchasing"
+  lesson: ["lesson-16"]
+  level: 750
+  related_word: "itemize"
+  question: "Ray asked Finance to ______ the bill so he could see every charge separately."
+  options: { A: "expedite", B: "dispatch", C: "itemize", D: "exchange" }
+  answer: "C"
+  explanation_vi: "\"itemize the bill… every charge separately\" = liệt kê chi tiết. *expedite/dispatch/exchange* sai nghĩa."
+
+- id: "exercise-16-p5-10"
+  part: 5
+  topic: "purchasing"
+  lesson: ["lesson-16"]
+  level: 600
+  related_word: "refund"
+  question: "Because the goods were faulty, Ray demanded a full ______ for the damaged units."
+  options: { A: "refund", B: "invoice", C: "carrier", D: "surcharge" }
+  answer: "A"
+  explanation_vi: "\"demanded a full refund for the damaged units\" = tiền hoàn lại. *invoice/carrier/surcharge* sai nghĩa."
+
+- id: "exercise-16-p5-11"
+  part: 5
+  topic: "purchasing"
+  lesson: ["lesson-16"]
+  level: 600
+  related_word: "due"
+  question: "Payment for the shipment was ______ within ten days of delivery."
+  options: { A: "fragile", B: "due", C: "defective", D: "valid" }
+  answer: "B"
+  explanation_vi: "\"payment was due within ten days\" = đến hạn. ⚠️ *valid* = còn hiệu lực (khác). *fragile/defective* sai nghĩa."
+
+- id: "exercise-16-p5-12"
+  part: 5
+  topic: "purchasing"
+  lesson: ["lesson-16"]
+  level: 750
+  related_word: "free of charge"
+  question: "The seller agreed to replace the faulty chips ______, so Aster paid nothing extra."
+  options: { A: "in bulk", B: "on backorder", C: "free of charge", D: "at retail" }
+  answer: "C"
+  explanation_vi: "\"replace the faulty chips… paid nothing extra\" = miễn phí. *in bulk/on backorder/at retail* sai nghĩa."
+
+- id: "exercise-16-p6-13"
+  part: 6
+  topic: "purchasing"
+  lesson: ["lesson-16"]
+  level: 750
+  passage_group: "p6-13-16"
+  passage: |
+    **From:** Dispatch Desk, Meridian Air Freight
+    **To:** R. Osei, Aster Home Technologies
+    Dear Mr. Osei, Your urgent order has been processed. Because you asked us to **(13)______** the delivery, the lot will travel by air rather than by sea and should reach you within 48 hours. Please note that a rush **(14)______** has been added to the standard shipping and handling fee. All cartons are labelled **(15)______**, as the contents are easily broken, so please inspect them carefully on arrival. A tracking number is attached so you can **(16)______** the shipment at any time.
+  related_word: "expedite"
+  options: { A: "itemize", B: "expedite", C: "exchange", D: "reimburse" }
+  answer: "B"
+  explanation_vi: "\"asked us to expedite the delivery… by air… within 48 hours\" = đẩy nhanh. *itemize/exchange/reimburse* sai."
+
+- id: "exercise-16-p6-14"
+  part: 6
+  topic: "purchasing"
+  lesson: ["lesson-16"]
+  level: 750
+  passage_group: "p6-13-16"
+  passage: |
+    **From:** Dispatch Desk, Meridian Air Freight
+    **To:** R. Osei, Aster Home Technologies
+    Dear Mr. Osei, Your urgent order has been processed. Because you asked us to **(13)______** the delivery, the lot will travel by air rather than by sea and should reach you within 48 hours. Please note that a rush **(14)______** has been added to the standard shipping and handling fee. All cartons are labelled **(15)______**, as the contents are easily broken, so please inspect them carefully on arrival. A tracking number is attached so you can **(16)______** the shipment at any time.
+  related_word: "surcharge"
+  options: { A: "refund", B: "discount", C: "surcharge", D: "dividend" }
+  answer: "C"
+  explanation_vi: "\"a rush surcharge added to the shipping and handling fee\" = phụ phí. *refund/discount/dividend* sai."
+
+- id: "exercise-16-p6-15"
+  part: 6
+  topic: "purchasing"
+  lesson: ["lesson-16"]
+  level: 750
+  passage_group: "p6-13-16"
+  passage: |
+    **From:** Dispatch Desk, Meridian Air Freight
+    **To:** R. Osei, Aster Home Technologies
+    Dear Mr. Osei, Your urgent order has been processed. Because you asked us to **(13)______** the delivery, the lot will travel by air rather than by sea and should reach you within 48 hours. Please note that a rush **(14)______** has been added to the standard shipping and handling fee. All cartons are labelled **(15)______**, as the contents are easily broken, so please inspect them carefully on arrival. A tracking number is attached so you can **(16)______** the shipment at any time.
+  related_word: "fragile"
+  options: { A: "vacant", B: "fragile", C: "overdue", D: "defective" }
+  answer: "B"
+  explanation_vi: "\"labelled fragile, as the contents are easily broken\" = dễ vỡ. *vacant/overdue/defective* sai."
+
+- id: "exercise-16-p6-16"
+  part: 6
+  topic: "purchasing"
+  lesson: ["lesson-16"]
+  level: null
+  passage_group: "p6-13-16"
+  passage: |
+    **From:** Dispatch Desk, Meridian Air Freight
+    **To:** R. Osei, Aster Home Technologies
+    Dear Mr. Osei, Your urgent order has been processed. Because you asked us to **(13)______** the delivery, the lot will travel by air rather than by sea and should reach you within 48 hours. Please note that a rush **(14)______** has been added to the standard shipping and handling fee. All cartons are labelled **(15)______**, as the contents are easily broken, so please inspect them carefully on arrival. A tracking number is attached so you can **(16)______** the shipment at any time.
+  related_word: null
+  options: { A: "track", B: "dispatch", C: "replenish", D: "audit" }
+  answer: "A"
+  explanation_vi: "\"a tracking number… track the shipment at any time\" = theo dõi lô hàng. *dispatch/replenish/audit* sai."
+
+- id: "exercise-16-p6-17"
+  part: 6
+  topic: "purchasing"
+  lesson: ["lesson-16"]
+  level: 600
+  passage_group: "p6-17-20"
+  passage: |
+    **Halston Components Co. — Customer Service**
+    Dear Mr. Osei, We are sorry that part of your recent **(17)______** reached you in poor condition. After reviewing your complaint, we accept that several units were **(18)______** when they left our plant. We will therefore send replacements **(19)______**, and we will also cover the return shipping **(20)______**. A corrected invoice, with the disputed items removed, is enclosed.
+  related_word: "shipment"
+  options: { A: "surcharge", B: "shipment", C: "refund", D: "carrier" }
+  answer: "B"
+  explanation_vi: "\"part of your recent shipment reached you in poor condition\" = lô hàng. *surcharge/refund/carrier* sai."
+
+- id: "exercise-16-p6-18"
+  part: 6
+  topic: "purchasing"
+  lesson: ["lesson-16"]
+  level: 750
+  passage_group: "p6-17-20"
+  passage: |
+    **Halston Components Co. — Customer Service**
+    Dear Mr. Osei, We are sorry that part of your recent **(17)______** reached you in poor condition. After reviewing your complaint, we accept that several units were **(18)______** when they left our plant. We will therefore send replacements **(19)______**, and we will also cover the return shipping **(20)______**. A corrected invoice, with the disputed items removed, is enclosed.
+  related_word: "defective"
+  options: { A: "fragile", B: "frugal", C: "defective", D: "due" }
+  answer: "C"
+  explanation_vi: "\"several units were defective when they left our plant\" = lỗi *từ nhà máy*. *fragile/frugal/due* sai."
+
+- id: "exercise-16-p6-19"
+  part: 6
+  topic: "purchasing"
+  lesson: ["lesson-16"]
+  level: 750
+  passage_group: "p6-17-20"
+  passage: |
+    **Halston Components Co. — Customer Service**
+    Dear Mr. Osei, We are sorry that part of your recent **(17)______** reached you in poor condition. After reviewing your complaint, we accept that several units were **(18)______** when they left our plant. We will therefore send replacements **(19)______**, and we will also cover the return shipping **(20)______**. A corrected invoice, with the disputed items removed, is enclosed.
+  related_word: "free of charge"
+  options: { A: "on backorder", B: "in bulk", C: "free of charge", D: "at retail" }
+  answer: "C"
+  explanation_vi: "\"send replacements free of charge\" = miễn phí. *on backorder/in bulk/at retail* sai."
+
+- id: "exercise-16-p6-20"
+  part: 6
+  topic: "purchasing"
+  lesson: ["lesson-16"]
+  level: 750
+  passage_group: "p6-17-20"
+  passage: |
+    **Halston Components Co. — Customer Service**
+    Dear Mr. Osei, We are sorry that part of your recent **(17)______** reached you in poor condition. After reviewing your complaint, we accept that several units were **(18)______** when they left our plant. We will therefore send replacements **(19)______**, and we will also cover the return shipping **(20)______**. A corrected invoice, with the disputed items removed, is enclosed.
+  related_word: "at no additional cost"
+  options: { A: "at no additional cost", B: "out of stock", C: "in advance", D: "on schedule" }
+  answer: "A"
+  explanation_vi: "\"cover the return shipping at no additional cost\" = không mất thêm phí. *out of stock/in advance/on schedule* sai."
+
+- id: "exercise-16-p7-21"
+  part: 7
+  topic: "purchasing"
+  lesson: ["lesson-16"]
+  level: null
+  passage_group: "p7-21-23"
+  passage: |
+    **Aster Operations — Component Sourcing Update**
+    After our main supplier failed to deliver, we secured a replacement lot of chips from Halston Components Co. To meet the fixed launch date, the shipment was flown in and expedited rather than sent by sea freight, which added a significant surcharge on top of shipping and handling. On arrival, however, the packaging was crushed and about half the units were damaged in transit, while a smaller number were found to be defective from the factory. We have demanded a refund for the unusable units and negotiated replacements at no additional cost.
+  related_word: null
+  question: "Why did the shipment cost more than usual?"
+  options: { A: "It was bought at retail", B: "It was flown in and expedited", C: "The chips were bought in bulk", D: "The invoice was itemized" }
+  answer: "B"
+  explanation_vi: "chi phí cao vì \"flown in and **expedited** rather than sea freight… added a significant **surcharge**\". (A)/(C)/(D) sai."
+
+- id: "exercise-16-p7-22"
+  part: 7
+  topic: "purchasing"
+  lesson: ["lesson-16"]
+  level: null
+  passage_group: "p7-21-23"
+  passage: |
+    **Aster Operations — Component Sourcing Update**
+    After our main supplier failed to deliver, we secured a replacement lot of chips from Halston Components Co. To meet the fixed launch date, the shipment was flown in and expedited rather than sent by sea freight, which added a significant surcharge on top of shipping and handling. On arrival, however, the packaging was crushed and about half the units were damaged in transit, while a smaller number were found to be defective from the factory. We have demanded a refund for the unusable units and negotiated replacements at no additional cost.
+  related_word: null
+  question: "What was the difference between the two kinds of faulty units?"
+  options: { A: "Some were damaged in transit and others were defective from the factory", B: "Some were fragile and others were durable", C: "Some were on backorder", D: "All were simply late" }
+  answer: "A"
+  explanation_vi: "hai loại lỗi: \"**damaged in transit**\" vs \"**defective from the factory**\". ⚠️ phân biệt *damaged* (vận chuyển) ≠ *defective* (sản xuất). (B)/(C)/(D) sai."
+
+- id: "exercise-16-p7-23"
+  part: 7
+  topic: "purchasing"
+  lesson: ["lesson-16"]
+  level: null
+  passage_group: "p7-21-23"
+  passage: |
+    **Aster Operations — Component Sourcing Update**
+    After our main supplier failed to deliver, we secured a replacement lot of chips from Halston Components Co. To meet the fixed launch date, the shipment was flown in and expedited rather than sent by sea freight, which added a significant surcharge on top of shipping and handling. On arrival, however, the packaging was crushed and about half the units were damaged in transit, while a smaller number were found to be defective from the factory. We have demanded a refund for the unusable units and negotiated replacements at no additional cost.
+  related_word: null
+  question: "What did Aster obtain from the supplier?"
+  options: { A: "A larger surcharge", B: "A bigger catalog", C: "Replacements at no additional cost", D: "A wholesale discount" }
+  answer: "C"
+  explanation_vi: "Aster thương lượng được \"replacements **at no additional cost**\". (A)/(B)/(D) sai."
+
+- id: "exercise-16-p7-24"
+  part: 7
+  topic: "purchasing"
+  lesson: ["lesson-16"]
+  level: null
+  passage_group: "p7-24-26"
+  passage: |
+    **Marlowe Business Journal — Aster Beats the Clock, But at What Cost?**
+    Aster Home Technologies has managed to keep its Aria line moving after a last-minute supply crisis. When its main chip supplier missed its deadline, the operations team rushed a replacement shipment from an alternative vendor and paid a premium to expedite delivery. Aster also won a refund on parts that arrived damaged. Yet industry watchers remain cautious. The replacement chips, they note, came from older clearance stock that was never fully tested, and quality problems in a smart-home device can be costly to fix once units are already on the assembly line.
+  related_word: null
+  question: "How did Aster keep the Aria line moving?"
+  options: { A: "By cancelling the launch", B: "By rushing a replacement shipment and expediting delivery", C: "By returning to its original supplier", D: "By pausing all production" }
+  answer: "B"
+  explanation_vi: "giữ dây chuyền chạy bằng cách \"rushed a **replacement shipment**… paid a premium to **expedite** delivery\". (A)/(C)/(D) sai."
+
+- id: "exercise-16-p7-25"
+  part: 7
+  topic: "purchasing"
+  lesson: ["lesson-16"]
+  level: null
+  passage_group: "p7-24-26"
+  passage: |
+    **Marlowe Business Journal — Aster Beats the Clock, But at What Cost?**
+    Aster Home Technologies has managed to keep its Aria line moving after a last-minute supply crisis. When its main chip supplier missed its deadline, the operations team rushed a replacement shipment from an alternative vendor and paid a premium to expedite delivery. Aster also won a refund on parts that arrived damaged. Yet industry watchers remain cautious. The replacement chips, they note, came from older clearance stock that was never fully tested, and quality problems in a smart-home device can be costly to fix once units are already on the assembly line.
+  related_word: null
+  question: "What did Aster recover for the damaged parts?"
+  options: { A: "A refund", B: "A surcharge", C: "A larger order", D: "A tax exemption" }
+  answer: "A"
+  explanation_vi: "đòi được \"a **refund** on parts that arrived damaged\". (B)/(C)/(D) sai."
+
+- id: "exercise-16-p7-26"
+  part: 7
+  topic: "purchasing"
+  lesson: ["lesson-16"]
+  level: null
+  passage_group: "p7-24-26"
+  passage: |
+    **Marlowe Business Journal — Aster Beats the Clock, But at What Cost?**
+    Aster Home Technologies has managed to keep its Aria line moving after a last-minute supply crisis. When its main chip supplier missed its deadline, the operations team rushed a replacement shipment from an alternative vendor and paid a premium to expedite delivery. Aster also won a refund on parts that arrived damaged. Yet industry watchers remain cautious. The replacement chips, they note, came from older clearance stock that was never fully tested, and quality problems in a smart-home device can be costly to fix once units are already on the assembly line.
+  related_word: null
+  question: "Why do industry watchers remain cautious?"
+  options: { A: "The launch date was moved", B: "The budget was increased", C: "The replacement chips came from untested clearance stock", D: "The warehouse was full" }
+  answer: "C"
+  explanation_vi: "vẫn lo vì \"replacement chips came from **older clearance stock that was never fully tested**\" → ngòi nổ khủng hoảng chất lượng Ch 17–18. (A)/(B)/(D) sai."

@@ -1,0 +1,337 @@
+# EXERCISE 26 — HEALTH: Bảo hiểm & Wellness
+# Nguồn: exercises/exercise-26.md (lesson-26)
+# 26 câu: Part 5 (1-12), Part 6 (13-20), Part 7 (21-26)
+
+- id: "exercise-26-p5-01"
+  part: 5
+  topic: "health"
+  lesson: ["lesson-26"]
+  level: 600
+  related_word: "insurance"
+  question: "Priya's first step was to review the company's health ______."
+  options: { A: "hygiene", B: "cavity", C: "insurance", D: "allergy" }
+  answer: "C"
+  explanation_vi: "\"review the company's health insurance\" = bảo hiểm. *hygiene/cavity/allergy* sai nghĩa."
+
+- id: "exercise-26-p5-02"
+  part: 5
+  topic: "health"
+  lesson: ["lesson-26"]
+  level: 600
+  related_word: "policy"
+  question: "She read the current ______ to see exactly what it covered."
+  options: { A: "policy", B: "premium", C: "checkup", D: "dentist" }
+  answer: "A"
+  explanation_vi: "\"read the current policy to see what it covered\" = hợp đồng bảo hiểm. *premium/checkup/dentist* sai nghĩa."
+
+- id: "exercise-26-p5-03"
+  part: 5
+  topic: "health"
+  lesson: ["lesson-26"]
+  level: 750
+  related_word: "coverage"
+  question: "The old plan offered only narrow ______, leaving many costs to staff."
+  options: { A: "hygiene", B: "allergy", C: "cavity", D: "coverage" }
+  answer: "D"
+  explanation_vi: "\"only narrow coverage, leaving costs to staff\" = phạm vi bảo hiểm. *hygiene/allergy/cavity* sai nghĩa."
+
+- id: "exercise-26-p5-04"
+  part: 5
+  topic: "health"
+  lesson: ["lesson-26"]
+  level: 750
+  related_word: "premium"
+  question: "Under the new plan, the company paid most of the monthly ______."
+  options: { A: "deductible", B: "premium", C: "claim", D: "checkup" }
+  answer: "B"
+  explanation_vi: "\"the company paid most of the monthly premium\" = phí bảo hiểm. *deductible/claim/checkup* sai nghĩa."
+
+- id: "exercise-26-p5-05"
+  part: 5
+  topic: "health"
+  lesson: ["lesson-26"]
+  level: 900
+  related_word: "deductible"
+  question: "The high ______ had made employees reluctant to see a doctor."
+  options: { A: "premium", B: "policy", C: "deductible", D: "wellness" }
+  answer: "C"
+  explanation_vi: "\"the high deductible made employees reluctant to see a doctor\" = mức tự trả. *premium/policy/wellness* sai nghĩa."
+
+- id: "exercise-26-p5-06"
+  part: 5
+  topic: "health"
+  lesson: ["lesson-26"]
+  level: 750
+  related_word: "eligible"
+  question: "Now every employee, even a trainee, was ______ for full benefits."
+  options: { A: "eligible", B: "contagious", C: "ergonomic", D: "allergic" }
+  answer: "A"
+  explanation_vi: "\"every employee… was eligible for full benefits\" = đủ điều kiện. ⚠️ *eligible for*. *contagious/ergonomic/allergic* sai."
+
+- id: "exercise-26-p5-07"
+  part: 5
+  topic: "health"
+  lesson: ["lesson-26"]
+  level: 600
+  related_word: "claim"
+  question: "She showed the staff how to file a ______ quickly when they needed care."
+  options: { A: "checkup", B: "premium", C: "cavity", D: "claim" }
+  answer: "D"
+  explanation_vi: "\"how to file a claim quickly\" = yêu cầu bồi thường. *checkup/premium/cavity* sai nghĩa."
+
+- id: "exercise-26-p5-08"
+  part: 5
+  topic: "health"
+  lesson: ["lesson-26"]
+  level: 750
+  related_word: "wellness"
+  question: "Priya then launched a company ______ program to keep the team healthy."
+  options: { A: "deductible", B: "wellness", C: "coverage", D: "cavity" }
+  answer: "B"
+  explanation_vi: "\"launched a company wellness program\" = chăm sóc sức khỏe. *deductible/coverage/cavity* sai nghĩa."
+
+- id: "exercise-26-p5-09"
+  part: 5
+  topic: "health"
+  lesson: ["lesson-26"]
+  level: 600
+  related_word: "checkup"
+  question: "Employees were encouraged to have an annual ______ to catch problems early."
+  options: { A: "premium", B: "claim", C: "checkup", D: "policy" }
+  answer: "C"
+  explanation_vi: "\"an annual checkup to catch problems early\" = khám định kỳ. *premium/claim/policy* sai nghĩa."
+
+- id: "exercise-26-p5-10"
+  part: 5
+  topic: "health"
+  lesson: ["lesson-26"]
+  level: 900
+  related_word: "contagious"
+  question: "Flu shots were offered so that a ______ illness would not spread through the tired team."
+  options: { A: "contagious", B: "eligible", C: "ergonomic", D: "deductible" }
+  answer: "A"
+  explanation_vi: "\"a contagious illness would not spread through the team\" = dễ lây. *eligible/ergonomic/deductible* sai nghĩa."
+
+- id: "exercise-26-p5-11"
+  part: 5
+  topic: "health"
+  lesson: ["lesson-26"]
+  level: 900
+  related_word: "ergonomic"
+  question: "The old chairs were replaced with ______ ones to ease back pain."
+  options: { A: "contagious", B: "eligible", C: "allergic", D: "ergonomic" }
+  answer: "D"
+  explanation_vi: "\"replaced with ergonomic ones to ease back pain\" = công thái học. *contagious/eligible/allergic* sai nghĩa."
+
+- id: "exercise-26-p5-12"
+  part: 5
+  topic: "health"
+  lesson: ["lesson-26"]
+  level: 600
+  related_word: "sick leave"
+  question: "Staff were told to take ______ and rest instead of coming in ill."
+  options: { A: "a premium", B: "sick leave", C: "a claim", D: "a cavity" }
+  answer: "B"
+  explanation_vi: "\"take sick leave and rest instead of coming in ill\" = nghỉ ốm. *a premium/a claim/a cavity* sai nghĩa."
+
+- id: "exercise-26-p6-13"
+  part: 6
+  topic: "health"
+  lesson: ["lesson-26"]
+  level: 750
+  passage_group: "p6-13-16"
+  passage: |
+    **NOTICE — Staff Wellness Week**
+    As part of our new wellness program, an on-site **(13)______** will be offered so you can have a full health check without leaving the office. Flu **(14)______** will also be available; please get one, as a contagious bug spreads quickly in a busy office. If you often sneeze in spring, ask the nurse whether it is a cold or just an **(15)______**. A **(16)______** will also visit on Thursday to check everyone's teeth.
+  related_word: "physical"
+  options: { A: "claim", B: "physical", C: "premium", D: "policy" }
+  answer: "B"
+  explanation_vi: "\"an on-site physical… a full health check\" = khám tổng quát. *claim/premium/policy* sai nghĩa."
+
+- id: "exercise-26-p6-14"
+  part: 6
+  topic: "health"
+  lesson: ["lesson-26"]
+  level: 900
+  passage_group: "p6-13-16"
+  passage: |
+    **NOTICE — Staff Wellness Week**
+    As part of our new wellness program, an on-site **(13)______** will be offered so you can have a full health check without leaving the office. Flu **(14)______** will also be available; please get one, as a contagious bug spreads quickly in a busy office. If you often sneeze in spring, ask the nurse whether it is a cold or just an **(15)______**. A **(16)______** will also visit on Thursday to check everyone's teeth.
+  related_word: "immunization"
+  options: { A: "claims", B: "premiums", C: "cavities", D: "immunizations" }
+  answer: "D"
+  explanation_vi: "\"flu immunizations will also be available\" = tiêm chủng. *claims/premiums/cavities* sai nghĩa."
+
+- id: "exercise-26-p6-15"
+  part: 6
+  topic: "health"
+  lesson: ["lesson-26"]
+  level: 600
+  passage_group: "p6-13-16"
+  passage: |
+    **NOTICE — Staff Wellness Week**
+    As part of our new wellness program, an on-site **(13)______** will be offered so you can have a full health check without leaving the office. Flu **(14)______** will also be available; please get one, as a contagious bug spreads quickly in a busy office. If you often sneeze in spring, ask the nurse whether it is a cold or just an **(15)______**. A **(16)______** will also visit on Thursday to check everyone's teeth.
+  related_word: "allergy"
+  options: { A: "allergy", B: "deductible", C: "coverage", D: "premium" }
+  answer: "A"
+  explanation_vi: "\"a cold or just a seasonal allergy\" = dị ứng. *deductible/coverage/premium* sai nghĩa."
+
+- id: "exercise-26-p6-16"
+  part: 6
+  topic: "health"
+  lesson: ["lesson-26"]
+  level: 600
+  passage_group: "p6-13-16"
+  passage: |
+    **NOTICE — Staff Wellness Week**
+    As part of our new wellness program, an on-site **(13)______** will be offered so you can have a full health check without leaving the office. Flu **(14)______** will also be available; please get one, as a contagious bug spreads quickly in a busy office. If you often sneeze in spring, ask the nurse whether it is a cold or just an **(15)______**. A **(16)______** will also visit on Thursday to check everyone's teeth.
+  related_word: "dentist"
+  options: { A: "premium", B: "claim", C: "dentist", D: "policy" }
+  answer: "C"
+  explanation_vi: "\"a dentist will visit… to check everyone's teeth\" = nha sĩ. *premium/claim/policy* sai nghĩa."
+
+- id: "exercise-26-p6-17"
+  part: 6
+  topic: "health"
+  lesson: ["lesson-26"]
+  level: 750
+  passage_group: "p6-17-20"
+  passage: |
+    **MEMO — Dental Check Results**
+    Thank you for attending Thursday's dental check. The dentist found that several staff had neglected basic **(17)______** during the busy period, and two people had an untreated **(18)______** that needed filling. Remember that regular care now avoids painful treatment later — and that all of this is included in your upgraded medical **(19)______**, so there is no reason to put it off. If you need follow-up treatment, you are **(20)______** for it under the new plan.
+  related_word: "hygiene"
+  options: { A: "hygiene", B: "premium", C: "claim", D: "policy" }
+  answer: "A"
+  explanation_vi: "\"neglected basic (dental) hygiene during the busy period\" = vệ sinh. *premium/claim/policy* sai nghĩa."
+
+- id: "exercise-26-p6-18"
+  part: 6
+  topic: "health"
+  lesson: ["lesson-26"]
+  level: 900
+  passage_group: "p6-17-20"
+  passage: |
+    **MEMO — Dental Check Results**
+    Thank you for attending Thursday's dental check. The dentist found that several staff had neglected basic **(17)______** during the busy period, and two people had an untreated **(18)______** that needed filling. Remember that regular care now avoids painful treatment later — and that all of this is included in your upgraded medical **(19)______**, so there is no reason to put it off. If you need follow-up treatment, you are **(20)______** for it under the new plan.
+  related_word: "cavity"
+  options: { A: "allergy", B: "premium", C: "cavity", D: "deductible" }
+  answer: "C"
+  explanation_vi: "\"an untreated cavity that needed filling\" = lỗ sâu răng. *allergy/premium/deductible* sai nghĩa."
+
+- id: "exercise-26-p6-19"
+  part: 6
+  topic: "health"
+  lesson: ["lesson-26"]
+  level: 750
+  passage_group: "p6-17-20"
+  passage: |
+    **MEMO — Dental Check Results**
+    Thank you for attending Thursday's dental check. The dentist found that several staff had neglected basic **(17)______** during the busy period, and two people had an untreated **(18)______** that needed filling. Remember that regular care now avoids painful treatment later — and that all of this is included in your upgraded medical **(19)______**, so there is no reason to put it off. If you need follow-up treatment, you are **(20)______** for it under the new plan.
+  related_word: "coverage"
+  options: { A: "cavity", B: "hygiene", C: "allergy", D: "coverage" }
+  answer: "D"
+  explanation_vi: "\"included in your upgraded medical coverage\" = phạm vi bảo hiểm. *cavity/hygiene/allergy* sai nghĩa."
+
+- id: "exercise-26-p6-20"
+  part: 6
+  topic: "health"
+  lesson: ["lesson-26"]
+  level: 750
+  passage_group: "p6-17-20"
+  passage: |
+    **MEMO — Dental Check Results**
+    Thank you for attending Thursday's dental check. The dentist found that several staff had neglected basic **(17)______** during the busy period, and two people had an untreated **(18)______** that needed filling. Remember that regular care now avoids painful treatment later — and that all of this is included in your upgraded medical **(19)______**, so there is no reason to put it off. If you need follow-up treatment, you are **(20)______** for it under the new plan.
+  related_word: "eligible"
+  options: { A: "contagious", B: "eligible", C: "ergonomic", D: "allergic" }
+  answer: "B"
+  explanation_vi: "\"you are eligible for it under the new plan\" = đủ điều kiện. ⚠️ *eligible for*. *contagious/ergonomic/allergic* sai."
+
+- id: "exercise-26-p7-21"
+  part: 7
+  topic: "health"
+  lesson: ["lesson-26"]
+  level: null
+  passage_group: "p7-21-23"
+  passage: |
+    **Aster HR — Team Health Initiative**
+    After a trainee collapsed from exhaustion, Priya moved quickly to protect the team. She renegotiated the company's health insurance, lowering the deductible and having Aster cover more of the premium, and made every employee eligible for full benefits. Alongside the insurance changes, she launched a wellness program: on-site physicals, flu immunizations, a visit from a dentist, ergonomic chairs, and a clear message that staff should take sick leave rather than work while ill. Within days, colleagues said the mood had lifted and the exhausted team was recovering.
+  related_word: null
+  question: "Why did Priya act?"
+  options: { A: "The insurer demanded it", B: "A new law required it", C: "After a trainee collapsed from exhaustion", D: "To cut costs" }
+  answer: "C"
+  explanation_vi: "Priya hành động \"**after a trainee collapsed from exhaustion**\". (A)/(B)/(D) sai."
+
+- id: "exercise-26-p7-22"
+  part: 7
+  topic: "health"
+  lesson: ["lesson-26"]
+  level: null
+  passage_group: "p7-21-23"
+  passage: |
+    **Aster HR — Team Health Initiative**
+    After a trainee collapsed from exhaustion, Priya moved quickly to protect the team. She renegotiated the company's health insurance, lowering the deductible and having Aster cover more of the premium, and made every employee eligible for full benefits. Alongside the insurance changes, she launched a wellness program: on-site physicals, flu immunizations, a visit from a dentist, ergonomic chairs, and a clear message that staff should take sick leave rather than work while ill. Within days, colleagues said the mood had lifted and the exhausted team was recovering.
+  related_word: null
+  question: "What did she change about the insurance?"
+  options: { A: "Lowered the deductible and made everyone eligible", B: "Cancelled it", C: "Raised the premium for staff", D: "Removed all coverage" }
+  answer: "A"
+  explanation_vi: "về bảo hiểm: \"**lowering the deductible**… made every employee **eligible**\" (và công ty gánh thêm premium). (B)/(C)/(D) sai/trái."
+
+- id: "exercise-26-p7-23"
+  part: 7
+  topic: "health"
+  lesson: ["lesson-26"]
+  level: null
+  passage_group: "p7-21-23"
+  passage: |
+    **Aster HR — Team Health Initiative**
+    After a trainee collapsed from exhaustion, Priya moved quickly to protect the team. She renegotiated the company's health insurance, lowering the deductible and having Aster cover more of the premium, and made every employee eligible for full benefits. Alongside the insurance changes, she launched a wellness program: on-site physicals, flu immunizations, a visit from a dentist, ergonomic chairs, and a clear message that staff should take sick leave rather than work while ill. Within days, colleagues said the mood had lifted and the exhausted team was recovering.
+  related_word: null
+  question: "What was part of the wellness program?"
+  options: { A: "Longer working hours", B: "A pay cut", C: "Fewer breaks", D: "On-site physicals, immunizations, and ergonomic chairs" }
+  answer: "D"
+  explanation_vi: "chương trình wellness gồm \"**on-site physicals, flu immunizations**, a dentist, **ergonomic chairs**\". (A)/(B)/(C) trái."
+
+- id: "exercise-26-p7-24"
+  part: 7
+  topic: "health"
+  lesson: ["lesson-26"]
+  level: null
+  passage_group: "p7-24-26"
+  passage: |
+    **Marlowe Business Journal — Aster Steadies Itself Before the Big Night**
+    With days to go before the Aria launch, Aster Home Technologies has turned its attention to the one asset a balance sheet ignores: its people. A revamped health plan and a new wellness program have helped a burned-out workforce recover just in time. Insiders say morale has rebounded sharply. Everything the company has built over the past year — a proven product, protected technology, a Halston venue, and now a recovered team — now rests on a single evening: the Aria launch, where partners, the press, and even would-be acquirer Neura are all expected to attend.
+  related_word: null
+  question: "What did Aster focus on in the final days?"
+  options: { A: "Building a new factory", B: "Its people, through a health plan and wellness program", C: "Selling to Neura", D: "Cancelling the launch" }
+  answer: "B"
+  explanation_vi: "những ngày cuối Aster tập trung vào \"**its people** — a health plan and a wellness program\". (A)/(C)/(D) sai."
+
+- id: "exercise-26-p7-25"
+  part: 7
+  topic: "health"
+  lesson: ["lesson-26"]
+  level: null
+  passage_group: "p7-24-26"
+  passage: |
+    **Marlowe Business Journal — Aster Steadies Itself Before the Big Night**
+    With days to go before the Aria launch, Aster Home Technologies has turned its attention to the one asset a balance sheet ignores: its people. A revamped health plan and a new wellness program have helped a burned-out workforce recover just in time. Insiders say morale has rebounded sharply. Everything the company has built over the past year — a proven product, protected technology, a Halston venue, and now a recovered team — now rests on a single evening: the Aria launch, where partners, the press, and even would-be acquirer Neura are all expected to attend.
+  related_word: null
+  question: "What effect did the changes have?"
+  options: { A: "A burned-out workforce recovered and morale rebounded", B: "Costs doubled", C: "Staff quit in large numbers", D: "The product failed" }
+  answer: "A"
+  explanation_vi: "hiệu quả: \"a **burned-out workforce recover**… **morale has rebounded**\". (B)/(C)/(D) sai."
+
+- id: "exercise-26-p7-26"
+  part: 7
+  topic: "health"
+  lesson: ["lesson-26"]
+  level: null
+  passage_group: "p7-24-26"
+  passage: |
+    **Marlowe Business Journal — Aster Steadies Itself Before the Big Night**
+    With days to go before the Aria launch, Aster Home Technologies has turned its attention to the one asset a balance sheet ignores: its people. A revamped health plan and a new wellness program have helped a burned-out workforce recover just in time. Insiders say morale has rebounded sharply. Everything the company has built over the past year — a proven product, protected technology, a Halston venue, and now a recovered team — now rests on a single evening: the Aria launch, where partners, the press, and even would-be acquirer Neura are all expected to attend.
+  related_word: null
+  question: "What does everything now rest on?"
+  options: { A: "A new patent", B: "Another supplier", C: "A single evening — the Aria launch", D: "A court case" }
+  answer: "C"
+  explanation_vi: "mọi thứ giờ đặt vào \"a **single evening: the Aria launch**\" → dẫn Ch 27 (đêm ra mắt). (A)/(B)/(D) sai."

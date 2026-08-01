@@ -1,0 +1,335 @@
+# EXERCISE 06 — GENERAL BUSINESS: Marketing & Bán hàng
+# Nguồn: exercises/exercise-06.md (lesson-06)
+# 25 câu: Part 5 (1-12), Part 6 (13-19), Part 7 (20-25)
+
+- id: "exercise-06-p5-01"
+  part: 5
+  topic: "general-business"
+  lesson: ["lesson-06"]
+  level: 600
+  related_word: "campaign"
+  question: "To introduce Aria to Halston, Daniel launched the biggest marketing ______ in the company's history."
+  options: { A: "questionnaire", B: "forecast", C: "campaign", D: "outlet" }
+  answer: "C"
+  explanation_vi: "\"launch a marketing campaign\" = mở chiến dịch marketing. *questionnaire/forecast/outlet* sai nghĩa."
+
+- id: "exercise-06-p5-02"
+  part: 5
+  topic: "general-business"
+  lesson: ["lesson-06"]
+  level: 600
+  related_word: "promote"
+  question: "The team used social media and television ads to ______ the new smart-home system."
+  options: { A: "survey", B: "decline", C: "forecast", D: "promote" }
+  answer: "D"
+  explanation_vi: "\"use ads to promote a product\" = dùng quảng cáo để quảng bá. *survey* (khảo sát), *decline* (sụt giảm/từ chối), *forecast* (dự báo) sai nghĩa. ⚠️ promote = quảng bá (và cũng = thăng chức)."
+
+- id: "exercise-06-p5-03"
+  part: 5
+  topic: "general-business"
+  lesson: ["lesson-06"]
+  level: 750
+  related_word: "target market"
+  question: "Market research showed that Aria's ______ was young, tech-savvy city dwellers."
+  options: { A: "loyalty program", B: "target market", C: "questionnaire", D: "testimonial" }
+  answer: "B"
+  explanation_vi: "\"target market\" = nhóm khách hàng nhắm tới (\"young city dwellers\"). *loyalty program/questionnaire/testimonial* sai nghĩa."
+
+- id: "exercise-06-p5-04"
+  part: 5
+  topic: "general-business"
+  lesson: ["lesson-06"]
+  level: 600
+  related_word: "consumer"
+  question: "Understanding ______ behavior helps a company design advertisements that actually work."
+  options: { A: "consumer", B: "competitor", C: "voucher", D: "quota" }
+  answer: "A"
+  explanation_vi: "\"consumer behavior\" = hành vi người tiêu dùng (collocation cố định). *competitor* (đối thủ) không đi với \"behavior\" ở đây; *voucher/quota* sai nghĩa."
+
+- id: "exercise-06-p5-05"
+  part: 5
+  topic: "general-business"
+  lesson: ["lesson-06"]
+  level: 600
+  related_word: "survey"
+  question: "Before designing the campaign, the marketing team conducted a ______ of two thousand shoppers."
+  options: { A: "brand", B: "demand", C: "survey", D: "outlet" }
+  answer: "C"
+  explanation_vi: "\"conduct a survey of 2,000 shoppers\" = tiến hành khảo sát. *brand/demand/outlet* không \"conducted\"."
+
+- id: "exercise-06-p5-06"
+  part: 5
+  topic: "general-business"
+  lesson: ["lesson-06"]
+  level: 600
+  related_word: "feedback"
+  question: "The company reads customer ______ carefully so that it can keep improving its products."
+  options: { A: "advertisement", B: "quota", C: "competitor", D: "feedback" }
+  answer: "D"
+  explanation_vi: "\"customer feedback… improve products\" = phản hồi khách hàng. *advertisement/quota/competitor* sai nghĩa."
+
+- id: "exercise-06-p5-07"
+  part: 5
+  topic: "general-business"
+  lesson: ["lesson-06"]
+  level: 900
+  related_word: "endorse"
+  question: "The firm paid a famous athlete to ______ its new line of kitchen appliances."
+  options: { A: "decline", B: "forecast", C: "endorse", D: "survey" }
+  answer: "C"
+  explanation_vi: "\"pay a celebrity to endorse a product\" = mời người nổi tiếng chứng thực/quảng bá. *decline/forecast/survey* sai nghĩa."
+
+- id: "exercise-06-p5-08"
+  part: 5
+  topic: "general-business"
+  lesson: ["lesson-06"]
+  level: 600
+  related_word: "competitive"
+  question: "With so many rivals in the market, Aster had to keep its prices ______."
+  options: { A: "exclusive", B: "reluctant", C: "obsolete", D: "competitive" }
+  answer: "D"
+  explanation_vi: "\"keep prices competitive\" = giữ giá có sức cạnh tranh; hợp với \"so many rivals\". *exclusive* (độc quyền) sai; *reluctant/obsolete* sai nghĩa. ⚠️ competitive (adj) ≠ competitor (n)."
+
+- id: "exercise-06-p5-09"
+  part: 5
+  topic: "general-business"
+  lesson: ["lesson-06"]
+  level: 750
+  related_word: "exclusive"
+  question: "Brightway was granted an ______ right to sell Aria in Halston for the first year."
+  options: { A: "exclusive", B: "competitive", C: "available", D: "eligible" }
+  answer: "A"
+  explanation_vi: "\"an exclusive right to sell\" = quyền phân phối độc quyền. *competitive/available/eligible* sai nghĩa/collocation."
+
+- id: "exercise-06-p5-10"
+  part: 5
+  topic: "general-business"
+  lesson: ["lesson-06"]
+  level: 600
+  related_word: "boost"
+  question: "The company offered free delivery to ______ sales during the launch week."
+  options: { A: "decline", B: "endorse", C: "boost", D: "survey" }
+  answer: "C"
+  explanation_vi: "\"boost sales\" = thúc đẩy doanh số; *decline* (giảm) trái nghĩa; *endorse/survey* sai nghĩa."
+
+- id: "exercise-06-p5-11"
+  part: 5
+  topic: "general-business"
+  lesson: ["lesson-06"]
+  level: 750
+  related_word: "forecast"
+  question: "Analysts study past data to make a reliable sales ______ for the coming year."
+  options: { A: "quota", B: "forecast", C: "voucher", D: "brand" }
+  answer: "B"
+  explanation_vi: "\"a sales forecast… from past data\" = dự báo doanh số. *quota* (chỉ tiêu phải đạt, không phải con số dự báo), *voucher/brand* sai nghĩa. ⚠️ forecast (dự báo) ≠ quota (chỉ tiêu)."
+
+- id: "exercise-06-p5-12"
+  part: 5
+  topic: "general-business"
+  lesson: ["lesson-06"]
+  level: 900
+  related_word: "word of mouth"
+  question: "Many small businesses grow mainly through ______, as happy customers tell their friends."
+  options: { A: "questionnaire", B: "arbitration", C: "turnover", D: "word of mouth" }
+  answer: "D"
+  explanation_vi: "\"grow through word of mouth… customers tell friends\" = truyền miệng. *questionnaire/arbitration/turnover* sai nghĩa."
+
+- id: "exercise-06-p6-13"
+  part: 6
+  topic: "general-business"
+  lesson: ["lesson-06"]
+  level: 600
+  passage_group: "p6-13-16"
+  passage: |
+    **MEMORANDUM**
+    **To:** Sales & Marketing Team **From:** Daniel Cho, Director of Marketing
+    **Re:** Aria Launch Plan
+
+    Our goal is simple: make the Aria **(13)______** the most talked-about name in Halston. A series of print and online **(14)______** will begin next month. Because our main **(15)______**, Neura, has a larger budget, we cannot outspend them — we must be smarter. To keep early sales strong and prevent any **(16)______**, every sales representative will be given a clear monthly target.
+  related_word: "brand"
+  options: { A: "voucher", B: "quota", C: "brand", D: "survey" }
+  answer: "C"
+  explanation_vi: "\"make the Aria brand the most talked-about name\" = biến thương hiệu thành cái tên được nhắc nhiều. *voucher/quota/survey* sai nghĩa."
+
+- id: "exercise-06-p6-14"
+  part: 6
+  topic: "general-business"
+  lesson: ["lesson-06"]
+  level: 600
+  passage_group: "p6-13-16"
+  passage: |
+    **MEMORANDUM**
+    **To:** Sales & Marketing Team **From:** Daniel Cho, Director of Marketing
+    **Re:** Aria Launch Plan
+
+    Our goal is simple: make the Aria **(13)______** the most talked-about name in Halston. A series of print and online **(14)______** will begin next month. Because our main **(15)______**, Neura, has a larger budget, we cannot outspend them — we must be smarter. To keep early sales strong and prevent any **(16)______**, every sales representative will be given a clear monthly target.
+  related_word: "advertisement"
+  options: { A: "advertisements", B: "outlets", C: "testimonials", D: "competitors" }
+  answer: "A"
+  explanation_vi: "\"print and online advertisements\" = quảng cáo báo in & trực tuyến. *outlets/testimonials/competitors* không \"begin next month\" theo nghĩa quảng cáo."
+
+- id: "exercise-06-p6-15"
+  part: 6
+  topic: "general-business"
+  lesson: ["lesson-06"]
+  level: 600
+  passage_group: "p6-13-16"
+  passage: |
+    **MEMORANDUM**
+    **To:** Sales & Marketing Team **From:** Daniel Cho, Director of Marketing
+    **Re:** Aria Launch Plan
+
+    Our goal is simple: make the Aria **(13)______** the most talked-about name in Halston. A series of print and online **(14)______** will begin next month. Because our main **(15)______**, Neura, has a larger budget, we cannot outspend them — we must be smarter. To keep early sales strong and prevent any **(16)______**, every sales representative will be given a clear monthly target.
+  related_word: "competitor"
+  options: { A: "consumer", B: "forecast", C: "outlet", D: "competitor" }
+  answer: "D"
+  explanation_vi: "\"our main competitor, Neura, has a larger budget\" = đối thủ chính. *consumer/forecast/outlet* sai nghĩa."
+
+- id: "exercise-06-p6-16"
+  part: 6
+  topic: "general-business"
+  lesson: ["lesson-06"]
+  level: 750
+  passage_group: "p6-13-16"
+  passage: |
+    **MEMORANDUM**
+    **To:** Sales & Marketing Team **From:** Daniel Cho, Director of Marketing
+    **Re:** Aria Launch Plan
+
+    Our goal is simple: make the Aria **(13)______** the most talked-about name in Halston. A series of print and online **(14)______** will begin next month. Because our main **(15)______**, Neura, has a larger budget, we cannot outspend them — we must be smarter. To keep early sales strong and prevent any **(16)______**, every sales representative will be given a clear monthly target.
+  related_word: "decline"
+  options: { A: "demand", B: "feedback", C: "decline", D: "brand" }
+  answer: "C"
+  explanation_vi: "\"keep sales strong and prevent any decline\" = ngăn sự sụt giảm. *demand* thì ta muốn tăng chứ không \"prevent\"; *feedback/brand* sai nghĩa."
+
+- id: "exercise-06-p6-17"
+  part: 6
+  topic: "general-business"
+  lesson: ["lesson-06"]
+  level: null
+  passage_group: "p6-17-19"
+  passage: |
+    **ANNOUNCEMENT — Coming Soon to Halston**
+    The wait is almost over. Starting next month, the Aria smart-home system will be available **(17)______** at Brightway stores across Halston. To thank our earliest customers, everyone who buys during launch week will receive a **(18)______** worth 20% off their next purchase. Join our **(19)______** today and start earning points on everything you buy.
+  related_word: null
+  options: { A: "reluctantly", B: "exclusively", C: "barely", D: "frequently" }
+  answer: "B"
+  explanation_vi: "\"available exclusively at Brightway\" = chỉ bán độc quyền tại Brightway. *reluctantly/barely/frequently* sai nghĩa. (Dạng adv của exclusive.)"
+
+- id: "exercise-06-p6-18"
+  part: 6
+  topic: "general-business"
+  lesson: ["lesson-06"]
+  level: 600
+  passage_group: "p6-17-19"
+  passage: |
+    **ANNOUNCEMENT — Coming Soon to Halston**
+    The wait is almost over. Starting next month, the Aria smart-home system will be available **(17)______** at Brightway stores across Halston. To thank our earliest customers, everyone who buys during launch week will receive a **(18)______** worth 20% off their next purchase. Join our **(19)______** today and start earning points on everything you buy.
+  related_word: "voucher"
+  options: { A: "questionnaire", B: "testimonial", C: "forecast", D: "voucher" }
+  answer: "D"
+  explanation_vi: "\"a voucher worth 20% off\" = phiếu giảm giá. *questionnaire/testimonial/forecast* sai nghĩa."
+
+- id: "exercise-06-p6-19"
+  part: 6
+  topic: "general-business"
+  lesson: ["lesson-06"]
+  level: 750
+  passage_group: "p6-17-19"
+  passage: |
+    **ANNOUNCEMENT — Coming Soon to Halston**
+    The wait is almost over. Starting next month, the Aria smart-home system will be available **(17)______** at Brightway stores across Halston. To thank our earliest customers, everyone who buys during launch week will receive a **(18)______** worth 20% off their next purchase. Join our **(19)______** today and start earning points on everything you buy.
+  related_word: "loyalty program"
+  options: { A: "loyalty program", B: "target market", C: "arbitration", D: "survey" }
+  answer: "A"
+  explanation_vi: "\"join our loyalty program… earn points\" = chương trình khách hàng thân thiết. *target market/arbitration/survey* sai nghĩa."
+
+- id: "exercise-06-p7-20"
+  part: 7
+  topic: "general-business"
+  lesson: ["lesson-06"]
+  level: null
+  passage_group: "p7-20-22"
+  passage: |
+    **Halston Tech Weekly**
+    Aster Home Technologies is preparing an aggressive push into the Halston market with its new Aria system. In an interview, marketing director Daniel Cho said the campaign would rely heavily on positive word of mouth and glowing customer testimonials rather than simply outspending rivals. "Our biggest competitor has deeper pockets," he admitted, "but we have a better story." Early surveys suggest strong consumer interest, and Cho has forecast record demand in the launch quarter — a bold promise that some analysts say stakes his reputation on the product's success.
+  related_word: null
+  question: "What is Daniel Cho's main marketing strategy?"
+  options: { A: "Spending more than his competitors", B: "Relying on word of mouth and testimonials", C: "Lowering the product's quality", D: "Delaying the launch" }
+  answer: "B"
+  explanation_vi: "Daniel dựa vào **truyền miệng & lời chứng thực** thay vì chi nhiều hơn đối thủ (\"rely heavily on positive word of mouth and… testimonials rather than simply outspending rivals\"). (A) trái bài; (C)/(D) không nêu."
+
+- id: "exercise-06-p7-21"
+  part: 7
+  topic: "general-business"
+  lesson: ["lesson-06"]
+  level: null
+  passage_group: "p7-20-22"
+  passage: |
+    **Halston Tech Weekly**
+    Aster Home Technologies is preparing an aggressive push into the Halston market with its new Aria system. In an interview, marketing director Daniel Cho said the campaign would rely heavily on positive word of mouth and glowing customer testimonials rather than simply outspending rivals. "Our biggest competitor has deeper pockets," he admitted, "but we have a better story." Early surveys suggest strong consumer interest, and Cho has forecast record demand in the launch quarter — a bold promise that some analysts say stakes his reputation on the product's success.
+  related_word: null
+  question: "What does the article suggest about Cho's sales forecast?"
+  options: { A: "It is very cautious", B: "It is a bold promise that risks his reputation", C: "It has already been proven wrong", D: "It was actually made by Neura" }
+  answer: "B"
+  explanation_vi: "dự báo của Cho là **lời hứa táo bạo đặt cược uy tín** (\"a bold promise that… stakes his reputation\"). (A) trái nghĩa; (C)/(D) không đúng."
+
+- id: "exercise-06-p7-22"
+  part: 7
+  topic: "general-business"
+  lesson: ["lesson-06"]
+  level: null
+  passage_group: "p7-20-22"
+  passage: |
+    **Halston Tech Weekly**
+    Aster Home Technologies is preparing an aggressive push into the Halston market with its new Aria system. In an interview, marketing director Daniel Cho said the campaign would rely heavily on positive word of mouth and glowing customer testimonials rather than simply outspending rivals. "Our biggest competitor has deeper pockets," he admitted, "but we have a better story." Early surveys suggest strong consumer interest, and Cho has forecast record demand in the launch quarter — a bold promise that some analysts say stakes his reputation on the product's success.
+  related_word: null
+  question: "The word \"demand\" in the article is closest in meaning to"
+  options: { A: "a formal complaint", B: "desire to buy", C: "a firm refusal", D: "a long delay" }
+  answer: "B"
+  explanation_vi: "\"demand\" ở đây = **nhu cầu mua** (\"record demand in the launch quarter\"). (A) complaint, (C) refusal, (D) delay đều sai nghĩa."
+
+- id: "exercise-06-p7-23"
+  part: 7
+  topic: "general-business"
+  lesson: ["lesson-06"]
+  level: null
+  passage_group: "p7-23-25"
+  passage: |
+    **Brightway Retail — Internal Bulletin**
+    Get ready: the Aria launch is coming, and Brightway will be its exclusive seller in Halston. All forty of our retail outlets will feature a dedicated Aria display near the entrance. Staff should note that each store has been given a sales quota for the launch month, and stores that exceed their target will be recognized at the regional meeting. Remember, we are the only chain permitted to carry Aria this year — let's make the most of it.
+  related_word: null
+  question: "According to the bulletin, where will Aria be sold in Halston?"
+  options: { A: "Online only", B: "At Brightway's retail outlets", C: "At Neura stores", D: "Everywhere except Brightway" }
+  answer: "B"
+  explanation_vi: "Aria bán tại **các cửa hàng bán lẻ của Brightway** (\"All forty of our retail outlets\"). (A)/(C)/(D) trái bài."
+
+- id: "exercise-06-p7-24"
+  part: 7
+  topic: "general-business"
+  lesson: ["lesson-06"]
+  level: null
+  passage_group: "p7-23-25"
+  passage: |
+    **Brightway Retail — Internal Bulletin**
+    Get ready: the Aria launch is coming, and Brightway will be its exclusive seller in Halston. All forty of our retail outlets will feature a dedicated Aria display near the entrance. Staff should note that each store has been given a sales quota for the launch month, and stores that exceed their target will be recognized at the regional meeting. Remember, we are the only chain permitted to carry Aria this year — let's make the most of it.
+  related_word: null
+  question: "What has each Brightway store been given for the launch month?"
+  options: { A: "A sales quota", B: "A free voucher", C: "A questionnaire", D: "A new manager" }
+  answer: "A"
+  explanation_vi: "mỗi cửa hàng được giao **chỉ tiêu doanh số** cho tháng ra mắt (\"each store has been given a sales quota\"). (B)/(C)/(D) không nêu."
+
+- id: "exercise-06-p7-25"
+  part: 7
+  topic: "general-business"
+  lesson: ["lesson-06"]
+  level: null
+  passage_group: "p7-23-25"
+  passage: |
+    **Brightway Retail — Internal Bulletin**
+    Get ready: the Aria launch is coming, and Brightway will be its exclusive seller in Halston. All forty of our retail outlets will feature a dedicated Aria display near the entrance. Staff should note that each store has been given a sales quota for the launch month, and stores that exceed their target will be recognized at the regional meeting. Remember, we are the only chain permitted to carry Aria this year — let's make the most of it.
+  related_word: null
+  question: "The word \"exclusive\" in the bulletin is closest in meaning to"
+  options: { A: "sole / only", B: "expensive", C: "temporary", D: "optional" }
+  answer: "A"
+  explanation_vi: "\"exclusive\" ≈ **duy nhất/độc quyền**; bài đã diễn giải \"we are the only chain permitted to carry Aria\". (B) expensive, (C) temporary, (D) optional sai nghĩa."

@@ -1,0 +1,337 @@
+# EXERCISE 24 — HOUSING: Xây dựng · Điện – Gas – Bảo trì
+# Nguồn: exercises/exercise-24.md (lesson-24)
+# 26 câu: Part 5 (1-12), Part 6 (13-20), Part 7 (21-26)
+
+- id: "exercise-24-p5-01"
+  part: 5
+  topic: "housing-property"
+  lesson: ["lesson-24"]
+  level: 600
+  related_word: "contractor"
+  question: "Ray hired a local ______ to carry out the building work."
+  options: { A: "architect", B: "contractor", C: "tenant", D: "janitor" }
+  answer: "B"
+  explanation_vi: "\"hired a local contractor to carry out the building work\" = nhà thầu. *architect/tenant/janitor* sai nghĩa."
+
+- id: "exercise-24-p5-02"
+  part: 5
+  topic: "housing-property"
+  lesson: ["lesson-24"]
+  level: 900
+  related_word: "blueprint"
+  question: "The architect spread the ______ on the table to show the new layout."
+  options: { A: "permit", B: "meter", C: "outage", D: "blueprints" }
+  answer: "D"
+  explanation_vi: "\"spread the blueprints… to show the new layout\" = bản vẽ thiết kế. *permit/meter/outage* sai nghĩa."
+
+- id: "exercise-24-p5-03"
+  part: 5
+  topic: "housing-property"
+  lesson: ["lesson-24"]
+  level: 750
+  related_word: "permit"
+  question: "Before any work began, Priya had to obtain a building ______."
+  options: { A: "permit", B: "leak", C: "facility", D: "blueprint" }
+  answer: "A"
+  explanation_vi: "\"obtain a building permit before work began\" = giấy phép. *leak/facility/blueprint* sai nghĩa."
+
+- id: "exercise-24-p5-04"
+  part: 5
+  topic: "housing-property"
+  lesson: ["lesson-24"]
+  level: 900
+  related_word: "zoning"
+  question: "They checked the local ______ rules to confirm a retail showroom was allowed."
+  options: { A: "structural", B: "utilities", C: "zoning", D: "maintenance" }
+  answer: "C"
+  explanation_vi: "\"checked the zoning rules… a retail showroom was allowed\" = quy hoạch phân khu. *structural/utilities/maintenance* sai."
+
+- id: "exercise-24-p5-05"
+  part: 5
+  topic: "housing-property"
+  lesson: ["lesson-24"]
+  level: 600
+  related_word: "construction"
+  question: "For several weeks the space was under ______ from morning to night."
+  options: { A: "inspection", B: "construction", C: "outage", D: "meter" }
+  answer: "B"
+  explanation_vi: "\"the space was under construction\" = thi công. ⚠️ *under construction*. *inspection/outage/meter* sai."
+
+- id: "exercise-24-p5-06"
+  part: 5
+  topic: "housing-property"
+  lesson: ["lesson-24"]
+  level: 750
+  related_word: "architect"
+  question: "The ______ redesigned the entrance to make the showroom more inviting."
+  options: { A: "contractor", B: "janitor", C: "tenant", D: "architect" }
+  answer: "D"
+  explanation_vi: "\"the architect redesigned the entrance\" = kiến trúc sư. *contractor/janitor/tenant* sai nghĩa."
+
+- id: "exercise-24-p5-07"
+  part: 5
+  topic: "housing-property"
+  lesson: ["lesson-24"]
+  level: 750
+  related_word: "structural"
+  question: "As tenants, they were not allowed to make any ______ changes to the building."
+  options: { A: "structural", B: "portable", C: "vacant", D: "furnished" }
+  answer: "A"
+  explanation_vi: "\"not allowed to make any structural changes\" = thuộc kết cấu. *portable/vacant/furnished* sai nghĩa."
+
+- id: "exercise-24-p5-08"
+  part: 5
+  topic: "housing-property"
+  lesson: ["lesson-24"]
+  level: 750
+  related_word: "renovate"
+  question: "The team worked around the clock to ______ the entire ground floor."
+  options: { A: "relocate", B: "adhere", C: "renovate", D: "inspect" }
+  answer: "C"
+  explanation_vi: "\"worked around the clock to renovate the ground floor\" = cải tạo. *relocate/adhere/inspect* sai nghĩa."
+
+- id: "exercise-24-p5-09"
+  part: 5
+  topic: "housing-property"
+  lesson: ["lesson-24"]
+  level: 750
+  related_word: "utilities"
+  question: "Electricians and plumbers came to connect the ______ — power, water, and gas."
+  options: { A: "blueprints", B: "utilities", C: "permits", D: "meters" }
+  answer: "B"
+  explanation_vi: "\"connect the utilities — power, water, and gas\" = tiện ích. *blueprints/permits/meters* sai nghĩa."
+
+- id: "exercise-24-p5-10"
+  part: 5
+  topic: "housing-property"
+  lesson: ["lesson-24"]
+  level: 900
+  related_word: "wiring"
+  question: "The server room needed all-new ______ to handle the extra electrical load."
+  options: { A: "plumbing", B: "insulation", C: "scaffolding", D: "wiring" }
+  answer: "D"
+  explanation_vi: "\"all-new wiring to handle the electrical load\" = hệ thống dây điện. *plumbing/insulation/scaffolding* sai nghĩa."
+
+- id: "exercise-24-p5-11"
+  part: 5
+  topic: "housing-property"
+  lesson: ["lesson-24"]
+  level: 900
+  related_word: "outage"
+  question: "A mistake during the work caused a brief power ______ one evening."
+  options: { A: "outage", B: "permit", C: "leak", D: "meter" }
+  answer: "A"
+  explanation_vi: "\"a mistake… caused a brief power outage\" = mất điện. *permit/leak/meter* sai nghĩa."
+
+- id: "exercise-24-p5-12"
+  part: 5
+  topic: "housing-property"
+  lesson: ["lesson-24"]
+  level: 750
+  related_word: "leak"
+  question: "They also had to fix a small ______ in the ceiling before the floor could be finished."
+  options: { A: "meter", B: "outage", C: "leak", D: "permit" }
+  answer: "C"
+  explanation_vi: "\"fix a small leak in the ceiling\" = chỗ rò rỉ. *meter/outage/permit* sai nghĩa."
+
+- id: "exercise-24-p6-13"
+  part: 6
+  topic: "housing-property"
+  lesson: ["lesson-24"]
+  level: 750
+  passage_group: "p6-13-16"
+  passage: |
+    **NOTICE — Halston Site Works**
+    The fit-out of our new Halston site is underway. All work must **(13)______** the approved plans; no unapproved changes are allowed. The reception area is being **(14)______** to create an open showroom. Before opening, the **(15)______** must pass a full safety **(16)______**.
+  related_word: "adhere to"
+  options: { A: "relocate", B: "adhere to", C: "renovate", D: "inspect" }
+  answer: "B"
+  explanation_vi: "\"all work must adhere to the approved plans\" = tuân theo. *relocate/renovate/inspect* sai nghĩa."
+
+- id: "exercise-24-p6-14"
+  part: 6
+  topic: "housing-property"
+  lesson: ["lesson-24"]
+  level: 900
+  passage_group: "p6-13-16"
+  passage: |
+    **NOTICE — Halston Site Works**
+    The fit-out of our new Halston site is underway. All work must **(13)______** the approved plans; no unapproved changes are allowed. The reception area is being **(14)______** to create an open showroom. Before opening, the **(15)______** must pass a full safety **(16)______**.
+  related_word: "remodel"
+  options: { A: "leaked", B: "metered", C: "zoned", D: "remodeled" }
+  answer: "D"
+  explanation_vi: "\"the reception is being remodeled to create a showroom\" = sửa sang lại. *leaked/metered/zoned* sai nghĩa."
+
+- id: "exercise-24-p6-15"
+  part: 6
+  topic: "housing-property"
+  lesson: ["lesson-24"]
+  level: 600
+  passage_group: "p6-13-16"
+  passage: |
+    **NOTICE — Halston Site Works**
+    The fit-out of our new Halston site is underway. All work must **(13)______** the approved plans; no unapproved changes are allowed. The reception area is being **(14)______** to create an open showroom. Before opening, the **(15)______** must pass a full safety **(16)______**.
+  related_word: "site"
+  options: { A: "site", B: "meter", C: "outage", D: "permit" }
+  answer: "A"
+  explanation_vi: "\"the site must pass a safety inspection\" = công trường/địa điểm. *meter/outage/permit* sai nghĩa."
+
+- id: "exercise-24-p6-16"
+  part: 6
+  topic: "housing-property"
+  lesson: ["lesson-24"]
+  level: 600
+  passage_group: "p6-13-16"
+  passage: |
+    **NOTICE — Halston Site Works**
+    The fit-out of our new Halston site is underway. All work must **(13)______** the approved plans; no unapproved changes are allowed. The reception area is being **(14)______** to create an open showroom. Before opening, the **(15)______** must pass a full safety **(16)______**.
+  related_word: "inspection"
+  options: { A: "blueprint", B: "outage", C: "inspection", D: "leak" }
+  answer: "C"
+  explanation_vi: "\"pass a full safety inspection\" = sự kiểm tra. *blueprint/outage/leak* sai nghĩa."
+
+- id: "exercise-24-p6-17"
+  part: 6
+  topic: "housing-property"
+  lesson: ["lesson-24"]
+  level: 600
+  passage_group: "p6-17-20"
+  passage: |
+    **MEMO — Building Operations, Halston**
+    Now that our new **(17)______** is open, please note the following. A separate **(18)______** has been installed to track our energy use. Routine **(19)______** is scheduled monthly to keep everything running smoothly. Any problem with the **(20)______** — a blocked drain or a dripping tap — should be reported to the janitor at once.
+  related_word: "facility"
+  options: { A: "facility", B: "meter", C: "outage", D: "permit" }
+  answer: "A"
+  explanation_vi: "\"now that our new facility is open\" = cơ sở vật chất. *meter/outage/permit* sai nghĩa."
+
+- id: "exercise-24-p6-18"
+  part: 6
+  topic: "housing-property"
+  lesson: ["lesson-24"]
+  level: 750
+  passage_group: "p6-17-20"
+  passage: |
+    **MEMO — Building Operations, Halston**
+    Now that our new **(17)______** is open, please note the following. A separate **(18)______** has been installed to track our energy use. Routine **(19)______** is scheduled monthly to keep everything running smoothly. Any problem with the **(20)______** — a blocked drain or a dripping tap — should be reported to the janitor at once.
+  related_word: "meter"
+  options: { A: "permit", B: "blueprint", C: "meter", D: "leak" }
+  answer: "C"
+  explanation_vi: "\"a separate meter… to track our energy use\" = đồng hồ đo. *permit/blueprint/leak* sai nghĩa."
+
+- id: "exercise-24-p6-19"
+  part: 6
+  topic: "housing-property"
+  lesson: ["lesson-24"]
+  level: 600
+  passage_group: "p6-17-20"
+  passage: |
+    **MEMO — Building Operations, Halston**
+    Now that our new **(17)______** is open, please note the following. A separate **(18)______** has been installed to track our energy use. Routine **(19)______** is scheduled monthly to keep everything running smoothly. Any problem with the **(20)______** — a blocked drain or a dripping tap — should be reported to the janitor at once.
+  related_word: "maintenance"
+  options: { A: "zoning", B: "maintenance", C: "construction", D: "inspection" }
+  answer: "B"
+  explanation_vi: "\"routine maintenance is scheduled monthly\" = bảo trì. *zoning/construction/inspection* sai nghĩa."
+
+- id: "exercise-24-p6-20"
+  part: 6
+  topic: "housing-property"
+  lesson: ["lesson-24"]
+  level: 900
+  passage_group: "p6-17-20"
+  passage: |
+    **MEMO — Building Operations, Halston**
+    Now that our new **(17)______** is open, please note the following. A separate **(18)______** has been installed to track our energy use. Routine **(19)______** is scheduled monthly to keep everything running smoothly. Any problem with the **(20)______** — a blocked drain or a dripping tap — should be reported to the janitor at once.
+  related_word: "plumbing"
+  options: { A: "wiring", B: "blueprint", C: "meter", D: "plumbing" }
+  answer: "D"
+  explanation_vi: "\"problem with the plumbing — a blocked drain or dripping tap\" = hệ thống ống nước. *wiring/blueprint/meter* sai nghĩa."
+
+- id: "exercise-24-p7-21"
+  part: 7
+  topic: "housing-property"
+  lesson: ["lesson-24"]
+  level: null
+  passage_group: "p7-21-23"
+  passage: |
+    **Aster Operations — Halston Fit-Out**
+    Aster raced to turn its bare Halston premises into a working site. A local contractor and an architect drew up the blueprints, and after obtaining a building permit and confirming the zoning, construction began. Because Aster only leases the space, no structural changes were allowed; instead, the team renovated the floor and remodeled the reception, with scaffolding going up along one wall. They rewired the server room, added insulation, connected the utilities, and fixed a ceiling leak. The furnishings arrived last, and after a final safety inspection, the site was ready — just in time.
+  related_word: null
+  question: "Why were no structural changes allowed?"
+  options: { A: "The architect refused", B: "There was no permit", C: "Because Aster only leases the space", D: "The zoning banned showrooms" }
+  answer: "C"
+  explanation_vi: "không được đổi kết cấu vì \"Aster **only leases the space**\". (A)/(B)/(D) sai/không nêu."
+
+- id: "exercise-24-p7-22"
+  part: 7
+  topic: "housing-property"
+  lesson: ["lesson-24"]
+  level: null
+  passage_group: "p7-21-23"
+  passage: |
+    **Aster Operations — Halston Fit-Out**
+    Aster raced to turn its bare Halston premises into a working site. A local contractor and an architect drew up the blueprints, and after obtaining a building permit and confirming the zoning, construction began. Because Aster only leases the space, no structural changes were allowed; instead, the team renovated the floor and remodeled the reception, with scaffolding going up along one wall. They rewired the server room, added insulation, connected the utilities, and fixed a ceiling leak. The furnishings arrived last, and after a final safety inspection, the site was ready — just in time.
+  related_word: null
+  question: "What did the team do to the reception area?"
+  options: { A: "They remodeled it", B: "They demolished it", C: "They sold it", D: "They left it untouched" }
+  answer: "A"
+  explanation_vi: "với khu tiếp khách, đội \"**remodeled** the reception\". (B)/(C)/(D) sai."
+
+- id: "exercise-24-p7-23"
+  part: 7
+  topic: "housing-property"
+  lesson: ["lesson-24"]
+  level: null
+  passage_group: "p7-21-23"
+  passage: |
+    **Aster Operations — Halston Fit-Out**
+    Aster raced to turn its bare Halston premises into a working site. A local contractor and an architect drew up the blueprints, and after obtaining a building permit and confirming the zoning, construction began. Because Aster only leases the space, no structural changes were allowed; instead, the team renovated the floor and remodeled the reception, with scaffolding going up along one wall. They rewired the server room, added insulation, connected the utilities, and fixed a ceiling leak. The furnishings arrived last, and after a final safety inspection, the site was ready — just in time.
+  related_word: null
+  question: "What happened just before the site was ready?"
+  options: { A: "A power outage", B: "A new lease was signed", C: "An appraisal", D: "A final safety inspection" }
+  answer: "D"
+  explanation_vi: "ngay trước khi sẵn sàng: \"a **final safety inspection**\". (A)/(B)/(C) sai."
+
+- id: "exercise-24-p7-24"
+  part: 7
+  topic: "housing-property"
+  lesson: ["lesson-24"]
+  level: null
+  passage_group: "p7-24-26"
+  passage: |
+    **Marlowe Business Journal — Aster Reaches the Starting Line**
+    After months of crisis — a supply failure, a product defect, and a frantic redesign — Aster Home Technologies has finally readied everything for its Aria launch. Its Halston site, freshly renovated and fitted with new wiring, plumbing, and furnishings, passed its safety inspection this week. On paper, the company is ready: a proven product, protected technology, and a venue in place. Yet insiders describe a team running on empty, exhausted after a punishing schedule, with the all-important launch now only days away.
+  related_word: null
+  question: "What did Aster complete this week?"
+  options: { A: "A merger with Neura", B: "Its Halston site passed a safety inspection", C: "A new factory", D: "A price cut" }
+  answer: "B"
+  explanation_vi: "tuần này Aster hoàn tất: \"its Halston site… **passed its safety inspection**\". (A)/(C)/(D) sai."
+
+- id: "exercise-24-p7-25"
+  part: 7
+  topic: "housing-property"
+  lesson: ["lesson-24"]
+  level: null
+  passage_group: "p7-24-26"
+  passage: |
+    **Marlowe Business Journal — Aster Reaches the Starting Line**
+    After months of crisis — a supply failure, a product defect, and a frantic redesign — Aster Home Technologies has finally readied everything for its Aria launch. Its Halston site, freshly renovated and fitted with new wiring, plumbing, and furnishings, passed its safety inspection this week. On paper, the company is ready: a proven product, protected technology, and a venue in place. Yet insiders describe a team running on empty, exhausted after a punishing schedule, with the all-important launch now only days away.
+  related_word: null
+  question: "According to the article, what is Aster's main remaining problem?"
+  options: { A: "A team that is exhausted and running on empty", B: "A missing product", C: "An unprotected technology", D: "No venue" }
+  answer: "A"
+  explanation_vi: "vấn đề còn lại: \"a team **running on empty, exhausted**\" → dẫn Ch 25 (Health). (B)/(C)/(D) trái (sản phẩm/công nghệ/địa điểm đều đã sẵn sàng)."
+
+- id: "exercise-24-p7-26"
+  part: 7
+  topic: "housing-property"
+  lesson: ["lesson-24"]
+  level: null
+  passage_group: "p7-24-26"
+  passage: |
+    **Marlowe Business Journal — Aster Reaches the Starting Line**
+    After months of crisis — a supply failure, a product defect, and a frantic redesign — Aster Home Technologies has finally readied everything for its Aria launch. Its Halston site, freshly renovated and fitted with new wiring, plumbing, and furnishings, passed its safety inspection this week. On paper, the company is ready: a proven product, protected technology, and a venue in place. Yet insiders describe a team running on empty, exhausted after a punishing schedule, with the all-important launch now only days away.
+  related_word: null
+  question: "When is the launch?"
+  options: { A: "Next year", B: "Already over", C: "Only days away", D: "It was cancelled" }
+  answer: "C"
+  explanation_vi: "lễ ra mắt \"now **only days away**\". (A)/(B)/(D) sai."

@@ -1,0 +1,287 @@
+# EXERCISE 10 — TRAVEL: Khách sạn · Thuê xe & Đi lại
+# Nguồn: exercises/exercise-10.md (lesson-10)
+# 22 câu: Part 5 (1-10), Part 6 (11-16), Part 7 (17-22)
+
+- id: "exercise-10-p5-01"
+  part: 5
+  topic: "travel"
+  lesson: ["lesson-10"]
+  level: 750
+  related_word: "accommodation"
+  question: "The company arranged comfortable ______ for the team near the Brightway office."
+  options: { A: "congestion", B: "accommodation", C: "fuel", D: "detour" }
+  answer: "B"
+  explanation_vi: "\"arrange accommodation\" = thu xếp chỗ ở. *congestion/fuel/detour* sai nghĩa. ⚠️ accommodation không đếm được."
+
+- id: "exercise-10-p5-02"
+  part: 5
+  topic: "travel"
+  lesson: ["lesson-10"]
+  level: 750
+  related_word: "vacancy"
+  question: "By evening the hotel was completely full and had put up a \"no ______\" sign."
+  options: { A: "suite", B: "rate", C: "amenities", D: "vacancy" }
+  answer: "D"
+  explanation_vi: "\"no vacancy\" = hết phòng trống (biển báo quen thuộc). *suite/rate/amenities* sai nghĩa."
+
+- id: "exercise-10-p5-03"
+  part: 5
+  topic: "travel"
+  lesson: ["lesson-10"]
+  level: 750
+  related_word: "amenities"
+  question: "The hotel's ______, including a gym and a pool, impressed the whole team."
+  options: { A: "amenities", B: "fuel", C: "detour", D: "commute" }
+  answer: "A"
+  explanation_vi: "\"hotel amenities… a gym and a pool\" = tiện nghi. *fuel/detour/commute* sai nghĩa."
+
+- id: "exercise-10-p5-04"
+  part: 5
+  topic: "travel"
+  lesson: ["lesson-10"]
+  level: 750
+  related_word: "suite"
+  question: "Because she would receive guests in her room, Diane was given a spacious ______."
+  options: { A: "front desk", B: "vacancy", C: "suite", D: "rate" }
+  answer: "C"
+  explanation_vi: "\"a spacious suite… receive guests\" = phòng suite rộng. *front desk/vacancy/rate* sai nghĩa."
+
+- id: "exercise-10-p5-05"
+  part: 5
+  topic: "travel"
+  lesson: ["lesson-10"]
+  level: 600
+  related_word: "rate"
+  question: "The nightly ______ was high, but it included breakfast and free parking."
+  options: { A: "rate", B: "detour", C: "fuel", D: "roadwork" }
+  answer: "A"
+  explanation_vi: "\"the nightly rate\" = giá phòng theo đêm. *detour/fuel/roadwork* sai nghĩa. ⚠️ rate (giá phòng) cũng = tỷ lệ."
+
+- id: "exercise-10-p5-06"
+  part: 5
+  topic: "travel"
+  lesson: ["lesson-10"]
+  level: 600
+  related_word: "rental car"
+  question: "At the airport counter, Ben picked up the ______ he had reserved online."
+  options: { A: "suite", B: "concierge", C: "commute", D: "rental car" }
+  answer: "D"
+  explanation_vi: "\"picked up the rental car he had reserved\" = xe thuê. *suite/concierge/commute* sai nghĩa."
+
+- id: "exercise-10-p5-07"
+  part: 5
+  topic: "travel"
+  lesson: ["lesson-10"]
+  level: 750
+  related_word: "detour"
+  question: "A blocked road forced the driver to take a long ______ through the side streets."
+  options: { A: "fuel", B: "detour", C: "vacancy", D: "rate" }
+  answer: "B"
+  explanation_vi: "\"take a long detour through the side streets\" = đường vòng. *fuel/vacancy/rate* sai nghĩa."
+
+- id: "exercise-10-p5-08"
+  part: 5
+  topic: "travel"
+  lesson: ["lesson-10"]
+  level: 750
+  related_word: "congestion"
+  question: "Heavy traffic ______ during rush hour made the short drive take almost an hour."
+  options: { A: "accommodation", B: "suite", C: "congestion", D: "amenities" }
+  answer: "C"
+  explanation_vi: "\"traffic congestion during rush hour\" = tắc nghẽn giao thông. *accommodation/suite/amenities* sai nghĩa."
+
+- id: "exercise-10-p5-09"
+  part: 5
+  topic: "travel"
+  lesson: ["lesson-10"]
+  level: 600
+  related_word: "destination"
+  question: "Despite the traffic, they reached their ______ just in time for the meeting."
+  options: { A: "vacancy", B: "detour", C: "rate", D: "destination" }
+  answer: "D"
+  explanation_vi: "\"reached their destination just in time\" = điểm đến. *vacancy/detour/rate* sai nghĩa."
+
+- id: "exercise-10-p5-10"
+  part: 5
+  topic: "travel"
+  lesson: ["lesson-10"]
+  level: 600
+  related_word: "fuel"
+  question: "Before returning the car, please make sure the ______ tank is completely full."
+  options: { A: "fuel", B: "suite", C: "commute", D: "concierge" }
+  answer: "A"
+  explanation_vi: "\"the fuel tank is full\" = bình nhiên liệu. *suite/commute/concierge* sai nghĩa."
+
+- id: "exercise-10-p6-11"
+  part: 6
+  topic: "travel"
+  lesson: ["lesson-10"]
+  level: 600
+  passage_group: "p6-11-14"
+  passage: |
+    **HOTEL BOOKING CONFIRMATION — Bayview Halston**
+    Thank you for choosing Bayview Halston. On arrival, please visit the **(11)______** to check in; a staff member will have your key ready. All of our rooms include a **(12)______** breakfast and access to the fitness center. If you need restaurant tips or a taxi, our **(13)______** will gladly assist you at any hour. Please note that **(14)______** is at 11 a.m.; late departures may incur a fee.
+  related_word: "front desk"
+  options: { A: "detour", B: "suite", C: "front desk", D: "fuel" }
+  answer: "C"
+  explanation_vi: "\"visit the front desk to check in\" = quầy lễ tân. *detour/suite/fuel* sai nghĩa."
+
+- id: "exercise-10-p6-12"
+  part: 6
+  topic: "travel"
+  lesson: ["lesson-10"]
+  level: 750
+  passage_group: "p6-11-14"
+  passage: |
+    **HOTEL BOOKING CONFIRMATION — Bayview Halston**
+    Thank you for choosing Bayview Halston. On arrival, please visit the **(11)______** to check in; a staff member will have your key ready. All of our rooms include a **(12)______** breakfast and access to the fitness center. If you need restaurant tips or a taxi, our **(13)______** will gladly assist you at any hour. Please note that **(14)______** is at 11 a.m.; late departures may incur a fee.
+  related_word: "complimentary"
+  options: { A: "rental", B: "complimentary", C: "congested", D: "valid" }
+  answer: "B"
+  explanation_vi: "\"a complimentary breakfast\" = bữa sáng miễn phí, tặng kèm. *rental/congested/valid* sai nghĩa/loại từ. ⚠️ complimentary ≠ complementary."
+
+- id: "exercise-10-p6-13"
+  part: 6
+  topic: "travel"
+  lesson: ["lesson-10"]
+  level: 900
+  passage_group: "p6-11-14"
+  passage: |
+    **HOTEL BOOKING CONFIRMATION — Bayview Halston**
+    Thank you for choosing Bayview Halston. On arrival, please visit the **(11)______** to check in; a staff member will have your key ready. All of our rooms include a **(12)______** breakfast and access to the fitness center. If you need restaurant tips or a taxi, our **(13)______** will gladly assist you at any hour. Please note that **(14)______** is at 11 a.m.; late departures may incur a fee.
+  related_word: "concierge"
+  options: { A: "concierge", B: "vacancy", C: "rate", D: "detour" }
+  answer: "A"
+  explanation_vi: "\"our concierge will gladly assist you\" = nhân viên hỗ trợ khách. *vacancy/rate/detour* sai nghĩa."
+
+- id: "exercise-10-p6-14"
+  part: 6
+  topic: "travel"
+  lesson: ["lesson-10"]
+  level: null
+  passage_group: "p6-11-14"
+  passage: |
+    **HOTEL BOOKING CONFIRMATION — Bayview Halston**
+    Thank you for choosing Bayview Halston. On arrival, please visit the **(11)______** to check in; a staff member will have your key ready. All of our rooms include a **(12)______** breakfast and access to the fitness center. If you need restaurant tips or a taxi, our **(13)______** will gladly assist you at any hour. Please note that **(14)______** is at 11 a.m.; late departures may incur a fee.
+  related_word: null
+  options: { A: "commute", B: "fuel", C: "check-out", D: "roadwork" }
+  answer: "C"
+  explanation_vi: "\"check-out is at 11 a.m.; late departures may incur a fee\" = giờ trả phòng. *commute/fuel/roadwork* sai nghĩa."
+
+- id: "exercise-10-p6-15"
+  part: 6
+  topic: "travel"
+  lesson: ["lesson-10"]
+  level: 750
+  passage_group: "p6-15-16"
+  passage: |
+    **NOTICE — Halston Car Rental**
+    Please return the vehicle with a full fuel tank to avoid extra charges. Drivers should note that the daily **(15)______** into the city center is very heavy, so allow plenty of time. This week, also expect delays on Route 9 because of **(16)______**; a signed detour is in place.
+  related_word: "commute"
+  options: { A: "vacancy", B: "suite", C: "rate", D: "commute" }
+  answer: "D"
+  explanation_vi: "\"the daily commute into the city center is very heavy\" = việc đi lại hằng ngày. *vacancy/suite/rate* sai nghĩa."
+
+- id: "exercise-10-p6-16"
+  part: 6
+  topic: "travel"
+  lesson: ["lesson-10"]
+  level: 900
+  passage_group: "p6-15-16"
+  passage: |
+    **NOTICE — Halston Car Rental**
+    Please return the vehicle with a full fuel tank to avoid extra charges. Drivers should note that the daily **(15)______** into the city center is very heavy, so allow plenty of time. This week, also expect delays on Route 9 because of **(16)______**; a signed detour is in place.
+  related_word: "roadwork"
+  options: { A: "amenities", B: "roadwork", C: "concierge", D: "fare" }
+  answer: "B"
+  explanation_vi: "\"delays on Route 9 because of roadwork\" = công trình sửa đường. *amenities/concierge/fare* sai nghĩa."
+
+- id: "exercise-10-p7-17"
+  part: 7
+  topic: "travel"
+  lesson: ["lesson-10"]
+  level: null
+  passage_group: "p7-17-19"
+  passage: |
+    **Aster Travel Log — Day 1 (evening)**
+    After the long flight, the team checked into the Bayview hotel, where Diane took a suite big enough to receive guests. Ben had booked early — a wise move, since the hotel was fully booked by nightfall. The real challenge came next: driving a rental car to the Brightway dinner. Halston's rush-hour traffic was brutal, and roadwork on the main avenue forced a long detour through crowded side streets. The team reached the restaurant with only minutes to spare.
+  related_word: null
+  question: "Why was booking early a wise move?"
+  options: { A: "The rooms were cheaper", B: "The suite was upgraded", C: "The hotel was fully booked by nightfall", D: "Breakfast was free" }
+  answer: "C"
+  explanation_vi: "đặt phòng sớm là khôn ngoan vì **khách sạn kín phòng lúc chập tối** (\"the hotel was fully booked by nightfall\"). (A)/(B)/(D) không được nêu là lý do."
+
+- id: "exercise-10-p7-18"
+  part: 7
+  topic: "travel"
+  lesson: ["lesson-10"]
+  level: null
+  passage_group: "p7-17-19"
+  passage: |
+    **Aster Travel Log — Day 1 (evening)**
+    After the long flight, the team checked into the Bayview hotel, where Diane took a suite big enough to receive guests. Ben had booked early — a wise move, since the hotel was fully booked by nightfall. The real challenge came next: driving a rental car to the Brightway dinner. Halston's rush-hour traffic was brutal, and roadwork on the main avenue forced a long detour through crowded side streets. The team reached the restaurant with only minutes to spare.
+  related_word: null
+  question: "What forced the team to take a detour?"
+  options: { A: "Roadwork on the main avenue", B: "A car breakdown", C: "A wrong address", D: "A hotel closure" }
+  answer: "A"
+  explanation_vi: "**công trình sửa đường trên đại lộ chính** buộc phải đi vòng (\"roadwork on the main avenue forced a long detour\"). (B)/(C)/(D) không đúng."
+
+- id: "exercise-10-p7-19"
+  part: 7
+  topic: "travel"
+  lesson: ["lesson-10"]
+  level: null
+  passage_group: "p7-17-19"
+  passage: |
+    **Aster Travel Log — Day 1 (evening)**
+    After the long flight, the team checked into the Bayview hotel, where Diane took a suite big enough to receive guests. Ben had booked early — a wise move, since the hotel was fully booked by nightfall. The real challenge came next: driving a rental car to the Brightway dinner. Halston's rush-hour traffic was brutal, and roadwork on the main avenue forced a long detour through crowded side streets. The team reached the restaurant with only minutes to spare.
+  related_word: null
+  question: "The word \"brutal\" in the log is closest in meaning to"
+  options: { A: "pleasant", B: "inexpensive", C: "short", D: "very harsh" }
+  answer: "D"
+  explanation_vi: "\"brutal\" (traffic) = rất khắc nghiệt/dữ dội. *pleasant/inexpensive/short* trái nghĩa."
+
+- id: "exercise-10-p7-20"
+  part: 7
+  topic: "travel"
+  lesson: ["lesson-10"]
+  level: null
+  passage_group: "p7-20-22"
+  passage: |
+    **Halston Visitor Guide — Getting Around**
+    Halston is famous for its energy — and its traffic. Locals face one of the longest daily commutes in the region, and congestion downtown can be severe from 8 to 10 a.m. and again in the early evening. Visitors are advised to use the city's fast train and ferry network rather than rent a car for short trips. If you must drive, check for roadwork before you set out, and always keep an eye on your fuel, as stations are scarce in the center.
+  related_word: null
+  question: "What does the guide advise visitors to do?"
+  options: { A: "Rent a car for every trip", B: "Use the train and ferry for short trips", C: "Avoid the city entirely", D: "Travel only at 9 a.m." }
+  answer: "B"
+  explanation_vi: "hướng dẫn khuyên **dùng tàu & phà cho chặng ngắn** thay vì thuê xe (\"use the city's fast train and ferry network rather than rent a car for short trips\"). (A) trái ý; (C)/(D) không nêu."
+
+- id: "exercise-10-p7-21"
+  part: 7
+  topic: "travel"
+  lesson: ["lesson-10"]
+  level: null
+  passage_group: "p7-20-22"
+  passage: |
+    **Halston Visitor Guide — Getting Around**
+    Halston is famous for its energy — and its traffic. Locals face one of the longest daily commutes in the region, and congestion downtown can be severe from 8 to 10 a.m. and again in the early evening. Visitors are advised to use the city's fast train and ferry network rather than rent a car for short trips. If you must drive, check for roadwork before you set out, and always keep an eye on your fuel, as stations are scarce in the center.
+  related_word: null
+  question: "According to the guide, when is downtown congestion severe?"
+  options: { A: "Only late at night", B: "All day long", C: "In the morning and early evening", D: "On weekends only" }
+  answer: "C"
+  explanation_vi: "tắc nghẽn nặng **buổi sáng (8–10h) và đầu buổi tối** (\"from 8 to 10 a.m. and again in the early evening\"). (A)/(B)/(D) sai."
+
+- id: "exercise-10-p7-22"
+  part: 7
+  topic: "travel"
+  lesson: ["lesson-10"]
+  level: null
+  passage_group: "p7-20-22"
+  passage: |
+    **Halston Visitor Guide — Getting Around**
+    Halston is famous for its energy — and its traffic. Locals face one of the longest daily commutes in the region, and congestion downtown can be severe from 8 to 10 a.m. and again in the early evening. Visitors are advised to use the city's fast train and ferry network rather than rent a car for short trips. If you must drive, check for roadwork before you set out, and always keep an eye on your fuel, as stations are scarce in the center.
+  related_word: null
+  question: "The word \"scarce\" in the guide is closest in meaning to"
+  options: { A: "very cheap", B: "easy to find", C: "brand new", D: "hard to find" }
+  answer: "D"
+  explanation_vi: "\"scarce\" = khan hiếm, khó tìm (trạm xăng ở trung tâm). *cheap/easy to find/brand new* sai nghĩa."

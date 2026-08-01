@@ -1,0 +1,331 @@
+# EXERCISE 09 — TRAVEL: Vé & Lịch trình
+# Nguồn: exercises/exercise-09.md (lesson-09)
+# 25 câu: Part 5 (1-12), Part 6 (13-19), Part 7 (20-25)
+
+- id: "exercise-09-p5-01"
+  part: 5
+  topic: "travel"
+  lesson: ["lesson-09"]
+  level: 750
+  related_word: "itinerary"
+  question: "Ben spent the whole night preparing a detailed ______ for the three-day trip."
+  options: { A: "fare", B: "itinerary", C: "gate", D: "shuttle" }
+  answer: "B"
+  explanation_vi: "\"a detailed itinerary\" = lịch trình chi tiết. *fare/gate/shuttle* sai nghĩa."
+
+- id: "exercise-09-p5-02"
+  part: 5
+  topic: "travel"
+  lesson: ["lesson-09"]
+  level: 600
+  related_word: "reservation"
+  question: "You should confirm your flight ______ at least a week before you travel."
+  options: { A: "terminal", B: "aisle", C: "delay", D: "reservation" }
+  answer: "D"
+  explanation_vi: "\"confirm your flight reservation\" = xác nhận đặt chỗ. *terminal/aisle/delay* sai nghĩa."
+
+- id: "exercise-09-p5-03"
+  part: 5
+  topic: "travel"
+  lesson: ["lesson-09"]
+  level: 600
+  related_word: "fare"
+  question: "The airline raised the ______ for economy seats during the busy holiday season."
+  options: { A: "fare", B: "schedule", C: "gate", D: "customs" }
+  answer: "A"
+  explanation_vi: "\"raised the fare for economy seats\" = tăng tiền vé. *schedule/gate/customs* sai nghĩa. ⚠️ fare (tiền vé) ≠ fee/fair."
+
+- id: "exercise-09-p5-04"
+  part: 5
+  topic: "travel"
+  lesson: ["lesson-09"]
+  level: 600
+  related_word: "schedule"
+  question: "The express train runs exactly on ______, arriving at the same minute every day."
+  options: { A: "fare", B: "delay", C: "schedule", D: "aisle" }
+  answer: "C"
+  explanation_vi: "\"runs exactly on schedule\" = chạy đúng giờ (đúng lịch). *fare/delay/aisle* sai nghĩa."
+
+- id: "exercise-09-p5-05"
+  part: 5
+  topic: "travel"
+  lesson: ["lesson-09"]
+  level: 600
+  related_word: "delay"
+  question: "A three-hour ______ at the first airport nearly caused them to miss their connection."
+  options: { A: "reservation", B: "terminal", C: "itinerary", D: "delay" }
+  answer: "D"
+  explanation_vi: "\"a three-hour delay… miss their connection\" = sự trì hoãn. *reservation/terminal/itinerary* sai nghĩa."
+
+- id: "exercise-09-p5-06"
+  part: 5
+  topic: "travel"
+  lesson: ["lesson-09"]
+  level: 750
+  related_word: "cancellation"
+  question: "Because of the storm, the airline announced the ______ of several evening flights."
+  options: { A: "departure", B: "cancellation", C: "shuttle", D: "fare" }
+  answer: "B"
+  explanation_vi: "\"the cancellation of several flights\" = việc hủy chuyến. *departure/shuttle/fare* sai nghĩa."
+
+- id: "exercise-09-p5-07"
+  part: 5
+  topic: "travel"
+  lesson: ["lesson-09"]
+  level: 600
+  related_word: "board"
+  question: "Passengers were asked to ______ the plane thirty minutes before takeoff."
+  options: { A: "expire", B: "delay", C: "board", D: "confirm" }
+  answer: "C"
+  explanation_vi: "\"board the plane before takeoff\" = lên máy bay. *expire/delay/confirm* sai nghĩa."
+
+- id: "exercise-09-p5-08"
+  part: 5
+  topic: "travel"
+  lesson: ["lesson-09"]
+  level: 600
+  related_word: "gate"
+  question: "After clearing security, they hurried to ______ 12 to wait for their flight."
+  options: { A: "gate", B: "platform", C: "aisle", D: "fare" }
+  answer: "A"
+  explanation_vi: "\"hurried to gate 12… for their flight\" = cửa ra máy bay. *platform* (sân ga tàu) là bẫy vì câu nói \"flight\"; *aisle/fare* sai nghĩa."
+
+- id: "exercise-09-p5-09"
+  part: 5
+  topic: "travel"
+  lesson: ["lesson-09"]
+  level: 750
+  related_word: "aisle"
+  question: "She prefers an ______ seat so that she can stand up and stretch during long flights."
+  options: { A: "overhead", B: "carry-on", C: "departure", D: "aisle" }
+  answer: "D"
+  explanation_vi: "\"an aisle seat… stand up and stretch\" = ghế cạnh lối đi. *overhead/carry-on/departure* sai nghĩa."
+
+- id: "exercise-09-p5-10"
+  part: 5
+  topic: "travel"
+  lesson: ["lesson-09"]
+  level: 750
+  related_word: "customs"
+  question: "On arrival in Halston, all passengers had to pass through ______ before collecting their bags."
+  options: { A: "terminal", B: "customs", C: "platform", D: "fare" }
+  answer: "B"
+  explanation_vi: "\"pass through customs before collecting bags\" = hải quan. *terminal/platform/fare* sai nghĩa."
+
+- id: "exercise-09-p5-11"
+  part: 5
+  topic: "travel"
+  lesson: ["lesson-09"]
+  level: 600
+  related_word: "valid"
+  question: "Make sure your passport is still ______ for at least six months before you travel."
+  options: { A: "valid", B: "expired", C: "feasible", D: "durable" }
+  answer: "A"
+  explanation_vi: "\"passport is still valid for six months\" = còn hiệu lực. *expired* trái nghĩa; *feasible/durable* sai nghĩa. ⚠️ valid ↔ expire."
+
+- id: "exercise-09-p5-12"
+  part: 5
+  topic: "travel"
+  lesson: ["lesson-09"]
+  level: 750
+  related_word: "shuttle"
+  question: "A free airport ______ takes hotel guests from the terminal to the lobby every twenty minutes."
+  options: { A: "ferry", B: "platform", C: "shuttle", D: "gate" }
+  answer: "C"
+  explanation_vi: "\"a free airport shuttle… from the terminal to the lobby\" = xe đưa đón. *ferry* (phà) là bẫy; *platform/gate* sai nghĩa."
+
+- id: "exercise-09-p6-13"
+  part: 6
+  topic: "travel"
+  lesson: ["lesson-09"]
+  level: null
+  passage_group: "p6-13-16"
+  passage: |
+    **EMAIL — Halston Trip Details**
+    **To:** Diane Whitfield, Daniel Cho **From:** Ben Tran
+
+    Here are the travel details. I've booked us **(13)______** tickets, so we're covered for the return as well. Please arrive at the airport two hours before **(14)______**, as the terminal gets crowded. Note that this is not a direct flight — we have a **(15)______** through Central City, so keep your boarding passes handy. Each of us is allowed one **(16)______** bag plus a small personal item.
+  related_word: null
+  options: { A: "one-way", B: "valid", C: "delayed", D: "round-trip" }
+  answer: "D"
+  explanation_vi: "\"round-trip tickets… covered for the return\" = vé khứ hồi. *one-way* (một chiều) trái nghĩa; *valid/delayed* sai loại."
+
+- id: "exercise-09-p6-14"
+  part: 6
+  topic: "travel"
+  lesson: ["lesson-09"]
+  level: 600
+  passage_group: "p6-13-16"
+  passage: |
+    **EMAIL — Halston Trip Details**
+    **To:** Diane Whitfield, Daniel Cho **From:** Ben Tran
+
+    Here are the travel details. I've booked us **(13)______** tickets, so we're covered for the return as well. Please arrive at the airport two hours before **(14)______**, as the terminal gets crowded. Note that this is not a direct flight — we have a **(15)______** through Central City, so keep your boarding passes handy. Each of us is allowed one **(16)______** bag plus a small personal item.
+  related_word: "departure"
+  options: { A: "departure", B: "baggage claim", C: "customs", D: "cancellation" }
+  answer: "A"
+  explanation_vi: "\"arrive two hours before departure\" = trước giờ khởi hành. *baggage claim/customs/cancellation* sai nghĩa."
+
+- id: "exercise-09-p6-15"
+  part: 6
+  topic: "travel"
+  lesson: ["lesson-09"]
+  level: 750
+  passage_group: "p6-13-16"
+  passage: |
+    **EMAIL — Halston Trip Details**
+    **To:** Diane Whitfield, Daniel Cho **From:** Ben Tran
+
+    Here are the travel details. I've booked us **(13)______** tickets, so we're covered for the return as well. Please arrive at the airport two hours before **(14)______**, as the terminal gets crowded. Note that this is not a direct flight — we have a **(15)______** through Central City, so keep your boarding passes handy. Each of us is allowed one **(16)______** bag plus a small personal item.
+  related_word: "connecting flight"
+  options: { A: "reservation", B: "shuttle", C: "connecting flight", D: "itinerary" }
+  answer: "C"
+  explanation_vi: "\"not a direct flight — a connecting flight\" = chuyến bay nối. *reservation/shuttle/itinerary* sai nghĩa."
+
+- id: "exercise-09-p6-16"
+  part: 6
+  topic: "travel"
+  lesson: ["lesson-09"]
+  level: 750
+  passage_group: "p6-13-16"
+  passage: |
+    **EMAIL — Halston Trip Details**
+    **To:** Diane Whitfield, Daniel Cho **From:** Ben Tran
+
+    Here are the travel details. I've booked us **(13)______** tickets, so we're covered for the return as well. Please arrive at the airport two hours before **(14)______**, as the terminal gets crowded. Note that this is not a direct flight — we have a **(15)______** through Central City, so keep your boarding passes handy. Each of us is allowed one **(16)______** bag plus a small personal item.
+  related_word: "carry-on"
+  options: { A: "aisle", B: "carry-on", C: "gate", D: "fare" }
+  answer: "B"
+  explanation_vi: "\"one carry-on bag plus a personal item\" = hành lý xách tay. *aisle/gate/fare* sai nghĩa."
+
+- id: "exercise-09-p6-17"
+  part: 6
+  topic: "travel"
+  lesson: ["lesson-09"]
+  level: 900
+  passage_group: "p6-17-19"
+  passage: |
+    **AIRPORT ANNOUNCEMENT**
+    Attention passengers on Flight AH204 to Halston. Because of weather at your first stop, there will be a longer **(17)______** than scheduled; your connection time has been extended to three hours. Travelers whose passports **(18)______** within three months should visit the service desk. Upon arrival, please proceed directly to **(19)______** to collect your checked luggage.
+  related_word: "layover"
+  options: { A: "fare", B: "gate", C: "reservation", D: "layover" }
+  answer: "D"
+  explanation_vi: "\"a longer layover than scheduled; connection time extended\" = điểm dừng nối chuyến. *fare/gate/reservation* sai nghĩa."
+
+- id: "exercise-09-p6-18"
+  part: 6
+  topic: "travel"
+  lesson: ["lesson-09"]
+  level: 750
+  passage_group: "p6-17-19"
+  passage: |
+    **AIRPORT ANNOUNCEMENT**
+    Attention passengers on Flight AH204 to Halston. Because of weather at your first stop, there will be a longer **(17)______** than scheduled; your connection time has been extended to three hours. Travelers whose passports **(18)______** within three months should visit the service desk. Upon arrival, please proceed directly to **(19)______** to collect your checked luggage.
+  related_word: "expire"
+  options: { A: "board", B: "confirm", C: "expire", D: "depart" }
+  answer: "C"
+  explanation_vi: "\"passports expire within three months\" = hết hạn. *board/confirm/depart* sai nghĩa."
+
+- id: "exercise-09-p6-19"
+  part: 6
+  topic: "travel"
+  lesson: ["lesson-09"]
+  level: 600
+  passage_group: "p6-17-19"
+  passage: |
+    **AIRPORT ANNOUNCEMENT**
+    Attention passengers on Flight AH204 to Halston. Because of weather at your first stop, there will be a longer **(17)______** than scheduled; your connection time has been extended to three hours. Travelers whose passports **(18)______** within three months should visit the service desk. Upon arrival, please proceed directly to **(19)______** to collect your checked luggage.
+  related_word: "baggage claim"
+  options: { A: "baggage claim", B: "customs", C: "terminal", D: "platform" }
+  answer: "A"
+  explanation_vi: "\"proceed to baggage claim to collect luggage\" = khu nhận hành lý. *customs* (hải quan) là bẫy; *terminal/platform* sai nghĩa."
+
+- id: "exercise-09-p7-20"
+  part: 7
+  topic: "travel"
+  lesson: ["lesson-09"]
+  level: null
+  passage_group: "p7-20-22"
+  passage: |
+    **Aster Travel Log — Day 1**
+    The team's first trip to Halston did not begin smoothly. A ninety-minute delay at Marlowe airport put their connecting flight at risk, and Ben spent the layover on the phone rebooking their seats. There was even a tense moment at check-in, when a staff member noticed that Ben's passport would expire in just four months — though it was still valid for entry to Halston. In the end, the group made their connection with minutes to spare and landed in Halston late that night, tired but relieved.
+  related_word: null
+  question: "What nearly caused the team to miss their connecting flight?"
+  options: { A: "A lost passport", B: "A ninety-minute delay", C: "A cancelled hotel reservation", D: "A missing boarding pass" }
+  answer: "B"
+  explanation_vi: "chính **sự trì hoãn 90 phút** khiến suýt lỡ chuyến nối (\"a ninety-minute delay… put their connecting flight at risk\"). (A)/(C)/(D) không đúng."
+
+- id: "exercise-09-p7-21"
+  part: 7
+  topic: "travel"
+  lesson: ["lesson-09"]
+  level: null
+  passage_group: "p7-20-22"
+  passage: |
+    **Aster Travel Log — Day 1**
+    The team's first trip to Halston did not begin smoothly. A ninety-minute delay at Marlowe airport put their connecting flight at risk, and Ben spent the layover on the phone rebooking their seats. There was even a tense moment at check-in, when a staff member noticed that Ben's passport would expire in just four months — though it was still valid for entry to Halston. In the end, the group made their connection with minutes to spare and landed in Halston late that night, tired but relieved.
+  related_word: null
+  question: "What was the problem with Ben's passport?"
+  options: { A: "It had already expired", B: "It was the wrong type", C: "It would expire in four months", D: "It had been lost" }
+  answer: "C"
+  explanation_vi: "hộ chiếu Ben **sẽ hết hạn sau bốn tháng** (\"would expire in just four months\") — chưa hết hạn hẳn. (A) sai (chưa expired); (B)/(D) không nêu."
+
+- id: "exercise-09-p7-22"
+  part: 7
+  topic: "travel"
+  lesson: ["lesson-09"]
+  level: null
+  passage_group: "p7-20-22"
+  passage: |
+    **Aster Travel Log — Day 1**
+    The team's first trip to Halston did not begin smoothly. A ninety-minute delay at Marlowe airport put their connecting flight at risk, and Ben spent the layover on the phone rebooking their seats. There was even a tense moment at check-in, when a staff member noticed that Ben's passport would expire in just four months — though it was still valid for entry to Halston. In the end, the group made their connection with minutes to spare and landed in Halston late that night, tired but relieved.
+  related_word: null
+  question: "The word \"relieved\" in the log is closest in meaning to"
+  options: { A: "glad the trouble was over", B: "extremely angry", C: "still very worried", D: "completely exhausted" }
+  answer: "A"
+  explanation_vi: "\"relieved\" = nhẹ nhõm vì rắc rối đã qua. *angry/worried/exhausted* sai nghĩa (dù họ cũng \"tired\", nhưng relieved ≠ exhausted)."
+
+- id: "exercise-09-p7-23"
+  part: 7
+  topic: "travel"
+  lesson: ["lesson-09"]
+  level: null
+  passage_group: "p7-23-25"
+  passage: |
+    **Notebook — Daniel Cho**
+    Halston hits you the moment you arrive. From the airport we took the express train into the center — a smooth ride from a spotless platform — while Ben eyed the ferries crossing the bay and wondered aloud whether we should have taken one. The city is enormous: glass towers, endless traffic, and a level of wealth that makes our target market obvious. But it is also unfamiliar and demanding. This is both our biggest opportunity and our hardest test. If Aria can win here, it can win anywhere.
+  related_word: null
+  question: "How did the team travel from the airport into the city center?"
+  options: { A: "By ferry", B: "By airport shuttle", C: "By rental car", D: "By express train" }
+  answer: "D"
+  explanation_vi: "\"we took the express train into the center\". (A) ferry chỉ được Ben ngó thấy; (B)/(C) không được dùng."
+
+- id: "exercise-09-p7-24"
+  part: 7
+  topic: "travel"
+  lesson: ["lesson-09"]
+  level: null
+  passage_group: "p7-23-25"
+  passage: |
+    **Notebook — Daniel Cho**
+    Halston hits you the moment you arrive. From the airport we took the express train into the center — a smooth ride from a spotless platform — while Ben eyed the ferries crossing the bay and wondered aloud whether we should have taken one. The city is enormous: glass towers, endless traffic, and a level of wealth that makes our target market obvious. But it is also unfamiliar and demanding. This is both our biggest opportunity and our hardest test. If Aria can win here, it can win anywhere.
+  related_word: null
+  question: "How does Daniel describe Halston?"
+  options: { A: "Small and quiet", B: "Both a big opportunity and a hard test", C: "Cheap and easy to enter", D: "A disappointing market" }
+  answer: "B"
+  explanation_vi: "Daniel mô tả Halston vừa là **cơ hội lớn nhất vừa là thử thách khó nhất** (\"both our biggest opportunity and our hardest test\"). (A)/(C)/(D) trái bài."
+
+- id: "exercise-09-p7-25"
+  part: 7
+  topic: "travel"
+  lesson: ["lesson-09"]
+  level: null
+  passage_group: "p7-23-25"
+  passage: |
+    **Notebook — Daniel Cho**
+    Halston hits you the moment you arrive. From the airport we took the express train into the center — a smooth ride from a spotless platform — while Ben eyed the ferries crossing the bay and wondered aloud whether we should have taken one. The city is enormous: glass towers, endless traffic, and a level of wealth that makes our target market obvious. But it is also unfamiliar and demanding. This is both our biggest opportunity and our hardest test. If Aria can win here, it can win anywhere.
+  related_word: null
+  question: "The word \"demanding\" in the notebook is closest in meaning to"
+  options: { A: "very cheap", B: "easy to please", C: "requiring a lot of effort", D: "far away" }
+  answer: "C"
+  explanation_vi: "\"demanding\" = đòi hỏi nhiều nỗ lực, khắc nghiệt. *cheap/easy to please/far away* sai nghĩa."

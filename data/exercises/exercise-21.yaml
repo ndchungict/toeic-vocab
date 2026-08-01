@@ -1,0 +1,337 @@
+# EXERCISE 21 — TECHNICAL AREAS: Phần mềm · Hệ thống · IT
+# Nguồn: exercises/exercise-21.md (lesson-21)
+# 26 câu: Part 5 (1-12), Part 6 (13-20), Part 7 (21-26)
+
+- id: "exercise-21-p5-01"
+  part: 5
+  topic: "technical-areas"
+  lesson: ["lesson-21"]
+  level: 600
+  related_word: "device"
+  question: "Aria is a smart-home ______ that depends heavily on its software."
+  options: { A: "glitch", B: "device", C: "server", D: "interface" }
+  answer: "B"
+  explanation_vi: "\"a smart-home device… depends on its software\" = thiết bị. *glitch/server/interface* sai nghĩa."
+
+- id: "exercise-21-p5-02"
+  part: 5
+  topic: "technical-areas"
+  lesson: ["lesson-21"]
+  level: 600
+  related_word: "install"
+  question: "The team had to ______ the operating system on every prototype unit."
+  options: { A: "restore", B: "upgrade", C: "troubleshoot", D: "install" }
+  answer: "D"
+  explanation_vi: "\"install the operating system on every unit\" = cài đặt. *restore/upgrade/troubleshoot* sai nghĩa."
+
+- id: "exercise-21-p5-03"
+  part: 5
+  topic: "technical-areas"
+  lesson: ["lesson-21"]
+  level: 750
+  related_word: "configure"
+  question: "Engineers had to ______ the settings to match Halston's network."
+  options: { A: "configure", B: "crash", C: "back up", D: "install" }
+  answer: "A"
+  explanation_vi: "\"configure the settings to match the network\" = cấu hình. *crash/back up/install* sai nghĩa."
+
+- id: "exercise-21-p5-04"
+  part: 5
+  topic: "technical-areas"
+  lesson: ["lesson-21"]
+  level: 600
+  related_word: "upgrade"
+  question: "They also had to ______ the firmware to the latest version."
+  options: { A: "restore", B: "troubleshoot", C: "upgrade", D: "configure" }
+  answer: "C"
+  explanation_vi: "\"upgrade the firmware to the latest version\" = nâng cấp. *restore/troubleshoot/configure* sai nghĩa."
+
+- id: "exercise-21-p5-05"
+  part: 5
+  topic: "technical-areas"
+  lesson: ["lesson-21"]
+  level: 750
+  related_word: "server"
+  question: "When the ______ went down, none of the devices could connect."
+  options: { A: "interface", B: "server", C: "glitch", D: "manual" }
+  answer: "B"
+  explanation_vi: "\"when the server went down, no device could connect\" = máy chủ. *interface/glitch/manual* sai nghĩa."
+
+- id: "exercise-21-p5-06"
+  part: 5
+  topic: "technical-areas"
+  lesson: ["lesson-21"]
+  level: 600
+  related_word: "back up"
+  question: "John told Ben to always ______ the data before making any change."
+  options: { A: "crash", B: "configure", C: "install", D: "back up" }
+  answer: "D"
+  explanation_vi: "\"always back up the data before any change\" = sao lưu. *crash/configure/install* sai nghĩa."
+
+- id: "exercise-21-p5-07"
+  part: 5
+  topic: "technical-areas"
+  lesson: ["lesson-21"]
+  level: 750
+  related_word: "restore"
+  question: "If an update failed, they could ______ the data from the last backup."
+  options: { A: "restore", B: "upgrade", C: "troubleshoot", D: "install" }
+  answer: "A"
+  explanation_vi: "\"restore the data from the last backup\" = khôi phục. *upgrade/troubleshoot/install* sai nghĩa."
+
+- id: "exercise-21-p5-08"
+  part: 5
+  topic: "technical-areas"
+  lesson: ["lesson-21"]
+  level: 900
+  related_word: "troubleshoot"
+  question: "The early build was buggy, so the team spent days trying to ______ it."
+  options: { A: "configure", B: "install", C: "troubleshoot", D: "back up" }
+  answer: "C"
+  explanation_vi: "\"buggy build… trying to troubleshoot it\" = khắc phục sự cố. *configure/install/back up* sai nghĩa."
+
+- id: "exercise-21-p5-09"
+  part: 5
+  topic: "technical-areas"
+  lesson: ["lesson-21"]
+  level: 900
+  related_word: "glitch"
+  question: "A minor ______ caused the status light to blink at the wrong time."
+  options: { A: "server", B: "glitch", C: "network", D: "interface" }
+  answer: "B"
+  explanation_vi: "\"a minor glitch… light blink at the wrong time\" = lỗi kỹ thuật nhỏ. *server/network/interface* sai nghĩa."
+
+- id: "exercise-21-p5-10"
+  part: 5
+  topic: "technical-areas"
+  lesson: ["lesson-21"]
+  level: 750
+  related_word: "crash"
+  question: "For no clear reason, the control app would occasionally ______."
+  options: { A: "install", B: "configure", C: "upgrade", D: "crash" }
+  answer: "D"
+  explanation_vi: "\"the control app would occasionally crash\" = treo/sập. *install/configure/upgrade* sai nghĩa."
+
+- id: "exercise-21-p5-11"
+  part: 5
+  topic: "technical-areas"
+  lesson: ["lesson-21"]
+  level: 750
+  related_word: "compatible"
+  question: "The software was not ______ with some routers common in Halston."
+  options: { A: "compatible", B: "portable", C: "durable", D: "obsolete" }
+  answer: "A"
+  explanation_vi: "\"not compatible with some routers\" = tương thích. ⚠️ đi với *with*. *portable/durable/obsolete* sai nghĩa."
+
+- id: "exercise-21-p5-12"
+  part: 5
+  topic: "technical-areas"
+  lesson: ["lesson-21"]
+  level: 750
+  related_word: "interface"
+  question: "He redesigned the ______ to make the app easier to use."
+  options: { A: "database", B: "server", C: "interface", D: "glitch" }
+  answer: "C"
+  explanation_vi: "\"redesigned the interface to make the app easier to use\" = giao diện. *database/server/glitch* sai nghĩa."
+
+- id: "exercise-21-p6-13"
+  part: 6
+  topic: "technical-areas"
+  lesson: ["lesson-21"]
+  level: 750
+  passage_group: "p6-13-16"
+  passage: |
+    **MEMO — Halston Systems Setup**
+    Before launch, the IT team must finish the operational systems. Set up the customer **(13)______** and connect every store to the company **(14)______**. Test the app's core **(15)______** on real devices, and always **(16)______** the data before applying any change.
+  related_word: "database"
+  options: { A: "interface", B: "glitch", C: "database", D: "manual" }
+  answer: "C"
+  explanation_vi: "\"set up the customer database\" = cơ sở dữ liệu. *interface/glitch/manual* sai nghĩa."
+
+- id: "exercise-21-p6-14"
+  part: 6
+  topic: "technical-areas"
+  lesson: ["lesson-21"]
+  level: 600
+  passage_group: "p6-13-16"
+  passage: |
+    **MEMO — Halston Systems Setup**
+    Before launch, the IT team must finish the operational systems. Set up the customer **(13)______** and connect every store to the company **(14)______**. Test the app's core **(15)______** on real devices, and always **(16)______** the data before applying any change.
+  related_word: "network"
+  options: { A: "network", B: "technician", C: "server", D: "glitch" }
+  answer: "A"
+  explanation_vi: "\"connect every store to the company network\" = mạng. *technician/server/glitch* sai nghĩa."
+
+- id: "exercise-21-p6-15"
+  part: 6
+  topic: "technical-areas"
+  lesson: ["lesson-21"]
+  level: 900
+  passage_group: "p6-13-16"
+  passage: |
+    **MEMO — Halston Systems Setup**
+    Before launch, the IT team must finish the operational systems. Set up the customer **(13)______** and connect every store to the company **(14)______**. Test the app's core **(15)______** on real devices, and always **(16)______** the data before applying any change.
+  related_word: "functionality"
+  options: { A: "hardware", B: "voltage", C: "interface", D: "functionality" }
+  answer: "D"
+  explanation_vi: "\"test the app's core functionality on real devices\" = chức năng. *hardware/voltage/interface* sai nghĩa."
+
+- id: "exercise-21-p6-16"
+  part: 6
+  topic: "technical-areas"
+  lesson: ["lesson-21"]
+  level: 600
+  passage_group: "p6-13-16"
+  passage: |
+    **MEMO — Halston Systems Setup**
+    Before launch, the IT team must finish the operational systems. Set up the customer **(13)______** and connect every store to the company **(14)______**. Test the app's core **(15)______** on real devices, and always **(16)______** the data before applying any change.
+  related_word: "back up"
+  options: { A: "crash", B: "back up", C: "install", D: "upgrade" }
+  answer: "B"
+  explanation_vi: "\"always back up the data before any change\" = sao lưu. *crash/install/upgrade* sai nghĩa."
+
+- id: "exercise-21-p6-17"
+  part: 6
+  topic: "technical-areas"
+  lesson: ["lesson-21"]
+  level: 600
+  passage_group: "p6-17-20"
+  passage: |
+    **NOTICE — Aria Support**
+    If your Aria stops responding, first make sure the app **(17)______** is up to date. Aria is **(18)______** with most home routers, but a few older models are not supported. If problems continue, contact our **(19)______**, where a trained **(20)______** can walk you through the fix.
+  related_word: "software"
+  options: { A: "voltage", B: "software", C: "network", D: "glitch" }
+  answer: "B"
+  explanation_vi: "\"make sure the app software is up to date\" = phần mềm. *voltage/network/glitch* sai nghĩa."
+
+- id: "exercise-21-p6-18"
+  part: 6
+  topic: "technical-areas"
+  lesson: ["lesson-21"]
+  level: 750
+  passage_group: "p6-17-20"
+  passage: |
+    **NOTICE — Aria Support**
+    If your Aria stops responding, first make sure the app **(17)______** is up to date. Aria is **(18)______** with most home routers, but a few older models are not supported. If problems continue, contact our **(19)______**, where a trained **(20)______** can walk you through the fix.
+  related_word: "compatible"
+  options: { A: "portable", B: "obsolete", C: "durable", D: "compatible" }
+  answer: "D"
+  explanation_vi: "\"Aria is compatible with most home routers\" = tương thích. *portable/obsolete/durable* sai nghĩa."
+
+- id: "exercise-21-p6-19"
+  part: 6
+  topic: "technical-areas"
+  lesson: ["lesson-21"]
+  level: 750
+  passage_group: "p6-17-20"
+  passage: |
+    **NOTICE — Aria Support**
+    If your Aria stops responding, first make sure the app **(17)______** is up to date. Aria is **(18)______** with most home routers, but a few older models are not supported. If problems continue, contact our **(19)______**, where a trained **(20)______** can walk you through the fix.
+  related_word: "help desk"
+  options: { A: "help desk", B: "database", C: "server", D: "interface" }
+  answer: "A"
+  explanation_vi: "\"contact our help desk\" = bộ phận hỗ trợ kỹ thuật. *database/server/interface* sai nghĩa."
+
+- id: "exercise-21-p6-20"
+  part: 6
+  topic: "technical-areas"
+  lesson: ["lesson-21"]
+  level: 600
+  passage_group: "p6-17-20"
+  passage: |
+    **NOTICE — Aria Support**
+    If your Aria stops responding, first make sure the app **(17)______** is up to date. Aria is **(18)______** with most home routers, but a few older models are not supported. If problems continue, contact our **(19)______**, where a trained **(20)______** can walk you through the fix.
+  related_word: "technician"
+  options: { A: "glitch", B: "database", C: "technician", D: "network" }
+  answer: "C"
+  explanation_vi: "\"a trained technician can walk you through the fix\" = kỹ thuật viên. *glitch/database/network* sai nghĩa."
+
+- id: "exercise-21-p7-21"
+  part: 7
+  topic: "technical-areas"
+  lesson: ["lesson-21"]
+  level: null
+  passage_group: "p7-21-23"
+  passage: |
+    **Aria Program — Systems Readiness**
+    With the hardware fixed, the IT team turned to software. They installed and configured Aria's control app on every unit, upgraded the firmware, and built the database, server, and network systems needed to run Aria in Halston. Early builds were unstable: engineers had to troubleshoot a series of glitches, and the control app occasionally crashed. They also found the software was not compatible with a few common routers. A help desk was set up so that a technician could support customers after launch.
+  related_word: null
+  question: "What did the IT team do after the hardware was fixed?"
+  options: { A: "Redesigned the hardware again", B: "Cancelled the software", C: "Installed and configured Aria's software and built its systems", D: "Outsourced everything" }
+  answer: "C"
+  explanation_vi: "sau khi xong phần cứng, đội IT \"**installed and configured** Aria's software… built the **database, server, and network**\". (A)/(B)/(D) sai/trái."
+
+- id: "exercise-21-p7-22"
+  part: 7
+  topic: "technical-areas"
+  lesson: ["lesson-21"]
+  level: null
+  passage_group: "p7-21-23"
+  passage: |
+    **Aria Program — Systems Readiness**
+    With the hardware fixed, the IT team turned to software. They installed and configured Aria's control app on every unit, upgraded the firmware, and built the database, server, and network systems needed to run Aria in Halston. Early builds were unstable: engineers had to troubleshoot a series of glitches, and the control app occasionally crashed. They also found the software was not compatible with a few common routers. A help desk was set up so that a technician could support customers after launch.
+  related_word: null
+  question: "What problem did engineers find with the software?"
+  options: { A: "It was not compatible with some routers", B: "It had no interface", C: "It was too cheap", D: "The server was sold" }
+  answer: "A"
+  explanation_vi: "phát hiện phần mềm \"was not **compatible** with a few common routers\". (B)/(C)/(D) sai."
+
+- id: "exercise-21-p7-23"
+  part: 7
+  topic: "technical-areas"
+  lesson: ["lesson-21"]
+  level: null
+  passage_group: "p7-21-23"
+  passage: |
+    **Aria Program — Systems Readiness**
+    With the hardware fixed, the IT team turned to software. They installed and configured Aria's control app on every unit, upgraded the firmware, and built the database, server, and network systems needed to run Aria in Halston. Early builds were unstable: engineers had to troubleshoot a series of glitches, and the control app occasionally crashed. They also found the software was not compatible with a few common routers. A help desk was set up so that a technician could support customers after launch.
+  related_word: null
+  question: "Why was a help desk set up?"
+  options: { A: "To design the hardware", B: "To replace the network", C: "To file a patent", D: "So a technician could support customers" }
+  answer: "D"
+  explanation_vi: "lập help desk \"so that a **technician** could **support customers** after launch\". (A)/(B)/(C) sai."
+
+- id: "exercise-21-p7-24"
+  part: 7
+  topic: "technical-areas"
+  lesson: ["lesson-21"]
+  level: null
+  passage_group: "p7-24-26"
+  passage: |
+    **Marlowe Business Journal — Aster Races to Finish Aria's Software**
+    Aster Home Technologies has all but finished the software behind its Aria smart-home line ahead of the Halston launch. Engineers have built the servers, network, and database that will run the service, and set up a help desk for customers. Most early bugs have been fixed. One problem, however, has proved stubborn: the system still crashes briefly and at random, with no error log to explain why. Engineers say a rare, hard-to-reproduce glitch like this is the most worrying kind, and they plan to take the system back to the lab for closer testing.
+  related_word: null
+  question: "What has Aster nearly finished?"
+  options: { A: "A new factory", B: "The software behind Aria", C: "A marketing campaign", D: "A new patent" }
+  answer: "B"
+  explanation_vi: "Aster gần xong \"the **software** behind its Aria line\". (A)/(C)/(D) sai."
+
+- id: "exercise-21-p7-25"
+  part: 7
+  topic: "technical-areas"
+  lesson: ["lesson-21"]
+  level: null
+  passage_group: "p7-24-26"
+  passage: |
+    **Marlowe Business Journal — Aster Races to Finish Aria's Software**
+    Aster Home Technologies has all but finished the software behind its Aria smart-home line ahead of the Halston launch. Engineers have built the servers, network, and database that will run the service, and set up a help desk for customers. Most early bugs have been fixed. One problem, however, has proved stubborn: the system still crashes briefly and at random, with no error log to explain why. Engineers say a rare, hard-to-reproduce glitch like this is the most worrying kind, and they plan to take the system back to the lab for closer testing.
+  related_word: null
+  question: "Which problem has proved stubborn?"
+  options: { A: "The system crashes briefly and at random, with no clear cause", B: "The servers were sold", C: "The help desk closed", D: "The hardware overheats again" }
+  answer: "A"
+  explanation_vi: "vấn đề dai dẳng: \"the system still **crashes briefly and at random**, with no error log\". (B)/(C)/(D) sai."
+
+- id: "exercise-21-p7-26"
+  part: 7
+  topic: "technical-areas"
+  lesson: ["lesson-21"]
+  level: null
+  passage_group: "p7-24-26"
+  passage: |
+    **Marlowe Business Journal — Aster Races to Finish Aria's Software**
+    Aster Home Technologies has all but finished the software behind its Aria smart-home line ahead of the Halston launch. Engineers have built the servers, network, and database that will run the service, and set up a help desk for customers. Most early bugs have been fixed. One problem, however, has proved stubborn: the system still crashes briefly and at random, with no error log to explain why. Engineers say a rare, hard-to-reproduce glitch like this is the most worrying kind, and they plan to take the system back to the lab for closer testing.
+  related_word: null
+  question: "What do engineers plan to do next?"
+  options: { A: "Cancel the launch", B: "Ignore the glitch", C: "Take the system back to the lab for closer testing", D: "Fire the technician" }
+  answer: "C"
+  explanation_vi: "kế tiếp: \"take the system **back to the lab for closer testing**\" → dẫn Ch 22. (A)/(B)/(D) sai."

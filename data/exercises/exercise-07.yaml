@@ -1,0 +1,344 @@
+# EXERCISE 07 — GENERAL BUSINESS: Bảo hành · Lập kế hoạch kinh doanh
+# Nguồn: exercises/exercise-07.md (lesson-07)
+# 25 câu: Part 5 (1-12), Part 6 (13-19), Part 7 (20-25)
+
+- id: "exercise-07-p5-01"
+  part: 5
+  topic: "general-business"
+  lesson: ["lesson-07"]
+  level: 600
+  related_word: "warranty"
+  question: "The refrigerator is still under ______, so Aster will fix it at no cost."
+  options: { A: "coverage", B: "warranty", C: "deadline", D: "benchmark" }
+  answer: "B"
+  explanation_vi: "\"be under warranty\" = còn trong thời hạn bảo hành; hợp với \"fix it at no cost\". *coverage* (phạm vi) không đi với \"under\" kiểu này; *deadline/benchmark* sai nghĩa."
+
+- id: "exercise-07-p5-02"
+  part: 5
+  topic: "general-business"
+  lesson: ["lesson-07"]
+  level: 600
+  related_word: "guarantee"
+  question: "The product comes with a 30-day money-back ______ if customers are not satisfied."
+  options: { A: "priority", B: "projection", C: "guarantee", D: "strategy" }
+  answer: "C"
+  explanation_vi: "\"a money-back guarantee\" = cam kết hoàn tiền. *priority/projection/strategy* sai nghĩa."
+
+- id: "exercise-07-p5-03"
+  part: 5
+  topic: "general-business"
+  lesson: ["lesson-07"]
+  level: 750
+  related_word: "faulty"
+  question: "The technician quickly identified the ______ component and swapped it for a new one."
+  options: { A: "faulty", B: "feasible", C: "strategic", D: "prompt" }
+  answer: "A"
+  explanation_vi: "\"a faulty component\" = linh kiện bị lỗi; hợp với \"swapped it for a new one\". *feasible* (khả thi), *strategic* (thuộc chiến lược), *prompt* (nhanh) sai nghĩa."
+
+- id: "exercise-07-p5-04"
+  part: 5
+  topic: "general-business"
+  lesson: ["lesson-07"]
+  level: 600
+  related_word: "repair"
+  question: "Under the two-year warranty, all ______ are carried out free of charge."
+  options: { A: "objectives", B: "deadlines", C: "projections", D: "repairs" }
+  answer: "D"
+  explanation_vi: "\"repairs are carried out free of charge\" = việc sửa chữa được thực hiện miễn phí. *objectives/deadlines/projections* không \"carried out free\" theo nghĩa bảo hành."
+
+- id: "exercise-07-p5-05"
+  part: 5
+  topic: "general-business"
+  lesson: ["lesson-07"]
+  level: 600
+  related_word: "replace"
+  question: "If the device cannot be fixed, the company will ______ it with a brand-new unit."
+  options: { A: "assess", B: "replace", C: "expire", D: "implement" }
+  answer: "B"
+  explanation_vi: "\"replace it with a brand-new unit\" = thay bằng máy mới. *assess* (đánh giá), *expire* (hết hạn), *implement* (triển khai) sai nghĩa. ⚠️ replace (thay) ≠ repair (sửa)."
+
+- id: "exercise-07-p5-06"
+  part: 5
+  topic: "general-business"
+  lesson: ["lesson-07"]
+  level: 750
+  related_word: "expire"
+  question: "Customers should register their product before the warranty ______ at the end of the second year."
+  options: { A: "implements", B: "assesses", C: "expires", D: "replaces" }
+  answer: "C"
+  explanation_vi: "\"the warranty expires at the end of year two\" = bảo hành hết hạn. *implements/assesses/replaces* sai nghĩa."
+
+- id: "exercise-07-p5-07"
+  part: 5
+  topic: "general-business"
+  lesson: ["lesson-07"]
+  level: 600
+  related_word: "strategy"
+  question: "Before spending a single dollar, the team agreed on a clear marketing ______."
+  options: { A: "strategy", B: "warranty", C: "defect", D: "coverage" }
+  answer: "A"
+  explanation_vi: "\"a clear marketing strategy\" = chiến lược marketing rõ ràng. *warranty/defect/coverage* sai nghĩa."
+
+- id: "exercise-07-p5-08"
+  part: 5
+  topic: "general-business"
+  lesson: ["lesson-07"]
+  level: 600
+  related_word: "objective"
+  question: "Each department was given one measurable ______ to achieve by the end of the quarter."
+  options: { A: "warranty", B: "guarantee", C: "repair", D: "objective" }
+  answer: "D"
+  explanation_vi: "\"a measurable objective to achieve\" = mục tiêu đo lường được để đạt. *warranty/guarantee/repair* sai nghĩa."
+
+- id: "exercise-07-p5-09"
+  part: 5
+  topic: "general-business"
+  lesson: ["lesson-07"]
+  level: 750
+  related_word: "feasible"
+  question: "The engineers studied the timeline and confirmed that the plan was ______."
+  options: { A: "faulty", B: "contingent", C: "feasible", D: "overdue" }
+  answer: "C"
+  explanation_vi: "\"confirmed that the plan was feasible\" = xác nhận kế hoạch khả thi. *faulty* (lỗi), *contingent* (phụ thuộc), *overdue* (quá hạn) sai nghĩa. ⚠️ feasible là tính từ."
+
+- id: "exercise-07-p5-10"
+  part: 5
+  topic: "general-business"
+  lesson: ["lesson-07"]
+  level: 600
+  related_word: "deadline"
+  question: "Because the ______ was so tight, the staff had to work late every evening."
+  options: { A: "coverage", B: "deadline", C: "benchmark", D: "warranty" }
+  answer: "B"
+  explanation_vi: "\"the deadline was so tight\" = hạn chót quá gấp; hợp với \"work late every evening\". *coverage/benchmark/warranty* sai nghĩa."
+
+- id: "exercise-07-p5-11"
+  part: 5
+  topic: "general-business"
+  lesson: ["lesson-07"]
+  level: 600
+  related_word: "priority"
+  question: "Ensuring that the product is safe to use is the company's top ______."
+  options: { A: "priority", B: "initiative", C: "projection", D: "defect" }
+  answer: "A"
+  explanation_vi: "\"the top priority\" = ưu tiên hàng đầu. *initiative/projection/defect* sai nghĩa."
+
+- id: "exercise-07-p5-12"
+  part: 5
+  topic: "general-business"
+  lesson: ["lesson-07"]
+  level: 750
+  related_word: "assess"
+  question: "A committee was formed to ______ the risks before the plan was approved."
+  options: { A: "expire", B: "replace", C: "implement", D: "assess" }
+  answer: "D"
+  explanation_vi: "\"assess the risks\" = đánh giá rủi ro. *expire/replace/implement* sai nghĩa."
+
+- id: "exercise-07-p6-13"
+  part: 6
+  topic: "general-business"
+  lesson: ["lesson-07"]
+  level: 750
+  passage_group: "p6-13-16"
+  passage: |
+    **MEMORANDUM**
+    **To:** Department Heads **From:** Priya Nair, Corporate Services
+    **Re:** Aria Master Plan
+
+    Attached is the master plan for the road to launch. Each department will lead its own **(13)______** and report progress every month. The finance team has prepared revenue **(14)______** for the next four quarters, measured against an industry **(15)______** so that we can judge our performance fairly. Remember, a good plan means nothing unless we can **(16)______** it on time — so please review your deadlines carefully.
+  related_word: "initiative"
+  options: { A: "initiative", B: "defect", C: "warranty", D: "repair" }
+  answer: "A"
+  explanation_vi: "\"lead its own initiative\" = mỗi phòng ban dẫn dắt một sáng kiến riêng. *defect/warranty/repair* sai ngữ cảnh kế hoạch."
+
+- id: "exercise-07-p6-14"
+  part: 6
+  topic: "general-business"
+  lesson: ["lesson-07"]
+  level: 750
+  passage_group: "p6-13-16"
+  passage: |
+    **MEMORANDUM**
+    **To:** Department Heads **From:** Priya Nair, Corporate Services
+    **Re:** Aria Master Plan
+
+    Attached is the master plan for the road to launch. Each department will lead its own **(13)______** and report progress every month. The finance team has prepared revenue **(14)______** for the next four quarters, measured against an industry **(15)______** so that we can judge our performance fairly. Remember, a good plan means nothing unless we can **(16)______** it on time — so please review your deadlines carefully.
+  related_word: "projection"
+  options: { A: "benchmark", B: "coverage", C: "projections", D: "guarantees" }
+  answer: "C"
+  explanation_vi: "\"revenue projections for the next four quarters\" = dự báo doanh thu. *benchmark/coverage/guarantees* sai nghĩa."
+
+- id: "exercise-07-p6-15"
+  part: 6
+  topic: "general-business"
+  lesson: ["lesson-07"]
+  level: 900
+  passage_group: "p6-13-16"
+  passage: |
+    **MEMORANDUM**
+    **To:** Department Heads **From:** Priya Nair, Corporate Services
+    **Re:** Aria Master Plan
+
+    Attached is the master plan for the road to launch. Each department will lead its own **(13)______** and report progress every month. The finance team has prepared revenue **(14)______** for the next four quarters, measured against an industry **(15)______** so that we can judge our performance fairly. Remember, a good plan means nothing unless we can **(16)______** it on time — so please review your deadlines carefully.
+  related_word: "benchmark"
+  options: { A: "objective", B: "benchmark", C: "deadline", D: "priority" }
+  answer: "B"
+  explanation_vi: "\"measured against an industry benchmark\" = đối chiếu với chuẩn so sánh ngành. *objective/deadline/priority* sai nghĩa."
+
+- id: "exercise-07-p6-16"
+  part: 6
+  topic: "general-business"
+  lesson: ["lesson-07"]
+  level: 750
+  passage_group: "p6-13-16"
+  passage: |
+    **MEMORANDUM**
+    **To:** Department Heads **From:** Priya Nair, Corporate Services
+    **Re:** Aria Master Plan
+
+    Attached is the master plan for the road to launch. Each department will lead its own **(13)______** and report progress every month. The finance team has prepared revenue **(14)______** for the next four quarters, measured against an industry **(15)______** so that we can judge our performance fairly. Remember, a good plan means nothing unless we can **(16)______** it on time — so please review your deadlines carefully.
+  related_word: "implement"
+  options: { A: "expire", B: "replace", C: "assess", D: "implement" }
+  answer: "D"
+  explanation_vi: "\"unless we can implement it on time\" = trừ phi triển khai được đúng hạn. *expire/replace/assess* sai nghĩa."
+
+- id: "exercise-07-p6-17"
+  part: 6
+  topic: "general-business"
+  lesson: ["lesson-07"]
+  level: 750
+  passage_group: "p6-17-19"
+  passage: |
+    **ANNOUNCEMENT — Aria Warranty & Support**
+    Every Aria system comes with a two-year warranty. If your unit develops a **(17)______** caused by manufacturing, we will repair or replace it at no cost to you. Full **(18)______** includes both parts and labor. And should any large-scale problem ever arise, our support team already has a **(19)______** ready to help every affected customer quickly.
+  related_word: "defect"
+  options: { A: "defect", B: "benchmark", C: "priority", D: "strategy" }
+  answer: "A"
+  explanation_vi: "\"develops a defect caused by manufacturing\" = phát sinh lỗi do sản xuất. *benchmark/priority/strategy* sai nghĩa."
+
+- id: "exercise-07-p6-18"
+  part: 6
+  topic: "general-business"
+  lesson: ["lesson-07"]
+  level: 750
+  passage_group: "p6-17-19"
+  passage: |
+    **ANNOUNCEMENT — Aria Warranty & Support**
+    Every Aria system comes with a two-year warranty. If your unit develops a **(17)______** caused by manufacturing, we will repair or replace it at no cost to you. Full **(18)______** includes both parts and labor. And should any large-scale problem ever arise, our support team already has a **(19)______** ready to help every affected customer quickly.
+  related_word: "coverage"
+  options: { A: "deadline", B: "objective", C: "coverage", D: "projection" }
+  answer: "C"
+  explanation_vi: "\"full coverage includes both parts and labor\" = phạm vi bảo hành gồm cả linh kiện & công. *deadline/objective/projection* sai nghĩa."
+
+- id: "exercise-07-p6-19"
+  part: 6
+  topic: "general-business"
+  lesson: ["lesson-07"]
+  level: 900
+  passage_group: "p6-17-19"
+  passage: |
+    **ANNOUNCEMENT — Aria Warranty & Support**
+    Every Aria system comes with a two-year warranty. If your unit develops a **(17)______** caused by manufacturing, we will repair or replace it at no cost to you. Full **(18)______** includes both parts and labor. And should any large-scale problem ever arise, our support team already has a **(19)______** ready to help every affected customer quickly.
+  related_word: "contingency plan"
+  options: { A: "benchmark", B: "contingency plan", C: "guarantee", D: "initiative" }
+  answer: "B"
+  explanation_vi: "\"a contingency plan ready to help… if a large-scale problem arises\" = kế hoạch dự phòng. *benchmark/guarantee/initiative* sai nghĩa."
+
+- id: "exercise-07-p7-20"
+  part: 7
+  topic: "general-business"
+  lesson: ["lesson-07"]
+  level: null
+  passage_group: "p7-20-22"
+  passage: |
+    **Consumer Tech Halston**
+    Aster Home Technologies is betting that a strong warranty will win over cautious buyers. The company has announced that every Aria unit will carry a two-year warranty, with free repair or replacement for any manufacturing defect. Analysts say the generous coverage is a smart move in a market where consumers worry about the reliability of smart devices. However, one expert cautioned that such promises are only sustainable if the product is genuinely durable. "A warranty is a bet on your own quality," she noted. "If too many units fail, the cost of honoring it could be severe."
+  related_word: null
+  question: "What is the main point of the article?"
+  options: { A: "Aria will be sold without any warranty", B: "The warranty covers only labor, not parts", C: "Aster is cutting its warranty to save money", D: "Aster is using a strong warranty to attract cautious buyers" }
+  answer: "D"
+  explanation_vi: "bài nói Aster **dùng chế độ bảo hành mạnh để thu hút khách còn e ngại** (\"betting that a strong warranty will win over cautious buyers\"). (A)/(B)/(C) đều trái nội dung."
+
+- id: "exercise-07-p7-21"
+  part: 7
+  topic: "general-business"
+  lesson: ["lesson-07"]
+  level: null
+  passage_group: "p7-20-22"
+  passage: |
+    **Consumer Tech Halston**
+    Aster Home Technologies is betting that a strong warranty will win over cautious buyers. The company has announced that every Aria unit will carry a two-year warranty, with free repair or replacement for any manufacturing defect. Analysts say the generous coverage is a smart move in a market where consumers worry about the reliability of smart devices. However, one expert cautioned that such promises are only sustainable if the product is genuinely durable. "A warranty is a bet on your own quality," she noted. "If too many units fail, the cost of honoring it could be severe."
+  related_word: null
+  question: "What warning does the expert give?"
+  options: { A: "The warranty period is far too short", B: "Consumers do not care about warranties", C: "A generous warranty is risky if the product is not durable", D: "The product has already failed on the market" }
+  answer: "C"
+  explanation_vi: "chuyên gia cảnh báo **bảo hành hào phóng sẽ rủi ro nếu sản phẩm không bền** (\"only sustainable if the product is genuinely durable… if too many units fail, the cost… could be severe\"). (A)/(B)/(D) không đúng."
+
+- id: "exercise-07-p7-22"
+  part: 7
+  topic: "general-business"
+  lesson: ["lesson-07"]
+  level: null
+  passage_group: "p7-20-22"
+  passage: |
+    **Consumer Tech Halston**
+    Aster Home Technologies is betting that a strong warranty will win over cautious buyers. The company has announced that every Aria unit will carry a two-year warranty, with free repair or replacement for any manufacturing defect. Analysts say the generous coverage is a smart move in a market where consumers worry about the reliability of smart devices. However, one expert cautioned that such promises are only sustainable if the product is genuinely durable. "A warranty is a bet on your own quality," she noted. "If too many units fail, the cost of honoring it could be severe."
+  related_word: null
+  question: "The word \"durable\" in the article is closest in meaning to"
+  options: { A: "long-lasting", B: "expensive", C: "attractive", D: "lightweight" }
+  answer: "A"
+  explanation_vi: "\"durable\" = bền, **lâu hỏng**. *expensive/attractive/lightweight* sai nghĩa."
+
+- id: "exercise-07-p7-23"
+  part: 7
+  topic: "general-business"
+  lesson: ["lesson-07"]
+  level: null
+  passage_group: "p7-23-25"
+  passage: |
+    **INTERNAL EMAIL**
+    **From:** Priya Nair **To:** Project Aria Leads
+    **Subject:** Staying on Track
+
+    Team, our master plan sets a clear objective for each quarter, and every task now has a firm deadline. Please treat product safety and quality as our top priority — everything else comes second. I have also asked each of you to prepare a short contingency plan in case a supplier fails or a deadline slips. We assessed the biggest risks last week; now we must put those plans into action. Let's make this feasible, not just hopeful.
+  related_word: null
+  question: "According to the email, what should the leads treat as the top priority?"
+  options: { A: "Marketing costs", B: "Product safety and quality", C: "Hiring new staff", D: "Ordering office supplies" }
+  answer: "B"
+  explanation_vi: "email yêu cầu coi **an toàn & chất lượng sản phẩm** là ưu tiên số một (\"treat product safety and quality as our top priority\"). (A)/(C)/(D) không phải trọng tâm."
+
+- id: "exercise-07-p7-24"
+  part: 7
+  topic: "general-business"
+  lesson: ["lesson-07"]
+  level: null
+  passage_group: "p7-23-25"
+  passage: |
+    **INTERNAL EMAIL**
+    **From:** Priya Nair **To:** Project Aria Leads
+    **Subject:** Staying on Track
+
+    Team, our master plan sets a clear objective for each quarter, and every task now has a firm deadline. Please treat product safety and quality as our top priority — everything else comes second. I have also asked each of you to prepare a short contingency plan in case a supplier fails or a deadline slips. We assessed the biggest risks last week; now we must put those plans into action. Let's make this feasible, not just hopeful.
+  related_word: null
+  question: "What has Priya asked each lead to prepare?"
+  options: { A: "A sales forecast", B: "A new advertisement", C: "A résumé", D: "A contingency plan" }
+  answer: "D"
+  explanation_vi: "Priya yêu cầu mỗi lead chuẩn bị **kế hoạch dự phòng** (\"prepare a short contingency plan\"). (A)/(B)/(C) không được nêu."
+
+- id: "exercise-07-p7-25"
+  part: 7
+  topic: "general-business"
+  lesson: ["lesson-07"]
+  level: null
+  passage_group: "p7-23-25"
+  passage: |
+    **INTERNAL EMAIL**
+    **From:** Priya Nair **To:** Project Aria Leads
+    **Subject:** Staying on Track
+
+    Team, our master plan sets a clear objective for each quarter, and every task now has a firm deadline. Please treat product safety and quality as our top priority — everything else comes second. I have also asked each of you to prepare a short contingency plan in case a supplier fails or a deadline slips. We assessed the biggest risks last week; now we must put those plans into action. Let's make this feasible, not just hopeful.
+  related_word: null
+  question: "The word \"assessed\" in the email is closest in meaning to"
+  options: { A: "ignored", B: "increased", C: "evaluated", D: "postponed" }
+  answer: "C"
+  explanation_vi: "\"assessed the risks\" ≈ **evaluated** (đã đánh giá). *ignored/increased/postponed* sai nghĩa."

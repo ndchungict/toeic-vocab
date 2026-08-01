@@ -1,0 +1,337 @@
+# EXERCISE 25 — HEALTH: Khám & Điều trị
+# Nguồn: exercises/exercise-25.md (lesson-25)
+# 26 câu: Part 5 (1-12), Part 6 (13-20), Part 7 (21-26)
+
+- id: "exercise-25-p5-01"
+  part: 5
+  topic: "health"
+  lesson: ["lesson-25"]
+  level: 600
+  related_word: "clinic"
+  question: "Priya rushed Ben to a nearby ______ after he collapsed."
+  options: { A: "ward", B: "pharmacy", C: "clinic", D: "referral" }
+  answer: "C"
+  explanation_vi: "\"rushed Ben to a nearby clinic\" = phòng khám. *ward/pharmacy/referral* sai nghĩa."
+
+- id: "exercise-25-p5-02"
+  part: 5
+  topic: "health"
+  lesson: ["lesson-25"]
+  level: 750
+  related_word: "symptom"
+  question: "The doctor asked Ben to describe his ______, such as dizziness and a racing heart."
+  options: { A: "symptoms", B: "dosages", C: "referrals", D: "surgeries" }
+  answer: "A"
+  explanation_vi: "\"describe his symptoms… dizziness and a racing heart\" = triệu chứng. *dosages/referrals/surgeries* sai nghĩa."
+
+- id: "exercise-25-p5-03"
+  part: 5
+  topic: "health"
+  lesson: ["lesson-25"]
+  level: 750
+  related_word: "diagnose"
+  question: "After some tests, the doctor ______ exhaustion and dehydration."
+  options: { A: "prescribed", B: "relieved", C: "recovered", D: "diagnosed" }
+  answer: "D"
+  explanation_vi: "\"the doctor diagnosed exhaustion and dehydration\" = chẩn đoán. *prescribed/relieved/recovered* sai nghĩa."
+
+- id: "exercise-25-p5-04"
+  part: 5
+  topic: "health"
+  lesson: ["lesson-25"]
+  level: 750
+  related_word: "surgery"
+  question: "The sprain was minor and not serious enough to require ______."
+  options: { A: "a referral", B: "surgery", C: "a symptom", D: "a dosage" }
+  answer: "B"
+  explanation_vi: "\"the sprain was minor… not serious enough to require surgery\" = phẫu thuật. *a referral/a symptom/a dosage* sai nghĩa."
+
+- id: "exercise-25-p5-05"
+  part: 5
+  topic: "health"
+  lesson: ["lesson-25"]
+  level: 750
+  related_word: "prescribe"
+  question: "The physician ______ medication for the pain and told him to rest."
+  options: { A: "diagnosed", B: "recovered", C: "prescribed", D: "relieved" }
+  answer: "C"
+  explanation_vi: "\"prescribed medication for the pain\" = kê đơn. *diagnosed/recovered/relieved* sai nghĩa."
+
+- id: "exercise-25-p5-06"
+  part: 5
+  topic: "health"
+  lesson: ["lesson-25"]
+  level: 600
+  related_word: "pharmacy"
+  question: "Ben took the prescription to the ______ to pick up his medicine."
+  options: { A: "pharmacy", B: "ward", C: "clinic", D: "referral" }
+  answer: "A"
+  explanation_vi: "\"took the prescription to the pharmacy\" = hiệu thuốc. *ward/clinic/referral* sai nghĩa."
+
+- id: "exercise-25-p5-07"
+  part: 5
+  topic: "health"
+  lesson: ["lesson-25"]
+  level: 750
+  related_word: "dosage"
+  question: "The pharmacist explained the ______: one tablet twice a day, after meals."
+  options: { A: "symptom", B: "injury", C: "surgery", D: "dosage" }
+  answer: "D"
+  explanation_vi: "\"explained the dosage: one tablet twice a day\" = liều lượng. *symptom/injury/surgery* sai nghĩa."
+
+- id: "exercise-25-p5-08"
+  part: 5
+  topic: "health"
+  lesson: ["lesson-25"]
+  level: 600
+  related_word: "side effect"
+  question: "Drowsiness is a common ______ of the medication, so he should not drive."
+  options: { A: "treatment", B: "side effect", C: "referral", D: "dosage" }
+  answer: "B"
+  explanation_vi: "\"drowsiness is a common side effect\" = tác dụng phụ. *treatment/referral/dosage* sai nghĩa."
+
+- id: "exercise-25-p5-09"
+  part: 5
+  topic: "health"
+  lesson: ["lesson-25"]
+  level: 900
+  related_word: "referral"
+  question: "To be safe, the doctor wrote a ______ so Ben could see a heart specialist."
+  options: { A: "pharmacy", B: "dosage", C: "referral", D: "ward" }
+  answer: "C"
+  explanation_vi: "\"wrote a referral so Ben could see a specialist\" = giấy giới thiệu. *pharmacy/dosage/ward* sai nghĩa."
+
+- id: "exercise-25-p5-10"
+  part: 5
+  topic: "health"
+  lesson: ["lesson-25"]
+  level: 600
+  related_word: "recover"
+  question: "With a few days' rest, Ben would fully ______ at home."
+  options: { A: "recover", B: "prescribe", C: "diagnose", D: "relieve" }
+  answer: "A"
+  explanation_vi: "\"with rest, Ben would fully recover\" = hồi phục. *prescribe/diagnose/relieve* sai nghĩa."
+
+- id: "exercise-25-p5-11"
+  part: 5
+  topic: "health"
+  lesson: ["lesson-25"]
+  level: 600
+  related_word: "appointment"
+  question: "Priya called to make an urgent ______ as soon as Ben fainted."
+  options: { A: "injury", B: "symptom", C: "ward", D: "appointment" }
+  answer: "D"
+  explanation_vi: "\"make an urgent appointment as soon as Ben fainted\" = cuộc hẹn khám. *injury/symptom/ward* sai nghĩa."
+
+- id: "exercise-25-p5-12"
+  part: 5
+  topic: "health"
+  lesson: ["lesson-25"]
+  level: 600
+  related_word: "patient"
+  question: "At the clinic, the exhausted trainee was now simply another ______."
+  options: { A: "physician", B: "patient", C: "specialist", D: "practitioner" }
+  answer: "B"
+  explanation_vi: "\"the exhausted trainee was now… another patient\" = bệnh nhân. *physician/specialist/practitioner* sai nghĩa."
+
+- id: "exercise-25-p6-13"
+  part: 6
+  topic: "health"
+  lesson: ["lesson-25"]
+  level: 900
+  passage_group: "p6-13-16"
+  passage: |
+    **CLINIC NOTE — Patient: B. Tran**
+    The patient was first seen by a general **(13)______**, who examined him and ordered blood tests. He was **(14)______** with exhaustion and mild dehydration, along with a minor wrist **(15)______** from a fall. The recommended **(16)______** is rest, fluids, and light medication; no hospital stay is required.
+  related_word: "practitioner"
+  options: { A: "pharmacy", B: "practitioner", C: "referral", D: "dosage" }
+  answer: "B"
+  explanation_vi: "\"first seen by a general practitioner\" = bác sĩ đa khoa (GP). *pharmacy/referral/dosage* sai nghĩa."
+
+- id: "exercise-25-p6-14"
+  part: 6
+  topic: "health"
+  lesson: ["lesson-25"]
+  level: 750
+  passage_group: "p6-13-16"
+  passage: |
+    **CLINIC NOTE — Patient: B. Tran**
+    The patient was first seen by a general **(13)______**, who examined him and ordered blood tests. He was **(14)______** with exhaustion and mild dehydration, along with a minor wrist **(15)______** from a fall. The recommended **(16)______** is rest, fluids, and light medication; no hospital stay is required.
+  related_word: "diagnose"
+  options: { A: "prescribed", B: "relieved", C: "referred", D: "diagnosed" }
+  answer: "D"
+  explanation_vi: "\"diagnosed with exhaustion and dehydration\" = chẩn đoán. ⚠️ *diagnosed with*. *prescribed/relieved/referred* sai."
+
+- id: "exercise-25-p6-15"
+  part: 6
+  topic: "health"
+  lesson: ["lesson-25"]
+  level: 600
+  passage_group: "p6-13-16"
+  passage: |
+    **CLINIC NOTE — Patient: B. Tran**
+    The patient was first seen by a general **(13)______**, who examined him and ordered blood tests. He was **(14)______** with exhaustion and mild dehydration, along with a minor wrist **(15)______** from a fall. The recommended **(16)______** is rest, fluids, and light medication; no hospital stay is required.
+  related_word: "injury"
+  options: { A: "injury", B: "dosage", C: "referral", D: "ward" }
+  answer: "A"
+  explanation_vi: "\"a minor wrist injury from a fall\" = chấn thương. *dosage/referral/ward* sai nghĩa."
+
+- id: "exercise-25-p6-16"
+  part: 6
+  topic: "health"
+  lesson: ["lesson-25"]
+  level: 600
+  passage_group: "p6-13-16"
+  passage: |
+    **CLINIC NOTE — Patient: B. Tran**
+    The patient was first seen by a general **(13)______**, who examined him and ordered blood tests. He was **(14)______** with exhaustion and mild dehydration, along with a minor wrist **(15)______** from a fall. The recommended **(16)______** is rest, fluids, and light medication; no hospital stay is required.
+  related_word: "treatment"
+  options: { A: "symptom", B: "pharmacy", C: "treatment", D: "surgery" }
+  answer: "C"
+  explanation_vi: "\"the recommended treatment is rest, fluids, and medication\" = sự điều trị. *symptom/pharmacy/surgery* sai nghĩa."
+
+- id: "exercise-25-p6-17"
+  part: 6
+  topic: "health"
+  lesson: ["lesson-25"]
+  level: 750
+  passage_group: "p6-17-20"
+  passage: |
+    **MEMO — Staff Health Note**
+    One of our trainees was taken to a clinic this week. A **(17)______** examined him and, as a precaution, referred him to a heart **(18)______**. He was kept for a few hours in a small **(19)______** for observation and fluids, which helped **(20)______** his fatigue, before being sent home to rest.
+  related_word: "physician"
+  options: { A: "physician", B: "pharmacy", C: "dosage", D: "referral" }
+  answer: "A"
+  explanation_vi: "\"a physician examined him\" = bác sĩ. *pharmacy/dosage/referral* sai nghĩa."
+
+- id: "exercise-25-p6-18"
+  part: 6
+  topic: "health"
+  lesson: ["lesson-25"]
+  level: 600
+  passage_group: "p6-17-20"
+  passage: |
+    **MEMO — Staff Health Note**
+    One of our trainees was taken to a clinic this week. A **(17)______** examined him and, as a precaution, referred him to a heart **(18)______**. He was kept for a few hours in a small **(19)______** for observation and fluids, which helped **(20)______** his fatigue, before being sent home to rest.
+  related_word: "specialist"
+  options: { A: "patient", B: "symptom", C: "specialist", D: "ward" }
+  answer: "C"
+  explanation_vi: "\"referred him to a heart specialist\" = bác sĩ chuyên khoa. *patient/symptom/ward* sai nghĩa."
+
+- id: "exercise-25-p6-19"
+  part: 6
+  topic: "health"
+  lesson: ["lesson-25"]
+  level: 900
+  passage_group: "p6-17-20"
+  passage: |
+    **MEMO — Staff Health Note**
+    One of our trainees was taken to a clinic this week. A **(17)______** examined him and, as a precaution, referred him to a heart **(18)______**. He was kept for a few hours in a small **(19)______** for observation and fluids, which helped **(20)______** his fatigue, before being sent home to rest.
+  related_word: "ward"
+  options: { A: "clinic", B: "pharmacy", C: "appointment", D: "ward" }
+  answer: "D"
+  explanation_vi: "\"kept a few hours in a small ward for observation\" = khoa/phòng bệnh. *clinic/pharmacy/appointment* sai nghĩa."
+
+- id: "exercise-25-p6-20"
+  part: 6
+  topic: "health"
+  lesson: ["lesson-25"]
+  level: 750
+  passage_group: "p6-17-20"
+  passage: |
+    **MEMO — Staff Health Note**
+    One of our trainees was taken to a clinic this week. A **(17)______** examined him and, as a precaution, referred him to a heart **(18)______**. He was kept for a few hours in a small **(19)______** for observation and fluids, which helped **(20)______** his fatigue, before being sent home to rest.
+  related_word: "relieve"
+  options: { A: "prescribe", B: "relieve", C: "diagnose", D: "recover" }
+  answer: "B"
+  explanation_vi: "\"fluids… helped relieve his fatigue\" = làm giảm. *prescribe/diagnose/recover* sai nghĩa."
+
+- id: "exercise-25-p7-21"
+  part: 7
+  topic: "health"
+  lesson: ["lesson-25"]
+  level: null
+  passage_group: "p7-21-23"
+  passage: |
+    **Aster HR — Incident Note: Halston Site**
+    A management trainee collapsed at the Halston site this week from exhaustion after weeks of overtime. Priya took him straight to a walk-in clinic, where a general practitioner examined him. He was diagnosed with exhaustion and mild dehydration, plus a minor wrist injury from the fall — nothing serious enough for surgery. The doctor prescribed rest and fluids, wrote a referral to a specialist as a precaution, and sent him home to recover. HR notes that he is far from the only staff member showing the strain.
+  related_word: null
+  question: "Why did the trainee collapse?"
+  options: { A: "A car accident", B: "A contagious illness", C: "Exhaustion after weeks of overtime", D: "A severe allergy" }
+  answer: "C"
+  explanation_vi: "kiệt sức vì \"**exhaustion after weeks of overtime**\". (A)/(B)/(D) sai (không có tai nạn/bệnh lây/dị ứng)."
+
+- id: "exercise-25-p7-22"
+  part: 7
+  topic: "health"
+  lesson: ["lesson-25"]
+  level: null
+  passage_group: "p7-21-23"
+  passage: |
+    **Aster HR — Incident Note: Halston Site**
+    A management trainee collapsed at the Halston site this week from exhaustion after weeks of overtime. Priya took him straight to a walk-in clinic, where a general practitioner examined him. He was diagnosed with exhaustion and mild dehydration, plus a minor wrist injury from the fall — nothing serious enough for surgery. The doctor prescribed rest and fluids, wrote a referral to a specialist as a precaution, and sent him home to recover. HR notes that he is far from the only staff member showing the strain.
+  related_word: null
+  question: "What did the doctor do?"
+  options: { A: "Diagnosed him, prescribed rest, and wrote a referral", B: "Performed surgery", C: "Admitted him for a week", D: "Sent him back to work" }
+  answer: "A"
+  explanation_vi: "bác sĩ \"**diagnosed** him, **prescribed** rest… wrote a **referral**\". (B)/(C)/(D) sai/trái."
+
+- id: "exercise-25-p7-23"
+  part: 7
+  topic: "health"
+  lesson: ["lesson-25"]
+  level: null
+  passage_group: "p7-21-23"
+  passage: |
+    **Aster HR — Incident Note: Halston Site**
+    A management trainee collapsed at the Halston site this week from exhaustion after weeks of overtime. Priya took him straight to a walk-in clinic, where a general practitioner examined him. He was diagnosed with exhaustion and mild dehydration, plus a minor wrist injury from the fall — nothing serious enough for surgery. The doctor prescribed rest and fluids, wrote a referral to a specialist as a precaution, and sent him home to recover. HR notes that he is far from the only staff member showing the strain.
+  related_word: null
+  question: "What does HR note at the end?"
+  options: { A: "The site is unsafe", B: "The launch is cancelled", C: "He must be dismissed", D: "He is not the only one showing the strain" }
+  answer: "D"
+  explanation_vi: "HR ghi chú cậu \"is **far from the only staff member showing the strain**\". (A)/(B)/(C) sai."
+
+- id: "exercise-25-p7-24"
+  part: 7
+  topic: "health"
+  lesson: ["lesson-25"]
+  level: null
+  passage_group: "p7-24-26"
+  passage: |
+    **Marlowe Business Journal — Aster's Hidden Cost: Its People**
+    Aster Home Technologies has its product, its technology, and its Halston venue ready for launch. But the sprint has taken a toll that does not show up on a balance sheet. This week a young trainee collapsed from exhaustion and was treated at a clinic; colleagues describe a workforce worn thin after months of crisis. Insiders say management is now moving to protect the team's health before the launch — reviewing medical coverage and preparing a company wellness program — in the belief that a burned-out team could undo everything it has built.
+  related_word: null
+  question: "What happened to a trainee this week?"
+  options: { A: "He resigned", B: "He collapsed from exhaustion and was treated at a clinic", C: "He was promoted", D: "He moved to Neura" }
+  answer: "B"
+  explanation_vi: "tuần này một trainee \"**collapsed from exhaustion and was treated at a clinic**\". (A)/(C)/(D) sai."
+
+- id: "exercise-25-p7-25"
+  part: 7
+  topic: "health"
+  lesson: ["lesson-25"]
+  level: null
+  passage_group: "p7-24-26"
+  passage: |
+    **Marlowe Business Journal — Aster's Hidden Cost: Its People**
+    Aster Home Technologies has its product, its technology, and its Halston venue ready for launch. But the sprint has taken a toll that does not show up on a balance sheet. This week a young trainee collapsed from exhaustion and was treated at a clinic; colleagues describe a workforce worn thin after months of crisis. Insiders say management is now moving to protect the team's health before the launch — reviewing medical coverage and preparing a company wellness program — in the belief that a burned-out team could undo everything it has built.
+  related_word: null
+  question: "What toll does the article describe?"
+  options: { A: "A workforce worn thin after months of crisis", B: "A large financial loss", C: "A product recall", D: "A lawsuit" }
+  answer: "A"
+  explanation_vi: "cái giá: \"a **workforce worn thin** after months of crisis\" (không hiện trên bảng cân đối). (B)/(C)/(D) sai."
+
+- id: "exercise-25-p7-26"
+  part: 7
+  topic: "health"
+  lesson: ["lesson-25"]
+  level: null
+  passage_group: "p7-24-26"
+  passage: |
+    **Marlowe Business Journal — Aster's Hidden Cost: Its People**
+    Aster Home Technologies has its product, its technology, and its Halston venue ready for launch. But the sprint has taken a toll that does not show up on a balance sheet. This week a young trainee collapsed from exhaustion and was treated at a clinic; colleagues describe a workforce worn thin after months of crisis. Insiders say management is now moving to protect the team's health before the launch — reviewing medical coverage and preparing a company wellness program — in the belief that a burned-out team could undo everything it has built.
+  related_word: null
+  question: "What is management now moving to do?"
+  options: { A: "Cancel the launch", B: "Sell the company", C: "Review medical coverage and prepare a wellness program", D: "Hire a new CEO" }
+  answer: "C"
+  explanation_vi: "ban lãnh đạo đang \"**reviewing medical coverage and preparing a company wellness program**\" → dẫn Ch 26. (A)/(B)/(D) sai."

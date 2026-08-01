@@ -1,0 +1,301 @@
+# EXERCISE 11 — DINING OUT: Đặt bàn · Tiếp khách & Tiệc chiêu đãi
+# Nguồn: exercises/exercise-11.md (lesson-11)
+# 23 câu: Part 5 (1-10), Part 6 (11-17), Part 7 (18-23)
+
+- id: "exercise-11-p5-01"
+  part: 5
+  topic: "dining-out"
+  lesson: ["lesson-11"]
+  level: 600
+  related_word: "reservation"
+  question: "Ben called *The Harbourline* to make a ______ for a party of four at seven o'clock."
+  options: { A: "caterer", B: "reservation", C: "buffet", D: "seating" }
+  answer: "B"
+  explanation_vi: "\"make a reservation\" = đặt bàn. *caterer/buffet/seating* sai nghĩa. ⚠️ động từ tương ứng là **book** a table."
+
+- id: "exercise-11-p5-02"
+  part: 5
+  topic: "dining-out"
+  lesson: ["lesson-11"]
+  level: 750
+  related_word: "accommodate"
+  question: "The banquet hall is spacious enough to ______ up to three hundred guests."
+  options: { A: "cuisine", B: "reception", C: "beforehand", D: "accommodate" }
+  answer: "D"
+  explanation_vi: "\"accommodate up to 300 guests\" = xếp được/chứa được. Chỉ *accommodate* là động từ hợp nghĩa; *cuisine/reception* (danh từ), *beforehand* (trạng từ) sai loại từ."
+
+- id: "exercise-11-p5-03"
+  part: 5
+  topic: "dining-out"
+  lesson: ["lesson-11"]
+  level: 600
+  related_word: "party"
+  question: "A ______ of four had reserved the quiet table beside the window."
+  options: { A: "seating", B: "caterer", C: "party", D: "reception" }
+  answer: "C"
+  explanation_vi: "\"a party of four\" = nhóm khách. ⚠️ ở đây **không** phải \"bữa tiệc\". *seating/caterer/reception* sai nghĩa."
+
+- id: "exercise-11-p5-04"
+  part: 5
+  topic: "dining-out"
+  lesson: ["lesson-11"]
+  level: 600
+  related_word: "host"
+  question: "As a gesture of goodwill, Aster offered to ______ the dinner for its new partner."
+  options: { A: "host", B: "accommodate", C: "book", D: "seat" }
+  answer: "A"
+  explanation_vi: "\"host the dinner\" = đứng ra mời/chủ trì. *accommodate/book/seat* sai nghĩa trong ngữ cảnh."
+
+- id: "exercise-11-p5-05"
+  part: 5
+  topic: "dining-out"
+  lesson: ["lesson-11"]
+  level: 750
+  related_word: "beforehand"
+  question: "If your group is large, it is wise to call ______ to reserve a table."
+  options: { A: "reception", B: "catering", C: "venue", D: "beforehand" }
+  answer: "D"
+  explanation_vi: "\"call beforehand to reserve\" = gọi trước. *reception/catering/venue* là danh từ, sai loại từ & nghĩa."
+
+- id: "exercise-11-p5-06"
+  part: 5
+  topic: "dining-out"
+  lesson: ["lesson-11"]
+  level: 750
+  related_word: "cuisine"
+  question: "The bayside restaurant is famous throughout Halston for its fresh seafood ______."
+  options: { A: "party", B: "cuisine", C: "seating", D: "reservation" }
+  answer: "B"
+  explanation_vi: "\"seafood cuisine\" = ẩm thực/món ăn. *party/seating/reservation* sai nghĩa."
+
+- id: "exercise-11-p5-07"
+  part: 5
+  topic: "dining-out"
+  lesson: ["lesson-11"]
+  level: 750
+  related_word: "venue"
+  question: "The five-star hotel is the city's most popular ______ for corporate banquets."
+  options: { A: "beverage", B: "buffet", C: "venue", D: "caterer" }
+  answer: "C"
+  explanation_vi: "\"a popular venue for banquets\" = địa điểm tổ chức. *beverage/buffet/caterer* sai nghĩa."
+
+- id: "exercise-11-p5-08"
+  part: 5
+  topic: "dining-out"
+  lesson: ["lesson-11"]
+  level: 600
+  related_word: "buffet"
+  question: "Rather than a set menu, dinner was served as a ______ so guests could choose freely."
+  options: { A: "buffet", B: "reservation", C: "party", D: "host" }
+  answer: "A"
+  explanation_vi: "\"served as a buffet… choose freely\" = tiệc tự chọn. *reservation/party/host* sai nghĩa."
+
+- id: "exercise-11-p5-09"
+  part: 5
+  topic: "dining-out"
+  lesson: ["lesson-11"]
+  level: 900
+  related_word: "caterer"
+  question: "Brightway hired a well-known ______ to prepare the food for the reception."
+  options: { A: "cuisine", B: "seating", C: "venue", D: "caterer" }
+  answer: "D"
+  explanation_vi: "\"hired a caterer to prepare the food\" = bên tổ chức tiệc. *cuisine/seating/venue* sai nghĩa. ⚠️ **caterer** (bên/người) ≠ **catering** (dịch vụ)."
+
+- id: "exercise-11-p5-10"
+  part: 5
+  topic: "dining-out"
+  lesson: ["lesson-11"]
+  level: 750
+  related_word: "refreshments"
+  question: "Light ______ will be served during the mid-morning networking break."
+  options: { A: "reservation", B: "refreshments", C: "party", D: "beforehand" }
+  answer: "B"
+  explanation_vi: "\"light refreshments will be served\" = đồ ăn nhẹ. *reservation/party/beforehand* sai nghĩa."
+
+- id: "exercise-11-p6-11"
+  part: 6
+  topic: "dining-out"
+  lesson: ["lesson-11"]
+  level: 600
+  passage_group: "p6-11-14"
+  passage: |
+    **RESERVATION CONFIRMATION — The Harbourline**
+    Dear Mr. Tran, thank you for choosing The Harbourline. We are pleased to confirm the table you **(11)______** for a party of four at 7:00 this evening. As you asked, we have reserved quiet **(12)______** beside the window. A welcome **(13)______** — sparkling water or fresh juice — will be waiting at your table. We are confident your guests will enjoy our award-winning seafood **(14)______**.
+  related_word: "book"
+  options: { A: "booked", B: "hosted", C: "accommodated", D: "catered" }
+  answer: "A"
+  explanation_vi: "\"the table you booked\" = bàn bạn đã đặt. *hosted/accommodated/catered* sai nghĩa với \"table\"."
+
+- id: "exercise-11-p6-12"
+  part: 6
+  topic: "dining-out"
+  lesson: ["lesson-11"]
+  level: 750
+  passage_group: "p6-11-14"
+  passage: |
+    **RESERVATION CONFIRMATION — The Harbourline**
+    Dear Mr. Tran, thank you for choosing The Harbourline. We are pleased to confirm the table you **(11)______** for a party of four at 7:00 this evening. As you asked, we have reserved quiet **(12)______** beside the window. A welcome **(13)______** — sparkling water or fresh juice — will be waiting at your table. We are confident your guests will enjoy our award-winning seafood **(14)______**.
+  related_word: "seating"
+  options: { A: "reservation", B: "banquet", C: "seating", D: "caterer" }
+  answer: "C"
+  explanation_vi: "\"reserved quiet seating by the window\" = chỗ ngồi. *reservation/banquet/caterer* sai nghĩa."
+
+- id: "exercise-11-p6-13"
+  part: 6
+  topic: "dining-out"
+  lesson: ["lesson-11"]
+  level: 600
+  passage_group: "p6-11-14"
+  passage: |
+    **RESERVATION CONFIRMATION — The Harbourline**
+    Dear Mr. Tran, thank you for choosing The Harbourline. We are pleased to confirm the table you **(11)______** for a party of four at 7:00 this evening. As you asked, we have reserved quiet **(12)______** beside the window. A welcome **(13)______** — sparkling water or fresh juice — will be waiting at your table. We are confident your guests will enjoy our award-winning seafood **(14)______**.
+  related_word: "beverage"
+  options: { A: "venue", B: "party", C: "reception", D: "beverage" }
+  answer: "D"
+  explanation_vi: "\"a welcome beverage — sparkling water or juice\" = đồ uống. *venue/party/reception* sai nghĩa."
+
+- id: "exercise-11-p6-14"
+  part: 6
+  topic: "dining-out"
+  lesson: ["lesson-11"]
+  level: 750
+  passage_group: "p6-11-14"
+  passage: |
+    **RESERVATION CONFIRMATION — The Harbourline**
+    Dear Mr. Tran, thank you for choosing The Harbourline. We are pleased to confirm the table you **(11)______** for a party of four at 7:00 this evening. As you asked, we have reserved quiet **(12)______** beside the window. A welcome **(13)______** — sparkling water or fresh juice — will be waiting at your table. We are confident your guests will enjoy our award-winning seafood **(14)______**.
+  related_word: "cuisine"
+  options: { A: "seating", B: "cuisine", C: "beforehand", D: "buffet" }
+  answer: "B"
+  explanation_vi: "\"award-winning seafood cuisine\" = ẩm thực. *seating/beforehand/buffet* sai nghĩa/loại từ."
+
+- id: "exercise-11-p6-15"
+  part: 6
+  topic: "dining-out"
+  lesson: ["lesson-11"]
+  level: 750
+  passage_group: "p6-15-17"
+  passage: |
+    **MEMO — Brightway Partner Appreciation Event**
+    To all approved vendors: This year's annual partner **(15)______** will take place at the Grand Harbour Hotel on 15 November. After a short awards ceremony, a lavish welcome **(16)______** will open the evening, followed by a full buffet dinner. All **(17)______** will be handled by an award-winning company, so guests need only relax and network.
+  related_word: "banquet"
+  options: { A: "seating", B: "reservation", C: "banquet", D: "beforehand" }
+  answer: "C"
+  explanation_vi: "\"annual partner banquet\" = tiệc chiêu đãi thường niên. *seating/reservation/beforehand* sai nghĩa."
+
+- id: "exercise-11-p6-16"
+  part: 6
+  topic: "dining-out"
+  lesson: ["lesson-11"]
+  level: 600
+  passage_group: "p6-15-17"
+  passage: |
+    **MEMO — Brightway Partner Appreciation Event**
+    To all approved vendors: This year's annual partner **(15)______** will take place at the Grand Harbour Hotel on 15 November. After a short awards ceremony, a lavish welcome **(16)______** will open the evening, followed by a full buffet dinner. All **(17)______** will be handled by an award-winning company, so guests need only relax and network.
+  related_word: "reception"
+  options: { A: "reception", B: "party", C: "caterer", D: "venue" }
+  answer: "A"
+  explanation_vi: "\"a lavish welcome reception\" = tiệc chiêu đãi mở màn. *party/caterer/venue* sai nghĩa. ⚠️ reception ở đây là *tiệc*, không phải *quầy lễ tân*."
+
+- id: "exercise-11-p6-17"
+  part: 6
+  topic: "dining-out"
+  lesson: ["lesson-11"]
+  level: 750
+  passage_group: "p6-15-17"
+  passage: |
+    **MEMO — Brightway Partner Appreciation Event**
+    To all approved vendors: This year's annual partner **(15)______** will take place at the Grand Harbour Hotel on 15 November. After a short awards ceremony, a lavish welcome **(16)______** will open the evening, followed by a full buffet dinner. All **(17)______** will be handled by an award-winning company, so guests need only relax and network.
+  related_word: "catering"
+  options: { A: "seating", B: "reservation", C: "party", D: "catering" }
+  answer: "D"
+  explanation_vi: "\"all catering will be handled by…\" = toàn bộ dịch vụ tiệc. *seating/reservation/party* sai nghĩa."
+
+- id: "exercise-11-p7-18"
+  part: 7
+  topic: "dining-out"
+  lesson: ["lesson-11"]
+  level: null
+  passage_group: "p7-18-20"
+  passage: |
+    **Aster Dinner Log — Halston, Evening**
+    On their first night in Halston, the Aster team dined with Karen Ito of Brightway at a harbourside restaurant. Ben had booked the table days beforehand, choosing a spot recommended by a colleague back home for its outstanding seafood cuisine. Daniel hosted the dinner on Aster's behalf. Over the appetizers, Karen made an unexpected proposal: she wanted Aria to be unveiled at Brightway's annual partner banquet, a glittering reception attended by every major retailer in the city. The opportunity was dazzling — but it came with a tight schedule, and Karen hinted that Aster was not the only company she was considering.
+  related_word: null
+  question: "Who arranged the restaurant table?"
+  options: { A: "Karen Ito", B: "Daniel", C: "Ben", D: "Diane" }
+  answer: "C"
+  explanation_vi: "log ghi rõ \"**Ben** had booked the table days beforehand\". (A)/(B)/(D) đều có mặt nhưng không phải người đặt bàn."
+
+- id: "exercise-11-p7-19"
+  part: 7
+  topic: "dining-out"
+  lesson: ["lesson-11"]
+  level: null
+  passage_group: "p7-18-20"
+  passage: |
+    **Aster Dinner Log — Halston, Evening**
+    On their first night in Halston, the Aster team dined with Karen Ito of Brightway at a harbourside restaurant. Ben had booked the table days beforehand, choosing a spot recommended by a colleague back home for its outstanding seafood cuisine. Daniel hosted the dinner on Aster's behalf. Over the appetizers, Karen made an unexpected proposal: she wanted Aria to be unveiled at Brightway's annual partner banquet, a glittering reception attended by every major retailer in the city. The opportunity was dazzling — but it came with a tight schedule, and Karen hinted that Aster was not the only company she was considering.
+  related_word: null
+  question: "What did Karen propose?"
+  options: { A: "That Aster lower its prices", B: "That Aria be unveiled at Brightway's partner banquet", C: "That Brightway buy Aster outright", D: "That the dinner be postponed" }
+  answer: "B"
+  explanation_vi: "Karen muốn \"**Aria be unveiled at Brightway's annual partner banquet**\". (A)/(C)/(D) không được nêu."
+
+- id: "exercise-11-p7-20"
+  part: 7
+  topic: "dining-out"
+  lesson: ["lesson-11"]
+  level: null
+  passage_group: "p7-18-20"
+  passage: |
+    **Aster Dinner Log — Halston, Evening**
+    On their first night in Halston, the Aster team dined with Karen Ito of Brightway at a harbourside restaurant. Ben had booked the table days beforehand, choosing a spot recommended by a colleague back home for its outstanding seafood cuisine. Daniel hosted the dinner on Aster's behalf. Over the appetizers, Karen made an unexpected proposal: she wanted Aria to be unveiled at Brightway's annual partner banquet, a glittering reception attended by every major retailer in the city. The opportunity was dazzling — but it came with a tight schedule, and Karen hinted that Aster was not the only company she was considering.
+  related_word: null
+  question: "The word \"dazzling\" in the log is closest in meaning to"
+  options: { A: "disappointing", B: "confusing", C: "inexpensive", D: "very impressive" }
+  answer: "D"
+  explanation_vi: "\"dazzling\" (opportunity) = rực rỡ, choáng ngợp/rất ấn tượng. *disappointing/confusing/inexpensive* trái nghĩa/sai."
+
+- id: "exercise-11-p7-21"
+  part: 7
+  topic: "dining-out"
+  lesson: ["lesson-11"]
+  level: null
+  passage_group: "p7-21-23"
+  passage: |
+    **The Grand Harbour Hotel — Events & Banquets**
+    The Grand Harbour is Halston's premier venue for corporate events. Our elegant banquet hall can accommodate up to 400 guests, with flexible seating for dinners, receptions, and product launches. Our in-house catering team prepares everything from a casual buffet to a formal multi-course banquet, and a wide selection of beverages and light refreshments is always on hand. To secure a date, we recommend booking well beforehand, as weekends fill quickly.
+  related_word: null
+  question: "According to the advertisement, what can the banquet hall do?"
+  options: { A: "Hold up to 400 guests", B: "Serve only breakfast", C: "Seat exactly 100 people", D: "Host outdoor events only" }
+  answer: "A"
+  explanation_vi: "quảng cáo nói sảnh tiệc \"can **accommodate up to 400 guests**\". (B)/(C)/(D) sai/không nêu."
+
+- id: "exercise-11-p7-22"
+  part: 7
+  topic: "dining-out"
+  lesson: ["lesson-11"]
+  level: null
+  passage_group: "p7-21-23"
+  passage: |
+    **The Grand Harbour Hotel — Events & Banquets**
+    The Grand Harbour is Halston's premier venue for corporate events. Our elegant banquet hall can accommodate up to 400 guests, with flexible seating for dinners, receptions, and product launches. Our in-house catering team prepares everything from a casual buffet to a formal multi-course banquet, and a wide selection of beverages and light refreshments is always on hand. To secure a date, we recommend booking well beforehand, as weekends fill quickly.
+  related_word: null
+  question: "What does the hotel recommend?"
+  options: { A: "Paying in cash", B: "Bringing your own food", C: "Booking well in advance", D: "Arriving after midnight" }
+  answer: "C"
+  explanation_vi: "khách sạn khuyên \"**booking well beforehand**\" = đặt sớm. *paying in cash / bringing your own food / arriving after midnight* không được nêu."
+
+- id: "exercise-11-p7-23"
+  part: 7
+  topic: "dining-out"
+  lesson: ["lesson-11"]
+  level: null
+  passage_group: "p7-21-23"
+  passage: |
+    **The Grand Harbour Hotel — Events & Banquets**
+    The Grand Harbour is Halston's premier venue for corporate events. Our elegant banquet hall can accommodate up to 400 guests, with flexible seating for dinners, receptions, and product launches. Our in-house catering team prepares everything from a casual buffet to a formal multi-course banquet, and a wide selection of beverages and light refreshments is always on hand. To secure a date, we recommend booking well beforehand, as weekends fill quickly.
+  related_word: null
+  question: "The word \"premier\" in the advertisement is closest in meaning to"
+  options: { A: "cheapest", B: "leading", C: "newest", D: "smallest" }
+  answer: "B"
+  explanation_vi: "\"premier venue\" = địa điểm hàng đầu. *cheapest/newest/smallest* sai nghĩa."

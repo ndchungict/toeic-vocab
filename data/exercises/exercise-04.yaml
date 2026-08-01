@@ -1,0 +1,335 @@
+# EXERCISE 04 — PERSONNEL: Lương & Phúc lợi · Thăng chức, Khen thưởng & Nghỉ việc
+# Nguồn: exercises/exercise-04.md (lesson-04)
+# 25 câu: Part 5 (1-12), Part 6 (13-19), Part 7 (20-25)
+
+- id: "exercise-04-p5-01"
+  part: 5
+  topic: "personnel"
+  lesson: ["lesson-04"]
+  level: 600
+  related_word: "raise"
+  question: "After two years without any pay increase, several engineers decided to ask for a ______."
+  options: { A: "morale", B: "raise", C: "turnover", D: "allowance" }
+  answer: "B"
+  explanation_vi: "\"ask for a raise\" = xin tăng lương; hợp với \"without any pay increase\". *morale/turnover/allowance* sai nghĩa. ⚠️ raise (n) = khoản tăng lương."
+
+- id: "exercise-04-p5-02"
+  part: 5
+  topic: "personnel"
+  lesson: ["lesson-04"]
+  level: 750
+  related_word: "eligible"
+  question: "Employees who have been on the payroll for at least one year are ______ for the annual retention bonus."
+  options: { A: "entitled", B: "competent", C: "eligible", D: "proficient" }
+  answer: "C"
+  explanation_vi: "\"be **eligible for** sth\" = đủ điều kiện nhận gì. *entitled* đi với **to**, không hợp giới từ ở đây; *competent/proficient* nói về năng lực."
+
+- id: "exercise-04-p5-03"
+  part: 5
+  topic: "personnel"
+  lesson: ["lesson-04"]
+  level: 750
+  related_word: "entitled"
+  question: "Under the new policy, every full-time worker is ______ to fifteen days of paid leave each year."
+  options: { A: "eligible", B: "entitled", C: "liable", D: "available" }
+  answer: "B"
+  explanation_vi: "\"be **entitled to** sth\" = có quyền được hưởng. Đây là cặp bẫy với câu 2: *eligible* + **for**, *entitled* + **to**. *liable* (chịu trách nhiệm) sai nghĩa."
+
+- id: "exercise-04-p5-04"
+  part: 5
+  topic: "personnel"
+  lesson: ["lesson-04"]
+  level: 600
+  related_word: "overtime"
+  question: "Because of the tight deadline, many staff had to work ______ throughout the month."
+  options: { A: "payroll", B: "turnover", C: "severance", D: "overtime" }
+  answer: "D"
+  explanation_vi: "\"work overtime\" = làm thêm giờ; hợp với \"tight deadline… throughout the month\". *payroll/turnover/severance* không đi với \"work\"."
+
+- id: "exercise-04-p5-05"
+  part: 5
+  topic: "personnel"
+  lesson: ["lesson-04"]
+  level: 750
+  related_word: "compensation"
+  question: "The ______ package Aster offered included a competitive salary, full benefits, and a year-end bonus."
+  options: { A: "recognition", B: "probation", C: "reference", D: "compensation" }
+  answer: "D"
+  explanation_vi: "\"compensation package\" gồm salary + benefits + bonus = gói đãi ngộ tổng. *recognition/probation/reference* sai loại gói."
+
+- id: "exercise-04-p5-06"
+  part: 5
+  topic: "personnel"
+  lesson: ["lesson-04"]
+  level: 750
+  related_word: "resign"
+  question: "Frustrated by the slow pace of promotion, the senior developer threatened to ______."
+  options: { A: "resign", B: "recruit", C: "retire", D: "relocate" }
+  answer: "A"
+  explanation_vi: "\"threatened to resign\" = dọa xin nghỉ; người \"frustrated by slow promotion\" chủ động nghỉ → **resign**. *retire* là nghỉ hưu (do tuổi), *recruit/relocate* sai nghĩa. ⚠️ resign (tự nghỉ) ≠ dismiss/lay off (bị nghỉ)."
+
+- id: "exercise-04-p5-07"
+  part: 5
+  topic: "personnel"
+  lesson: ["lesson-04"]
+  level: 600
+  related_word: "promotion"
+  question: "In recognition of her strong results, Ms. Marchetti was put up for a ______ to department head."
+  options: { A: "pension", B: "promotion", C: "dismissal", D: "vacancy" }
+  answer: "B"
+  explanation_vi: "\"be up for a promotion\" = đang được xét thăng chức; \"a promotion **to** department head\". *pension/dismissal/vacancy* sai nghĩa."
+
+- id: "exercise-04-p5-08"
+  part: 5
+  topic: "personnel"
+  lesson: ["lesson-04"]
+  level: 750
+  related_word: "turnover"
+  question: "High employee ______ is costly, because replacing and training new staff takes both time and money."
+  options: { A: "turnover", B: "overtime", C: "workforce", D: "morale" }
+  answer: "A"
+  explanation_vi: "\"employee turnover\" = tỷ lệ nghỉ việc; hợp với \"replacing and training new staff\". *workforce* (lực lượng lao động) là bẫy nghĩa gần nhưng không nói về \"tỷ lệ rời đi\"."
+
+- id: "exercise-04-p5-09"
+  part: 5
+  topic: "personnel"
+  lesson: ["lesson-04"]
+  level: 600
+  related_word: "wage"
+  question: "Unlike the salaried managers, the assembly-line staff are paid an hourly ______."
+  options: { A: "salary", B: "bonus", C: "allowance", D: "wage" }
+  answer: "D"
+  explanation_vi: "nhân viên trả theo giờ → \"hourly **wage**\"; đối lập với \"salaried managers\" (ăn lương cố định). ⚠️ salary (cố định tháng/năm) ≠ wage (theo giờ)."
+
+- id: "exercise-04-p5-10"
+  part: 5
+  topic: "personnel"
+  lesson: ["lesson-04"]
+  level: 750
+  related_word: "lay off"
+  question: "To cut costs, the rival firm was forced to ______ nearly a hundred workers last quarter."
+  options: { A: "recruit", B: "lay off", C: "promote", D: "reimburse" }
+  answer: "B"
+  explanation_vi: "\"lay off workers\" = cho thôi việc do cắt giảm chi phí. *recruit* (tuyển), *promote* (thăng chức), *reimburse* (hoàn tiền) trái nghĩa/ngữ cảnh."
+
+- id: "exercise-04-p5-11"
+  part: 5
+  topic: "personnel"
+  lesson: ["lesson-04"]
+  level: 750
+  related_word: "allowance"
+  question: "Staff members who travel to the Halston office each month receive a generous travel ______."
+  options: { A: "award", B: "invoice", C: "allowance", D: "receipt" }
+  answer: "C"
+  explanation_vi: "\"travel allowance\" = phụ cấp đi lại. *award* (giải thưởng), *invoice/receipt* (hóa đơn/biên lai) sai nghĩa."
+
+- id: "exercise-04-p5-12"
+  part: 5
+  topic: "personnel"
+  lesson: ["lesson-04"]
+  level: 600
+  related_word: "benefits"
+  question: "A comprehensive ______ package — including health insurance and paid leave — helps the company attract talent."
+  options: { A: "benefits", B: "minutes", C: "premises", D: "findings" }
+  answer: "A"
+  explanation_vi: "\"benefits package\" (bảo hiểm + nghỉ phép) = gói phúc lợi. *minutes/premises/findings* sai loại."
+
+- id: "exercise-04-p6-13"
+  part: 6
+  topic: "personnel"
+  lesson: ["lesson-04"]
+  level: 750
+  passage_group: "p6-13-16"
+  passage: |
+    **MEMORANDUM**
+    **To:** All Project Aria Staff **From:** Priya Nair, Corporate Services
+    **Re:** Keeping Our Team Strong
+
+    As our **(13)______** grows to support Project Aria, the leadership team wants to make sure our best people stay and feel valued. Effective next month, every employee who has completed one year on the payroll will be **(14)______** for a special retention bonus. We are also launching a quarterly **(15)______** program, the "Aria Star" award, to celebrate outstanding work. We are confident these steps will lift **(16)______** across the company and keep our turnover low.
+  related_word: "workforce"
+  options: { A: "overtime", B: "premises", C: "workforce", D: "invoice" }
+  answer: "C"
+  explanation_vi: "\"our workforce grows\" = lực lượng lao động lớn dần. *overtime/premises/invoice* không \"grow to support a project\"."
+
+- id: "exercise-04-p6-14"
+  part: 6
+  topic: "personnel"
+  lesson: ["lesson-04"]
+  level: 750
+  passage_group: "p6-13-16"
+  passage: |
+    **MEMORANDUM**
+    **To:** All Project Aria Staff **From:** Priya Nair, Corporate Services
+    **Re:** Keeping Our Team Strong
+
+    As our **(13)______** grows to support Project Aria, the leadership team wants to make sure our best people stay and feel valued. Effective next month, every employee who has completed one year on the payroll will be **(14)______** for a special retention bonus. We are also launching a quarterly **(15)______** program, the "Aria Star" award, to celebrate outstanding work. We are confident these steps will lift **(16)______** across the company and keep our turnover low.
+  related_word: "eligible"
+  options: { A: "eligible", B: "liable", C: "entitled", D: "proficient" }
+  answer: "A"
+  explanation_vi: "\"be **eligible for** a bonus\" (đủ điều kiện). *entitled* cần **to**; *liable/proficient* sai nghĩa."
+
+- id: "exercise-04-p6-15"
+  part: 6
+  topic: "personnel"
+  lesson: ["lesson-04"]
+  level: 750
+  passage_group: "p6-13-16"
+  passage: |
+    **MEMORANDUM**
+    **To:** All Project Aria Staff **From:** Priya Nair, Corporate Services
+    **Re:** Keeping Our Team Strong
+
+    As our **(13)______** grows to support Project Aria, the leadership team wants to make sure our best people stay and feel valued. Effective next month, every employee who has completed one year on the payroll will be **(14)______** for a special retention bonus. We are also launching a quarterly **(15)______** program, the "Aria Star" award, to celebrate outstanding work. We are confident these steps will lift **(16)______** across the company and keep our turnover low.
+  related_word: "recognition"
+  options: { A: "probation", B: "reservation", C: "orientation", D: "recognition" }
+  answer: "D"
+  explanation_vi: "\"a recognition program… to celebrate outstanding work\" = chương trình ghi nhận. *probation/reservation/orientation* sai nghĩa."
+
+- id: "exercise-04-p6-16"
+  part: 6
+  topic: "personnel"
+  lesson: ["lesson-04"]
+  level: 750
+  passage_group: "p6-13-16"
+  passage: |
+    **MEMORANDUM**
+    **To:** All Project Aria Staff **From:** Priya Nair, Corporate Services
+    **Re:** Keeping Our Team Strong
+
+    As our **(13)______** grows to support Project Aria, the leadership team wants to make sure our best people stay and feel valued. Effective next month, every employee who has completed one year on the payroll will be **(14)______** for a special retention bonus. We are also launching a quarterly **(15)______** program, the "Aria Star" award, to celebrate outstanding work. We are confident these steps will lift **(16)______** across the company and keep our turnover low.
+  related_word: "morale"
+  options: { A: "turnover", B: "morale", C: "payroll", D: "leave" }
+  answer: "B"
+  explanation_vi: "\"lift morale… keep turnover low\" = vực tinh thần. *turnover* thì bị \"keep low\" ở vế sau (không thể \"lift\"); *payroll/leave* sai nghĩa."
+
+- id: "exercise-04-p6-17"
+  part: 6
+  topic: "personnel"
+  lesson: ["lesson-04"]
+  level: 600
+  passage_group: "p6-17-19"
+  passage: |
+    **ANNOUNCEMENT — Aster Home Technologies**
+    After twenty-five years of dedicated service, our chief systems engineer, Mr. Alan Reyes, will **(17)______** at the end of December. Thanks to the company's guaranteed **(18)______** plan, his retirement is fully secured. At next month's staff dinner, Mr. Reyes will receive a special **(19)______** in recognition of his many accomplishments. Please join us in thanking him.
+  related_word: "retire"
+  options: { A: "resign", B: "dismiss", C: "retire", D: "transfer" }
+  answer: "C"
+  explanation_vi: "\"after 25 years… will retire at the end of December\" = nghỉ hưu (do thâm niên/tuổi). *resign* (tự xin nghỉ giữa chừng) và *dismiss* (bị sa thải) đều sai sắc thái; *transfer* là điều chuyển."
+
+- id: "exercise-04-p6-18"
+  part: 6
+  topic: "personnel"
+  lesson: ["lesson-04"]
+  level: 750
+  passage_group: "p6-17-19"
+  passage: |
+    **ANNOUNCEMENT — Aster Home Technologies**
+    After twenty-five years of dedicated service, our chief systems engineer, Mr. Alan Reyes, will **(17)______** at the end of December. Thanks to the company's guaranteed **(18)______** plan, his retirement is fully secured. At next month's staff dinner, Mr. Reyes will receive a special **(19)______** in recognition of his many accomplishments. Please join us in thanking him.
+  related_word: "pension"
+  options: { A: "pension", B: "payroll", C: "severance", D: "allowance" }
+  answer: "A"
+  explanation_vi: "\"guaranteed pension plan… retirement is secured\" = lương hưu. *payroll/severance/allowance* không phải khoản hưu trí."
+
+- id: "exercise-04-p6-19"
+  part: 6
+  topic: "personnel"
+  lesson: ["lesson-04"]
+  level: 600
+  passage_group: "p6-17-19"
+  passage: |
+    **ANNOUNCEMENT — Aster Home Technologies**
+    After twenty-five years of dedicated service, our chief systems engineer, Mr. Alan Reyes, will **(17)______** at the end of December. Thanks to the company's guaranteed **(18)______** plan, his retirement is fully secured. At next month's staff dinner, Mr. Reyes will receive a special **(19)______** in recognition of his many accomplishments. Please join us in thanking him.
+  related_word: "award"
+  options: { A: "grievance", B: "award", C: "probation", D: "vacancy" }
+  answer: "B"
+  explanation_vi: "\"receive a special award **in recognition of** his accomplishments\" = được trao giải thưởng. *grievance/probation/vacancy* sai nghĩa."
+
+- id: "exercise-04-p7-20"
+  part: 7
+  topic: "personnel"
+  lesson: ["lesson-04"]
+  level: null
+  passage_group: "p7-20-22"
+  passage: |
+    **Aster Weekly — People & Culture**
+    This month, the Corporate Services team rolled out a company-wide plan to retain key talent. "Recruiting is only half the job; keeping our people is the harder half," said Priya Nair. The plan raised salaries for critical roles, introduced a quarterly recognition award, and confirmed that no member of staff would be laid off simply to reduce costs. Early signs are encouraging: staff morale has risen, and at least one engineer who had been weighing an offer from a rival has chosen to stay — for now.
+  related_word: null
+  question: "What is the main purpose of the article?"
+  options: { A: "To announce layoffs at Aster", B: "To describe a plan for keeping employees", C: "To advertise a job opening", D: "To report the company's annual profit" }
+  answer: "B"
+  explanation_vi: "bài viết mô tả **kế hoạch giữ chân nhân viên** (raise salaries, recognition award, không sa thải). (A) trái nội dung; (C)/(D) không phải trọng tâm."
+
+- id: "exercise-04-p7-21"
+  part: 7
+  topic: "personnel"
+  lesson: ["lesson-04"]
+  level: null
+  passage_group: "p7-20-22"
+  passage: |
+    **Aster Weekly — People & Culture**
+    This month, the Corporate Services team rolled out a company-wide plan to retain key talent. "Recruiting is only half the job; keeping our people is the harder half," said Priya Nair. The plan raised salaries for critical roles, introduced a quarterly recognition award, and confirmed that no member of staff would be laid off simply to reduce costs. Early signs are encouraging: staff morale has risen, and at least one engineer who had been weighing an offer from a rival has chosen to stay — for now.
+  related_word: null
+  question: "According to the article, what is one part of the retention plan?"
+  options: { A: "Longer working hours", B: "A quarterly recognition award", C: "Reduced salaries", D: "Mandatory transfers" }
+  answer: "B"
+  explanation_vi: "một phần của kế hoạch là **giải thưởng ghi nhận hằng quý** (\"a quarterly recognition award\"). Các phương án còn lại không được nêu là biện pháp giữ người."
+
+- id: "exercise-04-p7-22"
+  part: 7
+  topic: "personnel"
+  lesson: ["lesson-04"]
+  level: null
+  passage_group: "p7-20-22"
+  passage: |
+    **Aster Weekly — People & Culture**
+    This month, the Corporate Services team rolled out a company-wide plan to retain key talent. "Recruiting is only half the job; keeping our people is the harder half," said Priya Nair. The plan raised salaries for critical roles, introduced a quarterly recognition award, and confirmed that no member of staff would be laid off simply to reduce costs. Early signs are encouraging: staff morale has risen, and at least one engineer who had been weighing an offer from a rival has chosen to stay — for now.
+  related_word: null
+  question: "The word \"retain\" in the article is closest in meaning to"
+  options: { A: "keep", B: "dismiss", C: "hire", D: "train" }
+  answer: "A"
+  explanation_vi: "\"retain talent\" ≈ **keep** (giữ người); chính câu mở đầu đã diễn giải \"keeping our people\". *dismiss/hire/train* không đồng nghĩa."
+
+- id: "exercise-04-p7-23"
+  part: 7
+  topic: "personnel"
+  lesson: ["lesson-04"]
+  level: null
+  passage_group: "p7-23-25"
+  passage: |
+    **Business Halston — Industry Notes**
+    Analysts point to a sharp contrast between two rivals in the smart-home sector. Neura Corporation, following a recent acquisition, announced that it would restructure and reduce its personnel, offering severance pay to hundreds of departing staff. Aster Home Technologies has taken the opposite approach, expanding its workforce for the upcoming Aria launch and keeping employee turnover unusually low. "Our people are our greatest asset," a company spokesperson said. "Every accomplishment on Project Aria belongs to the whole team."
+  related_word: null
+  question: "How does Neura's approach differ from Aster's?"
+  options: { A: "Neura is expanding while Aster is shrinking", B: "Neura is cutting staff while Aster is adding staff", C: "Both are laying off workers", D: "Both have frozen all hiring" }
+  answer: "B"
+  explanation_vi: "Neura **cắt giảm nhân sự** còn Aster **mở rộng đội ngũ** (\"reduce its personnel\" vs \"expanding its workforce\"). (A) đảo ngược; (C)/(D) trái với bài."
+
+- id: "exercise-04-p7-24"
+  part: 7
+  topic: "personnel"
+  lesson: ["lesson-04"]
+  level: null
+  passage_group: "p7-23-25"
+  passage: |
+    **Business Halston — Industry Notes**
+    Analysts point to a sharp contrast between two rivals in the smart-home sector. Neura Corporation, following a recent acquisition, announced that it would restructure and reduce its personnel, offering severance pay to hundreds of departing staff. Aster Home Technologies has taken the opposite approach, expanding its workforce for the upcoming Aria launch and keeping employee turnover unusually low. "Our people are our greatest asset," a company spokesperson said. "Every accomplishment on Project Aria belongs to the whole team."
+  related_word: null
+  question: "What does the report say about Aster's employee turnover?"
+  options: { A: "It is unusually high", B: "It is unusually low", C: "It is rising quickly", D: "It is not mentioned" }
+  answer: "B"
+  explanation_vi: "Aster giữ **employee turnover unusually low** (tỷ lệ nghỉ việc thấp bất thường)."
+
+- id: "exercise-04-p7-25"
+  part: 7
+  topic: "personnel"
+  lesson: ["lesson-04"]
+  level: null
+  passage_group: "p7-23-25"
+  passage: |
+    **Business Halston — Industry Notes**
+    Analysts point to a sharp contrast between two rivals in the smart-home sector. Neura Corporation, following a recent acquisition, announced that it would restructure and reduce its personnel, offering severance pay to hundreds of departing staff. Aster Home Technologies has taken the opposite approach, expanding its workforce for the upcoming Aria launch and keeping employee turnover unusually low. "Our people are our greatest asset," a company spokesperson said. "Every accomplishment on Project Aria belongs to the whole team."
+  related_word: null
+  question: "The word \"personnel\" in the report is closest in meaning to"
+  options: { A: "equipment", B: "staff", C: "products", D: "budget" }
+  answer: "B"
+  explanation_vi: "\"personnel\" ≈ **staff** (nhân sự, tập thể người lao động). *equipment/products/budget* không phải người. ⚠️ personnel ≠ personal."

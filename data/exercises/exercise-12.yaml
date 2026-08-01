@@ -1,0 +1,301 @@
+# EXERCISE 12 — DINING OUT: Món ăn · Kiêng khem & Thanh toán
+# Nguồn: exercises/exercise-12.md (lesson-12)
+# 23 câu: Part 5 (1-10), Part 6 (11-17), Part 7 (18-23)
+
+- id: "exercise-12-p5-01"
+  part: 5
+  topic: "dining-out"
+  lesson: ["lesson-12"]
+  level: 600
+  related_word: "server"
+  question: "Our ______ was attentive, refilling the water glasses and clearing plates without being asked."
+  options: { A: "ingredient", B: "appetizer", C: "server", D: "gratuity" }
+  answer: "C"
+  explanation_vi: "\"our server was attentive… clearing plates\" = nhân viên phục vụ. *ingredient/appetizer/gratuity* không chỉ người."
+
+- id: "exercise-12-p5-02"
+  part: 5
+  topic: "dining-out"
+  lesson: ["lesson-12"]
+  level: 600
+  related_word: "appetizer"
+  question: "The group shared a seafood ______ before their main courses arrived."
+  options: { A: "appetizer", B: "gratuity", C: "server", D: "reservation" }
+  answer: "A"
+  explanation_vi: "\"shared a seafood appetizer before their main courses\" = món khai vị (dùng trước món chính). *gratuity/server/reservation* sai nghĩa."
+
+- id: "exercise-12-p5-03"
+  part: 5
+  topic: "dining-out"
+  lesson: ["lesson-12"]
+  level: 750
+  related_word: "entrée"
+  question: "For her main course, Karen chose the grilled halibut ______."
+  options: { A: "appetizer", B: "side dish", C: "dessert", D: "entrée" }
+  answer: "D"
+  explanation_vi: "\"for her main course… the grilled halibut entrée\" = món chính (kiểu Mỹ). *appetizer/side dish/dessert* là các món khác. ⚠️ entrée = món chính, không phải khai vị."
+
+- id: "exercise-12-p5-04"
+  part: 5
+  topic: "dining-out"
+  lesson: ["lesson-12"]
+  level: 600
+  related_word: "dessert"
+  question: "They finished the meal with a rich chocolate ______."
+  options: { A: "appetizer", B: "dessert", C: "ingredient", D: "server" }
+  answer: "B"
+  explanation_vi: "\"finished the meal with a chocolate dessert\" = món tráng miệng. *appetizer/ingredient/server* sai nghĩa."
+
+- id: "exercise-12-p5-05"
+  part: 5
+  topic: "dining-out"
+  lesson: ["lesson-12"]
+  level: 750
+  related_word: "specialty"
+  question: "Grilled seafood is the ______ of this harbourside restaurant, and regulars order it every time."
+  options: { A: "specialty", B: "gratuity", C: "reservation", D: "takeout" }
+  answer: "A"
+  explanation_vi: "\"grilled seafood is the specialty… order it every time\" = món đặc sản. *gratuity/reservation/takeout* sai nghĩa."
+
+- id: "exercise-12-p5-06"
+  part: 5
+  topic: "dining-out"
+  lesson: ["lesson-12"]
+  level: 600
+  related_word: "vegetarian"
+  question: "Because two of the guests do not eat meat, the host asked about ______ options on the menu."
+  options: { A: "seasonal", B: "complimentary", C: "vegetarian", D: "takeout" }
+  answer: "C"
+  explanation_vi: "\"do not eat meat… vegetarian options\" = (món) chay. *seasonal/complimentary* là tính từ khác nghĩa; *takeout* sai nghĩa."
+
+- id: "exercise-12-p5-07"
+  part: 5
+  topic: "dining-out"
+  lesson: ["lesson-12"]
+  level: 900
+  related_word: "gratuity"
+  question: "For parties of six or more, a 15% ______ is automatically added to the bill."
+  options: { A: "gratuity", B: "appetizer", C: "ingredient", D: "reservation" }
+  answer: "A"
+  explanation_vi: "\"a 15% gratuity is automatically added to the bill\" = phí phục vụ/tiền boa cộng sẵn. *appetizer/ingredient/reservation* sai nghĩa. ⚠️ gratuity thường được cộng sẵn (khác *tip* để tùy tâm)."
+
+- id: "exercise-12-p5-08"
+  part: 5
+  topic: "dining-out"
+  lesson: ["lesson-12"]
+  level: null
+  related_word: null
+  question: "Rather than waste the leftovers, Ben asked the server to pack them ______."
+  options: { A: "beforehand", B: "for here", C: "on hand", D: "to go" }
+  answer: "D"
+  explanation_vi: "\"pack them to go\" = gói mang về. *beforehand/for here/on hand* sai nghĩa (*for here* = dùng tại chỗ, trái nghĩa)."
+
+- id: "exercise-12-p5-09"
+  part: 5
+  topic: "dining-out"
+  lesson: ["lesson-12"]
+  level: 750
+  related_word: "seasonal"
+  question: "The restaurant updates its menu four times a year to highlight ______ produce."
+  options: { A: "complimentary", B: "seasonal", C: "dietary", D: "takeout" }
+  answer: "B"
+  explanation_vi: "\"updates its menu four times a year… produce\" = theo mùa. *complimentary/dietary/takeout* sai nghĩa."
+
+- id: "exercise-12-p5-10"
+  part: 5
+  topic: "dining-out"
+  lesson: ["lesson-12"]
+  level: 600
+  related_word: "ingredient"
+  question: "The chef insists on fresh, locally sourced ______ for every dish on the menu."
+  options: { A: "appetizers", B: "gratuities", C: "ingredients", D: "servers" }
+  answer: "C"
+  explanation_vi: "\"fresh, locally sourced ingredients for every dish\" = nguyên liệu. *appetizers/gratuities/servers* sai nghĩa."
+
+- id: "exercise-12-p6-11"
+  part: 6
+  topic: "dining-out"
+  lesson: ["lesson-12"]
+  level: 600
+  passage_group: "p6-11-14"
+  passage: |
+    **THE HARBOURLINE — Dinner Notes for Your Party**
+    Each main course comes with your choice of one **(11)______**, such as seasonal vegetables or harbour rice. If anyone in your group has **(12)______**, please inform your server, and our kitchen will gladly adapt any dish. Guests marking a special occasion will receive a **(13)______** dessert, courtesy of the chef. Tonight we especially recommend the house **(14)______**: the grilled catch of the day.
+  related_word: "side dish"
+  options: { A: "reservation", B: "gratuity", C: "side dish", D: "venue" }
+  answer: "C"
+  explanation_vi: "\"your choice of one side dish, such as seasonal vegetables or rice\" = món ăn kèm. *reservation/gratuity/venue* sai nghĩa."
+
+- id: "exercise-12-p6-12"
+  part: 6
+  topic: "dining-out"
+  lesson: ["lesson-12"]
+  level: 900
+  passage_group: "p6-11-14"
+  passage: |
+    **THE HARBOURLINE — Dinner Notes for Your Party**
+    Each main course comes with your choice of one **(11)______**, such as seasonal vegetables or harbour rice. If anyone in your group has **(12)______**, please inform your server, and our kitchen will gladly adapt any dish. Guests marking a special occasion will receive a **(13)______** dessert, courtesy of the chef. Tonight we especially recommend the house **(14)______**: the grilled catch of the day.
+  related_word: "dietary restrictions"
+  options: { A: "seating", B: "dietary restrictions", C: "refreshments", D: "beverage" }
+  answer: "B"
+  explanation_vi: "\"if anyone has dietary restrictions… kitchen will adapt\" = chế độ ăn kiêng. *seating/refreshments/beverage* sai nghĩa."
+
+- id: "exercise-12-p6-13"
+  part: 6
+  topic: "dining-out"
+  lesson: ["lesson-12"]
+  level: 750
+  passage_group: "p6-11-14"
+  passage: |
+    **THE HARBOURLINE — Dinner Notes for Your Party**
+    Each main course comes with your choice of one **(11)______**, such as seasonal vegetables or harbour rice. If anyone in your group has **(12)______**, please inform your server, and our kitchen will gladly adapt any dish. Guests marking a special occasion will receive a **(13)______** dessert, courtesy of the chef. Tonight we especially recommend the house **(14)______**: the grilled catch of the day.
+  related_word: "complimentary"
+  options: { A: "reserved", B: "booked", C: "hosted", D: "complimentary" }
+  answer: "D"
+  explanation_vi: "\"a complimentary dessert, courtesy of the chef\" = miễn phí, nhà hàng tặng. *reserved/booked/hosted* sai nghĩa (không mô tả \"miễn phí\")."
+
+- id: "exercise-12-p6-14"
+  part: 6
+  topic: "dining-out"
+  lesson: ["lesson-12"]
+  level: 750
+  passage_group: "p6-11-14"
+  passage: |
+    **THE HARBOURLINE — Dinner Notes for Your Party**
+    Each main course comes with your choice of one **(11)______**, such as seasonal vegetables or harbour rice. If anyone in your group has **(12)______**, please inform your server, and our kitchen will gladly adapt any dish. Guests marking a special occasion will receive a **(13)______** dessert, courtesy of the chef. Tonight we especially recommend the house **(14)______**: the grilled catch of the day.
+  related_word: "specialty"
+  options: { A: "specialty", B: "party", C: "caterer", D: "server" }
+  answer: "A"
+  explanation_vi: "\"the house specialty: the grilled catch of the day\" = món đặc sản. *party/caterer/server* sai nghĩa."
+
+- id: "exercise-12-p6-15"
+  part: 6
+  topic: "dining-out"
+  lesson: ["lesson-12"]
+  level: null
+  passage_group: "p6-15-17"
+  passage: |
+    **NOTE — After the Dinner**
+    After coffee, Daniel signaled the server and asked for **(15)______**. Because the service had been excellent, he added a generous **(16)______** on top of the total. As the group left, Karen reminded them to **(17)______** to the Brightway banquet invitation before the end of the month.
+  related_word: null
+  options: { A: "an appetizer", B: "the bill", C: "a buffet", D: "a reservation" }
+  answer: "B"
+  explanation_vi: "\"asked for the bill\" = xin hóa đơn. *an appetizer/a buffet/a reservation* sai nghĩa."
+
+- id: "exercise-12-p6-16"
+  part: 6
+  topic: "dining-out"
+  lesson: ["lesson-12"]
+  level: 600
+  passage_group: "p6-15-17"
+  passage: |
+    **NOTE — After the Dinner**
+    After coffee, Daniel signaled the server and asked for **(15)______**. Because the service had been excellent, he added a generous **(16)______** on top of the total. As the group left, Karen reminded them to **(17)______** to the Brightway banquet invitation before the end of the month.
+  related_word: "tip"
+  options: { A: "ingredient", B: "specialty", C: "tip", D: "seating" }
+  answer: "C"
+  explanation_vi: "\"added a generous tip on top of the total\" = tiền boa. *ingredient/specialty/seating* sai nghĩa."
+
+- id: "exercise-12-p6-17"
+  part: 6
+  topic: "dining-out"
+  lesson: ["lesson-12"]
+  level: 750
+  passage_group: "p6-15-17"
+  passage: |
+    **NOTE — After the Dinner**
+    After coffee, Daniel signaled the server and asked for **(15)______**. Because the service had been excellent, he added a generous **(16)______** on top of the total. As the group left, Karen reminded them to **(17)______** to the Brightway banquet invitation before the end of the month.
+  related_word: "RSVP"
+  options: { A: "accommodate", B: "host", C: "cater", D: "RSVP" }
+  answer: "D"
+  explanation_vi: "\"RSVP to the invitation before the end of the month\" = xác nhận tham dự. *accommodate/host/cater* sai nghĩa."
+
+- id: "exercise-12-p7-18"
+  part: 7
+  topic: "dining-out"
+  lesson: ["lesson-12"]
+  level: null
+  passage_group: "p7-18-20"
+  passage: |
+    **Aster Dinner Log — Halston, Later That Evening**
+    The mood warmed as the food arrived. The server brought a shared appetizer, then grilled seafood entrées — the restaurant's specialty — each with a seasonal side dish. When Karen mentioned that one of her colleagues was strictly vegetarian, the kitchen quietly prepared a separate plate and even sent over a complimentary dessert. Over coffee, Diane and Karen reached a verbal agreement: Aria would debut at Brightway's partner banquet. Daniel settled the bill, leaving a generous tip, while Ben boxed up the leftovers to go. Only one worry lingered: pulling off a Halston launch on Brightway's timeline would cost far more than Aster had budgeted.
+  related_word: null
+  question: "What did Diane and Karen agree on?"
+  options: { A: "That Aster would buy Brightway", B: "That Aria would debut at Brightway's partner banquet", C: "That the launch would be delayed a year", D: "That Brightway would design a new product" }
+  answer: "B"
+  explanation_vi: "hai bên đạt thỏa thuận miệng: \"**Aria would debut at Brightway's partner banquet**\". (A)/(C)/(D) không đúng/không nêu."
+
+- id: "exercise-12-p7-19"
+  part: 7
+  topic: "dining-out"
+  lesson: ["lesson-12"]
+  level: null
+  passage_group: "p7-18-20"
+  passage: |
+    **Aster Dinner Log — Halston, Later That Evening**
+    The mood warmed as the food arrived. The server brought a shared appetizer, then grilled seafood entrées — the restaurant's specialty — each with a seasonal side dish. When Karen mentioned that one of her colleagues was strictly vegetarian, the kitchen quietly prepared a separate plate and even sent over a complimentary dessert. Over coffee, Diane and Karen reached a verbal agreement: Aria would debut at Brightway's partner banquet. Daniel settled the bill, leaving a generous tip, while Ben boxed up the leftovers to go. Only one worry lingered: pulling off a Halston launch on Brightway's timeline would cost far more than Aster had budgeted.
+  related_word: null
+  question: "What did the kitchen do when it learned a guest was vegetarian?"
+  options: { A: "It prepared a separate plate", B: "It cancelled the order", C: "It charged extra for dessert", D: "It closed early" }
+  answer: "A"
+  explanation_vi: "khi biết có khách ăn chay, bếp \"**prepared a separate plate**\" (và tặng thêm complimentary dessert). (B)/(C)/(D) sai."
+
+- id: "exercise-12-p7-20"
+  part: 7
+  topic: "dining-out"
+  lesson: ["lesson-12"]
+  level: null
+  passage_group: "p7-18-20"
+  passage: |
+    **Aster Dinner Log — Halston, Later That Evening**
+    The mood warmed as the food arrived. The server brought a shared appetizer, then grilled seafood entrées — the restaurant's specialty — each with a seasonal side dish. When Karen mentioned that one of her colleagues was strictly vegetarian, the kitchen quietly prepared a separate plate and even sent over a complimentary dessert. Over coffee, Diane and Karen reached a verbal agreement: Aria would debut at Brightway's partner banquet. Daniel settled the bill, leaving a generous tip, while Ben boxed up the leftovers to go. Only one worry lingered: pulling off a Halston launch on Brightway's timeline would cost far more than Aster had budgeted.
+  related_word: null
+  question: "The word \"lingered\" in the log is closest in meaning to"
+  options: { A: "disappeared", B: "increased", C: "remained", D: "began" }
+  answer: "C"
+  explanation_vi: "\"lingered\" (worry) = còn nấn ná/vẫn còn đó. *disappeared/increased/began* sai nghĩa."
+
+- id: "exercise-12-p7-21"
+  part: 7
+  topic: "dining-out"
+  lesson: ["lesson-12"]
+  level: null
+  passage_group: "p7-21-23"
+  passage: |
+    **You Are Invited — Brightway Partner Appreciation Banquet**
+    Brightway Retail warmly invites your team to its annual Partner Appreciation Banquet at the Grand Harbour Hotel on 15 November. The evening will feature a buffet of local specialties, live music, and the unveiling of an exciting new smart-home product. A selection of vegetarian and other dishes will be available; please note any dietary restrictions when you reply. Kindly RSVP by 31 October, as seating is limited.
+  related_word: null
+  question: "What will be unveiled at the banquet?"
+  options: { A: "A new restaurant", B: "A new smart-home product", C: "A music album", D: "A hotel" }
+  answer: "B"
+  explanation_vi: "\"the unveiling of an exciting new **smart-home product**\" (chính là Aria). (A)/(C)/(D) không nêu."
+
+- id: "exercise-12-p7-22"
+  part: 7
+  topic: "dining-out"
+  lesson: ["lesson-12"]
+  level: null
+  passage_group: "p7-21-23"
+  passage: |
+    **You Are Invited — Brightway Partner Appreciation Banquet**
+    Brightway Retail warmly invites your team to its annual Partner Appreciation Banquet at the Grand Harbour Hotel on 15 November. The evening will feature a buffet of local specialties, live music, and the unveiling of an exciting new smart-home product. A selection of vegetarian and other dishes will be available; please note any dietary restrictions when you reply. Kindly RSVP by 31 October, as seating is limited.
+  related_word: null
+  question: "By when should guests reply?"
+  options: { A: "15 November", B: "1 October", C: "31 October", D: "30 November" }
+  answer: "C"
+  explanation_vi: "thư mời ghi \"**RSVP by 31 October**\". (A) là ngày tiệc, không phải hạn phản hồi; (B)/(D) sai."
+
+- id: "exercise-12-p7-23"
+  part: 7
+  topic: "dining-out"
+  lesson: ["lesson-12"]
+  level: null
+  passage_group: "p7-21-23"
+  passage: |
+    **You Are Invited — Brightway Partner Appreciation Banquet**
+    Brightway Retail warmly invites your team to its annual Partner Appreciation Banquet at the Grand Harbour Hotel on 15 November. The evening will feature a buffet of local specialties, live music, and the unveiling of an exciting new smart-home product. A selection of vegetarian and other dishes will be available; please note any dietary restrictions when you reply. Kindly RSVP by 31 October, as seating is limited.
+  related_word: null
+  question: "What are guests asked to mention when they reply?"
+  options: { A: "Their seat number", B: "Their travel plans", C: "Their budget", D: "Any dietary restrictions" }
+  answer: "D"
+  explanation_vi: "\"please note any **dietary restrictions** when you reply\". (A)/(B)/(C) không được nêu."

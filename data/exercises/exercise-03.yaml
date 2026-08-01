@@ -1,0 +1,319 @@
+# EXERCISE 03 — PERSONNEL: Tuyển dụng & Ứng tuyển · Đào tạo & Đánh giá
+# Nguồn: exercises/exercise-03.md (lesson-03)
+# 23 câu: Part 5 (1-10), Part 6 (11-17), Part 7 (18-23)
+
+- id: "exercise-03-p5-01"
+  part: 5
+  topic: "personnel"
+  lesson: ["lesson-03"]
+  level: 600
+  related_word: "recruit"
+  question: "To keep up with the growing workload on Project Aria, Ms. Nair decided to ______ additional staff as quickly as possible."
+  options: { A: "recruit", B: "reschedule", C: "resign", D: "relocate" }
+  answer: "A"
+  explanation_vi: "\"recruit staff\" = tuyển dụng nhân sự (nói chung, cả đợt). *reschedule/resign/relocate* sai nghĩa."
+
+- id: "exercise-03-p5-02"
+  part: 5
+  topic: "personnel"
+  lesson: ["lesson-03"]
+  level: 600
+  related_word: "candidate"
+  question: "After reviewing every résumé, Priya shortlisted only the five strongest ______ for an interview."
+  options: { A: "references", B: "candidates", C: "supervisors", D: "mentors" }
+  answer: "B"
+  explanation_vi: "\"shortlist candidates\" = lập danh sách rút gọn các ứng viên. *references* (người giới thiệu) là bẫy nghĩa gần."
+
+- id: "exercise-03-p5-03"
+  part: 5
+  topic: "personnel"
+  lesson: ["lesson-03"]
+  level: 600
+  related_word: "résumé"
+  question: "Each application must include a ______ and a cover letter describing the person's work experience."
+  options: { A: "probation", B: "résumé", C: "vacancy", D: "quorum" }
+  answer: "B"
+  explanation_vi: "bộ hồ sơ gồm \"a résumé and a cover letter\". *vacancy/probation/quorum* không phải tài liệu ứng tuyển."
+
+- id: "exercise-03-p5-04"
+  part: 5
+  topic: "personnel"
+  lesson: ["lesson-03"]
+  level: 600
+  related_word: "qualification"
+  question: "Applicants who do not meet the minimum ______ will not be invited to the interview."
+  options: { A: "qualifications", B: "appraisals", C: "orientations", D: "subordinates" }
+  answer: "A"
+  explanation_vi: "\"meet the minimum qualifications\" = đạt trình độ/bằng cấp tối thiểu."
+
+- id: "exercise-03-p5-05"
+  part: 5
+  topic: "personnel"
+  lesson: ["lesson-03"]
+  level: 750
+  related_word: "credentials"
+  question: "Before making an offer, the HR team carefully verified each finalist's ______, including diplomas and certificates."
+  options: { A: "credentials", B: "minutes", C: "supplies", D: "vacancies" }
+  answer: "A"
+  explanation_vi: "\"diplomas and certificates\" = bằng cấp, chứng chỉ → thuộc nhóm **credentials** (năng lực, chứng chỉ)."
+
+- id: "exercise-03-p5-06"
+  part: 5
+  topic: "personnel"
+  lesson: ["lesson-03"]
+  level: 600
+  related_word: "reference"
+  question: "Ben listed two of his former managers as ______ who could speak to his character."
+  options: { A: "applicants", B: "references", C: "subordinates", D: "candidates" }
+  answer: "B"
+  explanation_vi: "người đứng ra bảo chứng cho ứng viên = **references**. *candidates/applicants* là chính ứng viên, không phải người giới thiệu."
+
+- id: "exercise-03-p5-07"
+  part: 5
+  topic: "personnel"
+  lesson: ["lesson-03"]
+  level: 600
+  related_word: "interview"
+  question: "Ben was extremely nervous during his job ______, but his honest answers impressed the panel."
+  options: { A: "orientation", B: "probation", C: "interview", D: "appraisal" }
+  answer: "C"
+  explanation_vi: "\"job interview\" = buổi phỏng vấn xin việc; \"nervous during the interview\" là ngữ cảnh điển hình."
+
+- id: "exercise-03-p5-08"
+  part: 5
+  topic: "personnel"
+  lesson: ["lesson-03"]
+  level: 600
+  related_word: "hire"
+  question: "Impressed by his eagerness to learn, Priya decided to ______ Ben as a management trainee."
+  options: { A: "interview", B: "hire", C: "mentor", D: "supervise" }
+  answer: "B"
+  explanation_vi: "\"hire sb as + chức danh\" = tuyển ai vào vị trí gì. *interview* (phỏng vấn) chưa phải \"nhận vào\"; *mentor/supervise* là hướng dẫn/giám sát."
+
+- id: "exercise-03-p5-09"
+  part: 5
+  topic: "personnel"
+  lesson: ["lesson-03"]
+  level: 750
+  related_word: "prospective"
+  question: "A ______ employee like Ben may lack experience, but he shows real potential to grow with the company."
+  options: { A: "prospective", B: "competent", C: "confidential", D: "vacant" }
+  answer: "A"
+  explanation_vi: "\"a prospective employee\" = nhân viên tiềm năng (tương lai). *competent* (đã có năng lực) trái với vế \"lack experience\"."
+
+- id: "exercise-03-p5-10"
+  part: 5
+  topic: "personnel"
+  lesson: ["lesson-03"]
+  level: 750
+  related_word: "proficient"
+  question: "After just a few weeks, Ben became remarkably ______ with the spreadsheet software."
+  options: { A: "proficient", B: "prospective", C: "eligible", D: "prompt" }
+  answer: "A"
+  explanation_vi: "\"proficient with software\" = thành thạo phần mềm. *prospective/eligible/prompt* sai nghĩa."
+
+- id: "exercise-03-p6-11"
+  part: 6
+  topic: "personnel"
+  lesson: ["lesson-03"]
+  level: 750
+  passage_group: "p6-11-14"
+  passage: |
+    **JOB POSTING — Aster Home Technologies, Marlowe City**
+    Aster is pleased to announce a new **(11)______** for the position of Management Trainee on the Project Aria team. Because interest is high, we expect a large **(12)______** this year and encourage early submissions. Interested **(13)______** should send a résumé and a **(14)______** by June 30. Two professional references will also be required.
+  related_word: "vacancy"
+  options: { A: "vacancy", B: "orientation", C: "subordinate", D: "appraisal" }
+  answer: "A"
+  explanation_vi: "\"a new vacancy for the position of…\" = một vị trí còn trống. (job opening đồng nghĩa nhưng không có trong 4 lựa chọn.)"
+
+- id: "exercise-03-p6-12"
+  part: 6
+  topic: "personnel"
+  lesson: ["lesson-03"]
+  level: 900
+  passage_group: "p6-11-14"
+  passage: |
+    **JOB POSTING — Aster Home Technologies, Marlowe City**
+    Aster is pleased to announce a new **(11)______** for the position of Management Trainee on the Project Aria team. Because interest is high, we expect a large **(12)______** this year and encourage early submissions. Interested **(13)______** should send a résumé and a **(14)______** by June 30. Two professional references will also be required.
+  related_word: "applicant pool"
+  options: { A: "cover letter", B: "applicant pool", C: "probation", D: "job opening" }
+  answer: "B"
+  explanation_vi: "\"a large applicant pool\" = nguồn ứng viên đông. Hợp với \"interest is high… encourage early submissions\"."
+
+- id: "exercise-03-p6-13"
+  part: 6
+  topic: "personnel"
+  lesson: ["lesson-03"]
+  level: 600
+  passage_group: "p6-11-14"
+  passage: |
+    **JOB POSTING — Aster Home Technologies, Marlowe City**
+    Aster is pleased to announce a new **(11)______** for the position of Management Trainee on the Project Aria team. Because interest is high, we expect a large **(12)______** this year and encourage early submissions. Interested **(13)______** should send a résumé and a **(14)______** by June 30. Two professional references will also be required.
+  related_word: "applicant"
+  options: { A: "supervisors", B: "mentors", C: "applicants", D: "appraisals" }
+  answer: "C"
+  explanation_vi: "\"interested applicants should send a résumé\" = ứng viên quan tâm nên nộp hồ sơ."
+
+- id: "exercise-03-p6-14"
+  part: 6
+  topic: "personnel"
+  lesson: ["lesson-03"]
+  level: 600
+  passage_group: "p6-11-14"
+  passage: |
+    **JOB POSTING — Aster Home Technologies, Marlowe City**
+    Aster is pleased to announce a new **(11)______** for the position of Management Trainee on the Project Aria team. Because interest is high, we expect a large **(12)______** this year and encourage early submissions. Interested **(13)______** should send a résumé and a **(14)______** by June 30. Two professional references will also be required.
+  related_word: "cover letter"
+  options: { A: "cover letter", B: "reference", C: "vacancy", D: "credential" }
+  answer: "A"
+  explanation_vi: "\"a résumé and a cover letter\" = cặp tài liệu ứng tuyển chuẩn."
+
+- id: "exercise-03-p6-15"
+  part: 6
+  topic: "personnel"
+  lesson: ["lesson-03"]
+  level: 750
+  passage_group: "p6-15-17"
+  passage: |
+    **MEMORANDUM**
+    **To:** Project Aria Team **From:** Priya Nair, Corporate Services
+    **Re:** New Management Trainee
+
+    Please welcome Ben Tran, who joins us this Monday. He will attend a half-day **(15)______** session to learn about our company and Project Aria. During his three-month **(16)______** period, I will personally act as his **(17)______**, while he reports to a direct supervisor for his daily tasks.
+  related_word: "orientation"
+  options: { A: "orientation", B: "appraisal", C: "vacancy", D: "reference" }
+  answer: "A"
+  explanation_vi: "\"an orientation session to learn about the company\" = buổi định hướng nhân viên mới."
+
+- id: "exercise-03-p6-16"
+  part: 6
+  topic: "personnel"
+  lesson: ["lesson-03"]
+  level: 750
+  passage_group: "p6-15-17"
+  passage: |
+    **MEMORANDUM**
+    **To:** Project Aria Team **From:** Priya Nair, Corporate Services
+    **Re:** New Management Trainee
+
+    Please welcome Ben Tran, who joins us this Monday. He will attend a half-day **(15)______** session to learn about our company and Project Aria. During his three-month **(16)______** period, I will personally act as his **(17)______**, while he reports to a direct supervisor for his daily tasks.
+  related_word: "probation"
+  options: { A: "probation", B: "interview", C: "credential", D: "applicant" }
+  answer: "A"
+  explanation_vi: "\"a three-month probation period\" = thời gian thử việc ba tháng."
+
+- id: "exercise-03-p6-17"
+  part: 6
+  topic: "personnel"
+  lesson: ["lesson-03"]
+  level: 750
+  passage_group: "p6-15-17"
+  passage: |
+    **MEMORANDUM**
+    **To:** Project Aria Team **From:** Priya Nair, Corporate Services
+    **Re:** New Management Trainee
+
+    Please welcome Ben Tran, who joins us this Monday. He will attend a half-day **(15)______** session to learn about our company and Project Aria. During his three-month **(16)______** period, I will personally act as his **(17)______**, while he reports to a direct supervisor for his daily tasks.
+  related_word: "mentor"
+  options: { A: "subordinate", B: "candidate", C: "mentor", D: "recruit" }
+  answer: "C"
+  explanation_vi: "Priya \"act as his mentor\" (người hướng dẫn); phân biệt với *supervisor* — người mà Ben báo cáo hằng ngày (đã nêu riêng ở vế sau)."
+
+- id: "exercise-03-p7-18"
+  part: 7
+  topic: "personnel"
+  lesson: ["lesson-03"]
+  level: null
+  passage_group: "p7-18-20"
+  passage: |
+    **To:** Ben Tran **From:** Priya Nair **Subject:** Your First Month
+
+    Dear Ben,
+    Congratulations on completing your first month at Aster. Your supervisor tells me you have proven very competent in preparing meeting minutes, and you have become surprisingly proficient with our spreadsheet tools. As we agreed, we will hold a formal performance review at the end of your probation period, and a full appraisal before the end of the year. Keep up the excellent work.
+    — Priya
+  related_word: null
+  question: "What is the main purpose of the email?"
+  options: { A: "To offer Ben a promotion", B: "To praise Ben's progress and outline upcoming evaluations", C: "To warn Ben about poor performance", D: "To announce a new job opening" }
+  answer: "B"
+  explanation_vi: "email chúc mừng, **khen tiến bộ và nêu các đợt đánh giá sắp tới** (performance review, appraisal)."
+
+- id: "exercise-03-p7-19"
+  part: 7
+  topic: "personnel"
+  lesson: ["lesson-03"]
+  level: null
+  passage_group: "p7-18-20"
+  passage: |
+    **To:** Ben Tran **From:** Priya Nair **Subject:** Your First Month
+
+    Dear Ben,
+    Congratulations on completing your first month at Aster. Your supervisor tells me you have proven very competent in preparing meeting minutes, and you have become surprisingly proficient with our spreadsheet tools. As we agreed, we will hold a formal performance review at the end of your probation period, and a full appraisal before the end of the year. Keep up the excellent work.
+    — Priya
+  related_word: null
+  question: "According to the email, what has Ben become skilled at?"
+  options: { A: "Interviewing candidates", B: "Using spreadsheet tools", C: "Managing the payroll", D: "Repairing the photocopier" }
+  answer: "B"
+  explanation_vi: "Ben trở nên **proficient với công cụ bảng tính** (\"proficient with our spreadsheet tools\")."
+
+- id: "exercise-03-p7-20"
+  part: 7
+  topic: "personnel"
+  lesson: ["lesson-03"]
+  level: null
+  passage_group: "p7-18-20"
+  passage: |
+    **To:** Ben Tran **From:** Priya Nair **Subject:** Your First Month
+
+    Dear Ben,
+    Congratulations on completing your first month at Aster. Your supervisor tells me you have proven very competent in preparing meeting minutes, and you have become surprisingly proficient with our spreadsheet tools. As we agreed, we will hold a formal performance review at the end of your probation period, and a full appraisal before the end of the year. Keep up the excellent work.
+    — Priya
+  related_word: null
+  question: "The word \"competent\" in the email is closest in meaning to"
+  options: { A: "capable", B: "nervous", C: "prospective", D: "senior" }
+  answer: "A"
+  explanation_vi: "\"competent\" ≈ **capable** (có năng lực). *nervous/prospective/senior* không đồng nghĩa."
+
+- id: "exercise-03-p7-21"
+  part: 7
+  topic: "personnel"
+  lesson: ["lesson-03"]
+  level: null
+  passage_group: "p7-21-23"
+  passage: |
+    **Aster Weekly — People & Culture**
+    After posting a single job opening for Project Aria, the Corporate Services team was surprised by the size of the applicant pool: more than two hundred résumés arrived within a week. "We checked every finalist's references personally," said Priya Nair. The chosen candidate, management trainee Ben Tran, will rotate through several departments over the coming months. Although he is currently the most junior subordinate on the team, his supervisors already praise his eagerness to learn.
+  related_word: null
+  question: "How many job openings did the team post?"
+  options: { A: "One", B: "Two", C: "Two hundred", D: "Several" }
+  answer: "A"
+  explanation_vi: "\"posting a **single** job opening\" = chỉ đăng **một** vị trí."
+
+- id: "exercise-03-p7-22"
+  part: 7
+  topic: "personnel"
+  lesson: ["lesson-03"]
+  level: null
+  passage_group: "p7-21-23"
+  passage: |
+    **Aster Weekly — People & Culture**
+    After posting a single job opening for Project Aria, the Corporate Services team was surprised by the size of the applicant pool: more than two hundred résumés arrived within a week. "We checked every finalist's references personally," said Priya Nair. The chosen candidate, management trainee Ben Tran, will rotate through several departments over the coming months. Although he is currently the most junior subordinate on the team, his supervisors already praise his eagerness to learn.
+  related_word: null
+  question: "What surprised the Corporate Services team?"
+  options: { A: "The high salary", B: "The large number of applicants", C: "The lack of references", D: "The short interview" }
+  answer: "B"
+  explanation_vi: "nhóm bất ngờ vì **số lượng ứng viên lớn** (applicant pool hơn 200 hồ sơ trong một tuần)."
+
+- id: "exercise-03-p7-23"
+  part: 7
+  topic: "personnel"
+  lesson: ["lesson-03"]
+  level: null
+  passage_group: "p7-21-23"
+  passage: |
+    **Aster Weekly — People & Culture**
+    After posting a single job opening for Project Aria, the Corporate Services team was surprised by the size of the applicant pool: more than two hundred résumés arrived within a week. "We checked every finalist's references personally," said Priya Nair. The chosen candidate, management trainee Ben Tran, will rotate through several departments over the coming months. Although he is currently the most junior subordinate on the team, his supervisors already praise his eagerness to learn.
+  related_word: null
+  question: "What will Ben Tran do in the coming months?"
+  options: { A: "Leave the company", B: "Rotate through several departments", C: "Become a supervisor immediately", D: "Conduct performance reviews" }
+  answer: "B"
+  explanation_vi: "Ben sẽ **luân chuyển qua nhiều phòng ban** trong các tháng tới."

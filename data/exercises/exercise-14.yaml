@@ -1,0 +1,323 @@
+# EXERCISE 14 — FINANCE: Đầu tư · Thuế & Ngân sách
+# Nguồn: exercises/exercise-14.md (lesson-14)
+# 25 câu: Part 5 (1-12), Part 6 (13-19), Part 7 (20-25)
+
+- id: "exercise-14-p5-01"
+  part: 5
+  topic: "finance-budgeting"
+  lesson: ["lesson-14"]
+  level: 600
+  related_word: "investment"
+  question: "The board debated whether the Aria project was a sound ______ or too great a risk."
+  options: { A: "taxation", B: "investment", C: "receipt", D: "deficit" }
+  answer: "B"
+  explanation_vi: "\"a sound investment or too great a risk\" = sự đầu tư. *taxation/receipt/deficit* sai nghĩa."
+
+- id: "exercise-14-p5-02"
+  part: 5
+  topic: "finance-budgeting"
+  lesson: ["lesson-14"]
+  level: 750
+  related_word: "shareholder"
+  question: "At the annual meeting, every ______ has the right to vote on major company decisions."
+  options: { A: "auditor", B: "teller", C: "shareholder", D: "supplier" }
+  answer: "C"
+  explanation_vi: "\"every shareholder may vote at the meeting\" = cổ đông. *auditor/teller/supplier* sai nghĩa."
+
+- id: "exercise-14-p5-03"
+  part: 5
+  topic: "finance-budgeting"
+  lesson: ["lesson-14"]
+  level: 750
+  related_word: "portfolio"
+  question: "The investor studied the company carefully before adding its shares to her ______."
+  options: { A: "portfolio", B: "budget", C: "receipt", D: "liability" }
+  answer: "A"
+  explanation_vi: "\"adding its shares to her portfolio\" = danh mục đầu tư. *budget/receipt/liability* sai nghĩa."
+
+- id: "exercise-14-p5-04"
+  part: 5
+  topic: "finance-budgeting"
+  lesson: ["lesson-14"]
+  level: 900
+  related_word: "dividend"
+  question: "When profits are strong, the company pays its shareholders a ______ on each share."
+  options: { A: "deficit", B: "mortgage", C: "collateral", D: "dividend" }
+  answer: "D"
+  explanation_vi: "\"pays shareholders a dividend on each share\" = cổ tức. *deficit/mortgage/collateral* sai nghĩa."
+
+- id: "exercise-14-p5-05"
+  part: 5
+  topic: "finance-budgeting"
+  lesson: ["lesson-14"]
+  level: 750
+  related_word: "asset"
+  question: "Aria's patents and brand are treated as a valuable ______ on the company's books."
+  options: { A: "liability", B: "asset", C: "deduction", D: "deficit" }
+  answer: "B"
+  explanation_vi: "\"a valuable asset on the books\" = tài sản. ⚠️ đối lập với *liability*; *deduction/deficit* sai nghĩa."
+
+- id: "exercise-14-p5-06"
+  part: 5
+  topic: "finance-budgeting"
+  lesson: ["lesson-14"]
+  level: 900
+  related_word: "liability"
+  question: "A bank loan appears on the balance sheet not as an asset but as a ______."
+  options: { A: "revenue", B: "surplus", C: "liability", D: "dividend" }
+  answer: "C"
+  explanation_vi: "\"not as an asset but as a liability\" = khoản nợ phải trả. ⚠️ cặp asset ↔ liability. *revenue/surplus/dividend* sai."
+
+- id: "exercise-14-p5-07"
+  part: 5
+  topic: "finance-budgeting"
+  lesson: ["lesson-14"]
+  level: 900
+  related_word: "yield"
+  question: "Investors were attracted by the high ______ the project promised compared with a savings account."
+  options: { A: "yield", B: "budget", C: "receipt", D: "audit" }
+  answer: "A"
+  explanation_vi: "\"the high yield… compared with a savings account\" = lợi suất. *budget/receipt/audit* sai nghĩa."
+
+- id: "exercise-14-p5-08"
+  part: 5
+  topic: "finance-budgeting"
+  lesson: ["lesson-14"]
+  level: 900
+  related_word: "volatile"
+  question: "Technology stocks can be extremely ______, rising and falling sharply within a single day."
+  options: { A: "exempt", B: "frugal", C: "projected", D: "volatile" }
+  answer: "D"
+  explanation_vi: "\"extremely volatile, rising and falling sharply\" = biến động mạnh. *exempt/frugal/projected* sai nghĩa."
+
+- id: "exercise-14-p5-09"
+  part: 5
+  topic: "finance-budgeting"
+  lesson: ["lesson-14"]
+  level: 750
+  related_word: "allocate"
+  question: "The finance team met to decide how to ______ limited funds across the departments."
+  options: { A: "deduct", B: "allocate", C: "reimburse", D: "fluctuate" }
+  answer: "B"
+  explanation_vi: "\"allocate limited funds across the departments\" = phân bổ. *deduct/reimburse/fluctuate* sai nghĩa."
+
+- id: "exercise-14-p5-10"
+  part: 5
+  topic: "finance-budgeting"
+  lesson: ["lesson-14"]
+  level: 900
+  related_word: "deficit"
+  question: "After heavy spending on the expansion, the company was running a budget ______."
+  options: { A: "surplus", B: "revenue", C: "deficit", D: "dividend" }
+  answer: "C"
+  explanation_vi: "\"running a budget deficit\" = thâm hụt. ⚠️ *surplus* (thặng dư) trái nghĩa; *revenue/dividend* sai."
+
+- id: "exercise-14-p5-11"
+  part: 5
+  topic: "finance-budgeting"
+  lesson: ["lesson-14"]
+  level: 750
+  related_word: "revenue"
+  question: "Most of the company's ______ comes from sales of its smart-home appliances."
+  options: { A: "revenue", B: "liability", C: "collateral", D: "deduction" }
+  answer: "A"
+  explanation_vi: "\"revenue comes from sales\" = doanh thu. *liability/collateral/deduction* sai nghĩa."
+
+- id: "exercise-14-p5-12"
+  part: 5
+  topic: "finance-budgeting"
+  lesson: ["lesson-14"]
+  level: 900
+  related_word: "frugal"
+  question: "To survive the tight year, managers were told to take a ______ approach to every expense."
+  options: { A: "volatile", B: "projected", C: "exempt", D: "frugal" }
+  answer: "D"
+  explanation_vi: "\"a frugal approach to every expense\" = tiết kiệm, dè sẻn. *volatile/projected/exempt* sai nghĩa."
+
+- id: "exercise-14-p6-13"
+  part: 6
+  topic: "finance-budgeting"
+  lesson: ["lesson-14"]
+  level: 600
+  passage_group: "p6-13-16"
+  passage: |
+    **INVESTOR UPDATE — Aster Home Technologies**
+    Thank you for your interest in Aster. To finance our Halston expansion, we plan to issue new **(13)______** to raise additional capital. While the technology sector can **(14)______** sharply in the short term, we believe the long-term **(15)______** on this investment will be strong. The **(16)______** we raise will go directly toward manufacturing and the Aria launch, not toward paying off old debt.
+  related_word: "stock"
+  options: { A: "receipts", B: "stock", C: "collateral", D: "invoices" }
+  answer: "B"
+  explanation_vi: "\"issue new stock to raise capital\" = phát hành cổ phiếu. *receipts/collateral/invoices* sai nghĩa."
+
+- id: "exercise-14-p6-14"
+  part: 6
+  topic: "finance-budgeting"
+  lesson: ["lesson-14"]
+  level: 900
+  passage_group: "p6-13-16"
+  passage: |
+    **INVESTOR UPDATE — Aster Home Technologies**
+    Thank you for your interest in Aster. To finance our Halston expansion, we plan to issue new **(13)______** to raise additional capital. While the technology sector can **(14)______** sharply in the short term, we believe the long-term **(15)______** on this investment will be strong. The **(16)______** we raise will go directly toward manufacturing and the Aria launch, not toward paying off old debt.
+  related_word: "fluctuate"
+  options: { A: "reimburse", B: "allocate", C: "fluctuate", D: "deduct" }
+  answer: "C"
+  explanation_vi: "\"the sector can fluctuate sharply in the short term\" = dao động. *reimburse/allocate/deduct* sai nghĩa."
+
+- id: "exercise-14-p6-15"
+  part: 6
+  topic: "finance-budgeting"
+  lesson: ["lesson-14"]
+  level: 600
+  passage_group: "p6-13-16"
+  passage: |
+    **INVESTOR UPDATE — Aster Home Technologies**
+    Thank you for your interest in Aster. To finance our Halston expansion, we plan to issue new **(13)______** to raise additional capital. While the technology sector can **(14)______** sharply in the short term, we believe the long-term **(15)______** on this investment will be strong. The **(16)______** we raise will go directly toward manufacturing and the Aria launch, not toward paying off old debt.
+  related_word: "return"
+  options: { A: "return", B: "liability", C: "deduction", D: "teller" }
+  answer: "A"
+  explanation_vi: "\"the long-term return on this investment\" = lợi nhuận thu về. *liability/deduction/teller* sai nghĩa."
+
+- id: "exercise-14-p6-16"
+  part: 6
+  topic: "finance-budgeting"
+  lesson: ["lesson-14"]
+  level: 600
+  passage_group: "p6-13-16"
+  passage: |
+    **INVESTOR UPDATE — Aster Home Technologies**
+    Thank you for your interest in Aster. To finance our Halston expansion, we plan to issue new **(13)______** to raise additional capital. While the technology sector can **(14)______** sharply in the short term, we believe the long-term **(15)______** on this investment will be strong. The **(16)______** we raise will go directly toward manufacturing and the Aria launch, not toward paying off old debt.
+  related_word: "funds"
+  options: { A: "assets", B: "tellers", C: "receipts", D: "funds" }
+  answer: "D"
+  explanation_vi: "\"the funds we raise will go toward manufacturing\" = nguồn vốn. *assets/tellers/receipts* sai nghĩa."
+
+- id: "exercise-14-p6-17"
+  part: 6
+  topic: "finance-budgeting"
+  lesson: ["lesson-14"]
+  level: 600
+  passage_group: "p6-17-19"
+  passage: |
+    **MEMO — Year-End Finance**
+    As the fiscal year closes, please submit all figures for review. Each department must stay within its approved **(17)______** for the next quarter. When we file our tax return, remember that certain research costs qualify for a **(18)______**, and a few R&D activities may even be fully **(19)______** from tax. Accurate records will help us claim everything we are owed.
+  related_word: "budget"
+  options: { A: "surplus", B: "budget", C: "dividend", D: "portfolio" }
+  answer: "B"
+  explanation_vi: "\"stay within its approved budget\" = ngân sách. *surplus/dividend/portfolio* sai nghĩa."
+
+- id: "exercise-14-p6-18"
+  part: 6
+  topic: "finance-budgeting"
+  lesson: ["lesson-14"]
+  level: 750
+  passage_group: "p6-17-19"
+  passage: |
+    **MEMO — Year-End Finance**
+    As the fiscal year closes, please submit all figures for review. Each department must stay within its approved **(17)______** for the next quarter. When we file our tax return, remember that certain research costs qualify for a **(18)______**, and a few R&D activities may even be fully **(19)______** from tax. Accurate records will help us claim everything we are owed.
+  related_word: "deduction"
+  options: { A: "liability", B: "revenue", C: "deduction", D: "collateral" }
+  answer: "C"
+  explanation_vi: "\"qualify for a deduction\" = khoản khấu trừ (thuế). *liability/revenue/collateral* sai nghĩa."
+
+- id: "exercise-14-p6-19"
+  part: 6
+  topic: "finance-budgeting"
+  lesson: ["lesson-14"]
+  level: 900
+  passage_group: "p6-17-19"
+  passage: |
+    **MEMO — Year-End Finance**
+    As the fiscal year closes, please submit all figures for review. Each department must stay within its approved **(17)______** for the next quarter. When we file our tax return, remember that certain research costs qualify for a **(18)______**, and a few R&D activities may even be fully **(19)______** from tax. Accurate records will help us claim everything we are owed.
+  related_word: "exempt"
+  options: { A: "volatile", B: "frugal", C: "overdue", D: "exempt" }
+  answer: "D"
+  explanation_vi: "\"fully exempt from tax\" = được miễn thuế. *volatile/frugal/overdue* sai nghĩa. ⚠️ exempt **from**."
+
+- id: "exercise-14-p7-20"
+  part: 7
+  topic: "finance-budgeting"
+  lesson: ["lesson-14"]
+  level: null
+  passage_group: "p7-20-22"
+  passage: |
+    **Marlowe Business Journal — Aster Courts Investors**
+    At a tense shareholders' meeting this week, Aster Home Technologies asked investors to back its Halston expansion. Founder Diane Whitfield argued that Aria represents a rare investment opportunity, promising a strong return once the product launches. Not everyone was convinced: some shareholders worried that issuing new stock would reduce their dividends, and one noted that the smart-home market remains highly volatile. Chairman Harold Vance repeated his view that selling to Neura would be the safer financial choice. Whitfield disagreed, insisting the company can fund its own future.
+  related_word: null
+  question: "Why did Aster hold the meeting?"
+  options: { A: "To announce a merger", B: "To ask investors to fund the Halston expansion", C: "To pay a special dividend", D: "To sell the company to Neura" }
+  answer: "B"
+  explanation_vi: "Aster họp để \"**ask investors to back its Halston expansion**\" = gọi vốn cho mở rộng. (A)/(C)/(D) sai/không nêu."
+
+- id: "exercise-14-p7-21"
+  part: 7
+  topic: "finance-budgeting"
+  lesson: ["lesson-14"]
+  level: null
+  passage_group: "p7-20-22"
+  passage: |
+    **Marlowe Business Journal — Aster Courts Investors**
+    At a tense shareholders' meeting this week, Aster Home Technologies asked investors to back its Halston expansion. Founder Diane Whitfield argued that Aria represents a rare investment opportunity, promising a strong return once the product launches. Not everyone was convinced: some shareholders worried that issuing new stock would reduce their dividends, and one noted that the smart-home market remains highly volatile. Chairman Harold Vance repeated his view that selling to Neura would be the safer financial choice. Whitfield disagreed, insisting the company can fund its own future.
+  related_word: null
+  question: "Why were some shareholders worried?"
+  options: { A: "The product had failed", B: "Taxes would rise", C: "Their dividends might be reduced", D: "The factory would close" }
+  answer: "C"
+  explanation_vi: "cổ đông lo \"issuing new stock would **reduce their dividends**\". (A)/(B)/(D) không đúng."
+
+- id: "exercise-14-p7-22"
+  part: 7
+  topic: "finance-budgeting"
+  lesson: ["lesson-14"]
+  level: null
+  passage_group: "p7-20-22"
+  passage: |
+    **Marlowe Business Journal — Aster Courts Investors**
+    At a tense shareholders' meeting this week, Aster Home Technologies asked investors to back its Halston expansion. Founder Diane Whitfield argued that Aria represents a rare investment opportunity, promising a strong return once the product launches. Not everyone was convinced: some shareholders worried that issuing new stock would reduce their dividends, and one noted that the smart-home market remains highly volatile. Chairman Harold Vance repeated his view that selling to Neura would be the safer financial choice. Whitfield disagreed, insisting the company can fund its own future.
+  related_word: null
+  question: "The word \"volatile\" in the article is closest in meaning to"
+  options: { A: "unstable and changeable", B: "completely safe", C: "very profitable", D: "slow to change" }
+  answer: "A"
+  explanation_vi: "\"volatile\" (market) = biến động, thất thường. *completely safe/very profitable/slow to change* trái nghĩa/sai."
+
+- id: "exercise-14-p7-23"
+  part: 7
+  topic: "finance-budgeting"
+  lesson: ["lesson-14"]
+  level: null
+  passage_group: "p7-23-25"
+  passage: |
+    **Aster Finance — Year-End Budget Report**
+    As the fiscal year draws to a close, the finance department has released a sobering summary. Heavy spending on the Halston expansion has pushed the company into a deficit, with no surplus expected until the Aria line begins to sell. Projected revenue for next year is promising, but profit will depend entirely on a successful launch. To control costs, management has decided to cut back on all non-essential spending and adopt a frugal approach across every department. "Every dollar we save now," Priya Nair told staff, "is a dollar we can put into making Aria a success."
+  related_word: null
+  question: "What is the company's current financial position?"
+  options: { A: "A large surplus", B: "A deficit", C: "Debt-free", D: "Record profits" }
+  answer: "B"
+  explanation_vi: "\"pushed the company into a **deficit**, with no surplus expected\" = đang thâm hụt. (A)/(C)/(D) trái với bài."
+
+- id: "exercise-14-p7-24"
+  part: 7
+  topic: "finance-budgeting"
+  lesson: ["lesson-14"]
+  level: null
+  passage_group: "p7-23-25"
+  passage: |
+    **Aster Finance — Year-End Budget Report**
+    As the fiscal year draws to a close, the finance department has released a sobering summary. Heavy spending on the Halston expansion has pushed the company into a deficit, with no surplus expected until the Aria line begins to sell. Projected revenue for next year is promising, but profit will depend entirely on a successful launch. To control costs, management has decided to cut back on all non-essential spending and adopt a frugal approach across every department. "Every dollar we save now," Priya Nair told staff, "is a dollar we can put into making Aria a success."
+  related_word: null
+  question: "What has management decided to do?"
+  options: { A: "Increase every department's budget", B: "Pay a large dividend", C: "Hire more staff", D: "Cut back on non-essential spending" }
+  answer: "D"
+  explanation_vi: "quản lý quyết \"**cut back on** all non-essential spending\" = cắt giảm. (A)/(B)/(C) trái/không nêu."
+
+- id: "exercise-14-p7-25"
+  part: 7
+  topic: "finance-budgeting"
+  lesson: ["lesson-14"]
+  level: null
+  passage_group: "p7-23-25"
+  passage: |
+    **Aster Finance — Year-End Budget Report**
+    As the fiscal year draws to a close, the finance department has released a sobering summary. Heavy spending on the Halston expansion has pushed the company into a deficit, with no surplus expected until the Aria line begins to sell. Projected revenue for next year is promising, but profit will depend entirely on a successful launch. To control costs, management has decided to cut back on all non-essential spending and adopt a frugal approach across every department. "Every dollar we save now," Priya Nair told staff, "is a dollar we can put into making Aria a success."
+  related_word: null
+  question: "The word \"frugal\" in the report is closest in meaning to"
+  options: { A: "wasteful", B: "generous", C: "thrifty", D: "wealthy" }
+  answer: "C"
+  explanation_vi: "\"frugal\" = dè sẻn, tiết kiệm. *wasteful/generous/wealthy* trái nghĩa/sai."

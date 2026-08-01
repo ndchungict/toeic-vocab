@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "deny": [
+      "Read(raw/**)",
+      "Grep(raw/**)"
+    ]
+  },
+  "skillOverrides": {
+    "toeic-execise-to-yaml": "off",
+    "toeic-vocab-yaml": "off"
+  }
+}

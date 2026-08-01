@@ -43,9 +43,7 @@ def yaml_block(s, indent="    "):
     out = ["|"]
     for line in lines:
         out.append(indent + line if line else "")
-    return ("\n" + indent).join(out) if len(out) == 1 else out[0] + "\n" + "\n".join(
-        (indent + l) if l else "" for l in out[1:]
-    )
+    return "\n".join(out)
 
 
 def extract_section(text, start_pat, end_pats):

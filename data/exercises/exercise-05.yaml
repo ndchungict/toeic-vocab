@@ -1,0 +1,344 @@
+# EXERCISE 05 — GENERAL BUSINESS: Hợp đồng & Đàm phán · Sáp nhập & Cơ cấu công ty
+# Nguồn: exercises/exercise-05.md (lesson-05)
+# 25 câu: Part 5 (1-12), Part 6 (13-19), Part 7 (20-25)
+
+- id: "exercise-05-p5-01"
+  part: 5
+  topic: "general-business"
+  lesson: ["lesson-05"]
+  level: 600
+  related_word: "negotiate"
+  question: "After weeks of talks, the two firms finally ______ a distribution agreement that satisfied both sides."
+  options: { A: "negotiated", B: "retired", C: "expanded", D: "dismissed" }
+  answer: "A"
+  explanation_vi: "\"negotiate an agreement/deal\" = đàm phán để đạt thỏa thuận; hợp với \"after weeks of talks\". *retired/expanded/dismissed* sai nghĩa hoàn toàn."
+
+- id: "exercise-05-p5-02"
+  part: 5
+  topic: "general-business"
+  lesson: ["lesson-05"]
+  level: 750
+  related_word: "clause"
+  question: "The contract contains a confidentiality ______ that prevents either party from sharing technical data."
+  options: { A: "clause", B: "stakeholder", C: "turnover", D: "headquarters" }
+  answer: "A"
+  explanation_vi: "\"a confidentiality clause\" = điều khoản bảo mật (collocation cố định). *stakeholder/turnover/headquarters* không phải một phần của hợp đồng."
+
+- id: "exercise-05-p5-03"
+  part: 5
+  topic: "general-business"
+  lesson: ["lesson-05"]
+  level: 900
+  related_word: "binding"
+  question: "Once both directors have signed it, the agreement becomes legally ______ on both companies."
+  options: { A: "negotiable", B: "binding", C: "void", D: "liable" }
+  answer: "B"
+  explanation_vi: "\"legally binding on both parties\" = ràng buộc pháp lý. *negotiable* (còn thương lượng được) và *void* (vô hiệu) trái nghĩa; *liable* sai form (đi với \"for\")."
+
+- id: "exercise-05-p5-04"
+  part: 5
+  topic: "general-business"
+  lesson: ["lesson-05"]
+  level: 900
+  related_word: "void"
+  question: "If the product is not launched by the agreed date, the entire contract will become null and ______."
+  options: { A: "void", B: "binding", C: "valid", D: "pending" }
+  answer: "A"
+  explanation_vi: "cụm cố định \"null and void\" = vô hiệu hoàn toàn. *binding/valid* trái nghĩa; *pending* (đang chờ) sai ngữ cảnh."
+
+- id: "exercise-05-p5-05"
+  part: 5
+  topic: "general-business"
+  lesson: ["lesson-05"]
+  level: 900
+  related_word: "concession"
+  question: "Neither side wanted to give ground, but in the end each made a small ______ to close the deal."
+  options: { A: "obligation", B: "concession", C: "breach", D: "provision" }
+  answer: "B"
+  explanation_vi: "\"make a concession\" = nhượng bộ; hợp với \"neither side wanted to give ground\". *obligation/breach/provision* sai nghĩa."
+
+- id: "exercise-05-p5-06"
+  part: 5
+  topic: "general-business"
+  lesson: ["lesson-05"]
+  level: null
+  related_word: null
+  question: "All appliances sold in Halston must comply ______ the country's strict safety regulations."
+  options: { A: "with", B: "to", C: "by", D: "for" }
+  answer: "A"
+  explanation_vi: "\"comply **with** regulations\" — giới từ cố định. ⚠️ Đây là bẫy giới từ kinh điển: comply luôn + **with**."
+
+- id: "exercise-05-p5-07"
+  part: 5
+  topic: "general-business"
+  lesson: ["lesson-05"]
+  level: 900
+  related_word: "abide by"
+  question: "By signing here, both parties agree to ______ the terms set out in this document."
+  options: { A: "abide by", B: "comply", C: "breach", D: "amend" }
+  answer: "A"
+  explanation_vi: "\"abide by the terms\" = tuân thủ các điều khoản. *comply* thiếu \"with\" nên sai; *breach* (vi phạm) trái nghĩa; *amend* (sửa đổi) sai nghĩa."
+
+- id: "exercise-05-p5-08"
+  part: 5
+  topic: "general-business"
+  lesson: ["lesson-05"]
+  level: 900
+  related_word: "breach"
+  question: "Failing to deliver the goods on time would be considered a ______ of contract."
+  options: { A: "clause", B: "breach", C: "provision", D: "concession" }
+  answer: "B"
+  explanation_vi: "\"a breach of contract\" = vi phạm hợp đồng; hợp với \"failing to deliver on time\". *clause/provision/concession* không đi với \"of contract\" theo nghĩa vi phạm."
+
+- id: "exercise-05-p5-09"
+  part: 5
+  topic: "general-business"
+  lesson: ["lesson-05"]
+  level: 900
+  related_word: "liable"
+  question: "Under the agreement, the supplier is ______ for any damage caused by faulty parts."
+  options: { A: "eligible", B: "liable", C: "reliable", D: "negotiable" }
+  answer: "B"
+  explanation_vi: "\"be **liable for** damage\" = chịu trách nhiệm pháp lý. ⚠️ Bẫy: *reliable* (đáng tin) khác hẳn nghĩa; *eligible* (đủ điều kiện) + for nhưng sai nghĩa; *negotiable* sai nghĩa."
+
+- id: "exercise-05-p5-10"
+  part: 5
+  topic: "general-business"
+  lesson: ["lesson-05"]
+  level: 750
+  related_word: "acquisition"
+  question: "Neura's proposed ______ would give it full ownership of Aster and its technology."
+  options: { A: "acquisition", B: "arbitration", C: "obligation", D: "reservation" }
+  answer: "A"
+  explanation_vi: "\"acquisition… full ownership\" = thâu tóm để sở hữu hoàn toàn. *arbitration/obligation/reservation* sai nghĩa."
+
+- id: "exercise-05-p5-11"
+  part: 5
+  topic: "general-business"
+  lesson: ["lesson-05"]
+  level: 900
+  related_word: "subsidiary"
+  question: "After the takeover, the smaller firm would operate as a wholly-owned ______ of the larger group."
+  options: { A: "stakeholder", B: "subsidiary", C: "headquarters", D: "breach" }
+  answer: "B"
+  explanation_vi: "\"a wholly-owned subsidiary\" = công ty con sở hữu toàn phần (collocation cố định). *stakeholder/headquarters/breach* sai loại. ⚠️ subsidiary ≠ affiliate (liên kết lỏng hơn)."
+
+- id: "exercise-05-p5-12"
+  part: 5
+  topic: "general-business"
+  lesson: ["lesson-05"]
+  level: 600
+  related_word: "expand"
+  question: "Rather than sell the company, the CEO chose to ______ into new overseas markets independently."
+  options: { A: "expand", B: "restructure", C: "amend", D: "comply" }
+  answer: "A"
+  explanation_vi: "\"expand **into** new markets\" = mở rộng sang thị trường mới. *restructure* (tái cơ cấu), *amend* (sửa đổi), *comply* (tuân thủ) đều sai ngữ cảnh."
+
+- id: "exercise-05-p6-13"
+  part: 6
+  topic: "general-business"
+  lesson: ["lesson-05"]
+  level: 600
+  passage_group: "p6-13-16"
+  passage: |
+    **EMAIL**
+    **To:** Project Aria Core Team **From:** Diane Whitfield, CEO
+    **Subject:** The Brightway Distribution Deal
+
+    I'm pleased to report that we have reached a distribution **(13)______** with Brightway Retail. Our lawyers have reviewed every **(14)______** carefully, and both sides have accepted the final terms. Please note one critical point: the contract contains a **(15)______** stating that it becomes void if Aria does not launch on schedule. Should any disagreement arise later, it will be resolved through **(16)______** rather than in court. Thank you all for making this possible.
+  related_word: "agreement"
+  options: { A: "agreement", B: "obligation", C: "turnover", D: "pension" }
+  answer: "A"
+  explanation_vi: "\"reach a distribution agreement\" = đạt thỏa thuận phân phối. *obligation/turnover/pension* không \"reach… with Brightway\"."
+
+- id: "exercise-05-p6-14"
+  part: 6
+  topic: "general-business"
+  lesson: ["lesson-05"]
+  level: 900
+  passage_group: "p6-13-16"
+  passage: |
+    **EMAIL**
+    **To:** Project Aria Core Team **From:** Diane Whitfield, CEO
+    **Subject:** The Brightway Distribution Deal
+
+    I'm pleased to report that we have reached a distribution **(13)______** with Brightway Retail. Our lawyers have reviewed every **(14)______** carefully, and both sides have accepted the final terms. Please note one critical point: the contract contains a **(15)______** stating that it becomes void if Aria does not launch on schedule. Should any disagreement arise later, it will be resolved through **(16)______** rather than in court. Thank you all for making this possible.
+  related_word: "provision"
+  options: { A: "headquarters", B: "provision", C: "stakeholder", D: "allowance" }
+  answer: "B"
+  explanation_vi: "\"reviewed every provision\" = rà từng điều khoản quy định. *headquarters/stakeholder/allowance* không phải nội dung để \"review\" trong hợp đồng."
+
+- id: "exercise-05-p6-15"
+  part: 6
+  topic: "general-business"
+  lesson: ["lesson-05"]
+  level: 750
+  passage_group: "p6-13-16"
+  passage: |
+    **EMAIL**
+    **To:** Project Aria Core Team **From:** Diane Whitfield, CEO
+    **Subject:** The Brightway Distribution Deal
+
+    I'm pleased to report that we have reached a distribution **(13)______** with Brightway Retail. Our lawyers have reviewed every **(14)______** carefully, and both sides have accepted the final terms. Please note one critical point: the contract contains a **(15)______** stating that it becomes void if Aria does not launch on schedule. Should any disagreement arise later, it will be resolved through **(16)______** rather than in court. Thank you all for making this possible.
+  related_word: "clause"
+  options: { A: "clause", B: "merger", C: "benefit", D: "wage" }
+  answer: "A"
+  explanation_vi: "\"contains a clause stating…\" = có một điều khoản nêu rằng… *merger/benefit/wage* sai nghĩa trong ngữ cảnh hợp đồng."
+
+- id: "exercise-05-p6-16"
+  part: 6
+  topic: "general-business"
+  lesson: ["lesson-05"]
+  level: 900
+  passage_group: "p6-13-16"
+  passage: |
+    **EMAIL**
+    **To:** Project Aria Core Team **From:** Diane Whitfield, CEO
+    **Subject:** The Brightway Distribution Deal
+
+    I'm pleased to report that we have reached a distribution **(13)______** with Brightway Retail. Our lawyers have reviewed every **(14)______** carefully, and both sides have accepted the final terms. Please note one critical point: the contract contains a **(15)______** stating that it becomes void if Aria does not launch on schedule. Should any disagreement arise later, it will be resolved through **(16)______** rather than in court. Thank you all for making this possible.
+  related_word: "arbitration"
+  options: { A: "recognition", B: "arbitration", C: "probation", D: "inventory" }
+  answer: "B"
+  explanation_vi: "\"resolved through arbitration rather than in court\" = phân xử qua trọng tài thay vì ra tòa. *recognition/probation/inventory* sai nghĩa."
+
+- id: "exercise-05-p6-17"
+  part: 6
+  topic: "general-business"
+  lesson: ["lesson-05"]
+  level: 750
+  passage_group: "p6-17-19"
+  passage: |
+    **MEMORANDUM**
+    **To:** All Staff **From:** Office of the CEO
+    **Re:** Recent Media Reports
+
+    You may have seen reports that Neura Corporation has made an **(17)______** offer for our company. We want to be clear: no deal has been signed. Neura's proposal would turn Aster into a **(18)______** under its control and would **(19)______** several departments. The board is weighing the interests of every stakeholder before making any decision. For now, it is business as usual as we focus on the Aria launch.
+  related_word: "acquisition"
+  options: { A: "acquisition", B: "arbitration", C: "inspection", D: "orientation" }
+  answer: "A"
+  explanation_vi: "\"made an acquisition offer\" = đưa ra đề nghị thâu tóm. *arbitration/inspection/orientation* sai nghĩa."
+
+- id: "exercise-05-p6-18"
+  part: 6
+  topic: "general-business"
+  lesson: ["lesson-05"]
+  level: 900
+  passage_group: "p6-17-19"
+  passage: |
+    **MEMORANDUM**
+    **To:** All Staff **From:** Office of the CEO
+    **Re:** Recent Media Reports
+
+    You may have seen reports that Neura Corporation has made an **(17)______** offer for our company. We want to be clear: no deal has been signed. Neura's proposal would turn Aster into a **(18)______** under its control and would **(19)______** several departments. The board is weighing the interests of every stakeholder before making any decision. For now, it is business as usual as we focus on the Aria launch.
+  related_word: "subsidiary"
+  options: { A: "headquarters", B: "subsidiary", C: "vacancy", D: "premises" }
+  answer: "B"
+  explanation_vi: "\"turn Aster into a subsidiary under its control\" = biến thành công ty con. *headquarters/vacancy/premises* sai nghĩa."
+
+- id: "exercise-05-p6-19"
+  part: 6
+  topic: "general-business"
+  lesson: ["lesson-05"]
+  level: 750
+  passage_group: "p6-17-19"
+  passage: |
+    **MEMORANDUM**
+    **To:** All Staff **From:** Office of the CEO
+    **Re:** Recent Media Reports
+
+    You may have seen reports that Neura Corporation has made an **(17)______** offer for our company. We want to be clear: no deal has been signed. Neura's proposal would turn Aster into a **(18)______** under its control and would **(19)______** several departments. The board is weighing the interests of every stakeholder before making any decision. For now, it is business as usual as we focus on the Aria launch.
+  related_word: "restructure"
+  options: { A: "restructure", B: "negotiate", C: "reimburse", D: "expand" }
+  answer: "A"
+  explanation_vi: "\"restructure several departments\" = tái cơ cấu các phòng ban; hợp với \"cut staff\". *negotiate/reimburse* sai nghĩa; *expand* (mở rộng) trái với ý cắt giảm."
+
+- id: "exercise-05-p7-20"
+  part: 7
+  topic: "general-business"
+  lesson: ["lesson-05"]
+  level: null
+  passage_group: "p7-20-22"
+  passage: |
+    **Marlowe Business Journal**
+    Aster Home Technologies has signed a distribution agreement with Brightway Retail, one of Halston's largest retail chains. Under the terms and conditions of the deal, Brightway will have exclusive rights to sell Aster's new Aria line in Halston for its first year on the market. In exchange, Aster is obligated to meet strict delivery deadlines. Industry watchers point to one unusual provision: the entire contract becomes void if the Aria line is not launched on time. "It's a bold move," said one analyst. "Aster has tied its biggest distribution deal directly to a launch date it cannot afford to miss."
+  related_word: null
+  question: "What is the main topic of the article?"
+  options: { A: "A merger between two retail chains", B: "A distribution deal between Aster and Brightway", C: "Neura's acquisition of Aster", D: "The layoff of Aster staff" }
+  answer: "B"
+  explanation_vi: "bài báo nói về **thỏa thuận phân phối giữa Aster và Brightway**. (A) merger giữa hai chuỗi bán lẻ — sai; (C) thương vụ Neura chỉ là bối cảnh nền; (D) không nhắc layoff."
+
+- id: "exercise-05-p7-21"
+  part: 7
+  topic: "general-business"
+  lesson: ["lesson-05"]
+  level: null
+  passage_group: "p7-20-22"
+  passage: |
+    **Marlowe Business Journal**
+    Aster Home Technologies has signed a distribution agreement with Brightway Retail, one of Halston's largest retail chains. Under the terms and conditions of the deal, Brightway will have exclusive rights to sell Aster's new Aria line in Halston for its first year on the market. In exchange, Aster is obligated to meet strict delivery deadlines. Industry watchers point to one unusual provision: the entire contract becomes void if the Aria line is not launched on time. "It's a bold move," said one analyst. "Aster has tied its biggest distribution deal directly to a launch date it cannot afford to miss."
+  related_word: null
+  question: "According to the article, what will happen if Aria is not launched on time?"
+  options: { A: "Brightway will pay a penalty", B: "The contract will become void", C: "Aster will be acquired by Neura", D: "The deadline will be extended automatically" }
+  answer: "B"
+  explanation_vi: "nêu rõ \"the entire contract becomes void if the Aria line is not launched on time\" → hợp đồng **vô hiệu**. (A)/(C)/(D) không được nêu."
+
+- id: "exercise-05-p7-22"
+  part: 7
+  topic: "general-business"
+  lesson: ["lesson-05"]
+  level: null
+  passage_group: "p7-20-22"
+  passage: |
+    **Marlowe Business Journal**
+    Aster Home Technologies has signed a distribution agreement with Brightway Retail, one of Halston's largest retail chains. Under the terms and conditions of the deal, Brightway will have exclusive rights to sell Aster's new Aria line in Halston for its first year on the market. In exchange, Aster is obligated to meet strict delivery deadlines. Industry watchers point to one unusual provision: the entire contract becomes void if the Aria line is not launched on time. "It's a bold move," said one analyst. "Aster has tied its biggest distribution deal directly to a launch date it cannot afford to miss."
+  related_word: null
+  question: "The phrase \"is obligated to\" is closest in meaning to"
+  options: { A: "is required to", B: "is allowed to", C: "refuses to", D: "is eligible to" }
+  answer: "A"
+  explanation_vi: "\"be obligated to do sth\" ≈ **be required to** (có nghĩa vụ phải). *is allowed to* (được phép) và *refuses to* trái nghĩa; *is eligible to* sai nghĩa."
+
+- id: "exercise-05-p7-23"
+  part: 7
+  topic: "general-business"
+  lesson: ["lesson-05"]
+  level: null
+  passage_group: "p7-23-25"
+  passage: |
+    **Halston Financial Review — Company Watch**
+    The smart-home sector is watching a quiet standoff. Neura Corporation has offered to acquire Aster Home Technologies, a proposed deal that would make the independent firm a subsidiary of the larger group. Sources say Neura would keep Aster's headquarters in Marlowe City but restructure its operations. Aster's founder, Diane Whitfield, has so far declined to sign, arguing that the company can expand into new markets on its own. "Our stakeholders deserve a company that controls its own future," she told reporters. Analysts believe her decision now rests on a single event: the upcoming launch of the Aria line.
+  related_word: null
+  question: "What does the article say Neura would do with Aster's headquarters?"
+  options: { A: "Move it to Halston", B: "Keep it in Marlowe City", C: "Close it entirely", D: "Sell it to an affiliate" }
+  answer: "B"
+  explanation_vi: "\"Neura would keep Aster's headquarters in Marlowe City\" → **giữ trụ sở ở Marlowe**. (A)/(C)/(D) trái với bài."
+
+- id: "exercise-05-p7-24"
+  part: 7
+  topic: "general-business"
+  lesson: ["lesson-05"]
+  level: null
+  passage_group: "p7-23-25"
+  passage: |
+    **Halston Financial Review — Company Watch**
+    The smart-home sector is watching a quiet standoff. Neura Corporation has offered to acquire Aster Home Technologies, a proposed deal that would make the independent firm a subsidiary of the larger group. Sources say Neura would keep Aster's headquarters in Marlowe City but restructure its operations. Aster's founder, Diane Whitfield, has so far declined to sign, arguing that the company can expand into new markets on its own. "Our stakeholders deserve a company that controls its own future," she told reporters. Analysts believe her decision now rests on a single event: the upcoming launch of the Aria line.
+  related_word: null
+  question: "Why has Diane Whitfield declined to sign the deal?"
+  options: { A: "She believes Aster can expand on its own", B: "She wants a higher price", C: "The board has already rejected it", D: "Neura withdrew the offer" }
+  answer: "A"
+  explanation_vi: "Diane từ chối ký vì tin Aster có thể \"**expand into new markets on its own**\" (tự mở rộng). (B)/(C)/(D) không được nêu trong bài."
+
+- id: "exercise-05-p7-25"
+  part: 7
+  topic: "general-business"
+  lesson: ["lesson-05"]
+  level: null
+  passage_group: "p7-23-25"
+  passage: |
+    **Halston Financial Review — Company Watch**
+    The smart-home sector is watching a quiet standoff. Neura Corporation has offered to acquire Aster Home Technologies, a proposed deal that would make the independent firm a subsidiary of the larger group. Sources say Neura would keep Aster's headquarters in Marlowe City but restructure its operations. Aster's founder, Diane Whitfield, has so far declined to sign, arguing that the company can expand into new markets on its own. "Our stakeholders deserve a company that controls its own future," she told reporters. Analysts believe her decision now rests on a single event: the upcoming launch of the Aria line.
+  related_word: null
+  question: "The word \"acquire\" in the report is closest in meaning to"
+  options: { A: "buy / take over", B: "merge with as an equal", C: "borrow from", D: "compete with" }
+  answer: "A"
+  explanation_vi: "\"acquire\" ≈ **mua lại / thâu tóm**. (B) là *merger* (sáp nhập ngang hàng) — cố ý gài để phân biệt acquisition với merger; (C)/(D) sai nghĩa."

@@ -1,0 +1,337 @@
+# EXERCISE 19 — CORPORATE DEVELOPMENT: R&D & Đổi mới
+# Nguồn: exercises/exercise-19.md (lesson-19)
+# 26 câu: Part 5 (1-12), Part 6 (13-20), Part 7 (21-26)
+
+- id: "exercise-19-p5-01"
+  part: 5
+  topic: "corporate-development"
+  lesson: ["lesson-19"]
+  level: 600
+  related_word: "research"
+  question: "After the recall scare, the whole burden of saving Aria shifted to the ______ and development team."
+  options: { A: "warehouse", B: "recall", C: "research", D: "shipment" }
+  answer: "C"
+  explanation_vi: "\"the research and development team\" = nghiên cứu. *warehouse/recall/shipment* sai nghĩa."
+
+- id: "exercise-19-p5-02"
+  part: 5
+  topic: "corporate-development"
+  lesson: ["lesson-19"]
+  level: 750
+  related_word: "innovation"
+  question: "Instead of patching the old chip, Sophia pushed for real ______ in the power circuit."
+  options: { A: "innovation", B: "inventory", C: "surcharge", D: "breakdown" }
+  answer: "A"
+  explanation_vi: "\"pushed for real innovation in the power circuit\" = đổi mới. *inventory/surcharge/breakdown* sai nghĩa."
+
+- id: "exercise-19-p5-03"
+  part: 5
+  topic: "corporate-development"
+  lesson: ["lesson-19"]
+  level: 750
+  related_word: "innovative"
+  question: "The team took an ______ approach so that no single chip could overheat the whole device."
+  options: { A: "obsolete", B: "overdue", C: "durable", D: "innovative" }
+  answer: "D"
+  explanation_vi: "\"an innovative approach\" = mang tính đổi mới. *obsolete* (lỗi thời) trái nghĩa; *overdue/durable* sai."
+
+- id: "exercise-19-p5-04"
+  part: 5
+  topic: "corporate-development"
+  lesson: ["lesson-19"]
+  level: 600
+  related_word: "concept"
+  question: "From a rough ______ on the whiteboard, they built a working model in two days."
+  options: { A: "warehouse", B: "concept", C: "refund", D: "shift" }
+  answer: "B"
+  explanation_vi: "\"a rough concept on the whiteboard\" = ý tưởng. *warehouse/refund/shift* sai nghĩa."
+
+- id: "exercise-19-p5-05"
+  part: 5
+  topic: "corporate-development"
+  lesson: ["lesson-19"]
+  level: 750
+  related_word: "prototype"
+  question: "Engineers built a new ______ to test the redesigned circuit."
+  options: { A: "prototype", B: "invoice", C: "surcharge", D: "foreman" }
+  answer: "A"
+  explanation_vi: "\"built a new prototype to test the circuit\" = nguyên mẫu. *invoice/surcharge/foreman* sai nghĩa."
+
+- id: "exercise-19-p5-06"
+  part: 5
+  topic: "corporate-development"
+  lesson: ["lesson-19"]
+  level: 900
+  related_word: "feasibility study"
+  question: "A quick ______ confirmed that the redesign was possible within the remaining time and budget."
+  options: { A: "purchase order", B: "clearance sale", C: "feasibility study", D: "night shift" }
+  answer: "C"
+  explanation_vi: "\"confirmed the redesign was possible within time and budget\" = nghiên cứu tính khả thi. *purchase order/clearance sale/night shift* sai."
+
+- id: "exercise-19-p5-07"
+  part: 5
+  topic: "corporate-development"
+  lesson: ["lesson-19"]
+  level: 900
+  related_word: "viable"
+  question: "The real question was whether the fix would be ______ before the fixed launch date."
+  options: { A: "fragile", B: "viable", C: "defective", D: "vacant" }
+  answer: "B"
+  explanation_vi: "\"whether the fix would be viable before the launch\" = khả thi. ⚠️ *fragile/defective/vacant* sai nghĩa."
+
+- id: "exercise-19-p5-08"
+  part: 5
+  topic: "corporate-development"
+  lesson: ["lesson-19"]
+  level: 750
+  related_word: "pilot"
+  question: "Before mass testing, the team ran a small ______ on just a few units."
+  options: { A: "recall", B: "surcharge", C: "batch", D: "pilot" }
+  answer: "D"
+  explanation_vi: "\"a small pilot on just a few units\" = thử nghiệm nhỏ. *recall/surcharge/batch* sai nghĩa."
+
+- id: "exercise-19-p5-09"
+  part: 5
+  topic: "corporate-development"
+  lesson: ["lesson-19"]
+  level: 600
+  related_word: "phase"
+  question: "Testing was carried out in several ______, from small samples to full heat trials."
+  options: { A: "shifts", B: "invoices", C: "phases", D: "hazards" }
+  answer: "C"
+  explanation_vi: "\"in several phases, from small samples to heat trials\" = giai đoạn. *shifts/invoices/hazards* sai nghĩa."
+
+- id: "exercise-19-p5-10"
+  part: 5
+  topic: "corporate-development"
+  lesson: ["lesson-19"]
+  level: 750
+  related_word: "findings"
+  question: "Each night the engineers reviewed the ______ from the temperature sensors."
+  options: { A: "findings", B: "surcharges", C: "carriers", D: "standards" }
+  answer: "A"
+  explanation_vi: "\"reviewed the findings from the sensors\" = kết quả nghiên cứu. *surcharges/carriers/standards* sai nghĩa."
+
+- id: "exercise-19-p5-11"
+  part: 5
+  topic: "corporate-development"
+  lesson: ["lesson-19"]
+  level: 750
+  related_word: "refine"
+  question: "After each round, they ______ the circuit layout to improve cooling."
+  options: { A: "dispatched", B: "outsourced", C: "halted", D: "refined" }
+  answer: "D"
+  explanation_vi: "\"refined the circuit layout to improve cooling\" = tinh chỉnh. *dispatched/outsourced/halted* sai nghĩa."
+
+- id: "exercise-19-p5-12"
+  part: 5
+  topic: "corporate-development"
+  lesson: ["lesson-19"]
+  level: 750
+  related_word: "collaborate"
+  question: "Sophia asked the hardware and software groups to ______ closely on the fix."
+  options: { A: "inspect", B: "collaborate", C: "expedite", D: "recall" }
+  answer: "B"
+  explanation_vi: "\"hardware and software groups collaborate closely\" = hợp tác. *inspect/expedite/recall* sai nghĩa."
+
+- id: "exercise-19-p6-13"
+  part: 6
+  topic: "corporate-development"
+  lesson: ["lesson-19"]
+  level: 600
+  passage_group: "p6-13-16"
+  passage: |
+    **MEMO — Aria Redesign, R&D**
+    Team, the product **(13)______** effort is now our top priority. We will not simply patch the old part; we will redesign it to **(14)______** its cooling and stability. Please draw on the **(15)______** of our most senior engineers and work closely across hardware and software. Each change to the prototype must be tested, and we will **(16)______** the design after every round until it is stable.
+  related_word: "development"
+  options: { A: "warehouse", B: "development", C: "recall", D: "surcharge" }
+  answer: "B"
+  explanation_vi: "\"the product development effort\" = sự phát triển. *warehouse/recall/surcharge* sai nghĩa."
+
+- id: "exercise-19-p6-14"
+  part: 6
+  topic: "corporate-development"
+  lesson: ["lesson-19"]
+  level: 750
+  passage_group: "p6-13-16"
+  passage: |
+    **MEMO — Aria Redesign, R&D**
+    Team, the product **(13)______** effort is now our top priority. We will not simply patch the old part; we will redesign it to **(14)______** its cooling and stability. Please draw on the **(15)______** of our most senior engineers and work closely across hardware and software. Each change to the prototype must be tested, and we will **(16)______** the design after every round until it is stable.
+  related_word: "enhance"
+  options: { A: "outsource", B: "halt", C: "dispatch", D: "enhance" }
+  answer: "D"
+  explanation_vi: "\"redesign it to enhance its cooling and stability\" = nâng cao. *outsource/halt/dispatch* sai nghĩa."
+
+- id: "exercise-19-p6-15"
+  part: 6
+  topic: "corporate-development"
+  lesson: ["lesson-19"]
+  level: 900
+  passage_group: "p6-13-16"
+  passage: |
+    **MEMO — Aria Redesign, R&D**
+    Team, the product **(13)______** effort is now our top priority. We will not simply patch the old part; we will redesign it to **(14)______** its cooling and stability. Please draw on the **(15)______** of our most senior engineers and work closely across hardware and software. Each change to the prototype must be tested, and we will **(16)______** the design after every round until it is stable.
+  related_word: "expertise"
+  options: { A: "expertise", B: "inventory", C: "shipment", D: "surplus" }
+  answer: "A"
+  explanation_vi: "\"draw on the expertise of our senior engineers\" = chuyên môn. ⚠️ không đếm được. *inventory/shipment/surplus* sai."
+
+- id: "exercise-19-p6-16"
+  part: 6
+  topic: "corporate-development"
+  lesson: ["lesson-19"]
+  level: 600
+  passage_group: "p6-13-16"
+  passage: |
+    **MEMO — Aria Redesign, R&D**
+    Team, the product **(13)______** effort is now our top priority. We will not simply patch the old part; we will redesign it to **(14)______** its cooling and stability. Please draw on the **(15)______** of our most senior engineers and work closely across hardware and software. Each change to the prototype must be tested, and we will **(16)______** the design after every round until it is stable.
+  related_word: "modify"
+  options: { A: "inspect", B: "recall", C: "modify", D: "expedite" }
+  answer: "C"
+  explanation_vi: "\"modify the design after every round\" = chỉnh sửa. *inspect/recall/expedite* sai nghĩa."
+
+- id: "exercise-19-p6-17"
+  part: 6
+  topic: "corporate-development"
+  lesson: ["lesson-19"]
+  level: 600
+  passage_group: "p6-17-20"
+  passage: |
+    **Aria Fix — Testing Update**
+    The redesigned power circuit has entered the testing **(17)______**. After a small **(18)______** on a handful of units, the team moved to full heat **(19)______**, pushing the devices harder than in real use. Early results are promising: for the first time, the units stayed cool under load, which the team is cautiously calling a **(20)______**.
+  related_word: "phase"
+  options: { A: "invoice", B: "phase", C: "recall", D: "hazard" }
+  answer: "B"
+  explanation_vi: "\"entered the testing phase\" = giai đoạn. *invoice/recall/hazard* sai nghĩa."
+
+- id: "exercise-19-p6-18"
+  part: 6
+  topic: "corporate-development"
+  lesson: ["lesson-19"]
+  level: 750
+  passage_group: "p6-17-20"
+  passage: |
+    **Aria Fix — Testing Update**
+    The redesigned power circuit has entered the testing **(17)______**. After a small **(18)______** on a handful of units, the team moved to full heat **(19)______**, pushing the devices harder than in real use. Early results are promising: for the first time, the units stayed cool under load, which the team is cautiously calling a **(20)______**.
+  related_word: "pilot"
+  options: { A: "refund", B: "foreman", C: "surcharge", D: "pilot" }
+  answer: "D"
+  explanation_vi: "\"a small pilot on a handful of units\" = thử nghiệm nhỏ. *refund/foreman/surcharge* sai nghĩa."
+
+- id: "exercise-19-p6-19"
+  part: 6
+  topic: "corporate-development"
+  lesson: ["lesson-19"]
+  level: 600
+  passage_group: "p6-17-20"
+  passage: |
+    **Aria Fix — Testing Update**
+    The redesigned power circuit has entered the testing **(17)______**. After a small **(18)______** on a handful of units, the team moved to full heat **(19)______**, pushing the devices harder than in real use. Early results are promising: for the first time, the units stayed cool under load, which the team is cautiously calling a **(20)______**.
+  related_word: "trial"
+  options: { A: "shifts", B: "invoices", C: "trials", D: "standards" }
+  answer: "C"
+  explanation_vi: "\"full heat trials, pushing the devices harder\" = cuộc thử nghiệm. *shifts/invoices/standards* sai nghĩa."
+
+- id: "exercise-19-p6-20"
+  part: 6
+  topic: "corporate-development"
+  lesson: ["lesson-19"]
+  level: 750
+  passage_group: "p6-17-20"
+  passage: |
+    **Aria Fix — Testing Update**
+    The redesigned power circuit has entered the testing **(17)______**. After a small **(18)______** on a handful of units, the team moved to full heat **(19)______**, pushing the devices harder than in real use. Early results are promising: for the first time, the units stayed cool under load, which the team is cautiously calling a **(20)______**.
+  related_word: "breakthrough"
+  options: { A: "breakthrough", B: "breakdown", C: "surcharge", D: "warehouse" }
+  answer: "A"
+  explanation_vi: "\"stayed cool… cautiously calling a breakthrough\" = bước đột phá. ⚠️ *breakdown* (hỏng hóc) sai nghĩa; *surcharge/warehouse* sai."
+
+- id: "exercise-19-p7-21"
+  part: 7
+  topic: "corporate-development"
+  lesson: ["lesson-19"]
+  level: null
+  passage_group: "p7-21-23"
+  passage: |
+    **Aria Program — R&D Status**
+    After production was halted, the research and development team took over the rescue effort. Rather than patch the faulty chip, the engineers chose an innovative redesign of the power circuit and built a new prototype within days. A feasibility study confirmed the approach was viable within the remaining schedule. Testing then proceeded in phases, from a small pilot to demanding heat trials, with the team refining the design after each round. Late in the effort, the units held stable under load for the first time — a result the team hopes is a genuine breakthrough.
+  related_word: null
+  question: "What did the R&D team decide to do?"
+  options: { A: "Patch the faulty chip quickly", B: "Outsource the whole product", C: "Redesign the power circuit", D: "Cancel the Aria line" }
+  answer: "C"
+  explanation_vi: "R&D chọn \"an **innovative redesign** of the power circuit\" thay vì vá. (A)/(B)/(D) sai/trái."
+
+- id: "exercise-19-p7-22"
+  part: 7
+  topic: "corporate-development"
+  lesson: ["lesson-19"]
+  level: null
+  passage_group: "p7-21-23"
+  passage: |
+    **Aria Program — R&D Status**
+    After production was halted, the research and development team took over the rescue effort. Rather than patch the faulty chip, the engineers chose an innovative redesign of the power circuit and built a new prototype within days. A feasibility study confirmed the approach was viable within the remaining schedule. Testing then proceeded in phases, from a small pilot to demanding heat trials, with the team refining the design after each round. Late in the effort, the units held stable under load for the first time — a result the team hopes is a genuine breakthrough.
+  related_word: null
+  question: "What did the feasibility study confirm?"
+  options: { A: "The approach was viable within the schedule", B: "The budget was unlimited", C: "The old chip was fine", D: "The launch would be delayed" }
+  answer: "A"
+  explanation_vi: "feasibility study xác nhận \"the approach was **viable within the remaining schedule**\". (B)/(C)/(D) sai."
+
+- id: "exercise-19-p7-23"
+  part: 7
+  topic: "corporate-development"
+  lesson: ["lesson-19"]
+  level: null
+  passage_group: "p7-21-23"
+  passage: |
+    **Aria Program — R&D Status**
+    After production was halted, the research and development team took over the rescue effort. Rather than patch the faulty chip, the engineers chose an innovative redesign of the power circuit and built a new prototype within days. A feasibility study confirmed the approach was viable within the remaining schedule. Testing then proceeded in phases, from a small pilot to demanding heat trials, with the team refining the design after each round. Late in the effort, the units held stable under load for the first time — a result the team hopes is a genuine breakthrough.
+  related_word: null
+  question: "How was the testing carried out?"
+  options: { A: "In a single step", B: "In phases, from a pilot to heat trials", C: "Only on paper", D: "By an outside firm" }
+  answer: "B"
+  explanation_vi: "thử nghiệm \"proceeded **in phases, from a small pilot to demanding heat trials**\". (A)/(C)/(D) sai."
+
+- id: "exercise-19-p7-24"
+  part: 7
+  topic: "corporate-development"
+  lesson: ["lesson-19"]
+  level: null
+  passage_group: "p7-24-26"
+  passage: |
+    **Marlowe Business Journal — Aster Bets on Its Own Engineers**
+    With its Aria launch in jeopardy, Aster Home Technologies has chosen to fix the problem in-house rather than seek help from outside. Its research team has reworked the product's core and, sources say, may have found a breakthrough that keeps the device cool and stable. If the new design holds up, Aster will still need to protect the technology and prepare it for mass production before the Halston launch. Analysts note that a proprietary fix could even give Aster an edge over its larger rival, Neura — if it reaches the market in time.
+  related_word: null
+  question: "How has Aster chosen to solve the problem?"
+  options: { A: "By outsourcing to a rival", B: "By delaying the launch a year", C: "By selling Aria to Neura", D: "By fixing it in-house with its own research team" }
+  answer: "D"
+  explanation_vi: "Aster \"fix the problem **in-house** rather than seek help from outside\" (đội R&D của mình). (A)/(B)/(C) sai/trái."
+
+- id: "exercise-19-p7-25"
+  part: 7
+  topic: "corporate-development"
+  lesson: ["lesson-19"]
+  level: null
+  passage_group: "p7-24-26"
+  passage: |
+    **Marlowe Business Journal — Aster Bets on Its Own Engineers**
+    With its Aria launch in jeopardy, Aster Home Technologies has chosen to fix the problem in-house rather than seek help from outside. Its research team has reworked the product's core and, sources say, may have found a breakthrough that keeps the device cool and stable. If the new design holds up, Aster will still need to protect the technology and prepare it for mass production before the Halston launch. Analysts note that a proprietary fix could even give Aster an edge over its larger rival, Neura — if it reaches the market in time.
+  related_word: null
+  question: "According to the article, what may the research team have found?"
+  options: { A: "A breakthrough that keeps the device cool and stable", B: "A new supplier", C: "A cheaper warehouse", D: "A tax exemption" }
+  answer: "A"
+  explanation_vi: "có thể đã tìm ra \"a **breakthrough that keeps the device cool and stable**\". (B)/(C)/(D) sai."
+
+- id: "exercise-19-p7-26"
+  part: 7
+  topic: "corporate-development"
+  lesson: ["lesson-19"]
+  level: null
+  passage_group: "p7-24-26"
+  passage: |
+    **Marlowe Business Journal — Aster Bets on Its Own Engineers**
+    With its Aria launch in jeopardy, Aster Home Technologies has chosen to fix the problem in-house rather than seek help from outside. Its research team has reworked the product's core and, sources say, may have found a breakthrough that keeps the device cool and stable. If the new design holds up, Aster will still need to protect the technology and prepare it for mass production before the Halston launch. Analysts note that a proprietary fix could even give Aster an edge over its larger rival, Neura — if it reaches the market in time.
+  related_word: null
+  question: "What must Aster still do if the new design holds up?"
+  options: { A: "Cancel the Halston launch", B: "Lay off its engineers", C: "Protect the technology and prepare it for mass production", D: "Return to the old chip" }
+  answer: "C"
+  explanation_vi: "nếu thiết kế trụ được, vẫn phải \"**protect the technology and prepare it for mass production**\" → dẫn Ch 20 (patent, độc quyền, triển khai). (A)/(B)/(D) sai."

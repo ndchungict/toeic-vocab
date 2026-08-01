@@ -1,0 +1,337 @@
+# EXERCISE 17 — MANUFACTURING: Dây chuyền & Năng suất
+# Nguồn: exercises/exercise-17.md (lesson-17)
+# 26 câu: Part 5 (1-12), Part 6 (13-20), Part 7 (21-26)
+
+- id: "exercise-17-p5-01"
+  part: 5
+  topic: "manufacturing"
+  lesson: ["lesson-17"]
+  level: 600
+  related_word: "plant"
+  question: "The Eastport ______ ran day and night to meet the Halston deadline."
+  options: { A: "plant", B: "shift", C: "output", D: "foreman" }
+  answer: "A"
+  explanation_vi: "\"The Eastport plant ran day and night\" = nhà máy. *shift/output/foreman* sai nghĩa. ⚠️ plant ≠ \"cây\"."
+
+- id: "exercise-17-p5-02"
+  part: 5
+  topic: "manufacturing"
+  lesson: ["lesson-17"]
+  level: 750
+  related_word: "assembly line"
+  question: "Aria units moved slowly down the ______ as workers added parts at each station."
+  options: { A: "capacity", B: "assembly line", C: "machinery", D: "efficiency" }
+  answer: "B"
+  explanation_vi: "\"moved down the assembly line… at each station\" = dây chuyền lắp ráp. *capacity/machinery/efficiency* sai nghĩa."
+
+- id: "exercise-17-p5-03"
+  part: 5
+  topic: "manufacturing"
+  lesson: ["lesson-17"]
+  level: 750
+  related_word: "automate"
+  question: "So that machines could handle the dull work, several repetitive steps had been ______."
+  options: { A: "supervised", B: "assembled", C: "automated", D: "inspected" }
+  answer: "C"
+  explanation_vi: "\"machines could handle the dull work… steps had been automated\" = tự động hóa. *supervised/assembled/inspected* sai nghĩa."
+
+- id: "exercise-17-p5-04"
+  part: 5
+  topic: "manufacturing"
+  lesson: ["lesson-17"]
+  level: 900
+  related_word: "foreman"
+  question: "Joe, the ______, walked the floor and checked on every station personally."
+  options: { A: "component", B: "foreman", C: "output", D: "shift" }
+  answer: "B"
+  explanation_vi: "\"walked the floor and checked every station\" = quản đốc. *component/output/shift* sai nghĩa."
+
+- id: "exercise-17-p5-05"
+  part: 5
+  topic: "manufacturing"
+  lesson: ["lesson-17"]
+  level: 750
+  related_word: "capacity"
+  question: "With demand so high, the factory operated at full ______."
+  options: { A: "capacity", B: "efficiency", C: "assembly", D: "warehouse" }
+  answer: "A"
+  explanation_vi: "\"operated at full capacity\" = hết công suất. ⚠️ cụm cố định *at full capacity*. *efficiency/assembly/warehouse* sai."
+
+- id: "exercise-17-p5-06"
+  part: 5
+  topic: "manufacturing"
+  lesson: ["lesson-17"]
+  level: 600
+  related_word: "shift"
+  question: "Management added a night ______ so the line could run around the clock."
+  options: { A: "plant", B: "shift", C: "output", D: "foreman" }
+  answer: "B"
+  explanation_vi: "\"a night shift… run around the clock\" = ca làm việc. *plant/output/foreman* sai nghĩa."
+
+- id: "exercise-17-p5-07"
+  part: 5
+  topic: "manufacturing"
+  lesson: ["lesson-17"]
+  level: 750
+  related_word: "output"
+  question: "Ray monitored the hourly ______ to see how many units the line produced."
+  options: { A: "capacity", B: "foreman", C: "output", D: "shift" }
+  answer: "C"
+  explanation_vi: "\"how many units the line produced\" = sản lượng. *capacity/foreman/shift* sai nghĩa."
+
+- id: "exercise-17-p5-08"
+  part: 5
+  topic: "manufacturing"
+  lesson: ["lesson-17"]
+  level: 750
+  related_word: "streamline"
+  question: "By removing a few wasteful movements, the team managed to ______ the process."
+  options: { A: "supervise", B: "assemble", C: "streamline", D: "automate" }
+  answer: "C"
+  explanation_vi: "\"removing wasteful movements… streamline the process\" = tinh gọn quy trình. *supervise/assemble/automate* sai nghĩa."
+
+- id: "exercise-17-p5-09"
+  part: 5
+  topic: "manufacturing"
+  lesson: ["lesson-17"]
+  level: 600
+  related_word: "assemble"
+  question: "Workers ______ the boards by fitting each chip and connector into place."
+  options: { A: "assembled", B: "supervised", C: "streamlined", D: "dispatched" }
+  answer: "A"
+  explanation_vi: "\"fitting each chip and connector into place\" = lắp ráp. *supervised/streamlined/dispatched* sai nghĩa."
+
+- id: "exercise-17-p5-10"
+  part: 5
+  topic: "manufacturing"
+  lesson: ["lesson-17"]
+  level: 600
+  related_word: "machinery"
+  question: "Heavy ______ at the front of the line stamped the metal casings."
+  options: { A: "machinery", B: "shifts", C: "outputs", D: "components" }
+  answer: "A"
+  explanation_vi: "\"heavy machinery… stamped the casings\" = máy móc. ⚠️ không đếm được (loại các đáp án số nhiều). *shifts/outputs/components* sai."
+
+- id: "exercise-17-p5-11"
+  part: 5
+  topic: "manufacturing"
+  lesson: ["lesson-17"]
+  level: 750
+  related_word: "component"
+  question: "The new chip was the most important ______ inside each Aria unit."
+  options: { A: "capacity", B: "component", C: "foreman", D: "efficiency" }
+  answer: "B"
+  explanation_vi: "\"the most important component inside each unit\" = linh kiện. *capacity/foreman/efficiency* sai nghĩa."
+
+- id: "exercise-17-p5-12"
+  part: 5
+  topic: "manufacturing"
+  lesson: ["lesson-17"]
+  level: 600
+  related_word: "efficiency"
+  question: "Small process changes helped raise both output and ______ on the line."
+  options: { A: "machinery", B: "plant", C: "efficiency", D: "shift" }
+  answer: "C"
+  explanation_vi: "\"raise both output and efficiency\" = hiệu suất. *machinery/plant/shift* sai nghĩa."
+
+- id: "exercise-17-p6-13"
+  part: 6
+  topic: "manufacturing"
+  lesson: ["lesson-17"]
+  level: null
+  passage_group: "p6-13-16"
+  passage: |
+    **NOTICE — Eastport Production Floor**
+    To hit the Aria launch target, the plant will run **(13)______** around the clock, including a new night shift. Please keep the **(14)______** moving at a steady pace; do not let units pile up between stations. All operators must follow their **(15)______**'s instructions at every step and report any problem at once. Our goal this month is to raise **(16)______** without sacrificing quality.
+  related_word: null
+  options: { A: "at full capacity", B: "out of stock", C: "free of charge", D: "on backorder" }
+  answer: "A"
+  explanation_vi: "\"run at full capacity around the clock\" = hết công suất. *out of stock/free of charge/on backorder* sai ngữ cảnh."
+
+- id: "exercise-17-p6-14"
+  part: 6
+  topic: "manufacturing"
+  lesson: ["lesson-17"]
+  level: 900
+  passage_group: "p6-13-16"
+  passage: |
+    **NOTICE — Eastport Production Floor**
+    To hit the Aria launch target, the plant will run **(13)______** around the clock, including a new night shift. Please keep the **(14)______** moving at a steady pace; do not let units pile up between stations. All operators must follow their **(15)______**'s instructions at every step and report any problem at once. Our goal this month is to raise **(16)______** without sacrificing quality.
+  related_word: "conveyor belt"
+  options: { A: "foreman", B: "conveyor belt", C: "shift", D: "output" }
+  answer: "B"
+  explanation_vi: "\"keep the conveyor belt moving… don't let units pile up between stations\" = băng chuyền. *foreman/shift/output* sai."
+
+- id: "exercise-17-p6-15"
+  part: 6
+  topic: "manufacturing"
+  lesson: ["lesson-17"]
+  level: null
+  passage_group: "p6-13-16"
+  passage: |
+    **NOTICE — Eastport Production Floor**
+    To hit the Aria launch target, the plant will run **(13)______** around the clock, including a new night shift. Please keep the **(14)______** moving at a steady pace; do not let units pile up between stations. All operators must follow their **(15)______**'s instructions at every step and report any problem at once. Our goal this month is to raise **(16)______** without sacrificing quality.
+  related_word: null
+  options: { A: "supplier", B: "tenant", C: "supervisor", D: "applicant" }
+  answer: "C"
+  explanation_vi: "\"follow their supervisor's instructions\" = quản lý trực tiếp (họ từ của *supervise*). *supplier/tenant/applicant* sai nghĩa."
+
+- id: "exercise-17-p6-16"
+  part: 6
+  topic: "manufacturing"
+  lesson: ["lesson-17"]
+  level: 600
+  passage_group: "p6-13-16"
+  passage: |
+    **NOTICE — Eastport Production Floor**
+    To hit the Aria launch target, the plant will run **(13)______** around the clock, including a new night shift. Please keep the **(14)______** moving at a steady pace; do not let units pile up between stations. All operators must follow their **(15)______**'s instructions at every step and report any problem at once. Our goal this month is to raise **(16)______** without sacrificing quality.
+  related_word: "productivity"
+  options: { A: "productivity", B: "machinery", C: "warehouse", D: "raw materials" }
+  answer: "A"
+  explanation_vi: "\"raise productivity without sacrificing quality\" = năng suất. *machinery/warehouse/raw materials* sai nghĩa."
+
+- id: "exercise-17-p6-17"
+  part: 6
+  topic: "manufacturing"
+  lesson: ["lesson-17"]
+  level: 750
+  passage_group: "p6-17-20"
+  passage: |
+    **Aria Line — Ramp-Up Report**
+    The Eastport team has brought the Aria line up to speed. **(17)______** and components now arrive at the head of the line just in time, so nothing sits idle. Skilled operators **(18)______** each unit by hand where machines cannot, while automated stations handle the repetitive work. Final **(19)______** is completed at the last station before packing. Thanks to well-maintained **(20)______**, breakdowns have been rare during the push.
+  related_word: "raw materials"
+  options: { A: "Raw materials", B: "Shifts", C: "Outputs", D: "Foremen" }
+  answer: "A"
+  explanation_vi: "\"raw materials and components arrive… so nothing sits idle\" = nguyên liệu thô. *Shifts/Outputs/Foremen* sai nghĩa."
+
+- id: "exercise-17-p6-18"
+  part: 6
+  topic: "manufacturing"
+  lesson: ["lesson-17"]
+  level: 600
+  passage_group: "p6-17-20"
+  passage: |
+    **Aria Line — Ramp-Up Report**
+    The Eastport team has brought the Aria line up to speed. **(17)______** and components now arrive at the head of the line just in time, so nothing sits idle. Skilled operators **(18)______** each unit by hand where machines cannot, while automated stations handle the repetitive work. Final **(19)______** is completed at the last station before packing. Thanks to well-maintained **(20)______**, breakdowns have been rare during the push.
+  related_word: "assemble"
+  options: { A: "supervise", B: "assemble", C: "streamline", D: "dispatch" }
+  answer: "B"
+  explanation_vi: "\"operators assemble each unit by hand where machines cannot\" = lắp ráp. *supervise/streamline/dispatch* sai."
+
+- id: "exercise-17-p6-19"
+  part: 6
+  topic: "manufacturing"
+  lesson: ["lesson-17"]
+  level: 750
+  passage_group: "p6-17-20"
+  passage: |
+    **Aria Line — Ramp-Up Report**
+    The Eastport team has brought the Aria line up to speed. **(17)______** and components now arrive at the head of the line just in time, so nothing sits idle. Skilled operators **(18)______** each unit by hand where machines cannot, while automated stations handle the repetitive work. Final **(19)______** is completed at the last station before packing. Thanks to well-maintained **(20)______**, breakdowns have been rare during the push.
+  related_word: "assembly"
+  options: { A: "capacity", B: "efficiency", C: "assembly", D: "plant" }
+  answer: "C"
+  explanation_vi: "\"final assembly is completed at the last station\" = việc lắp ráp. *capacity/efficiency/plant* sai nghĩa."
+
+- id: "exercise-17-p6-20"
+  part: 6
+  topic: "manufacturing"
+  lesson: ["lesson-17"]
+  level: 600
+  passage_group: "p6-17-20"
+  passage: |
+    **Aria Line — Ramp-Up Report**
+    The Eastport team has brought the Aria line up to speed. **(17)______** and components now arrive at the head of the line just in time, so nothing sits idle. Skilled operators **(18)______** each unit by hand where machines cannot, while automated stations handle the repetitive work. Final **(19)______** is completed at the last station before packing. Thanks to well-maintained **(20)______**, breakdowns have been rare during the push.
+  related_word: "equipment"
+  options: { A: "equipment", B: "shifts", C: "outputs", D: "components" }
+  answer: "A"
+  explanation_vi: "\"well-maintained equipment… breakdowns rare\" = thiết bị. ⚠️ không đếm được. *shifts/outputs/components* sai."
+
+- id: "exercise-17-p7-21"
+  part: 7
+  topic: "manufacturing"
+  lesson: ["lesson-17"]
+  level: null
+  passage_group: "p7-21-23"
+  passage: |
+    **Eastport Weekly — Production Update**
+    With the Halston launch date fixed, the Eastport plant has pushed its Aria line to the limit. The team added a night shift and ran at full capacity, lifting hourly output to record levels. Managers also streamlined several steps and automated the most repetitive work, which improved efficiency without adding staff. Foreman Joe Delgado, however, cautioned that the pace is punishing: operators are tired, and quality can slip when people are pushed too hard for too long.
+  related_word: null
+  question: "How did the plant raise its output?"
+  options: { A: "By closing the night shift", B: "By running at full capacity and adding a shift", C: "By outsourcing all work", D: "By slowing the line down" }
+  answer: "B"
+  explanation_vi: "nâng sản lượng bằng cách \"ran **at full capacity** and added a **shift**\", đẩy output kỷ lục. (A)/(C)/(D) sai/trái."
+
+- id: "exercise-17-p7-22"
+  part: 7
+  topic: "manufacturing"
+  lesson: ["lesson-17"]
+  level: null
+  passage_group: "p7-21-23"
+  passage: |
+    **Eastport Weekly — Production Update**
+    With the Halston launch date fixed, the Eastport plant has pushed its Aria line to the limit. The team added a night shift and ran at full capacity, lifting hourly output to record levels. Managers also streamlined several steps and automated the most repetitive work, which improved efficiency without adding staff. Foreman Joe Delgado, however, cautioned that the pace is punishing: operators are tired, and quality can slip when people are pushed too hard for too long.
+  related_word: null
+  question: "What improved efficiency without adding staff?"
+  options: { A: "Hiring more foremen", B: "Buying raw materials in bulk", C: "Streamlining steps and automating repetitive work", D: "Lowering the output target" }
+  answer: "C"
+  explanation_vi: "cải thiện hiệu suất nhờ \"**streamlined** several steps and **automated** the most repetitive work… without adding staff\". (A)/(B)/(D) sai."
+
+- id: "exercise-17-p7-23"
+  part: 7
+  topic: "manufacturing"
+  lesson: ["lesson-17"]
+  level: null
+  passage_group: "p7-21-23"
+  passage: |
+    **Eastport Weekly — Production Update**
+    With the Halston launch date fixed, the Eastport plant has pushed its Aria line to the limit. The team added a night shift and ran at full capacity, lifting hourly output to record levels. Managers also streamlined several steps and automated the most repetitive work, which improved efficiency without adding staff. Foreman Joe Delgado, however, cautioned that the pace is punishing: operators are tired, and quality can slip when people are pushed too hard for too long.
+  related_word: null
+  question: "What concern did Joe Delgado raise?"
+  options: { A: "The plant was too quiet", B: "Quality can slip when workers are pushed too hard", C: "There were too few orders", D: "The machinery was brand new" }
+  answer: "B"
+  explanation_vi: "Joe cảnh báo \"quality can slip when people are **pushed too hard** for too long\". (A)/(C)/(D) sai."
+
+- id: "exercise-17-p7-24"
+  part: 7
+  topic: "manufacturing"
+  lesson: ["lesson-17"]
+  level: null
+  passage_group: "p7-24-26"
+  passage: |
+    **Marlowe Business Journal — Aster's Factory Races the Clock**
+    Aster Home Technologies has driven its Eastport plant to full capacity to get the Aria line ready for its Halston debut. Output has hit record highs, and managers say they are on schedule. Yet the sprint has a cost. Workers are logging long overtime shifts, reviving the labor tensions that flared earlier in the year, and some units built with hastily sourced replacement parts are reportedly showing odd behavior on the line. Quality inspectors are said to be taking a closer look.
+  related_word: null
+  question: "What has Aster done to prepare for the Halston debut?"
+  options: { A: "Cancelled the Aria line", B: "Driven the Eastport plant to full capacity", C: "Cut its output in half", D: "Closed the plant for repairs" }
+  answer: "B"
+  explanation_vi: "Aster \"driven its Eastport **plant to full capacity**\" cho màn ra mắt Halston. (A)/(C)/(D) sai/trái."
+
+- id: "exercise-17-p7-25"
+  part: 7
+  topic: "manufacturing"
+  lesson: ["lesson-17"]
+  level: null
+  passage_group: "p7-24-26"
+  passage: |
+    **Marlowe Business Journal — Aster's Factory Races the Clock**
+    Aster Home Technologies has driven its Eastport plant to full capacity to get the Aria line ready for its Halston debut. Output has hit record highs, and managers say they are on schedule. Yet the sprint has a cost. Workers are logging long overtime shifts, reviving the labor tensions that flared earlier in the year, and some units built with hastily sourced replacement parts are reportedly showing odd behavior on the line. Quality inspectors are said to be taking a closer look.
+  related_word: null
+  question: "Why have labor tensions revived?"
+  options: { A: "Wages were cut to zero", B: "Workers are logging long overtime shifts", C: "The plant was relocated", D: "The night shift was removed" }
+  answer: "B"
+  explanation_vi: "căng thẳng lao động trở lại vì \"workers are logging **long overtime shifts**\" (nối tuyến Ch 8). (A)/(C)/(D) sai."
+
+- id: "exercise-17-p7-26"
+  part: 7
+  topic: "manufacturing"
+  lesson: ["lesson-17"]
+  level: null
+  passage_group: "p7-24-26"
+  passage: |
+    **Marlowe Business Journal — Aster's Factory Races the Clock**
+    Aster Home Technologies has driven its Eastport plant to full capacity to get the Aria line ready for its Halston debut. Output has hit record highs, and managers say they are on schedule. Yet the sprint has a cost. Workers are logging long overtime shifts, reviving the labor tensions that flared earlier in the year, and some units built with hastily sourced replacement parts are reportedly showing odd behavior on the line. Quality inspectors are said to be taking a closer look.
+  related_word: null
+  question: "What warning sign is mentioned at the end?"
+  options: { A: "Raw materials ran out", B: "The conveyor belt broke", C: "Units built with replacement parts are showing odd behavior", D: "Output fell sharply" }
+  answer: "C"
+  explanation_vi: "dấu hiệu cảnh báo: \"units built with **hastily sourced replacement parts** are… showing odd behavior\" → ngòi nổ QC Ch 18. (A)/(B)/(D) sai."

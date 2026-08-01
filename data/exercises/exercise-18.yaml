@@ -1,0 +1,337 @@
+# EXERCISE 18 — MANUFACTURING: Kiểm soát chất lượng & Sự cố
+# Nguồn: exercises/exercise-18.md (lesson-18)
+# 26 câu: Part 5 (1-12), Part 6 (13-20), Part 7 (21-26)
+
+- id: "exercise-18-p5-01"
+  part: 5
+  topic: "manufacturing"
+  lesson: ["lesson-18"]
+  level: 600
+  related_word: "inspect"
+  question: "After Ben's warning, the QC team stopped the line to ______ every unit in the batch."
+  options: { A: "outsource", B: "inspect", C: "assemble", D: "streamline" }
+  answer: "B"
+  explanation_vi: "\"stopped the line to inspect every unit\" = kiểm tra kỹ. *outsource/assemble/streamline* sai nghĩa."
+
+- id: "exercise-18-p5-02"
+  part: 5
+  topic: "manufacturing"
+  lesson: ["lesson-18"]
+  level: 750
+  related_word: "flaw"
+  question: "What looked at first like a minor ______ turned out to be a systematic problem."
+  options: { A: "flaw", B: "shift", C: "capacity", D: "warehouse" }
+  answer: "A"
+  explanation_vi: "\"a minor flaw… turned out systematic\" = khuyết điểm. *shift/capacity/warehouse* sai nghĩa."
+
+- id: "exercise-18-p5-03"
+  part: 5
+  topic: "manufacturing"
+  lesson: ["lesson-18"]
+  level: 750
+  related_word: "durable"
+  question: "The replacement chips were not ______ enough and overheated under heavy use."
+  options: { A: "fragile", B: "durable", C: "defective", D: "hazardous" }
+  answer: "B"
+  explanation_vi: "\"not durable enough and overheated under heavy use\" = bền. ⚠️ *fragile* = dễ vỡ (không hợp \"not… enough\"); *defective/hazardous* sai nghĩa."
+
+- id: "exercise-18-p5-04"
+  part: 5
+  topic: "manufacturing"
+  lesson: ["lesson-18"]
+  level: 900
+  related_word: "malfunction"
+  question: "Under stress testing, many units began to ______, freezing or short-circuiting."
+  options: { A: "inspect", B: "malfunction", C: "assemble", D: "recall" }
+  answer: "B"
+  explanation_vi: "\"freezing or short-circuiting\" = trục trặc. *inspect/assemble/recall* sai nghĩa."
+
+- id: "exercise-18-p5-05"
+  part: 5
+  topic: "manufacturing"
+  lesson: ["lesson-18"]
+  level: 600
+  related_word: "standard"
+  question: "Because none of the units met the safety ______, Ray refused to ship them."
+  options: { A: "standard", B: "precision", C: "warehouse", D: "batch" }
+  answer: "A"
+  explanation_vi: "\"met the safety standard\" = tiêu chuẩn. *precision/warehouse/batch* sai nghĩa."
+
+- id: "exercise-18-p5-06"
+  part: 5
+  topic: "manufacturing"
+  lesson: ["lesson-18"]
+  level: 750
+  related_word: "hazard"
+  question: "Overheating components inside a home device pose a serious fire ______."
+  options: { A: "defect", B: "hazard", C: "shift", D: "breakdown" }
+  answer: "B"
+  explanation_vi: "\"a serious fire hazard\" = mối nguy hiểm. *defect/shift/breakdown* sai nghĩa."
+
+- id: "exercise-18-p5-07"
+  part: 5
+  topic: "manufacturing"
+  lesson: ["lesson-18"]
+  level: 900
+  related_word: "halt"
+  question: "Rather than risk faulty products, Ray decided to ______ production immediately."
+  options: { A: "halt", B: "automate", C: "streamline", D: "inspect" }
+  answer: "A"
+  explanation_vi: "\"halt production immediately\" = dừng. *automate/streamline/inspect* sai nghĩa."
+
+- id: "exercise-18-p5-08"
+  part: 5
+  topic: "manufacturing"
+  lesson: ["lesson-18"]
+  level: 750
+  related_word: "recall"
+  question: "If defective units reached customers, the company would have to issue a ______."
+  options: { A: "refund", B: "recall", C: "surcharge", D: "warehouse" }
+  answer: "B"
+  explanation_vi: "\"if defective units reached customers… issue a recall\" = thu hồi sản phẩm. ⚠️ *refund* = hoàn tiền (khác); *surcharge/warehouse* sai."
+
+- id: "exercise-18-p5-09"
+  part: 5
+  topic: "manufacturing"
+  lesson: ["lesson-18"]
+  level: 750
+  related_word: "batch"
+  question: "The suspect ______ was sealed off and moved to a corner of the warehouse."
+  options: { A: "shift", B: "batch", C: "standard", D: "precision" }
+  answer: "B"
+  explanation_vi: "\"the suspect batch was sealed off\" = lô sản xuất. *shift/standard/precision* sai nghĩa."
+
+- id: "exercise-18-p5-10"
+  part: 5
+  topic: "manufacturing"
+  lesson: ["lesson-18"]
+  level: 750
+  related_word: "protective gear"
+  question: "Workers dismantling the hot units were told to wear ______."
+  options: { A: "protective gear", B: "raw materials", C: "a conveyor belt", D: "a purchase order" }
+  answer: "A"
+  explanation_vi: "\"dismantling the hot units… wear protective gear\" = đồ bảo hộ. *raw materials/conveyor belt/purchase order* sai nghĩa."
+
+- id: "exercise-18-p5-11"
+  part: 5
+  topic: "manufacturing"
+  lesson: ["lesson-18"]
+  level: 900
+  related_word: "precision"
+  question: "Sophia examined each board with the ______ of a perfectionist engineer."
+  options: { A: "capacity", B: "precision", C: "recall", D: "hazard" }
+  answer: "B"
+  explanation_vi: "\"examined each board with the precision of…\" = độ chính xác. *capacity/recall/hazard* sai nghĩa."
+
+- id: "exercise-18-p5-12"
+  part: 5
+  topic: "manufacturing"
+  lesson: ["lesson-18"]
+  level: 900
+  related_word: "outsource"
+  question: "Management chose not to ______ the repair, since the root cause lay in the design."
+  options: { A: "inspect", B: "outsource", C: "assemble", D: "halt" }
+  answer: "B"
+  explanation_vi: "\"not… the repair, since the root cause lay in the design\" = thuê ngoài. *inspect/assemble/halt* sai nghĩa."
+
+- id: "exercise-18-p6-13"
+  part: 6
+  topic: "manufacturing"
+  lesson: ["lesson-18"]
+  level: 750
+  passage_group: "p6-13-16"
+  passage: |
+    **MEMO — Production Hold, Aria Line**
+    Effective immediately, we are placing a hold on the Aria line. During routine **(13)______**, inspectors found that a recent batch does not meet our safety **(14)______**. Until the cause is fixed, all affected units must be sealed and stored in the **(15)______**, away from finished goods. Do not ship any unit from this batch. Handling teams must wear **(16)______** when moving the affected stock, as some units may overheat.
+  related_word: "quality control"
+  options: { A: "quality control", B: "shipping and handling", C: "word of mouth", D: "collective bargaining" }
+  answer: "A"
+  explanation_vi: "\"during routine quality control, inspectors found…\" = kiểm soát chất lượng. *shipping and handling/word of mouth/collective bargaining* sai ngữ cảnh."
+
+- id: "exercise-18-p6-14"
+  part: 6
+  topic: "manufacturing"
+  lesson: ["lesson-18"]
+  level: 600
+  passage_group: "p6-13-16"
+  passage: |
+    **MEMO — Production Hold, Aria Line**
+    Effective immediately, we are placing a hold on the Aria line. During routine **(13)______**, inspectors found that a recent batch does not meet our safety **(14)______**. Until the cause is fixed, all affected units must be sealed and stored in the **(15)______**, away from finished goods. Do not ship any unit from this batch. Handling teams must wear **(16)______** when moving the affected stock, as some units may overheat.
+  related_word: "standard"
+  options: { A: "precision", B: "standards", C: "warehouses", D: "batches" }
+  answer: "B"
+  explanation_vi: "\"does not meet our safety standards\" = tiêu chuẩn. *precision/warehouses/batches* sai nghĩa."
+
+- id: "exercise-18-p6-15"
+  part: 6
+  topic: "manufacturing"
+  lesson: ["lesson-18"]
+  level: 600
+  passage_group: "p6-13-16"
+  passage: |
+    **MEMO — Production Hold, Aria Line**
+    Effective immediately, we are placing a hold on the Aria line. During routine **(13)______**, inspectors found that a recent batch does not meet our safety **(14)______**. Until the cause is fixed, all affected units must be sealed and stored in the **(15)______**, away from finished goods. Do not ship any unit from this batch. Handling teams must wear **(16)______** when moving the affected stock, as some units may overheat.
+  related_word: "warehouse"
+  options: { A: "warehouse", B: "foreman", C: "shift", D: "invoice" }
+  answer: "A"
+  explanation_vi: "\"sealed and stored in the warehouse, away from finished goods\" = nhà kho. *foreman/shift/invoice* sai nghĩa."
+
+- id: "exercise-18-p6-16"
+  part: 6
+  topic: "manufacturing"
+  lesson: ["lesson-18"]
+  level: 750
+  passage_group: "p6-13-16"
+  passage: |
+    **MEMO — Production Hold, Aria Line**
+    Effective immediately, we are placing a hold on the Aria line. During routine **(13)______**, inspectors found that a recent batch does not meet our safety **(14)______**. Until the cause is fixed, all affected units must be sealed and stored in the **(15)______**, away from finished goods. Do not ship any unit from this batch. Handling teams must wear **(16)______** when moving the affected stock, as some units may overheat.
+  related_word: "protective gear"
+  options: { A: "protective gear", B: "raw materials", C: "an itinerary", D: "a catalog" }
+  answer: "A"
+  explanation_vi: "\"must wear protective gear… units may overheat\" = đồ bảo hộ. *raw materials/an itinerary/a catalog* sai nghĩa."
+
+- id: "exercise-18-p6-17"
+  part: 6
+  topic: "manufacturing"
+  lesson: ["lesson-18"]
+  level: 750
+  passage_group: "p6-17-20"
+  passage: |
+    **Eastport QC — Preliminary Findings**
+    Our analysis points to a single root cause. The replacement chips are not **(17)______**; under sustained load they overheat, and several test units suffered a complete **(18)______**. This is not an assembly error but a genuine **(19)______** in the components themselves. Fixing it by hand is not an option, and we do not recommend that the company **(20)______** the redesign to an outside firm, since the problem lies in Aria's core design.
+  related_word: "durable"
+  options: { A: "durable", B: "vacant", C: "frugal", D: "overdue" }
+  answer: "A"
+  explanation_vi: "\"the chips are not durable; under load they overheat\" = bền. *vacant/frugal/overdue* sai nghĩa."
+
+- id: "exercise-18-p6-18"
+  part: 6
+  topic: "manufacturing"
+  lesson: ["lesson-18"]
+  level: 750
+  passage_group: "p6-17-20"
+  passage: |
+    **Eastport QC — Preliminary Findings**
+    Our analysis points to a single root cause. The replacement chips are not **(17)______**; under sustained load they overheat, and several test units suffered a complete **(18)______**. This is not an assembly error but a genuine **(19)______** in the components themselves. Fixing it by hand is not an option, and we do not recommend that the company **(20)______** the redesign to an outside firm, since the problem lies in Aria's core design.
+  related_word: "breakdown"
+  options: { A: "surcharge", B: "breakdown", C: "discount", D: "shift" }
+  answer: "B"
+  explanation_vi: "\"several test units suffered a complete breakdown\" = hỏng hóc. *surcharge/discount/shift* sai nghĩa."
+
+- id: "exercise-18-p6-19"
+  part: 6
+  topic: "manufacturing"
+  lesson: ["lesson-18"]
+  level: 600
+  passage_group: "p6-17-20"
+  passage: |
+    **Eastport QC — Preliminary Findings**
+    Our analysis points to a single root cause. The replacement chips are not **(17)______**; under sustained load they overheat, and several test units suffered a complete **(18)______**. This is not an assembly error but a genuine **(19)______** in the components themselves. Fixing it by hand is not an option, and we do not recommend that the company **(20)______** the redesign to an outside firm, since the problem lies in Aria's core design.
+  related_word: "defect"
+  options: { A: "recall", B: "defect", C: "hazard", D: "standard" }
+  answer: "B"
+  explanation_vi: "\"a genuine defect in the components themselves\" = lỗi sản phẩm. *recall/hazard/standard* sai nghĩa."
+
+- id: "exercise-18-p6-20"
+  part: 6
+  topic: "manufacturing"
+  lesson: ["lesson-18"]
+  level: 900
+  passage_group: "p6-17-20"
+  passage: |
+    **Eastport QC — Preliminary Findings**
+    Our analysis points to a single root cause. The replacement chips are not **(17)______**; under sustained load they overheat, and several test units suffered a complete **(18)______**. This is not an assembly error but a genuine **(19)______** in the components themselves. Fixing it by hand is not an option, and we do not recommend that the company **(20)______** the redesign to an outside firm, since the problem lies in Aria's core design.
+  related_word: "outsource"
+  options: { A: "outsource", B: "inspect", C: "assemble", D: "halt" }
+  answer: "A"
+  explanation_vi: "\"do not… the redesign to an outside firm\" = thuê ngoài. *inspect/assemble/halt* sai nghĩa."
+
+- id: "exercise-18-p7-21"
+  part: 7
+  topic: "manufacturing"
+  lesson: ["lesson-18"]
+  level: null
+  passage_group: "p7-21-23"
+  passage: |
+    **Aria Program — Incident Report**
+    During final testing, quality control discovered that a batch of Aria units built with the rushed replacement chips failed to meet safety standards. Under sustained load, the chips overheated; several units malfunctioned and one suffered a complete breakdown. Because overheating poses a fire hazard, management halted production at once and sealed the affected batch in the warehouse. Engineers concluded that the fault is a genuine defect in the components, not an assembly mistake, so the fix cannot be outsourced or patched by hand.
+  related_word: null
+  question: "What did quality control discover?"
+  options: { A: "The batch met every standard", B: "A batch failed to meet safety standards", C: "The line was simply too slow", D: "The warehouse was empty" }
+  answer: "B"
+  explanation_vi: "QC phát hiện \"a batch… **failed to meet safety standards**\". (A) trái; (C)/(D) không nêu."
+
+- id: "exercise-18-p7-22"
+  part: 7
+  topic: "manufacturing"
+  lesson: ["lesson-18"]
+  level: null
+  passage_group: "p7-21-23"
+  passage: |
+    **Aria Program — Incident Report**
+    During final testing, quality control discovered that a batch of Aria units built with the rushed replacement chips failed to meet safety standards. Under sustained load, the chips overheated; several units malfunctioned and one suffered a complete breakdown. Because overheating poses a fire hazard, management halted production at once and sealed the affected batch in the warehouse. Engineers concluded that the fault is a genuine defect in the components, not an assembly mistake, so the fix cannot be outsourced or patched by hand.
+  related_word: null
+  question: "Why was production halted?"
+  options: { A: "The workers went on strike", B: "Overheating units posed a fire hazard", C: "The budget ran out", D: "The chips were too cheap" }
+  answer: "B"
+  explanation_vi: "dừng sản xuất vì \"overheating poses a **fire hazard**\". (A)/(C)/(D) sai/không nêu."
+
+- id: "exercise-18-p7-23"
+  part: 7
+  topic: "manufacturing"
+  lesson: ["lesson-18"]
+  level: null
+  passage_group: "p7-21-23"
+  passage: |
+    **Aria Program — Incident Report**
+    During final testing, quality control discovered that a batch of Aria units built with the rushed replacement chips failed to meet safety standards. Under sustained load, the chips overheated; several units malfunctioned and one suffered a complete breakdown. Because overheating poses a fire hazard, management halted production at once and sealed the affected batch in the warehouse. Engineers concluded that the fault is a genuine defect in the components, not an assembly mistake, so the fix cannot be outsourced or patched by hand.
+  related_word: null
+  question: "Why can the problem NOT be outsourced or patched by hand?"
+  options: { A: "It is a genuine defect in the components", B: "It is only a labeling error", C: "The supplier refused to help", D: "The units are already sold" }
+  answer: "A"
+  explanation_vi: "không thuê ngoài/vá tay được vì \"the fault is a genuine **defect in the components**, not an assembly mistake\". (B)/(C)/(D) sai."
+
+- id: "exercise-18-p7-24"
+  part: 7
+  topic: "manufacturing"
+  lesson: ["lesson-18"]
+  level: null
+  passage_group: "p7-24-26"
+  passage: |
+    **Marlowe Business Journal — Aster's Aria Hits a Wall**
+    Aster Home Technologies has stopped production of its flagship Aria line just weeks before its Halston launch. Sources say quality inspectors found a serious defect traced to replacement chips the company rushed in after an earlier supply failure. With a fixed launch date and no room to recall products later, Aster faces its hardest test yet. Rather than seek an outside fix, the company is turning to its own research team to redesign the affected part at speed. Whether Aster can solve the problem in time may decide not only the launch, but the company's independence.
+  related_word: null
+  question: "What has Aster done to its Aria line?"
+  options: { A: "Doubled its output", B: "Stopped production weeks before launch", C: "Sold it to Neura", D: "Moved it to Halston" }
+  answer: "B"
+  explanation_vi: "Aster \"**stopped production** of its Aria line just weeks before launch\". (A)/(C)/(D) sai/trái."
+
+- id: "exercise-18-p7-25"
+  part: 7
+  topic: "manufacturing"
+  lesson: ["lesson-18"]
+  level: null
+  passage_group: "p7-24-26"
+  passage: |
+    **Marlowe Business Journal — Aster's Aria Hits a Wall**
+    Aster Home Technologies has stopped production of its flagship Aria line just weeks before its Halston launch. Sources say quality inspectors found a serious defect traced to replacement chips the company rushed in after an earlier supply failure. With a fixed launch date and no room to recall products later, Aster faces its hardest test yet. Rather than seek an outside fix, the company is turning to its own research team to redesign the affected part at speed. Whether Aster can solve the problem in time may decide not only the launch, but the company's independence.
+  related_word: null
+  question: "What is the source of the defect?"
+  options: { A: "A marketing error", B: "Replacement chips rushed in after a supply failure", C: "A damaged warehouse", D: "A labor strike" }
+  answer: "B"
+  explanation_vi: "nguồn lỗi: \"**replacement chips** the company rushed in after an earlier **supply failure**\". (A)/(C)/(D) sai."
+
+- id: "exercise-18-p7-26"
+  part: 7
+  topic: "manufacturing"
+  lesson: ["lesson-18"]
+  level: null
+  passage_group: "p7-24-26"
+  passage: |
+    **Marlowe Business Journal — Aster's Aria Hits a Wall**
+    Aster Home Technologies has stopped production of its flagship Aria line just weeks before its Halston launch. Sources say quality inspectors found a serious defect traced to replacement chips the company rushed in after an earlier supply failure. With a fixed launch date and no room to recall products later, Aster faces its hardest test yet. Rather than seek an outside fix, the company is turning to its own research team to redesign the affected part at speed. Whether Aster can solve the problem in time may decide not only the launch, but the company's independence.
+  related_word: null
+  question: "How does Aster plan to fix the problem?"
+  options: { A: "By outsourcing it to a rival", B: "By cancelling the launch", C: "By having its own research team redesign the part", D: "By ignoring it" }
+  answer: "C"
+  explanation_vi: "hướng khắc phục: \"turning to its **own research team to redesign** the affected part\" → chuyền bóng sang R&D (Ch 19). (A)/(B)/(D) sai."

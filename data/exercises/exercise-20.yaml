@@ -1,0 +1,337 @@
+# EXERCISE 20 — CORPORATE DEVELOPMENT: Sáng chế & Thương mại hóa
+# Nguồn: exercises/exercise-20.md (lesson-20)
+# 26 câu: Part 5 (1-12), Part 6 (13-20), Part 7 (21-26)
+
+- id: "exercise-20-p5-01"
+  part: 5
+  topic: "corporate-development"
+  lesson: ["lesson-20"]
+  level: 900
+  related_word: "obsolete"
+  question: "The old single-chip approach was now considered ______ and was abandoned."
+  options: { A: "scalable", B: "obsolete", C: "proprietary", D: "pending" }
+  answer: "B"
+  explanation_vi: "\"the old approach… considered obsolete and was abandoned\" = lỗi thời. *scalable/proprietary/pending* sai nghĩa."
+
+- id: "exercise-20-p5-02"
+  part: 5
+  topic: "corporate-development"
+  lesson: ["lesson-20"]
+  level: 750
+  related_word: "patent"
+  question: "To protect the new circuit, the lawyers filed a ______ on the core design."
+  options: { A: "venture", B: "milestone", C: "patent", D: "prospect" }
+  answer: "C"
+  explanation_vi: "\"the lawyers filed a patent on the core design\" = bằng sáng chế. *venture/milestone/prospect* sai nghĩa."
+
+- id: "exercise-20-p5-03"
+  part: 5
+  topic: "corporate-development"
+  lesson: ["lesson-20"]
+  level: 900
+  related_word: "proprietary"
+  question: "Aster kept the cooling technology ______ so that no rival could copy it."
+  options: { A: "proprietary", B: "obsolete", C: "scalable", D: "pending" }
+  answer: "A"
+  explanation_vi: "\"kept the technology proprietary so no rival could copy it\" = độc quyền sở hữu. *obsolete/scalable/pending* sai nghĩa."
+
+- id: "exercise-20-p5-04"
+  part: 5
+  topic: "corporate-development"
+  lesson: ["lesson-20"]
+  level: 750
+  related_word: "milestone"
+  question: "Fixing the design safely was a major ______ on the road to launch."
+  options: { A: "venture", B: "patent", C: "prospect", D: "milestone" }
+  answer: "D"
+  explanation_vi: "\"a major milestone on the road to launch\" = cột mốc. *venture/patent/prospect* sai nghĩa."
+
+- id: "exercise-20-p5-05"
+  part: 5
+  topic: "corporate-development"
+  lesson: ["lesson-20"]
+  level: 900
+  related_word: "scalable"
+  question: "The new design had to be ______ so it could work across tens of thousands of units."
+  options: { A: "obsolete", B: "scalable", C: "pending", D: "proprietary" }
+  answer: "B"
+  explanation_vi: "\"scalable… work across tens of thousands of units\" = mở rộng quy mô được. *obsolete/pending/proprietary* sai nghĩa."
+
+- id: "exercise-20-p5-06"
+  part: 5
+  topic: "corporate-development"
+  lesson: ["lesson-20"]
+  level: 600
+  related_word: "launch"
+  question: "The team still hoped to ______ Aria at the Brightway event on schedule."
+  options: { A: "launch", B: "anticipate", C: "diversify", D: "implement" }
+  answer: "A"
+  explanation_vi: "\"launch Aria at the Brightway event\" = ra mắt. *anticipate/diversify/implement* sai nghĩa."
+
+- id: "exercise-20-p5-07"
+  part: 5
+  topic: "corporate-development"
+  lesson: ["lesson-20"]
+  level: 750
+  related_word: "roll out"
+  question: "After the debut, Aster would ______ the product in phases, starting with Halston."
+  options: { A: "anticipate", B: "diversify", C: "roll out", D: "implement" }
+  answer: "C"
+  explanation_vi: "\"roll out the product in phases, starting with Halston\" = triển khai rộng rãi. *anticipate/diversify/implement* sai nghĩa."
+
+- id: "exercise-20-p5-08"
+  part: 5
+  topic: "corporate-development"
+  lesson: ["lesson-20"]
+  level: 750
+  related_word: "anticipate"
+  question: "Marketing began to ______ strong demand once the product reached the market."
+  options: { A: "implement", B: "roll out", C: "diversify", D: "anticipate" }
+  answer: "D"
+  explanation_vi: "\"anticipate strong demand once… on the market\" = dự đoán trước. *implement/roll out/diversify* sai nghĩa."
+
+- id: "exercise-20-p5-09"
+  part: 5
+  topic: "corporate-development"
+  lesson: ["lesson-20"]
+  level: 750
+  related_word: "emerging"
+  question: "Diane also had her eye on ______ markets that Neura had not yet entered."
+  options: { A: "obsolete", B: "emerging", C: "proprietary", D: "pending" }
+  answer: "B"
+  explanation_vi: "\"emerging markets Neura had not yet entered\" = mới nổi. *obsolete/proprietary/pending* sai nghĩa."
+
+- id: "exercise-20-p5-10"
+  part: 5
+  topic: "corporate-development"
+  lesson: ["lesson-20"]
+  level: 900
+  related_word: "intellectual property"
+  question: "The company moved quickly to protect its ______ before any details leaked."
+  options: { A: "milestone", B: "prospect", C: "intellectual property", D: "venture" }
+  answer: "C"
+  explanation_vi: "\"protect its intellectual property before details leaked\" = sở hữu trí tuệ. *milestone/prospect/venture* sai nghĩa."
+
+- id: "exercise-20-p5-11"
+  part: 5
+  topic: "corporate-development"
+  lesson: ["lesson-20"]
+  level: 750
+  related_word: "pending"
+  question: "With the patent still ______, the details were kept strictly confidential."
+  options: { A: "pending", B: "scalable", C: "obsolete", D: "emerging" }
+  answer: "A"
+  explanation_vi: "\"with the patent still pending… kept confidential\" = đang chờ xử lý. *scalable/obsolete/emerging* sai nghĩa."
+
+- id: "exercise-20-p5-12"
+  part: 5
+  topic: "corporate-development"
+  lesson: ["lesson-20"]
+  level: 750
+  related_word: "cutting-edge"
+  question: "Reviewers described the redesigned circuit as truly ______ technology."
+  options: { A: "obsolete", B: "pending", C: "scalable", D: "cutting-edge" }
+  answer: "D"
+  explanation_vi: "\"described… as truly cutting-edge technology\" = tiên tiến nhất. *obsolete/pending/scalable* sai nghĩa."
+
+- id: "exercise-20-p6-13"
+  part: 6
+  topic: "corporate-development"
+  lesson: ["lesson-20"]
+  level: 750
+  passage_group: "p6-13-16"
+  passage: |
+    **MEMO — Aria Redesign: Next Steps**
+    The new cooling design has passed repeated testing — a key **(13)______** for the program. Because it is a **(14)______** cooling architecture unlike anything our rivals offer, we will protect it carefully. Engineering will now **(15)______** the new circuit on the production line, making sure the design is **(16)______** enough for mass production.
+  related_word: "milestone"
+  options: { A: "venture", B: "milestone", C: "prospect", D: "patent" }
+  answer: "B"
+  explanation_vi: "\"passed repeated testing — a key milestone\" = cột mốc. *venture/prospect/patent* sai nghĩa."
+
+- id: "exercise-20-p6-14"
+  part: 6
+  topic: "corporate-development"
+  lesson: ["lesson-20"]
+  level: 900
+  passage_group: "p6-13-16"
+  passage: |
+    **MEMO — Aria Redesign: Next Steps**
+    The new cooling design has passed repeated testing — a key **(13)______** for the program. Because it is a **(14)______** cooling architecture unlike anything our rivals offer, we will protect it carefully. Engineering will now **(15)______** the new circuit on the production line, making sure the design is **(16)______** enough for mass production.
+  related_word: "state-of-the-art"
+  options: { A: "obsolete", B: "pending", C: "scalable", D: "state-of-the-art" }
+  answer: "D"
+  explanation_vi: "\"a state-of-the-art cooling architecture unlike anything rivals offer\" = hiện đại nhất. *obsolete/pending/scalable* sai nghĩa."
+
+- id: "exercise-20-p6-15"
+  part: 6
+  topic: "corporate-development"
+  lesson: ["lesson-20"]
+  level: 600
+  passage_group: "p6-13-16"
+  passage: |
+    **MEMO — Aria Redesign: Next Steps**
+    The new cooling design has passed repeated testing — a key **(13)______** for the program. Because it is a **(14)______** cooling architecture unlike anything our rivals offer, we will protect it carefully. Engineering will now **(15)______** the new circuit on the production line, making sure the design is **(16)______** enough for mass production.
+  related_word: "implement"
+  options: { A: "implement", B: "anticipate", C: "diversify", D: "launch" }
+  answer: "A"
+  explanation_vi: "\"engineering will implement the new circuit on the line\" = triển khai. *anticipate/diversify/launch* sai nghĩa."
+
+- id: "exercise-20-p6-16"
+  part: 6
+  topic: "corporate-development"
+  lesson: ["lesson-20"]
+  level: 900
+  passage_group: "p6-13-16"
+  passage: |
+    **MEMO — Aria Redesign: Next Steps**
+    The new cooling design has passed repeated testing — a key **(13)______** for the program. Because it is a **(14)______** cooling architecture unlike anything our rivals offer, we will protect it carefully. Engineering will now **(15)______** the new circuit on the production line, making sure the design is **(16)______** enough for mass production.
+  related_word: "scalable"
+  options: { A: "obsolete", B: "pending", C: "scalable", D: "emerging" }
+  answer: "C"
+  explanation_vi: "\"the design is scalable enough for mass production\" = mở rộng quy mô được. *obsolete/pending/emerging* sai nghĩa."
+
+- id: "exercise-20-p6-17"
+  part: 6
+  topic: "corporate-development"
+  lesson: ["lesson-20"]
+  level: 750
+  passage_group: "p6-17-20"
+  passage: |
+    **Aria Program — Outlook**
+    With a working design in hand, the outlook for the whole **(17)______** has brightened. Analysts say Aster's growth **(18)______** now look far stronger than a month ago. Once Aria succeeds, the company may even **(19)______** its product line using the new patent. Management is also watching fast-growing **(20)______** markets abroad that its larger rival has not yet entered.
+  related_word: "venture"
+  options: { A: "venture", B: "patent", C: "milestone", D: "prospect" }
+  answer: "A"
+  explanation_vi: "\"the outlook for the whole venture has brightened\" = dự án mạo hiểm. *patent/milestone/prospect* sai nghĩa."
+
+- id: "exercise-20-p6-18"
+  part: 6
+  topic: "corporate-development"
+  lesson: ["lesson-20"]
+  level: 750
+  passage_group: "p6-17-20"
+  passage: |
+    **Aria Program — Outlook**
+    With a working design in hand, the outlook for the whole **(17)______** has brightened. Analysts say Aster's growth **(18)______** now look far stronger than a month ago. Once Aria succeeds, the company may even **(19)______** its product line using the new patent. Management is also watching fast-growing **(20)______** markets abroad that its larger rival has not yet entered.
+  related_word: "prospect"
+  options: { A: "ventures", B: "patents", C: "prospects", D: "milestones" }
+  answer: "C"
+  explanation_vi: "\"Aster's growth prospects now look stronger\" = triển vọng. *ventures/patents/milestones* sai nghĩa."
+
+- id: "exercise-20-p6-19"
+  part: 6
+  topic: "corporate-development"
+  lesson: ["lesson-20"]
+  level: 900
+  passage_group: "p6-17-20"
+  passage: |
+    **Aria Program — Outlook**
+    With a working design in hand, the outlook for the whole **(17)______** has brightened. Analysts say Aster's growth **(18)______** now look far stronger than a month ago. Once Aria succeeds, the company may even **(19)______** its product line using the new patent. Management is also watching fast-growing **(20)______** markets abroad that its larger rival has not yet entered.
+  related_word: "diversify"
+  options: { A: "implement", B: "diversify", C: "anticipate", D: "launch" }
+  answer: "B"
+  explanation_vi: "\"may even diversify its product line using the new patent\" = đa dạng hóa. *implement/anticipate/launch* sai nghĩa."
+
+- id: "exercise-20-p6-20"
+  part: 6
+  topic: "corporate-development"
+  lesson: ["lesson-20"]
+  level: 750
+  passage_group: "p6-17-20"
+  passage: |
+    **Aria Program — Outlook**
+    With a working design in hand, the outlook for the whole **(17)______** has brightened. Analysts say Aster's growth **(18)______** now look far stronger than a month ago. Once Aria succeeds, the company may even **(19)______** its product line using the new patent. Management is also watching fast-growing **(20)______** markets abroad that its larger rival has not yet entered.
+  related_word: "emerging"
+  options: { A: "obsolete", B: "proprietary", C: "scalable", D: "emerging" }
+  answer: "D"
+  explanation_vi: "\"fast-growing emerging markets abroad\" = mới nổi. *obsolete/proprietary/scalable* sai nghĩa."
+
+- id: "exercise-20-p7-21"
+  part: 7
+  topic: "corporate-development"
+  lesson: ["lesson-20"]
+  level: null
+  passage_group: "p7-21-23"
+  passage: |
+    **Aria Program — Post-Fix Briefing**
+    After confirming the redesign, Aster moved fast to protect and commercialize it. Legal filed a patent on the new cooling circuit and is guarding the intellectual property closely, keeping the technology proprietary. Engineers are working to implement the design on the production line and to make it scalable for mass production. Management still plans to launch Aria at the Brightway event and then roll it out to other markets in phases. Executives believe the proprietary technology gives Aster a real edge over its larger rival.
+  related_word: null
+  question: "What did Aster do first after confirming the redesign?"
+  options: { A: "Sell the design to a rival", B: "Make the technology public", C: "File a patent and protect the intellectual property", D: "Cancel the launch" }
+  answer: "C"
+  explanation_vi: "sau khi xác nhận, Aster \"**filed a patent**… guarding the **intellectual property**, keeping the technology **proprietary**\". (A)/(B)/(D) sai/trái."
+
+- id: "exercise-20-p7-22"
+  part: 7
+  topic: "corporate-development"
+  lesson: ["lesson-20"]
+  level: null
+  passage_group: "p7-21-23"
+  passage: |
+    **Aria Program — Post-Fix Briefing**
+    After confirming the redesign, Aster moved fast to protect and commercialize it. Legal filed a patent on the new cooling circuit and is guarding the intellectual property closely, keeping the technology proprietary. Engineers are working to implement the design on the production line and to make it scalable for mass production. Management still plans to launch Aria at the Brightway event and then roll it out to other markets in phases. Executives believe the proprietary technology gives Aster a real edge over its larger rival.
+  related_word: null
+  question: "What must engineers ensure for mass production?"
+  options: { A: "That the design is scalable", B: "That the patent is obsolete", C: "That the launch is cancelled", D: "That the technology is shared" }
+  answer: "A"
+  explanation_vi: "kỹ sư phải bảo đảm \"make it **scalable** for mass production\". (B)/(C)/(D) sai."
+
+- id: "exercise-20-p7-23"
+  part: 7
+  topic: "corporate-development"
+  lesson: ["lesson-20"]
+  level: null
+  passage_group: "p7-21-23"
+  passage: |
+    **Aria Program — Post-Fix Briefing**
+    After confirming the redesign, Aster moved fast to protect and commercialize it. Legal filed a patent on the new cooling circuit and is guarding the intellectual property closely, keeping the technology proprietary. Engineers are working to implement the design on the production line and to make it scalable for mass production. Management still plans to launch Aria at the Brightway event and then roll it out to other markets in phases. Executives believe the proprietary technology gives Aster a real edge over its larger rival.
+  related_word: null
+  question: "How does Aster plan to bring Aria to market?"
+  options: { A: "By outsourcing production", B: "By keeping it in the lab", C: "By selling it to Neura", D: "By launching at the event, then rolling out in phases" }
+  answer: "D"
+  explanation_vi: "đưa ra thị trường bằng cách \"**launch** Aria at the Brightway event and then **roll it out** to other markets in phases\". (A)/(B)/(C) sai."
+
+- id: "exercise-20-p7-24"
+  part: 7
+  topic: "corporate-development"
+  lesson: ["lesson-20"]
+  level: null
+  passage_group: "p7-24-26"
+  passage: |
+    **Marlowe Business Journal — Aster Turns the Corner**
+    Aster Home Technologies appears to have rescued its Aria line. A last-minute redesign, now protected by a pending patent, has given the smart-home device a cooling system its makers call state-of-the-art — and, crucially, one that rivals cannot copy. Analysts say the proprietary technology strengthens Aster's hand against would-be acquirer Neura and brightens the company's growth prospects, including in emerging overseas markets. Yet hardware alone will not carry the launch: Aria still depends on software and network systems that must be built and tested before it can reach customers.
+  related_word: null
+  question: "What protects Aster's redesign?"
+  options: { A: "A public license", B: "A pending patent", C: "A rival's approval", D: "Nothing at all" }
+  answer: "B"
+  explanation_vi: "thiết kế được bảo vệ bởi \"a **pending patent**\". (A)/(C)/(D) sai."
+
+- id: "exercise-20-p7-25"
+  part: 7
+  topic: "corporate-development"
+  lesson: ["lesson-20"]
+  level: null
+  passage_group: "p7-24-26"
+  passage: |
+    **Marlowe Business Journal — Aster Turns the Corner**
+    Aster Home Technologies appears to have rescued its Aria line. A last-minute redesign, now protected by a pending patent, has given the smart-home device a cooling system its makers call state-of-the-art — and, crucially, one that rivals cannot copy. Analysts say the proprietary technology strengthens Aster's hand against would-be acquirer Neura and brightens the company's growth prospects, including in emerging overseas markets. Yet hardware alone will not carry the launch: Aria still depends on software and network systems that must be built and tested before it can reach customers.
+  related_word: null
+  question: "According to analysts, how does the proprietary technology help Aster?"
+  options: { A: "It lowers its stock price", B: "It forces a sale to Neura", C: "It strengthens Aster against Neura and brightens growth prospects", D: "It makes the design obsolete" }
+  answer: "C"
+  explanation_vi: "công nghệ độc quyền \"**strengthens Aster's hand against… Neura** and **brightens… growth prospects**\". (A)/(B)/(D) sai/trái."
+
+- id: "exercise-20-p7-26"
+  part: 7
+  topic: "corporate-development"
+  lesson: ["lesson-20"]
+  level: null
+  passage_group: "p7-24-26"
+  passage: |
+    **Marlowe Business Journal — Aster Turns the Corner**
+    Aster Home Technologies appears to have rescued its Aria line. A last-minute redesign, now protected by a pending patent, has given the smart-home device a cooling system its makers call state-of-the-art — and, crucially, one that rivals cannot copy. Analysts say the proprietary technology strengthens Aster's hand against would-be acquirer Neura and brightens the company's growth prospects, including in emerging overseas markets. Yet hardware alone will not carry the launch: Aria still depends on software and network systems that must be built and tested before it can reach customers.
+  related_word: null
+  question: "What does Aria still depend on before launch?"
+  options: { A: "Software and network systems that must be built and tested", B: "A new supplier of chips", C: "A larger warehouse", D: "A cheaper courier" }
+  answer: "A"
+  explanation_vi: "trước ra mắt Aria vẫn cần \"**software and network systems that must be built and tested**\" → dẫn Ch 21 (Technical Areas). (B)/(C)/(D) sai."

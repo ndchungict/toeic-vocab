@@ -1,0 +1,337 @@
+# EXERCISE 15 — PURCHASING: Mua sắm · Đặt hàng · Kho & Vật tư
+# Nguồn: exercises/exercise-15.md (lesson-15)
+# 26 câu: Part 5 (1-12), Part 6 (13-20), Part 7 (21-26)
+
+- id: "exercise-15-p5-01"
+  part: 5
+  topic: "purchasing"
+  lesson: ["lesson-15"]
+  level: 600
+  related_word: "supplier"
+  question: "Ray asked at least three ______ to send a price quotation for the same component."
+  options: { A: "inventories", B: "suppliers", C: "catalogs", D: "discounts" }
+  answer: "B"
+  explanation_vi: "\"asked three suppliers to send a quotation\" = nhà cung cấp. *inventories/catalogs/discounts* sai nghĩa."
+
+- id: "exercise-15-p5-02"
+  part: 5
+  topic: "purchasing"
+  lesson: ["lesson-15"]
+  level: 600
+  related_word: "purchase"
+  question: "With the budget so tight, the team had to ______ every component at the lowest possible price."
+  options: { A: "purchase", B: "replenish", C: "discount", D: "bid" }
+  answer: "A"
+  explanation_vi: "\"purchase every component at the lowest price\" = mua. *replenish/discount/bid* sai nghĩa."
+
+- id: "exercise-15-p5-03"
+  part: 5
+  topic: "purchasing"
+  lesson: ["lesson-15"]
+  level: 750
+  related_word: "quotation"
+  question: "Before choosing a supplier, the manager requested a detailed ______ listing the price of each part."
+  options: { A: "merchandise", B: "surplus", C: "inventory", D: "quotation" }
+  answer: "D"
+  explanation_vi: "\"a detailed quotation listing the price of each part\" = báo giá. *merchandise/surplus/inventory* sai nghĩa."
+
+- id: "exercise-15-p5-04"
+  part: 5
+  topic: "purchasing"
+  lesson: ["lesson-15"]
+  level: 750
+  related_word: "bid"
+  question: "Several vendors submitted a ______ for the contract, and the lowest qualified offer won."
+  options: { A: "catalog", B: "bid", C: "discount", D: "receipt" }
+  answer: "B"
+  explanation_vi: "\"vendors submitted a bid… lowest offer won\" = chào thầu. *catalog/discount/receipt* sai nghĩa."
+
+- id: "exercise-15-p5-05"
+  part: 5
+  topic: "purchasing"
+  lesson: ["lesson-15"]
+  level: 600
+  related_word: "discount"
+  question: "Buying in large quantities allowed the company to negotiate a substantial ______ on each unit."
+  options: { A: "inventory", B: "surplus", C: "discount", D: "vendor" }
+  answer: "C"
+  explanation_vi: "\"buying in large quantities… a substantial discount\" = giảm giá. *inventory/surplus/vendor* sai nghĩa."
+
+- id: "exercise-15-p5-06"
+  part: 5
+  topic: "purchasing"
+  lesson: ["lesson-15"]
+  level: 600
+  related_word: "catalog"
+  question: "Fred flipped through the vendor's ______ to find the exact part numbers he needed."
+  options: { A: "catalog", B: "bid", C: "backorder", D: "discount" }
+  answer: "A"
+  explanation_vi: "\"flipped through the vendor's catalog… part numbers\" = danh mục sản phẩm. *bid/backorder/discount* sai nghĩa."
+
+- id: "exercise-15-p5-07"
+  part: 5
+  topic: "purchasing"
+  lesson: ["lesson-15"]
+  level: 750
+  related_word: "merchandise"
+  question: "Each purchase order specified the quantity and delivery date for every lot of ______."
+  options: { A: "surplus", B: "quotation", C: "inventory", D: "merchandise" }
+  answer: "D"
+  explanation_vi: "\"each lot of merchandise\" = hàng hóa. ⚠️ không đếm được. *surplus/quotation/inventory* sai nghĩa."
+
+- id: "exercise-15-p5-08"
+  part: 5
+  topic: "purchasing"
+  lesson: ["lesson-15"]
+  level: 750
+  related_word: "inventory"
+  question: "Ben and Fred went to the warehouse to take ______ and see which parts were running low."
+  options: { A: "discount", B: "inventory", C: "bid", D: "catalog" }
+  answer: "B"
+  explanation_vi: "\"take inventory… which parts were running low\" = kiểm kê hàng tồn. *discount/bid/catalog* sai nghĩa."
+
+- id: "exercise-15-p5-09"
+  part: 5
+  topic: "purchasing"
+  lesson: ["lesson-15"]
+  level: 900
+  related_word: "replenish"
+  question: "When a popular component runs low, the warehouse must ______ its supply quickly."
+  options: { A: "itemize", B: "dispatch", C: "replenish", D: "markdown" }
+  answer: "C"
+  explanation_vi: "\"replenish its supply quickly\" = bổ sung hàng. *itemize/dispatch/markdown* sai nghĩa."
+
+- id: "exercise-15-p5-10"
+  part: 5
+  topic: "purchasing"
+  lesson: ["lesson-15"]
+  level: 900
+  related_word: "backorder"
+  question: "Several key parts were out of stock, so the supplier placed them on ______ until new units arrived."
+  options: { A: "backorder", B: "discount", C: "surplus", D: "catalog" }
+  answer: "A"
+  explanation_vi: "\"out of stock… placed them on backorder\" = đơn hàng chờ. *discount/surplus/catalog* sai nghĩa. ⚠️ on backorder."
+
+- id: "exercise-15-p5-11"
+  part: 5
+  topic: "purchasing"
+  lesson: ["lesson-15"]
+  level: 900
+  related_word: "surplus"
+  question: "A few minor parts had been over-ordered and were now sitting in the warehouse as ______."
+  options: { A: "inventory", B: "merchandise", C: "backorder", D: "surplus" }
+  answer: "D"
+  explanation_vi: "\"over-ordered… sitting in the warehouse as surplus\" = hàng dư thừa. *inventory/merchandise/backorder* sai nghĩa."
+
+- id: "exercise-15-p5-12"
+  part: 5
+  topic: "purchasing"
+  lesson: ["lesson-15"]
+  level: 750
+  related_word: "vendor"
+  question: "Only approved ______ are allowed to sell parts to the company."
+  options: { A: "inventories", B: "discounts", C: "vendors", D: "catalogs" }
+  answer: "C"
+  explanation_vi: "\"only approved vendors may sell parts\" = bên bán được duyệt. *inventories/discounts/catalogs* sai nghĩa."
+
+- id: "exercise-15-p6-13"
+  part: 6
+  topic: "purchasing"
+  lesson: ["lesson-15"]
+  level: 750
+  passage_group: "p6-13-16"
+  passage: |
+    **MEMO — Procurement Process**
+    Team, to keep spending under control, please follow the correct steps. Do not contact suppliers informally; instead, **(13)______** through the system so there is a record. For every confirmed request, the system will issue a **(14)______** with a unique number. Wherever possible, buy **(15)______** rather than in small amounts, since larger quantities earn better prices. Finally, check current **(16)______** levels before ordering, so we don't pay for parts we already have.
+  related_word: "place an order"
+  options: { A: "take inventory", B: "issue a refund", C: "place an order", D: "submit a bid" }
+  answer: "C"
+  explanation_vi: "\"place an order through the system\" = đặt hàng. ⚠️ dùng *place*. *take inventory/issue a refund/submit a bid* sai ngữ cảnh."
+
+- id: "exercise-15-p6-14"
+  part: 6
+  topic: "purchasing"
+  lesson: ["lesson-15"]
+  level: 750
+  passage_group: "p6-13-16"
+  passage: |
+    **MEMO — Procurement Process**
+    Team, to keep spending under control, please follow the correct steps. Do not contact suppliers informally; instead, **(13)______** through the system so there is a record. For every confirmed request, the system will issue a **(14)______** with a unique number. Wherever possible, buy **(15)______** rather than in small amounts, since larger quantities earn better prices. Finally, check current **(16)______** levels before ordering, so we don't pay for parts we already have.
+  related_word: "purchase order"
+  options: { A: "discount", B: "purchase order", C: "clearance sale", D: "markdown" }
+  answer: "B"
+  explanation_vi: "\"issue a purchase order with a unique number\" = đơn đặt hàng. *discount/clearance sale/markdown* sai nghĩa."
+
+- id: "exercise-15-p6-15"
+  part: 6
+  topic: "purchasing"
+  lesson: ["lesson-15"]
+  level: 750
+  passage_group: "p6-13-16"
+  passage: |
+    **MEMO — Procurement Process**
+    Team, to keep spending under control, please follow the correct steps. Do not contact suppliers informally; instead, **(13)______** through the system so there is a record. For every confirmed request, the system will issue a **(14)______** with a unique number. Wherever possible, buy **(15)______** rather than in small amounts, since larger quantities earn better prices. Finally, check current **(16)______** levels before ordering, so we don't pay for parts we already have.
+  related_word: "in bulk"
+  options: { A: "at retail", B: "on backorder", C: "at markdown", D: "in bulk" }
+  answer: "D"
+  explanation_vi: "\"buy in bulk rather than in small amounts\" = mua số lượng lớn. *at retail/on backorder/at markdown* sai nghĩa."
+
+- id: "exercise-15-p6-16"
+  part: 6
+  topic: "purchasing"
+  lesson: ["lesson-15"]
+  level: 600
+  passage_group: "p6-13-16"
+  passage: |
+    **MEMO — Procurement Process**
+    Team, to keep spending under control, please follow the correct steps. Do not contact suppliers informally; instead, **(13)______** through the system so there is a record. For every confirmed request, the system will issue a **(14)______** with a unique number. Wherever possible, buy **(15)______** rather than in small amounts, since larger quantities earn better prices. Finally, check current **(16)______** levels before ordering, so we don't pay for parts we already have.
+  related_word: "stock"
+  options: { A: "stock", B: "vendor", C: "quotation", D: "surplus" }
+  answer: "A"
+  explanation_vi: "\"check current stock levels before ordering\" = mức tồn kho. *vendor/quotation/surplus* sai nghĩa."
+
+- id: "exercise-15-p6-17"
+  part: 6
+  topic: "purchasing"
+  lesson: ["lesson-15"]
+  level: 900
+  passage_group: "p6-17-20"
+  passage: |
+    **NOTICE — Halston Components Co.**
+    To make room for new models, we are holding a major **(17)______** on selected parts this month. All listed items have been reduced by a further **(18)______** of 20%. We supply large factories at **(19)______** prices and smaller repair shops at retail. Order now to secure essential **(20)______** before they sell out.
+  related_word: "clearance sale"
+  options: { A: "purchase order", B: "backorder", C: "clearance sale", D: "inventory" }
+  answer: "C"
+  explanation_vi: "\"holding a major clearance sale… make room for new models\" = đợt xả hàng. *purchase order/backorder/inventory* sai nghĩa."
+
+- id: "exercise-15-p6-18"
+  part: 6
+  topic: "purchasing"
+  lesson: ["lesson-15"]
+  level: 900
+  passage_group: "p6-17-20"
+  passage: |
+    **NOTICE — Halston Components Co.**
+    To make room for new models, we are holding a major **(17)______** on selected parts this month. All listed items have been reduced by a further **(18)______** of 20%. We supply large factories at **(19)______** prices and smaller repair shops at retail. Order now to secure essential **(20)______** before they sell out.
+  related_word: "markdown"
+  options: { A: "surplus", B: "quotation", C: "vendor", D: "markdown" }
+  answer: "D"
+  explanation_vi: "\"reduced by a further markdown of 20%\" = hạ giá. *surplus/quotation/vendor* sai nghĩa."
+
+- id: "exercise-15-p6-19"
+  part: 6
+  topic: "purchasing"
+  lesson: ["lesson-15"]
+  level: 750
+  passage_group: "p6-17-20"
+  passage: |
+    **NOTICE — Halston Components Co.**
+    To make room for new models, we are holding a major **(17)______** on selected parts this month. All listed items have been reduced by a further **(18)______** of 20%. We supply large factories at **(19)______** prices and smaller repair shops at retail. Order now to secure essential **(20)______** before they sell out.
+  related_word: "wholesale"
+  options: { A: "wholesale", B: "retail", C: "backorder", D: "inventory" }
+  answer: "A"
+  explanation_vi: "\"supply factories at wholesale prices and shops at retail\" = bán buôn. ⚠️ đối lập *retail* (đã có trong câu). *backorder/inventory* sai nghĩa."
+
+- id: "exercise-15-p6-20"
+  part: 6
+  topic: "purchasing"
+  lesson: ["lesson-15"]
+  level: 600
+  passage_group: "p6-17-20"
+  passage: |
+    **NOTICE — Halston Components Co.**
+    To make room for new models, we are holding a major **(17)______** on selected parts this month. All listed items have been reduced by a further **(18)______** of 20%. We supply large factories at **(19)______** prices and smaller repair shops at retail. Order now to secure essential **(20)______** before they sell out.
+  related_word: "supplies"
+  options: { A: "discounts", B: "supplies", C: "bids", D: "catalogs" }
+  answer: "B"
+  explanation_vi: "\"secure essential supplies before they sell out\" = vật tư. *discounts/bids/catalogs* sai nghĩa."
+
+- id: "exercise-15-p7-21"
+  part: 7
+  topic: "purchasing"
+  lesson: ["lesson-15"]
+  level: null
+  passage_group: "p7-21-23"
+  passage: |
+    **Aster Procurement — Weekly Status**
+    With the manufacturing budget tightened, the operations team has worked to source Aria's components as cheaply as possible. For each part, at least three suppliers were asked for a quotation, and the lowest qualified bid was accepted. By ordering in bulk, the team secured discounts of up to 25 percent. A full inventory check revealed, however, that several critical components are out of stock and now on backorder, with no firm delivery date from the main supplier.
+  related_word: null
+  question: "How did the team keep component costs low?"
+  options: { A: "By paying retail prices", B: "By buying from a single vendor", C: "By ordering in bulk to earn discounts", D: "By skipping the inventory check" }
+  answer: "C"
+  explanation_vi: "đội hạ chi phí \"**by ordering in bulk**… secured discounts of up to 25 percent\". (A) trái (retail đắt hơn); (B)/(D) sai."
+
+- id: "exercise-15-p7-22"
+  part: 7
+  topic: "purchasing"
+  lesson: ["lesson-15"]
+  level: null
+  passage_group: "p7-21-23"
+  passage: |
+    **Aster Procurement — Weekly Status**
+    With the manufacturing budget tightened, the operations team has worked to source Aria's components as cheaply as possible. For each part, at least three suppliers were asked for a quotation, and the lowest qualified bid was accepted. By ordering in bulk, the team secured discounts of up to 25 percent. A full inventory check revealed, however, that several critical components are out of stock and now on backorder, with no firm delivery date from the main supplier.
+  related_word: null
+  question: "What problem did the inventory check reveal?"
+  options: { A: "Prices had risen", B: "The catalog was outdated", C: "The warehouse was full", D: "Critical components are on backorder" }
+  answer: "D"
+  explanation_vi: "kiểm kê phát hiện \"several critical components are out of stock and now **on backorder**\". (A)/(B)/(C) không nêu."
+
+- id: "exercise-15-p7-23"
+  part: 7
+  topic: "purchasing"
+  lesson: ["lesson-15"]
+  level: null
+  passage_group: "p7-21-23"
+  passage: |
+    **Aster Procurement — Weekly Status**
+    With the manufacturing budget tightened, the operations team has worked to source Aria's components as cheaply as possible. For each part, at least three suppliers were asked for a quotation, and the lowest qualified bid was accepted. By ordering in bulk, the team secured discounts of up to 25 percent. A full inventory check revealed, however, that several critical components are out of stock and now on backorder, with no firm delivery date from the main supplier.
+  related_word: null
+  question: "The word \"source\" in the report is closest in meaning to"
+  options: { A: "sell", B: "obtain", C: "return", D: "count" }
+  answer: "B"
+  explanation_vi: "\"source\" (components) = tìm nguồn/mua về ≈ obtain. *sell/return/count* sai nghĩa."
+
+- id: "exercise-15-p7-24"
+  part: 7
+  topic: "purchasing"
+  lesson: ["lesson-15"]
+  level: null
+  passage_group: "p7-24-26"
+  passage: |
+    **Marlowe Business Journal — Supply Snag Hits Aster**
+    Aster Home Technologies has hit an unexpected snag in its race to launch the Aria line. The company's main component supplier has warned that it cannot meet the agreed delivery schedule, leaving several key parts on backorder. Because Aster's budget is already stretched thin and its Halston launch date is fixed, managers must now find an alternative source quickly. Analysts warn that rushing to a new, unproven supplier carries its own risks — parts bought in haste are not always reliable.
+  related_word: null
+  question: "What is the main problem described in the article?"
+  options: { A: "The main supplier cannot deliver on time", B: "The launch was cancelled", C: "Component prices doubled overnight", D: "The budget was increased" }
+  answer: "A"
+  explanation_vi: "vấn đề chính: \"main component **supplier… cannot meet the agreed delivery schedule**\". (B)/(C)/(D) sai/không nêu."
+
+- id: "exercise-15-p7-25"
+  part: 7
+  topic: "purchasing"
+  lesson: ["lesson-15"]
+  level: null
+  passage_group: "p7-24-26"
+  passage: |
+    **Marlowe Business Journal — Supply Snag Hits Aster**
+    Aster Home Technologies has hit an unexpected snag in its race to launch the Aria line. The company's main component supplier has warned that it cannot meet the agreed delivery schedule, leaving several key parts on backorder. Because Aster's budget is already stretched thin and its Halston launch date is fixed, managers must now find an alternative source quickly. Analysts warn that rushing to a new, unproven supplier carries its own risks — parts bought in haste are not always reliable.
+  related_word: null
+  question: "Why must Aster act quickly?"
+  options: { A: "Its stock is too large", B: "A discount is ending", C: "Its Halston launch date is fixed", D: "A new catalog is due" }
+  answer: "C"
+  explanation_vi: "phải gấp vì \"its **Halston launch date is fixed**\" (và ngân sách căng). (A)/(B)/(D) sai."
+
+- id: "exercise-15-p7-26"
+  part: 7
+  topic: "purchasing"
+  lesson: ["lesson-15"]
+  level: null
+  passage_group: "p7-24-26"
+  passage: |
+    **Marlowe Business Journal — Supply Snag Hits Aster**
+    Aster Home Technologies has hit an unexpected snag in its race to launch the Aria line. The company's main component supplier has warned that it cannot meet the agreed delivery schedule, leaving several key parts on backorder. Because Aster's budget is already stretched thin and its Halston launch date is fixed, managers must now find an alternative source quickly. Analysts warn that rushing to a new, unproven supplier carries its own risks — parts bought in haste are not always reliable.
+  related_word: null
+  question: "What risk do analysts warn about?"
+  options: { A: "Prices will fall sharply", B: "The warehouse will overflow", C: "Customers will complain", D: "Parts bought in haste may be unreliable" }
+  answer: "D"
+  explanation_vi: "rủi ro: \"**parts bought in haste are not always reliable**\" (nhà cung cấp mới, chưa kiểm chứng). (A)/(B)/(C) sai."

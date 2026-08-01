@@ -1,0 +1,337 @@
+# EXERCISE 23 — HOUSING: Thuê & Mua mặt bằng
+# Nguồn: exercises/exercise-23.md (lesson-23)
+# 26 câu: Part 5 (1-12), Part 6 (13-20), Part 7 (21-26)
+
+- id: "exercise-23-p5-01"
+  part: 5
+  topic: "housing-property"
+  lesson: ["lesson-23"]
+  level: 900
+  related_word: "premises"
+  question: "Aster urgently needed ______ in Halston for a showroom, a warehouse, and its servers."
+  options: { A: "tenants", B: "rent", C: "premises", D: "appraisal" }
+  answer: "C"
+  explanation_vi: "\"needed premises… for a showroom, warehouse and servers\" = mặt bằng. *tenants/rent/appraisal* sai nghĩa."
+
+- id: "exercise-23-p5-02"
+  part: 5
+  topic: "housing-property"
+  lesson: ["lesson-23"]
+  level: 600
+  related_word: "real estate"
+  question: "Karen recommended a local ______ agent who knew the downtown market well."
+  options: { A: "real estate", B: "tenant", C: "landlord", D: "occupancy" }
+  answer: "A"
+  explanation_vi: "\"a real estate agent who knew the market\" = bất động sản. *tenant/landlord/occupancy* sai nghĩa."
+
+- id: "exercise-23-p5-03"
+  part: 5
+  topic: "housing-property"
+  lesson: ["lesson-23"]
+  level: 750
+  related_word: "vacant"
+  question: "One unit was ______, with no current occupant, so they could take it immediately."
+  options: { A: "furnished", B: "spacious", C: "rented", D: "vacant" }
+  answer: "D"
+  explanation_vi: "\"vacant, with no current occupant… take it immediately\" = còn trống. *furnished/spacious/rented* sai nghĩa."
+
+- id: "exercise-23-p5-04"
+  part: 5
+  topic: "housing-property"
+  lesson: ["lesson-23"]
+  level: 750
+  related_word: "spacious"
+  question: "The property near Brightway was bright and ______, with plenty of room."
+  options: { A: "vacant", B: "spacious", C: "furnished", D: "obsolete" }
+  answer: "B"
+  explanation_vi: "\"bright and spacious, with plenty of room\" = rộng rãi. *vacant/furnished/obsolete* sai nghĩa."
+
+- id: "exercise-23-p5-05"
+  part: 5
+  topic: "housing-property"
+  lesson: ["lesson-23"]
+  level: 750
+  related_word: "furnished"
+  question: "Because the office was already ______, they would not need to buy desks or chairs."
+  options: { A: "vacant", B: "spacious", C: "furnished", D: "portable" }
+  answer: "C"
+  explanation_vi: "\"already furnished… no need to buy desks or chairs\" = có sẵn nội thất. *vacant/spacious/portable* sai nghĩa."
+
+- id: "exercise-23-p5-06"
+  part: 5
+  topic: "housing-property"
+  lesson: ["lesson-23"]
+  level: 600
+  related_word: "lease"
+  question: "Rather than buy, Aster signed a three-year ______ on the space."
+  options: { A: "lease", B: "tenant", C: "appraisal", D: "rent" }
+  answer: "A"
+  explanation_vi: "\"signed a three-year lease on the space\" = hợp đồng thuê dài hạn. ⚠️ *sign a lease* (không phải *rent*). *tenant/appraisal/rent* sai."
+
+- id: "exercise-23-p5-07"
+  part: 5
+  topic: "housing-property"
+  lesson: ["lesson-23"]
+  level: 600
+  related_word: "landlord"
+  question: "The ______ required a large deposit before handing over the keys."
+  options: { A: "tenant", B: "occupancy", C: "appraisal", D: "landlord" }
+  answer: "D"
+  explanation_vi: "\"the landlord required a deposit before the keys\" = chủ nhà. *tenant/occupancy/appraisal* sai nghĩa."
+
+- id: "exercise-23-p5-08"
+  part: 5
+  topic: "housing-property"
+  lesson: ["lesson-23"]
+  level: 600
+  related_word: "tenant"
+  question: "By signing the agreement, Aster officially became the building's new ______."
+  options: { A: "landlord", B: "tenant", C: "appraisal", D: "premises" }
+  answer: "B"
+  explanation_vi: "\"became the building's new tenant\" = người thuê. *landlord/appraisal/premises* sai nghĩa."
+
+- id: "exercise-23-p5-09"
+  part: 5
+  topic: "housing-property"
+  lesson: ["lesson-23"]
+  level: 750
+  related_word: "security deposit"
+  question: "In addition to the first month's rent, they paid a substantial ______."
+  options: { A: "real estate", B: "occupancy", C: "security deposit", D: "appraisal" }
+  answer: "C"
+  explanation_vi: "\"the first month's rent plus a substantial security deposit\" = tiền đặt cọc. *real estate/occupancy/appraisal* sai nghĩa."
+
+- id: "exercise-23-p5-10"
+  part: 5
+  topic: "housing-property"
+  lesson: ["lesson-23"]
+  level: 900
+  related_word: "appraisal"
+  question: "Buying would have required a formal ______ to establish the property's value."
+  options: { A: "appraisal", B: "tenant", C: "lease", D: "landlord" }
+  answer: "A"
+  explanation_vi: "\"a formal appraisal to establish the property's value\" = sự định giá. ⚠️ định giá BĐS (khác đánh giá nhân viên L3). *tenant/lease/landlord* sai."
+
+- id: "exercise-23-p5-11"
+  part: 5
+  topic: "housing-property"
+  lesson: ["lesson-23"]
+  level: 750
+  related_word: "relocate"
+  question: "Priya planned to ______ several key staff from Marlowe to Halston."
+  options: { A: "furnish", B: "lease", C: "rent", D: "relocate" }
+  answer: "D"
+  explanation_vi: "\"relocate several staff from Marlowe to Halston\" = điều chuyển. *furnish/lease/rent* sai nghĩa."
+
+- id: "exercise-23-p5-12"
+  part: 5
+  topic: "housing-property"
+  lesson: ["lesson-23"]
+  level: 900
+  related_word: "occupancy"
+  question: "Ray checked the building's maximum ______ to be sure it could fit all three functions."
+  options: { A: "appraisal", B: "occupancy", C: "landlord", D: "deposit" }
+  answer: "B"
+  explanation_vi: "\"checked the maximum occupancy… fit all three functions\" = sức chứa. *appraisal/landlord/deposit* sai nghĩa."
+
+- id: "exercise-23-p6-13"
+  part: 6
+  topic: "housing-property"
+  lesson: ["lesson-23"]
+  level: 750
+  passage_group: "p6-13-16"
+  passage: |
+    **EMAIL — Halston Commercial Listings**
+    Dear Ms. Nair, Following our call, here are two options. The first is a fully **(13)______** office that is ready to use immediately; the monthly **(14)______** is higher, but you save on fit-out. The second is a larger, **(15)______** unit near Brightway that is currently **(16)______** and available at once, though it would need fitting out. Both owners are open to a three-year lease.
+  related_word: "furnished"
+  options: { A: "vacant", B: "furnished", C: "obsolete", D: "portable" }
+  answer: "B"
+  explanation_vi: "\"a fully furnished office ready to use\" = có sẵn nội thất. *vacant/obsolete/portable* sai nghĩa."
+
+- id: "exercise-23-p6-14"
+  part: 6
+  topic: "housing-property"
+  lesson: ["lesson-23"]
+  level: 600
+  passage_group: "p6-13-16"
+  passage: |
+    **EMAIL — Halston Commercial Listings**
+    Dear Ms. Nair, Following our call, here are two options. The first is a fully **(13)______** office that is ready to use immediately; the monthly **(14)______** is higher, but you save on fit-out. The second is a larger, **(15)______** unit near Brightway that is currently **(16)______** and available at once, though it would need fitting out. Both owners are open to a three-year lease.
+  related_word: "rent"
+  options: { A: "appraisal", B: "tenant", C: "landlord", D: "rent" }
+  answer: "D"
+  explanation_vi: "\"the monthly rent is higher\" = tiền thuê. *appraisal/tenant/landlord* sai nghĩa."
+
+- id: "exercise-23-p6-15"
+  part: 6
+  topic: "housing-property"
+  lesson: ["lesson-23"]
+  level: 750
+  passage_group: "p6-13-16"
+  passage: |
+    **EMAIL — Halston Commercial Listings**
+    Dear Ms. Nair, Following our call, here are two options. The first is a fully **(13)______** office that is ready to use immediately; the monthly **(14)______** is higher, but you save on fit-out. The second is a larger, **(15)______** unit near Brightway that is currently **(16)______** and available at once, though it would need fitting out. Both owners are open to a three-year lease.
+  related_word: "spacious"
+  options: { A: "spacious", B: "vacant", C: "furnished", D: "durable" }
+  answer: "A"
+  explanation_vi: "\"a larger, spacious unit near Brightway\" = rộng rãi. *vacant/furnished/durable* sai nghĩa."
+
+- id: "exercise-23-p6-16"
+  part: 6
+  topic: "housing-property"
+  lesson: ["lesson-23"]
+  level: 750
+  passage_group: "p6-13-16"
+  passage: |
+    **EMAIL — Halston Commercial Listings**
+    Dear Ms. Nair, Following our call, here are two options. The first is a fully **(13)______** office that is ready to use immediately; the monthly **(14)______** is higher, but you save on fit-out. The second is a larger, **(15)______** unit near Brightway that is currently **(16)______** and available at once, though it would need fitting out. Both owners are open to a three-year lease.
+  related_word: "vacant"
+  options: { A: "furnished", B: "spacious", C: "vacant", D: "rented" }
+  answer: "C"
+  explanation_vi: "\"currently vacant and available at once\" = còn trống. *furnished/spacious/rented* sai nghĩa."
+
+- id: "exercise-23-p6-17"
+  part: 6
+  topic: "housing-property"
+  lesson: ["lesson-23"]
+  level: 600
+  passage_group: "p6-17-20"
+  passage: |
+    **NOTICE — New Halston Site**
+    Aster has secured a commercial **(17)______** in central Halston. We have signed a three-year **(18)______** and are now the official **(19)______** of the building. Staff are reminded that smoking is not permitted anywhere on the **(20)______**.
+  related_word: "property"
+  options: { A: "tenant", B: "appraisal", C: "property", D: "rent" }
+  answer: "C"
+  explanation_vi: "\"secured a commercial property in central Halston\" = bất động sản. *tenant/appraisal/rent* sai nghĩa."
+
+- id: "exercise-23-p6-18"
+  part: 6
+  topic: "housing-property"
+  lesson: ["lesson-23"]
+  level: 600
+  passage_group: "p6-17-20"
+  passage: |
+    **NOTICE — New Halston Site**
+    Aster has secured a commercial **(17)______** in central Halston. We have signed a three-year **(18)______** and are now the official **(19)______** of the building. Staff are reminded that smoking is not permitted anywhere on the **(20)______**.
+  related_word: "lease"
+  options: { A: "lease", B: "landlord", C: "occupancy", D: "appraisal" }
+  answer: "A"
+  explanation_vi: "\"signed a three-year lease\" = hợp đồng thuê. *landlord/occupancy/appraisal* sai nghĩa."
+
+- id: "exercise-23-p6-19"
+  part: 6
+  topic: "housing-property"
+  lesson: ["lesson-23"]
+  level: 600
+  passage_group: "p6-17-20"
+  passage: |
+    **NOTICE — New Halston Site**
+    Aster has secured a commercial **(17)______** in central Halston. We have signed a three-year **(18)______** and are now the official **(19)______** of the building. Staff are reminded that smoking is not permitted anywhere on the **(20)______**.
+  related_word: "tenant"
+  options: { A: "landlord", B: "appraisal", C: "premises", D: "tenant" }
+  answer: "D"
+  explanation_vi: "\"now the official tenant of the building\" = người thuê. *landlord/appraisal/premises* sai nghĩa."
+
+- id: "exercise-23-p6-20"
+  part: 6
+  topic: "housing-property"
+  lesson: ["lesson-23"]
+  level: 900
+  passage_group: "p6-17-20"
+  passage: |
+    **NOTICE — New Halston Site**
+    Aster has secured a commercial **(17)______** in central Halston. We have signed a three-year **(18)______** and are now the official **(19)______** of the building. Staff are reminded that smoking is not permitted anywhere on the **(20)______**.
+  related_word: "premises"
+  options: { A: "occupancy", B: "premises", C: "rent", D: "real estate" }
+  answer: "B"
+  explanation_vi: "\"no smoking anywhere on the premises\" = khuôn viên. ⚠️ *on the premises*. *occupancy/rent/real estate* sai."
+
+- id: "exercise-23-p7-21"
+  part: 7
+  topic: "housing-property"
+  lesson: ["lesson-23"]
+  level: null
+  passage_group: "p7-21-23"
+  passage: |
+    **Aster Operations — Halston Site Update**
+    With Aria ready, the operations team turned to finding premises in Halston. Working with a real estate agent recommended by Brightway, Priya and Ray toured several commercial properties. Because the launch date is fixed, they chose to rent rather than buy: they signed a three-year lease on a spacious unit near Brightway, paid a security deposit, and became the building's tenants. Priya will also relocate several staff from Marlowe to run the new site. The space, however, is still bare and must be fitted out before it can open.
+  related_word: null
+  question: "Why did the team choose to rent rather than buy?"
+  options: { A: "The property was cheap", B: "The landlord insisted", C: "Because the launch date is fixed", D: "Buying was not allowed" }
+  answer: "C"
+  explanation_vi: "chọn thuê thay vì mua vì \"the **launch date is fixed**\" (phải nhanh). (A)/(B)/(D) sai/không nêu."
+
+- id: "exercise-23-p7-22"
+  part: 7
+  topic: "housing-property"
+  lesson: ["lesson-23"]
+  level: null
+  passage_group: "p7-21-23"
+  passage: |
+    **Aster Operations — Halston Site Update**
+    With Aria ready, the operations team turned to finding premises in Halston. Working with a real estate agent recommended by Brightway, Priya and Ray toured several commercial properties. Because the launch date is fixed, they chose to rent rather than buy: they signed a three-year lease on a spacious unit near Brightway, paid a security deposit, and became the building's tenants. Priya will also relocate several staff from Marlowe to run the new site. The space, however, is still bare and must be fitted out before it can open.
+  related_word: null
+  question: "What did Aster do to secure the space?"
+  options: { A: "Signed a lease, paid a deposit, and became tenants", B: "Bought it outright", C: "Built it from scratch", D: "Shared it with Neura" }
+  answer: "A"
+  explanation_vi: "giữ được mặt bằng: \"**signed a lease**, paid a **security deposit**, and became… **tenants**\". (B)/(C)/(D) sai."
+
+- id: "exercise-23-p7-23"
+  part: 7
+  topic: "housing-property"
+  lesson: ["lesson-23"]
+  level: null
+  passage_group: "p7-21-23"
+  passage: |
+    **Aster Operations — Halston Site Update**
+    With Aria ready, the operations team turned to finding premises in Halston. Working with a real estate agent recommended by Brightway, Priya and Ray toured several commercial properties. Because the launch date is fixed, they chose to rent rather than buy: they signed a three-year lease on a spacious unit near Brightway, paid a security deposit, and became the building's tenants. Priya will also relocate several staff from Marlowe to run the new site. The space, however, is still bare and must be fitted out before it can open.
+  related_word: null
+  question: "What still needs to happen to the space?"
+  options: { A: "It must be sold", B: "The lease must be cancelled", C: "Staff must leave", D: "It must be fitted out before it can open" }
+  answer: "D"
+  explanation_vi: "chỗ này còn trống trơn, \"must be **fitted out** before it can open\". (A)/(B)/(C) sai."
+
+- id: "exercise-23-p7-24"
+  part: 7
+  topic: "housing-property"
+  lesson: ["lesson-23"]
+  level: null
+  passage_group: "p7-24-26"
+  passage: |
+    **Marlowe Business Journal — Aster Plants a Flag in Halston**
+    Aster Home Technologies has leased a prime commercial site in central Halston, close to its retail partner Brightway, ahead of the Aria launch. The company chose to rent rather than buy in order to move quickly, and plans to relocate several staff to run the new base. But the site is an empty shell, and with the launch date fixed, Aster now faces a tight race to renovate it — building the showroom, fitting out the warehouse, and connecting power and utilities — in just a few weeks.
+  related_word: null
+  question: "What did Aster do in Halston?"
+  options: { A: "Bought a factory", B: "Leased a prime commercial site", C: "Closed its office", D: "Merged with Brightway" }
+  answer: "B"
+  explanation_vi: "Aster \"**leased a prime commercial site** in central Halston\". (A)/(C)/(D) sai."
+
+- id: "exercise-23-p7-25"
+  part: 7
+  topic: "housing-property"
+  lesson: ["lesson-23"]
+  level: null
+  passage_group: "p7-24-26"
+  passage: |
+    **Marlowe Business Journal — Aster Plants a Flag in Halston**
+    Aster Home Technologies has leased a prime commercial site in central Halston, close to its retail partner Brightway, ahead of the Aria launch. The company chose to rent rather than buy in order to move quickly, and plans to relocate several staff to run the new base. But the site is an empty shell, and with the launch date fixed, Aster now faces a tight race to renovate it — building the showroom, fitting out the warehouse, and connecting power and utilities — in just a few weeks.
+  related_word: null
+  question: "Why did Aster rent rather than buy?"
+  options: { A: "To move quickly", B: "Because it had no money", C: "Because Neura told it to", D: "To avoid hiring staff" }
+  answer: "A"
+  explanation_vi: "thuê thay vì mua \"in order to **move quickly**\". (B)/(C)/(D) sai."
+
+- id: "exercise-23-p7-26"
+  part: 7
+  topic: "housing-property"
+  lesson: ["lesson-23"]
+  level: null
+  passage_group: "p7-24-26"
+  passage: |
+    **Marlowe Business Journal — Aster Plants a Flag in Halston**
+    Aster Home Technologies has leased a prime commercial site in central Halston, close to its retail partner Brightway, ahead of the Aria launch. The company chose to rent rather than buy in order to move quickly, and plans to relocate several staff to run the new base. But the site is an empty shell, and with the launch date fixed, Aster now faces a tight race to renovate it — building the showroom, fitting out the warehouse, and connecting power and utilities — in just a few weeks.
+  related_word: null
+  question: "What challenge does Aster face next?"
+  options: { A: "Finding a new product", B: "A software glitch", C: "Renovating the empty site in time", D: "A product recall" }
+  answer: "C"
+  explanation_vi: "thách thức kế tiếp: \"a tight race to **renovate** it… showroom, warehouse, power and utilities\" → dẫn Ch 24. (A)/(B)/(D) sai."

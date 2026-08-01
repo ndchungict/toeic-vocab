@@ -1,0 +1,323 @@
+# EXERCISE 02 — OFFICES: Thiết bị & Nội thất · Quy trình làm việc
+# Nguồn: exercises/exercise-02.md (lesson-02 — "Project Aria" Chương 2)
+# 23 câu: Part 5 (1-10), Part 6 (11-17), Part 7 (18-23)
+
+- id: "exercise-02-p5-01"
+  part: 5
+  topic: "offices"
+  lesson: ["lesson-02"]
+  level: 600
+  related_word: "procedure"
+  question: "All employees must follow the correct ______ when requesting new office equipment."
+  options: { A: "protocol", B: "procedure", C: "prompt", D: "cubicle" }
+  answer: "B"
+  explanation_vi: "\"follow the correct procedure\" = tuân theo đúng quy trình (các bước cụ thể để làm một việc)."
+
+- id: "exercise-02-p5-02"
+  part: 5
+  topic: "offices"
+  lesson: ["lesson-02"]
+  level: 750
+  related_word: "protocol"
+  question: "According to company ______, every visitor must sign in at the front desk before entering."
+  options: { A: "procedure", B: "protocol", C: "supplies", D: "workstation" }
+  answer: "B"
+  explanation_vi: "\"company protocol\" = quy tắc/nghi thức chung. Khác *procedure*: protocol là quy tắc ứng xử/nghi thức, còn procedure là chuỗi các bước thực hiện."
+
+- id: "exercise-02-p5-03"
+  part: 5
+  topic: "offices"
+  lesson: ["lesson-02"]
+  level: 600
+  related_word: "distribute"
+  question: "Ms. Nair will ______ copies of the new plan to every department head this afternoon."
+  options: { A: "duplicate", B: "distribute", C: "streamline", D: "jam" }
+  answer: "B"
+  explanation_vi: "\"distribute copies to sb\" = phân phát bản sao cho ai. *duplicate* (sao chép) là bẫy nghĩa gần."
+
+- id: "exercise-02-p5-04"
+  part: 5
+  topic: "offices"
+  lesson: ["lesson-02"]
+  level: 750
+  related_word: "duplicate"
+  question: "Could you ______ this report so that each member of the team has a copy?"
+  options: { A: "distribute", B: "duplicate", C: "prompt", D: "streamline" }
+  answer: "B"
+  explanation_vi: "\"duplicate this report\" = tạo bản sao báo cáo (v). *distribute* là bẫy: ở đây trọng tâm là \"tạo bản sao\", chưa phải \"phát đi\"."
+
+- id: "exercise-02-p5-05"
+  part: 5
+  topic: "offices"
+  lesson: ["lesson-02"]
+  level: 750
+  related_word: "prompt"
+  question: "We greatly appreciate your ______ reply to our request for feedback."
+  options: { A: "prompt", B: "vacant", C: "confidential", D: "unanimous" }
+  answer: "A"
+  explanation_vi: "\"a prompt reply\" = câu trả lời nhanh chóng, kịp thời."
+
+- id: "exercise-02-p5-06"
+  part: 5
+  topic: "offices"
+  lesson: ["lesson-02"]
+  level: 750
+  related_word: "on behalf of"
+  question: "While Ms. Whitfield was traveling, Priya signed the memo ______ her."
+  options: { A: "in charge of", B: "on behalf of", C: "out of order", D: "in bulk" }
+  answer: "B"
+  explanation_vi: "\"sign on behalf of sb\" = ký thay mặt cho ai (vì họ vắng mặt)."
+
+- id: "exercise-02-p5-07"
+  part: 5
+  topic: "offices"
+  lesson: ["lesson-02"]
+  level: 600
+  related_word: "in charge of"
+  question: "As the person ______ office administration, Priya handles every supply request personally."
+  options: { A: "on behalf of", B: "in charge of", C: "out of order", D: "up for" }
+  answer: "B"
+  explanation_vi: "\"be in charge of sth\" = phụ trách việc gì."
+
+- id: "exercise-02-p5-08"
+  part: 5
+  topic: "offices"
+  lesson: ["lesson-02"]
+  level: 750
+  related_word: "streamline"
+  question: "The new digital filing system was introduced to ______ the entire paperwork process."
+  options: { A: "jam", B: "duplicate", C: "streamline", D: "distribute" }
+  answer: "C"
+  explanation_vi: "\"streamline the process\" = tinh gọn quy trình cho hiệu quả hơn."
+
+- id: "exercise-02-p5-09"
+  part: 5
+  topic: "offices"
+  lesson: ["lesson-02"]
+  level: 750
+  related_word: "jam"
+  question: "The photocopier keeps getting ______ whenever someone tries to print more than ten pages at once."
+  options: { A: "jammed", B: "streamlined", C: "distributed", D: "duplicated" }
+  answer: "A"
+  explanation_vi: "máy in bị **kẹt giấy** khi in nhiều trang."
+
+- id: "exercise-02-p5-10"
+  part: 5
+  topic: "offices"
+  lesson: ["lesson-02"]
+  level: 600
+  related_word: "out of order"
+  question: "The vending machine on the fourth floor has been ______ for over a week now."
+  options: { A: "confidential", B: "out of order", C: "vacant", D: "prompt" }
+  answer: "B"
+  explanation_vi: "máy đã hỏng, không dùng được suốt hơn một tuần."
+
+- id: "exercise-02-p6-11"
+  part: 6
+  topic: "offices"
+  lesson: ["lesson-02"]
+  level: 750
+  passage_group: "p6-11-14"
+  passage: |
+    **MEMORANDUM**
+    **To:** All Staff **From:** Priya Nair, Corporate Services
+    **Re:** Office Equipment Update
+
+    The **(11)______** on the twelfth floor is currently out of order due to a paper jam. A technician will install a new **(12)______** tomorrow morning. In the meantime, please use the copier on the eleventh floor. In addition, office **(13)______** are running low this month — if you need pens, folders, or other **(14)______**, please submit a request form to my office.
+  related_word: "photocopier"
+  options: { A: "filing cabinet", B: "photocopier", C: "workstation", D: "cubicle" }
+  answer: "B"
+  explanation_vi: "chủ ngữ của câu, sau đó được gọi lại là \"the copier\"; chỉ máy photocopy mới có \"paper jam\"."
+
+- id: "exercise-02-p6-12"
+  part: 6
+  topic: "offices"
+  lesson: ["lesson-02"]
+  level: 900
+  passage_group: "p6-11-14"
+  passage: |
+    **MEMORANDUM**
+    **To:** All Staff **From:** Priya Nair, Corporate Services
+    **Re:** Office Equipment Update
+
+    The **(11)______** on the twelfth floor is currently out of order due to a paper jam. A technician will install a new **(12)______** tomorrow morning. In the meantime, please use the copier on the eleventh floor. In addition, office **(13)______** are running low this month — if you need pens, folders, or other **(14)______**, please submit a request form to my office.
+  related_word: "toner cartridge"
+  options: { A: "toner cartridge", B: "stationery", C: "supplies", D: "protocol" }
+  answer: "A"
+  explanation_vi: "kỹ thuật viên sẽ lắp **hộp mực in** mới."
+
+- id: "exercise-02-p6-13"
+  part: 6
+  topic: "offices"
+  lesson: ["lesson-02"]
+  level: 600
+  passage_group: "p6-11-14"
+  passage: |
+    **MEMORANDUM**
+    **To:** All Staff **From:** Priya Nair, Corporate Services
+    **Re:** Office Equipment Update
+
+    The **(11)______** on the twelfth floor is currently out of order due to a paper jam. A technician will install a new **(12)______** tomorrow morning. In the meantime, please use the copier on the eleventh floor. In addition, office **(13)______** are running low this month — if you need pens, folders, or other **(14)______**, please submit a request form to my office.
+  related_word: "supplies"
+  options: { A: "stationery", B: "supplies", C: "procedure", D: "protocol" }
+  answer: "B"
+  explanation_vi: "động từ \"are\" (số nhiều) hợp với *supplies*; *stationery* là danh từ không đếm được (phải dùng \"is\")."
+
+- id: "exercise-02-p6-14"
+  part: 6
+  topic: "offices"
+  lesson: ["lesson-02"]
+  level: 750
+  passage_group: "p6-11-14"
+  passage: |
+    **MEMORANDUM**
+    **To:** All Staff **From:** Priya Nair, Corporate Services
+    **Re:** Office Equipment Update
+
+    The **(11)______** on the twelfth floor is currently out of order due to a paper jam. A technician will install a new **(12)______** tomorrow morning. In the meantime, please use the copier on the eleventh floor. In addition, office **(13)______** are running low this month — if you need pens, folders, or other **(14)______**, please submit a request form to my office.
+  related_word: "stationery"
+  options: { A: "supplies", B: "stationery", C: "duplicate", D: "distribute" }
+  answer: "B"
+  explanation_vi: "\"pens, folders, or other stationery\" = bút, kẹp… thuộc nhóm **văn phòng phẩm**."
+
+- id: "exercise-02-p6-15"
+  part: 6
+  topic: "offices"
+  lesson: ["lesson-02"]
+  level: 900
+  passage_group: "p6-15-17"
+  passage: |
+    **NOTICE**
+    To prepare space for the new Project Aria committee, the twelfth floor will be reorganized this weekend. All files older than five years will be moved into a new **(15)______** near the archive room. Two additional **(16)______** will be set up along the west wall for incoming staff. Committee members who need privacy for meetings will be assigned a separate **(17)______** with partition walls.
+  related_word: "filing cabinet"
+  options: { A: "filing cabinet", B: "workstation", C: "cubicle", D: "toner cartridge" }
+  answer: "A"
+  explanation_vi: "nơi cất hồ sơ cũ."
+
+- id: "exercise-02-p6-16"
+  part: 6
+  topic: "offices"
+  lesson: ["lesson-02"]
+  level: 900
+  passage_group: "p6-15-17"
+  passage: |
+    **NOTICE**
+    To prepare space for the new Project Aria committee, the twelfth floor will be reorganized this weekend. All files older than five years will be moved into a new **(15)______** near the archive room. Two additional **(16)______** will be set up along the west wall for incoming staff. Committee members who need privacy for meetings will be assigned a separate **(17)______** with partition walls.
+  related_word: "workstation"
+  options: { A: "cubicles", B: "workstations", C: "filing cabinets", D: "photocopiers" }
+  answer: "B"
+  explanation_vi: "chỗ ngồi làm việc mới cho nhân sự sắp vào."
+
+- id: "exercise-02-p6-17"
+  part: 6
+  topic: "offices"
+  lesson: ["lesson-02"]
+  level: 900
+  passage_group: "p6-15-17"
+  passage: |
+    **NOTICE**
+    To prepare space for the new Project Aria committee, the twelfth floor will be reorganized this weekend. All files older than five years will be moved into a new **(15)______** near the archive room. Two additional **(16)______** will be set up along the west wall for incoming staff. Committee members who need privacy for meetings will be assigned a separate **(17)______** with partition walls.
+  related_word: "cubicle"
+  options: { A: "workstation", B: "cubicle", C: "filing cabinet", D: "stationery" }
+  answer: "B"
+  explanation_vi: "\"with partition walls\" = ô làm việc có vách ngăn (chi tiết \"vách ngăn\" chốt đáp án)."
+
+- id: "exercise-02-p7-18"
+  part: 7
+  topic: "offices"
+  lesson: ["lesson-02"]
+  level: null
+  passage_group: "p7-18-20"
+  passage: |
+    **OFFICE NOTICE**
+    Due to a paper jam earlier this week, the photocopier on the twelfth floor was out of order for two days. It has now been repaired, and a new toner cartridge has been installed. To avoid future problems, please follow the correct procedure when using the machine: check the paper tray before printing, and report any issue promptly. Office supplies, including stationery, can be requested through the online form.
+    — Priya Nair, Corporate Services
+  related_word: null
+  question: "Why was the photocopier out of order?"
+  options: { A: "It ran out of stationery", B: "It had a paper jam", C: "It was moved to another floor", D: "It was replaced with a new machine" }
+  answer: "B"
+  explanation_vi: "máy hỏng vì bị **kẹt giấy** (a paper jam)."
+
+- id: "exercise-02-p7-19"
+  part: 7
+  topic: "offices"
+  lesson: ["lesson-02"]
+  level: null
+  passage_group: "p7-18-20"
+  passage: |
+    **OFFICE NOTICE**
+    Due to a paper jam earlier this week, the photocopier on the twelfth floor was out of order for two days. It has now been repaired, and a new toner cartridge has been installed. To avoid future problems, please follow the correct procedure when using the machine: check the paper tray before printing, and report any issue promptly. Office supplies, including stationery, can be requested through the online form.
+    — Priya Nair, Corporate Services
+  related_word: null
+  question: "What should employees do if they notice a problem with the copier?"
+  options: { A: "Ignore it until it is fixed", B: "Report it promptly", C: "Call the supplier directly", D: "Replace the toner cartridge themselves" }
+  answer: "B"
+  explanation_vi: "nhân viên được yêu cầu **báo cáo sự cố nhanh chóng** (\"report any issue promptly\")."
+
+- id: "exercise-02-p7-20"
+  part: 7
+  topic: "offices"
+  lesson: ["lesson-02"]
+  level: null
+  passage_group: "p7-18-20"
+  passage: |
+    **OFFICE NOTICE**
+    Due to a paper jam earlier this week, the photocopier on the twelfth floor was out of order for two days. It has now been repaired, and a new toner cartridge has been installed. To avoid future problems, please follow the correct procedure when using the machine: check the paper tray before printing, and report any issue promptly. Office supplies, including stationery, can be requested through the online form.
+    — Priya Nair, Corporate Services
+  related_word: null
+  question: "The word \"procedure\" in the notice is closest in meaning to"
+  options: { A: "protocol", B: "process", C: "supplies", D: "cubicle" }
+  answer: "B"
+  explanation_vi: "trong ngữ cảnh này \"procedure\" ≈ **process** (chuỗi các bước). *protocol* nghiêng về quy tắc ứng xử nên không sát bằng."
+
+- id: "exercise-02-p7-21"
+  part: 7
+  topic: "offices"
+  lesson: ["lesson-02"]
+  level: null
+  passage_group: "p7-21-23"
+  passage: |
+    **To:** Department Heads **From:** Priya Nair
+    **Subject:** Office Reorganization Complete
+
+    The reorganization of the twelfth floor is now complete. All old files have been moved to the new filing cabinet, and two new workstations have been set up for the Project Aria team. On behalf of Ms. Whitfield, I want to thank everyone for their patience during this transition. However, with the committee growing, our current staff can no longer keep up with the workload. We will need to bring in additional help very soon.
+  related_word: null
+  question: "What is the main purpose of this memo?"
+  options: { A: "To request new stationery", B: "To report that the office reorganization is finished", C: "To announce a merger", D: "To schedule a board meeting" }
+  answer: "B"
+  explanation_vi: "thông báo chủ yếu **báo cáo rằng việc sắp xếp lại văn phòng đã hoàn tất**."
+
+- id: "exercise-02-p7-22"
+  part: 7
+  topic: "offices"
+  lesson: ["lesson-02"]
+  level: null
+  passage_group: "p7-21-23"
+  passage: |
+    **To:** Department Heads **From:** Priya Nair
+    **Subject:** Office Reorganization Complete
+
+    The reorganization of the twelfth floor is now complete. All old files have been moved to the new filing cabinet, and two new workstations have been set up for the Project Aria team. On behalf of Ms. Whitfield, I want to thank everyone for their patience during this transition. However, with the committee growing, our current staff can no longer keep up with the workload. We will need to bring in additional help very soon.
+  related_word: null
+  question: "On whose behalf did Priya send this message?"
+  options: { A: "Harold Vance", B: "Ms. Whitfield", C: "Daniel Cho", D: "Sophia Marchetti" }
+  answer: "B"
+  explanation_vi: "Priya gửi thông báo **thay mặt Ms. Whitfield** (Diane)."
+
+- id: "exercise-02-p7-23"
+  part: 7
+  topic: "offices"
+  lesson: ["lesson-02"]
+  level: null
+  passage_group: "p7-21-23"
+  passage: |
+    **To:** Department Heads **From:** Priya Nair
+    **Subject:** Office Reorganization Complete
+
+    The reorganization of the twelfth floor is now complete. All old files have been moved to the new filing cabinet, and two new workstations have been set up for the Project Aria team. On behalf of Ms. Whitfield, I want to thank everyone for their patience during this transition. However, with the committee growing, our current staff can no longer keep up with the workload. We will need to bring in additional help very soon.
+  related_word: null
+  question: "What problem does the memo mention at the end?"
+  options: { A: "The photocopier is broken again", B: "The company needs more staff", C: "The budget has run out", D: "The committee has been canceled" }
+  answer: "B"
+  explanation_vi: "cuối memo nêu vấn đề: **công ty cần thêm nhân sự** vì đội ngũ hiện tại quá tải."
+

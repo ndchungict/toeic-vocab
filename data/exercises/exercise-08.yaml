@@ -1,0 +1,337 @@
+# EXERCISE 08 — GENERAL BUSINESS: Hội nghị · Quan hệ lao động
+# Nguồn: exercises/exercise-08.md (lesson-08)
+# 25 câu: Part 5 (1-12), Part 6 (13-19), Part 7 (20-25)
+
+- id: "exercise-08-p5-01"
+  part: 5
+  topic: "general-business"
+  lesson: ["lesson-08"]
+  level: 600
+  related_word: "conference"
+  question: "Aster sent a small team to the annual industry ______ held in Northbridge."
+  options: { A: "venue", B: "booth", C: "conference", D: "handout" }
+  answer: "C"
+  explanation_vi: "\"an industry conference\" = hội nghị ngành. *venue* (địa điểm), *booth* (gian hàng), *handout* (tài liệu) không phải bản thân sự kiện."
+
+- id: "exercise-08-p5-02"
+  part: 5
+  topic: "general-business"
+  lesson: ["lesson-08"]
+  level: 750
+  related_word: "venue"
+  question: "The organizers had to find a larger ______ because so many people had registered."
+  options: { A: "session", B: "venue", C: "panel", D: "union" }
+  answer: "B"
+  explanation_vi: "\"find a larger venue\" = tìm địa điểm rộng hơn; hợp với \"so many registered\". *session/panel/union* sai nghĩa."
+
+- id: "exercise-08-p5-03"
+  part: 5
+  topic: "general-business"
+  lesson: ["lesson-08"]
+  level: 600
+  related_word: "registration"
+  question: "Please pick up your name badge at the ______ desk when you arrive."
+  options: { A: "booth", B: "grievance", C: "workshop", D: "registration" }
+  answer: "D"
+  explanation_vi: "\"the registration desk\" = bàn đăng ký (nơi lấy name badge). *booth/grievance/workshop* sai nghĩa."
+
+- id: "exercise-08-p5-04"
+  part: 5
+  topic: "general-business"
+  lesson: ["lesson-08"]
+  level: 750
+  related_word: "attendee"
+  question: "Every ______ received a printed program and a free tote bag."
+  options: { A: "attendee", B: "venue", C: "dispute", D: "panel" }
+  answer: "A"
+  explanation_vi: "\"every attendee\" = mỗi người tham dự. *venue/dispute/panel* sai nghĩa."
+
+- id: "exercise-08-p5-05"
+  part: 5
+  topic: "general-business"
+  lesson: ["lesson-08"]
+  level: 600
+  related_word: "session"
+  question: "After the opening speech, the conference split into several smaller ______ on different topics."
+  options: { A: "booths", B: "sessions", C: "handouts", D: "strikes" }
+  answer: "B"
+  explanation_vi: "\"split into smaller sessions\" = tách thành các phiên nhỏ. *booths/handouts/strikes* sai nghĩa."
+
+- id: "exercise-08-p5-06"
+  part: 5
+  topic: "general-business"
+  lesson: ["lesson-08"]
+  level: 600
+  related_word: "workshop"
+  question: "Ben signed up for a hands-on ______ where participants built a simple app."
+  options: { A: "grievance", B: "venue", C: "workshop", D: "walkout" }
+  answer: "C"
+  explanation_vi: "\"a hands-on workshop… built a simple app\" = hội thảo thực hành. *grievance/venue/walkout* sai nghĩa."
+
+- id: "exercise-08-p5-07"
+  part: 5
+  topic: "general-business"
+  lesson: ["lesson-08"]
+  level: 750
+  related_word: "panel"
+  question: "Daniel joined a ______ of experts to discuss the future of smart homes."
+  options: { A: "panel", B: "booth", C: "union", D: "handout" }
+  answer: "A"
+  explanation_vi: "\"a panel of experts to discuss\" = nhóm diễn giả tọa đàm. *booth/union/handout* sai nghĩa."
+
+- id: "exercise-08-p5-08"
+  part: 5
+  topic: "general-business"
+  lesson: ["lesson-08"]
+  level: 750
+  related_word: "booth"
+  question: "Visitors crowded around the Aster ______ to watch a live demo of Aria."
+  options: { A: "session", B: "registration", C: "dispute", D: "booth" }
+  answer: "D"
+  explanation_vi: "\"crowded around the Aster booth… live demo\" = vây quanh gian trưng bày. *session/registration/dispute* sai nghĩa."
+
+- id: "exercise-08-p5-09"
+  part: 5
+  topic: "general-business"
+  lesson: ["lesson-08"]
+  level: 750
+  related_word: "union"
+  question: "The factory workers are represented by a labor ______ in talks with management."
+  options: { A: "panel", B: "attendee", C: "union", D: "venue" }
+  answer: "C"
+  explanation_vi: "\"a labor union in talks with management\" = công đoàn. *panel/attendee/venue* sai nghĩa."
+
+- id: "exercise-08-p5-10"
+  part: 5
+  topic: "general-business"
+  lesson: ["lesson-08"]
+  level: 900
+  related_word: "grievance"
+  question: "Unhappy about the extra hours, the staff filed a formal ______ with the company."
+  options: { A: "booth", B: "session", C: "keynote", D: "grievance" }
+  answer: "D"
+  explanation_vi: "\"filed a formal grievance\" = nộp đơn khiếu nại chính thức. *booth/session/keynote* sai nghĩa."
+
+- id: "exercise-08-p5-11"
+  part: 5
+  topic: "general-business"
+  lesson: ["lesson-08"]
+  level: 750
+  related_word: "strike"
+  question: "If the two sides cannot reach a deal, the workers have threatened to go on ______."
+  options: { A: "strike", B: "venue", C: "handout", D: "panel" }
+  answer: "A"
+  explanation_vi: "\"go on strike\" = đình công; hợp với \"cannot reach a deal\". *venue/handout/panel* sai nghĩa."
+
+- id: "exercise-08-p5-12"
+  part: 5
+  topic: "general-business"
+  lesson: ["lesson-08"]
+  level: 900
+  related_word: "mediate"
+  question: "A neutral manager was brought in to ______ between the workers and the company."
+  options: { A: "register", B: "mediate", C: "attend", D: "exhibit" }
+  answer: "B"
+  explanation_vi: "\"mediate between the workers and the company\" = hòa giải giữa hai bên. *register/attend/exhibit* sai nghĩa."
+
+- id: "exercise-08-p6-13"
+  part: 6
+  topic: "general-business"
+  lesson: ["lesson-08"]
+  level: 750
+  passage_group: "p6-13-16"
+  passage: |
+    **EMAIL — Northbridge Tech Expo Recap**
+    **To:** Marketing Team **From:** Daniel Cho
+
+    Thank you all for a great show. The **(13)______** who opened the event set the perfect tone, and our booth was busy all day. The **(14)______** breaks were especially valuable — I made several useful contacts among the press. For those who missed it, I've attached the **(15)______** we gave to visitors. Let's review what we learned at our team **(16)______** on Monday.
+  related_word: "keynote speaker"
+  options: { A: "attendee", B: "grievance", C: "walkout", D: "keynote speaker" }
+  answer: "D"
+  explanation_vi: "\"the keynote speaker who opened the event\" = diễn giả chính khai mạc. *attendee/grievance/walkout* sai nghĩa."
+
+- id: "exercise-08-p6-14"
+  part: 6
+  topic: "general-business"
+  lesson: ["lesson-08"]
+  level: 750
+  passage_group: "p6-13-16"
+  passage: |
+    **EMAIL — Northbridge Tech Expo Recap**
+    **To:** Marketing Team **From:** Daniel Cho
+
+    Thank you all for a great show. The **(13)______** who opened the event set the perfect tone, and our booth was busy all day. The **(14)______** breaks were especially valuable — I made several useful contacts among the press. For those who missed it, I've attached the **(15)______** we gave to visitors. Let's review what we learned at our team **(16)______** on Monday.
+  related_word: "networking"
+  options: { A: "networking", B: "registration", C: "union", D: "booth" }
+  answer: "A"
+  explanation_vi: "\"the networking breaks… made useful contacts\" = giờ giải lao kết nối. *registration/union/booth* sai nghĩa."
+
+- id: "exercise-08-p6-15"
+  part: 6
+  topic: "general-business"
+  lesson: ["lesson-08"]
+  level: 750
+  passage_group: "p6-13-16"
+  passage: |
+    **EMAIL — Northbridge Tech Expo Recap**
+    **To:** Marketing Team **From:** Daniel Cho
+
+    Thank you all for a great show. The **(13)______** who opened the event set the perfect tone, and our booth was busy all day. The **(14)______** breaks were especially valuable — I made several useful contacts among the press. For those who missed it, I've attached the **(15)______** we gave to visitors. Let's review what we learned at our team **(16)______** on Monday.
+  related_word: "handout"
+  options: { A: "venue", B: "panel", C: "handout", D: "strike" }
+  answer: "C"
+  explanation_vi: "\"attached the handout we gave to visitors\" = tài liệu phát tay. *venue/panel/strike* sai nghĩa."
+
+- id: "exercise-08-p6-16"
+  part: 6
+  topic: "general-business"
+  lesson: ["lesson-08"]
+  level: 600
+  passage_group: "p6-13-16"
+  passage: |
+    **EMAIL — Northbridge Tech Expo Recap**
+    **To:** Marketing Team **From:** Daniel Cho
+
+    Thank you all for a great show. The **(13)______** who opened the event set the perfect tone, and our booth was busy all day. The **(14)______** breaks were especially valuable — I made several useful contacts among the press. For those who missed it, I've attached the **(15)______** we gave to visitors. Let's review what we learned at our team **(16)______** on Monday.
+  related_word: "session"
+  options: { A: "booth", B: "session", C: "dispute", D: "attendee" }
+  answer: "B"
+  explanation_vi: "\"our team session on Monday\" = buổi họp nhóm. *booth/dispute/attendee* sai nghĩa."
+
+- id: "exercise-08-p6-17"
+  part: 6
+  topic: "general-business"
+  lesson: ["lesson-08"]
+  level: 750
+  passage_group: "p6-17-19"
+  passage: |
+    **MEMORANDUM — Eastport Plant**
+    **To:** Management **From:** Raymond Osei, COO
+
+    The recent **(17)______** over mandatory overtime has been settled for now. After a round of **(18)______** with the workers' representatives, we agreed to reduce extra hours and raise the overtime rate. This should prevent any **(19)______** during the busy weeks ahead. However, we must keep listening — the goodwill will not last if we push too hard again.
+  related_word: "dispute"
+  options: { A: "booth", B: "session", C: "handout", D: "dispute" }
+  answer: "D"
+  explanation_vi: "\"the recent dispute over mandatory overtime has been settled\" = tranh chấp. *booth/session/handout* sai nghĩa."
+
+- id: "exercise-08-p6-18"
+  part: 6
+  topic: "general-business"
+  lesson: ["lesson-08"]
+  level: 900
+  passage_group: "p6-17-19"
+  passage: |
+    **MEMORANDUM — Eastport Plant**
+    **To:** Management **From:** Raymond Osei, COO
+
+    The recent **(17)______** over mandatory overtime has been settled for now. After a round of **(18)______** with the workers' representatives, we agreed to reduce extra hours and raise the overtime rate. This should prevent any **(19)______** during the busy weeks ahead. However, we must keep listening — the goodwill will not last if we push too hard again.
+  related_word: "collective bargaining"
+  options: { A: "collective bargaining", B: "registration", C: "networking", D: "venue" }
+  answer: "A"
+  explanation_vi: "\"a round of collective bargaining with the workers' representatives\" = thương lượng tập thể. *registration/networking/venue* sai nghĩa."
+
+- id: "exercise-08-p6-19"
+  part: 6
+  topic: "general-business"
+  lesson: ["lesson-08"]
+  level: 900
+  passage_group: "p6-17-19"
+  passage: |
+    **MEMORANDUM — Eastport Plant**
+    **To:** Management **From:** Raymond Osei, COO
+
+    The recent **(17)______** over mandatory overtime has been settled for now. After a round of **(18)______** with the workers' representatives, we agreed to reduce extra hours and raise the overtime rate. This should prevent any **(19)______** during the busy weeks ahead. However, we must keep listening — the goodwill will not last if we push too hard again.
+  related_word: "walkout"
+  options: { A: "panel", B: "attendee", C: "walkout", D: "keynote" }
+  answer: "C"
+  explanation_vi: "\"prevent any walkout during the busy weeks\" = ngăn cuộc bỏ việc phản đối. *panel/attendee/keynote* sai nghĩa."
+
+- id: "exercise-08-p7-20"
+  part: 7
+  topic: "general-business"
+  lesson: ["lesson-08"]
+  level: null
+  passage_group: "p7-20-22"
+  passage: |
+    **Northbridge Daily — Business**
+    The Northbridge Tech Expo drew record crowds this year, and one of the busiest booths belonged to Aster Home Technologies. The company used the conference to show its upcoming Aria system to the public for the first time. Marketing director Daniel Cho spent much of the event networking with journalists and industry figures — including, reporters noted, representatives of rival Neura. Analysts say the strong turnout at Aster's booth suggests real public interest ahead of the product's launch.
+  related_word: null
+  question: "What did Aster use the conference for?"
+  options: { A: "To hire new engineers", B: "To show the Aria system to the public for the first time", C: "To sign a contract with Neura", D: "To hold its annual shareholders' meeting" }
+  answer: "B"
+  explanation_vi: "Aster dùng hội nghị để **lần đầu giới thiệu Aria ra công chúng** (\"used the conference to show its upcoming Aria system to the public for the first time\"). (A)/(C)/(D) không được nêu."
+
+- id: "exercise-08-p7-21"
+  part: 7
+  topic: "general-business"
+  lesson: ["lesson-08"]
+  level: null
+  passage_group: "p7-20-22"
+  passage: |
+    **Northbridge Daily — Business**
+    The Northbridge Tech Expo drew record crowds this year, and one of the busiest booths belonged to Aster Home Technologies. The company used the conference to show its upcoming Aria system to the public for the first time. Marketing director Daniel Cho spent much of the event networking with journalists and industry figures — including, reporters noted, representatives of rival Neura. Analysts say the strong turnout at Aster's booth suggests real public interest ahead of the product's launch.
+  related_word: null
+  question: "According to the article, what did Daniel Cho do at the event?"
+  options: { A: "He gave the keynote speech", B: "He filed a grievance", C: "He networked with journalists and industry figures", D: "He led a workers' strike" }
+  answer: "C"
+  explanation_vi: "Daniel **kết nối với báo giới & người trong ngành** (\"networking with journalists and industry figures\"). (A) không phải anh; (B)/(D) không đúng."
+
+- id: "exercise-08-p7-22"
+  part: 7
+  topic: "general-business"
+  lesson: ["lesson-08"]
+  level: null
+  passage_group: "p7-20-22"
+  passage: |
+    **Northbridge Daily — Business**
+    The Northbridge Tech Expo drew record crowds this year, and one of the busiest booths belonged to Aster Home Technologies. The company used the conference to show its upcoming Aria system to the public for the first time. Marketing director Daniel Cho spent much of the event networking with journalists and industry figures — including, reporters noted, representatives of rival Neura. Analysts say the strong turnout at Aster's booth suggests real public interest ahead of the product's launch.
+  related_word: null
+  question: "The word \"turnout\" in the article is closest in meaning to"
+  options: { A: "the number of people who attended", B: "the amount of money earned", C: "the quality of the products", D: "the length of the event" }
+  answer: "A"
+  explanation_vi: "\"turnout\" = lượng người đến dự. Các phương án về tiền/chất lượng/độ dài đều sai."
+
+- id: "exercise-08-p7-23"
+  part: 7
+  topic: "general-business"
+  lesson: ["lesson-08"]
+  level: null
+  passage_group: "p7-23-25"
+  passage: |
+    **Eastport Plant — Weekly Note**
+    Tensions at the Eastport plant eased this week after management and the workers' union reached a temporary agreement. The union had filed a grievance over long mandatory overtime, and some workers had even discussed a walkout. Plant foreman Joe Delgado welcomed the deal but warned that it was only a short-term fix. "The team came back to work, and the dispute is settled for now," he said. "But if we push them this hard again closer to launch, I can't promise they'll stay calm."
+  related_word: null
+  question: "Why had the union filed a grievance?"
+  options: { A: "Because of low pay only", B: "Because the factory was closing", C: "Because of unsafe machinery", D: "Because of long mandatory overtime" }
+  answer: "D"
+  explanation_vi: "công đoàn nộp đơn vì **tăng ca bắt buộc kéo dài** (\"a grievance over long mandatory overtime\"). (A) \"low pay only\" hẹp/sai; (B)/(C) không nêu."
+
+- id: "exercise-08-p7-24"
+  part: 7
+  topic: "general-business"
+  lesson: ["lesson-08"]
+  level: null
+  passage_group: "p7-23-25"
+  passage: |
+    **Eastport Plant — Weekly Note**
+    Tensions at the Eastport plant eased this week after management and the workers' union reached a temporary agreement. The union had filed a grievance over long mandatory overtime, and some workers had even discussed a walkout. Plant foreman Joe Delgado welcomed the deal but warned that it was only a short-term fix. "The team came back to work, and the dispute is settled for now," he said. "But if we push them this hard again closer to launch, I can't promise they'll stay calm."
+  related_word: null
+  question: "What is Joe Delgado's warning about the agreement?"
+  options: { A: "The plant will close soon", B: "It is only a short-term fix", C: "The workers have already quit", D: "The union has been dissolved" }
+  answer: "B"
+  explanation_vi: "Joe cảnh báo thỏa thuận **chỉ là giải pháp ngắn hạn** (\"only a short-term fix\"). (A)/(C)/(D) trái với bài."
+
+- id: "exercise-08-p7-25"
+  part: 7
+  topic: "general-business"
+  lesson: ["lesson-08"]
+  level: null
+  passage_group: "p7-23-25"
+  passage: |
+    **Eastport Plant — Weekly Note**
+    Tensions at the Eastport plant eased this week after management and the workers' union reached a temporary agreement. The union had filed a grievance over long mandatory overtime, and some workers had even discussed a walkout. Plant foreman Joe Delgado welcomed the deal but warned that it was only a short-term fix. "The team came back to work, and the dispute is settled for now," he said. "But if we push them this hard again closer to launch, I can't promise they'll stay calm."
+  related_word: null
+  question: "The word \"eased\" in the note is closest in meaning to"
+  options: { A: "increased sharply", B: "became less tense", C: "disappeared completely", D: "were ignored" }
+  answer: "B"
+  explanation_vi: "\"tensions eased\" = căng thẳng dịu bớt. *increased sharply* trái nghĩa; *disappeared completely* quá mạnh; *were ignored* sai nghĩa."

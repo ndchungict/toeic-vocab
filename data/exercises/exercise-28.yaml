@@ -1,0 +1,337 @@
+# EXERCISE 28 — ENTERTAINMENT: Truyền thông & Đánh giá *(HỒI KẾT)*
+# Nguồn: exercises/exercise-28.md (lesson-28)
+# 26 câu: Part 5 (1-12), Part 6 (13-20), Part 7 (21-26)
+
+- id: "exercise-28-p5-01"
+  part: 5
+  topic: "entertainment"
+  lesson: ["lesson-28"]
+  level: 600
+  related_word: "release"
+  question: "The moment the demo ended, Aster officially ______ the Aria line in Halston."
+  options: { A: "reviewed", B: "broadcast", C: "released", D: "sculpted" }
+  answer: "C"
+  explanation_vi: "\"Aster officially released the Aria line\" = phát hành, tung ra. *reviewed/broadcast/sculpted* sai nghĩa."
+
+- id: "exercise-28-p5-02"
+  part: 5
+  topic: "entertainment"
+  lesson: ["lesson-28"]
+  level: 750
+  related_word: "broadcast"
+  question: "The live demo was ______ to viewers across the region."
+  options: { A: "broadcast", B: "released", C: "reviewed", D: "renowned" }
+  answer: "A"
+  explanation_vi: "\"the demo was broadcast to viewers across the region\" = phát sóng. ⚠️ quá khứ giữ nguyên. *released/reviewed/renowned* sai."
+
+- id: "exercise-28-p5-03"
+  part: 5
+  topic: "entertainment"
+  lesson: ["lesson-28"]
+  level: 600
+  related_word: "journalist"
+  question: "By the next morning, every ______ in the city wanted the story."
+  options: { A: "critic", B: "sculpture", C: "editorial", D: "journalist" }
+  answer: "D"
+  explanation_vi: "\"every journalist in the city wanted the story\" = nhà báo. *critic/sculpture/editorial* sai nghĩa."
+
+- id: "exercise-28-p5-04"
+  part: 5
+  topic: "entertainment"
+  lesson: ["lesson-28"]
+  level: 600
+  related_word: "review"
+  question: "The first ______ of Aria were overwhelmingly positive."
+  options: { A: "sculptures", B: "reviews", C: "fundraisers", D: "matinees" }
+  answer: "B"
+  explanation_vi: "\"the first reviews were overwhelmingly positive\" = bài đánh giá. *sculptures/fundraisers/matinees* sai nghĩa."
+
+- id: "exercise-28-p5-05"
+  part: 5
+  topic: "entertainment"
+  lesson: ["lesson-28"]
+  level: 750
+  related_word: "critic"
+  question: "Even a famously harsh technology ______ had nothing but praise."
+  options: { A: "journalist", B: "editorial", C: "critic", D: "sculpture" }
+  answer: "C"
+  explanation_vi: "\"a famously harsh technology critic\" = nhà phê bình. *journalist/editorial/sculpture* sai nghĩa."
+
+- id: "exercise-28-p5-06"
+  part: 5
+  topic: "entertainment"
+  lesson: ["lesson-28"]
+  level: 900
+  related_word: "acclaim"
+  question: "Aria won rare critical ______ for its design and reliability."
+  options: { A: "acclaim", B: "subscription", C: "fundraiser", D: "matinee" }
+  answer: "A"
+  explanation_vi: "\"won rare critical acclaim\" = sự tán dương. *subscription/fundraiser/matinee* sai nghĩa."
+
+- id: "exercise-28-p5-07"
+  part: 5
+  topic: "entertainment"
+  lesson: ["lesson-28"]
+  level: 750
+  related_word: "masterpiece"
+  question: "One reviewer called the device a ______ of smart-home design."
+  options: { A: "journalist", B: "critic", C: "subscription", D: "masterpiece" }
+  answer: "D"
+  explanation_vi: "\"called the device a masterpiece of design\" = kiệt tác. *journalist/critic/subscription* sai nghĩa."
+
+- id: "exercise-28-p5-08"
+  part: 5
+  topic: "entertainment"
+  lesson: ["lesson-28"]
+  level: 750
+  related_word: "renowned"
+  question: "The praise from such a ______ expert stunned the whole team."
+  options: { A: "sold-out", B: "renowned", C: "contagious", D: "vacant" }
+  answer: "B"
+  explanation_vi: "\"praise from such a renowned expert\" = nổi tiếng. *sold-out/contagious/vacant* sai nghĩa."
+
+- id: "exercise-28-p5-09"
+  part: 5
+  topic: "entertainment"
+  lesson: ["lesson-28"]
+  level: 750
+  related_word: "subscription"
+  question: "Sign-ups poured in, and Aria ______ numbers surged overnight."
+  options: { A: "admission", B: "sculpture", C: "subscription", D: "matinee" }
+  answer: "C"
+  explanation_vi: "\"Aria subscription numbers surged overnight\" = đăng ký. *admission/sculpture/matinee* sai nghĩa."
+
+- id: "exercise-28-p5-10"
+  part: 5
+  topic: "entertainment"
+  lesson: ["lesson-28"]
+  level: 900
+  related_word: "fundraiser"
+  question: "A month later, Aster hosted a ______ to celebrate and give to charity."
+  options: { A: "fundraiser", B: "critic", C: "journalist", D: "review" }
+  answer: "A"
+  explanation_vi: "\"hosted a fundraiser to celebrate and give to charity\" = sự kiện gây quỹ. *critic/journalist/review* sai nghĩa."
+
+- id: "exercise-28-p5-11"
+  part: 5
+  topic: "entertainment"
+  lesson: ["lesson-28"]
+  level: 600
+  related_word: "anniversary"
+  question: "The event also marked the company's twelfth ______."
+  options: { A: "subscription", B: "sculpture", C: "review", D: "anniversary" }
+  answer: "D"
+  explanation_vi: "\"marked the company's twelfth anniversary\" = lễ kỷ niệm. *subscription/sculpture/review* sai nghĩa."
+
+- id: "exercise-28-p5-12"
+  part: 5
+  topic: "entertainment"
+  lesson: ["lesson-28"]
+  level: 750
+  related_word: "sculpture"
+  question: "In the lobby, Rosie placed a small ______ shaped like the first Aria."
+  options: { A: "review", B: "sculpture", C: "fundraiser", D: "journalist" }
+  answer: "B"
+  explanation_vi: "\"a small sculpture shaped like the first Aria\" = tác phẩm điêu khắc. *review/fundraiser/journalist* sai nghĩa."
+
+- id: "exercise-28-p6-13"
+  part: 6
+  topic: "entertainment"
+  lesson: ["lesson-28"]
+  level: 750
+  passage_group: "p6-13-16"
+  passage: |
+    **PRESS ROUNDUP — Aria Launch**
+    Coverage of the Aria launch has been remarkable. The live demo was broadcast in full, and by morning nearly every major **(13)______** had run the story. Several papers went further, publishing an **(14)______** praising Aster's year-long comeback. A **(15)______** for a well-known technology magazine called Aria the best smart-home product of the year. Reader **(16)______** to Aster's own Aria service jumped overnight.
+  related_word: "publication"
+  options: { A: "sculpture", B: "matinee", C: "publication", D: "fundraiser" }
+  answer: "C"
+  explanation_vi: "\"nearly every major publication had run the story\" = ấn phẩm. *sculpture/matinee/fundraiser* sai nghĩa."
+
+- id: "exercise-28-p6-14"
+  part: 6
+  topic: "entertainment"
+  lesson: ["lesson-28"]
+  level: 900
+  passage_group: "p6-13-16"
+  passage: |
+    **PRESS ROUNDUP — Aria Launch**
+    Coverage of the Aria launch has been remarkable. The live demo was broadcast in full, and by morning nearly every major **(13)______** had run the story. Several papers went further, publishing an **(14)______** praising Aster's year-long comeback. A **(15)______** for a well-known technology magazine called Aria the best smart-home product of the year. Reader **(16)______** to Aster's own Aria service jumped overnight.
+  related_word: "editorial"
+  options: { A: "editorial", B: "admission fee", C: "sculpture", D: "matinee" }
+  answer: "A"
+  explanation_vi: "\"publishing an editorial praising Aster's comeback\" = bài xã luận. *admission fee/sculpture/matinee* sai nghĩa."
+
+- id: "exercise-28-p6-15"
+  part: 6
+  topic: "entertainment"
+  lesson: ["lesson-28"]
+  level: 750
+  passage_group: "p6-13-16"
+  passage: |
+    **PRESS ROUNDUP — Aria Launch**
+    Coverage of the Aria launch has been remarkable. The live demo was broadcast in full, and by morning nearly every major **(13)______** had run the story. Several papers went further, publishing an **(14)______** praising Aster's year-long comeback. A **(15)______** for a well-known technology magazine called Aria the best smart-home product of the year. Reader **(16)______** to Aster's own Aria service jumped overnight.
+  related_word: "critic"
+  options: { A: "sculpture", B: "fundraiser", C: "matinee", D: "critic" }
+  answer: "D"
+  explanation_vi: "\"a critic for a technology magazine called Aria the best…\" = nhà phê bình. *sculpture/fundraiser/matinee* sai nghĩa."
+
+- id: "exercise-28-p6-16"
+  part: 6
+  topic: "entertainment"
+  lesson: ["lesson-28"]
+  level: 750
+  passage_group: "p6-13-16"
+  passage: |
+    **PRESS ROUNDUP — Aria Launch**
+    Coverage of the Aria launch has been remarkable. The live demo was broadcast in full, and by morning nearly every major **(13)______** had run the story. Several papers went further, publishing an **(14)______** praising Aster's year-long comeback. A **(15)______** for a well-known technology magazine called Aria the best smart-home product of the year. Reader **(16)______** to Aster's own Aria service jumped overnight.
+  related_word: "subscription"
+  options: { A: "editorials", B: "subscriptions", C: "sculptures", D: "admission fees" }
+  answer: "B"
+  explanation_vi: "\"reader subscriptions… jumped overnight\" = đăng ký. *editorials/sculptures/admission fees* sai nghĩa."
+
+- id: "exercise-28-p6-17"
+  part: 6
+  topic: "entertainment"
+  lesson: ["lesson-28"]
+  level: 900
+  passage_group: "p6-17-20"
+  passage: |
+    **NOTICE — Aster 12th Anniversary Gala**
+    To mark our anniversary and the Aria launch, Aster will host a charity **(17)______** on Saturday evening. A small **(18)______** will be charged at the door, and every cent will go to local schools. A commemorative **(19)______** of the first Aria unit will be unveiled in the lobby. For those who cannot attend in the evening, a free daytime **(20)______** will be open to the public and to students.
+  related_word: "fundraiser"
+  options: { A: "editorial", B: "fundraiser", C: "matinee", D: "publication" }
+  answer: "B"
+  explanation_vi: "\"host a charity fundraiser on Saturday\" = sự kiện gây quỹ. *editorial/matinee/publication* sai nghĩa."
+
+- id: "exercise-28-p6-18"
+  part: 6
+  topic: "entertainment"
+  lesson: ["lesson-28"]
+  level: 750
+  passage_group: "p6-17-20"
+  passage: |
+    **NOTICE — Aster 12th Anniversary Gala**
+    To mark our anniversary and the Aria launch, Aster will host a charity **(17)______** on Saturday evening. A small **(18)______** will be charged at the door, and every cent will go to local schools. A commemorative **(19)______** of the first Aria unit will be unveiled in the lobby. For those who cannot attend in the evening, a free daytime **(20)______** will be open to the public and to students.
+  related_word: "admission fee"
+  options: { A: "admission fee", B: "subscription", C: "editorial", D: "sculpture" }
+  answer: "A"
+  explanation_vi: "\"a small admission fee will be charged at the door\" = phí vào cửa. *subscription/editorial/sculpture* sai nghĩa."
+
+- id: "exercise-28-p6-19"
+  part: 6
+  topic: "entertainment"
+  lesson: ["lesson-28"]
+  level: 750
+  passage_group: "p6-17-20"
+  passage: |
+    **NOTICE — Aster 12th Anniversary Gala**
+    To mark our anniversary and the Aria launch, Aster will host a charity **(17)______** on Saturday evening. A small **(18)______** will be charged at the door, and every cent will go to local schools. A commemorative **(19)______** of the first Aria unit will be unveiled in the lobby. For those who cannot attend in the evening, a free daytime **(20)______** will be open to the public and to students.
+  related_word: "sculpture"
+  options: { A: "matinee", B: "critic", C: "review", D: "sculpture" }
+  answer: "D"
+  explanation_vi: "\"a commemorative sculpture of the first Aria unit\" = tác phẩm điêu khắc. *matinee/critic/review* sai nghĩa."
+
+- id: "exercise-28-p6-20"
+  part: 6
+  topic: "entertainment"
+  lesson: ["lesson-28"]
+  level: 900
+  passage_group: "p6-17-20"
+  passage: |
+    **NOTICE — Aster 12th Anniversary Gala**
+    To mark our anniversary and the Aria launch, Aster will host a charity **(17)______** on Saturday evening. A small **(18)______** will be charged at the door, and every cent will go to local schools. A commemorative **(19)______** of the first Aria unit will be unveiled in the lobby. For those who cannot attend in the evening, a free daytime **(20)______** will be open to the public and to students.
+  related_word: "matinee"
+  options: { A: "editorial", B: "publication", C: "matinee", D: "fundraiser" }
+  answer: "C"
+  explanation_vi: "\"a free daytime matinee open to the public\" = suất ban ngày. *editorial/publication/fundraiser* sai nghĩa."
+
+- id: "exercise-28-p7-21"
+  part: 7
+  topic: "entertainment"
+  lesson: ["lesson-28"]
+  level: null
+  passage_group: "p7-21-23"
+  passage: |
+    **Aster Internal — Post-Launch Summary**
+    The Aria launch was a triumph. The live demo, run by trainee Ben Tran, worked flawlessly and was broadcast across the region. Reviews were glowing, a renowned critic called Aria a masterpiece, and subscriptions to the Aria service surged overnight. Just as importantly, in the face of this success, Neura quietly withdrew its takeover offer, and Aster kept its independence. Ben was later named a winner of the company's "Aria Star" award, and John SB — long rumored to be leaving — finally closed his job-search tab and decided to stay.
+  related_word: null
+  question: "Who ran the successful demo?"
+  options: { A: "Daniel Cho", B: "A Neura executive", C: "Trainee Ben Tran", D: "A renowned critic" }
+  answer: "C"
+  explanation_vi: "màn demo do \"**trainee Ben Tran**\" cầm trịch. (A)/(B)/(D) sai."
+
+- id: "exercise-28-p7-22"
+  part: 7
+  topic: "entertainment"
+  lesson: ["lesson-28"]
+  level: null
+  passage_group: "p7-21-23"
+  passage: |
+    **Aster Internal — Post-Launch Summary**
+    The Aria launch was a triumph. The live demo, run by trainee Ben Tran, worked flawlessly and was broadcast across the region. Reviews were glowing, a renowned critic called Aria a masterpiece, and subscriptions to the Aria service surged overnight. Just as importantly, in the face of this success, Neura quietly withdrew its takeover offer, and Aster kept its independence. Ben was later named a winner of the company's "Aria Star" award, and John SB — long rumored to be leaving — finally closed his job-search tab and decided to stay.
+  related_word: null
+  question: "What did Neura do after the launch?"
+  options: { A: "Quietly withdrew its takeover offer", B: "Bought Aster outright", C: "Launched a rival product", D: "Sued Aster" }
+  answer: "A"
+  explanation_vi: "sau ra mắt, Neura \"**quietly withdrew its takeover offer**\". (B)/(C)/(D) sai/trái."
+
+- id: "exercise-28-p7-23"
+  part: 7
+  topic: "entertainment"
+  lesson: ["lesson-28"]
+  level: null
+  passage_group: "p7-21-23"
+  passage: |
+    **Aster Internal — Post-Launch Summary**
+    The Aria launch was a triumph. The live demo, run by trainee Ben Tran, worked flawlessly and was broadcast across the region. Reviews were glowing, a renowned critic called Aria a masterpiece, and subscriptions to the Aria service surged overnight. Just as importantly, in the face of this success, Neura quietly withdrew its takeover offer, and Aster kept its independence. Ben was later named a winner of the company's "Aria Star" award, and John SB — long rumored to be leaving — finally closed his job-search tab and decided to stay.
+  related_word: null
+  question: "What did John SB finally decide?"
+  options: { A: "To sell his shares", B: "To move to Neura", C: "To sue the company", D: "To stay and close his job-search tab" }
+  answer: "D"
+  explanation_vi: "John SB rốt cuộc \"closed his job-search tab and **decided to stay**\". (A)/(B)/(C) sai."
+
+- id: "exercise-28-p7-24"
+  part: 7
+  topic: "entertainment"
+  lesson: ["lesson-28"]
+  level: null
+  passage_group: "p7-24-26"
+  passage: |
+    **Marlowe Business Journal — Aster Stands on Its Own**
+    A year that began with a bet — grow or be sold — has ended in vindication for Aster Home Technologies. Its Aria smart-home line launched to critical acclaim, and the company has turned down a takeover by its larger rival, Neura, to remain independent. Reviews have been glowing, subscriptions are climbing, and a commemorative event tied to the firm's anniversary drew a packed house. Executives are already hinting at the next challenge: carrying "the home that thinks" to markets overseas.
+  related_word: null
+  question: "How did the year end for Aster?"
+  options: { A: "In bankruptcy", B: "In vindication, with Aria a success and the company independent", C: "With a sale to Neura", D: "With the launch cancelled" }
+  answer: "B"
+  explanation_vi: "năm khép lại \"in **vindication**… Aria a success and the company **independent**\". (A)/(C)/(D) sai/trái."
+
+- id: "exercise-28-p7-25"
+  part: 7
+  topic: "entertainment"
+  lesson: ["lesson-28"]
+  level: null
+  passage_group: "p7-24-26"
+  passage: |
+    **Marlowe Business Journal — Aster Stands on Its Own**
+    A year that began with a bet — grow or be sold — has ended in vindication for Aster Home Technologies. Its Aria smart-home line launched to critical acclaim, and the company has turned down a takeover by its larger rival, Neura, to remain independent. Reviews have been glowing, subscriptions are climbing, and a commemorative event tied to the firm's anniversary drew a packed house. Executives are already hinting at the next challenge: carrying "the home that thinks" to markets overseas.
+  related_word: null
+  question: "What did Aster decide about Neura's offer?"
+  options: { A: "It turned down the takeover to stay independent", B: "It accepted the takeover", C: "It ignored the offer entirely", D: "It sued Neura" }
+  answer: "A"
+  explanation_vi: "Aster \"**turned down** a takeover by… Neura, to **remain independent**\". (B)/(C)/(D) sai."
+
+- id: "exercise-28-p7-26"
+  part: 7
+  topic: "entertainment"
+  lesson: ["lesson-28"]
+  level: null
+  passage_group: "p7-24-26"
+  passage: |
+    **Marlowe Business Journal — Aster Stands on Its Own**
+    A year that began with a bet — grow or be sold — has ended in vindication for Aster Home Technologies. Its Aria smart-home line launched to critical acclaim, and the company has turned down a takeover by its larger rival, Neura, to remain independent. Reviews have been glowing, subscriptions are climbing, and a commemorative event tied to the firm's anniversary drew a packed house. Executives are already hinting at the next challenge: carrying "the home that thinks" to markets overseas.
+  related_word: null
+  question: "What are executives hinting at next?"
+  options: { A: "Closing the company", B: "A price cut", C: "Expanding to markets overseas", D: "A new lawsuit" }
+  answer: "C"
+  explanation_vi: "lãnh đạo bóng gió thử thách kế: \"carrying… to **markets overseas**\" (hook mùa sau). (A)/(B)/(D) sai."
