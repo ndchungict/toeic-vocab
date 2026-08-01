@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+  * { box-sizing: border-box; }
+  html, body { margin: 0; }
+  ::-webkit-scrollbar { width: 9px; height: 9px; }
+  ::-webkit-scrollbar-thumb { background: rgba(130,130,150,.32); border-radius: 9px; }
+  ::-webkit-scrollbar-thumb:hover { background: rgba(130,130,150,.5); }
+  ::-webkit-scrollbar-track { background: transparent; }
+  .om-noscroll { scrollbar-width: none; }
+  .om-noscroll::-webkit-scrollbar { display: none; }
+  .sc-host { min-height: 0 !important; }
+</style>
+</helmet>
+<div style="{{ themeVars }}">
+  <div style="min-height: 100vh; background: var(--studio); font-family: 'Be Vietnam Pro', system-ui, sans-serif; color: var(--text); padding: 26px 30px 40px; transition: background .3s ease;">
+
+    <div style="max-width: 1740px; margin: 0 auto 26px; display: flex; align-items: center; gap: 18px; flex-wrap: wrap;">
+      <div style="display: flex; align-items: center; gap: 14px;">
+        <div style="width: 48px; height: 48px; border-radius: 15px; background: linear-gradient(135deg, #6366f1, #8b5cf6); display: flex; align-items: center; justify-content: center; color: #fff; font-weight: 800; font-size: 23px; box-shadow: 0 10px 24px -6px rgba(99,102,241,.6);">V</div>
+        <div>
+          <div style="font-size: 21px; font-weight: 800; letter-spacing: -.02em;">VocabTOEIC — Bài 1 · OFFICES</div>
+          <div style="font-size: 13px; color: var(--muted); margin-top: 1px;">Project Aria · 27 từ · truyện chêm + bài tập Part 5·6·7 · trang tĩnh Hugo, tương tác client-side</div>
+        </div>
+      </div>
+      <div style="flex: 1;"></div>
+      <div style="display: inline-flex; padding: 4px; background: var(--surface-2); border: 1px solid var(--border); border-radius: 12px; gap: 3px;">
+        <button onClick="{{ setLight }}" style="{{ lightBtn }}">☀︎ Sáng</button>
+        <button onClick="{{ setDark }}" style="{{ darkBtn }}">☾ Tối</button>
+      </div>
+    </div>
+
+    <div style="max-width: 1740px; margin: 0 auto 30px; display: flex; align-items: center; gap: 9px; flex-wrap: wrap;">
+      <span style="font-size: 12px; font-weight: 700; color: var(--faint); text-transform: uppercase; letter-spacing: .1em; margin-right: 4px;">Màn hình</span>
+      <sc-for list="{{ chips }}" as="c" hint-placeholder-count="9">
+        <button onClick="{{ c.onClick }}" style="{{ c.style }}">{{ c.label }}</button>
+      </sc-for>
+    </div>
+
+    <div style="max-width: 1740px; margin: 0 auto; display: flex; gap: 46px; align-items: flex-start; flex-wrap: wrap; justify-content: center;">
+
+      <div style="display: flex; flex-direction: column; align-items: center; gap: 15px; flex-shrink: 0;">
+        <div style="position: relative; width: 404px; height: clamp(540px, calc(100vh - 236px), 838px); background: #0a0a0f; border-radius: 54px; padding: 13px; box-shadow: 0 50px 90px -30px rgba(24,24,52,.5), 0 0 0 2px rgba(255,255,255,.05) inset;">
+          <div style="position: absolute; top: 26px; left: 50%; transform: translateX(-50%); width: 122px; height: 32px; background: #0a0a0f; border-radius: 20px; z-index: 20;"></div>
+          <div style="width: 100%; height: 100%; border-radius: 41px; overflow: hidden; background: var(--bg); display: grid; grid-template: 1fr / 1fr;">
+            <dc-import name="AppShell" app="{{ app }}" layout="mobile" hint-size="378px,812px"></dc-import>
+          </div>
+        </div>
+        <div style="font-size: 12.5px; font-weight: 600; color: var(--muted); display: flex; align-items: center; gap: 7px;"><span style="width: 7px; height: 7px; border-radius: 50%; background: #34d399;"></span>Điện thoại · 390 × 844</div>
+      </div>
+
+      <div style="display: flex; flex-direction: column; align-items: center; gap: 15px; flex-shrink: 0;">
+        <div style="width: 1180px; max-width: calc(100vw - 72px); height: clamp(520px, calc(100vh - 236px), 812px); background: var(--bg); border-radius: 16px; overflow: hidden; box-shadow: 0 50px 90px -34px rgba(24,24,52,.42); border: 1px solid var(--border); display: flex; flex-direction: column;">
+          <div style="height: 44px; flex-shrink: 0; background: var(--surface-2); border-bottom: 1px solid var(--border); display: flex; align-items: center; padding: 0 16px; gap: 8px;">
+            <span style="width: 12px; height: 12px; border-radius: 50%; background: #ff5f57;"></span>
+            <span style="width: 12px; height: 12px; border-radius: 50%; background: #febc2e;"></span>
+            <span style="width: 12px; height: 12px; border-radius: 50%; background: #28c840;"></span>
+            <div style="flex: 1; display: flex; justify-content: center;">
+              <div style="display: flex; align-items: center; gap: 7px; background: var(--bg); border: 1px solid var(--border); border-radius: 8px; padding: 5px 16px; font-size: 12.5px; color: var(--muted); max-width: 340px;">
+                <span style="color: #34d399;">🔒</span> ndchungict.github.io
+              </div>
+            </div>
+          </div>
+          <div style="flex: 1; min-height: 0; overflow: hidden; display: grid; grid-template: 1fr / 1fr;">
+            <dc-import name="AppShell" app="{{ app }}" layout="desktop" hint-size="1180px,768px"></dc-import>
+          </div>
+        </div>
+        <div style="font-size: 12.5px; font-weight: 600; color: var(--muted); display: flex; align-items: center; gap: 7px;"><span style="width: 7px; height: 7px; border-radius: 50%; background: #60a5fa;"></span>Máy tính · 1180px</div>
+      </div>
+
+    </div>
+  </div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{&quot;$preview&quot;:{&quot;width&quot;:1400,&quot;height&quot;:900}}">
+class Component extends DCLogic {
+  state = {
+    theme: 'light',
+    screen: 'home',
+    selWord: 'agenda',
+    selStory: 'story-1',
+    readerMode: 'chem',
+    filters: { q: '', topic: 'all', level: 'all', lesson: 'all', pos: 'all' },
+    masteredIds: ['memo', 'agenda', 'forward', 'remind'],
+    favIds: ['confidential', 'consensus'],
+    readIds: [],
+    srs: {},
+    flash: { ids: [], i: 0, revealed: false, done: false, stats: { again: 0, hard: 0, good: 0, easy: 0 } },
+    ex: { answers: {}, submitted: false },
+    translationOn: false,
+    popWord: null
+  };
+
+  DATA = {
+    posLabel: { noun: 'danh từ', verb: 'động từ', adjective: 'tính từ', adverb: 'trạng từ', phrase: 'cụm từ' },
+    topicLabel: { office: 'Văn phòng & Họp', communication: 'Thư từ & Liên lạc' },
+    vocab: [
+      { word: 'board of directors', pos: 'noun', ipa: '/bɔːd əv daɪˈrektəz/', meaning: 'hội đồng quản trị', topic: 'office', lesson: ['lesson-01'], level: 750,
+        forms: { noun: 'board of directors' }, collocations: [{ en: 'sit on the board of directors', vi: 'là thành viên hội đồng quản trị' }],
+        example: { en: 'She was invited to sit on the {board of directors}.', vi: 'Cô được mời tham gia hội đồng quản trị.' } },
+      { word: 'committee', pos: 'noun', ipa: '/kəˈmɪti/', meaning: 'ủy ban', topic: 'office', lesson: ['lesson-01'], level: 600,
+        forms: { noun: 'committee' }, collocations: [{ en: 'form a committee', vi: 'thành lập một ủy ban' }],
+        example: { en: 'A {committee} was formed to review the budget.', vi: 'Một ủy ban được lập để rà soát ngân sách.' } },
+      { word: 'agenda', pos: 'noun', ipa: '/əˈdʒendə/', meaning: 'chương trình họp', topic: 'office', lesson: ['lesson-01'], level: 600,
+        forms: { noun: 'agenda' }, collocations: [{ en: 'draw up an agenda', vi: 'soạn chương trình họp' }],
+        example: { en: 'The first item on the {agenda} is the budget.', vi: 'Mục đầu tiên trong chương trình họp là ngân sách.' } },
+      { word: 'minutes', pos: 'noun', ipa: '/ˈmɪnɪts/', meaning: 'biên bản cuộc họp', topic: 'office', lesson: ['lesson-01'], level: 600,
+        forms: { noun: 'minutes' }, collocations: [{ en: 'take the minutes', vi: 'ghi biên bản' }],
+        example: { en: 'Who will take the {minutes} today?', vi: 'Hôm nay ai sẽ ghi biên bản?' }, note: 'Ở đây không mang nghĩa "phút".' },
+      { word: 'chair', pos: 'verb', ipa: '/tʃeə(r)/', meaning: 'chủ trì (cuộc họp)', topic: 'office', lesson: ['lesson-01'], level: 600,
+        forms: { verb: 'chair', noun: 'chairman' }, collocations: [{ en: 'chair a meeting', vi: 'chủ trì cuộc họp' }],
+        example: { en: 'Ms. Whitfield will {chair} the meeting.', vi: 'Bà Whitfield sẽ chủ trì cuộc họp.' } },
+      { word: 'convene', pos: 'verb', ipa: '/kənˈviːn/', meaning: 'triệu tập họp', topic: 'office', lesson: ['lesson-01'], level: 860,
+        forms: { verb: 'convene' }, collocations: [{ en: 'convene a meeting', vi: 'triệu tập cuộc họp' }],
+        example: { en: 'The board {convened} to discuss the merger.', vi: 'Hội đồng họp để bàn về việc sáp nhập.' } },
+      { word: 'adjourn', pos: 'verb', ipa: '/əˈdʒɜːn/', meaning: 'kết thúc / tạm hoãn cuộc họp', topic: 'office', lesson: ['lesson-01'], level: 860,
+        forms: { verb: 'adjourn' }, collocations: [{ en: 'adjourn the meeting', vi: 'kết thúc cuộc họp' }],
+        example: { en: 'The chairman {adjourned} the meeting until noon.', vi: 'Chủ tọa tạm hoãn cuộc họp đến trưa.' } },
+      { word: 'postpone', pos: 'verb', ipa: '/pəˈspəʊn/', meaning: 'hoãn lại', topic: 'office', lesson: ['lesson-01'], level: 600,
+        forms: { verb: 'postpone', noun: 'postponement' }, collocations: [{ en: 'postpone until next week', vi: 'hoãn đến tuần sau' }],
+        example: { en: 'They {postponed} the launch until spring.', vi: 'Họ hoãn buổi ra mắt đến mùa xuân.' } },
+      { word: 'reschedule', pos: 'verb', ipa: '/ˌriːˈʃedjuːl/', meaning: 'dời lịch', topic: 'office', lesson: ['lesson-01'], level: 600,
+        forms: { verb: 'reschedule' }, collocations: [{ en: 'reschedule for Friday', vi: 'dời sang thứ Sáu' }],
+        example: { en: 'The interview was {rescheduled} for Monday.', vi: 'Buổi phỏng vấn được dời sang thứ Hai.' } },
+      { word: 'unanimous', pos: 'adjective', ipa: '/juˈnænɪməs/', meaning: 'nhất trí hoàn toàn', topic: 'office', lesson: ['lesson-01'], level: 860,
+        forms: { adjective: 'unanimous', adverb: 'unanimously' }, collocations: [{ en: 'a unanimous decision', vi: 'một quyết định nhất trí' }],
+        example: { en: 'The vote was {unanimous}.', vi: 'Cuộc bỏ phiếu nhất trí hoàn toàn.' } },
+      { word: 'consensus', pos: 'noun', ipa: '/kənˈsensəs/', meaning: 'sự đồng thuận', topic: 'office', lesson: ['lesson-01'], level: 860,
+        forms: { noun: 'consensus' }, collocations: [{ en: 'reach a consensus', vi: 'đạt được đồng thuận' }],
+        example: { en: 'The team reached a {consensus} after an hour.', vi: 'Nhóm đạt đồng thuận sau một giờ.' } },
+      { word: 'quorum', pos: 'noun', ipa: '/ˈkwɔːrəm/', meaning: 'số đại biểu tối thiểu', topic: 'office', lesson: ['lesson-01'], level: 900,
+        forms: { noun: 'quorum' }, collocations: [{ en: 'have a quorum', vi: 'đủ số đại biểu' }],
+        example: { en: 'Without a {quorum}, no vote can be held.', vi: 'Không đủ số đại biểu thì không thể bỏ phiếu.' } },
+      { word: 'proxy', pos: 'noun', ipa: '/ˈprɒksi/', meaning: 'người / phiếu ủy quyền', topic: 'office', lesson: ['lesson-01'], level: 860,
+        forms: { noun: 'proxy' }, collocations: [{ en: 'vote by proxy', vi: 'bỏ phiếu ủy quyền' }],
+        example: { en: 'She voted by {proxy} because she was abroad.', vi: 'Cô bỏ phiếu ủy quyền vì đang ở nước ngoài.' } },
+      { word: 'correspondence', pos: 'noun', ipa: '/ˌkɒrəˈspɒndəns/', meaning: 'thư từ trao đổi', topic: 'communication', lesson: ['lesson-01'], level: 750,
+        forms: { noun: 'correspondence', verb: 'correspond' }, collocations: [{ en: 'business correspondence', vi: 'thư từ công việc' }],
+        example: { en: 'He filed all the {correspondence} carefully.', vi: 'Anh ấy lưu trữ toàn bộ thư từ cẩn thận.' } },
+      { word: 'memo', pos: 'noun', ipa: '/ˈmeməʊ/', meaning: 'thông báo nội bộ', topic: 'communication', lesson: ['lesson-01'], level: 450,
+        forms: { noun: 'memo' }, collocations: [{ en: 'circulate a memo', vi: 'gửi / luân chuyển thông báo' }],
+        example: { en: 'The manager circulated a {memo} about the policy.', vi: 'Quản lý gửi thông báo về chính sách.' }, note: 'Dạng đầy đủ: memorandum.' },
+      { word: 'attachment', pos: 'noun', ipa: '/əˈtætʃmənt/', meaning: 'tệp đính kèm', topic: 'communication', lesson: ['lesson-01'], level: 450,
+        forms: { noun: 'attachment', verb: 'attach' }, collocations: [{ en: 'see the attachment', vi: 'xem tệp đính kèm' }],
+        example: { en: 'Please see the {attachment} for details.', vi: 'Vui lòng xem tệp đính kèm để biết chi tiết.' } },
+      { word: 'enclose', pos: 'verb', ipa: '/ɪnˈkləʊz/', meaning: 'gửi kèm trong thư', topic: 'communication', lesson: ['lesson-01'], level: 750,
+        forms: { verb: 'enclose', adjective: 'enclosed' }, collocations: [{ en: 'please find enclosed…', vi: 'vui lòng xem phần đính kèm' }],
+        example: { en: 'I have {enclosed} a copy of the invoice.', vi: 'Tôi đã gửi kèm một bản sao hóa đơn.' } },
+      { word: 'forward', pos: 'verb', ipa: '/ˈfɔːwəd/', meaning: 'chuyển tiếp', topic: 'communication', lesson: ['lesson-01'], level: 450,
+        forms: { verb: 'forward' }, collocations: [{ en: 'forward the email to Sales', vi: 'chuyển email cho phòng Kinh doanh' }],
+        example: { en: 'Could you {forward} this email to Ms. Nair?', vi: 'Bạn chuyển tiếp email này cho cô Nair nhé?' } },
+      { word: 'recipient', pos: 'noun', ipa: '/rɪˈsɪpiənt/', meaning: 'người nhận', topic: 'communication', lesson: ['lesson-01'], level: 750,
+        forms: { noun: 'recipient', verb: 'receive' }, collocations: [{ en: 'the intended recipient', vi: 'người nhận dự kiến' }],
+        example: { en: 'The {recipient} of the award was announced.', vi: 'Người nhận giải thưởng đã được công bố.' } },
+      { word: 'notify', pos: 'verb', ipa: '/ˈnəʊtɪfaɪ/', meaning: 'thông báo', topic: 'communication', lesson: ['lesson-01'], level: 600,
+        forms: { verb: 'notify', noun: 'notification' }, collocations: [{ en: 'notify sb of sth', vi: 'thông báo cho ai về việc gì' }],
+        example: { en: 'Please {notify} us of any changes.', vi: 'Vui lòng thông báo cho chúng tôi mọi thay đổi.' } },
+      { word: 'remind', pos: 'verb', ipa: '/rɪˈmaɪnd/', meaning: 'nhắc nhở', topic: 'communication', lesson: ['lesson-01'], level: 450,
+        forms: { verb: 'remind', noun: 'reminder' }, collocations: [{ en: 'remind sb to do sth', vi: 'nhắc ai làm gì' }],
+        example: { en: 'Please {remind} me to call the supplier.', vi: 'Nhắc tôi gọi cho nhà cung cấp nhé.' } },
+      { word: 'inquiry', pos: 'noun', ipa: '/ɪnˈkwaɪəri/', meaning: 'lời / thư hỏi thông tin', topic: 'communication', lesson: ['lesson-01'], level: 600,
+        forms: { noun: 'inquiry', verb: 'inquire' }, collocations: [{ en: 'make an inquiry', vi: 'gửi thư / câu hỏi' }],
+        example: { en: 'We received an {inquiry} about the product.', vi: 'Chúng tôi nhận được một thư hỏi về sản phẩm.' } },
+      { word: 'confidential', pos: 'adjective', ipa: '/ˌkɒnfɪˈdenʃl/', meaning: 'bảo mật', topic: 'office', lesson: ['lesson-01'], level: 750,
+        forms: { adjective: 'confidential', noun: 'confidentiality', adverb: 'confidentially' }, collocations: [{ en: 'strictly confidential', vi: 'tuyệt mật' }],
+        example: { en: 'This report is strictly {confidential}.', vi: 'Báo cáo này là tuyệt mật.' } },
+      { word: 'extension', pos: 'noun', ipa: '/ɪkˈstenʃn/', meaning: 'số máy lẻ; sự gia hạn', topic: 'office', lesson: ['lesson-01'], level: 600,
+        forms: { noun: 'extension', verb: 'extend' }, collocations: [{ en: 'dial extension 204', vi: 'bấm số máy lẻ 204' }],
+        example: { en: 'You can reach me at {extension} 305.', vi: 'Bạn có thể gọi tôi qua số máy lẻ 305.' } },
+      { word: 'voicemail', pos: 'noun', ipa: '/ˈvɔɪsmeɪl/', meaning: 'hộp thư thoại', topic: 'communication', lesson: ['lesson-01'], level: 450,
+        forms: { noun: 'voicemail' }, collocations: [{ en: 'leave a voicemail', vi: 'để lại lời nhắn thoại' }],
+        example: { en: 'He left a {voicemail} after the meeting.', vi: 'Anh ấy để lại lời nhắn thoại sau cuộc họp.' } },
+      { word: 'put sb on hold', pos: 'phrase', ipa: '', meaning: 'cho ai giữ máy', topic: 'communication', lesson: ['lesson-01'], level: 600,
+        forms: {}, collocations: [{ en: 'put the caller on hold', vi: 'cho người gọi giữ máy' }],
+        example: { en: 'She {put the caller on hold} for a moment.', vi: 'Cô cho người gọi giữ máy một lát.' } },
+      { word: 'transfer a call', pos: 'phrase', ipa: '', meaning: 'chuyển cuộc gọi', topic: 'communication', lesson: ['lesson-01'], level: 600,
+        forms: {}, collocations: [{ en: 'transfer the call to Sales', vi: 'chuyển cuộc gọi sang Kinh doanh' }],
+        example: { en: "I'll {transfer} your call to the right department.", vi: 'Tôi sẽ chuyển cuộc gọi của bạn tới đúng bộ phận.' } }
+    ],
+    stories: [
+      { id: 'story-1', title: 'Chương 1 — Cuộc bỏ phiếu', topic: 'office', lesson: ['lesson-01'], level: 750,
+        summary: 'HĐQT Aster họp quyết định có tung dòng Aria và tiến vào thị trường Halston hay không — trong khi một lời đề nghị mua lại bất ngờ xuất hiện.',
+        newWords: ['memo', 'board of directors', 'attachment', 'enclose', 'agenda', 'confidential', 'notify', 'remind', 'voicemail', 'convene', 'chair', 'minutes', 'proxy', 'quorum', 'correspondence', 'inquiry', 'recipient', 'forward', 'postpone', 'reschedule', 'unanimous', 'consensus', 'committee', 'adjourn', 'put sb on hold', 'transfer a call', 'extension'],
+        chem: [
+          ['Bảy giờ sáng thứ Hai, tầng 12 trụ sở Aster Home Technologies ở Marlowe City. Priya Nair đến sớm nhất. Từ tuần trước, cô đã gửi một ', { w: 'memo' }, ' tới toàn bộ ', { w: 'board of directors' }, ', kèm một ', { w: 'attachment' }, ' là bản kế hoạch mật. Trong email, cô còn ', { w: 'enclose' }, ' cả ', { w: 'agenda' }, ' của buổi sáng nay, và đánh dấu mọi tài liệu là ', { w: 'confidential' }, '.'],
+          ['"Đã ', { w: 'notify' }, ' hết mọi người chưa?" Diane Whitfield hỏi khi bước vào. "Rồi ạ," Priya đáp. "Em cũng đã ', { w: 'remind' }, ' từng thành viên tối qua. Chỉ có ông Harold gọi lại — sáng nay em nghe ', { w: 'voicemail' }, ' của ông ấy, ông sẽ tới muộn mười phút."'],
+          ['Đúng 7 giờ 30, Diane ', { w: 'convene' }, ' cuộc họp. Hôm nay cô là người ', { w: 'chair' }, '. Priya ngồi cạnh, chuẩn bị ghi ', { w: 'minutes' }, '. Một thành viên đi công tác xa đã ủy quyền bỏ phiếu qua ', { w: 'proxy' }, '; nhờ vậy phòng họp vẫn đủ ', { w: 'quorum' }, ' để ra quyết định.'],
+          ['Diane không vòng vo. "Thưa hội đồng, hôm nay chỉ có một mục trong ', { w: 'agenda' }, ': chúng ta có nên tung dòng Aria và tiến vào thị trường Halston hay không."'],
+          ['Cả phòng lặng đi. Harold Vance, chủ tịch, vừa tới, tay ôm một tập ', { w: 'correspondence' }, ' dày cộp. Ông đặt xuống bàn một lá thư. "Trước khi các vị quyết, tôi phải chia sẻ một ', { w: 'inquiry' }, ' mà tôi nhận được. Neura Corporation muốn mua lại Aster. Tôi là ', { w: 'recipient' }, ' chính thức của đề nghị này." Ông ', { w: 'forward' }, ' bản sao cho Diane.'],
+          ['Cuộc tranh luận kéo dài. Có lúc Harold đề nghị ', { w: 'postpone' }, ' quyết định, thậm chí ', { w: 'reschedule' }, ' sang tháng sau. Diane lắc đầu: "Nếu cứ trì hoãn, ta sẽ lỡ mất mùa ra mắt."'],
+          ['Cuối cùng, Diane đưa vấn đề ra biểu quyết. Không phải một quyết định ', { w: 'unanimous' }, ' — Harold và một người nữa bỏ phiếu trắng — nhưng đủ để đạt ', { w: 'consensus' }, ': Aster sẽ xúc tiến Project Aria. Diane cũng đề nghị lập ngay một ', { w: 'committee' }, ' chuyên trách để giám sát dự án.'],
+          ['Cuộc họp ', { w: 'adjourn' }, ' lúc 9 giờ. Vừa ra khỏi phòng, điện thoại Priya reo — một phóng viên hỏi về tin đồn sáp nhập. Cô bình tĩnh ', { w: 'put sb on hold', label: 'put on hold' }, ' vài giây, rồi ', { w: 'transfer a call', label: 'transfer the call' }, ' sang phòng Truyền thông: "Anh bấm ', { w: 'extension' }, ' 305 nhé."']
+        ],
+        english: [
+          ['At seven o\u2019clock on Monday morning, on the twelfth floor of Aster Home Technologies in Marlowe City, Priya Nair was the first to arrive. A week earlier, she had sent a ', { w: 'memo' }, ' to the entire ', { w: 'board of directors' }, ', along with an ', { w: 'attachment' }, ' containing the confidential plan. In her email she had also ', { w: 'enclose', label: 'enclosed' }, ' the ', { w: 'agenda' }, ' and marked every document ', { w: 'confidential' }, '.'],
+          ['"Have you ', { w: 'notify', label: 'notified' }, ' everyone?" Diane Whitfield asked. "Yes," Priya replied. "I ', { w: 'remind', label: 'reminded' }, ' each member last night as well. Only Mr. Harold called back — I heard his ', { w: 'voicemail' }, ' this morning. He\u2019ll be ten minutes late."'],
+          ['At 7:30 sharp, Diane ', { w: 'convene', label: 'convened' }, ' the meeting. She would ', { w: 'chair' }, ' it herself. Priya sat beside her, ready to take the ', { w: 'minutes' }, '. One member was away and voted by ', { w: 'proxy' }, ', so the room still had a ', { w: 'quorum' }, '.'],
+          ['Diane came straight to the point. "There is only one item on the ', { w: 'agenda' }, ' today: whether we launch the Aria line and enter the Halston market."'],
+          ['The room fell silent. Harold Vance, the chairman, arrived carrying a thick stack of ', { w: 'correspondence' }, '. He placed a letter on the table. "Before you decide, I must share an ', { w: 'inquiry' }, ' I received. Neura Corporation wants to acquire Aster. I am the official ', { w: 'recipient' }, ' of the offer." He ', { w: 'forward', label: 'forwarded' }, ' a copy to Diane.'],
+          ['The debate ran long. At one point Harold proposed they ', { w: 'postpone' }, ' the decision, or even ', { w: 'reschedule' }, ' it for the following month. Diane shook her head. "If we keep delaying, we\u2019ll miss the launch season."'],
+          ['Finally, Diane put the matter to a vote. It was not a ', { w: 'unanimous' }, ' decision, but it was enough to reach a ', { w: 'consensus' }, ': Aster would move ahead with Project Aria. Diane also asked the board to form a dedicated ', { w: 'committee' }, '.'],
+          ['The meeting was ', { w: 'adjourn', label: 'adjourned' }, ' at nine. As Priya stepped out, her phone rang — a journalist asking about the merger rumor. Calmly, she ', { w: 'put sb on hold', label: 'put him on hold' }, ', then ', { w: 'transfer a call', label: 'transferred the call' }, ' to Daniel\u2019s team. "Just dial ', { w: 'extension' }, ' 305," she said.']
+        ] },
+      { id: 'story-2', title: 'Chương 2 — Thiết bị & Quy trình', topic: 'office', lesson: ['lesson-02'], level: 600,
+        summary: 'Hậu trường vận hành văn phòng khi bộ máy tăng tốc — thiết bị, nội thất và quy trình làm việc.',
+        newWords: ['agenda', 'procedure', 'memo'], coming: true, chem: [], english: [] },
+      { id: 'story-3', title: 'Cụm từ: Tài chính & Mua bán', topic: 'communication', lesson: ['lesson-03'], level: 750,
+        summary: 'Bộ cụm từ TOEIC hay gặp về tài chính, giá cả và mua bán — sắp ra mắt.',
+        newWords: ['invoice', 'reimburse'], coming: true, chem: [], english: [] }
+    ],
+    exam: {
+      parts: [
+        { id: 5, title: 'Part 5', desc: 'Incomplete Sentences · điền câu', kind: 'sentences',
+          questions: [
+            { id: 'p5q1', sentence: 'The board of directors will _____ next Tuesday to vote on the expansion plan.', options: { A: 'enclose', B: 'convene', C: 'remind', D: 'postpone' }, answer: 'B', explain: '"convene a meeting" = triệu tập họp. Các từ kia không hợp ngữ cảnh.' },
+            { id: 'p5q2', sentence: 'Because two members were absent, the committee did not have a _____ and the vote was delayed.', options: { A: 'proxy', B: 'quorum', C: 'consensus', D: 'minutes' }, answer: 'B', explain: 'Thiếu người → không đủ quorum (số đại biểu tối thiểu).' },
+            { id: 'p5q3', sentence: 'Please _____ all staff of the change in the meeting schedule.', options: { A: 'chair', B: 'enclose', C: 'notify', D: 'adjourn' }, answer: 'C', explain: '"notify sb of sth" = thông báo cho ai về việc gì.' },
+            { id: 'p5q4', sentence: 'The decision was _____; every board member voted in favor.', options: { A: 'confidential', B: 'prospective', C: 'unanimous', D: 'overdue' }, answer: 'C', explain: 'Mọi người bỏ phiếu thuận → quyết định nhất trí (unanimous).' },
+            { id: 'p5q5', sentence: 'Ms. Nair was asked to take the _____ during the board meeting.', options: { A: 'agenda', B: 'attachment', C: 'minutes', D: 'extension' }, answer: 'C', explain: '"take the minutes" = ghi biên bản. Ở đây không phải "phút".' },
+            { id: 'p5q6', sentence: 'Since she was traveling, she voted by _____.', options: { A: 'proxy', B: 'recipient', C: 'quorum', D: 'voicemail' }, answer: 'A', explain: '"vote by proxy" = bỏ phiếu ủy quyền (vì đi vắng).' },
+            { id: 'p5q7', sentence: 'Could you _____ this email to the marketing department, please?', options: { A: 'convene', B: 'forward', C: 'remind', D: 'adjourn' }, answer: 'B', explain: '"forward an email to sb" = chuyển tiếp email.' },
+            { id: 'p5q8', sentence: 'The report is strictly _____ and must not be shared outside the company.', options: { A: 'unanimous', B: 'prompt', C: 'spacious', D: 'confidential' }, answer: 'D', explain: '"strictly confidential" = tuyệt mật, không chia sẻ ra ngoài.' },
+            { id: 'p5q9', sentence: 'After three hours of discussion, the team finally reached a _____.', options: { A: 'consensus', B: 'quorum', C: 'proxy', D: 'recipient' }, answer: 'A', explain: '"reach a consensus" = đạt được đồng thuận.' },
+            { id: 'p5q10', sentence: 'The chairman decided to _____ the meeting until the following week.', options: { A: 'postpone', B: 'enclose', C: 'notify', D: 'forward' }, answer: 'A', explain: '"postpone … until" = hoãn cuộc họp tới tuần sau.' },
+            { id: 'p5q11', sentence: 'You can reach the IT department by dialing _____ 402.', options: { A: 'attachment', B: 'correspondence', C: 'extension', D: 'inquiry' }, answer: 'C', explain: '"dial extension 402" = bấm số máy lẻ 402.' },
+            { id: 'p5q12', sentence: 'I have _____ a copy of the signed contract for your records.', options: { A: 'enclosed', B: 'reminded', C: 'convened', D: 'rescheduled' }, answer: 'A', explain: '"I have enclosed a copy" = tôi đã gửi kèm một bản sao.' }
+          ] },
+        { id: 6, title: 'Part 6', desc: 'Text Completion · điền đoạn', kind: 'passages',
+          passages: [
+            { heading: 'MEMORANDUM', meta: 'To: All Department Heads · From: Priya Nair · Re: Project Aria Kickoff',
+              template: 'Following this morning\u2019s board meeting, I am writing to {13} you of an important decision. The board has approved moving forward with Project Aria. A dedicated steering {14} will be formed to oversee the project. Please review the plan; the full timeline is included as an {15} to this memo. If you have questions, do not hesitate to make an {16} with my office.',
+              questions: [
+                { id: 'p6q13', n: 13, options: { A: 'notify', B: 'enclose', C: 'adjourn', D: 'chair' }, answer: 'A', explain: '"writing to notify you of a decision" = viết để thông báo.' },
+                { id: 'p6q14', n: 14, options: { A: 'quorum', B: 'committee', C: 'proxy', D: 'recipient' }, answer: 'B', explain: '"a steering committee" = ủy ban chỉ đạo / chuyên trách.' },
+                { id: 'p6q15', n: 15, options: { A: 'agenda', B: 'attachment', C: 'extension', D: 'inquiry' }, answer: 'B', explain: 'timeline "included as an attachment" = đính kèm dưới dạng tệp.' },
+                { id: 'p6q16', n: 16, options: { A: 'inquiry', B: 'minutes', C: 'consensus', D: 'voicemail' }, answer: 'A', explain: '"make an inquiry" = đặt câu hỏi / thắc mắc với văn phòng.' }
+              ] },
+            { heading: 'EMAIL', meta: 'To: Daniel Cho · From: Reception Desk · Subject: Call from a journalist',
+              template: 'A reporter called this morning asking about the rumored merger. As instructed, I did not comment and instead {17} the call to your office. When you were unavailable, the caller left a {18}. I have {19} the message below for your reference. Please {20} me to follow up with him before Friday.',
+              questions: [
+                { id: 'p6q17', n: 17, options: { A: 'transferred', B: 'reminded', C: 'convened', D: 'postponed' }, answer: 'A', explain: '"transferred the call to your office" = chuyển cuộc gọi (thì quá khứ hợp mạch kể).' },
+                { id: 'p6q18', n: 18, options: { A: 'quorum', B: 'voicemail', C: 'proxy', D: 'consensus' }, answer: 'B', explain: '"left a voicemail" = để lại lời nhắn thoại.' },
+                { id: 'p6q19', n: 19, options: { A: 'enclosed', B: 'adjourned', C: 'chaired', D: 'notified' }, answer: 'A', explain: '"enclosed the message below" = đính kèm / để tin nhắn bên dưới.' },
+                { id: 'p6q20', n: 20, options: { A: 'remind', B: 'enclose', C: 'forward', D: 'reschedule' }, answer: 'A', explain: '"remind me to follow up" = nhắc tôi liên hệ lại (remind sb to do sth).' }
+              ] }
+          ] },
+        { id: 7, title: 'Part 7', desc: 'Reading Comprehension · đọc hiểu', kind: 'reading',
+          passages: [
+            { heading: 'NOTICE TO BOARD MEMBERS', meta: '— Priya Nair, Corporate Services',
+              body: 'Please be advised that the quarterly meeting of the board of directors, originally scheduled for March 3, has been rescheduled to March 10 at 9:00 a.m. in Conference Room A. The agenda and supporting correspondence will be circulated by memo one week in advance. As several members will attend remotely, please confirm your attendance so that we can ensure a quorum. Members who cannot attend may vote by proxy.',
+              questions: [
+                { id: 'p7q21', n: 21, prompt: 'Why was the notice sent?', options: { A: 'To announce a new product', B: 'To inform members of a schedule change', C: 'To request a payment', D: 'To advertise a job opening' }, answer: 'B', explain: 'Thông báo gửi để báo việc dời lịch họp (3/3 sang 10/3).' },
+                { id: 'p7q22', n: 22, prompt: 'What are members asked to do?', options: { A: 'Confirm their attendance', B: 'Submit a résumé', C: 'Pay a fee', D: 'Forward the memo to clients' }, answer: 'A', explain: 'Thành viên được yêu cầu xác nhận tham dự để đảm bảo đủ quorum.' },
+                { id: 'p7q23', n: 23, prompt: 'The word "circulated" is closest in meaning to', options: { A: 'canceled', B: 'distributed', C: 'postponed', D: 'enclosed' }, answer: 'B', explain: '"circulated" = được phát / gửi đi cho nhiều người ≈ distributed.' }
+              ] },
+            { heading: 'EMAIL — Confidential', meta: 'To: Diane Whitfield · From: Harold Vance · Subject: Neura proposal',
+              body: 'Diane, as I mentioned at the meeting, I am the recipient of a formal proposal from Neura Corporation regarding a possible acquisition of Aster. I have forwarded you the full document as an attachment. I understand you wish to postpone any discussion until after the product launch, and I respect that. However, I must remind you that the board will expect a clear recommendation by the end of the fiscal year. This correspondence should remain strictly confidential.',
+              questions: [
+                { id: 'p7q24', n: 24, prompt: 'What did Harold send to Diane?', options: { A: 'A résumé', B: 'A proposal from Neura', C: 'An invoice', D: 'A voicemail' }, answer: 'B', explain: 'Harold gửi Diane đề nghị của Neura (dưới dạng attachment).' },
+                { id: 'p7q25', n: 25, prompt: 'What does Harold remind Diane about?', options: { A: 'A payment deadline', B: 'A deadline for a board recommendation', C: 'A travel itinerary', D: 'A maintenance schedule' }, answer: 'B', explain: 'Harold nhắc về hạn chót đưa ra khuyến nghị cho hội đồng (cuối năm tài chính).' },
+                { id: 'p7q26', n: 26, prompt: 'What does Harold ask regarding the email?', options: { A: 'That it be forwarded to all staff', B: 'That it remain confidential', C: 'That it be posted publicly', D: 'That it be translated' }, answer: 'B', explain: 'Harold yêu cầu email này giữ bảo mật (strictly confidential).' }
+              ] }
+          ] }
+      ]
+    }
+  };
+
+  flattenExam() {
+    const out = [];
+    this.DATA.exam.parts.forEach(p => {
+      if (p.kind === 'sentences') p.questions.forEach(q => out.push(q));
+      else p.passages.forEach(ps => ps.questions.forEach(q => out.push(q)));
+    });
+    return out;
+  }
+
+  componentDidMount() {
+    try {
+      const raw = localStorage.getItem('toeic:v2');
+      if (raw) {
+        const s = JSON.parse(raw);
+        this.setState({
+          theme: s.theme || 'light', masteredIds: s.masteredIds || this.state.masteredIds,
+          favIds: s.favIds || this.state.favIds, readIds: s.readIds || [], srs: s.srs || {}
+        });
+      }
+    } catch (e) {}
+    if (!this.state.flash.ids.length) this.buildFlash();
+  }
+
+  persist() {
+    try { localStorage.setItem('toeic:v2', JSON.stringify({ theme: this.state.theme, masteredIds: this.state.masteredIds, favIds: this.state.favIds, readIds: this.state.readIds, srs: this.state.srs })); } catch (e) {}
+  }
+
+  buildFlash = () => {
+    const ids = this.DATA.vocab.map(v => v.word).sort(() => Math.random() - 0.5).slice(0, 8);
+    this.setState({ flash: { ids, i: 0, revealed: false, done: false, stats: { again: 0, hard: 0, good: 0, easy: 0 } } });
+  };
+
+  go = (screen) => {
+    if (screen === 'result' && !this.state.ex.submitted) this.seedResult();
+    else this.setState({ screen });
+  };
+  back = () => { const map = { detail: 'vocab', reader: 'stories', exercise: 'home', result: 'exercise' }; this.setState(s => ({ screen: map[s.screen] || 'home', popWord: null })); };
+  openWord = (id) => this.setState({ selWord: id, screen: 'detail', popWord: null });
+  openStory = (id) => { const st = this.DATA.stories.find(s => s.id === id); if (st && st.coming) return; this.setState({ selStory: id, screen: 'reader', readerMode: 'chem' }); this.markRead(id); };
+  setPop = (id) => this.setState({ popWord: id });
+
+  toggleIn(list, id) { return list.includes(id) ? list.filter(x => x !== id) : list.concat(id); }
+  toggleMastered = (id) => this.setState(s => ({ masteredIds: this.toggleIn(s.masteredIds, id) }), () => this.persist());
+  toggleFavorite = (id) => this.setState(s => ({ favIds: this.toggleIn(s.favIds, id) }), () => this.persist());
+  markRead = (id) => this.setState(s => ({ readIds: s.readIds.includes(id) ? s.readIds : s.readIds.concat(id) }), () => this.persist());
+
+  setFilter = (k, v) => this.setState(s => ({ filters: Object.assign({}, s.filters, { [k]: v }) }));
+  clearFilters = () => this.setState({ filters: { q: '', topic: 'all', level: 'all', lesson: 'all', pos: 'all' } });
+
+  setLight = () => this.setState({ theme: 'light' }, () => this.persist());
+  setDark = () => this.setState({ theme: 'dark' }, () => this.persist());
+  toggleTheme = () => this.setState(s => ({ theme: s.theme === 'light' ? 'dark' : 'light' }), () => this.persist());
+
+  speak = (text, lang) => {
+    try { if (!window.speechSynthesis) return; const u = new SpeechSynthesisUtterance((text || '').replace(/[{}]/g, '')); u.lang = lang || 'en-US'; u.rate = 0.9; window.speechSynthesis.cancel(); window.speechSynthesis.speak(u); } catch (e) {}
+  };
+
+  flashReveal = () => this.setState(s => ({ flash: Object.assign({}, s.flash, { revealed: true }) }));
+  flashRate = (q) => this.setState(s => {
+    const f = s.flash, id = f.ids[f.i], box = (s.srs[id] && s.srs[id].box) || 0;
+    const nb = q === 'again' ? 0 : q === 'hard' ? Math.max(1, box) : q === 'good' ? box + 1 : box + 2;
+    const srs = Object.assign({}, s.srs, { [id]: { box: nb, seen: ((s.srs[id] && s.srs[id].seen) || 0) + 1 } });
+    let mastered = s.masteredIds;
+    if ((q === 'good' || q === 'easy') && nb >= 3 && !mastered.includes(id)) mastered = mastered.concat(id);
+    const stats = Object.assign({}, f.stats); stats[q] = (stats[q] || 0) + 1;
+    const ni = f.i + 1;
+    return { srs, masteredIds: mastered, flash: Object.assign({}, f, { i: ni, revealed: false, done: ni >= f.ids.length, stats }) };
+  }, () => this.persist());
+  flashRestart = () => this.buildFlash();
+
+  examPick = (qid, k) => this.setState(s => s.ex.submitted ? null : ({ ex: Object.assign({}, s.ex, { answers: Object.assign({}, s.ex.answers, { [qid]: k }) }) }));
+  examSubmit = () => this.setState(s => ({ ex: Object.assign({}, s.ex, { submitted: true }), screen: 'result' }));
+  examReset = () => this.setState({ ex: { answers: {}, submitted: false }, screen: 'exercise' });
+  seedResult = () => { const ans = {}; this.flattenExam().forEach((q, i) => { const opts = Object.keys(q.options); ans[q.id] = (i % 5 === 3) ? opts.find(o => o !== q.answer) : q.answer; }); this.setState({ ex: { answers: ans, submitted: true }, screen: 'result' }); };
+
+  setReaderMode = (m) => this.setState({ readerMode: m });
+  toggleTranslation = () => this.setState(s => ({ translationOn: !s.translationOn }));
+
+  renderVals() {
+    const st = this.state, D = this.DATA;
+    const mastered = new Set(st.masteredIds), fav = new Set(st.favIds), read = new Set(st.readIds);
+    const f = st.filters;
+    const filtered = D.vocab.filter(v => {
+      if (f.q && !(v.word.toLowerCase().includes(f.q.toLowerCase()) || v.meaning.toLowerCase().includes(f.q.toLowerCase()))) return false;
+      if (f.topic !== 'all' && v.topic !== f.topic) return false;
+      if (f.level !== 'all' && String(v.level) !== String(f.level)) return false;
+      if (f.lesson !== 'all' && !v.lesson.includes(f.lesson)) return false;
+      if (f.pos !== 'all' && v.pos !== f.pos) return false;
+      return true;
+    });
+    const lessons = Array.from(new Set(D.vocab.flatMap(v => v.lesson))).sort();
+    const topics = Array.from(new Set(D.vocab.map(v => v.topic)));
+    const poss = Array.from(new Set(D.vocab.map(v => v.pos)));
+
+    const flash = st.flash;
+    const flashCard = D.vocab.find(v => v.word === flash.ids[flash.i]) || null;
+    const flatQ = this.flattenExam();
+    let exScore = 0; flatQ.forEach(q => { if (st.ex.answers[q.id] === q.answer) exScore++; });
+
+    const byLevel = [450, 600, 750, 860, 900].map(l => { const words = D.vocab.filter(v => v.level === l); return { level: l, total: words.length, done: words.filter(v => mastered.has(v.word)).length }; });
+    const byTopic = topics.map(t => { const words = D.vocab.filter(v => v.topic === t); return { topic: t, label: D.topicLabel[t], total: words.length, done: words.filter(v => mastered.has(v.word)).length }; });
+    const series = [{ d: 'T2', v: 3 }, { d: 'T3', v: 5 }, { d: 'T4', v: 2 }, { d: 'T5', v: 6 }, { d: 'T6', v: 4 }, { d: 'T7', v: 7 }, { d: 'CN', v: Math.max(2, mastered.size) }];
+
+    const app = {
+      theme: st.theme, screen: st.screen, posLabel: D.posLabel, topicLabel: D.topicLabel,
+      vocab: D.vocab, filtered, filters: f, lessons, topics, poss, levels: [450, 600, 750, 860, 900],
+      selectedWord: D.vocab.find(v => v.word === st.selWord) || D.vocab[0],
+      stories: D.stories, selectedStory: D.stories.find(s => s.id === st.selStory) || D.stories[0],
+      readerMode: st.readerMode, exam: D.exam, exAnswers: st.ex.answers, exSubmitted: st.ex.submitted,
+      mastered, fav, read,
+      popWord: st.popWord ? D.vocab.find(v => v.word === st.popWord) : null,
+      translationOn: st.translationOn,
+      stats: { masteredCount: mastered.size, total: D.vocab.length, favCount: fav.size, streak: 5, todayGoal: 12, todayDone: Math.min(12, 4 + flash.stats.good + flash.stats.easy), pct: Math.round(mastered.size / D.vocab.length * 100) },
+      flash: { card: flashCard, i: flash.i, total: flash.ids.length, revealed: flash.revealed, done: flash.done, stats: flash.stats },
+      ex: { total: flatQ.length, answeredCount: Object.keys(st.ex.answers).length, score: exScore, submitted: st.ex.submitted },
+      dash: { byLevel, byTopic, series },
+      go: this.go, back: this.back, openWord: this.openWord, openStory: this.openStory, setPop: this.setPop,
+      toggleMastered: this.toggleMastered, toggleFavorite: this.toggleFavorite,
+      isMastered: (id) => mastered.has(id), isFav: (id) => fav.has(id), isRead: (id) => read.has(id),
+      setFilter: this.setFilter, clearFilters: this.clearFilters, speak: this.speak, toggleTheme: this.toggleTheme,
+      flashReveal: this.flashReveal, flashRate: this.flashRate, flashRestart: this.flashRestart,
+      examPick: this.examPick, examSubmit: this.examSubmit, examReset: this.examReset,
+      setReaderMode: this.setReaderMode, toggleTranslation: this.toggleTranslation
+    };
+
+    const chipList = [['home', 'Trang chủ'], ['vocab', 'Từ vựng'], ['detail', 'Chi tiết từ'], ['flashcard', 'Flashcard'], ['stories', 'Truyện chêm'], ['reader', 'Trình đọc'], ['exercise', 'Bài tập'], ['result', 'Kết quả'], ['progress', 'Tiến độ']];
+    const chips = chipList.map(([k, label]) => ({
+      label, onClick: () => this.go(k),
+      style: { padding: '8px 15px', borderRadius: '10px', fontSize: '13.5px', fontWeight: 600, cursor: 'pointer', border: '1px solid ' + (st.screen === k ? 'transparent' : 'var(--border)'), background: st.screen === k ? 'var(--primary)' : 'var(--surface)', color: st.screen === k ? '#fff' : 'var(--muted)', fontFamily: "'Be Vietnam Pro', sans-serif", boxShadow: st.screen === k ? '0 6px 16px -6px var(--ring)' : 'none', transition: 'all .15s ease' }
+    }));
+    const seg = (on) => ({ padding: '7px 15px', borderRadius: '9px', fontSize: '13px', fontWeight: 600, cursor: 'pointer', border: 'none', background: on ? 'var(--surface)' : 'transparent', color: on ? 'var(--text)' : 'var(--muted)', boxShadow: on ? '0 2px 8px -3px rgba(0,0,0,.2)' : 'none', fontFamily: "'Be Vietnam Pro', sans-serif" });
+
+    const L = { '--studio': '#e8eaf3', '--bg': '#f6f7fb', '--surface': '#ffffff', '--surface-2': '#eef0f6', '--elev': '#ffffff', '--border': '#e6e8f0', '--border-strong': '#d5d8e4', '--text': '#1a1d27', '--muted': '#6b7186', '--faint': '#9aa0b2', '--primary': '#5b52e8', '--primary-soft': '#eceafe', '--ring': 'rgba(91,82,232,.4)' };
+    const Dk = { '--studio': '#080910', '--bg': '#0f1118', '--surface': '#171a24', '--surface-2': '#1c2029', '--elev': '#1f232f', '--border': '#282d3a', '--border-strong': '#39404f', '--text': '#e9ebf4', '--muted': '#98a0b4', '--faint': '#6b7386', '--primary': '#8b83ff', '--primary-soft': 'rgba(139,131,255,.16)', '--ring': 'rgba(139,131,255,.45)' };
+
+    return { app, chips, themeVars: st.theme === 'dark' ? Dk : L, setLight: this.setLight, setDark: this.setDark, lightBtn: seg(st.theme === 'light'), darkBtn: seg(st.theme === 'dark') };
+  }
+}
+</script>
+</body>
+</html>

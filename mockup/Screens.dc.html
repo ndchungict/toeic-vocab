@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<div style="position:relative;min-height:100%;">
+
+<sc-if value="{{ isHome }}" hint-placeholder-val="{{ true }}">
+<div style="padding:18px 18px 40px;max-width:1060px;margin:0 auto;display:flex;flex-direction:column;gap:16px;">
+  <div style="background:linear-gradient(135deg,var(--primary),#8b5cf6);border-radius:20px;padding:22px 22px 20px;color:#fff;box-shadow:0 18px 36px -16px var(--ring);">
+    <div style="font-size:14px;opacity:.9;font-weight:600;">Chào bạn,</div>
+    <div style="font-size:23px;font-weight:800;letter-spacing:-.02em;margin-top:2px;">Sẵn sàng học từ mới?</div>
+    <div style="margin-top:16px;display:flex;align-items:center;justify-content:space-between;font-size:13px;font-weight:600;"><span>Mục tiêu hôm nay</span><span>{{ home.goalDone }}/{{ home.goalTotal }} từ</span></div>
+    <div style="margin-top:7px;height:9px;border-radius:9px;background:rgba(255,255,255,.28);overflow:hidden;"><div style="{{ home.goalBar }}"></div></div>
+    <div style="display:flex;gap:10px;margin-top:18px;">
+      <button onClick="{{ home.onFlash }}" style="flex:1;padding:12px;border-radius:13px;border:none;background:#fff;color:var(--primary);font-weight:700;font-size:14px;cursor:pointer;font-family:'Be Vietnam Pro',sans-serif;">Học flashcard</button>
+      <button onClick="{{ home.onExercise }}" style="flex:1;padding:12px;border-radius:13px;border:1.5px solid rgba(255,255,255,.55);background:rgba(255,255,255,.14);color:#fff;font-weight:700;font-size:14px;cursor:pointer;font-family:'Be Vietnam Pro',sans-serif;">Làm bài tập</button>
+    </div>
+  </div>
+  <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:12px;">
+    <div style="background:var(--surface);border:1px solid var(--border);border-radius:16px;padding:16px;"><div style="font-size:12.5px;color:var(--muted);font-weight:600;">Đã thuộc</div><div style="font-size:26px;font-weight:800;margin-top:3px;">{{ home.masteredCount }}<span style="font-size:15px;color:var(--faint);font-weight:600;">/{{ home.total }}</span></div></div>
+    <div style="background:var(--surface);border:1px solid var(--border);border-radius:16px;padding:16px;"><div style="font-size:12.5px;color:var(--muted);font-weight:600;">Tiến độ</div><div style="font-size:26px;font-weight:800;margin-top:3px;color:var(--primary);">{{ home.masteryPct }}</div></div>
+    <div style="background:var(--surface);border:1px solid var(--border);border-radius:16px;padding:16px;"><div style="font-size:12.5px;color:var(--muted);font-weight:600;">Chuỗi streak</div><div style="font-size:26px;font-weight:800;margin-top:3px;">{{ home.streak }} <span style="font-size:15px;">🔥</span></div></div>
+  </div>
+  <div style="font-size:13px;font-weight:700;color:var(--faint);text-transform:uppercase;letter-spacing:.08em;margin-top:4px;">Bài học hiện tại</div>
+  <div onClick="{{ home.onStory }}" style="background:var(--surface);border:1px solid var(--border);border-radius:16px;padding:16px;cursor:pointer;display:flex;align-items:center;gap:14px;" style-hover="border-color:var(--border-strong)">
+    <div style="width:46px;height:46px;border-radius:13px;background:var(--primary-soft);color:var(--primary);display:flex;align-items:center;justify-content:center;flex-shrink:0;"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M12 6.6C10.4 5.1 7.8 4.6 4 4.9V19c3.8-.3 6.4.2 8 1.6 1.6-1.4 4.2-1.9 8-1.6V4.9c-3.8-.3-6.4.2-8 1.7z"/><path d="M12 6.6V20.6"/></svg></div>
+    <div style="flex:1;min-width:0;"><div style="font-size:12px;color:var(--primary);font-weight:700;">Bài 1 · OFFICES</div><div style="font-size:16px;font-weight:800;margin-top:1px;">{{ home.storyTitle }}</div><div style="font-size:12.5px;color:var(--muted);">{{ home.storyWords }} từ mới · truyện chêm</div></div>
+    <span style="color:var(--faint);flex-shrink:0;"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 5 7 7-7 7"/></svg></span>
+  </div>
+  <div style="font-size:13px;font-weight:700;color:var(--faint);text-transform:uppercase;letter-spacing:.08em;margin-top:4px;">Khám phá</div>
+  <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;">
+    <button onClick="{{ home.onVocab }}" style="text-align:left;background:var(--surface);border:1px solid var(--border);border-radius:16px;padding:16px;cursor:pointer;display:flex;flex-direction:column;gap:8px;font-family:'Be Vietnam Pro',sans-serif;" style-hover="border-color:var(--border-strong);transform:translateY(-2px)"><span style="width:40px;height:40px;border-radius:12px;background:var(--primary-soft);color:var(--primary);display:flex;align-items:center;justify-content:center;"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M5 4.5h11a1.5 1.5 0 0 1 1.5 1.5v13H6.5A1.5 1.5 0 0 0 5 20.5z"/><path d="M5 20.5A1.5 1.5 0 0 0 6.5 22h11"/></svg></span><span style="font-size:15.5px;font-weight:800;color:var(--text);">Từ vựng</span><span style="font-size:12.5px;color:var(--muted);">{{ home.total }} từ chủ đề Offices</span></button>
+    <button onClick="{{ home.onStories }}" style="text-align:left;background:var(--surface);border:1px solid var(--border);border-radius:16px;padding:16px;cursor:pointer;display:flex;flex-direction:column;gap:8px;font-family:'Be Vietnam Pro',sans-serif;" style-hover="border-color:var(--border-strong);transform:translateY(-2px)"><span style="width:40px;height:40px;border-radius:12px;background:var(--primary-soft);color:var(--primary);display:flex;align-items:center;justify-content:center;"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M12 6.6C10.4 5.1 7.8 4.6 4 4.9V19c3.8-.3 6.4.2 8 1.6 1.6-1.4 4.2-1.9 8-1.6V4.9c-3.8-.3-6.4.2-8 1.7z"/><path d="M12 6.6V20.6"/></svg></span><span style="font-size:15.5px;font-weight:800;color:var(--text);">Truyện chêm</span><span style="font-size:12.5px;color:var(--muted);">Học từ qua ngữ cảnh</span></button>
+    <button onClick="{{ home.onExercise }}" style="text-align:left;background:var(--surface);border:1px solid var(--border);border-radius:16px;padding:16px;cursor:pointer;display:flex;flex-direction:column;gap:8px;font-family:'Be Vietnam Pro',sans-serif;" style-hover="border-color:var(--border-strong);transform:translateY(-2px)"><span style="width:40px;height:40px;border-radius:12px;background:var(--primary-soft);color:var(--primary);display:flex;align-items:center;justify-content:center;"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="4" width="16" height="16" rx="3"/><path d="m8.4 12.2 2.4 2.4 4.8-5"/></svg></span><span style="font-size:15.5px;font-weight:800;color:var(--text);">Bài tập</span><span style="font-size:12.5px;color:var(--muted);">Part 5 · 6 · 7</span></button>
+  </div>
+</div>
+</sc-if>
+
+<sc-if value="{{ isVocab }}" hint-placeholder-val="{{ false }}">
+<div style="padding:18px 18px 40px;max-width:1060px;margin:0 auto;display:flex;flex-direction:column;gap:14px;">
+  <div style="position:relative;">
+    <span style="position:absolute;left:14px;top:50%;transform:translateY(-50%);color:var(--faint);display:flex;"><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.4-3.4"/></svg></span>
+    <input value="{{ searchQ }}" onChange="{{ onSearch }}" placeholder="Tìm từ hoặc nghĩa…" style="width:100%;padding:13px 14px 13px 42px;border-radius:13px;border:1px solid var(--border);background:var(--surface);color:var(--text);font-size:15px;font-family:'Be Vietnam Pro',sans-serif;outline:none;" />
+  </div>
+  <sc-for list="{{ filterGroups }}" as="g" hint-placeholder-count="4">
+    <div style="display:flex;flex-direction:column;gap:7px;"><div style="font-size:12px;font-weight:700;color:var(--faint);">{{ g.label }}</div><div style="display:flex;gap:7px;flex-wrap:wrap;"><sc-for list="{{ g.pills }}" as="pl" hint-placeholder-count="4"><button onClick="{{ pl.onClick }}" style="{{ pl.style }}">{{ pl.lab }}</button></sc-for></div></div>
+  </sc-for>
+  <div style="display:flex;align-items:center;justify-content:space-between;margin-top:2px;"><span style="font-size:13px;color:var(--muted);font-weight:600;">{{ resultCount }} từ</span><button onClick="{{ app.clearFilters }}" style="font-size:12.5px;color:var(--primary);background:none;border:none;cursor:pointer;font-weight:600;font-family:'Be Vietnam Pro',sans-serif;">Xoá bộ lọc</button></div>
+  <sc-if value="{{ noResults }}" hint-placeholder-val="{{ false }}"><div style="text-align:center;padding:40px 20px;color:var(--muted);">Không tìm thấy từ phù hợp.</div></sc-if>
+  <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(228px,1fr));gap:12px;">
+    <sc-for list="{{ cards }}" as="c" hint-placeholder-count="6">
+      <div onClick="{{ c.onOpen }}" style="background:var(--surface);border:1px solid var(--border);border-radius:16px;padding:15px;cursor:pointer;display:flex;flex-direction:column;gap:9px;" style-hover="border-color:var(--border-strong);transform:translateY(-2px)">
+        <div style="display:flex;align-items:flex-start;justify-content:space-between;gap:8px;"><div style="min-width:0;"><div style="font-size:18px;font-weight:800;letter-spacing:-.01em;">{{ c.word }}</div><div style="font-size:12.5px;color:var(--faint);margin-top:1px;">{{ c.pos }}</div></div><button onClick="{{ c.onFav }}" style="{{ c.heartStyle }}"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20S3.5 15 3.5 9.2C3.5 6.4 5.6 4.5 8 4.5c1.8 0 3.2 1 4 2.3.8-1.3 2.2-2.3 4-2.3 2.4 0 4.5 1.9 4.5 4.7C20.5 15 12 20 12 20z"/></svg></button></div>
+        <div style="display:flex;align-items:center;gap:8px;"><span style="font-size:13px;color:var(--muted);">{{ c.ipa }}</span><button onClick="{{ c.onSpeak }}" style="width:26px;height:26px;border-radius:8px;border:none;background:var(--surface-2);color:var(--primary);cursor:pointer;display:flex;align-items:center;justify-content:center;flex-shrink:0;"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M11 5 6.5 9H3v6h3.5L11 19z"/><path d="M15.5 8.5a5 5 0 0 1 0 7"/></svg></button></div>
+        <div style="font-size:14.5px;color:var(--text);font-weight:500;">{{ c.meaning }}</div>
+        <div style="display:flex;align-items:center;justify-content:space-between;gap:8px;margin-top:2px;"><span style="{{ c.badgeStyle }}">{{ c.levelLabel }}</span><button onClick="{{ c.onMaster }}" style="{{ c.masterStyle }}"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12.5 4.2 4.2L19 7"/></svg>{{ c.masterLabel }}</button></div>
+      </div>
+    </sc-for>
+  </div>
+</div>
+</sc-if>
+
+<sc-if value="{{ isDetail }}" hint-placeholder-val="{{ false }}">
+<div style="padding:18px 18px 40px;max-width:1000px;margin:0 auto;display:flex;flex-direction:column;gap:14px;">
+  <div style="background:var(--surface);border:1px solid var(--border);border-radius:18px;padding:20px;">
+    <div style="display:flex;align-items:center;gap:10px;flex-wrap:wrap;"><span style="font-size:30px;font-weight:800;letter-spacing:-.02em;">{{ detail.word }}</span><span style="{{ detail.badgeStyle }}">{{ detail.levelLabel }}</span></div>
+    <div style="font-size:14px;color:var(--muted);margin-top:4px;">{{ detail.pos }}</div>
+    <sc-if value="{{ detail.hasIpa }}" hint-placeholder-val="{{ true }}"><div style="display:flex;align-items:center;gap:10px;margin-top:8px;"><span style="font-size:16px;color:var(--muted);">{{ detail.ipa }}</span><button onClick="{{ detail.onSpeak }}" style="display:inline-flex;align-items:center;gap:6px;padding:7px 13px;border-radius:10px;border:none;background:var(--primary-soft);color:var(--primary);cursor:pointer;font-size:13px;font-weight:700;font-family:'Be Vietnam Pro',sans-serif;"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M11 5 6.5 9H3v6h3.5L11 19z"/><path d="M15.5 8.5a5 5 0 0 1 0 7"/></svg>Nghe</button></div></sc-if>
+    <div style="font-size:17px;font-weight:600;margin-top:14px;">{{ detail.meaning }}</div>
+    <div style="display:flex;gap:10px;margin-top:16px;flex-wrap:wrap;"><button onClick="{{ detail.onMaster }}" style="{{ detail.masterStyle }}"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12.5 4.2 4.2L19 7"/></svg>{{ detail.masterLabel }}</button><button onClick="{{ detail.onFav }}" style="{{ detail.favStyle }}"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20S3.5 15 3.5 9.2C3.5 6.4 5.6 4.5 8 4.5c1.8 0 3.2 1 4 2.3.8-1.3 2.2-2.3 4-2.3 2.4 0 4.5 1.9 4.5 4.7C20.5 15 12 20 12 20z"/></svg>{{ detail.favLabel }}</button></div>
+  </div>
+  <div style="display:flex;gap:14px;flex-wrap:wrap;">
+    <sc-if value="{{ detail.hasForms }}" hint-placeholder-val="{{ true }}"><div style="flex:1;min-width:250px;background:var(--surface);border:1px solid var(--border);border-radius:16px;padding:18px;"><div style="font-size:12px;font-weight:800;text-transform:uppercase;letter-spacing:.06em;color:var(--faint);margin-bottom:8px;">Họ từ</div><sc-for list="{{ detail.forms }}" as="fm" hint-placeholder-count="3"><div style="display:flex;align-items:center;gap:10px;padding:9px 0;border-bottom:1px solid var(--border);"><span style="min-width:76px;font-size:12.5px;color:var(--muted);font-weight:600;">{{ fm.label }}</span><span style="flex:1;font-size:15px;font-weight:600;">{{ fm.value }}</span><button onClick="{{ fm.onSpeak }}" style="width:28px;height:28px;border-radius:8px;border:none;background:var(--surface-2);color:var(--primary);cursor:pointer;display:flex;align-items:center;justify-content:center;flex-shrink:0;"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M11 5 6.5 9H3v6h3.5L11 19z"/><path d="M15.5 8.5a5 5 0 0 1 0 7"/></svg></button></div></sc-for></div></sc-if>
+    <div style="flex:1;min-width:250px;background:var(--surface);border:1px solid var(--border);border-radius:16px;padding:18px;"><div style="font-size:12px;font-weight:800;text-transform:uppercase;letter-spacing:.06em;color:var(--faint);margin-bottom:8px;">Cụm từ thường gặp</div><sc-for list="{{ detail.collocations }}" as="co" hint-placeholder-count="2"><div style="padding:10px 0;border-bottom:1px solid var(--border);"><div style="display:flex;align-items:center;gap:8px;"><span style="font-size:14.5px;font-weight:700;flex:1;">{{ co.en }}</span><button onClick="{{ co.onSpeak }}" style="width:26px;height:26px;border-radius:7px;border:none;background:var(--surface-2);color:var(--primary);cursor:pointer;display:flex;align-items:center;justify-content:center;flex-shrink:0;"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M11 5 6.5 9H3v6h3.5L11 19z"/><path d="M15.5 8.5a5 5 0 0 1 0 7"/></svg></button></div><div style="font-size:13px;color:var(--muted);margin-top:2px;">{{ co.vi }}</div></div></sc-for></div>
+  </div>
+  <div style="background:var(--surface);border:1px solid var(--border);border-radius:16px;padding:18px;"><div style="display:flex;align-items:center;justify-content:space-between;"><div style="font-size:12px;font-weight:800;text-transform:uppercase;letter-spacing:.06em;color:var(--faint);">Câu ví dụ</div><button onClick="{{ detail.onSpeakEx }}" style="width:28px;height:28px;border-radius:8px;border:none;background:var(--surface-2);color:var(--primary);cursor:pointer;display:flex;align-items:center;justify-content:center;"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M11 5 6.5 9H3v6h3.5L11 19z"/><path d="M15.5 8.5a5 5 0 0 1 0 7"/></svg></button></div><div style="font-size:16px;line-height:1.6;margin-top:8px;"><sc-for list="{{ detail.exParts }}" as="ep"><sc-if value="{{ ep.isText }}"><span>{{ ep.s }}</span></sc-if><sc-if value="{{ ep.isHl }}"><span style="background:var(--primary-soft);color:var(--primary);font-weight:700;padding:1px 6px;border-radius:6px;">{{ ep.s }}</span></sc-if></sc-for></div><div style="font-size:14px;color:var(--muted);margin-top:8px;font-style:italic;">{{ detail.exVi }}</div></div>
+  <sc-if value="{{ detail.hasNote }}" hint-placeholder-val="{{ false }}"><div style="background:var(--surface-2);border:1px solid var(--border);border-radius:14px;padding:14px 16px;display:flex;gap:10px;"><span style="color:var(--primary);font-weight:800;flex-shrink:0;font-size:13.5px;">Ghi chú</span><span style="font-size:14px;color:var(--text);">{{ detail.note }}</span></div></sc-if>
+  <sc-if value="{{ detail.hasRelated }}" hint-placeholder-val="{{ false }}"><div><div style="font-size:12px;font-weight:800;text-transform:uppercase;letter-spacing:.06em;color:var(--faint);margin-bottom:8px;">Xuất hiện trong truyện</div><div style="display:flex;gap:10px;flex-wrap:wrap;"><sc-for list="{{ detail.related }}" as="rs"><button onClick="{{ rs.onOpen }}" style="display:flex;align-items:center;gap:10px;padding:12px 15px;border-radius:13px;border:1px solid var(--border);background:var(--surface);cursor:pointer;font-family:'Be Vietnam Pro',sans-serif;text-align:left;" style-hover="border-color:var(--border-strong)"><span style="color:var(--primary);display:flex;flex-shrink:0;"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M12 6.6C10.4 5.1 7.8 4.6 4 4.9V19c3.8-.3 6.4.2 8 1.6 1.6-1.4 4.2-1.9 8-1.6V4.9c-3.8-.3-6.4.2-8 1.7z"/><path d="M12 6.6V20.6"/></svg></span><span><span style="display:block;font-size:14px;font-weight:700;color:var(--text);">{{ rs.title }}</span><span style="font-size:12px;color:var(--muted);">{{ rs.count }} từ mới</span></span></button></sc-for></div></div></sc-if>
+</div>
+</sc-if>
+
+<sc-if value="{{ isFlash }}" hint-placeholder-val="{{ false }}">
+<div style="padding:18px;max-width:640px;margin:0 auto;display:flex;flex-direction:column;gap:16px;min-height:100%;">
+  <sc-if value="{{ flash.active }}" hint-placeholder-val="{{ true }}">
+    <div style="display:flex;align-items:center;gap:12px;"><div style="flex:1;height:8px;border-radius:8px;background:var(--surface-2);overflow:hidden;"><div style="{{ flash.progBar }}"></div></div><span style="font-size:13px;font-weight:700;color:var(--muted);">{{ flash.num }}/{{ flash.total }}</span></div>
+    <div onClick="{{ flash.onCardClick }}" style="perspective:1400px;height:360px;cursor:pointer;"><div style="{{ flash.flipStyle }}">
+      <div style="position:absolute;inset:0;backface-visibility:hidden;-webkit-backface-visibility:hidden;background:var(--surface);border:1px solid var(--border);border-radius:22px;padding:24px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:14px;box-shadow:0 20px 40px -22px rgba(0,0,0,.3);"><span style="{{ flash.card.badgeStyle }}">{{ flash.card.levelLabel }}</span><div style="font-size:32px;font-weight:800;letter-spacing:-.02em;text-align:center;">{{ flash.card.word }}</div><div style="font-size:16px;color:var(--muted);">{{ flash.card.ipa }}</div><button onClick="{{ flash.onSpeak }}" style="display:inline-flex;align-items:center;gap:6px;padding:9px 16px;border-radius:11px;border:none;background:var(--primary-soft);color:var(--primary);cursor:pointer;font-size:14px;font-weight:700;font-family:'Be Vietnam Pro',sans-serif;"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M11 5 6.5 9H3v6h3.5L11 19z"/><path d="M15.5 8.5a5 5 0 0 1 0 7"/></svg>Nghe</button><div style="position:absolute;bottom:18px;font-size:12.5px;color:var(--faint);">Chạm để xem nghĩa</div></div>
+      <div style="position:absolute;inset:0;backface-visibility:hidden;-webkit-backface-visibility:hidden;transform:rotateY(180deg);background:var(--surface);border:1px solid var(--border);border-radius:22px;padding:24px;display:flex;flex-direction:column;justify-content:center;gap:10px;box-shadow:0 20px 40px -22px rgba(0,0,0,.3);"><div style="font-size:12px;color:var(--faint);font-weight:800;text-transform:uppercase;letter-spacing:.06em;">Nghĩa</div><div style="font-size:23px;font-weight:800;">{{ flash.card.meaning }}</div><div style="font-size:14px;line-height:1.55;color:var(--text);margin-top:4px;"><sc-for list="{{ flash.card.exParts }}" as="ep"><sc-if value="{{ ep.isText }}"><span>{{ ep.s }}</span></sc-if><sc-if value="{{ ep.isHl }}"><span style="color:var(--primary);font-weight:700;">{{ ep.s }}</span></sc-if></sc-for></div><div style="font-size:13px;color:var(--muted);font-style:italic;">{{ flash.card.exVi }}</div></div>
+    </div></div>
+    <sc-if value="{{ flash.notRevealed }}" hint-placeholder-val="{{ true }}"><button onClick="{{ flash.onReveal }}" style="padding:14px;border-radius:14px;border:none;background:var(--primary);color:#fff;font-weight:700;font-size:15px;cursor:pointer;font-family:'Be Vietnam Pro',sans-serif;">Xem nghĩa</button></sc-if>
+    <sc-if value="{{ flash.revealed }}" hint-placeholder-val="{{ false }}"><div><div style="text-align:center;font-size:12.5px;color:var(--faint);margin-bottom:8px;">Bạn nhớ từ này thế nào?</div><div style="display:flex;gap:8px;"><sc-for list="{{ flash.rate }}" as="r" hint-placeholder-count="4"><button onClick="{{ r.onClick }}" style="{{ r.style }}">{{ r.lab }}</button></sc-for></div></div></sc-if>
+  </sc-if>
+  <sc-if value="{{ flash.done }}" hint-placeholder-val="{{ false }}"><div style="background:var(--surface);border:1px solid var(--border);border-radius:20px;padding:30px 24px;text-align:center;display:flex;flex-direction:column;align-items:center;gap:14px;margin-top:30px;"><div style="width:64px;height:64px;border-radius:20px;background:var(--primary-soft);color:var(--primary);display:flex;align-items:center;justify-content:center;"><svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M7 4h10v3a5 5 0 0 1-10 0z"/><path d="M7 5H4v1a3 3 0 0 0 3 3M17 5h3v1a3 3 0 0 1-3 3"/><path d="M12 12v4M9 20h6M10 20v-2h4v2"/></svg></div><div style="font-size:22px;font-weight:800;">Hoàn thành phiên học!</div><div style="font-size:14px;color:var(--muted);">Bạn đã ôn {{ flash.total }} thẻ. Tuyệt vời!</div><button onClick="{{ flash.onRestart }}" style="padding:12px 22px;border-radius:13px;border:none;background:var(--primary);color:#fff;font-weight:700;font-size:14.5px;cursor:pointer;font-family:'Be Vietnam Pro',sans-serif;">Học phiên mới</button></div></sc-if>
+</div>
+</sc-if>
+
+<sc-if value="{{ isStories }}" hint-placeholder-val="{{ false }}">
+<div style="padding:18px;max-width:1000px;margin:0 auto;display:flex;flex-direction:column;gap:14px;">
+  <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:14px;">
+    <sc-for list="{{ storyCards }}" as="s" hint-placeholder-count="3"><div onClick="{{ s.onOpen }}" style="{{ s.cardStyle }}"><div style="display:flex;align-items:center;justify-content:space-between;gap:8px;"><span style="{{ s.badgeStyle }}">{{ s.levelLabel }}</span><span style="{{ s.statusStyle }}">{{ s.statusLabel }}</span></div><div style="font-size:18px;font-weight:800;">{{ s.title }}</div><div style="font-size:13.5px;color:var(--muted);line-height:1.5;">{{ s.summary }}</div><div style="display:flex;align-items:center;gap:6px;font-size:12.5px;color:var(--primary);font-weight:700;margin-top:2px;">{{ s.count }} từ mới · {{ s.topic }}</div></div></sc-for>
+  </div>
+</div>
+</sc-if>
+
+<sc-if value="{{ isReader }}" hint-placeholder-val="{{ false }}">
+<div style="padding:18px;max-width:1000px;margin:0 auto;display:flex;flex-direction:column;gap:14px;">
+  <div style="display:flex;align-items:center;gap:10px;flex-wrap:wrap;justify-content:space-between;">
+    <div style="display:inline-flex;padding:4px;background:var(--surface-2);border:1px solid var(--border);border-radius:11px;gap:3px;"><sc-for list="{{ reader.modes }}" as="m" hint-placeholder-count="2"><button onClick="{{ m.onClick }}" style="{{ m.style }}">{{ m.lab }}</button></sc-for></div>
+    <sc-if value="{{ reader.isChem }}" hint-placeholder-val="{{ true }}"><button onClick="{{ reader.onToggleTr }}" style="{{ reader.trStyle }}">{{ reader.trLabel }}</button></sc-if>
+  </div>
+  <div style="font-size:13.5px;color:var(--muted);line-height:1.5;">{{ reader.summary }}</div>
+  <div style="display:flex;gap:16px;flex-wrap:wrap;">
+    <div style="flex:2;min-width:300px;background:var(--surface);border:1px solid var(--border);border-radius:18px;padding:22px;">
+      <sc-for list="{{ reader.paragraphs }}" as="para" hint-placeholder-count="4"><p style="font-size:16.5px;line-height:1.95;margin:0 0 16px;color:var(--text);"><sc-for list="{{ para }}" as="part" hint-placeholder-count="6"><sc-if value="{{ part.isText }}"><span>{{ part.s }}</span></sc-if><sc-if value="{{ part.isChip }}"><span onClick="{{ part.onTap }}" style="{{ part.chipStyle }}">{{ part.display }}</span></sc-if><sc-if value="{{ part.isGloss }}"><span style="color:var(--muted);font-size:13.5px;"> ({{ part.gloss }})</span></sc-if></sc-for></p></sc-for>
+    </div>
+    <div style="flex:1;min-width:240px;">
+      <div style="font-size:12px;font-weight:800;text-transform:uppercase;letter-spacing:.06em;color:var(--faint);margin-bottom:10px;">Từ mới ({{ reader.newCount }})</div>
+      <div style="display:flex;flex-direction:column;gap:9px;"><sc-for list="{{ reader.newWords }}" as="nw" hint-placeholder-count="6"><div style="background:var(--surface);border:1px solid var(--border);border-radius:13px;padding:12px;"><div style="display:flex;align-items:center;justify-content:space-between;gap:6px;"><span onClick="{{ nw.onTap }}" style="font-size:15px;font-weight:800;cursor:pointer;">{{ nw.word }}</span><span style="{{ nw.badgeStyle }}">{{ nw.levelLabel }}</span></div><div style="font-size:13px;color:var(--muted);margin-top:3px;">{{ nw.sub }}</div><button onClick="{{ nw.onSpeak }}" style="margin-top:7px;display:inline-flex;align-items:center;gap:5px;font-size:12px;color:var(--primary);background:none;border:none;cursor:pointer;font-weight:700;font-family:'Be Vietnam Pro',sans-serif;padding:0;"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M11 5 6.5 9H3v6h3.5L11 19z"/><path d="M15.5 8.5a5 5 0 0 1 0 7"/></svg>Nghe</button></div></sc-for></div>
+    </div>
+  </div>
+</div>
+</sc-if>
+
+<sc-if value="{{ isExercise }}" hint-placeholder-val="{{ false }}">
+<div style="padding:14px 16px 40px;max-width:820px;margin:0 auto;display:flex;flex-direction:column;gap:16px;">
+  <div style="position:sticky;top:0;z-index:10;background:var(--bg);padding:6px 0 10px;display:flex;align-items:center;gap:12px;">
+    <div style="flex:1;height:8px;border-radius:8px;background:var(--surface-2);overflow:hidden;"><div style="{{ ex.progBar }}"></div></div>
+    <span style="font-size:13px;font-weight:700;color:var(--muted);white-space:nowrap;">Đã trả lời {{ ex.answeredCount }}/{{ ex.total }}</span>
+  </div>
+  <sc-for list="{{ ex.parts }}" as="p" hint-placeholder-count="3">
+    <div style="display:flex;align-items:baseline;gap:10px;margin-top:6px;"><span style="background:var(--primary);color:#fff;font-size:13px;font-weight:800;padding:4px 12px;border-radius:9px;">{{ p.title }}</span><span style="font-size:13px;color:var(--muted);font-weight:600;">{{ p.desc }}</span></div>
+    <sc-if value="{{ p.isSentences }}" hint-placeholder-val="{{ true }}"><sc-for list="{{ p.questions }}" as="q" hint-placeholder-count="4"><div style="background:var(--surface);border:1px solid var(--border);border-radius:16px;padding:18px;"><div style="display:flex;align-items:baseline;gap:8px;font-size:16px;line-height:1.65;font-weight:500;"><span style="color:var(--faint);font-weight:800;font-size:13px;flex-shrink:0;">{{ q.num }}.</span><span><span>{{ q.before }}</span><span style="{{ q.blankStyle }}">{{ q.blank }}</span><span>{{ q.after }}</span></span></div><div style="display:grid;grid-template-columns:1fr 1fr;gap:9px;margin-top:14px;"><sc-for list="{{ q.opts }}" as="o" hint-placeholder-count="4"><button onClick="{{ o.onClick }}" style="{{ o.style }}"><span style="{{ o.keyStyle }}">{{ o.k }}</span><span>{{ o.text }}</span></button></sc-for></div></div></sc-for></sc-if>
+    <sc-if value="{{ p.isPassages }}" hint-placeholder-val="{{ false }}"><sc-for list="{{ p.passages }}" as="ps" hint-placeholder-count="2"><div style="background:var(--surface);border:1px solid var(--border);border-radius:16px;padding:18px;"><div style="border-left:3px solid var(--primary);padding:2px 0 2px 14px;margin-bottom:16px;"><div style="font-size:13px;font-weight:800;letter-spacing:.04em;">{{ ps.heading }}</div><div style="font-size:12px;color:var(--faint);margin-top:2px;">{{ ps.meta }}</div><div style="font-size:15px;line-height:1.85;color:var(--text);margin-top:10px;"><sc-for list="{{ ps.segments }}" as="sg"><sc-if value="{{ sg.isText }}"><span>{{ sg.s }}</span></sc-if><sc-if value="{{ sg.isBlank }}"><span style="{{ sg.style }}">{{ sg.label }}</span></sc-if></sc-for></div></div><div style="display:flex;flex-direction:column;gap:12px;"><sc-for list="{{ ps.questions }}" as="q" hint-placeholder-count="4"><div><div style="font-size:13px;font-weight:700;color:var(--muted);margin-bottom:7px;">Câu {{ q.num }}</div><div style="display:flex;gap:8px;flex-wrap:wrap;"><sc-for list="{{ q.opts }}" as="o" hint-placeholder-count="4"><button onClick="{{ o.onClick }}" style="{{ o.style }}"><span style="{{ o.keyStyle }}">{{ o.k }}</span><span>{{ o.text }}</span></button></sc-for></div></div></sc-for></div></div></sc-for></sc-if>
+    <sc-if value="{{ p.isReading }}" hint-placeholder-val="{{ false }}"><sc-for list="{{ p.passages }}" as="ps" hint-placeholder-count="2"><div style="background:var(--surface);border:1px solid var(--border);border-radius:16px;padding:18px;"><div style="background:var(--surface-2);border-radius:12px;padding:15px 16px;margin-bottom:16px;"><div style="font-size:13px;font-weight:800;letter-spacing:.04em;">{{ ps.heading }}</div><div style="font-size:12px;color:var(--faint);margin-top:2px;">{{ ps.meta }}</div><div style="font-size:14.5px;line-height:1.75;color:var(--text);margin-top:10px;">{{ ps.body }}</div></div><div style="display:flex;flex-direction:column;gap:16px;"><sc-for list="{{ ps.questions }}" as="q" hint-placeholder-count="3"><div><div style="font-size:15px;font-weight:600;margin-bottom:9px;"><span style="color:var(--faint);font-weight:800;">{{ q.num }}.</span> {{ q.prompt }}</div><div style="display:flex;flex-direction:column;gap:8px;"><sc-for list="{{ q.opts }}" as="o" hint-placeholder-count="4"><button onClick="{{ o.onClick }}" style="{{ o.style }}"><span style="{{ o.keyStyle }}">{{ o.k }}</span><span>{{ o.text }}</span></button></sc-for></div></div></sc-for></div></div></sc-for></sc-if>
+  </sc-for>
+  <button onClick="{{ ex.onSubmit }}" style="padding:15px;border-radius:14px;border:none;background:#16a34a;color:#fff;cursor:pointer;font-weight:800;font-size:15.5px;font-family:'Be Vietnam Pro',sans-serif;margin-top:8px;box-shadow:0 10px 24px -10px rgba(22,163,74,.6);">Nộp bài · chấm điểm ({{ ex.answeredCount }}/{{ ex.total }})</button>
+</div>
+</sc-if>
+
+<sc-if value="{{ isResult }}" hint-placeholder-val="{{ false }}">
+<div style="padding:16px 16px 40px;max-width:820px;margin:0 auto;display:flex;flex-direction:column;gap:16px;">
+  <div style="background:linear-gradient(135deg,var(--primary),#8b5cf6);border-radius:20px;padding:24px;color:#fff;text-align:center;"><div style="font-size:14px;opacity:.9;font-weight:600;">Kết quả của bạn</div><div style="font-size:44px;font-weight:800;margin-top:4px;">{{ result.score }}/{{ result.total }}</div><div style="font-size:15px;opacity:.92;">Đúng {{ result.pct }}%</div><div style="display:flex;justify-content:center;gap:18px;margin-top:14px;flex-wrap:wrap;"><sc-for list="{{ result.partScores }}" as="pscore"><div style="text-align:center;"><div style="font-size:12px;opacity:.85;">{{ pscore.title }}</div><div style="font-size:17px;font-weight:800;">{{ pscore.line }}</div></div></sc-for></div></div>
+  <sc-for list="{{ result.groups }}" as="grp" hint-placeholder-count="3">
+    <div style="font-size:13px;font-weight:800;color:var(--faint);text-transform:uppercase;letter-spacing:.06em;margin-top:4px;">{{ grp.title }}</div>
+    <sc-for list="{{ grp.items }}" as="it" hint-placeholder-count="4"><div style="background:var(--surface);border:1px solid var(--border);border-radius:16px;padding:16px;"><div style="display:flex;align-items:center;justify-content:space-between;gap:10px;margin-bottom:9px;"><span style="font-size:13px;font-weight:700;color:var(--muted);">{{ it.label }}</span><span style="{{ it.statusStyle }}">{{ it.statusLabel }}</span></div><sc-if value="{{ it.hasSentence }}" hint-placeholder-val="{{ true }}"><div style="font-size:14.5px;line-height:1.6;margin-bottom:11px;"><span>{{ it.before }}</span><span style="color:var(--faint);">____</span><span>{{ it.after }}</span></div></sc-if><sc-if value="{{ it.hasPrompt }}" hint-placeholder-val="{{ false }}"><div style="font-size:14.5px;font-weight:600;margin-bottom:11px;">{{ it.prompt }}</div></sc-if><div style="display:flex;flex-direction:column;gap:7px;"><sc-for list="{{ it.opts }}" as="o"><div style="{{ o.style }}"><span style="font-weight:800;min-width:16px;">{{ o.k }}</span><span style="flex:1;">{{ o.text }}</span><sc-if value="{{ o.mark }}"><span style="font-size:12px;font-weight:700;">{{ o.markLabel }}</span></sc-if></div></sc-for></div><div style="margin-top:12px;font-size:13.5px;color:var(--muted);background:var(--surface-2);border-radius:11px;padding:11px 13px;line-height:1.55;"><b style="color:var(--text);">Giải thích:</b> {{ it.explain }}</div></div></sc-for>
+  </sc-for>
+  <div style="display:flex;gap:10px;"><button onClick="{{ result.onRestart }}" style="flex:1;padding:13px;border-radius:13px;border:none;background:var(--primary);color:#fff;font-weight:700;font-size:14.5px;cursor:pointer;font-family:'Be Vietnam Pro',sans-serif;">Làm lại</button><button onClick="{{ result.onHome }}" style="flex:1;padding:13px;border-radius:13px;border:1px solid var(--border);background:var(--surface);color:var(--text);font-weight:700;font-size:14.5px;cursor:pointer;font-family:'Be Vietnam Pro',sans-serif;">Về trang chủ</button></div>
+</div>
+</sc-if>
+
+<sc-if value="{{ isProgress }}" hint-placeholder-val="{{ false }}">
+<div style="padding:18px;max-width:1000px;margin:0 auto;display:flex;flex-direction:column;gap:16px;">
+  <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;">
+    <div style="background:var(--surface);border:1px solid var(--border);border-radius:16px;padding:16px;"><div style="font-size:12.5px;color:var(--muted);font-weight:600;">Đã thuộc</div><div style="font-size:26px;font-weight:800;margin-top:3px;">{{ dash.masteredCount }}<span style="font-size:14px;color:var(--faint);">/{{ dash.total }}</span></div></div>
+    <div style="background:var(--surface);border:1px solid var(--border);border-radius:16px;padding:16px;"><div style="font-size:12.5px;color:var(--muted);font-weight:600;">Tiến độ</div><div style="font-size:26px;font-weight:800;margin-top:3px;color:var(--primary);">{{ dash.pct }}%</div></div>
+    <div style="background:var(--surface);border:1px solid var(--border);border-radius:16px;padding:16px;"><div style="font-size:12.5px;color:var(--muted);font-weight:600;">Streak</div><div style="font-size:26px;font-weight:800;margin-top:3px;">{{ dash.streak }} 🔥</div></div>
+    <div style="background:var(--surface);border:1px solid var(--border);border-radius:16px;padding:16px;"><div style="font-size:12.5px;color:var(--muted);font-weight:600;">Đã ôn thẻ</div><div style="font-size:26px;font-weight:800;margin-top:3px;">{{ dash.studied }}</div></div>
+  </div>
+  <div style="background:var(--surface);border:1px solid var(--border);border-radius:18px;padding:20px;"><div style="font-size:12px;font-weight:800;text-transform:uppercase;letter-spacing:.06em;color:var(--faint);">7 ngày gần đây</div><div style="display:flex;align-items:flex-end;gap:10px;height:150px;margin-top:16px;"><sc-for list="{{ dash.series }}" as="d" hint-placeholder-count="7"><div style="flex:1;display:flex;flex-direction:column;align-items:center;gap:8px;height:100%;justify-content:flex-end;"><div style="{{ d.barStyle }}"></div><span style="font-size:11.5px;color:var(--muted);font-weight:600;">{{ d.d }}</span></div></sc-for></div></div>
+  <div style="background:var(--surface);border:1px solid var(--border);border-radius:18px;padding:20px;"><div style="font-size:12px;font-weight:800;text-transform:uppercase;letter-spacing:.06em;color:var(--faint);margin-bottom:14px;">Phân bố theo mốc điểm</div><sc-for list="{{ dash.byLevel }}" as="l" hint-placeholder-count="5"><div style="display:flex;align-items:center;gap:12px;margin-bottom:12px;"><span style="{{ l.badgeStyle }}">{{ l.levelLabel }}</span><div style="flex:1;height:9px;border-radius:9px;background:var(--surface-2);overflow:hidden;"><div style="{{ l.barStyle }}"></div></div><span style="font-size:12.5px;color:var(--muted);font-weight:700;min-width:38px;text-align:right;">{{ l.done }}/{{ l.total }}</span></div></sc-for></div>
+  <div style="background:var(--surface);border:1px solid var(--border);border-radius:18px;padding:20px;"><div style="font-size:12px;font-weight:800;text-transform:uppercase;letter-spacing:.06em;color:var(--faint);margin-bottom:14px;">Phân bố theo chủ đề</div><div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:14px;"><sc-for list="{{ dash.byTopic }}" as="t" hint-placeholder-count="2"><div><div style="display:flex;justify-content:space-between;font-size:13px;font-weight:600;margin-bottom:6px;"><span>{{ t.label }}</span><span style="color:var(--muted);">{{ t.done }}/{{ t.total }}</span></div><div style="height:8px;border-radius:8px;background:var(--surface-2);overflow:hidden;"><div style="{{ t.barStyle }}"></div></div></div></sc-for></div></div>
+</div>
+</sc-if>
+
+<sc-if value="{{ hasPop }}" hint-placeholder-val="{{ false }}">
+<div onClick="{{ pop.onClose }}" style="position:absolute;inset:0;background:rgba(10,10,20,.5);display:flex;align-items:center;justify-content:center;z-index:50;padding:16px;">
+  <div onClick="{{ pop.stop }}" style="width:100%;max-width:420px;background:var(--surface);border:1px solid var(--border);border-radius:20px;padding:22px;box-shadow:0 30px 60px -20px rgba(0,0,0,.5);">
+    <div style="display:flex;align-items:flex-start;justify-content:space-between;gap:10px;"><div><div style="display:flex;align-items:center;gap:9px;"><span style="font-size:22px;font-weight:800;">{{ pop.word }}</span><span style="{{ pop.badgeStyle }}">{{ pop.levelLabel }}</span></div><div style="font-size:14px;color:var(--muted);margin-top:3px;">{{ pop.sub }}</div></div><button onClick="{{ pop.onClose }}" style="width:34px;height:34px;border-radius:10px;border:none;background:var(--surface-2);color:var(--muted);cursor:pointer;font-size:15px;flex-shrink:0;">✕</button></div>
+    <div style="font-size:17px;font-weight:600;margin-top:14px;">{{ pop.meaning }}</div>
+    <div style="display:flex;gap:10px;margin-top:18px;"><button onClick="{{ pop.onSpeak }}" style="flex:1;padding:11px;border-radius:12px;border:none;background:var(--primary-soft);color:var(--primary);font-weight:700;cursor:pointer;font-size:14px;font-family:'Be Vietnam Pro',sans-serif;">Nghe phát âm</button><button onClick="{{ pop.onDetail }}" style="flex:1;padding:11px;border-radius:12px;border:none;background:var(--primary);color:#fff;font-weight:700;cursor:pointer;font-size:14px;font-family:'Be Vietnam Pro',sans-serif;">Xem chi tiết</button></div>
+  </div>
+</div>
+</sc-if>
+
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{&quot;$preview&quot;:{&quot;width&quot;:378,&quot;height&quot;:640},&quot;app&quot;:{&quot;editor&quot;:null,&quot;tsType&quot;:&quot;any&quot;},&quot;layout&quot;:{&quot;editor&quot;:&quot;enum&quot;,&quot;options&quot;:[&quot;mobile&quot;,&quot;desktop&quot;],&quot;default&quot;:&quot;mobile&quot;,&quot;tsType&quot;:&quot;string&quot;}}">
+class Component extends DCLogic {
+  LC = {
+    light: { 450: { fg: '#15a34a', bg: '#e7f7ed' }, 600: { fg: '#0d9488', bg: '#def5f2' }, 750: { fg: '#2f6bed', bg: '#e7effd' }, 860: { fg: '#7c3aed', bg: '#f0e9fe' }, 900: { fg: '#e11d48', bg: '#fde7ec' } },
+    dark: { 450: { fg: '#5be08a', bg: 'rgba(34,197,94,.15)' }, 600: { fg: '#2dd4bf', bg: 'rgba(13,148,136,.16)' }, 750: { fg: '#8aa6ff', bg: 'rgba(59,110,240,.18)' }, 860: { fg: '#c4a2ff', bg: 'rgba(139,92,246,.18)' }, 900: { fg: '#fb7185', bg: 'rgba(244,63,94,.15)' } }
+  };
+  lc(level) { const t = (this.props.app && this.props.app.theme) || 'light'; return (this.LC[t] || this.LC.light)[level] || { fg: 'var(--muted)', bg: 'var(--surface-2)' }; }
+  badge(level, fs) { const c = this.lc(level); return { color: c.fg, background: c.bg, fontSize: fs || '11.5px', fontWeight: 700, padding: '3px 9px', borderRadius: '7px', whiteSpace: 'nowrap' }; }
+  parseEx(en) {
+    const parts = [], re = /\{([^}]+)\}/g; let last = 0, m;
+    while ((m = re.exec(en))) { if (m.index > last) parts.push({ isText: true, isHl: false, s: en.slice(last, m.index) }); parts.push({ isText: false, isHl: true, s: m[1] }); last = m.index + m[0].length; }
+    if (last < en.length) parts.push({ isText: true, isHl: false, s: en.slice(last) });
+    return parts;
+  }
+  FF = "'Be Vietnam Pro', sans-serif";
+
+  renderVals() {
+    const app = this.props.app;
+    if (!app || !app.vocab) return { isHome: true };
+    const scr = app.screen, FF = this.FF;
+    const mFg = app.theme === 'dark' ? '#4ade80' : '#15a34a';
+    const vocabBy = {}; app.vocab.forEach(v => vocabBy[v.word] = v);
+
+    const home = {
+      goalDone: app.stats.todayDone, goalTotal: app.stats.todayGoal,
+      goalBar: { height: '100%', width: Math.round(app.stats.todayDone / app.stats.todayGoal * 100) + '%', background: '#fff', borderRadius: '9px', transition: 'width .4s' },
+      masteredCount: app.stats.masteredCount, total: app.stats.total, masteryPct: app.stats.pct + '%', streak: app.stats.streak,
+      storyTitle: app.stories[0].title, storyWords: app.stories[0].newWords.length,
+      onFlash: () => app.go('flashcard'), onExercise: () => app.go('exercise'), onVocab: () => app.go('vocab'), onStories: () => app.go('stories'), onStory: () => app.openStory(app.stories[0].id)
+    };
+
+    const cards = app.filtered.map(v => {
+      const fav = app.isFav(v.word), mas = app.isMastered(v.word);
+      return {
+        word: v.word, ipa: v.ipa || app.posLabel[v.pos], meaning: v.meaning, pos: app.posLabel[v.pos], levelLabel: 'TOEIC ' + v.level, badgeStyle: this.badge(v.level),
+        onOpen: () => app.openWord(v.word),
+        onFav: (e) => { if (e && e.stopPropagation) e.stopPropagation(); app.toggleFavorite(v.word); },
+        onMaster: (e) => { if (e && e.stopPropagation) e.stopPropagation(); app.toggleMastered(v.word); },
+        onSpeak: (e) => { if (e && e.stopPropagation) e.stopPropagation(); app.speak(v.word); },
+        heartStyle: { width: '34px', height: '34px', flexShrink: 0, borderRadius: '10px', border: 'none', cursor: 'pointer', display: 'flex', alignItems: 'center', justifyContent: 'center', background: fav ? 'rgba(244,63,94,.13)' : 'var(--surface-2)', color: fav ? '#f43f5e' : 'var(--faint)' },
+        masterLabel: mas ? 'Đã thuộc' : 'Đánh dấu',
+        masterStyle: { display: 'inline-flex', alignItems: 'center', gap: '5px', padding: '5px 11px', borderRadius: '8px', cursor: 'pointer', fontSize: '12px', fontWeight: 700, fontFamily: FF, border: '1px solid ' + (mas ? 'rgba(34,197,94,.3)' : 'var(--border)'), background: mas ? 'rgba(34,197,94,.13)' : 'var(--surface-2)', color: mas ? mFg : 'var(--muted)' }
+      };
+    });
+    const dims = [
+      { key: 'topic', label: 'Chủ đề', opts: [['all', 'Tất cả']].concat(app.topics.map(t => [t, app.topicLabel[t]])) },
+      { key: 'level', label: 'Mốc điểm', level: true, opts: [['all', 'Tất cả']].concat(app.levels.map(l => [String(l), 'TOEIC ' + l])) },
+      { key: 'pos', label: 'Loại từ', opts: [['all', 'Tất cả']].concat(app.poss.map(p => [p, app.posLabel[p]])) },
+      { key: 'lesson', label: 'Bài học', opts: [['all', 'Tất cả']].concat(app.lessons.map(l => [l, 'Lesson ' + l.split('-')[1]])) }
+    ];
+    const filterGroups = dims.map(d => ({
+      label: d.label,
+      pills: d.opts.map(([v, lab]) => {
+        const active = String(app.filters[d.key]) === String(v);
+        const base = { padding: '6px 12px', borderRadius: '999px', fontSize: '12.5px', fontWeight: 600, cursor: 'pointer', whiteSpace: 'nowrap', fontFamily: FF, border: '1px solid var(--border)', background: 'var(--surface)', color: 'var(--muted)' };
+        let style = base;
+        if (active) { const bg = d.level && v !== 'all' ? this.lc(Number(v)).fg : 'var(--primary)'; style = Object.assign({}, base, { border: '1px solid transparent', background: bg, color: '#fff' }); }
+        return { lab, onClick: () => app.setFilter(d.key, v), style };
+      })
+    }));
+
+    const w = app.selectedWord;
+    const dfav = app.isFav(w.word), dmas = app.isMastered(w.word);
+    const formKeys = Object.keys(w.forms || {});
+    const detail = {
+      word: w.word, ipa: w.ipa, hasIpa: !!w.ipa, pos: app.posLabel[w.pos], meaning: w.meaning, note: w.note, hasNote: !!w.note,
+      levelLabel: 'TOEIC ' + w.level, badgeStyle: this.badge(w.level, '12.5px'),
+      onSpeak: () => app.speak(w.word), onSpeakEx: () => app.speak(w.example.en), onFav: () => app.toggleFavorite(w.word), onMaster: () => app.toggleMastered(w.word),
+      masterLabel: dmas ? 'Đã thuộc' : 'Đánh dấu đã thuộc', favLabel: dfav ? 'Đã lưu' : 'Yêu thích',
+      masterStyle: { display: 'inline-flex', alignItems: 'center', gap: '7px', padding: '10px 16px', borderRadius: '12px', cursor: 'pointer', fontSize: '13.5px', fontWeight: 700, fontFamily: FF, border: 'none', background: dmas ? 'rgba(34,197,94,.15)' : 'var(--primary)', color: dmas ? mFg : '#fff' },
+      favStyle: { display: 'inline-flex', alignItems: 'center', gap: '7px', padding: '10px 16px', borderRadius: '12px', cursor: 'pointer', fontSize: '13.5px', fontWeight: 700, fontFamily: FF, border: '1px solid ' + (dfav ? 'rgba(244,63,94,.35)' : 'var(--border)'), background: dfav ? 'rgba(244,63,94,.12)' : 'var(--surface)', color: dfav ? '#f43f5e' : 'var(--muted)' },
+      hasForms: formKeys.length > 0,
+      forms: formKeys.map(k => ({ label: app.posLabel[k] || k, value: w.forms[k], onSpeak: () => app.speak(w.forms[k]) })),
+      collocations: w.collocations.map(c => ({ en: c.en, vi: c.vi, onSpeak: () => app.speak(c.en) })),
+      exParts: this.parseEx(w.example.en), exVi: w.example.vi,
+      hasRelated: app.stories.some(s => (s.newWords || []).includes(w.word) && !s.coming),
+      related: app.stories.filter(s => (s.newWords || []).includes(w.word) && !s.coming).map(s => ({ title: s.title, count: (s.newWords || []).length, onOpen: () => app.openStory(s.id) }))
+    };
+
+    const f = app.flash, fc = f.card;
+    const flash = {
+      done: f.done, active: !f.done && !!fc, revealed: f.revealed, notRevealed: !f.revealed,
+      num: f.i + 1, total: f.total, progBar: { height: '100%', width: (f.total ? Math.round(f.i / f.total * 100) : 0) + '%', background: 'var(--primary)', borderRadius: '8px', transition: 'width .3s' },
+      card: fc ? { word: fc.word, ipa: fc.ipa || app.posLabel[fc.pos], meaning: fc.meaning, levelLabel: 'TOEIC ' + fc.level, badgeStyle: this.badge(fc.level, '12px'), exParts: this.parseEx(fc.example.en), exVi: fc.example.vi } : { badgeStyle: {}, exParts: [] },
+      flipStyle: { position: 'relative', width: '100%', height: '100%', transition: 'transform .55s cubic-bezier(.4,0,.2,1)', transformStyle: 'preserve-3d', transform: f.revealed ? 'rotateY(180deg)' : 'rotateY(0deg)' },
+      onReveal: app.flashReveal, onCardClick: f.revealed ? () => {} : app.flashReveal, onRestart: app.flashRestart, onSpeak: fc ? () => app.speak(fc.word) : () => {},
+      rate: [['again', 'Chưa nhớ', '#e11d48'], ['hard', 'Khó', '#d97706'], ['good', 'Được', '#2563eb'], ['easy', 'Dễ', '#16a34a']].map(([q, lab, fg]) => ({ lab, onClick: () => app.flashRate(q), style: { flex: 1, padding: '12px 4px', borderRadius: '12px', border: '1.6px solid ' + fg, background: 'transparent', color: fg, fontWeight: 700, fontSize: '13px', cursor: 'pointer', fontFamily: FF } }))
+    };
+
+    const storyCards = app.stories.map(s => {
+      const read = app.isRead(s.id);
+      const ss = s.coming ? { color: 'var(--faint)', background: 'var(--surface-2)' } : read ? { color: mFg, background: 'rgba(34,197,94,.14)' } : { color: 'var(--primary)', background: 'var(--primary-soft)' };
+      return {
+        title: s.title, summary: s.summary, count: (s.newWords || []).length, levelLabel: 'TOEIC ' + s.level, badgeStyle: this.badge(s.level), topic: app.topicLabel[s.topic],
+        onOpen: () => { if (!s.coming) app.openStory(s.id); },
+        cardStyle: { background: 'var(--surface)', border: '1px solid var(--border)', borderRadius: '18px', padding: '18px', cursor: s.coming ? 'default' : 'pointer', display: 'flex', flexDirection: 'column', gap: '10px', opacity: s.coming ? 0.62 : 1 },
+        statusLabel: s.coming ? 'Sắp có' : read ? 'Đã đọc' : 'Chưa đọc',
+        statusStyle: Object.assign({ padding: '3px 10px', borderRadius: '7px', fontSize: '11.5px', fontWeight: 700, whiteSpace: 'nowrap' }, ss)
+      };
+    });
+
+    const sto = app.selectedStory, mode = app.readerMode || 'chem', isChem = mode === 'chem';
+    const src = isChem ? (sto.chem || []) : (sto.english || []);
+    const reader = {
+      summary: sto.summary, isChem,
+      modes: [['chem', 'Truyện chêm'], ['english', 'Bản tiếng Anh']].map(([m, lab]) => ({ lab, onClick: () => app.setReaderMode(m), style: { padding: '7px 15px', borderRadius: '9px', fontSize: '13px', fontWeight: 600, cursor: 'pointer', border: 'none', background: mode === m ? 'var(--surface)' : 'transparent', color: mode === m ? 'var(--text)' : 'var(--muted)', boxShadow: mode === m ? '0 2px 8px -3px rgba(0,0,0,.2)' : 'none', fontFamily: FF } })),
+      onToggleTr: app.toggleTranslation, trLabel: app.translationOn ? 'Ẩn nghĩa' : 'Hiện nghĩa',
+      trStyle: { padding: '8px 14px', borderRadius: '11px', cursor: 'pointer', fontSize: '13px', fontWeight: 700, fontFamily: FF, border: '1px solid ' + (app.translationOn ? 'transparent' : 'var(--border)'), background: app.translationOn ? 'var(--primary)' : 'var(--surface)', color: app.translationOn ? '#fff' : 'var(--muted)' },
+      paragraphs: src.map(par => {
+        const out = [];
+        par.forEach(tok => {
+          if (typeof tok === 'string') { out.push({ isText: true, isChip: false, isGloss: false, s: tok }); return; }
+          const v = vocabBy[tok.w] || {};
+          out.push({ isText: false, isChip: true, isGloss: false, display: tok.label || tok.w, onTap: () => app.setPop(tok.w), chipStyle: { background: 'var(--primary-soft)', color: 'var(--primary)', padding: '1px 6px', borderRadius: '6px', cursor: 'pointer', fontWeight: 700 } });
+          if (isChem && app.translationOn) out.push({ isText: false, isChip: false, isGloss: true, gloss: v.meaning });
+        });
+        return out;
+      }),
+      newCount: (sto.newWords || []).length,
+      newWords: (sto.newWords || []).map(id => { const v = vocabBy[id] || {}; return { word: v.word, sub: (v.ipa ? v.ipa + ' · ' : '') + v.meaning, levelLabel: 'TOEIC ' + v.level, badgeStyle: this.badge(v.level, '10.5px'), onTap: () => app.setPop(id), onSpeak: () => app.speak(v.word) }; })
+    };
+
+    // EXAM
+    const mkOpt = (qid, key, text, sel, compact) => ({
+      k: key, text, onClick: () => app.examPick(qid, key),
+      style: { display: 'flex', alignItems: 'center', gap: compact ? '7px' : '11px', textAlign: 'left', padding: compact ? '8px 12px' : '13px 15px', borderRadius: compact ? '10px' : '12px', cursor: 'pointer', border: '1.6px solid ' + (sel === key ? 'var(--primary)' : 'var(--border)'), background: sel === key ? 'var(--primary-soft)' : 'var(--surface)', color: 'var(--text)', fontSize: compact ? '13.5px' : '15px', fontWeight: 600, fontFamily: FF },
+      keyStyle: { width: compact ? '24px' : '28px', height: compact ? '24px' : '28px', borderRadius: '7px', display: 'flex', alignItems: 'center', justifyContent: 'center', fontWeight: 800, fontSize: compact ? '12px' : '13.5px', flexShrink: 0, background: sel === key ? 'var(--primary)' : 'var(--surface-2)', color: sel === key ? '#fff' : 'var(--muted)' }
+    });
+    const A = app.exAnswers;
+    const parts = app.exam.parts.map(p => {
+      const base = { title: p.title, desc: p.desc, isSentences: p.kind === 'sentences', isPassages: p.kind === 'passages', isReading: p.kind === 'reading' };
+      if (p.kind === 'sentences') {
+        base.questions = p.questions.map((q, i) => {
+          const sp = q.sentence.split('_____'), sel = A[q.id];
+          return { num: i + 1, before: sp[0], after: sp[1] || '', blank: sel ? q.options[sel] : '?', blankStyle: { display: 'inline-block', minWidth: '64px', textAlign: 'center', borderBottom: '2.5px solid var(--primary)', color: 'var(--primary)', fontWeight: 800, padding: '0 6px' }, opts: Object.keys(q.options).map(k => mkOpt(q.id, k, q.options[k], sel, false)) };
+        });
+      } else {
+        base.passages = p.passages.map(ps => {
+          const pass = { heading: ps.heading, meta: ps.meta };
+          if (p.kind === 'passages') {
+            const segs = []; const re = /\{(\d+)\}/g; let last = 0, m;
+            while ((m = re.exec(ps.template))) {
+              if (m.index > last) segs.push({ isText: true, isBlank: false, s: ps.template.slice(last, m.index) });
+              const n = m[1], q = ps.questions.find(x => String(x.n) === n), sel = q ? A[q.id] : null;
+              segs.push({ isText: false, isBlank: true, label: sel ? q.options[sel] : '(' + n + ')', style: { display: 'inline-block', minWidth: '58px', textAlign: 'center', padding: '0 8px', borderRadius: '6px', fontWeight: 800, background: sel ? 'var(--primary-soft)' : 'var(--surface-2)', color: sel ? 'var(--primary)' : 'var(--faint)' } });
+              last = m.index + m[0].length;
+            }
+            if (last < ps.template.length) segs.push({ isText: true, isBlank: false, s: ps.template.slice(last) });
+            pass.segments = segs;
+          } else pass.body = ps.body;
+          pass.questions = ps.questions.map(q => ({ num: q.n, prompt: q.prompt, opts: Object.keys(q.options).map(k => mkOpt(q.id, k, q.options[k], A[q.id], p.kind === 'passages')) }));
+          return pass;
+        });
+      }
+      return base;
+    });
+    const ex = { total: app.ex.total, answeredCount: app.ex.answeredCount, parts, onSubmit: app.examSubmit, progBar: { height: '100%', width: Math.round(app.ex.answeredCount / app.ex.total * 100) + '%', background: 'var(--primary)', borderRadius: '8px', transition: 'width .3s' } };
+
+    // RESULT
+    const mkResOpt = (key, text, correctKey, yourKey) => {
+      const isCorrect = key === correctKey, isWrong = yourKey === key && key !== correctKey;
+      const st2 = isCorrect ? { border: '1.5px solid rgba(34,197,94,.5)', background: 'rgba(34,197,94,.12)', color: 'var(--text)' } : isWrong ? { border: '1.5px solid rgba(239,68,68,.5)', background: 'rgba(239,68,68,.1)', color: 'var(--text)' } : { border: '1.5px solid var(--border)', background: 'transparent', color: 'var(--muted)' };
+      return { k: key, text, mark: isCorrect || isWrong, markLabel: isCorrect ? '✓ Đáp án' : 'Bạn chọn', style: Object.assign({ display: 'flex', alignItems: 'center', gap: '10px', padding: '9px 13px', borderRadius: '10px', fontSize: '13.5px', fontWeight: 600 }, st2) };
+    };
+    const partScores = app.exam.parts.map(p => {
+      const qs = p.kind === 'sentences' ? p.questions : p.passages.reduce((a, ps) => a.concat(ps.questions), []);
+      const c = qs.filter(q => A[q.id] === q.answer).length;
+      return { title: p.title, line: c + '/' + qs.length };
+    });
+    const groups = app.exam.parts.map(p => {
+      let items = [];
+      if (p.kind === 'sentences') {
+        items = p.questions.map((q, i) => { const sp = q.sentence.split('_____'), ok = A[q.id] === q.answer; return { label: 'Câu ' + (i + 1), hasSentence: true, hasPrompt: false, before: sp[0], after: sp[1] || '', explain: q.explain, statusLabel: ok ? 'Đúng' : (A[q.id] ? 'Sai' : 'Chưa làm'), statusStyle: this.stStyle(ok, A[q.id], mFg), opts: Object.keys(q.options).map(k => mkResOpt(k, q.options[k], q.answer, A[q.id])) }; });
+      } else {
+        p.passages.forEach(ps => ps.questions.forEach(q => { const ok = A[q.id] === q.answer; items.push({ label: p.kind === 'passages' ? 'Chỗ trống (' + q.n + ')' : 'Câu ' + q.n, hasSentence: false, hasPrompt: !!q.prompt, prompt: q.prompt || ps.heading, explain: q.explain, statusLabel: ok ? 'Đúng' : (A[q.id] ? 'Sai' : 'Chưa làm'), statusStyle: this.stStyle(ok, A[q.id], mFg), opts: Object.keys(q.options).map(k => mkResOpt(k, q.options[k], q.answer, A[q.id])) }); }));
+      }
+      return { title: p.title + ' · ' + p.desc, items };
+    });
+    const result = { score: app.ex.score, total: app.ex.total, pct: Math.round(app.ex.score / app.ex.total * 100), partScores, groups, onRestart: app.examReset, onHome: () => app.go('home') };
+
+    const dd = app.dash, maxS = Math.max.apply(null, dd.series.map(x => x.v).concat([1]));
+    const dash = {
+      masteredCount: app.stats.masteredCount, total: app.stats.total, pct: app.stats.pct, streak: app.stats.streak,
+      studied: f.stats.again + f.stats.hard + f.stats.good + f.stats.easy,
+      series: dd.series.map(x => ({ d: x.d, barStyle: { width: '100%', maxWidth: '34px', height: Math.round(x.v / maxS * 100) + '%', borderRadius: '8px 8px 3px 3px', background: 'linear-gradient(var(--primary),#8b5cf6)' } })),
+      byLevel: dd.byLevel.map(l => ({ levelLabel: 'TOEIC ' + l.level, done: l.done, total: l.total, badgeStyle: this.badge(l.level, '11px'), barStyle: { height: '100%', width: (l.total ? Math.round(l.done / l.total * 100) : 0) + '%', background: this.lc(l.level).fg, borderRadius: '9px', transition: 'width .4s' } })),
+      byTopic: dd.byTopic.map(t => ({ label: t.label, done: t.done, total: t.total, barStyle: { height: '100%', width: (t.total ? Math.round(t.done / t.total * 100) : 0) + '%', background: 'var(--primary)', borderRadius: '8px' } }))
+    };
+
+    const pw = app.popWord;
+    const pop = pw ? { word: pw.word, sub: app.posLabel[pw.pos] + (pw.ipa ? ' · ' + pw.ipa : ''), meaning: pw.meaning, levelLabel: 'TOEIC ' + pw.level, badgeStyle: this.badge(pw.level, '12px'), onSpeak: () => app.speak(pw.word), onDetail: () => app.openWord(pw.word), onClose: () => app.setPop(null), stop: (e) => { if (e && e.stopPropagation) e.stopPropagation(); } } : { badgeStyle: {} };
+
+    return {
+      app, searchQ: app.filters.q, onSearch: (e) => app.setFilter('q', e.target.value),
+      resultCount: app.filtered.length, noResults: app.filtered.length === 0,
+      isHome: scr === 'home', isVocab: scr === 'vocab', isDetail: scr === 'detail', isFlash: scr === 'flashcard',
+      isStories: scr === 'stories', isReader: scr === 'reader', isExercise: scr === 'exercise', isResult: scr === 'result', isProgress: scr === 'progress',
+      hasPop: !!app.popWord, pop, home, cards, filterGroups, detail, flash, storyCards, reader, ex, result, dash
+    };
+  }
+  stStyle(ok, answered, mFg) { return Object.assign({ padding: '3px 11px', borderRadius: '8px', fontSize: '12px', fontWeight: 700 }, ok ? { color: mFg, background: 'rgba(34,197,94,.14)' } : answered ? { color: '#ef4444', background: 'rgba(239,68,68,.13)' } : { color: 'var(--faint)', background: 'var(--surface-2)' }); }
+}
+</script>
+</body>
+</html>
