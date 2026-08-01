@@ -1,5 +1,5 @@
 baseURL                = "https://ndchungict.github.io/toeic-vocab/"
-languageCode           = "vi-VN"
+locale                 = "vi-VN"
 defaultContentLanguage = "vi"
 title                  = "VocabTOEIC — Tự học từ vựng"
 enableRobotsTXT        = true
@@ -24,7 +24,7 @@ timeZone               = "Asia/Ho_Chi_Minh"
   uniqueWords    = 537      # 558 − 21 (20 từ trùng, riêng "coverage" xuất hiện 3 lần)
   totalLessons   = 28
   totalTopics    = 13
-  totalSubtopics = 30
+  totalSubtopics = 29     # đo lại từ data/words thật; §2.2 plan ghi 30 là lệch 1 (build_taxonomy.py xác nhận 29)
   totalExercises = 704
   storyTitle     = "Project Aria"
   flashSessionSize = 8      # khớp mockup

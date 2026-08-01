@@ -27,7 +27,7 @@ Bắt buộc tuân thủ, vì đầu ra sẽ được lưu thẳng thành file `
 
 ## Schema từng trường
 
-- **word** — dạng gốc (nguyên thể / số ít), viết thường. Mỗi từ chỉ lấy MỘT nghĩa phù hợp nhất với ngữ cảnh công sở TOEIC. Đây cũng là khóa định danh của thẻ trong `localStorage`, nên phải là dạng chuẩn, ổn định.
+- **word** — dạng gốc (nguyên thể / số ít), viết thường. Mỗi từ chỉ lấy MỘT nghĩa phù hợp nhất với ngữ cảnh công sở TOEIC. `word` KHÔNG phải là khóa duy nhất (nhiều từ trùng tên ở các topic khác nhau) — khóa định danh thật của thẻ trong `localStorage` là `<topic>:<word>`, nên `word` vẫn phải là dạng chuẩn, ổn định để ghép khóa đó luôn đúng.
 - **pos** — một giá trị duy nhất: `noun` / `verb` / `adjective` / `adverb` / `preposition` / `phrasal verb`. Nếu nguồn ghi kiểu `n/v`, chọn loại từ đúng với nghĩa đang lấy; nếu cả hai đều quan trọng, ưu tiên loại từ hay được TOEIC test cho từ đó.
 - **ipa** — phiên âm IPA đặt trong hai dấu gạch chéo, có dấu trọng âm chính `ˈ`, ví dụ `"/kəmˈplaɪ/"`. Nếu nguồn đã có IPA thì dùng lại, chỉ chuẩn hóa định dạng.
 - **meaning** — nghĩa tiếng Việt ngắn gọn, theo **ngữ cảnh TOEIC** chứ không phải nghĩa từ điển chung.

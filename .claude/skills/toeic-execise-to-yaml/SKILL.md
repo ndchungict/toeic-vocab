@@ -122,11 +122,11 @@ skim the raw file first):
 ## Output schema
 
 Follow this shape (matches the site's exercise schema discussed earlier in this
-conversation — id prefix `ex-p{part}-{NNNN}`, zero-padded per exercise file):
+conversation — id prefix `exercise-{NN}-p{part}-{NN}`, zero-padded per exercise file):
 
 ```yaml
 # Part 5 item
-- id: "ex01-p5-01"
+- id: "exercise-01-p5-01"
   part: 5
   topic: "offices"            # fill in / confirm with user
   lesson: ["lesson-01"]
@@ -138,7 +138,7 @@ conversation — id prefix `ex-p{part}-{NNNN}`, zero-padded per exercise file):
   explanation_vi: "\"convene a meeting\" = triệu tập họp. Các từ kia không hợp: enclose (gửi kèm), remind (nhắc), postpone (hoãn)."
 
 # Part 6 item — same shape, plus shared passage per question group
-- id: "ex01-p6-13"
+- id: "exercise-01-p6-13"
   part: 6
   topic: "offices"
   lesson: ["lesson-01"]
@@ -158,7 +158,7 @@ conversation — id prefix `ex-p{part}-{NNNN}`, zero-padded per exercise file):
   explanation_vi: "\"writing to notify you of a decision\" = viết để thông báo."
 
 # Part 7 item — comprehension question, no related_word, includes passage
-- id: "ex01-p7-21"
+- id: "exercise-01-p7-21"
   part: 7
   topic: "offices"
   lesson: ["lesson-01"]

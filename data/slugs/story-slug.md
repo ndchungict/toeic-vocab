@@ -1,8 +1,8 @@
 # Bảng slug story (28 chương — *Project Aria*)
 
-Truyện dài *"Project Aria"* — Aster Home Technologies, gồm **28 chương** tương ứng 28 file trong thư mục `lessions/` (`lesson-01.md` … `lesson-28.md`).
+Truyện dài *"Project Aria"* — Aster Home Technologies, gồm **28 chương** tương ứng 28 file trong `data/story/story-en/` và `data/story/story-vi/` (`story-01.md` … `story-28.md`).
 
-Trường `story` trong mỗi entry YAML phải copy **chính xác** slug từ cột **Story slug** bên dưới. Mỗi từ được học ở chương nào thì mang slug story của chương đó (đối chiếu theo `lesson-NN.md`).
+Trục nối thật giữa từ vựng, truyện và bài tập là `lesson-NN` (trường `lesson` trong `data/words/*.yaml`) — không entry nào có trường `story`. Cột **Story slug** bên dưới chỉ dùng để đặt URL/tên chương (`/lessons/lesson-NN/`).
 
 | Chương | Hồi | Lesson file | Chủ đề (topic) | Tên chương (EN) | Story slug |
 |---|---|---|---|---|---|

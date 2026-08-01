@@ -1,0 +1,171 @@
+# Sinh tự động bởi scripts/build_taxonomy.py — KHÔNG sửa tay.
+# Nguồn: data/slugs/category-slug.md + data/slugs/story-slug.md
+topics:
+  corporate-development:
+    slug: corporate-development
+    label_vi: Phát triển doanh nghiệp
+    label_en: Corporate Development
+    subtopics: []
+  dining-out:
+    slug: dining-out
+    label_vi: Ăn uống & Nhà hàng
+    label_en: Dining Out
+    subtopics: []
+  entertainment:
+    slug: entertainment
+    label_vi: Giải trí & Truyền thông
+    label_en: Entertainment
+    subtopics: []
+  finance-budgeting:
+    slug: finance-budgeting
+    label_vi: Tài chính & Ngân sách
+    label_en: Finance & Budgeting
+    subtopics:
+    - slug: banking
+      label_vi: Ngân hàng
+    - slug: accounting-invoicing
+      label_vi: Kế toán & Hóa đơn
+    - slug: investment
+      label_vi: Đầu tư
+    - slug: tax-budgeting
+      label_vi: Thuế & Ngân sách
+  general-business:
+    slug: general-business
+    label_vi: Kinh doanh tổng quát
+    label_en: General Business
+    subtopics:
+    - slug: contracts-negotiation
+      label_vi: Hợp đồng & Đàm phán
+    - slug: mergers-restructuring
+      label_vi: Sáp nhập & Cơ cấu công ty
+    - slug: marketing-sales
+      label_vi: Marketing & Bán hàng
+    - slug: warranty
+      label_vi: Bảo hành
+    - slug: business-planning
+      label_vi: Lập kế hoạch kinh doanh
+    - slug: conferences
+      label_vi: Hội nghị
+    - slug: labor-relations
+      label_vi: Quan hệ lao động
+  health:
+    slug: health
+    label_vi: Sức khỏe & Y tế
+    label_en: Health
+    subtopics: []
+  housing-property:
+    slug: housing-property
+    label_vi: Nhà ở & Bất động sản
+    label_en: Housing & Property
+    subtopics:
+    - slug: renting-buying
+      label_vi: Thuê & Mua
+    - slug: construction-specs
+      label_vi: Xây dựng & Thông số kỹ thuật
+    - slug: utilities-maintenance
+      label_vi: Điện – Gas – Bảo trì
+  manufacturing:
+    slug: manufacturing
+    label_vi: Sản xuất
+    label_en: Manufacturing
+    subtopics: []
+  offices:
+    slug: offices
+    label_vi: Văn phòng
+    label_en: Offices
+    subtopics:
+    - slug: meetings-committees
+      label_vi: Họp & Ủy ban
+    - slug: correspondence
+      label_vi: Thư từ & Liên lạc
+    - slug: equipment-furniture
+      label_vi: Thiết bị & Nội thất
+    - slug: work-procedures
+      label_vi: Quy trình làm việc
+  personnel:
+    slug: personnel
+    label_vi: Nhân sự
+    label_en: Personnel
+    subtopics:
+    - slug: recruitment-application
+      label_vi: Tuyển dụng & Ứng tuyển
+    - slug: training-evaluation
+      label_vi: Đào tạo & Đánh giá
+    - slug: salary-benefits
+      label_vi: Lương & Phúc lợi
+    - slug: promotion-departure
+      label_vi: Thăng chức, Khen thưởng & Nghỉ việc
+  purchasing:
+    slug: purchasing
+    label_vi: Mua sắm & Cung ứng
+    label_en: Purchasing
+    subtopics:
+    - slug: ordering
+      label_vi: Mua sắm & Đặt hàng
+    - slug: inventory-supplies
+      label_vi: Kho & Vật tư
+    - slug: shipping
+      label_vi: Vận chuyển
+    - slug: invoicing-payment
+      label_vi: Hóa đơn & Thanh toán
+  technical-areas:
+    slug: technical-areas
+    label_vi: Kỹ thuật & Công nghệ
+    label_en: Technical Areas
+    subtopics: []
+  travel:
+    slug: travel
+    label_vi: Du lịch & Công tác
+    label_en: Travel
+    subtopics:
+    - slug: tickets-schedules
+      label_vi: Vé & Lịch trình
+    - slug: hotels
+      label_vi: Khách sạn
+    - slug: car-rental-commute
+      label_vi: Thuê xe & Đi lại hằng ngày
+acts:
+- slug: hoi-i-khoi-dau
+  label: Hồi I — Khởi đầu
+  lessons:
+  - lesson-01
+  - lesson-02
+  - lesson-03
+  - lesson-04
+  - lesson-05
+  - lesson-06
+  - lesson-07
+  - lesson-08
+  summary: dựng bối cảnh, quyết định làm Project Aria, xây đội ngũ, chốt hợp đồng & marketing.
+- slug: hoi-ii-ra-the-gioi
+  label: Hồi II — Ra thế giới
+  lessons:
+  - lesson-09
+  - lesson-10
+  - lesson-11
+  - lesson-12
+  - lesson-13
+  - lesson-14
+  - lesson-15
+  - lesson-16
+  summary: mang Aria sang thị trường Halston — đi lại, tiếp khách, tài chính, mua sắm & vận chuyển.
+- slug: hoi-iii-khung-hoang-toi-luyen
+  label: Hồi III — Khủng hoảng & tôi luyện
+  lessons:
+  - lesson-17
+  - lesson-18
+  - lesson-19
+  - lesson-20
+  - lesson-21
+  - lesson-22
+  - lesson-23
+  - lesson-24
+  summary: sự cố sản xuất, R&D cứu nguy, lỗi hệ thống, chạy đua hoàn thiện mặt bằng.
+- slug: hoi-iv-dinh-doat
+  label: Hồi IV — Định đoạt
+  lessons:
+  - lesson-25
+  - lesson-26
+  - lesson-27
+  - lesson-28
+  summary: sức khỏe & con người, đêm ra mắt (cao trào) và phán quyết cuối (hồi kết).
