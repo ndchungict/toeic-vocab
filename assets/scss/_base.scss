@@ -6,6 +6,17 @@
   box-sizing: border-box;
 }
 
+// Nhiều component tự đặt display:flex/grid (vd .btn, .popover-overlay,
+// .flashcard-ratings, .exercise-progress, .pill-list…) — thuộc tính đó của
+// author CSS LUÔN thắng rule mặc định `[hidden]{display:none}` của trình
+// duyệt (author CSS thắng UA stylesheet bất kể specificity), nên phần tử vẫn
+// hiện dù có `hidden` (bug thật gặp phải: popover hiện trống, không đóng
+// được). !important ở đây là chuẩn/an toàn vì "hidden" nghĩa là ẩn tuyệt
+// đối — không component nào được phép cãi lại.
+[hidden] {
+  display: none !important;
+}
+
 html,
 body {
   margin: 0;
