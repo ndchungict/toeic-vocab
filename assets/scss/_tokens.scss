@@ -1,0 +1,128 @@
+// Design tokens — nguồn: docs/plan.md §1.5, trích nguyên văn từ mockup.
+// CSS custom properties (không dùng SCSS variable cho màu) để đổi theme runtime
+// bằng cách chỉ đổi thuộc tính [data-theme] trên <html>, không cần build lại CSS.
+
+@mixin dark-theme-vars {
+  --studio: #080910;
+  --bg: #0f1118;
+  --surface: #171a24;
+  --surface-2: #1c2029;
+  --elev: #1f232f;
+  --border: #282d3a;
+  --border-strong: #39404f;
+  --text: #e9ebf4;
+  --muted: #98a0b4;
+  --faint: #6b7386;
+  --primary: #8b83ff;
+  --primary-soft: rgba(139, 131, 255, 0.16);
+  --ring: rgba(139, 131, 255, 0.45);
+}
+
+:root {
+  // Light (mặc định)
+  --studio: #e8eaf3;
+  --bg: #f6f7fb;
+  --surface: #ffffff;
+  --surface-2: #eef0f6;
+  --elev: #ffffff;
+  --border: #e6e8f0;
+  --border-strong: #d5d8e4;
+  --text: #1a1d27;
+  --muted: #6b7186;
+  --faint: #9aa0b2;
+  --primary: #5b52e8;
+  --primary-soft: #eceafe;
+  --ring: rgba(91, 82, 232, 0.4);
+
+  // Màu ngữ nghĩa (hardcode trong mockup, nâng thành token — §1.5)
+  --gradient-end: #8b5cf6; // cuối gradient hero (--primary -> --gradient-end)
+  --submit: #16a34a; // nút nộp bài
+  --mastered: #22c55e; // đã thuộc (light)
+  --favorite: #f43f5e; // yêu thích
+  --danger: #ef4444; // sai
+  --flash-again: #e11d48;
+  --flash-hard: #d97706;
+  --flash-good: #2563eb;
+  --flash-easy: #16a34a;
+
+  // Typography
+  --font-family: "Be Vietnam Pro", system-ui, sans-serif;
+
+  // Spacing scale (px) — §1.5
+  --space-1: 2px;
+  --space-2: 3px;
+  --space-3: 6px;
+  --space-4: 7px;
+  --space-5: 8px;
+  --space-6: 9px;
+  --space-7: 10px;
+  --space-8: 11px;
+  --space-9: 12px;
+  --space-10: 14px;
+  --space-11: 16px;
+  --space-12: 18px;
+
+  // Radius scale
+  --radius-chip: 6px;
+  --radius-badge: 8px;
+  --radius-button: 12px;
+  --radius-card: 15px;
+  --radius-card-lg: 20px;
+  --radius-pill: 999px;
+
+  // Shadow scale
+  --shadow-segment: 0 2px 8px -3px rgba(0, 0, 0, 0.2);
+  --shadow-ring-sm: 0 6px 16px -6px var(--ring);
+  --shadow-md: 0 10px 24px -10px rgba(0, 0, 0, 0.2);
+  --shadow-hero: 0 18px 36px -16px var(--ring);
+  --shadow-card-lifted: 0 20px 40px -22px rgba(0, 0, 0, 0.3);
+  --shadow-popover: 0 30px 60px -20px rgba(0, 0, 0, 0.35);
+}
+
+// Mặc định theo hệ điều hành khi người dùng chưa tự chọn theme (chưa có
+// data-theme="light" tường minh trong localStorage).
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    @include dark-theme-vars;
+    --mastered: #4ade80;
+  }
+}
+
+// Người dùng tự chọn tối, bất kể hệ điều hành.
+:root[data-theme="dark"] {
+  @include dark-theme-vars;
+  --mastered: #4ade80;
+}
+
+// Badge màu theo mốc điểm (TOEIC level) — §1.5. Giữ đủ 5 mức dù dữ liệu thật chỉ
+// có 600/750/900 (§3.1, §12.3 Q3 đã chốt) để mở rộng dữ liệu sau này không cần sửa CSS.
+$level-colors: (
+  450: (light-fg: #15a34a, light-bg: #e7f7ed, dark-fg: #5be08a, dark-bg: rgba(34, 197, 94, 0.15)),
+  600: (light-fg: #0d9488, light-bg: #def5f2, dark-fg: #2dd4bf, dark-bg: rgba(13, 148, 136, 0.16)),
+  750: (light-fg: #2f6bed, light-bg: #e7effd, dark-fg: #8aa6ff, dark-bg: rgba(59, 110, 240, 0.18)),
+  860: (light-fg: #7c3aed, light-bg: #f0e9fe, dark-fg: #c4a2ff, dark-bg: rgba(139, 92, 246, 0.18)),
+  900: (light-fg: #e11d48, light-bg: #fde7ec, dark-fg: #fb7185, dark-bg: rgba(244, 63, 94, 0.15)),
+);
+
+:root {
+  @each $level, $c in $level-colors {
+    --level-#{$level}-fg: #{map-get($c, light-fg)};
+    --level-#{$level}-bg: #{map-get($c, light-bg)};
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    @each $level, $c in $level-colors {
+      --level-#{$level}-fg: #{map-get($c, dark-fg)};
+      --level-#{$level}-bg: #{map-get($c, dark-bg)};
+    }
+  }
+}
+
+:root[data-theme="dark"] {
+  @each $level, $c in $level-colors {
+    --level-#{$level}-fg: #{map-get($c, dark-fg)};
+    --level-#{$level}-bg: #{map-get($c, dark-bg)};
+  }
+}

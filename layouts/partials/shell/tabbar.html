@@ -1,0 +1,16 @@
+{{/* Bottom tab bar mobile, 5 mục — "Bài tập" KHÔNG có ở đây (§1.2), chỉ vào từ
+     trang chủ / sidebar desktop. Ẩn mục nào có params.desktopOnly = true. */}}
+<nav class="tabbar" aria-label="Điều hướng chính">
+  <ul>
+    {{ range site.Menus.main }}
+      {{ if not .Params.desktopOnly }}
+        <li>
+          <a href="{{ .URL }}" class="tabbar__item{{ if eq $.activeNav .PageRef }} is-active{{ end }}">
+            {{ partial "icons/icon.html" (dict "name" (.Params.icon)) }}
+            <span>{{ .Name }}</span>
+          </a>
+        </li>
+      {{ end }}
+    {{ end }}
+  </ul>
+</nav>

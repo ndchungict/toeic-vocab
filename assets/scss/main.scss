@@ -1,0 +1,20 @@
+// Entry point SCSS — build bằng Hugo Pipes + libsass (hugo-extended có sẵn, không
+// cần Node). ⚠️ libsass CHỈ hiểu @import, KHÔNG hiểu @use/@forward (Sass module
+// syntax hiện đại) — build sẽ fail ngay nếu đổi sang @use. Xem docs/plan.md §7.2.
+@import "tokens";
+@import "fonts";
+@import "base";
+@import "shell";
+
+@import "components/progressbar";
+@import "components/card";
+@import "components/badge";
+@import "components/pill";
+@import "components/segmented";
+@import "components/word-card";
+@import "components/flashcard";
+@import "components/quiz";
+@import "components/reader";
+@import "components/popover";
+@import "components/stat";
+@import "components/hero";

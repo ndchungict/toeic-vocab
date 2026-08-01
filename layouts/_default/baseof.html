@@ -1,12 +1,41 @@
 <!DOCTYPE html>
-<html lang="vi" data-theme="light">
+<html lang="vi">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{{ if not .IsHome }}{{ .Title }} · {{ end }}{{ site.Title }}</title>
-  <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ site.Params.description }}{{ end }}">
+  {{ partial "head.html" . }}
 </head>
 <body>
-  {{ block "main" . }}{{ end }}
+  <a class="skip-link" href="#main">Bỏ qua tới nội dung</a>
+  {{/* Tô sáng nav theo URL, thay bảng alias detail->vocab/reader->stories/result->exercise
+       của mockup (§8) — dùng .Section thay vì regex URL để không phụ thuộc baseURL. */}}
+  {{ $activeNav := "" }}
+  {{ if .IsHome }}
+    {{ $activeNav = "/" }}
+  {{ else if eq .Section "lessons" }}
+    {{ $activeNav = cond (in .RelPermalink "/exercise/") "/exercises" "/lessons" }}
+  {{ else if eq .Section "exercises" }}
+    {{ $activeNav = "/exercises" }}
+  {{ else if eq .Section "words" }}
+    {{ $activeNav = "/words" }}
+  {{ else if eq .Section "topics" }}
+    {{ $activeNav = "/words" }}
+  {{ else if eq .Section "flashcard" }}
+    {{ $activeNav = "/flashcard" }}
+  {{ else if eq .Section "progress" }}
+    {{ $activeNav = "/progress" }}
+  {{ end }}
+
+  <div class="shell">
+    {{ partial "shell/sidebar.html" (dict "activeNav" $activeNav) }}
+    <div class="shell__content">
+      {{ partial "shell/header.html" . }}
+      <main id="main" class="shell__main">
+        {{ block "main" . }}{{ end }}
+      </main>
+    </div>
+    {{ partial "shell/tabbar.html" (dict "activeNav" $activeNav) }}
+  </div>
+
+  {{ $themeJS := resources.Get "js/theme.js" | js.Build | fingerprint }}
+  <script src="{{ $themeJS.RelPermalink }}" integrity="{{ $themeJS.Data.Integrity }}" defer></script>
 </body>
 </html>

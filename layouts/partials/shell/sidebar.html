@@ -1,0 +1,35 @@
+{{/* Sidebar desktop 246px — docs/plan.md §1.2. Widget "Mục tiêu hôm nay" và giá trị
+     streak để trống (data-hook), JS ở M5/M8 điền từ localStorage. */}}
+<aside class="sidebar">
+  <a class="sidebar__logo" href="{{ "/" | relURL }}">
+    <span class="sidebar__logo-mark">V</span>
+    <span class="sidebar__logo-text">VocabTOEIC<br><small>Tự học từ vựng</small></span>
+  </a>
+
+  <nav class="sidebar__nav" aria-label="Điều hướng chính">
+    <ul>
+      {{ range site.Menus.main }}
+        <li>
+          <a href="{{ .URL }}" class="sidebar__nav-item{{ if eq $.activeNav .PageRef }} is-active{{ end }}">
+            {{ partial "icons/icon.html" (dict "name" (.Params.icon)) }}
+            <span>{{ .Name }}</span>
+          </a>
+        </li>
+      {{ end }}
+    </ul>
+  </nav>
+
+  <div class="sidebar__goal" data-today-goal-widget>
+    <p class="sidebar__goal-label">Mục tiêu hôm nay</p>
+    <p class="sidebar__goal-value"><span data-today-done>0</span>/<span data-today-goal>{{ site.Params.dailyGoal }}</span> từ</p>
+    <div class="progress-bar progress-bar--sm">
+      <div class="progress-bar__fill" data-today-goal-fill style="width:0%"></div>
+    </div>
+  </div>
+
+  <button type="button" class="sidebar__theme-toggle" data-theme-toggle aria-label="Đổi giao diện sáng/tối">
+    <span class="theme-toggle__icon theme-toggle__icon--sun">{{ partial "icons/icon.html" (dict "name" "sun") }}</span>
+    <span class="theme-toggle__icon theme-toggle__icon--moon">{{ partial "icons/icon.html" (dict "name" "moon") }}</span>
+    <span data-theme-toggle-label>Giao diện tối</span>
+  </button>
+</aside>
