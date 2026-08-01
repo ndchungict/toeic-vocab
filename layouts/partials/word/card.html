@@ -25,13 +25,13 @@
   </p>
   <p class="word-card__meaning">{{ $w.meaning }}</p>
   <div class="word-card__actions">
-    <button type="button" class="btn btn--outline" data-mastered-toggle="{{ $key }}">
+    <button type="button" class="btn btn--outline" data-mastered-toggle="{{ $key }}" aria-pressed="false">
       {{ partial "icons/icon.html" (dict "name" "check") }}
-      <span>Đánh dấu đã thuộc</span>
+      <span class="btn__label" data-label-off="Đánh dấu đã thuộc" data-label-on="Đã thuộc">Đánh dấu đã thuộc</span>
     </button>
-    <button type="button" class="btn btn--outline" data-fav-toggle="{{ $key }}">
+    <button type="button" class="btn btn--outline" data-fav-toggle="{{ $key }}" aria-pressed="false">
       {{ partial "icons/icon.html" (dict "name" "heart") }}
-      <span>Yêu thích</span>
+      <span class="btn__label" data-label-off="Yêu thích" data-label-on="Đã yêu thích">Yêu thích</span>
     </button>
   </div>
 </section>

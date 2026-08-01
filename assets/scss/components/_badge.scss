@@ -27,3 +27,9 @@
   color: var(--muted);
   background: var(--surface-2);
 }
+
+// JS (word-actions.js, M5) gắn khi lessonId có trong readIds.
+.badge-status--read {
+  color: var(--primary);
+  background: var(--primary-soft);
+}

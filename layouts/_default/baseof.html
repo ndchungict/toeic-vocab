@@ -35,7 +35,15 @@
     {{ partial "shell/tabbar.html" (dict "activeNav" $activeNav) }}
   </div>
 
+  {{/* defer giữ đúng thứ tự thực thi theo thứ tự khai báo trong DOM — theme.js
+       và word-actions.js đều import store.js (đóng gói riêng vào mỗi bundle qua
+       js.Build/esbuild), nên thứ tự không thực sự bắt buộc, nhưng vẫn giữ theme
+       trước để giao diện ổn định sớm nhất có thể. */}}
   {{ $themeJS := resources.Get "js/theme.js" | js.Build | fingerprint }}
   <script src="{{ $themeJS.RelPermalink }}" integrity="{{ $themeJS.Data.Integrity }}" defer></script>
+  {{ $speakJS := resources.Get "js/speak.js" | js.Build | fingerprint }}
+  <script src="{{ $speakJS.RelPermalink }}" integrity="{{ $speakJS.Data.Integrity }}" defer></script>
+  {{ $wordActionsJS := resources.Get "js/word-actions.js" | js.Build | fingerprint }}
+  <script src="{{ $wordActionsJS.RelPermalink }}" integrity="{{ $wordActionsJS.Data.Integrity }}" defer></script>
 </body>
 </html>
