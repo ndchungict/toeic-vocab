@@ -1,5 +1,90 @@
+{{/* Màn Home — docs/plan.md §1.3 màn 1. Số liệu (mục tiêu hôm nay/stat/streak)
+     và "Bài học hiện tại" (Q9: chương chưa đọc đầu tiên) do home.js (M8) điền —
+     JS cần dữ liệu 28 chương nên nhúng sẵn dạng JSON (giống answers-json ở M7),
+     không cần thêm custom output format riêng cho 28 mục nhỏ này. */}}
 {{ define "main" }}
-<div class="page-content">
-  {{ .Content }}
+{{ $lessons := site.GetPage "/lessons" }}
+{{/* Mục tiêu hôm nay GIỮ TĨNH như mockup (chốt ở M8, §12.3 Q4) — tính sẵn lúc
+     build, không cần JS. */}}
+{{ $goalPct := math.Round (mul (div (float site.Params.todayDone) (float site.Params.dailyGoal)) 100) }}
+
+<div class="page-content page-content--home">
+  <section class="home-hero">
+    <p class="home-hero__greeting">Chào mừng bạn quay lại!</p>
+    <div class="home-hero__goal">
+      <p class="home-hero__goal-label">Mục tiêu hôm nay {{ site.Params.todayDone }}/{{ site.Params.dailyGoal }} từ</p>
+      <div class="progress-bar progress-bar--hero"><div class="progress-bar__fill" style="width:{{ $goalPct }}%"></div></div>
+    </div>
+    <div class="home-hero__actions">
+      <a class="btn btn--hero" href="{{ "flashcard/" | relURL }}">Học flashcard</a>
+      <a class="btn btn--hero btn--hero-outline" href="{{ "exercises/" | relURL }}">Làm bài tập</a>
+    </div>
+  </section>
+
+  <div class="home-stats" data-home-stats data-total-entries="{{ site.Params.totalEntries }}">
+    <div class="stat-card">
+      <p class="stat-card__label">Đã thuộc</p>
+      <p class="stat-card__value"><span data-home-mastered>0</span>/{{ site.Params.totalEntries }}</p>
+    </div>
+    <div class="stat-card">
+      <p class="stat-card__label">Tiến độ</p>
+      <p class="stat-card__value"><span data-home-progress-pct>0</span>%</p>
+    </div>
+    <div class="stat-card">
+      <p class="stat-card__label">Chuỗi streak</p>
+      <p class="stat-card__value">{{ site.Params.streak }} <span class="stat-card__unit">🔥</span></p>
+    </div>
+  </div>
+
+  <section class="home-section" data-home-current-lesson hidden>
+    <p class="section-label">Bài học hiện tại</p>
+    <a class="current-lesson-card" data-home-current-lesson-link href="#">
+      {{ partial "icons/icon.html" (dict "name" "stories") }}
+      <div class="current-lesson-card__body">
+        <p class="current-lesson-card__tag" data-home-current-lesson-tag></p>
+        <h3 class="current-lesson-card__title" data-home-current-lesson-title></h3>
+        <p class="current-lesson-card__meta" data-home-current-lesson-meta></p>
+      </div>
+      {{ partial "icons/icon.html" (dict "name" "chevron-right") }}
+    </a>
+  </section>
+
+  <section class="home-section">
+    <p class="section-label">Khám phá</p>
+    <div class="explore-grid">
+      <a class="explore-card" href="{{ "words/" | relURL }}">
+        {{ partial "icons/icon.html" (dict "name" "vocab") }}
+        <span>Từ vựng</span>
+      </a>
+      <a class="explore-card" href="{{ "lessons/" | relURL }}">
+        {{ partial "icons/icon.html" (dict "name" "stories") }}
+        <span>Truyện chêm</span>
+      </a>
+      <a class="explore-card" href="{{ "exercises/" | relURL }}">
+        {{ partial "icons/icon.html" (dict "name" "exercise") }}
+        <span>Bài tập</span>
+      </a>
+    </div>
+  </section>
 </div>
+
+{{/* Dữ liệu 28 chương cho home.js chọn "Bài học hiện tại" (Q9: chương chưa đọc
+     đầu tiên theo readIds, fallback chương 1). */}}
+{{ $lessonsData := slice }}
+{{ with $lessons }}
+  {{ range .Pages.ByParam "weight" }}
+    {{ $topic := index .Params.topics 0 }}
+    {{ $topicLabel := $topic }}
+    {{ with index site.Data.taxonomy.topics $topic }}{{ $topicLabel = .label_vi }}{{ end }}
+    {{ $wordCount := partial "lesson/word-count.html" . }}
+    {{ $lessonsData = $lessonsData | append (dict
+      "id" .Params.lesson_id
+      "url" .RelPermalink
+      "title" .Title
+      "tag" (printf "Bài %d · %s" .Params.chapter (upper $topicLabel))
+      "wordCount" $wordCount
+    ) }}
+  {{ end }}
+{{ end }}
+<script type="application/json" id="home-lessons">{{ $lessonsData | jsonify | safeJS }}</script>
 {{ end }}

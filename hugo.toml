@@ -36,6 +36,8 @@ ignoreFiles = ['slugs/', 'story/']
   storyTitle     = "Project Aria"
   flashSessionSize = 8      # khớp mockup
   dailyGoal        = 12     # khớp mockup
+  streak           = 5      # GIỮ TĨNH như mockup (chốt lại ở M8, khác đề xuất "làm thật" ban đầu của §12.3 Q4)
+  todayDone        = 4      # khớp giá trị nền của mockup (mockup cộng thêm +good+easy trong phiên React — không áp dụng cho site nhiều trang tĩnh)
   # màu/typography khai báo DUY NHẤT ở _tokens.scss, không lặp ở đây
 
 [menu]

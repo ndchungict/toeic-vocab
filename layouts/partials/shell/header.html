@@ -1,7 +1,8 @@
 {{/* Header — mobile: title/back/theme toggle (không có sidebar để chứa nút theme).
-     Desktop: title + subtitle + badge streak (giá trị streak để trống, JS ở M5/M8
-     điền từ localStorage — xem docs/plan.md §1.6, §12.3 Q4). Trang tự set
-     .Params.back (URL) để hiện nút quay lại, .Params.subtitle cho phụ đề. */}}
+     Desktop: title + subtitle + badge streak. Trang tự set .Params.back (URL)
+     để hiện nút quay lại, .Params.subtitle cho phụ đề.
+     Streak GIỮ TĨNH như mockup (đã chốt lại ở M8, khác đề xuất "làm thật" ban
+     đầu của §12.3 Q4) — hardcode ngay ở template, không cần JS/localStorage. */}}
 <header class="page-header">
   <div class="page-header__row">
     {{ with .Params.back }}
@@ -15,9 +16,9 @@
       <h1 class="page-header__title">{{ partial "page-title.html" . }}</h1>
       {{ with .Params.subtitle }}<p class="page-header__subtitle">{{ . }}</p>{{ end }}
     </div>
-    <span class="page-header__streak" data-streak-widget>
+    <span class="page-header__streak">
       {{ partial "icons/icon.html" (dict "name" "flame") }}
-      <span data-streak-count>–</span> ngày
+      {{ site.Params.streak }} ngày
     </span>
     <button type="button" class="page-header__theme-toggle" data-theme-toggle aria-label="Đổi giao diện sáng/tối">
       <span class="theme-toggle__icon theme-toggle__icon--sun">{{ partial "icons/icon.html" (dict "name" "sun") }}</span>

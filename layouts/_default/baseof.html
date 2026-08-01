@@ -48,7 +48,10 @@
 
   {{/* JS đảo (island) riêng từng màn — chỉ nạp đúng trang cần, tránh fetch
        words.json hay chạy logic không liên quan ở mọi trang. */}}
-  {{ if and (eq .Section "words") (eq .Kind "section") }}
+  {{ if .IsHome }}
+    {{ $homeJS := resources.Get "js/home.js" | js.Build | fingerprint }}
+    <script src="{{ $homeJS.RelPermalink }}" integrity="{{ $homeJS.Data.Integrity }}" defer></script>
+  {{ else if and (eq .Section "words") (eq .Kind "section") }}
     {{ $vocabJS := resources.Get "js/vocab-list.js" | js.Build | fingerprint }}
     <script src="{{ $vocabJS.RelPermalink }}" integrity="{{ $vocabJS.Data.Integrity }}" defer></script>
   {{ else if eq .Section "flashcard" }}
@@ -62,6 +65,9 @@
     {{/* lesson-NN/exercise/ (leaf bundle, Kind=page) = màn Bài tập */}}
     {{ $quizJS := resources.Get "js/quiz.js" | js.Build | fingerprint }}
     <script src="{{ $quizJS.RelPermalink }}" integrity="{{ $quizJS.Data.Integrity }}" defer></script>
+  {{ else if eq .Section "progress" }}
+    {{ $progressJS := resources.Get "js/progress.js" | js.Build | fingerprint }}
+    <script src="{{ $progressJS.RelPermalink }}" integrity="{{ $progressJS.Data.Integrity }}" defer></script>
   {{ end }}
 </body>
 </html>

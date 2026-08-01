@@ -1,5 +1,4 @@
 ---
-title: "VocabTOEIC — Tự học từ vựng"
+title: "Trang chủ"
+subtitle: "Cùng học từ mới hôm nay nhé!"
 ---
-
-Học 558 từ vựng TOEIC theo 13 chủ đề, qua truyện dài 28 chương "Project Aria".

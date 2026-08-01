@@ -1,2 +1,279 @@
-// TODO(M4+): style component "stat" khi trang dùng tới nó được dựng — chưa có
-// markup thật để style vào lúc này (docs/plan.md §7.2, §11).
+// Stat card (nhãn nhỏ + số 26px) — docs/plan.md §1.4. Dùng ở Home + Progress.
+
+.page-content--home,
+.page-content--progress {
+  max-width: 1060px;
+  margin: 0 auto;
+}
+
+.home-stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+  gap: 12px;
+  margin-top: 20px;
+}
+
+.stat-card {
+  padding: 15px 16px;
+  border-radius: var(--radius-card);
+  background: var(--surface);
+  border: 1px solid var(--border);
+}
+
+.stat-card__label {
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--muted);
+}
+
+.stat-card__value {
+  margin-top: 5px;
+  font-size: 26px;
+  font-weight: 800;
+}
+
+.stat-card__unit {
+  font-size: 16px;
+}
+
+.home-section {
+  margin-top: 28px;
+}
+
+// ---------- Hero (Home) ----------
+
+.home-hero {
+  padding: 24px 22px;
+  border-radius: var(--radius-card-lg);
+  background: linear-gradient(135deg, var(--primary), var(--gradient-end));
+  color: #fff;
+  box-shadow: var(--shadow-hero);
+}
+
+.home-hero__greeting {
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.home-hero__goal {
+  margin-top: 14px;
+}
+
+.home-hero__goal-label {
+  font-size: 13px;
+  font-weight: 600;
+  opacity: 0.95;
+  margin-bottom: 7px;
+}
+
+.progress-bar--hero {
+  background: rgba(255, 255, 255, 0.3);
+
+  .progress-bar__fill {
+    background: #fff;
+  }
+}
+
+.home-hero__actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 18px;
+  flex-wrap: wrap;
+}
+
+.btn--hero {
+  padding: 10px 18px;
+  border-radius: var(--radius-button);
+  font-weight: 700;
+  font-size: 13.5px;
+  background: #fff;
+  color: var(--primary);
+}
+
+.btn--hero-outline {
+  background: rgba(255, 255, 255, 0.15);
+  color: #fff;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+// ---------- Bài học hiện tại ----------
+
+.current-lesson-card {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-top: 10px;
+  padding: 16px;
+  border-radius: var(--radius-card);
+  background: var(--surface);
+  border: 1px solid var(--border);
+
+  > .icon:first-child {
+    width: 22px;
+    height: 22px;
+    flex: none;
+    color: var(--primary);
+  }
+
+  > .icon:last-child {
+    width: 18px;
+    height: 18px;
+    flex: none;
+    color: var(--faint);
+  }
+
+  &:hover {
+    border-color: var(--border-strong);
+  }
+}
+
+.current-lesson-card__body {
+  flex: 1;
+  min-width: 0;
+}
+
+.current-lesson-card__tag {
+  font-size: 11.5px;
+  font-weight: 800;
+  color: var(--primary);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.current-lesson-card__title {
+  font-size: 15px;
+  font-weight: 800;
+  margin-top: 3px;
+}
+
+.current-lesson-card__meta {
+  font-size: 12.5px;
+  color: var(--muted);
+  margin-top: 3px;
+}
+
+// ---------- Khám phá ----------
+
+.explore-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 12px;
+  margin-top: 10px;
+}
+
+.explore-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  padding: 20px 12px;
+  border-radius: var(--radius-card);
+  background: var(--surface);
+  border: 1px solid var(--border);
+  text-align: center;
+  font-weight: 700;
+  font-size: 13.5px;
+
+  .icon {
+    width: 24px;
+    height: 24px;
+    color: var(--primary);
+  }
+
+  &:hover {
+    border-color: var(--border-strong);
+  }
+}
+
+// ---------- Biểu đồ 7 ngày (Progress) ----------
+
+.week-chart {
+  display: flex;
+  align-items: flex-end;
+  gap: 8px;
+  height: 150px;
+  margin-top: 14px;
+  padding: 0 4px;
+}
+
+.week-chart__col {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 6px;
+  height: 100%;
+}
+
+.week-chart__bar {
+  width: 100%;
+  max-width: 32px;
+  min-height: 4px;
+  border-radius: 6px 6px 0 0;
+  background: linear-gradient(180deg, var(--gradient-end), var(--primary));
+  transition: height 0.4s ease;
+}
+
+.week-chart__label {
+  font-size: 11px;
+  font-weight: 700;
+  color: var(--faint);
+}
+
+// ---------- Phân bố theo mốc điểm / chủ đề (Progress) ----------
+
+.level-distribution {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 12px;
+}
+
+.level-distribution__row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.level-distribution__row .progress-bar {
+  flex: 1;
+}
+
+.level-distribution__count {
+  font-size: 12.5px;
+  font-weight: 700;
+  color: var(--muted);
+  width: 52px;
+  text-align: right;
+  flex: none;
+}
+
+.topic-distribution {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 12px;
+  margin-top: 12px;
+}
+
+.topic-distribution__cell {
+  padding: 12px 14px;
+  border-radius: var(--radius-card);
+  background: var(--surface);
+  border: 1px solid var(--border);
+}
+
+.topic-distribution__label {
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.topic-distribution__count {
+  font-size: 11.5px;
+  color: var(--muted);
+  font-weight: 600;
+}
+
+.topic-distribution__cell .progress-bar {
+  margin-top: 6px;
+}

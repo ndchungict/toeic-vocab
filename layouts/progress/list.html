@@ -1,0 +1,72 @@
+{{/* Màn Tiến độ — docs/plan.md §1.3 màn 9. 4 stat + biểu đồ 7 ngày (GIỮ TĨNH
+     như mockup, chốt ở M8 §12.3 Q4 — chỉ ngày cuối = mastered.size thật, y hệt
+     mockup) + phân bố THẬT theo mốc điểm/chủ đề (progress.js, cần words.json). */}}
+{{ define "main" }}
+{{/* Level thật có trong dữ liệu — không hardcode 5 mức (§3.1), giống words/list.html. */}}
+{{ $levels := slice }}
+{{ range site.Data.words }}
+  {{ range . }}
+    {{ if not (in $levels .level) }}{{ $levels = $levels | append .level }}{{ end }}
+  {{ end }}
+{{ end }}
+{{ $levels = sort $levels }}
+
+<div class="page-content page-content--progress">
+  <div class="home-stats" data-progress-stats data-total-entries="{{ site.Params.totalEntries }}">
+    <div class="stat-card">
+      <p class="stat-card__label">Đã thuộc</p>
+      <p class="stat-card__value"><span data-progress-mastered>0</span>/{{ site.Params.totalEntries }}</p>
+    </div>
+    <div class="stat-card">
+      <p class="stat-card__label">Tiến độ</p>
+      <p class="stat-card__value"><span data-progress-pct>0</span>%</p>
+    </div>
+    <div class="stat-card">
+      <p class="stat-card__label">Streak</p>
+      <p class="stat-card__value">{{ site.Params.streak }} <span class="stat-card__unit">🔥</span></p>
+    </div>
+    <div class="stat-card">
+      <p class="stat-card__label">Đã ôn thẻ</p>
+      <p class="stat-card__value"><span data-progress-reviewed>0</span></p>
+    </div>
+  </div>
+
+  <section class="home-section">
+    <p class="section-label">7 ngày gần đây</p>
+    <div class="week-chart" data-week-chart>
+      {{ range slice "T2" "T3" "T4" "T5" "T6" "T7" "CN" }}
+        <div class="week-chart__col">
+          <div class="week-chart__bar" data-week-bar style="height:0%"></div>
+          <span class="week-chart__label">{{ . }}</span>
+        </div>
+      {{ end }}
+    </div>
+  </section>
+
+  <section class="home-section">
+    <p class="section-label">Phân bố theo mốc điểm</p>
+    <div class="level-distribution">
+      {{ range $levels }}
+        <div class="level-distribution__row" data-level-row="{{ . }}">
+          <span class="badge-level badge-level--{{ . }}">TOEIC {{ . }}</span>
+          <div class="progress-bar"><div class="progress-bar__fill" data-level-fill style="width:0%"></div></div>
+          <span class="level-distribution__count" data-level-count>0/0</span>
+        </div>
+      {{ end }}
+    </div>
+  </section>
+
+  <section class="home-section">
+    <p class="section-label">Phân bố theo chủ đề</p>
+    <div class="topic-distribution">
+      {{ range $slug, $t := site.Data.taxonomy.topics }}
+        <div class="topic-distribution__cell" data-topic-cell="{{ $slug }}">
+          <p class="topic-distribution__label">{{ $t.label_vi }}</p>
+          <span class="topic-distribution__count" data-topic-count>0/0</span>
+          <div class="progress-bar progress-bar--sm"><div class="progress-bar__fill" data-topic-fill style="width:0%"></div></div>
+        </div>
+      {{ end }}
+    </div>
+  </section>
+</div>
+{{ end }}
