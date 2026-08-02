@@ -1,4 +1,5 @@
 ---
-title: "Truyện chêm"
-subtitle: "Học từ qua ngữ cảnh"
+title: "Danh sách chương"
+subtitle: "Project Aria · 28 chương"
+back: /story/
 ---

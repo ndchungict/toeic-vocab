@@ -1,0 +1,463 @@
+// Màn Giới thiệu bộ truyện (/story/) — hero gradient dùng lại công thức của
+// .result-hero/.home-hero (§1.4), phần còn lại là card phẳng trên --surface
+// giống .lesson-card để không lệch ngôn ngữ thị giác của các màn khác.
+
+.page-content--story {
+  max-width: 900px;
+}
+
+// ---------- Hero ----------
+
+.story-hero {
+  padding: 26px 22px;
+  border-radius: var(--radius-card-lg);
+  background: linear-gradient(135deg, var(--primary), var(--gradient-end));
+  color: #fff;
+  box-shadow: var(--shadow-hero);
+}
+
+.story-hero__eyebrow {
+  font-size: 11.5px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  opacity: 0.85;
+}
+
+.story-hero__title {
+  font-size: 30px;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  margin-top: 6px;
+}
+
+.story-hero__tagline {
+  font-size: 14.5px;
+  line-height: 1.6;
+  margin-top: 8px;
+  max-width: 56ch;
+  opacity: 0.95;
+}
+
+.story-hero__stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 16px;
+
+  span {
+    padding: 5px 12px;
+    border-radius: var(--radius-pill);
+    background: rgba(255, 255, 255, 0.18);
+    font-size: 12.5px;
+    font-weight: 600;
+  }
+
+  b {
+    font-weight: 800;
+  }
+}
+
+.story-hero__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 18px;
+}
+
+// ---------- Khối chung ----------
+
+.story-lead {
+  margin-top: 22px;
+  font-size: 15px;
+  line-height: 1.75;
+  color: var(--muted);
+
+  strong {
+    color: var(--text);
+  }
+}
+
+.story-section {
+  margin-top: 30px;
+}
+
+.story-section__note {
+  margin-top: 6px;
+  font-size: 13.5px;
+  line-height: 1.6;
+  color: var(--muted);
+}
+
+.story-card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 12px;
+  margin-top: 12px;
+}
+
+.story-card {
+  padding: 15px;
+  border-radius: var(--radius-card);
+  background: var(--surface);
+  border: 1px solid var(--border);
+}
+
+.story-card--outsider {
+  border-left: 3px solid var(--primary);
+}
+
+.story-card__kicker {
+  font-size: 11.5px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--faint);
+}
+
+.story-card__title {
+  font-size: 16px;
+  font-weight: 800;
+  margin-top: 4px;
+}
+
+.story-card__desc {
+  font-size: 13.5px;
+  line-height: 1.6;
+  color: var(--muted);
+  margin-top: 6px;
+}
+
+// ---------- Một chương học thế nào ----------
+
+.story-steps {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 12px;
+  margin-top: 12px;
+  list-style: none;
+}
+
+.story-step {
+  display: flex;
+  gap: 12px;
+  padding: 15px;
+  border-radius: var(--radius-card);
+  background: var(--surface);
+  border: 1px solid var(--border);
+}
+
+.story-step__num {
+  display: grid;
+  place-items: center;
+  flex: none;
+  width: 26px;
+  height: 26px;
+  border-radius: var(--radius-pill);
+  background: var(--primary-soft);
+  color: var(--primary);
+  font-size: 13px;
+  font-weight: 800;
+}
+
+.story-step__title {
+  font-size: 14.5px;
+  font-weight: 800;
+}
+
+.story-step__desc {
+  font-size: 13px;
+  line-height: 1.6;
+  color: var(--muted);
+  margin-top: 4px;
+}
+
+// ---------- Bối cảnh ----------
+
+.story-world {
+  margin-top: 12px;
+  padding: 18px;
+  border-radius: var(--radius-card);
+  background: var(--surface);
+  border: 1px solid var(--border);
+}
+
+.story-world__company {
+  font-size: 19px;
+  font-weight: 800;
+  letter-spacing: -0.01em;
+}
+
+.story-world__facts {
+  margin-top: 12px;
+  display: grid;
+  gap: 10px;
+
+  div {
+    display: grid;
+    gap: 2px;
+  }
+
+  dt {
+    font-size: 11.5px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--faint);
+  }
+
+  dd {
+    font-size: 13.5px;
+    line-height: 1.6;
+  }
+}
+
+@media (min-width: 640px) {
+  .story-world__facts div {
+    grid-template-columns: 150px 1fr;
+    align-items: baseline;
+    gap: 12px;
+  }
+}
+
+.story-world__situation {
+  margin-top: 14px;
+  padding-top: 14px;
+  border-top: 1px solid var(--border);
+  font-size: 13.5px;
+  line-height: 1.7;
+  color: var(--muted);
+}
+
+.story-world__question {
+  margin-top: 12px;
+  padding: 11px 14px;
+  border-radius: var(--radius-button);
+  background: var(--primary-soft);
+  color: var(--primary);
+  font-size: 13.5px;
+  font-weight: 700;
+  line-height: 1.55;
+}
+
+// ---------- Nhân vật ----------
+
+.story-people {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 12px;
+  margin-top: 12px;
+}
+
+.person-card {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 16px;
+  border-radius: var(--radius-card);
+  background: var(--surface);
+  border: 1px solid var(--border);
+}
+
+.person-card__head {
+  display: flex;
+  align-items: center;
+  gap: 11px;
+}
+
+.person-card__avatar {
+  display: grid;
+  place-items: center;
+  flex: none;
+  width: 42px;
+  height: 42px;
+  border-radius: var(--radius-pill);
+  background: linear-gradient(135deg, var(--primary), var(--gradient-end));
+  color: #fff;
+  font-size: 14px;
+  font-weight: 800;
+  letter-spacing: 0.02em;
+}
+
+.person-card__name {
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 1.3;
+}
+
+.person-card__role {
+  font-size: 12.5px;
+  font-weight: 700;
+  color: var(--faint);
+  margin-top: 2px;
+}
+
+.person-card__traits {
+  font-size: 13.5px;
+  line-height: 1.6;
+}
+
+.person-card__arc {
+  font-size: 13px;
+  line-height: 1.6;
+  color: var(--muted);
+  padding-left: 11px;
+  border-left: 2px solid var(--border);
+}
+
+.person-card__topics {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: auto;
+  padding-top: 2px;
+}
+
+.topic-chip {
+  padding: 5px 11px;
+  border-radius: var(--radius-pill);
+  background: var(--surface-2);
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 700;
+
+  &:hover {
+    background: var(--border);
+    color: var(--text);
+  }
+}
+
+.person-card__chapters {
+  font-size: 12px;
+  font-weight: 800;
+  color: var(--faint);
+}
+
+.person-card__words {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: auto;
+}
+
+.word-chip {
+  padding: 5px 11px;
+  border-radius: var(--radius-pill);
+  background: var(--primary-soft);
+  color: var(--primary);
+  font-size: 12.5px;
+  font-weight: 700;
+}
+
+// ---------- Bốn hồi ----------
+
+.story-acts {
+  display: grid;
+  gap: 10px;
+  margin-top: 12px;
+  list-style: none;
+  counter-reset: act;
+}
+
+.story-act {
+  counter-increment: act;
+}
+
+.story-act__link {
+  display: block;
+  padding: 15px 16px;
+  border-radius: var(--radius-card);
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-left: 3px solid var(--primary);
+  transition: box-shadow 0.15s ease, border-color 0.15s ease;
+
+  &:hover {
+    box-shadow: var(--shadow-md);
+    border-color: var(--border-strong);
+    border-left-color: var(--primary);
+  }
+}
+
+.story-act__range {
+  font-size: 11.5px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--faint);
+}
+
+.story-act__title {
+  font-size: 16px;
+  font-weight: 800;
+  margin-top: 3px;
+}
+
+.story-act__summary {
+  font-size: 13.5px;
+  line-height: 1.6;
+  color: var(--muted);
+  margin-top: 5px;
+}
+
+// ---------- Mô-típ ----------
+
+.story-motifs {
+  display: grid;
+  gap: 9px;
+  margin-top: 12px;
+  list-style: none;
+
+  li {
+    position: relative;
+    padding: 11px 14px 11px 30px;
+    border-radius: var(--radius-button);
+    background: var(--surface);
+    border: 1px solid var(--border);
+    font-size: 13.5px;
+    line-height: 1.6;
+    color: var(--muted);
+  }
+
+  li::before {
+    content: "";
+    position: absolute;
+    left: 14px;
+    top: 19px;
+    width: 6px;
+    height: 6px;
+    border-radius: var(--radius-pill);
+    background: var(--primary);
+  }
+
+  strong {
+    color: var(--text);
+    font-weight: 800;
+  }
+}
+
+// ---------- CTA cuối trang ----------
+
+.story-cta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+  margin-top: 30px;
+  padding: 18px;
+  border-radius: var(--radius-card);
+  background: var(--surface-2);
+}
+
+.story-cta__title {
+  font-size: 16px;
+  font-weight: 800;
+}
+
+.story-cta__desc {
+  font-size: 13.5px;
+  line-height: 1.6;
+  color: var(--muted);
+  margin-top: 4px;
+}

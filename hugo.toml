@@ -11,8 +11,13 @@ timeZone               = "Asia/Ho_Chi_Minh"
 # gốc cho scripts/tokenize_stories.py (§10, §12.3 Q8), nhưng Hugo nạp TOÀN BỘ
 # data/ vào site.Data ngay khi có template tham chiếu site.Data.* — và .md
 # không phải định dạng data hợp lệ nên build lỗi cứng nếu không loại trừ.
-# Đường dẫn match là tương đối so với data/ (không có tiền tố "data/").
-ignoreFiles = ['slugs/', 'story/']
+# ⚠️ Regex match trên đường dẫn của MỌI thư mục nguồn (content/, data/…), không
+# riêng data/ — và dạng đường dẫn còn khác nhau theo phiên bản Hugo (0.148 dùng
+# đường dẫn tương đối trong từng nguồn, 0.164 dùng đường dẫn tuyệt đối). Vì vậy
+# mẫu phải đủ đặc trưng để chỉ trúng file trong data/: 'story/' trước đây nuốt
+# luôn content/story/ (trang bị bỏ qua âm thầm, không hề báo lỗi), nay tả rõ 2
+# thư mục con story-en/ và story-vi/.
+ignoreFiles = ['slugs/', 'story/story-(en|vi)/']
 
 [taxonomies]
   topic    = "topics"
@@ -61,8 +66,10 @@ ignoreFiles = ['slugs/', 'story/']
     [menu.main.params]
       icon = "flashcard"
   [[menu.main]]
+    # Trỏ vào trang giới thiệu bộ truyện; danh sách 28 chương (/lessons/) đi tiếp
+    # từ đó — cả 2 đều tô sáng mục này (xem $activeNav ở _default/baseof.html).
     name    = "Truyện chêm"
-    pageRef = "/lessons"
+    pageRef = "/story"
     weight  = 40
     [menu.main.params]
       icon = "stories"

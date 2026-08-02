@@ -1,0 +1,180 @@
+{{/* Màn Giới thiệu bộ truyện — trang đích của mục menu "Truyện chêm".
+     Toàn bộ nội dung lấy từ front matter của content/story/_index.md (rút gọn từ
+     story-bible.md), trừ 4 hồi: đọc thẳng site.Data.taxonomy.acts để danh sách
+     chương/label không lệch với taxonomy đang dùng ở lesson và trang /acts/. */}}
+{{ define "main" }}
+{{ $lessons := site.GetPage "/lessons" }}
+{{ $first := index ($lessons.Pages.ByParam "weight") 0 }}
+
+<div class="page-content page-content--story">
+  <section class="story-hero">
+    <p class="story-hero__eyebrow">Bộ truyện học từ vựng</p>
+    <h2 class="story-hero__title">{{ .Params.story_title }}</h2>
+    <p class="story-hero__tagline">{{ .Params.tagline }}</p>
+    <div class="story-hero__stats">
+      <span><b>{{ site.Params.totalLessons }}</b> chương</span>
+      <span><b>{{ len site.Data.taxonomy.acts }}</b> hồi</span>
+      <span><b>{{ site.Params.totalTopics }}</b> chủ đề</span>
+      <span><b>{{ site.Params.totalEntries }}</b> từ TOEIC</span>
+    </div>
+    <div class="story-hero__actions">
+      {{ with $first }}
+        <a class="btn btn--hero" href="{{ .RelPermalink }}">Đọc Chương {{ .Params.chapter }}</a>
+      {{ end }}
+      <a class="btn btn--hero btn--hero-outline" href="{{ $lessons.RelPermalink }}">Xem cả {{ site.Params.totalLessons }} chương</a>
+    </div>
+  </section>
+
+  {{ with .Content }}<div class="story-lead">{{ . }}</div>{{ end }}
+
+  <section class="story-section">
+    <p class="section-label">Một chương học thế nào</p>
+    <ol class="story-steps">
+      {{ range $i, $step := .Params.how_it_works }}
+        <li class="story-step">
+          <span class="story-step__num">{{ add $i 1 }}</span>
+          <div>
+            <h3 class="story-step__title">{{ $step.title }}</h3>
+            <p class="story-step__desc">{{ $step.desc }}</p>
+          </div>
+        </li>
+      {{ end }}
+    </ol>
+  </section>
+
+  {{ with .Params.world }}
+  <section class="story-section">
+    <p class="section-label">Bối cảnh</p>
+    <div class="story-world">
+      <h3 class="story-world__company">{{ .company }}</h3>
+      <dl class="story-world__facts">
+        <div><dt>Ngành</dt><dd>{{ .industry }}</dd></div>
+        <div><dt>Quy mô</dt><dd>{{ .scale }}</dd></div>
+        <div><dt>Sản phẩm chủ lực</dt><dd>{{ .product }}</dd></div>
+      </dl>
+      <p class="story-world__situation">{{ .situation }}</p>
+      <p class="story-world__question">{{ .question }}</p>
+    </div>
+  </section>
+  {{ end }}
+
+  <section class="story-section">
+    <p class="section-label">Nơi câu chuyện diễn ra</p>
+    <div class="story-card-grid">
+      {{ range .Params.places }}
+        <div class="story-card">
+          <p class="story-card__kicker">{{ .kind }}</p>
+          <h3 class="story-card__title">{{ .name }}</h3>
+          <p class="story-card__desc">{{ .desc }}</p>
+        </div>
+      {{ end }}
+    </div>
+    <div class="story-card-grid story-card-grid--outsiders">
+      {{ range .Params.outsiders }}
+        <div class="story-card story-card--outsider">
+          <p class="story-card__kicker">{{ .role }}</p>
+          <h3 class="story-card__title">{{ .name }}</h3>
+          <p class="story-card__desc">{{ .desc }}</p>
+        </div>
+      {{ end }}
+    </div>
+  </section>
+
+  <section class="story-section">
+    <p class="section-label">Năm nhân vật chính</p>
+    <p class="story-section__note">Mỗi người “cầm” một mảng nghiệp vụ, nên khi từ vựng của chủ đề đó xuất hiện thì chính họ là người đứng ra xử lý.</p>
+    <div class="story-people">
+      {{ range .Params.characters }}
+        <article class="person-card">
+          <div class="person-card__head">
+            <span class="person-card__avatar" aria-hidden="true">{{ .initials }}</span>
+            <div>
+              <h3 class="person-card__name">{{ .name }}</h3>
+              <p class="person-card__role">{{ .role }}</p>
+            </div>
+          </div>
+          <p class="person-card__traits">{{ .traits }}</p>
+          <p class="person-card__arc">{{ .arc }}</p>
+          <div class="person-card__topics">
+            {{ range .topics }}
+              {{ $slug := . }}
+              {{ $label := $slug }}
+              {{ with index site.Data.taxonomy.topics $slug }}{{ $label = .label_vi }}{{ end }}
+              <a class="topic-chip" href="{{ printf "topics/%s/" $slug | relURL }}">{{ $label }}</a>
+            {{ end }}
+          </div>
+        </article>
+      {{ end }}
+    </div>
+  </section>
+
+  <section class="story-section">
+    <p class="section-label">Nhân vật tái xuất hiện</p>
+    <div class="story-card-grid">
+      {{ range .Params.supporting }}
+        <div class="story-card">
+          <p class="story-card__kicker">{{ .role }}</p>
+          <h3 class="story-card__title">{{ .name }}</h3>
+          <p class="story-card__desc">{{ .desc }}</p>
+        </div>
+      {{ end }}
+    </div>
+  </section>
+
+  <section class="story-section">
+    <p class="section-label">Bộ tứ dễ nhớ</p>
+    <p class="story-section__note">{{ .Params.mnemonic_intro }}</p>
+    <div class="story-people story-people--mnemonic">
+      {{ range .Params.mnemonic }}
+        <article class="person-card person-card--mnemonic">
+          <h3 class="person-card__name">{{ .name }}</h3>
+          <p class="person-card__role">{{ .tag }}</p>
+          <p class="person-card__traits">{{ .desc }}</p>
+          <p class="person-card__chapters">{{ .chapters }}</p>
+          <div class="person-card__words">
+            {{ range .words }}<span class="word-chip">{{ . }}</span>{{ end }}
+          </div>
+        </article>
+      {{ end }}
+    </div>
+  </section>
+
+  <section class="story-section">
+    <p class="section-label">Bốn hồi</p>
+    <ol class="story-acts">
+      {{ range site.Data.taxonomy.acts }}
+        {{ $ids := .lessons }}
+        {{/* "lesson-08" -> 8. Phải bỏ số 0 đứng đầu trước khi int: int "08" lỗi
+             (Go parse "08" như số bát phân). */}}
+        {{ $fromNum := index (split (index $ids 0) "-") 1 | strings.TrimLeft "0" }}
+        {{ $toNum := index (split (index $ids (sub (len $ids) 1)) "-") 1 | strings.TrimLeft "0" }}
+        <li class="story-act">
+          <a class="story-act__link" href="{{ printf "acts/%s/" .slug | relURL }}">
+            <p class="story-act__range">Chương {{ $fromNum }}–{{ $toNum }} · {{ len $ids }} chương</p>
+            <h3 class="story-act__title">{{ .label }}</h3>
+            <p class="story-act__summary">{{ .summary }}</p>
+          </a>
+        </li>
+      {{ end }}
+    </ol>
+  </section>
+
+  <section class="story-section">
+    <p class="section-label">Mô-típ xuyên suốt</p>
+    <ul class="story-motifs">
+      {{ range .Params.motifs }}<li>{{ . | markdownify }}</li>{{ end }}
+    </ul>
+  </section>
+
+  <section class="story-cta">
+    <div>
+      <h3 class="story-cta__title">Sẵn sàng vào truyện?</h3>
+      <p class="story-cta__desc">{{ site.Params.totalLessons }} chương xếp sẵn theo thứ tự ưu tiên ôn thi — đọc từ đầu là đi đúng lộ trình.</p>
+    </div>
+    <a class="btn btn--primary" href="{{ $lessons.RelPermalink }}">
+      <span>Xem danh sách chương</span>
+      {{ partial "icons/icon.html" (dict "name" "arrow-right") }}
+    </a>
+  </section>
+</div>
+{{ end }}

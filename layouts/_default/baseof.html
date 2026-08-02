@@ -10,8 +10,12 @@
   {{ $activeNav := "" }}
   {{ if .IsHome }}
     {{ $activeNav = "/" }}
+  {{ else if eq .Section "story" }}
+    {{ $activeNav = "/story" }}
   {{ else if eq .Section "lessons" }}
-    {{ $activeNav = cond (in .RelPermalink "/exercise/") "/exercises" "/lessons" }}
+    {{/* Mục menu "Truyện chêm" trỏ vào /story/ (trang giới thiệu), nên cả danh
+         sách chương lẫn màn Reader đều tô sáng "/story". */}}
+    {{ $activeNav = cond (in .RelPermalink "/exercise/") "/exercises" "/story" }}
   {{ else if eq .Section "exercises" }}
     {{ $activeNav = "/exercises" }}
   {{ else if eq .Section "words" }}
